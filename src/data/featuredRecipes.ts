@@ -1,15 +1,23 @@
-export const featuredRecipes = [
+export interface FeaturedRecipe {
+  id: number;
+  title: string;
+  description: string;
+  image: string;
+  prepTime: string;
+}
+
+export const featuredRecipes: FeaturedRecipe[] = [
   {
     id: 1,
     title: "Greek Salad",
-    description: "Fresh vegetables, feta cheese and olives.",
+    description: "Fresh vegetables, feta cheese, olives and herbs.",
     image: "/images/greek-salad.jpg",
     prepTime: "15 min",
   },
   {
     id: 2,
     title: "Falafel Bowl",
-    description: "Crispy falafel with fresh vegetables.",
+    description: "Crispy falafel served with fresh vegetables.",
     image: "/images/falafel-bowl.jpg",
     prepTime: "25 min",
   },
@@ -23,7 +31,7 @@ export const featuredRecipes = [
   {
     id: 4,
     title: "Hummus Platter",
-    description: "Creamy hummus served with fresh pita.",
+    description: "Creamy hummus with warm pita bread.",
     image: "/images/hummus-platter.jpg",
     prepTime: "10 min",
   },
