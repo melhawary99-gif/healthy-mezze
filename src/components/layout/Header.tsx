@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Heart, Search } from "lucide-react";
+import MobileMenu from "@/components/MobileMenu";
 
 export default function Header() {
   return (
@@ -22,7 +23,10 @@ export default function Header() {
 
         <div className="flex items-center gap-4">
           <Search className="h-5 w-5 cursor-pointer" />
-          <Heart className="h-5 w-5 cursor-pointer" />
+          <Link href="/favorites">
+            <Heart className="h-5 w-5 cursor-pointer text-green-700" />
+          </Link>
+          <MobileMenu />
         </div>
       </div>
     </header>

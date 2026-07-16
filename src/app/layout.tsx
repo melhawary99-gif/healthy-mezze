@@ -18,8 +18,30 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Healthy Mezze",
-  description: "Healthy Mediterranean recipes for everyone.",
+  title: "Healthy Mezze | Fresh Mediterranean Recipes",
+  description:
+    "Discover fresh Mediterranean recipes including healthy salads, vegetarian meals, vegan dishes, soups, wraps, and traditional favorites made with wholesome ingredients.",
+  keywords: [
+    "Mediterranean recipes",
+    "healthy recipes",
+    "Greek recipes",
+    "vegetarian recipes",
+    "vegan recipes",
+    "healthy meals",
+    "Mediterranean diet",
+    "easy recipes",
+  ],
+  openGraph: {
+    title: "Healthy Mezze | Fresh Mediterranean Recipes",
+    description: "Fresh, healthy Mediterranean recipes made simple.",
+    type: "website",
+    siteName: "Healthy Mezze",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Healthy Mezze | Fresh Mediterranean Recipes",
+    description: "Fresh, healthy Mediterranean recipes made simple.",
+  },
 };
 
 export default function RootLayout({
