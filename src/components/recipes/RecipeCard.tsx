@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Recipe } from "@/types/recipe";
+import Link from "next/link";
 
 interface RecipeCardProps {
   recipe: Recipe;
@@ -46,9 +47,13 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
           </span>
         </div>
 
-        <button className="mt-6 w-full rounded-xl bg-green-700 px-5 py-3 font-medium text-white transition hover:bg-green-800">
-          View Recipe
-        </button>
+       <Link
+  href={`/recipes/${recipe.slug}`}
+  className="mt-6 block w-full rounded-xl bg-green-700 px-5 py-3 text-center font-medium text-white transition hover:bg-green-800"
+>
+  View Recipe
+</Link>
+
       </div>
     </article>
   );

@@ -1,18 +1,25 @@
 export interface Recipe {
   id: number;
-  slug: string;
   title: string;
+  slug: string;
   description: string;
   image: string;
-  category:
-    | "Salads"
-    | "Main Dishes"
-    | "Soups"
-    | "Vegetarian"
-    | "Vegan"
-    | "Sandwiches & Wraps";
-  prepTime: number;
-  cookTime: number;
+
+  category: string;
+
+  prepTime: string;
+  cookTime: string;
   servings: number;
-  difficulty: "Easy" | "Medium" | "Hard";
+  difficulty: string;
+
+  ingredients: string[];
+
+  instructions: string[];
+
+  nutrition: {
+    calories: number;
+    protein: string;
+    carbs: string;
+    fat: string;
+  };
 }
