@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { categories } from "@/data/categories";
 import Container from "@/components/ui/Container";
 import SectionTitle from "@/components/ui/SectionTitle";
@@ -14,8 +15,9 @@ export default function Categories() {
 
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {categories.map((category) => (
-            <article
+            <Link
               key={category.id}
+              href={`/categories/${category.slug}`}
               className="group overflow-hidden rounded-3xl bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl"
             >
               <div className="relative h-52 overflow-hidden bg-gray-100">
@@ -36,11 +38,11 @@ export default function Categories() {
                   {category.description}
                 </p>
 
-                <button className="mt-5 font-medium text-green-700 transition hover:text-green-800">
+                <span className="mt-5 inline-block font-medium text-green-700 transition group-hover:text-green-800">
                   Explore →
-                </button>
+                </span>
               </div>
-            </article>
+            </Link>
           ))}
         </div>
       </Container>
