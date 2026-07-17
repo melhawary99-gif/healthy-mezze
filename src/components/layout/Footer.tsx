@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { categories } from "@/data/categories";
-import { Facebook, Instagram, Pinterest, Youtube } from "lucide-react";
+import { Globe, Link2, MessageCircle, Share2 } from "lucide-react";
 import Container from "@/components/ui/Container";
 
 const navLinks = [
@@ -13,10 +13,10 @@ const navLinks = [
 ];
 
 const socialLinks = [
-  { href: "#", label: "Facebook", icon: Facebook },
-  { href: "#", label: "Instagram", icon: Instagram },
-  { href: "#", label: "Pinterest", icon: Pinterest },
-  { href: "#", label: "YouTube", icon: Youtube },
+  { href: "#", label: "Website", icon: Globe },
+  { href: "#", label: "Social", icon: Link2 },
+  { href: "#", label: "Chat", icon: MessageCircle },
+  { href: "#", label: "Share", icon: Share2 },
 ];
 
 export default function Footer() {

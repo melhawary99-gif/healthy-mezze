@@ -3,8 +3,17 @@ import Container from "@/components/ui/Container";
 import SectionTitle from "@/components/ui/SectionTitle";
 import RecipeCard from "@/components/recipes/RecipeCard";
 
+const featuredRecipeTitles = [
+  "Greek Salad",
+  "Falafel Bowl",
+  "Lentil Soup",
+  "Chicken Shawarma",
+];
+
 export default function FeaturedRecipes() {
-  const featuredRecipes = recipes.slice(0, 4);
+  const featuredRecipes = featuredRecipeTitles
+    .map((title) => recipes.find((recipe) => recipe.title === title))
+    .filter((recipe): recipe is (typeof recipes)[number] => Boolean(recipe));
 
   return (
     <section className="py-20">
