@@ -4,7 +4,7 @@ import { chickenShawarma } from "./chicken-shawarma";
 import { lentilSoup } from "./lentil-soup";
 import { tabboulehSalad } from "./tabbouleh-salad";
 import { mediterraneanChickpeaSalad } from "./mediterranean-chickpea-salad";
-import { shakshuka } from "./shakshuka";
+import { mediterraneanShakshuka } from "./mediterranean-shakshuka";
 import { mediterraneanGrilledChickenPlate } from "./mediterranean-grilled-chicken-plate";
 import { hummusPowerBowl } from "./hummus-power-bowl";
 import { chickenPitaWrap } from "./chicken-pita-wrap";
@@ -46,7 +46,69 @@ import { mediterraneanStuffedPortobelloMushrooms } from "./mediterranean-stuffed
 import { roastedVegetableQuinoaBowl } from "./roasted-vegetable-quinoa-bowl";
 import { spinachChickpeaStew } from "./spinach-chickpea-stew";
 import { eggplantParmesanMediterranean } from "./eggplant-parmesan-mediterranean";
-
+import { herbRoastedCauliflower } from "./herb-roasted-cauliflower";
+import { mediterraneanLentilPatties } from "./mediterranean-lentil-patties";
+import { vegetableMoussaka } from "./vegetable-moussaka";
+import { bakedFalafel } from "./baked-falafel";
+import { labnehZaatarOliveOil } from "./labneh-zaatar-olive-oil";
+import { fulMedames } from "./ful-medames";
+import { mediterraneanAvocadoToast } from "./mediterranean-avocado-toast";
+import { spinachFetaOmelette } from "./spinach-feta-omelette";
+import { greekYogurtBreakfastBowl } from "./greek-yogurt-breakfast-bowl";
+import { mediterraneanBreakfastWrap } from "./mediterranean-breakfast-wrap";
+import { bakedEggsSpinachTomatoes } from "./baked-eggs-spinach-tomatoes";
+import { breakfastPitaLabneh } from "./breakfast-pita-labneh";
+import { mediterraneanOatmealDatesPistachios } from "./mediterranean-oatmeal-dates-pistachios";
+import { roastedChickpeas } from "./roasted-chickpeas";
+import { classicHummus } from "./classic-hummus";
+import { babaGanoush } from "./baba-ganoush";
+import { muhammara } from "./muhammara";
+import { stuffedDatesAlmondsPistachios } from "./stuffed-dates-almonds-pistachios";
+import { cucumberHummusBites } from "./cucumber-hummus-bites";
+import { zaatarRoastedMixedNuts } from "./zaatar-roasted-mixed-nuts";
+import { herbedLabnehDip } from "./herbed-labneh-dip";
+import { mediterraneanEnergyBalls } from "./mediterranean-energy-balls";
+import { oliveTapenade } from "./olive-tapenade";
+import { warakEnab } from "./warak-enab";
+import { spinachFatayer } from "./spinach-fatayer";
+import { cheeseFatayer } from "./cheese-fatayer";
+import { bakedKibbeh } from "./baked-kibbeh";
+import { bakedSpinachSambousek } from "./baked-spinach-sambousek";
+import { grilledHalloumiHerbsPomegranate } from "./grilled-halloumi-herbs-pomegranate";
+import { roastedCauliflowerTahini } from "./roasted-cauliflower-tahini";
+import { healthyChickenMakanek } from "./healthy-chicken-makanek";
+import { grilledShrimpGarlicLemon } from "./grilled-shrimp-garlic-lemon";
+import { makdous } from "./makdous";
+import { healthyRozBelLaban } from "./healthy-roz-bel-laban";
+import { healthyOmAli } from "./healthy-om-ali";
+import { healthyBasbousa } from "./healthy-basbousa";
+import { healthyMahalabia } from "./healthy-mahalabia";
+import { healthyBakedAtayef } from "./healthy-baked-atayef";
+import { healthyDateWalnutMaamoul } from "./healthy-date-walnut-maamoul";
+import { healthyPistachioBaklavaRolls } from "./healthy-pistachio-baklava-rolls";
+import { healthyKanafehRicotta } from "./healthy-kanafeh-ricotta";
+import { healthySesameTahiniCookies } from "./healthy-sesame-tahini-cookies";
+import { healthyDarkChocolateStuffedDates } from "./healthy-dark-chocolate-stuffed-dates";
+import { traditionalJallab } from "./traditional-jallab";
+import { authenticEgyptianKarkade } from "./authentic-egyptian-karkade";
+import { authenticSahlab } from "./authentic-sahlab";
+import { authenticTamarHindi } from "./authentic-tamar-hindi";
+import { authenticQamarAlDin } from "./authentic-qamar-al-din";
+import { authenticAyran } from "./authentic-ayran";
+import { authenticArabicCoffee } from "./authentic-arabic-coffee";
+import { authenticLebaneseMintTea } from "./authentic-lebanese-mint-tea";
+import { authenticWhiteCoffee } from "./authentic-white-coffee";
+import { authenticCarobJuice } from "./authentic-carob-juice";
+import { creamyTzatzikiSauce } from "./creamy-tzatziki-sauce";
+import { classicToum } from "./classic-toum";
+import { classicTahiniSauce } from "./classic-tahini-sauce";
+import { roastedRedPepperMuhammaraDip } from "./roasted-red-pepper-muhammara-dip";
+import { greenZhougSauce } from "./green-zhoug-sauce";
+import { harissaYogurtSauce } from "./harissa-yogurt-sauce";
+import { sumacOnionSalad } from "./sumac-onion-salad";
+import { taratorSauce } from "./tarator-sauce";
+import { authenticAmbaSauce } from "./authentic-amba-sauce";
+import { authenticChermoulaSauce } from "./authentic-chermoula-sauce";
 
 
 
@@ -89,7 +151,72 @@ export const recipes = [
   mediterraneanStuffedPortobelloMushrooms,
   roastedVegetableQuinoaBowl,
   spinachChickpeaStew,
-  shakshuka,
+  herbRoastedCauliflower,
+  mediterraneanLentilPatties,
+  vegetableMoussaka,
+  bakedFalafel,
+  mediterraneanShakshuka,
+  labnehZaatarOliveOil,
+  fulMedames,
+  mediterraneanAvocadoToast,
+  spinachFetaOmelette,
+  greekYogurtBreakfastBowl,
+  mediterraneanBreakfastWrap,
+  bakedEggsSpinachTomatoes,
+  breakfastPitaLabneh,
+  mediterraneanOatmealDatesPistachios, 
+  roastedChickpeas,
+  classicHummus,
+  babaGanoush,
+  muhammara,
+  stuffedDatesAlmondsPistachios,
+  cucumberHummusBites,
+  zaatarRoastedMixedNuts,
+  herbedLabnehDip,
+  mediterraneanEnergyBalls,
+  oliveTapenade,
+  warakEnab,
+  spinachFatayer,
+  cheeseFatayer,
+  bakedKibbeh,
+  bakedSpinachSambousek,
+  grilledHalloumiHerbsPomegranate,
+  roastedCauliflowerTahini,
+  healthyChickenMakanek,
+  grilledShrimpGarlicLemon,
+  makdous,
+  healthyRozBelLaban,
+  healthyOmAli,
+  healthyBasbousa,
+  healthyMahalabia,
+  healthyBakedAtayef,
+  healthyDateWalnutMaamoul,
+  healthyPistachioBaklavaRolls,
+  healthyKanafehRicotta,
+  healthySesameTahiniCookies,
+  healthyDarkChocolateStuffedDates,
+  traditionalJallab,
+  authenticEgyptianKarkade,
+  authenticSahlab,
+  authenticTamarHindi,
+  authenticQamarAlDin,
+  authenticAyran,
+  authenticArabicCoffee,
+  authenticLebaneseMintTea,
+  authenticWhiteCoffee,
+  authenticCarobJuice,
+  creamyTzatzikiSauce,
+  classicToum,
+  classicTahiniSauce,
+  roastedRedPepperMuhammaraDip,
+  greenZhougSauce,
+  harissaYogurtSauce,
+  sumacOnionSalad,
+  taratorSauce,
+  authenticAmbaSauce,
+  authenticChermoulaSauce,
+
+
   eggplantParmesanMediterranean,
   mediterraneanGrilledChickenPlate,
   hummusPowerBowl,
