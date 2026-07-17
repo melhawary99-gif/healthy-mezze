@@ -9,40 +9,26 @@ import Container from "@/components/ui/Container";
 export default function SearchRecipes() {
   const [query, setQuery] = useState("");
 
-  const popularSearches = [
-    "Chicken",
-    "Salad",
-    "Vegan",
-    "Soup",
-    "Wraps",
-  ];
+  const popularSearches = ["Chicken", "Salad", "Vegan", "Soup", "Wraps"];
 
-  const filtered: Recipe[] = useMemo(() => {
-    const q = query.trim().toLowerCase();
+  const filteredRecipes: Recipe[] = useMemo(() => {
+    const normalizedQuery = query.trim().toLowerCase();
 
-    if (!q) return recipes;
+    if (!normalizedQuery) {
+      return recipes;
+    }
 
     return recipes.filter((recipe) => {
-      const inTitle = recipe.title.toLowerCase().includes(q);
-
-      const inDescription = recipe.description
-        .toLowerCase()
-        .includes(q);
-
-      const inCategory = recipe.category
-        .toLowerCase()
-        .includes(q);
-
-      const inIngredients = recipe.ingredients
-        .join(" ")
-        .toLowerCase()
-        .includes(q);
+      const title = recipe.title.toLowerCase();
+      const description = recipe.description.toLowerCase();
+      const category = recipe.category.toLowerCase();
+      const ingredients = recipe.ingredients.join(" ").toLowerCase();
 
       return (
-        inTitle ||
-        inDescription ||
-        inCategory ||
-        inIngredients
+        title.includes(normalizedQuery) ||
+        description.includes(normalizedQuery) ||
+        category.includes(normalizedQuery) ||
+        ingredients.includes(normalizedQuery)
       );
     });
   }, [query]);
@@ -51,55 +37,49 @@ export default function SearchRecipes() {
     <section className="w-full py-10">
       <Container>
         <div className="mb-6">
-        <label className="mb-2 block text-sm font-medium text-gray-700">
-          Search recipes
-        </label>
+          <label htmlFor="recipe-search" className="mb-2 block text-sm font-medium text-gray-700">
+            Search recipes
+          </label>
 
-        <input
-          type="text"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          placeholder="Try chicken, salad, vegan..."
-          className="w-full rounded-xl border border-gray-200 px-4 py-3 text-sm shadow-sm outline-none transition focus:border-green-500 focus:ring-1 focus:ring-green-500"
-        />
-      </div>
-
-      <div className="mb-6">
-        <p className="mb-3 text-sm text-gray-600">
-          Popular searches:
-        </p>
-
-        <div className="flex flex-wrap gap-3">
-          {popularSearches.map((item) => (
-            <button
-              key={item}
-              onClick={() => setQuery(item)}
-              className="rounded-full bg-green-50 px-4 py-2 text-sm font-medium text-green-700 transition hover:bg-green-100"
-            >
-              {item}
-            </button>
-          ))}
+          <input
+            id="recipe-search"
+            type="search"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder="Try chicken, salad, vegan..."
+            className="w-full rounded-3xl border border-gray-200 bg-white px-4 py-3 text-sm text-gray-900 shadow-sm outline-none transition focus:border-green-500 focus:ring-2 focus:ring-green-100"
+          />
         </div>
-      </div>
 
-      <div className="mb-6 text-sm text-gray-600">
-        {filtered.length} recipe
-        {filtered.length !== 1 && "s"} found
-      </div>
-
-        {filtered.length === 0 ? (
-          <div className="rounded-2xl bg-gray-50 p-8 text-center">
-          <h3 className="text-xl font-semibold text-gray-800">
-            No recipes found
-          </h3>
-
-          <p className="mt-2 text-gray-600">
-            Try searching for chicken, salad, vegan, soup, or wraps.
+        <div className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+          <p className="text-sm text-gray-600">
+            {filteredRecipes.length} recipe{filteredRecipes.length !== 1 ? "s" : ""} found
           </p>
+
+          <div className="flex flex-wrap gap-3">
+            {popularSearches.map((item) => (
+              <button
+                key={item}
+                type="button"
+                onClick={() => setQuery(item)}
+                className="rounded-full bg-green-50 px-4 py-2 text-sm font-medium text-green-700 transition hover:bg-green-100 focus:outline-none focus:ring-2 focus:ring-green-200"
+              >
+                {item}
+              </button>
+            ))}
+          </div>
         </div>
+
+        {filteredRecipes.length === 0 ? (
+          <div className="rounded-3xl border border-gray-200 bg-gray-50 p-8 text-center">
+            <h3 className="text-xl font-semibold text-gray-900">No recipes match your search</h3>
+            <p className="mt-2 text-sm leading-6 text-gray-600">
+              Try searching for chicken, salad, vegan, soup, or wraps.
+            </p>
+          </div>
         ) : (
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {filtered.map((recipe) => (
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+            {filteredRecipes.map((recipe) => (
               <RecipeCard key={recipe.slug} recipe={recipe} />
             ))}
           </div>

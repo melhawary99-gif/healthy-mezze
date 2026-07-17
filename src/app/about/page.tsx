@@ -1,99 +1,176 @@
 import Container from "@/components/ui/Container";
+import Link from "next/link";
 
 export default function AboutPage() {
   return (
-    <main className="bg-white text-gray-900">
+    <main className="bg-[#FAFAF7] text-gray-900">
       <Container>
-        <section className="pt-20 pb-16 sm:pt-24 sm:pb-20">
+        <section className="pt-20 pb-10 sm:pt-24 sm:pb-16">
           <div className="mx-auto max-w-3xl text-center">
-            <p className="mb-4 text-sm font-semibold uppercase tracking-[0.24em] text-emerald-600">
+            <p className="text-sm font-semibold uppercase tracking-[0.24em] text-emerald-600">
               About Healthy Mezze
             </p>
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-              About Healthy Mezze
+            <h1 className="mt-4 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+              Mediterranean meals made simple, healthy, and unforgettable.
             </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-xl">
-              Fresh Mediterranean recipes made simple, healthy, and delicious.
+            <p className="mt-6 text-base leading-8 text-gray-600 sm:text-lg">
+              Healthy Mezze celebrates fresh ingredients, easy recipes, and balanced Mediterranean-inspired eating designed for every home cook.
             </p>
           </div>
         </section>
 
-        <section className="mb-16 rounded-[2rem] border border-green-100 bg-green-50 px-6 py-10 shadow-sm sm:px-12 sm:py-14">
-          <div className="mx-auto max-w-4xl">
-            <h2 className="text-3xl font-semibold text-gray-900">Our brand story</h2>
-            <p className="mt-4 text-base leading-7 text-gray-700 sm:text-lg">
-              Healthy Mezze shares Mediterranean-inspired recipes focused on fresh ingredients, balanced nutrition, simple cooking, and traditional flavors. We bring vibrant meals that feel authentic and approachable so every home cook can enjoy wholesome food with ease.
+        <section className="mb-16 grid gap-8 lg:grid-cols-[1.2fr_0.8fr]">
+          <div className="rounded-4xl border border-green-100 bg-white p-8 shadow-sm sm:p-10">
+            <p className="text-sm font-semibold uppercase tracking-[0.24em] text-emerald-600">
+              Our story
             </p>
-            <div className="mt-8 grid gap-4 sm:grid-cols-2">
-              <div className="rounded-3xl bg-white p-6 shadow-sm">
-                <h3 className="text-xl font-semibold text-gray-900">Fresh ingredients</h3>
-                <p className="mt-3 text-gray-600">
-                  Recipes built around seasonal produce, bright herbs, and vibrant pantry staples.
-                </p>
+            <h2 className="mt-4 text-3xl font-bold text-gray-900 sm:text-4xl">
+              Fresh inspiration from Mediterranean kitchens
+            </h2>
+            <p className="mt-6 text-base leading-8 text-gray-600 sm:text-lg">
+              Healthy Mezze was born from a love of vibrant Mediterranean food made approachable for modern life. We blend fresh produce, herbs, olive oil, and simple techniques so good food feels effortless every day.
+            </p>
+            <p className="mt-4 text-base leading-8 text-gray-600 sm:text-lg">
+              Our recipes are crafted for real kitchens, busy schedules, and families who want nourishing meals without compromising flavor.
+            </p>
+          </div>
+
+          <div className="space-y-6">
+            <div className="rounded-4xl border border-green-100 bg-green-50 p-8 shadow-sm">
+              <p className="text-sm font-semibold uppercase tracking-[0.24em] text-emerald-600">
+                Our mission
+              </p>
+              <div className="mt-6 grid gap-4 sm:grid-cols-2">
+                {[
+                  {
+                    title: "Healthy eating",
+                    description: "Nutritious meals that feel delicious and balanced.",
+                  },
+                  {
+                    title: "Easy home cooking",
+                    description: "Simple recipes for busy weeknights and relaxed weekends.",
+                  },
+                  {
+                    title: "Seasonal ingredients",
+                    description: "Fresh produce, herbs, and pantry staples every season.",
+                  },
+                  {
+                    title: "Balanced lifestyle",
+                    description: "Meals that support energy, wellness, and joy.",
+                  },
+                ].map((item) => (
+                  <div key={item.title} className="rounded-3xl bg-white p-5 shadow-sm">
+                    <h3 className="text-lg font-semibold text-gray-900">{item.title}</h3>
+                    <p className="mt-3 text-sm leading-6 text-gray-600">{item.description}</p>
+                  </div>
+                ))}
               </div>
-              <div className="rounded-3xl bg-white p-6 shadow-sm">
-                <h3 className="text-xl font-semibold text-gray-900">Balanced nutrition</h3>
-                <p className="mt-3 text-gray-600">
-                  Meals designed to feel satisfying, nourishing, and full of wholesome Mediterranean flavor.
-                </p>
+            </div>
+
+            <div className="rounded-4xl border border-green-100 bg-white p-8 shadow-sm">
+              <p className="text-sm font-semibold uppercase tracking-[0.24em] text-emerald-600">
+                Our values
+              </p>
+              <h2 className="mt-4 text-3xl font-bold text-gray-900 sm:text-4xl">
+                Built on flavor, health, and tradition.
+              </h2>
+              <div className="mt-8 grid gap-4 sm:grid-cols-2">
+                {[
+                  {
+                    icon: "🥬",
+                    title: "Fresh Ingredients",
+                    description: "Seasonal vegetables, herbs, and wholesome pantry staples.",
+                  },
+                  {
+                    icon: "🍋",
+                    title: "Simple Recipes",
+                    description: "Clean steps that make cooking easy and stress-free.",
+                  },
+                  {
+                    icon: "💪",
+                    title: "Healthy Living",
+                    description: "Meals that nourish your body and your routine.",
+                  },
+                  {
+                    icon: "🌊",
+                    title: "Mediterranean Tradition",
+                    description: "Inspired by timeless flavors from coastal kitchens.",
+                  },
+                ].map((value) => (
+                  <div key={value.title} className="rounded-3xl border border-gray-200 bg-gray-50 p-6">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-emerald-100 text-2xl">
+                      {value.icon}
+                    </div>
+                    <h3 className="mt-5 text-xl font-semibold text-gray-900">{value.title}</h3>
+                    <p className="mt-3 text-sm leading-6 text-gray-600">{value.description}</p>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
         </section>
 
         <section className="mb-16">
-          <div className="mx-auto max-w-4xl">
-            <div className="mb-8 text-center">
+          <div className="mx-auto max-w-6xl">
+            <div className="mb-10 text-center">
               <p className="text-sm font-semibold uppercase tracking-[0.24em] text-emerald-600">
-                Our philosophy
+                Why choose Healthy Mezze
               </p>
-              <h2 className="mt-3 text-3xl font-semibold text-gray-900 sm:text-4xl">
-                What makes Healthy Mezze different
+              <h2 className="mt-4 text-3xl font-bold text-gray-900 sm:text-4xl">
+                Everyday cooking that feels special.
               </h2>
             </div>
 
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {[
                 {
-                  title: "Fresh Ingredients",
-                  description: "Bright vegetables, herbs, and olive oil form every recipe's foundation.",
+                  title: "Beginner friendly",
+                  description: "Step-by-step recipes for cooks of any experience level.",
                 },
                 {
-                  title: "Healthy Balance",
-                  description: "Protein, fiber, and fresh produce come together in every meal.",
+                  title: "Quick recipes",
+                  description: "Balanced meals ready in under an hour.",
                 },
                 {
-                  title: "Simple Cooking",
-                  description: "Easy-to-follow recipes let you cook with confidence and minimal fuss.",
+                  title: "Nutritious meals",
+                  description: "Flavorful dishes that support wellness.",
                 },
                 {
-                  title: "Mediterranean Tradition",
-                  description: "Inspired by classic flavors from across the Mediterranean region.",
+                  title: "Family friendly",
+                  description: "Food everyone at the table can enjoy together.",
+                },
+                {
+                  title: "Easy ingredients",
+                  description: "Accessible pantry staples with a Mediterranean twist.",
+                },
+                {
+                  title: "Beautiful presentation",
+                  description: "Dishes designed to delight every sense.",
                 },
               ].map((feature) => (
-                <div key={feature.title} className="rounded-3xl border border-green-100 bg-white p-6 shadow-sm">
+                <div key={feature.title} className="rounded-4xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
                   <h3 className="text-xl font-semibold text-gray-900">{feature.title}</h3>
-                  <p className="mt-3 text-gray-600">{feature.description}</p>
+                  <p className="mt-3 text-sm leading-6 text-gray-600">{feature.description}</p>
                 </div>
               ))}
             </div>
           </div>
         </section>
 
-        <section className="rounded-[2rem] border border-green-100 bg-emerald-50 px-6 py-10 text-center shadow-sm sm:px-12 sm:py-14">
+        <section className="rounded-4xl border border-green-100 bg-emerald-50 px-6 py-10 text-center shadow-sm sm:px-12 sm:py-14">
           <div className="mx-auto max-w-3xl">
             <h2 className="text-3xl font-semibold text-gray-900 sm:text-4xl">
-              Start exploring healthy recipes today
+              Ready to make Mediterranean cooking part of your routine?
             </h2>
             <p className="mt-4 text-base leading-7 text-gray-700 sm:text-lg">
-              Find Mediterranean meals that are easy to make, full of flavor, and perfect for everyday cooking.
+              Explore our recipe collection for fresh meals, simple preparation, and delicious results.
             </p>
-            <a
+            <Link
               href="/recipes"
               className="mt-8 inline-flex rounded-full bg-green-600 px-8 py-3 text-base font-semibold text-white transition hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2"
             >
-              Explore Recipes
-            </a>
+              Browse recipes
+            </Link>
           </div>
         </section>
       </Container>

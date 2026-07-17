@@ -1,7 +1,7 @@
 import { recipes } from "@/data/recipes";
-import RecipeCard from "@/components/recipes/RecipeCard";
 import Container from "@/components/ui/Container";
 import SectionTitle from "@/components/ui/SectionTitle";
+import RecipeCard from "@/components/recipes/RecipeCard";
 
 export default function FeaturedRecipes() {
   const featuredRecipes = recipes.slice(0, 4);
@@ -11,15 +11,12 @@ export default function FeaturedRecipes() {
       <Container>
         <SectionTitle
           title="Featured Recipes"
-          subtitle="Discover healthy Mediterranean dishes made with fresh ingredients."
+          subtitle="Fresh Mediterranean-inspired dishes that are healthy, delicious, and easy to prepare."
         />
 
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {featuredRecipes.map((recipe) => (
-            <RecipeCard
-  key={recipe.id}
-  recipe={recipe}
-/>
+            <RecipeCard key={recipe.slug} recipe={recipe} />
           ))}
         </div>
       </Container>
