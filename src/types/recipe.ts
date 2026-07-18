@@ -60,6 +60,10 @@ export interface Recipe {
   slug: string;
   description: string;
   longDescription?: string;
+  
+  // Publication Information
+datePublished?: string;
+dateModified?: string;
 
   // Recipe Image
   image: string;
