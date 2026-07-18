@@ -1,49 +1,68 @@
 import Image from "next/image";
 import Link from "next/link";
-import { categories } from "@/data/categories";
+
 import Container from "@/components/ui/Container";
 import SectionTitle from "@/components/ui/SectionTitle";
 
+import { categories } from "@/data/categories";
+import { recipes } from "@/data/recipes";
+
 export default function Categories() {
   return (
-    <section className="bg-gray-50 py-20">
+    <section className="py-20 bg-[#FAFAF7]">
       <Container>
         <SectionTitle
-          title="Explore Categories"
-          subtitle="Find healthy Mediterranean recipes made for every lifestyle."
+          title="Browse Recipe Categories"
+          subtitle="Discover healthy Egyptian and Lebanese recipes by category."
         />
 
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {categories.map((category) => (
-            <Link
-              key={category.id}
-              href={`/categories/${category.slug}`}
-              className="group overflow-hidden rounded-3xl bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl"
-            >
-              <div className="relative h-52 overflow-hidden bg-gray-100">
-                <Image
-                  src={category.image}
-                  alt={category.name}
-                  fill
-                  className="object-cover transition duration-500 group-hover:scale-105"
-                />
-              </div>
+        <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          {categories.map((category) => {
+            const recipeCount = recipes.filter(
+              (recipe) => recipe.category === category.name
+            ).length;
 
-              <div className="p-6">
-                <h3 className="text-2xl font-bold text-gray-900">
-                  {category.name}
-                </h3>
+            return (
+              <Link
+                key={category.id}
+                href={`/categories/${category.slug}`}
+                className="group overflow-hidden rounded-3xl bg-white shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
+              >
+                <div className="relative h-72">
+                  <Image
+                    src={category.image}
+                    alt={category.name}
+                    fill
+                    className="object-cover transition-transform duration-700 group-hover:scale-110"
+                  />
 
-                <p className="mt-3 text-gray-600">
-                  {category.description}
-                </p>
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
 
-                <span className="mt-5 inline-block font-medium text-green-700 transition group-hover:text-green-800">
-                  Explore →
-                </span>
-              </div>
-            </Link>
-          ))}
+                  <div className="absolute bottom-6 left-6 right-6 text-white">
+                    <div className="mb-4 flex items-center gap-3">
+                      <span className="text-3xl">{category.icon}</span>
+
+                      <span className="rounded-full bg-white/20 px-3 py-1 text-sm backdrop-blur-md">
+                        {recipeCount} Recipes
+                      </span>
+                    </div>
+
+                    <h3 className="text-3xl font-bold">
+                      {category.name}
+                    </h3>
+
+                    <p className="mt-2 text-sm text-gray-200">
+                      {category.description}
+                    </p>
+
+                    <div className="mt-5 inline-flex items-center font-semibold text-green-300 transition-transform duration-300 group-hover:translate-x-2">
+                      Browse Recipes →
+                    </div>
+                  </div>
+                </div>
+              </Link>
+            );
+          })}
         </div>
       </Container>
     </section>

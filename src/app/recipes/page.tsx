@@ -2,15 +2,16 @@
 
 import { useMemo, useState } from "react";
 import { recipes } from "@/data/recipes";
-import { categories as categoryData } from "@/data/categories";
 import RecipeCard from "@/components/recipes/RecipeCard";
 import Container from "@/components/ui/Container";
+import RecipeFilters from "@/components/recipes/RecipeFilters";
 
 const popularSearches = ["Chicken", "Salad", "Vegan", "Soup", "Wraps"];
 
 export default function RecipesPage() {
   const [query, setQuery] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState("All");
+const [selectedCategory, setSelectedCategory] = useState("All");
+const [sortBy, setSortBy] = useState("A-Z");
 
   const availableCategories = useMemo(() => {
     const uniqueCategories = Array.from(
@@ -27,7 +28,7 @@ export default function RecipesPage() {
   const filteredRecipes = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase();
 
-    return recipes.filter((recipe) => {
+    const filtered = recipes.filter((recipe) => {
       const matchesCategory =
         selectedCategory === "All" || recipe.category === selectedCategory;
 
@@ -50,8 +51,26 @@ export default function RecipesPage() {
         category.includes(normalizedQuery) ||
         ingredients.includes(normalizedQuery)
       );
-    });
-  }, [query, selectedCategory]);
+   });
+
+switch (sortBy) {
+  case "Z-A":
+    filtered.sort((a, b) => b.title.localeCompare(a.title));
+    break;
+
+  case "Prep Time":
+    filtered.sort((a, b) => a.prepTime - b.prepTime);
+    break;
+
+  default:
+    filtered.sort((a, b) => a.title.localeCompare(b.title));
+}
+
+return filtered;
+
+
+
+  }, [query, selectedCategory, sortBy]);
 
   const categoryLabel = selectedCategory === "All" ? "All categories" : selectedCategory;
 
@@ -70,74 +89,16 @@ export default function RecipesPage() {
           </p>
         </section>
 
-        <section className="rounded-[2rem] border border-green-100 bg-white p-6 shadow-sm sm:p-8">
-          <div className="grid gap-8 lg:grid-cols-[1.25fr_0.75fr] lg:items-end">
-            <div>
-              <h2 className="text-2xl font-semibold text-gray-900">Search recipes</h2>
-              <p className="mt-3 text-sm leading-6 text-gray-600">
-                Search by name, ingredient, description, or category.
-              </p>
-
-              <div className="mt-6">
-                <label htmlFor="recipe-search" className="mb-2 block text-sm font-medium text-gray-700">
-                  Search recipes
-                </label>
-                <input
-                  id="recipe-search"
-                  type="search"
-                  value={query}
-                  onChange={(event) => setQuery(event.target.value)}
-                  placeholder="Try chicken, salad, vegan..."
-                  className="w-full rounded-3xl border border-gray-200 bg-gray-50 px-4 py-3 text-sm text-gray-900 shadow-sm outline-none transition focus:border-green-500 focus:ring-2 focus:ring-green-100"
-                />
-              </div>
-
-              <div className="mt-6 flex flex-wrap gap-3">
-                {popularSearches.map((item) => (
-                  <button
-                    key={item}
-                    type="button"
-                    onClick={() => setQuery(item)}
-                    className="rounded-full bg-green-50 px-4 py-2 text-sm font-medium text-green-700 transition hover:bg-green-100 focus:outline-none focus:ring-2 focus:ring-green-200"
-                  >
-                    {item}
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            <div className="rounded-[1.75rem] border border-green-100 bg-emerald-50 p-6 text-center">
-              <p className="text-sm uppercase tracking-[0.24em] text-emerald-700">Selected</p>
-              <p className="mt-4 text-3xl font-semibold text-gray-900">{categoryLabel}</p>
-              <p className="mt-3 text-sm leading-6 text-gray-700">
-                Showing recipes for the category you choose below.
-              </p>
-              <p className="mt-6 text-2xl font-semibold text-gray-900">
-                {filteredRecipes.length}
-                <span className="text-base font-normal text-gray-600"> recipes</span>
-              </p>
-            </div>
-          </div>
-
-          <div className="mt-8">
-            <div className="flex flex-wrap gap-3">
-              {availableCategories.map((category) => (
-                <button
-                  key={category}
-                  type="button"
-                  onClick={() => setSelectedCategory(category)}
-                  className={`rounded-full px-4 py-2 text-sm font-medium transition focus:outline-none focus:ring-2 focus:ring-green-200 ${
-                    selectedCategory === category
-                      ? "bg-green-700 text-white shadow-sm"
-                      : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-                  }`}
-                >
-                  {category}
-                </button>
-              ))}
-            </div>
-          </div>
-        </section>
+        <RecipeFilters
+  query={query}
+  onQueryChange={setQuery}
+  sortBy={sortBy}
+  onSortChange={setSortBy}
+  categories={availableCategories}
+  selectedCategory={selectedCategory}
+  onCategoryChange={setSelectedCategory}
+  popularSearches={popularSearches}
+/>
 
         <section className="mt-10">
           {filteredRecipes.length === 0 ? (

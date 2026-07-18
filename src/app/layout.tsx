@@ -18,29 +18,94 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Healthy Mezze | Fresh Mediterranean Recipes",
+  metadataBase: new URL("https://healthymezze.com"),
+
+  title: {
+    default: "Healthy Mezze | Fresh Mediterranean Recipes",
+    template: "%s | Healthy Mezze",
+  },
+
   description:
-    "Discover fresh Mediterranean recipes including healthy salads, vegetarian meals, vegan dishes, soups, wraps, and traditional favorites made with wholesome ingredients.",
+    "Discover healthy Mediterranean recipes inspired by Egyptian, Lebanese, Greek, Turkish, Syrian, Jordanian, and Palestinian cuisines. Enjoy nutritious salads, soups, wraps, breakfasts, desserts, and wholesome family meals.",
+
+  applicationName: "Healthy Mezze",
+
   keywords: [
     "Mediterranean recipes",
-    "healthy recipes",
+    "Healthy Mediterranean food",
+    "Egyptian recipes",
+    "Lebanese recipes",
     "Greek recipes",
-    "vegetarian recipes",
-    "vegan recipes",
-    "healthy meals",
+    "Turkish recipes",
+    "Syrian recipes",
+    "Jordanian recipes",
+    "Palestinian recipes",
+    "Healthy meals",
+    "Vegetarian recipes",
+    "Vegan recipes",
     "Mediterranean diet",
-    "easy recipes",
+    "Healthy cooking",
+    "Easy recipes",
   ],
-  openGraph: {
-    title: "Healthy Mezze | Fresh Mediterranean Recipes",
-    description: "Fresh, healthy Mediterranean recipes made simple.",
-    type: "website",
-    siteName: "Healthy Mezze",
+
+  authors: [
+    {
+      name: "Healthy Mezze",
+    },
+  ],
+
+  creator: "Healthy Mezze",
+
+  publisher: "Healthy Mezze",
+
+  category: "Food",
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
   },
+
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://healthymezze.com",
+    siteName: "Healthy Mezze",
+
+    title: "Healthy Mezze | Fresh Mediterranean Recipes",
+
+    description:
+      "Healthy Mediterranean recipes inspired by Egyptian, Lebanese, Greek, Turkish, Syrian, Jordanian, and Palestinian cuisine.",
+
+    images: [
+      {
+        url: "/images/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Healthy Mezze",
+      },
+    ],
+  },
+
   twitter: {
     card: "summary_large_image",
+
     title: "Healthy Mezze | Fresh Mediterranean Recipes",
-    description: "Fresh, healthy Mediterranean recipes made simple.",
+
+    description:
+      "Healthy Mediterranean recipes inspired by traditional regional cuisine.",
+
+    images: ["/images/og-image.jpg"],
+  },
+
+  alternates: {
+    canonical: "/",
   },
 };
 

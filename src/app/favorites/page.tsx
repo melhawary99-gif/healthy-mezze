@@ -8,27 +8,35 @@ import Container from "@/components/ui/Container";
 const STORAGE_KEY = "healthy-mezze-favorites";
 
 export default function FavoritesPage() {
-  const [favoriteIds, setFavoriteIds] = useState<number[]>([]);
+  const [favoriteSlugs, setFavoriteSlugs] = useState<string[]>([]);
 
   useEffect(() => {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return;
-
     try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+
+      if (!raw) {
+        setFavoriteSlugs([]);
+        return;
+      }
+
       const parsed = JSON.parse(raw);
+
       if (Array.isArray(parsed)) {
-        const ids = parsed
-          .map((id) => Number(id))
-          .filter((id) => Number.isFinite(id));
-        setFavoriteIds(ids);
+        setFavoriteSlugs(
+          parsed.filter(
+            (item): item is string => typeof item === "string"
+          )
+        );
+      } else {
+        setFavoriteSlugs([]);
       }
     } catch {
-      setFavoriteIds([]);
+      setFavoriteSlugs([]);
     }
   }, []);
 
   const favoriteRecipes = recipes.filter((recipe) =>
-    favoriteIds.includes(recipe.id)
+    favoriteSlugs.includes(recipe.slug)
   );
 
   return (
@@ -38,6 +46,7 @@ export default function FavoritesPage() {
           <h1 className="text-4xl font-bold text-gray-900">
             My Favorite Recipes
           </h1>
+
           <p className="mt-3 max-w-2xl text-gray-600">
             Your saved recipes will appear here when you add them from the recipe details page.
           </p>
@@ -46,7 +55,10 @@ export default function FavoritesPage() {
         {favoriteRecipes.length > 0 ? (
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {favoriteRecipes.map((recipe) => (
-              <RecipeCard key={recipe.slug} recipe={recipe} />
+              <RecipeCard
+                key={recipe.slug}
+                recipe={recipe}
+              />
             ))}
           </div>
         ) : (
@@ -54,6 +66,7 @@ export default function FavoritesPage() {
             <p className="text-xl font-medium text-gray-900">
               No favorite recipes yet.
             </p>
+
             <p className="mt-3 text-gray-600">
               Save recipes you love and they will appear here.
             </p>

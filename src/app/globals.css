@@ -29,3 +29,35 @@ h5,
 h6 {
   font-family: var(--font-poppins), sans-serif;
 }
+
+
+
+@media print {
+  header,
+  footer,
+  nav,
+  aside {
+    display: none !important;
+  }
+
+  main {
+    background: white !important;
+  }
+
+  a {
+    text-decoration: none;
+    color: black !important;
+  }
+
+  button {
+    display: none !important;
+  }
+
+  .print-show {
+    display: block !important;
+  }
+
+  .print-hide {
+    display: none !important;
+  }
+}
