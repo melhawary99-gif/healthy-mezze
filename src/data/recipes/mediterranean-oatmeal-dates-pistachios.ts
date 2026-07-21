@@ -33,21 +33,69 @@ export const mediterraneanOatmealDatesPistachios: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "1 cup rolled oats",
-    "2 cups low-fat milk or unsweetened almond milk",
-    "1/2 tsp ground cinnamon",
-    "1 tsp vanilla extract",
-    "4 Medjool dates, chopped",
-    "2 tbsp chopped pistachios",
-    "2 tbsp chopped walnuts",
-    "1 small banana, sliced",
-    "1/2 cup fresh blueberries",
-    "2 tsp honey",
-    "1 tbsp chia seeds",
-    "Pinch of sea salt"
-  ],
+{
+    amount: 1,
+    unit: "cup",
+    name: "rolled oats"
+  },
+{
+    amount: 2,
+    unit: "cups",
+    name: "low-fat milk or unsweetened almond milk"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "ground cinnamon"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "vanilla extract"
+  },
+{
+    amount: 4,
+    unit: "Medjool",
+    name: "dates, chopped"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped pistachios"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped walnuts"
+  },
+{
+    amount: 1,
+    unit: "small",
+    name: "banana, sliced"
+  },
+{
+    amount: 0.5,
+    unit: "cup",
+    name: "fresh blueberries"
+  },
+{
+    amount: 2,
+    unit: "tsp",
+    name: "honey"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "chia seeds"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Pinch of sea salt"
+  }
+],
 
-  instructions: [
+instructions: [
     "Combine the oats, milk, cinnamon, vanilla, and sea salt in a saucepan.",
     "Bring to a gentle simmer over medium heat.",
     "Cook for 8–10 minutes, stirring occasionally until creamy.",

@@ -33,20 +33,64 @@ export const babaGanoush: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 large eggplants",
-    "1/4 cup tahini",
-    "2 tbsp fresh lemon juice",
-    "2 garlic cloves, minced",
-    "2 tbsp extra virgin olive oil, plus more for serving",
-    "1/2 tsp ground cumin",
-    "1/2 tsp sea salt",
-    "1/4 tsp black pepper",
-    "1 tbsp chopped fresh parsley",
-    "1/4 tsp smoked paprika",
-    "Pomegranate seeds for garnish (optional)"
-  ],
+{
+    amount: 2,
+    unit: "large",
+    name: "eggplants"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "tahini"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 2,
+    unit: "garlic",
+    name: "cloves, minced"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "extra virgin olive oil, plus more for serving"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "chopped fresh parsley"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "smoked paprika"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Pomegranate seeds for garnish (optional)"
+  }
+],
 
-  instructions: [
+instructions: [
     "Preheat the oven to 425°F (220°C).",
     "Pierce the eggplants several times with a fork.",
     "Roast for 35–40 minutes until the skin is charred and the flesh is very soft.",

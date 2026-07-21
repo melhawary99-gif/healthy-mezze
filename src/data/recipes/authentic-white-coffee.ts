@@ -33,13 +33,29 @@ export const authenticWhiteCoffee: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 cups water",
-    "2 tsp orange blossom water",
-    "2 tsp honey (optional)",
-    "Orange blossom petals for garnish (optional)"
-  ],
+{
+    amount: 2,
+    unit: "cups",
+    name: "water"
+  },
+{
+    amount: 2,
+    unit: "tsp",
+    name: "orange blossom water"
+  },
+{
+    amount: 2,
+    unit: "tsp",
+    name: "honey (optional)"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Orange blossom petals for garnish (optional)"
+  }
+],
 
-  instructions: [
+instructions: [
     "Bring the water to a gentle boil.",
     "Remove from the heat.",
     "Stir in the orange blossom water.",

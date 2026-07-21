@@ -33,21 +33,69 @@ export const healthyChickenMakanek: Recipe = {
   difficulty: "Medium",
 
   ingredients: [
-    "500 g lean ground chicken",
-    "3 garlic cloves, minced",
-    "2 tbsp fresh parsley, finely chopped",
-    "1 tbsp fresh lemon juice",
-    "1 tbsp extra virgin olive oil",
-    "1 tsp ground coriander",
-    "1 tsp ground allspice",
-    "1/2 tsp ground cinnamon",
-    "1/2 tsp paprika",
-    "1/2 tsp black pepper",
-    "1 tsp sea salt",
-    "1/4 tsp cayenne pepper (optional)"
-  ],
+{
+    amount: 500,
+    unit: "g",
+    name: "lean ground chicken"
+  },
+{
+    amount: 3,
+    unit: "garlic",
+    name: "cloves, minced"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "fresh parsley, finely chopped"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground coriander"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground allspice"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "ground cinnamon"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "paprika"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "cayenne pepper (optional)"
+  }
+],
 
-  instructions: [
+instructions: [
     "Combine the ground chicken with all herbs, spices, garlic, lemon juice, and olive oil.",
     "Mix thoroughly until well combined.",
     "Cover and refrigerate for at least 30 minutes.",

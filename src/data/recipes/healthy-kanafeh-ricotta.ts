@@ -33,21 +33,69 @@ export const healthyKanafehRicotta: Recipe = {
   difficulty: "Medium",
 
   ingredients: [
-    "12 oz (340 g) kataifi pastry, thawed",
-    "1/4 cup extra virgin olive oil",
-    "1½ cups part-skim ricotta cheese",
-    "1/2 cup reduced-fat shredded mozzarella",
-    "1 tsp vanilla extract",
-    "1 tsp orange blossom water",
-    "1 tbsp chopped pistachios",
-    "For the syrup:",
-    "3 tbsp honey",
-    "3 tbsp water",
-    "1 tsp fresh lemon juice",
-    "1 tsp orange blossom water"
-  ],
+{
+    amount: 12,
+    unit: "oz",
+    name: "(340 g) kataifi pastry, thawed"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "1½ cups part-skim ricotta cheese"
+  },
+{
+    amount: 0.5,
+    unit: "cup",
+    name: "reduced-fat shredded mozzarella"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "vanilla extract"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "orange blossom water"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "chopped pistachios"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "For the syrup:"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "honey"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "water"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "orange blossom water"
+  }
+],
 
-  instructions: [
+instructions: [
     "Preheat the oven to 350°F (175°C).",
     "Separate the kataifi pastry strands with your hands.",
     "Toss the pastry evenly with the olive oil.",

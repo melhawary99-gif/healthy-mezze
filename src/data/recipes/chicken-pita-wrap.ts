@@ -8,6 +8,8 @@ export const chickenPitaWrap: Recipe = {
     "A delicious Mediterranean wrap filled with grilled chicken, fresh vegetables, herbs, and a creamy yogurt sauce.",
   image: "/images/recipes/chicken-pita-wrap.jpg",
 
+  cuisine: "Middle Eastern",
+
   category: "Sandwiches & Wraps",
 
   prepTime: "15",
@@ -16,19 +18,59 @@ export const chickenPitaWrap: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "Chicken breast",
-    "Pita bread",
-    "Lettuce",
-    "Tomato",
-    "Cucumber",
-    "Red onion",
-    "Yogurt sauce",
-    "Garlic",
-    "Lemon juice",
-    "Fresh parsley",
-  ],
+{
+    amount: 1,
+    unit: "",
+    name: "Chicken breast"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Pita bread"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Lettuce"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Tomato"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Cucumber"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Red onion"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Yogurt sauce"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Garlic"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Lemon juice"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh parsley"
+  }
+],
 
-  instructions: [
+instructions: [
     "Marinate chicken with garlic, lemon juice, and Mediterranean spices.",
     "Grill chicken until fully cooked.",
     "Slice chicken into thin pieces.",

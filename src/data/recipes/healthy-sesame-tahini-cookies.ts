@@ -33,20 +33,64 @@ export const healthySesameTahiniCookies: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "1½ cups whole wheat flour",
-    "1 tsp baking powder",
-    "1/4 tsp sea salt",
-    "1/3 cup tahini",
-    "2 tbsp extra virgin olive oil",
-    "3 tbsp honey",
-    "1 large egg",
-    "1 tsp vanilla extract",
-    "2 tbsp toasted sesame seeds",
-    "1 tbsp chopped pistachios (optional)",
-    "1 tsp ground cinnamon"
-  ],
+{
+    amount: 1,
+    unit: "",
+    name: "1½ cups whole wheat flour"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "baking powder"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.3333333333333333,
+    unit: "cup",
+    name: "tahini"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "honey"
+  },
+{
+    amount: 1,
+    unit: "large",
+    name: "egg"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "vanilla extract"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "toasted sesame seeds"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "chopped pistachios (optional)"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cinnamon"
+  }
+],
 
-  instructions: [
+instructions: [
     "Preheat the oven to 350°F (175°C).",
     "Line a baking tray with parchment paper.",
     "Whisk together the whole wheat flour, baking powder, cinnamon, and salt.",

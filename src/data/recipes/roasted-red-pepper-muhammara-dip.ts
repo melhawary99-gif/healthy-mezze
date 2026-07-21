@@ -33,22 +33,74 @@ export const roastedRedPepperMuhammaraDip: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 large roasted red bell peppers, peeled",
-    "1 cup toasted walnuts",
-    "1/2 cup whole wheat breadcrumbs",
-    "2 tbsp pomegranate molasses",
-    "2 tbsp extra virgin olive oil",
-    "2 garlic cloves",
-    "1 tbsp fresh lemon juice",
-    "1 tsp ground cumin",
-    "1/2 tsp smoked paprika",
-    "1/4 tsp Aleppo pepper or mild chili flakes",
-    "1/2 tsp sea salt",
-    "2 tbsp chopped parsley for garnish",
-    "1 tbsp pomegranate seeds for garnish (optional)"
-  ],
+{
+    amount: 2,
+    unit: "large",
+    name: "roasted red bell peppers, peeled"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "toasted walnuts"
+  },
+{
+    amount: 0.5,
+    unit: "cup",
+    name: "whole wheat breadcrumbs"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "pomegranate molasses"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 2,
+    unit: "garlic",
+    name: "cloves"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "smoked paprika"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "Aleppo pepper or mild chili flakes"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped parsley for garnish"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "pomegranate seeds for garnish (optional)"
+  }
+],
 
-  instructions: [
+instructions: [
     "Toast the walnuts in a dry skillet for 5–7 minutes until fragrant.",
     "Add the roasted peppers, walnuts, breadcrumbs, garlic, lemon juice, olive oil, pomegranate molasses, cumin, paprika, chili flakes, and salt to a food processor.",
     "Blend until mostly smooth while retaining a slight texture.",

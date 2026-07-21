@@ -33,26 +33,94 @@ export const stuffedBellPeppers: Recipe = {
   difficulty: "Medium",
 
   ingredients: [
-    "6 large bell peppers (mixed colors)",
-    "500 g lean ground beef",
-    "1 cup cooked brown rice",
-    "1 medium onion, finely diced",
-    "3 garlic cloves, minced",
-    "2 tomatoes, finely diced",
-    "2 tbsp tomato paste",
-    "2 tbsp extra virgin olive oil",
-    "1 tsp ground cumin",
-    "1 tsp paprika",
-    "1 tsp dried oregano",
-    "1/2 tsp ground cinnamon",
-    "1 tsp sea salt",
-    "1/2 tsp black pepper",
-    "1/4 cup chopped fresh parsley",
-    "1/4 cup chopped fresh mint (optional)",
-    "1/2 cup low-sodium vegetable or beef broth"
-  ],
+{
+    amount: 6,
+    unit: "large",
+    name: "bell peppers (mixed colors)"
+  },
+{
+    amount: 500,
+    unit: "g",
+    name: "lean ground beef"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "cooked brown rice"
+  },
+{
+    amount: 1,
+    unit: "medium",
+    name: "onion, finely diced"
+  },
+{
+    amount: 3,
+    unit: "garlic",
+    name: "cloves, minced"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "2 tomatoes, finely diced"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "tomato paste"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "paprika"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "dried oregano"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "ground cinnamon"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "chopped fresh parsley"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "chopped fresh mint (optional)"
+  },
+{
+    amount: 0.5,
+    unit: "cup",
+    name: "low-sodium vegetable or beef broth"
+  }
+],
 
-  instructions: [
+instructions: [
     "Preheat the oven to 190°C (375°F).",
     "Slice the tops off the peppers and remove the seeds and membranes.",
     "Heat the olive oil in a large skillet over medium heat.",

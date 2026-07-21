@@ -33,16 +33,44 @@ export const authenticEgyptianKarkade: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "1/2 cup dried hibiscus flowers",
-    "4 cups water",
-    "2 tbsp honey",
-    "1 tbsp fresh lemon juice",
-    "Ice cubes (for serving cold)",
-    "Lemon slices for garnish",
-    "Fresh mint leaves (optional)"
-  ],
+{
+    amount: 0.5,
+    unit: "cup",
+    name: "dried hibiscus flowers"
+  },
+{
+    amount: 4,
+    unit: "cups",
+    name: "water"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "honey"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Ice cubes (for serving cold)"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Lemon slices for garnish"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh mint leaves (optional)"
+  }
+],
 
-  instructions: [
+instructions: [
     "Bring the water to a boil in a saucepan.",
     "Remove from the heat and add the dried hibiscus flowers.",
     "Cover and steep for 10 minutes.",

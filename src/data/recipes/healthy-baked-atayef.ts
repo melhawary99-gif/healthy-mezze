@@ -33,23 +33,79 @@ export const healthyBakedAtayef: Recipe = {
   difficulty: "Medium",
 
   ingredients: [
-    "1 cup whole wheat flour",
-    "1/2 cup all-purpose flour",
-    "1 tsp instant yeast",
-    "1 tsp baking powder",
-    "1 tbsp honey",
-    "1½ cups warm water",
-    "1 tsp vanilla extract",
-    "1 cup low-fat ricotta cheese",
-    "1/2 cup plain Greek yogurt",
-    "2 tbsp honey (for filling)",
-    "1/3 cup chopped pistachios",
-    "1 tsp orange blossom water",
-    "1 tsp rose water (optional)",
-    "Cooking spray or light olive oil spray"
-  ],
+{
+    amount: 1,
+    unit: "cup",
+    name: "whole wheat flour"
+  },
+{
+    amount: 0.5,
+    unit: "cup",
+    name: "all-purpose flour"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "instant yeast"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "baking powder"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "honey"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "1½ cups warm water"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "vanilla extract"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "low-fat ricotta cheese"
+  },
+{
+    amount: 0.5,
+    unit: "cup",
+    name: "plain Greek yogurt"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "honey (for filling)"
+  },
+{
+    amount: 0.3333333333333333,
+    unit: "cup",
+    name: "chopped pistachios"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "orange blossom water"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "rose water (optional)"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Cooking spray or light olive oil spray"
+  }
+],
 
-  instructions: [
+instructions: [
     "Combine the flours, yeast, baking powder, honey, vanilla, and warm water to make a smooth batter.",
     "Cover and allow the batter to rest for 30 minutes.",
     "Heat a non-stick skillet over medium heat.",

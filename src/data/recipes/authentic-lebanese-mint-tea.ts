@@ -33,14 +33,34 @@ export const authenticLebaneseMintTea: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "4 cups water",
-    "4 black tea bags (or 4 tsp loose black tea)",
-    "1 large handful fresh mint leaves",
-    "2 tbsp honey (optional)",
-    "Fresh mint sprigs for garnish"
-  ],
+{
+    amount: 4,
+    unit: "cups",
+    name: "water"
+  },
+{
+    amount: 4,
+    unit: "black",
+    name: "tea bags (or 4 tsp loose black tea)"
+  },
+{
+    amount: 1,
+    unit: "large",
+    name: "handful fresh mint leaves"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "honey (optional)"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh mint sprigs for garnish"
+  }
+],
 
-  instructions: [
+instructions: [
     "Bring the water to a boil in a saucepan or kettle.",
     "Remove from the heat and add the black tea.",
     "Steep for 3–4 minutes.",

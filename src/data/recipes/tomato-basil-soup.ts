@@ -33,20 +33,64 @@ export const tomatoBasilSoup: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 kg ripe tomatoes, halved",
-    "1 medium onion, quartered",
-    "6 garlic cloves",
-    "3 tbsp extra virgin olive oil",
-    "4 cups vegetable broth",
-    "1/2 cup fresh basil leaves",
-    "1 tsp dried oregano",
-    "1 tsp sea salt",
-    "1/2 tsp freshly ground black pepper",
-    "1 tbsp balsamic vinegar (optional)",
-    "Fresh basil leaves for garnish"
-  ],
+{
+    amount: 2,
+    unit: "kg",
+    name: "ripe tomatoes, halved"
+  },
+{
+    amount: 1,
+    unit: "medium",
+    name: "onion, quartered"
+  },
+{
+    amount: 6,
+    unit: "garlic",
+    name: "cloves"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 4,
+    unit: "cups",
+    name: "vegetable broth"
+  },
+{
+    amount: 0.5,
+    unit: "cup",
+    name: "fresh basil leaves"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "dried oregano"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "freshly ground black pepper"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "balsamic vinegar (optional)"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh basil leaves for garnish"
+  }
+],
 
-  instructions: [
+instructions: [
     "Preheat the oven to 200°C (400°F).",
     "Arrange the tomatoes, onion, and garlic on a baking tray.",
     "Drizzle with olive oil and season with salt and pepper.",

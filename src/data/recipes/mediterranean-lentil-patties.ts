@@ -33,22 +33,74 @@ export const mediterraneanLentilPatties: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 cups cooked brown lentils, drained well",
-    "1 cup rolled oats",
-    "1 small onion, finely chopped",
-    "3 garlic cloves, minced",
-    "1/4 cup chopped fresh parsley",
-    "2 tbsp chopped fresh cilantro",
-    "1 egg",
-    "1 tsp ground cumin",
-    "1 tsp ground coriander",
-    "1 tsp paprika",
-    "1/2 tsp black pepper",
-    "1/2 tsp sea salt",
-    "2 tbsp olive oil"
-  ],
+{
+    amount: 2,
+    unit: "cups",
+    name: "cooked brown lentils, drained well"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "rolled oats"
+  },
+{
+    amount: 1,
+    unit: "small",
+    name: "onion, finely chopped"
+  },
+{
+    amount: 3,
+    unit: "garlic",
+    name: "cloves, minced"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "chopped fresh parsley"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped fresh cilantro"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "1 egg"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground coriander"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "paprika"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "olive oil"
+  }
+],
 
-  instructions: [
+instructions: [
     "Preheat the oven to 200°C (400°F).",
     "Line a baking tray with parchment paper.",
     "Pulse the lentils and oats in a food processor until mostly combined but still slightly chunky.",

@@ -33,17 +33,49 @@ export const authenticQamarAlDin: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "200 g (7 oz) dried apricot leather (Qamar al-Din sheets)",
-    "6 cups cold water",
-    "2 tbsp honey",
-    "1 tsp orange blossom water",
-    "1 tsp fresh lemon juice",
-    "Ice cubes",
-    "Fresh mint leaves for garnish",
-    "Dried apricot slices for garnish"
-  ],
+{
+    amount: 200,
+    unit: "g",
+    name: "(7 oz) dried apricot leather (Qamar al-Din sheets)"
+  },
+{
+    amount: 6,
+    unit: "cups",
+    name: "cold water"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "honey"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "orange blossom water"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Ice cubes"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh mint leaves for garnish"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Dried apricot slices for garnish"
+  }
+],
 
-  instructions: [
+instructions: [
     "Cut the apricot leather into small pieces.",
     "Place the pieces into a large bowl with the cold water.",
     "Cover and refrigerate for 4 hours or overnight until softened.",

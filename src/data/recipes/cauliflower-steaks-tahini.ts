@@ -33,28 +33,94 @@ export const cauliflowerSteaksTahini: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "1 large cauliflower",
-    "3 tbsp extra virgin olive oil",
-    "1 tsp paprika",
-    "1 tsp ground cumin",
-    "1/2 tsp garlic powder",
-    "1 tsp sea salt",
-    "1/2 tsp black pepper",
+{
+    amount: 1,
+    unit: "large",
+    name: "cauliflower"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "paprika"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "garlic powder"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "For the Tahini Sauce:"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "tahini"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 1,
+    unit: "garlic",
+    name: "clove, minced"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "water"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "For Garnish:"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "toasted pine nuts"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped fresh parsley"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Pinch of smoked paprika"
+  }
+],
 
-    "For the Tahini Sauce:",
-    "1/4 cup tahini",
-    "2 tbsp fresh lemon juice",
-    "1 garlic clove, minced",
-    "3 tbsp water",
-    "1 tbsp extra virgin olive oil",
-
-    "For Garnish:",
-    "2 tbsp toasted pine nuts",
-    "2 tbsp chopped fresh parsley",
-    "Pinch of smoked paprika"
-  ],
-
-  instructions: [
+instructions: [
     "Preheat the oven to 220°C (425°F).",
     "Remove the outer leaves from the cauliflower while keeping the stem intact.",
     "Slice the cauliflower into 1-inch thick steaks.",

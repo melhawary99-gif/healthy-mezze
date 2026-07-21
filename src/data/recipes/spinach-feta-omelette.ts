@@ -33,23 +33,79 @@ export const spinachFetaOmelette: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "4 large eggs",
-    "2 tbsp milk",
-    "1 tbsp extra virgin olive oil",
-    "1 cup fresh spinach, chopped",
-    "1/4 small onion, finely diced",
-    "1 garlic clove, minced",
-    "1/3 cup crumbled feta cheese",
-    "1 tbsp chopped parsley",
-    "1 tbsp chopped dill (optional)",
-    "1/2 tsp sea salt",
-    "1/4 tsp black pepper",
-    "1/4 tsp dried oregano",
-    "Cherry tomatoes for serving",
-    "Whole grain toast for serving"
-  ],
+{
+    amount: 4,
+    unit: "large",
+    name: "eggs"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "milk"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "fresh spinach, chopped"
+  },
+{
+    amount: 0.25,
+    unit: "small",
+    name: "onion, finely diced"
+  },
+{
+    amount: 1,
+    unit: "garlic",
+    name: "clove, minced"
+  },
+{
+    amount: 0.3333333333333333,
+    unit: "cup",
+    name: "crumbled feta cheese"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "chopped parsley"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "chopped dill (optional)"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "dried oregano"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Cherry tomatoes for serving"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Whole grain toast for serving"
+  }
+],
 
-  instructions: [
+instructions: [
     "Whisk together the eggs, milk, salt, pepper, and oregano until smooth.",
     "Heat the olive oil in a non-stick skillet over medium heat.",
     "Cook the onion for 2–3 minutes until softened.",

@@ -8,6 +8,8 @@ export const mediterraneanGrilledChickenPlate: Recipe = {
     "A healthy Mediterranean meal featuring grilled chicken, fresh vegetables, herbs, and a side of wholesome grains.",
   image: "/images/recipes/mediterranean-grilled-chicken-plate.jpg",
 
+  cuisine: "Mediterranean",
+
   category: "Main Dishes",
 
   prepTime: "20",
@@ -16,19 +18,59 @@ export const mediterraneanGrilledChickenPlate: Recipe = {
   difficulty: "Medium",
 
   ingredients: [
-    "Chicken breast",
-    "Olive oil",
-    "Garlic",
-    "Lemon juice",
-    "Oregano",
-    "Brown rice",
-    "Cucumber",
-    "Tomatoes",
-    "Fresh parsley",
-    "Yogurt sauce",
-  ],
+{
+    amount: 1,
+    unit: "",
+    name: "Chicken breast"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Olive oil"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Garlic"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Lemon juice"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Oregano"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Brown rice"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Cucumber"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Tomatoes"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh parsley"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Yogurt sauce"
+  }
+],
 
-  instructions: [
+instructions: [
     "Marinate chicken with olive oil, garlic, lemon juice, and herbs.",
     "Grill chicken until fully cooked and golden.",
     "Prepare fresh vegetables and grain side.",

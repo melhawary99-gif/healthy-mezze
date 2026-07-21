@@ -33,18 +33,54 @@ export const healthyDarkChocolateStuffedDates: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "12 Medjool dates",
-    "1/4 cup natural almond butter",
-    "3 oz (85 g) 70% dark chocolate",
-    "1 tsp coconut oil",
-    "2 tbsp chopped pistachios",
-    "2 tbsp finely chopped walnuts",
-    "1 tbsp unsweetened shredded coconut",
-    "1 tbsp toasted sesame seeds",
-    "1/4 tsp flaky sea salt (optional)"
-  ],
+{
+    amount: 12,
+    unit: "Medjool",
+    name: "dates"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "natural almond butter"
+  },
+{
+    amount: 3,
+    unit: "oz",
+    name: "(85 g) 70% dark chocolate"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "coconut oil"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped pistachios"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "finely chopped walnuts"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "unsweetened shredded coconut"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "toasted sesame seeds"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "flaky sea salt (optional)"
+  }
+],
 
-  instructions: [
+instructions: [
     "Slice each date lengthwise and remove the pit.",
     "Fill each date with about 1 teaspoon of almond butter.",
     "Close the dates gently around the filling.",

@@ -33,17 +33,49 @@ export const traditionalJallab: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "4 cups cold water",
-    "4 tbsp date molasses",
-    "2 tbsp grape molasses",
-    "2 tsp rose water",
-    "2 cups ice cubes",
-    "2 tbsp pine nuts",
-    "2 tbsp golden raisins",
-    "Fresh mint leaves for garnish (optional)"
-  ],
+{
+    amount: 4,
+    unit: "cups",
+    name: "cold water"
+  },
+{
+    amount: 4,
+    unit: "tbsp",
+    name: "date molasses"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "grape molasses"
+  },
+{
+    amount: 2,
+    unit: "tsp",
+    name: "rose water"
+  },
+{
+    amount: 2,
+    unit: "cups",
+    name: "ice cubes"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "pine nuts"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "golden raisins"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh mint leaves for garnish (optional)"
+  }
+],
 
-  instructions: [
+instructions: [
     "Combine the cold water, date molasses, grape molasses, and rose water in a large pitcher.",
     "Stir until the molasses is completely dissolved.",
     "Taste and adjust with additional date molasses if a sweeter drink is desired.",

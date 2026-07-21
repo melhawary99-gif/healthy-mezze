@@ -33,29 +33,109 @@ export const mediterraneanChickenKabsa: Recipe = {
   difficulty: "Medium",
 
   ingredients: [
-    "6 skinless chicken thighs",
-    "2 cups brown basmati rice",
-    "1 large onion, diced",
-    "4 garlic cloves, minced",
-    "2 tomatoes, diced",
-    "1 medium carrot, diced",
-    "2 tbsp tomato paste",
-    "3 tbsp extra virgin olive oil",
-    "4 cups low-sodium chicken broth",
-    "1 tsp ground cumin",
-    "1 tsp ground coriander",
-    "1 tsp paprika",
-    "1/2 tsp turmeric",
-    "1/2 tsp ground cinnamon",
-    "1/4 tsp ground cloves",
-    "1 tsp sea salt",
-    "1/2 tsp black pepper",
-    "2 bay leaves",
-    "2 tbsp toasted sliced almonds",
-    "Fresh parsley, chopped"
-  ],
+{
+    amount: 6,
+    unit: "skinless",
+    name: "chicken thighs"
+  },
+{
+    amount: 2,
+    unit: "cups",
+    name: "brown basmati rice"
+  },
+{
+    amount: 1,
+    unit: "large",
+    name: "onion, diced"
+  },
+{
+    amount: 4,
+    unit: "garlic",
+    name: "cloves, minced"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "2 tomatoes, diced"
+  },
+{
+    amount: 1,
+    unit: "medium",
+    name: "carrot, diced"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "tomato paste"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 4,
+    unit: "cups",
+    name: "low-sodium chicken broth"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground coriander"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "paprika"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "turmeric"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "ground cinnamon"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "ground cloves"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 2,
+    unit: "bay",
+    name: "leaves"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "toasted sliced almonds"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh parsley, chopped"
+  }
+],
 
-  instructions: [
+instructions: [
     "Heat the olive oil in a large Dutch oven over medium heat.",
     "Season the chicken with salt and pepper, then brown on both sides. Remove and set aside.",
     "In the same pot, cook the onion until softened, then stir in the garlic.",

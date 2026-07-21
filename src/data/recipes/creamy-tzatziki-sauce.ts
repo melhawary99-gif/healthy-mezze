@@ -33,18 +33,54 @@ export const creamyTzatzikiSauce: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 cups low-fat Greek yogurt",
-    "1 medium cucumber, grated and squeezed dry",
-    "2 cloves garlic, minced",
-    "1 tbsp fresh dill, finely chopped",
-    "1 tbsp fresh mint, finely chopped (optional)",
-    "1 tbsp extra virgin olive oil",
-    "1 tbsp fresh lemon juice",
-    "1/2 tsp sea salt",
-    "1/4 tsp black pepper"
-  ],
+{
+    amount: 2,
+    unit: "cups",
+    name: "low-fat Greek yogurt"
+  },
+{
+    amount: 1,
+    unit: "medium",
+    name: "cucumber, grated and squeezed dry"
+  },
+{
+    amount: 2,
+    unit: "cloves",
+    name: "garlic, minced"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "fresh dill, finely chopped"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "fresh mint, finely chopped (optional)"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "black pepper"
+  }
+],
 
-  instructions: [
+instructions: [
     "Grate the cucumber and squeeze out as much moisture as possible using a clean kitchen towel.",
     "Place the yogurt in a mixing bowl.",
     "Add the cucumber, garlic, dill, mint, olive oil, lemon juice, salt, and black pepper.",

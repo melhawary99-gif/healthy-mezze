@@ -33,23 +33,79 @@ export const bakedFalafel: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 cups dried chickpeas, soaked overnight (do not use canned)",
-    "1 small onion, roughly chopped",
-    "4 garlic cloves",
-    "1 cup fresh parsley",
-    "1/2 cup fresh cilantro",
-    "2 tsp ground cumin",
-    "1 tsp ground coriander",
-    "1 tsp paprika",
-    "1/2 tsp baking powder",
-    "2 tbsp chickpea flour",
-    "2 tbsp olive oil",
-    "1 tsp sea salt",
-    "1/2 tsp black pepper",
-    "Cooking spray or extra olive oil for brushing"
-  ],
+{
+    amount: 2,
+    unit: "cups",
+    name: "dried chickpeas, soaked overnight (do not use canned)"
+  },
+{
+    amount: 1,
+    unit: "small",
+    name: "onion, roughly chopped"
+  },
+{
+    amount: 4,
+    unit: "garlic",
+    name: "cloves"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "fresh parsley"
+  },
+{
+    amount: 0.5,
+    unit: "cup",
+    name: "fresh cilantro"
+  },
+{
+    amount: 2,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground coriander"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "paprika"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "baking powder"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chickpea flour"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "olive oil"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Cooking spray or extra olive oil for brushing"
+  }
+],
 
-  instructions: [
+instructions: [
     "Preheat the oven to 200°C (400°F).",
     "Line a baking tray with parchment paper and lightly grease it.",
     "Drain the soaked chickpeas thoroughly.",

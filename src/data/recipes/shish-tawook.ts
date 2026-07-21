@@ -33,23 +33,79 @@ export const shishTawook: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "1.5 kg boneless skinless chicken breast, cut into cubes",
-    "1/2 cup plain Greek yogurt",
-    "3 tbsp extra virgin olive oil",
-    "Juice of 2 lemons",
-    "5 garlic cloves, minced",
-    "2 tsp paprika",
-    "1 tsp ground cumin",
-    "1 tsp oregano",
-    "1 tsp sea salt",
-    "1/2 tsp black pepper",
-    "1/2 tsp turmeric",
-    "1 tbsp tomato paste",
-    "Wooden or metal skewers",
-    "Fresh parsley for garnish"
-  ],
+{
+    amount: 1.5,
+    unit: "kg",
+    name: "boneless skinless chicken breast, cut into cubes"
+  },
+{
+    amount: 0.5,
+    unit: "cup",
+    name: "plain Greek yogurt"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Juice of 2 lemons"
+  },
+{
+    amount: 5,
+    unit: "garlic",
+    name: "cloves, minced"
+  },
+{
+    amount: 2,
+    unit: "tsp",
+    name: "paprika"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "oregano"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "turmeric"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "tomato paste"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Wooden or metal skewers"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh parsley for garnish"
+  }
+],
 
-  instructions: [
+instructions: [
     "In a large bowl, whisk together the yogurt, olive oil, lemon juice, garlic, tomato paste, and spices.",
     "Add the chicken cubes and coat well with the marinade.",
     "Cover and refrigerate for at least 6 hours or overnight.",

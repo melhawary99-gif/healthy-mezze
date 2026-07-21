@@ -33,24 +33,84 @@ export const fulMedames: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 cans (400 g each) fava beans, drained and rinsed",
-    "2 tbsp extra virgin olive oil",
-    "3 garlic cloves, minced",
-    "2 tbsp fresh lemon juice",
-    "1 tsp ground cumin",
-    "1/2 tsp paprika",
-    "1/2 tsp sea salt",
-    "1/4 tsp black pepper",
-    "2 tbsp chopped fresh parsley",
-    "1 small tomato, diced",
-    "1/4 small red onion, finely diced",
-    "1 tbsp chopped fresh cilantro (optional)",
-    "4 boiled eggs (optional)",
-    "Warm whole wheat pita bread for serving",
-    "Lemon wedges for serving"
-  ],
+{
+    amount: 2,
+    unit: "cans",
+    name: "(400 g each) fava beans, drained and rinsed"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 3,
+    unit: "garlic",
+    name: "cloves, minced"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "paprika"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped fresh parsley"
+  },
+{
+    amount: 1,
+    unit: "small",
+    name: "tomato, diced"
+  },
+{
+    amount: 0.25,
+    unit: "small",
+    name: "red onion, finely diced"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "chopped fresh cilantro (optional)"
+  },
+{
+    amount: 4,
+    unit: "boiled",
+    name: "eggs (optional)"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Warm whole wheat pita bread for serving"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Lemon wedges for serving"
+  }
+],
 
-  instructions: [
+instructions: [
     "Heat the olive oil in a saucepan over medium heat.",
     "Add the minced garlic and cook for 30 seconds until fragrant.",
     "Stir in the fava beans, cumin, paprika, salt, and black pepper.",

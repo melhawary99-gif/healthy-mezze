@@ -33,22 +33,74 @@ export const mediterraneanAvocadoToast: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 slices whole grain bread",
-    "1 ripe avocado",
-    "1 tbsp fresh lemon juice",
-    "1 tbsp extra virgin olive oil",
-    "1/4 tsp sea salt",
-    "1/4 tsp black pepper",
-    "1/4 tsp paprika",
-    "1/4 cup cherry tomatoes, halved",
-    "1/4 cup cucumber, diced",
-    "2 tbsp crumbled feta cheese",
-    "1 tbsp chopped parsley",
-    "1 tsp za'atar seasoning",
-    "Microgreens (optional)"
-  ],
+{
+    amount: 2,
+    unit: "slices",
+    name: "whole grain bread"
+  },
+{
+    amount: 1,
+    unit: "ripe",
+    name: "avocado"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "paprika"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "cherry tomatoes, halved"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "cucumber, diced"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "crumbled feta cheese"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "chopped parsley"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "za'atar seasoning"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Microgreens (optional)"
+  }
+],
 
-  instructions: [
+instructions: [
     "Toast the whole grain bread until golden and crisp.",
     "Mash the avocado in a bowl with lemon juice, salt, pepper, and paprika.",
     "Spread the mashed avocado evenly over each slice of toast.",

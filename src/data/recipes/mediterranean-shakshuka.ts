@@ -33,25 +33,89 @@ export const mediterraneanShakshuka: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 tbsp extra virgin olive oil",
-    "1 medium onion, diced",
-    "1 red bell pepper, diced",
-    "3 garlic cloves, minced",
-    "800 g crushed tomatoes",
-    "2 tbsp tomato paste",
-    "1 tsp ground cumin",
-    "1 tsp paprika",
-    "1/2 tsp ground coriander",
-    "1/4 tsp chili flakes (optional)",
-    "1 tsp sea salt",
-    "1/2 tsp black pepper",
-    "4 large eggs",
-    "2 tbsp chopped fresh parsley",
-    "2 tbsp crumbled feta cheese (optional)",
-    "Warm pita bread for serving"
-  ],
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 1,
+    unit: "medium",
+    name: "onion, diced"
+  },
+{
+    amount: 1,
+    unit: "red",
+    name: "bell pepper, diced"
+  },
+{
+    amount: 3,
+    unit: "garlic",
+    name: "cloves, minced"
+  },
+{
+    amount: 800,
+    unit: "g",
+    name: "crushed tomatoes"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "tomato paste"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "paprika"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "ground coriander"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "chili flakes (optional)"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 4,
+    unit: "large",
+    name: "eggs"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped fresh parsley"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "crumbled feta cheese (optional)"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Warm pita bread for serving"
+  }
+],
 
-  instructions: [
+instructions: [
     "Heat olive oil in a large skillet over medium heat.",
     "Cook the onion for 4 minutes until softened.",
     "Add the diced bell pepper and cook for another 5 minutes.",

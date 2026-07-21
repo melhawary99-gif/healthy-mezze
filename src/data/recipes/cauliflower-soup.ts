@@ -33,21 +33,69 @@ export const cauliflowerSoup: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "1 large cauliflower, cut into florets",
-    "1 medium onion, chopped",
-    "5 garlic cloves",
-    "3 tbsp extra virgin olive oil",
-    "4 cups vegetable broth",
-    "1 tsp dried thyme",
-    "1/2 tsp ground cumin",
-    "1 tsp sea salt",
-    "1/2 tsp black pepper",
-    "2 tbsp fresh parsley, chopped",
-    "1 tbsp lemon juice",
-    "Extra virgin olive oil for serving"
-  ],
+{
+    amount: 1,
+    unit: "large",
+    name: "cauliflower, cut into florets"
+  },
+{
+    amount: 1,
+    unit: "medium",
+    name: "onion, chopped"
+  },
+{
+    amount: 5,
+    unit: "garlic",
+    name: "cloves"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 4,
+    unit: "cups",
+    name: "vegetable broth"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "dried thyme"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "fresh parsley, chopped"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "lemon juice"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Extra virgin olive oil for serving"
+  }
+],
 
-  instructions: [
+instructions: [
     "Preheat the oven to 200°C (400°F).",
     "Arrange the cauliflower, onion, and garlic on a baking tray.",
     "Drizzle with olive oil and season with salt and pepper.",

@@ -33,20 +33,10 @@ export const authenticAmbaSauce: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "1 cup pickled mango, chopped",
-    "2 garlic cloves",
-    "2 tbsp fresh lemon juice",
-    "2 tbsp extra virgin olive oil",
-    "1 tbsp water",
-    "1 tsp ground turmeric",
-    "1/2 tsp ground fenugreek",
-    "1/2 tsp ground cumin",
-    "1/4 tsp cayenne pepper (optional)",
-    "1/2 tsp sea salt",
-    "1 tbsp chopped fresh cilantro"
-  ],
 
-  instructions: [
+],
+
+instructions: [
     "Add the pickled mango, garlic, lemon juice, olive oil, water, turmeric, fenugreek, cumin, cayenne pepper, and salt to a food processor.",
     "Blend until smooth.",
     "Stir in the chopped cilantro.",

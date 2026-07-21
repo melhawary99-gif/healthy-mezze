@@ -78,7 +78,8 @@ dateModified?: string;
   | "Syrian"
   | "Jordanian"
   | "Palestinian"
-  | "Mediterranean";
+  | "Mediterranean"
+  | "Middle Eastern";
 
 
 

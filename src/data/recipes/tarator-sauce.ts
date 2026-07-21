@@ -33,17 +33,49 @@ export const taratorSauce: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "1/2 cup tahini",
-    "1/3 cup fresh lemon juice",
-    "2 garlic cloves, crushed",
-    "4–6 tbsp ice-cold water",
-    "2 tbsp chopped fresh parsley",
-    "1 tbsp extra virgin olive oil",
-    "1/2 tsp sea salt",
-    "1/4 tsp white pepper"
-  ],
+{
+    amount: 0.5,
+    unit: "cup",
+    name: "tahini"
+  },
+{
+    amount: 0.3333333333333333,
+    unit: "cup",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 2,
+    unit: "garlic",
+    name: "cloves, crushed"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "4–6 tbsp ice-cold water"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped fresh parsley"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "white pepper"
+  }
+],
 
-  instructions: [
+instructions: [
     "Whisk the tahini and lemon juice together until the mixture thickens.",
     "Add the crushed garlic and sea salt.",
     "Gradually whisk in the cold water until the sauce becomes smooth and pourable.",

@@ -2,9 +2,10 @@
 
 import { useState } from "react";
 import { Check } from "lucide-react";
+import type { Ingredient } from "@/types/recipe";
 
 interface IngredientChecklistProps {
-  ingredients: string[];
+  ingredients: Ingredient[];
 }
 
 export default function IngredientChecklist({
@@ -27,7 +28,7 @@ export default function IngredientChecklist({
 
         return (
           <li
-            key={`${index}-${ingredient}`}
+            key={`${index}-${ingredient.name}`}
             onClick={() => toggleItem(index)}
             className={`flex cursor-pointer items-center gap-4 rounded-2xl border p-4 transition-all duration-300 hover:shadow-md ${
               checked
@@ -52,7 +53,9 @@ export default function IngredientChecklist({
                   : "text-gray-700"
               }`}
             >
-              {ingredient}
+              <strong>{ingredient.amount}</strong>{" "}
+              {ingredient.unit} {ingredient.name}
+              {ingredient.note ? ` (${ingredient.note})` : ""}
             </span>
           </li>
         );

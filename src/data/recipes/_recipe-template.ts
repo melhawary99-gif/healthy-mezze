@@ -30,15 +30,10 @@ export const recipeTemplate: Recipe = {
   featured: false,
 
   ingredients: [
-    {
-      amount: 1,
-      unit: "",
-      name: "",
-      note: "",
-    },
-  ],
 
-  instructions: [
+],
+
+instructions: [
     "",
   ],
 

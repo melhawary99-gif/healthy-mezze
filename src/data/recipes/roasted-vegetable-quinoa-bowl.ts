@@ -33,34 +33,124 @@ export const roastedVegetableQuinoaBowl: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "1 cup uncooked quinoa",
-    "1 medium zucchini, sliced",
-    "1 small eggplant, cubed",
-    "1 red bell pepper, chopped",
-    "1 yellow bell pepper, chopped",
-    "1 red onion, sliced",
-    "1 can (400 g) chickpeas, drained and rinsed",
-    "3 tbsp extra virgin olive oil",
-    "1 tsp paprika",
-    "1 tsp ground cumin",
-    "1 tsp dried oregano",
-    "1/2 tsp sea salt",
-    "1/4 tsp black pepper",
+{
+    amount: 1,
+    unit: "cup",
+    name: "uncooked quinoa"
+  },
+{
+    amount: 1,
+    unit: "medium",
+    name: "zucchini, sliced"
+  },
+{
+    amount: 1,
+    unit: "small",
+    name: "eggplant, cubed"
+  },
+{
+    amount: 1,
+    unit: "red",
+    name: "bell pepper, chopped"
+  },
+{
+    amount: 1,
+    unit: "yellow",
+    name: "bell pepper, chopped"
+  },
+{
+    amount: 1,
+    unit: "red",
+    name: "onion, sliced"
+  },
+{
+    amount: 1,
+    unit: "can",
+    name: "(400 g) chickpeas, drained and rinsed"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "paprika"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "dried oregano"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "For the dressing:"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 1,
+    unit: "garlic",
+    name: "clove, minced"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "Dijon mustard"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "chopped fresh parsley"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "For garnish:"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped parsley"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped mint"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "toasted pumpkin seeds"
+  }
+],
 
-    "For the dressing:",
-    "2 tbsp fresh lemon juice",
-    "2 tbsp extra virgin olive oil",
-    "1 garlic clove, minced",
-    "1 tsp Dijon mustard",
-    "1 tbsp chopped fresh parsley",
-
-    "For garnish:",
-    "2 tbsp chopped parsley",
-    "2 tbsp chopped mint",
-    "2 tbsp toasted pumpkin seeds"
-  ],
-
-  instructions: [
+instructions: [
     "Preheat the oven to 200°C (400°F).",
     "Cook the quinoa according to the package instructions and let it cool slightly.",
     "Place the zucchini, eggplant, bell peppers, onion, and chickpeas on a baking tray.",

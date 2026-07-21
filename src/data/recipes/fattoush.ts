@@ -33,23 +33,79 @@ export const fattoush: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 tomatoes, diced",
-    "1 cucumber, diced",
-    "1 romaine lettuce, chopped",
-    "4 radishes, sliced",
-    "1 green bell pepper, diced",
-    "3 green onions, sliced",
-    "½ cup chopped parsley",
-    "¼ cup chopped fresh mint",
-    "2 pita breads, toasted and broken into pieces",
-    "3 tbsp extra virgin olive oil",
-    "2 tbsp lemon juice",
-    "1 tsp sumac",
-    "Salt to taste",
-    "Black pepper to taste"
-  ],
+{
+    amount: 1,
+    unit: "",
+    name: "2 tomatoes, diced"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "1 cucumber, diced"
+  },
+{
+    amount: 1,
+    unit: "romaine",
+    name: "lettuce, chopped"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "4 radishes, sliced"
+  },
+{
+    amount: 1,
+    unit: "green",
+    name: "bell pepper, diced"
+  },
+{
+    amount: 3,
+    unit: "green",
+    name: "onions, sliced"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "½ cup chopped parsley"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "¼ cup chopped fresh mint"
+  },
+{
+    amount: 2,
+    unit: "pita",
+    name: "breads, toasted and broken into pieces"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "lemon juice"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "sumac"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Salt to taste"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Black pepper to taste"
+  }
+],
 
-  instructions: [
+instructions: [
     "Toast the pita bread until golden and crisp.",
     "Break the toasted pita into bite-sized pieces.",
     "Wash and prepare all vegetables.",

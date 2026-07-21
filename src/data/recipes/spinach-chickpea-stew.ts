@@ -33,26 +33,94 @@ export const spinachChickpeaStew: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 tbsp extra virgin olive oil",
-    "1 medium onion, diced",
-    "3 garlic cloves, minced",
-    "2 cans (400 g each) chickpeas, drained and rinsed",
-    "4 cups fresh spinach",
-    "1 can (400 g) diced tomatoes",
-    "2 tbsp tomato paste",
-    "2 cups low-sodium vegetable broth",
-    "1 tsp ground cumin",
-    "1 tsp smoked paprika",
-    "1/2 tsp ground coriander",
-    "1/4 tsp cayenne pepper (optional)",
-    "1 tsp dried oregano",
-    "1 tsp sea salt",
-    "1/2 tsp black pepper",
-    "2 tbsp fresh lemon juice",
-    "2 tbsp chopped fresh parsley"
-  ],
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 1,
+    unit: "medium",
+    name: "onion, diced"
+  },
+{
+    amount: 3,
+    unit: "garlic",
+    name: "cloves, minced"
+  },
+{
+    amount: 2,
+    unit: "cans",
+    name: "(400 g each) chickpeas, drained and rinsed"
+  },
+{
+    amount: 4,
+    unit: "cups",
+    name: "fresh spinach"
+  },
+{
+    amount: 1,
+    unit: "can",
+    name: "(400 g) diced tomatoes"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "tomato paste"
+  },
+{
+    amount: 2,
+    unit: "cups",
+    name: "low-sodium vegetable broth"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "smoked paprika"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "ground coriander"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "cayenne pepper (optional)"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "dried oregano"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped fresh parsley"
+  }
+],
 
-  instructions: [
+instructions: [
     "Heat the olive oil in a large pot over medium heat.",
     "Add the onion and cook for about 5 minutes until softened.",
     "Stir in the garlic and cook for 30 seconds until fragrant.",

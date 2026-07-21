@@ -59,8 +59,10 @@ switch (sortBy) {
     break;
 
   case "Prep Time":
-    filtered.sort((a, b) => a.prepTime - b.prepTime);
-    break;
+  filtered.sort(
+    (a, b) => parseInt(a.prepTime, 10) - parseInt(b.prepTime, 10)
+  );
+  break;
 
   default:
     filtered.sort((a, b) => a.title.localeCompare(b.title));

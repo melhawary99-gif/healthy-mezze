@@ -33,25 +33,89 @@ export const bakedSpinachSambousek: Recipe = {
   difficulty: "Medium",
 
   ingredients: [
-    "2 cups whole wheat flour",
-    "1 cup all-purpose flour",
-    "2¼ tsp instant yeast",
-    "1 tsp sugar",
-    "1 tsp sea salt",
-    "1 cup warm water",
-    "2 tbsp extra virgin olive oil",
-    "4 cups fresh spinach, chopped",
-    "1 medium onion, finely diced",
-    "1/4 cup fresh parsley, chopped",
-    "2 tbsp fresh mint, chopped",
-    "2 tbsp fresh lemon juice",
-    "1 tbsp ground sumac",
-    "1/2 tsp ground allspice",
-    "1/2 tsp black pepper",
-    "1 egg, lightly beaten (for brushing)"
-  ],
+{
+    amount: 2,
+    unit: "cups",
+    name: "whole wheat flour"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "all-purpose flour"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "2¼ tsp instant yeast"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "sugar"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "warm water"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 4,
+    unit: "cups",
+    name: "fresh spinach, chopped"
+  },
+{
+    amount: 1,
+    unit: "medium",
+    name: "onion, finely diced"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "fresh parsley, chopped"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "fresh mint, chopped"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "ground sumac"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "ground allspice"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "1 egg, lightly beaten (for brushing)"
+  }
+],
 
-  instructions: [
+instructions: [
     "Mix the flours, yeast, sugar, and salt in a large bowl.",
     "Add the warm water and olive oil and knead until smooth.",
     "Cover and allow the dough to rise for 1 hour.",

@@ -33,21 +33,69 @@ export const herbedLabnehDip: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 cups labneh",
-    "2 tbsp chopped fresh parsley",
-    "1 tbsp chopped fresh mint",
-    "1 tbsp chopped fresh dill",
-    "1 garlic clove, finely minced",
-    "1 tsp lemon zest",
-    "1 tbsp fresh lemon juice",
-    "2 tbsp extra virgin olive oil",
-    "1/2 tsp sea salt",
-    "1/4 tsp black pepper",
-    "1 tsp za'atar seasoning",
-    "Fresh mint leaves for garnish"
-  ],
+{
+    amount: 2,
+    unit: "cups",
+    name: "labneh"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped fresh parsley"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "chopped fresh mint"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "chopped fresh dill"
+  },
+{
+    amount: 1,
+    unit: "garlic",
+    name: "clove, finely minced"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "lemon zest"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "za'atar seasoning"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh mint leaves for garnish"
+  }
+],
 
-  instructions: [
+instructions: [
     "Place the labneh in a medium mixing bowl.",
     "Add the parsley, mint, dill, garlic, lemon zest, lemon juice, salt, and black pepper.",
     "Mix until well combined.",

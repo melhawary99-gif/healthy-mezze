@@ -33,21 +33,69 @@ export const mediterraneanEnergyBalls: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "10 Medjool dates, pitted",
-    "1 cup rolled oats",
-    "1/2 cup raw almonds",
-    "1/2 cup walnuts",
-    "2 tbsp chia seeds",
-    "2 tbsp unsweetened cocoa powder",
-    "2 tbsp unsweetened shredded coconut, plus extra for coating",
-    "1 tbsp ground flaxseed",
-    "1 tbsp almond butter",
-    "1 tsp vanilla extract",
-    "1/4 tsp ground cinnamon",
-    "Pinch of sea salt"
-  ],
+{
+    amount: 10,
+    unit: "Medjool",
+    name: "dates, pitted"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "rolled oats"
+  },
+{
+    amount: 0.5,
+    unit: "cup",
+    name: "raw almonds"
+  },
+{
+    amount: 0.5,
+    unit: "cup",
+    name: "walnuts"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chia seeds"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "unsweetened cocoa powder"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "unsweetened shredded coconut, plus extra for coating"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "ground flaxseed"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "almond butter"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "vanilla extract"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "ground cinnamon"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Pinch of sea salt"
+  }
+],
 
-  instructions: [
+instructions: [
     "Add the almonds and walnuts to a food processor and pulse until finely chopped.",
     "Add the rolled oats, chia seeds, cocoa powder, shredded coconut, flaxseed, cinnamon, and sea salt.",
     "Pulse several times until well combined.",

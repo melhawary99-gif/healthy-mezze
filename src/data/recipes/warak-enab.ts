@@ -33,24 +33,84 @@ export const warakEnab: Recipe = {
   difficulty: "Medium",
 
   ingredients: [
-    "1 jar (16 oz) grape leaves, rinsed and drained",
-    "1 cup short-grain rice, rinsed",
-    "2 medium tomatoes, finely diced",
-    "1 small onion, finely chopped",
-    "1 cup fresh parsley, finely chopped",
-    "1/4 cup fresh mint, chopped",
-    "2 tbsp fresh dill, chopped",
-    "3 tbsp extra virgin olive oil",
-    "2 tbsp fresh lemon juice",
-    "1 tsp ground allspice",
-    "1/2 tsp ground cinnamon",
-    "1 tsp sea salt",
-    "1/2 tsp black pepper",
-    "2 cups vegetable broth",
-    "Lemon slices for serving"
-  ],
+{
+    amount: 1,
+    unit: "jar",
+    name: "(16 oz) grape leaves, rinsed and drained"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "short-grain rice, rinsed"
+  },
+{
+    amount: 2,
+    unit: "medium",
+    name: "tomatoes, finely diced"
+  },
+{
+    amount: 1,
+    unit: "small",
+    name: "onion, finely chopped"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "fresh parsley, finely chopped"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "fresh mint, chopped"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "fresh dill, chopped"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground allspice"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "ground cinnamon"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 2,
+    unit: "cups",
+    name: "vegetable broth"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Lemon slices for serving"
+  }
+],
 
-  instructions: [
+instructions: [
     "Rinse the grape leaves well and trim any tough stems.",
     "In a large bowl, combine the rice, tomatoes, onion, parsley, mint, dill, olive oil, lemon juice, allspice, cinnamon, salt, and pepper.",
     "Place one grape leaf shiny-side down.",

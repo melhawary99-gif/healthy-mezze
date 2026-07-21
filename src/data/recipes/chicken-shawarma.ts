@@ -8,6 +8,8 @@ export const chickenShawarma: Recipe = {
     "Tender Mediterranean chicken with spices, fresh vegetables, and warm bread.",
   image: "/images/recipes/chicken-shawarma.jpg",
 
+  cuisine: "Lebanese",
+
   category: "Main Dishes",
 
   prepTime: "25",
@@ -16,14 +18,34 @@ export const chickenShawarma: Recipe = {
   difficulty: "Medium",
 
   ingredients: [
-    "Chicken",
-    "Garlic",
-    "Mediterranean spices",
-    "Yogurt sauce",
-    "Flatbread",
-  ],
+{
+    amount: 1,
+    unit: "",
+    name: "Chicken"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Garlic"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Mediterranean spices"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Yogurt sauce"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Flatbread"
+  }
+],
 
-  instructions: [
+instructions: [
     "Marinate chicken with spices.",
     "Cook until tender.",
     "Prepare fresh toppings.",

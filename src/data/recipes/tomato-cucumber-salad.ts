@@ -33,19 +33,59 @@ export const tomatoCucumberSalad: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "3 ripe tomatoes, diced",
-    "2 cucumbers, diced",
-    "1/4 red onion, finely sliced",
-    "1/4 cup chopped fresh parsley",
-    "2 tbsp chopped fresh mint",
-    "3 tbsp extra virgin olive oil",
-    "2 tbsp fresh lemon juice",
-    "1 tsp sumac (optional)",
-    "1/2 tsp sea salt",
-    "1/4 tsp freshly ground black pepper"
-  ],
+{
+    amount: 3,
+    unit: "ripe",
+    name: "tomatoes, diced"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "2 cucumbers, diced"
+  },
+{
+    amount: 0.25,
+    unit: "red",
+    name: "onion, finely sliced"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "chopped fresh parsley"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped fresh mint"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "sumac (optional)"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "freshly ground black pepper"
+  }
+],
 
-  instructions: [
+instructions: [
     "Wash and dice the tomatoes and cucumbers.",
     "Thinly slice the red onion.",
     "Chop the parsley and mint.",

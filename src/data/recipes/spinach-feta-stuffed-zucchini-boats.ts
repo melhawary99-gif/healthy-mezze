@@ -33,23 +33,79 @@ export const spinachFetaStuffedZucchiniBoats: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "4 medium zucchini",
-    "2 cups fresh spinach, chopped",
-    "1 cup cooked quinoa",
-    "150 g feta cheese, crumbled",
-    "2 tbsp grated Parmesan cheese",
-    "2 garlic cloves, minced",
-    "2 tbsp extra virgin olive oil",
-    "2 tbsp chopped fresh parsley",
-    "1 tbsp chopped fresh dill",
-    "1 tsp dried oregano",
-    "1/2 tsp paprika",
-    "1/2 tsp sea salt",
-    "1/4 tsp black pepper",
-    "1 tbsp lemon juice"
-  ],
+{
+    amount: 4,
+    unit: "medium",
+    name: "zucchini"
+  },
+{
+    amount: 2,
+    unit: "cups",
+    name: "fresh spinach, chopped"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "cooked quinoa"
+  },
+{
+    amount: 150,
+    unit: "g",
+    name: "feta cheese, crumbled"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "grated Parmesan cheese"
+  },
+{
+    amount: 2,
+    unit: "garlic",
+    name: "cloves, minced"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped fresh parsley"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "chopped fresh dill"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "dried oregano"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "paprika"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "lemon juice"
+  }
+],
 
-  instructions: [
+instructions: [
     "Preheat the oven to 200°C (400°F).",
     "Slice each zucchini in half lengthwise and scoop out the center to create boats.",
     "Brush the zucchini with olive oil and arrange in a baking dish.",

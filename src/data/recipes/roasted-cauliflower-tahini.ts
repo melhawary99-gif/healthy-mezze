@@ -33,22 +33,74 @@ export const roastedCauliflowerTahini: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "1 medium cauliflower, cut into florets",
-    "2 tbsp extra virgin olive oil",
-    "1/2 tsp sea salt",
-    "1/2 tsp black pepper",
-    "1 tsp ground cumin",
-    "1/3 cup tahini",
-    "2 tbsp fresh lemon juice",
-    "1 garlic clove, minced",
-    "3 tbsp water (or more as needed)",
-    "2 tbsp fresh parsley, chopped",
-    "2 tbsp toasted pine nuts",
-    "1 tsp paprika",
-    "Lemon wedges for serving"
-  ],
+{
+    amount: 1,
+    unit: "medium",
+    name: "cauliflower, cut into florets"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 0.3333333333333333,
+    unit: "cup",
+    name: "tahini"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 1,
+    unit: "garlic",
+    name: "clove, minced"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "water (or more as needed)"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "fresh parsley, chopped"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "toasted pine nuts"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "paprika"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Lemon wedges for serving"
+  }
+],
 
-  instructions: [
+instructions: [
     "Preheat the oven to 425°F (220°C).",
     "Toss the cauliflower florets with olive oil, salt, pepper, and cumin.",
     "Spread evenly on a baking tray.",

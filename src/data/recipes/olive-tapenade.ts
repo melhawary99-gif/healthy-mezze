@@ -33,21 +33,69 @@ export const oliveTapenade: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "1 cup Kalamata olives, pitted",
-    "1/2 cup green olives, pitted",
-    "2 tbsp capers, drained",
-    "2 garlic cloves",
-    "2 tbsp fresh parsley, chopped",
-    "1 tbsp fresh lemon juice",
-    "3 tbsp extra virgin olive oil",
-    "1/2 tsp dried oregano",
-    "1/4 tsp black pepper",
-    "Whole grain crackers for serving",
-    "Fresh cucumber slices (optional)",
-    "Cherry tomatoes (optional)"
-  ],
+{
+    amount: 1,
+    unit: "cup",
+    name: "Kalamata olives, pitted"
+  },
+{
+    amount: 0.5,
+    unit: "cup",
+    name: "green olives, pitted"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "capers, drained"
+  },
+{
+    amount: 2,
+    unit: "garlic",
+    name: "cloves"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "fresh parsley, chopped"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "dried oregano"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Whole grain crackers for serving"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh cucumber slices (optional)"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Cherry tomatoes (optional)"
+  }
+],
 
-  instructions: [
+instructions: [
     "Add the Kalamata olives, green olives, capers, garlic, parsley, lemon juice, oregano, and black pepper to a food processor.",
     "Pulse several times until the mixture is finely chopped but still slightly chunky.",
     "With the processor running, slowly drizzle in the olive oil until combined.",

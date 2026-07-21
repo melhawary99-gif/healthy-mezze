@@ -33,22 +33,74 @@ export const roastedPumpkinSoup: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "1.5 kg pumpkin, peeled and cubed",
-    "2 carrots, sliced",
-    "1 medium onion, quartered",
-    "5 garlic cloves",
-    "3 tbsp extra virgin olive oil",
-    "4 cups vegetable broth",
-    "1 tsp ground cumin",
-    "1/2 tsp ground cinnamon",
-    "1/2 tsp paprika",
-    "1 tsp sea salt",
-    "1/2 tsp black pepper",
-    "2 tbsp chopped fresh parsley",
-    "Roasted pumpkin seeds for garnish (optional)"
-  ],
+{
+    amount: 1.5,
+    unit: "kg",
+    name: "pumpkin, peeled and cubed"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "2 carrots, sliced"
+  },
+{
+    amount: 1,
+    unit: "medium",
+    name: "onion, quartered"
+  },
+{
+    amount: 5,
+    unit: "garlic",
+    name: "cloves"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 4,
+    unit: "cups",
+    name: "vegetable broth"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "ground cinnamon"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "paprika"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped fresh parsley"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Roasted pumpkin seeds for garnish (optional)"
+  }
+],
 
-  instructions: [
+instructions: [
     "Preheat the oven to 200°C (400°F).",
     "Arrange the pumpkin, carrots, onion, and garlic on a baking tray.",
     "Drizzle with olive oil and season with salt and pepper.",

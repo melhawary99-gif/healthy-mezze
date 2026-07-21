@@ -33,14 +33,34 @@ export const authenticArabicCoffee: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "4 cups water",
-    "4 tbsp finely ground Arabic coffee",
-    "1 tsp freshly ground cardamom",
-    "2 whole cardamom pods (optional)",
-    "4 fresh dates for serving (optional)"
-  ],
+{
+    amount: 4,
+    unit: "cups",
+    name: "water"
+  },
+{
+    amount: 4,
+    unit: "tbsp",
+    name: "finely ground Arabic coffee"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "freshly ground cardamom"
+  },
+{
+    amount: 2,
+    unit: "whole",
+    name: "cardamom pods (optional)"
+  },
+{
+    amount: 4,
+    unit: "fresh",
+    name: "dates for serving (optional)"
+  }
+],
 
-  instructions: [
+instructions: [
     "Bring the water to a gentle boil in a traditional coffee pot (dallah) or small saucepan.",
     "Reduce the heat to low.",
     "Add the ground Arabic coffee and stir gently.",

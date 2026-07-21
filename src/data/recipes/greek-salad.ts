@@ -33,19 +33,59 @@ export const greekSalad: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 large tomatoes, chopped",
-    "1 cucumber, sliced",
-    "1 small red onion, thinly sliced",
-    "150 g feta cheese, cubed",
-    "½ cup Kalamata olives",
-    "3 tbsp extra virgin olive oil",
-    "1 tbsp fresh lemon juice",
-    "1 tsp dried oregano",
-    "Salt to taste",
-    "Freshly ground black pepper"
-  ],
+{
+    amount: 2,
+    unit: "large",
+    name: "tomatoes, chopped"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "1 cucumber, sliced"
+  },
+{
+    amount: 1,
+    unit: "small",
+    name: "red onion, thinly sliced"
+  },
+{
+    amount: 150,
+    unit: "g",
+    name: "feta cheese, cubed"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "½ cup Kalamata olives"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "dried oregano"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Salt to taste"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Freshly ground black pepper"
+  }
+],
 
-  instructions: [
+instructions: [
     "Wash all vegetables thoroughly.",
     "Cut the tomatoes into bite-sized pieces.",
     "Slice the cucumber and red onion.",

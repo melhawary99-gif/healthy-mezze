@@ -8,6 +8,8 @@ export const mediterraneanLemonHerbSalmon: Recipe = {
     "A healthy Mediterranean salmon dish prepared with fresh lemon, herbs, olive oil, and colorful vegetables.",
   image: "/images/recipes/mediterranean-lemon-herb-salmon.jpg",
 
+  cuisine: "Mediterranean",
+
   category: "Main Dishes",
 
   prepTime: "10",
@@ -16,19 +18,59 @@ export const mediterraneanLemonHerbSalmon: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "Salmon fillet",
-    "Lemon juice",
-    "Lemon zest",
-    "Garlic",
-    "Olive oil",
-    "Fresh dill",
-    "Fresh parsley",
-    "Cherry tomatoes",
-    "Zucchini",
-    "Black pepper",
-  ],
+{
+    amount: 1,
+    unit: "",
+    name: "Salmon fillet"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Lemon juice"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Lemon zest"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Garlic"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Olive oil"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh dill"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh parsley"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Cherry tomatoes"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Zucchini"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Black pepper"
+  }
+],
 
-  instructions: [
+instructions: [
     "Season salmon with lemon juice, herbs, garlic, and olive oil.",
     "Let the salmon marinate briefly.",
     "Bake or grill salmon until tender.",

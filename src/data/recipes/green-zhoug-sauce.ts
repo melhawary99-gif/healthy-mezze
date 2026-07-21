@@ -33,20 +33,64 @@ export const greenZhougSauce: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 cups fresh cilantro leaves",
-    "1 cup fresh parsley leaves",
-    "2 green chilies, seeded for a milder sauce",
-    "4 garlic cloves",
-    "2 tbsp extra virgin olive oil",
-    "2 tbsp fresh lemon juice",
-    "1 tsp ground cumin",
-    "1 tsp ground coriander",
-    "1/4 tsp ground cardamom",
-    "1/2 tsp sea salt",
-    "2 tbsp cold water (if needed)"
-  ],
+{
+    amount: 2,
+    unit: "cups",
+    name: "fresh cilantro leaves"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "fresh parsley leaves"
+  },
+{
+    amount: 2,
+    unit: "green",
+    name: "chilies, seeded for a milder sauce"
+  },
+{
+    amount: 4,
+    unit: "garlic",
+    name: "cloves"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground coriander"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "ground cardamom"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "cold water (if needed)"
+  }
+],
 
-  instructions: [
+instructions: [
     "Wash and thoroughly dry the cilantro and parsley.",
     "Add the herbs, green chilies, garlic, cumin, coriander, cardamom, lemon juice, olive oil, and salt to a food processor.",
     "Pulse several times until finely chopped.",

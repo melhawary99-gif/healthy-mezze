@@ -33,20 +33,64 @@ export const egyptianMolokhiaSoup: Recipe = {
   difficulty: "Medium",
 
   ingredients: [
-    "500 g frozen or fresh finely chopped molokhia leaves",
-    "6 cups chicken broth",
-    "2 tbsp butter or ghee",
-    "6 cloves garlic, minced",
-    "2 tsp ground coriander",
-    "1 tbsp extra virgin olive oil",
-    "1 tsp sea salt",
-    "1/2 tsp black pepper",
-    "1 tbsp fresh lemon juice (optional)",
-    "Cooked white rice for serving",
-    "Lemon wedges for serving"
-  ],
+{
+    amount: 500,
+    unit: "g",
+    name: "frozen or fresh finely chopped molokhia leaves"
+  },
+{
+    amount: 6,
+    unit: "cups",
+    name: "chicken broth"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "butter or ghee"
+  },
+{
+    amount: 6,
+    unit: "cloves",
+    name: "garlic, minced"
+  },
+{
+    amount: 2,
+    unit: "tsp",
+    name: "ground coriander"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "fresh lemon juice (optional)"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Cooked white rice for serving"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Lemon wedges for serving"
+  }
+],
 
-  instructions: [
+instructions: [
     "Bring the chicken broth to a gentle boil in a large pot.",
     "Add the molokhia leaves and stir continuously.",
     "Reduce the heat and simmer for 8–10 minutes without allowing the soup to boil vigorously.",

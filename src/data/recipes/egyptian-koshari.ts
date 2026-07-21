@@ -33,26 +33,94 @@ export const egyptianKoshari: Recipe = {
   difficulty: "Medium",
 
   ingredients: [
-    "1 cup long-grain rice",
-    "1 cup brown lentils",
-    "1 cup cooked chickpeas",
-    "200 g small pasta (elbow or ditalini)",
-    "2 large onions, thinly sliced",
-    "3 tbsp extra virgin olive oil",
-    "4 garlic cloves, minced",
-    "2 cups tomato puree",
-    "2 tbsp tomato paste",
-    "1 tsp ground cumin",
-    "1 tsp ground coriander",
-    "1/2 tsp paprika",
-    "1/4 tsp crushed red pepper flakes (optional)",
-    "2 tbsp white vinegar",
-    "1 tsp sea salt",
-    "1/2 tsp black pepper",
-    "Fresh parsley for garnish"
-  ],
+{
+    amount: 1,
+    unit: "cup",
+    name: "long-grain rice"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "brown lentils"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "cooked chickpeas"
+  },
+{
+    amount: 200,
+    unit: "g",
+    name: "small pasta (elbow or ditalini)"
+  },
+{
+    amount: 2,
+    unit: "large",
+    name: "onions, thinly sliced"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 4,
+    unit: "garlic",
+    name: "cloves, minced"
+  },
+{
+    amount: 2,
+    unit: "cups",
+    name: "tomato puree"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "tomato paste"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground coriander"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "paprika"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "crushed red pepper flakes (optional)"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "white vinegar"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh parsley for garnish"
+  }
+],
 
-  instructions: [
+instructions: [
     "Cook the lentils until just tender, then drain.",
     "Cook the rice according to package instructions.",
     "Boil the pasta until al dente and drain.",

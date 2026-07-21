@@ -33,25 +33,89 @@ export const whiteBeanSoup: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 tbsp extra virgin olive oil",
-    "1 medium onion, diced",
-    "2 carrots, diced",
-    "2 celery stalks, diced",
-    "4 cloves garlic, minced",
-    "2 cans (400 g each) cannellini beans, drained and rinsed",
-    "4 cups vegetable broth",
-    "1 cup water",
-    "1 tsp dried rosemary",
-    "1 tsp dried thyme",
-    "1 bay leaf",
-    "1 tsp sea salt",
-    "1/2 tsp black pepper",
-    "1 tbsp fresh lemon juice",
-    "2 tbsp chopped fresh parsley",
-    "Extra virgin olive oil for serving"
-  ],
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 1,
+    unit: "medium",
+    name: "onion, diced"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "2 carrots, diced"
+  },
+{
+    amount: 2,
+    unit: "celery",
+    name: "stalks, diced"
+  },
+{
+    amount: 4,
+    unit: "cloves",
+    name: "garlic, minced"
+  },
+{
+    amount: 2,
+    unit: "cans",
+    name: "(400 g each) cannellini beans, drained and rinsed"
+  },
+{
+    amount: 4,
+    unit: "cups",
+    name: "vegetable broth"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "water"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "dried rosemary"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "dried thyme"
+  },
+{
+    amount: 1,
+    unit: "bay",
+    name: "leaf"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped fresh parsley"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Extra virgin olive oil for serving"
+  }
+],
 
-  instructions: [
+instructions: [
     "Heat the olive oil in a large soup pot over medium heat.",
     "Cook the onion, carrots, and celery for 6–8 minutes until softened.",
     "Add the garlic and cook for 1 minute.",

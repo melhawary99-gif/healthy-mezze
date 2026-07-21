@@ -33,22 +33,74 @@ export const bakedHerbFish: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "4 white fish fillets (cod, haddock, sea bass, or halibut)",
-    "3 tbsp extra virgin olive oil",
-    "3 garlic cloves, minced",
-    "1 lemon, juiced",
-    "1 tsp lemon zest",
-    "2 tbsp fresh parsley, chopped",
-    "2 tbsp fresh dill, chopped",
-    "1 tsp dried oregano",
-    "1/2 tsp paprika",
-    "1 tsp sea salt",
-    "1/2 tsp black pepper",
-    "1 lemon, sliced",
-    "Fresh parsley for garnish"
-  ],
+{
+    amount: 4,
+    unit: "white",
+    name: "fish fillets (cod, haddock, sea bass, or halibut)"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 3,
+    unit: "garlic",
+    name: "cloves, minced"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "1 lemon, juiced"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "lemon zest"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "fresh parsley, chopped"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "fresh dill, chopped"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "dried oregano"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "paprika"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "1 lemon, sliced"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh parsley for garnish"
+  }
+],
 
-  instructions: [
+instructions: [
     "Preheat the oven to 200°C (400°F).",
     "Lightly grease a baking dish with olive oil.",
     "Pat the fish fillets dry with paper towels and place them in the dish.",

@@ -8,6 +8,8 @@ export const stuffedMediterraneanEggplant: Recipe = {
     "A flavorful Mediterranean dish featuring roasted eggplant filled with vegetables, herbs, and wholesome grains.",
   image: "/images/recipes/stuffed-mediterranean-eggplant.jpg",
 
+  cuisine: "Mediterranean",
+
   category: "Vegetarian",
 
   prepTime: "20",
@@ -16,19 +18,59 @@ export const stuffedMediterraneanEggplant: Recipe = {
   difficulty: "Medium",
 
   ingredients: [
-    "Eggplant",
-    "Tomatoes",
-    "Onion",
-    "Garlic",
-    "Bell pepper",
-    "Cooked quinoa",
-    "Fresh parsley",
-    "Olive oil",
-    "Lemon juice",
-    "Mediterranean spices",
-  ],
+{
+    amount: 1,
+    unit: "",
+    name: "Eggplant"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Tomatoes"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Onion"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Garlic"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Bell pepper"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Cooked quinoa"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh parsley"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Olive oil"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Lemon juice"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Mediterranean spices"
+  }
+],
 
-  instructions: [
+instructions: [
     "Cut eggplants and prepare them for roasting.",
     "Roast eggplant until soft and tender.",
     "Sauté onion, garlic, and vegetables with olive oil.",

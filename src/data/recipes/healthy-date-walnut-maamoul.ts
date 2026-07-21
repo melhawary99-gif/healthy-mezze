@@ -33,24 +33,84 @@ export const healthyDateWalnutMaamoul: Recipe = {
   difficulty: "Medium",
 
   ingredients: [
-    "2 cups whole wheat flour",
-    "1/2 cup fine semolina",
-    "1 tsp baking powder",
-    "1/4 tsp salt",
-    "1/3 cup extra virgin olive oil",
-    "1/2 cup plain Greek yogurt",
-    "2 tbsp milk",
-    "1 tsp orange blossom water",
-    "1 tsp vanilla extract",
-    "For the filling:",
-    "12 Medjool dates, pitted and finely chopped",
-    "1/3 cup finely chopped walnuts",
-    "1 tsp ground cinnamon",
-    "1/4 tsp ground cardamom",
-    "1 tsp orange blossom water"
-  ],
+{
+    amount: 2,
+    unit: "cups",
+    name: "whole wheat flour"
+  },
+{
+    amount: 0.5,
+    unit: "cup",
+    name: "fine semolina"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "baking powder"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "salt"
+  },
+{
+    amount: 0.3333333333333333,
+    unit: "cup",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 0.5,
+    unit: "cup",
+    name: "plain Greek yogurt"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "milk"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "orange blossom water"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "vanilla extract"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "For the filling:"
+  },
+{
+    amount: 12,
+    unit: "Medjool",
+    name: "dates, pitted and finely chopped"
+  },
+{
+    amount: 0.3333333333333333,
+    unit: "cup",
+    name: "finely chopped walnuts"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cinnamon"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "ground cardamom"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "orange blossom water"
+  }
+],
 
-  instructions: [
+instructions: [
     "Preheat the oven to 350°F (175°C).",
     "Line a baking tray with parchment paper.",
     "Combine the whole wheat flour, semolina, baking powder, and salt in a large bowl.",

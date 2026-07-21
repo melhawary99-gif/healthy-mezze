@@ -33,21 +33,69 @@ export const breakfastPitaLabneh: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 whole wheat pita breads",
-    "1 cup labneh",
-    "1 small cucumber, thinly sliced",
-    "1 medium tomato, sliced",
-    "8 Kalamata olives, sliced",
-    "2 tbsp chopped parsley",
-    "1 tbsp chopped fresh mint",
-    "2 tsp za'atar seasoning",
-    "1 tbsp extra virgin olive oil",
-    "1/4 tsp sea salt",
-    "1/4 tsp black pepper",
-    "Mixed greens (optional)"
-  ],
+{
+    amount: 2,
+    unit: "whole",
+    name: "wheat pita breads"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "labneh"
+  },
+{
+    amount: 1,
+    unit: "small",
+    name: "cucumber, thinly sliced"
+  },
+{
+    amount: 1,
+    unit: "medium",
+    name: "tomato, sliced"
+  },
+{
+    amount: 8,
+    unit: "Kalamata",
+    name: "olives, sliced"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped parsley"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "chopped fresh mint"
+  },
+{
+    amount: 2,
+    unit: "tsp",
+    name: "za'atar seasoning"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Mixed greens (optional)"
+  }
+],
 
-  instructions: [
+instructions: [
     "Warm the pita breads for 2–3 minutes until soft.",
     "Slice each pita open to create a pocket.",
     "Spread the labneh evenly inside each pita.",

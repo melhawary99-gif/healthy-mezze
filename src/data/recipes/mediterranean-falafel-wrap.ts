@@ -8,6 +8,8 @@ export const mediterraneanFalafelWrap: Recipe = {
     "A delicious Mediterranean wrap filled with crispy falafel, fresh vegetables, herbs, and creamy tahini sauce.",
   image: "/images/recipes/mediterranean-falafel-wrap.jpg",
 
+  cuisine: "Mediterranean",
+
   category: "Sandwiches & Wraps",
 
   prepTime: "15",
@@ -16,19 +18,59 @@ export const mediterraneanFalafelWrap: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "Falafel",
-    "Flatbread",
-    "Lettuce",
-    "Tomatoes",
-    "Cucumber",
-    "Red onion",
-    "Fresh parsley",
-    "Tahini sauce",
-    "Lemon juice",
-    "Pickled vegetables",
-  ],
+{
+    amount: 1,
+    unit: "",
+    name: "Falafel"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Flatbread"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Lettuce"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Tomatoes"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Cucumber"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Red onion"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh parsley"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Tahini sauce"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Lemon juice"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Pickled vegetables"
+  }
+],
 
-  instructions: [
+instructions: [
     "Prepare fresh vegetables and herbs.",
     "Warm flatbread slightly.",
     "Add falafel and vegetables to the bread.",

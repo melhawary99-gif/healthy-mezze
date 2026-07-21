@@ -33,25 +33,89 @@ export const redLentilSoup: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 cups red lentils, rinsed",
-    "1 large onion, chopped",
-    "2 carrots, diced",
-    "2 celery stalks, diced",
-    "3 cloves garlic, minced",
-    "2 tbsp extra virgin olive oil",
-    "1 tsp ground cumin",
-    "1 tsp ground turmeric",
-    "1/2 tsp ground coriander",
-    "1/4 tsp paprika",
-    "6 cups vegetable broth",
-    "1 tbsp fresh lemon juice",
-    "1 tsp sea salt",
-    "1/2 tsp black pepper",
-    "Fresh parsley for garnish",
-    "Lemon wedges for serving"
-  ],
+{
+    amount: 2,
+    unit: "cups",
+    name: "red lentils, rinsed"
+  },
+{
+    amount: 1,
+    unit: "large",
+    name: "onion, chopped"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "2 carrots, diced"
+  },
+{
+    amount: 2,
+    unit: "celery",
+    name: "stalks, diced"
+  },
+{
+    amount: 3,
+    unit: "cloves",
+    name: "garlic, minced"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground turmeric"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "ground coriander"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "paprika"
+  },
+{
+    amount: 6,
+    unit: "cups",
+    name: "vegetable broth"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh parsley for garnish"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Lemon wedges for serving"
+  }
+],
 
-  instructions: [
+instructions: [
     "Heat the olive oil in a large soup pot over medium heat.",
     "Add the onion, carrots, and celery. Cook for 6–8 minutes until softened.",
     "Stir in the garlic and cook for 1 minute.",

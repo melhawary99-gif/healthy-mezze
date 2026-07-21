@@ -33,20 +33,64 @@ export const roastedChickpeas: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 cans (15 oz each) chickpeas, drained and rinsed",
-    "2 tbsp extra virgin olive oil",
-    "1 tsp smoked paprika",
-    "1 tsp garlic powder",
-    "1 tsp dried oregano",
-    "1/2 tsp ground cumin",
-    "1/2 tsp onion powder",
-    "1/2 tsp sea salt",
-    "1/4 tsp black pepper",
-    "1/4 tsp cayenne pepper (optional)",
-    "1 tbsp chopped fresh parsley for garnish"
-  ],
+{
+    amount: 2,
+    unit: "cans",
+    name: "(15 oz each) chickpeas, drained and rinsed"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "smoked paprika"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "garlic powder"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "dried oregano"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "onion powder"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "cayenne pepper (optional)"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "chopped fresh parsley for garnish"
+  }
+],
 
-  instructions: [
+instructions: [
     "Preheat the oven to 400°F (200°C).",
     "Drain, rinse, and thoroughly pat the chickpeas dry using paper towels.",
     "Remove any loose skins for extra crispiness.",

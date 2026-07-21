@@ -8,6 +8,8 @@ export const baklavaYogurtParfait: Recipe = {
     "A healthier Mediterranean-inspired dessert combining creamy Greek yogurt, nuts, honey, and warm baklava flavors.",
   image: "/images/recipes/baklava-yogurt-parfait.jpg",
 
+  cuisine: "Middle Eastern",
+
   category: "Desserts",
 
   prepTime: "10",
@@ -16,18 +18,54 @@ export const baklavaYogurtParfait: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "Greek yogurt",
-    "Walnuts",
-    "Pistachios",
-    "Honey",
-    "Cinnamon",
-    "Dates",
-    "Fresh berries",
-    "Vanilla extract",
-    "Crushed almonds",
-  ],
+{
+    amount: 1,
+    unit: "",
+    name: "Greek yogurt"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Walnuts"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Pistachios"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Honey"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Cinnamon"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Dates"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh berries"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Vanilla extract"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Crushed almonds"
+  }
+],
 
-  instructions: [
+instructions: [
     "Mix Greek yogurt with vanilla extract.",
     "Layer yogurt with nuts, dates, and berries.",
     "Add honey and cinnamon.",

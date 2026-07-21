@@ -33,22 +33,74 @@ export const lentilSalad: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "1 cup dried green lentils",
-    "1 cucumber, diced",
-    "2 tomatoes, diced",
-    "¼ red onion, finely chopped",
-    "½ cup chopped parsley",
-    "2 tbsp chopped fresh mint",
-    "½ cup crumbled feta cheese",
-    "3 tbsp extra virgin olive oil",
-    "2 tbsp fresh lemon juice",
-    "1 tsp Dijon mustard",
-    "½ tsp ground cumin",
-    "Salt to taste",
-    "Black pepper to taste"
-  ],
+{
+    amount: 1,
+    unit: "cup",
+    name: "dried green lentils"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "1 cucumber, diced"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "2 tomatoes, diced"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "¼ red onion, finely chopped"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "½ cup chopped parsley"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped fresh mint"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "½ cup crumbled feta cheese"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "Dijon mustard"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "½ tsp ground cumin"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Salt to taste"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Black pepper to taste"
+  }
+],
 
-  instructions: [
+instructions: [
     "Rinse the lentils thoroughly.",
     "Cook the lentils in lightly salted water until tender but not mushy, about 20–25 minutes.",
     "Drain the lentils and allow them to cool completely.",

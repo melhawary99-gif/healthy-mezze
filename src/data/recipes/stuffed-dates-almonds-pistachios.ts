@@ -33,17 +33,49 @@ export const stuffedDatesAlmondsPistachios: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "12 Medjool dates",
-    "12 whole roasted almonds",
-    "2 tbsp chopped pistachios",
-    "2 oz soft goat cheese (optional)",
-    "2 tsp honey",
-    "1 tsp toasted sesame seeds",
-    "1/2 tsp ground cinnamon (optional)",
-    "Fresh mint leaves for garnish"
-  ],
+{
+    amount: 12,
+    unit: "Medjool",
+    name: "dates"
+  },
+{
+    amount: 12,
+    unit: "whole",
+    name: "roasted almonds"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped pistachios"
+  },
+{
+    amount: 2,
+    unit: "oz",
+    name: "soft goat cheese (optional)"
+  },
+{
+    amount: 2,
+    unit: "tsp",
+    name: "honey"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "toasted sesame seeds"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "ground cinnamon (optional)"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh mint leaves for garnish"
+  }
+],
 
-  instructions: [
+instructions: [
     "Slice each date lengthwise without cutting all the way through.",
     "Remove the pits carefully.",
     "If using goat cheese, spread a small amount inside each date.",

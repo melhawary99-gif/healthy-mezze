@@ -33,19 +33,59 @@ export const beetrootSalad: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "4 medium beetroots",
-    "½ cup crumbled feta cheese",
-    "⅓ cup chopped walnuts",
-    "¼ cup chopped fresh parsley",
-    "2 tbsp chopped fresh mint",
-    "3 tbsp extra virgin olive oil",
-    "2 tbsp fresh lemon juice",
-    "1 tsp honey",
-    "½ tsp salt",
-    "¼ tsp black pepper"
-  ],
+{
+    amount: 4,
+    unit: "medium",
+    name: "beetroots"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "½ cup crumbled feta cheese"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "⅓ cup chopped walnuts"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "¼ cup chopped fresh parsley"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped fresh mint"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "honey"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "½ tsp salt"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "¼ tsp black pepper"
+  }
+],
 
-  instructions: [
+instructions: [
     "Preheat the oven to 200°C (400°F).",
     "Wrap each beetroot in aluminum foil.",
     "Roast for 40–45 minutes until fork tender.",

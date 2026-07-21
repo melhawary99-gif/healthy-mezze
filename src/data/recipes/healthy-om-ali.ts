@@ -33,21 +33,69 @@ export const healthyOmAli: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "5 sheets whole wheat puff pastry, baked and broken into pieces",
-    "4 cups low-fat milk",
-    "2 tbsp honey",
-    "5 Medjool dates, chopped",
-    "1/4 cup raisins",
-    "1/4 cup chopped almonds",
-    "1/4 cup chopped pistachios",
-    "2 tbsp chopped walnuts",
-    "1 tsp vanilla extract",
-    "1 tsp ground cinnamon",
-    "1/4 tsp ground cardamom",
-    "1 tbsp unsweetened shredded coconut (optional)"
-  ],
+{
+    amount: 5,
+    unit: "sheets",
+    name: "whole wheat puff pastry, baked and broken into pieces"
+  },
+{
+    amount: 4,
+    unit: "cups",
+    name: "low-fat milk"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "honey"
+  },
+{
+    amount: 5,
+    unit: "Medjool",
+    name: "dates, chopped"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "raisins"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "chopped almonds"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "chopped pistachios"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped walnuts"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "vanilla extract"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cinnamon"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "ground cardamom"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "unsweetened shredded coconut (optional)"
+  }
+],
 
-  instructions: [
+instructions: [
     "Preheat the oven to 375°F (190°C).",
     "Bake the puff pastry according to package directions until golden.",
     "Break the baked pastry into bite-sized pieces and place them in a baking dish.",

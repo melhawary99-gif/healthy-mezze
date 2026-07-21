@@ -33,20 +33,64 @@ export const makdous: Recipe = {
   difficulty: "Medium",
 
   ingredients: [
-    "12 baby eggplants",
-    "1 cup walnuts, finely chopped",
-    "3 garlic cloves, minced",
-    "1/4 cup fresh parsley, finely chopped",
-    "1 tbsp pomegranate molasses",
-    "1 tbsp extra virgin olive oil",
-    "1 tsp ground cumin",
-    "1/2 tsp Aleppo pepper or mild chili flakes",
-    "1/2 tsp sea salt",
-    "1/4 tsp black pepper",
-    "Extra parsley for garnish"
-  ],
+{
+    amount: 12,
+    unit: "baby",
+    name: "eggplants"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "walnuts, finely chopped"
+  },
+{
+    amount: 3,
+    unit: "garlic",
+    name: "cloves, minced"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "fresh parsley, finely chopped"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "pomegranate molasses"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "Aleppo pepper or mild chili flakes"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Extra parsley for garnish"
+  }
+],
 
-  instructions: [
+instructions: [
     "Trim the stems of the baby eggplants, leaving the tops intact.",
     "Boil the eggplants for 15–20 minutes until just tender.",
     "Drain well and allow them to cool completely.",

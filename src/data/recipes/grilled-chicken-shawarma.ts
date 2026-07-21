@@ -33,24 +33,84 @@ export const grilledChickenShawarma: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "1.5 kg boneless skinless chicken thighs",
-    "3 tbsp plain Greek yogurt",
-    "3 tbsp extra virgin olive oil",
-    "Juice of 2 lemons",
-    "6 garlic cloves, minced",
-    "2 tsp ground cumin",
-    "2 tsp paprika",
-    "1 tsp ground coriander",
-    "1 tsp turmeric",
-    "1 tsp ground cinnamon",
-    "1 tsp ground allspice",
-    "1/2 tsp cayenne pepper (optional)",
-    "2 tsp sea salt",
-    "1 tsp black pepper",
-    "Fresh parsley for garnish"
-  ],
+{
+    amount: 1.5,
+    unit: "kg",
+    name: "boneless skinless chicken thighs"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "plain Greek yogurt"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Juice of 2 lemons"
+  },
+{
+    amount: 6,
+    unit: "garlic",
+    name: "cloves, minced"
+  },
+{
+    amount: 2,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 2,
+    unit: "tsp",
+    name: "paprika"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground coriander"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "turmeric"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cinnamon"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground allspice"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "cayenne pepper (optional)"
+  },
+{
+    amount: 2,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh parsley for garnish"
+  }
+],
 
-  instructions: [
+instructions: [
     "In a large bowl, combine the yogurt, olive oil, lemon juice, garlic, and all the spices.",
     "Add the chicken and coat thoroughly with the marinade.",
     "Cover and refrigerate for at least 8 hours, preferably overnight.",

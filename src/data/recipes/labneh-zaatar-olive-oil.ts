@@ -33,19 +33,59 @@ export const labnehZaatarOliveOil: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 cups labneh",
-    "2 tbsp extra virgin olive oil",
-    "2 tbsp za'atar seasoning",
-    "1 tbsp chopped fresh mint",
-    "1 tbsp chopped parsley",
-    "1/2 tsp sumac (optional)",
-    "Fresh cucumber slices",
-    "Cherry tomatoes",
-    "Mixed olives",
-    "Warm whole wheat pita bread"
-  ],
+{
+    amount: 2,
+    unit: "cups",
+    name: "labneh"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "za'atar seasoning"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "chopped fresh mint"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "chopped parsley"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "sumac (optional)"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh cucumber slices"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Cherry tomatoes"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Mixed olives"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Warm whole wheat pita bread"
+  }
+],
 
-  instructions: [
+instructions: [
     "Spread the labneh evenly onto a large serving plate or shallow bowl.",
     "Using the back of a spoon, create gentle swirls across the surface.",
     "Drizzle generously with extra virgin olive oil.",

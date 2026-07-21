@@ -33,18 +33,54 @@ export const cucumberYogurtSalad: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 medium cucumbers, diced",
-    "1½ cups plain Greek yogurt",
-    "2 cloves garlic, minced",
-    "2 tbsp chopped fresh dill",
-    "2 tbsp chopped fresh mint",
-    "1 tbsp fresh lemon juice",
-    "1 tbsp extra virgin olive oil",
-    "½ tsp salt",
-    "¼ tsp black pepper"
-  ],
+{
+    amount: 2,
+    unit: "medium",
+    name: "cucumbers, diced"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "1½ cups plain Greek yogurt"
+  },
+{
+    amount: 2,
+    unit: "cloves",
+    name: "garlic, minced"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped fresh dill"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped fresh mint"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "½ tsp salt"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "¼ tsp black pepper"
+  }
+],
 
-  instructions: [
+instructions: [
     "Dice the cucumbers into small bite-sized pieces.",
     "Pat the cucumbers dry with paper towels to remove excess moisture.",
     "In a large bowl, combine the Greek yogurt, garlic, lemon juice, olive oil, salt, and pepper.",

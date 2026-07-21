@@ -33,21 +33,69 @@ export const harissaYogurtSauce: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "1 1/2 cups plain Greek yogurt",
-    "2 tbsp harissa paste",
-    "1 garlic clove, finely minced",
-    "1 tbsp fresh lemon juice",
-    "1 tbsp extra virgin olive oil",
-    "1 tbsp chopped fresh parsley",
-    "1 tsp chopped fresh mint",
-    "1/4 tsp ground cumin",
-    "1/4 tsp smoked paprika",
-    "1/2 tsp sea salt",
-    "Fresh parsley for garnish",
-    "Extra olive oil for drizzling"
-  ],
+{
+    amount: 1,
+    unit: "",
+    name: "1 1/2 cups plain Greek yogurt"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "harissa paste"
+  },
+{
+    amount: 1,
+    unit: "garlic",
+    name: "clove, finely minced"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "chopped fresh parsley"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "chopped fresh mint"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "smoked paprika"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh parsley for garnish"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Extra olive oil for drizzling"
+  }
+],
 
-  instructions: [
+instructions: [
     "Place the Greek yogurt in a medium bowl.",
     "Add the harissa paste, garlic, lemon juice, olive oil, parsley, mint, cumin, paprika, and salt.",
     "Whisk until completely smooth and well combined.",

@@ -33,20 +33,64 @@ export const healthyRozBelLaban: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "3/4 cup short-grain rice",
-    "4 cups low-fat milk",
-    "2 tbsp honey",
-    "1 tbsp maple syrup (optional)",
-    "1 tsp vanilla extract",
-    "1 tsp ground cinnamon",
-    "1 tbsp cornstarch",
-    "2 tbsp cold water",
-    "2 tbsp chopped pistachios",
-    "1 tbsp sliced almonds",
-    "Fresh mint leaves for garnish"
-  ],
+{
+    amount: 0.75,
+    unit: "cup",
+    name: "short-grain rice"
+  },
+{
+    amount: 4,
+    unit: "cups",
+    name: "low-fat milk"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "honey"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "maple syrup (optional)"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "vanilla extract"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cinnamon"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "cornstarch"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "cold water"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped pistachios"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "sliced almonds"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh mint leaves for garnish"
+  }
+],
 
-  instructions: [
+instructions: [
     "Rinse the rice under cold water.",
     "In a saucepan, combine the rice and milk.",
     "Bring to a gentle simmer over medium heat.",

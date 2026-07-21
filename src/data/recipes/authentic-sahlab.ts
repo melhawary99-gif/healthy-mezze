@@ -33,18 +33,54 @@ export const authenticSahlab: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "4 cups low-fat milk",
-    "3 tbsp sahlab powder",
-    "2 tbsp honey",
-    "1 tsp orange blossom water",
-    "1/2 tsp vanilla extract",
-    "2 tbsp chopped pistachios",
-    "2 tbsp unsweetened shredded coconut",
-    "1 tsp ground cinnamon",
-    "Ground cinnamon for garnish"
-  ],
+{
+    amount: 4,
+    unit: "cups",
+    name: "low-fat milk"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "sahlab powder"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "honey"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "orange blossom water"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "vanilla extract"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped pistachios"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "unsweetened shredded coconut"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cinnamon"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Ground cinnamon for garnish"
+  }
+],
 
-  instructions: [
+instructions: [
     "In a saucepan, whisk together the cold milk and sahlab powder until completely smooth.",
     "Place over medium heat and stir constantly.",
     "Cook until the mixture thickens to a creamy consistency, about 8–10 minutes.",

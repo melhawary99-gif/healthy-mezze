@@ -33,20 +33,64 @@ export const classicHummus: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 cans (15 oz each) chickpeas, drained and rinsed",
-    "1/3 cup tahini",
-    "3 tbsp fresh lemon juice",
-    "2 garlic cloves",
-    "2 tbsp extra virgin olive oil, plus extra for serving",
-    "1/2 tsp ground cumin",
-    "1/2 tsp sea salt",
-    "3–5 tbsp cold water",
-    "1 tbsp chopped fresh parsley",
-    "1/4 tsp smoked paprika",
-    "Whole chickpeas for garnish (optional)"
-  ],
+{
+    amount: 2,
+    unit: "cans",
+    name: "(15 oz each) chickpeas, drained and rinsed"
+  },
+{
+    amount: 0.3333333333333333,
+    unit: "cup",
+    name: "tahini"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 2,
+    unit: "garlic",
+    name: "cloves"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "extra virgin olive oil, plus extra for serving"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "3–5 tbsp cold water"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "chopped fresh parsley"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "smoked paprika"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Whole chickpeas for garnish (optional)"
+  }
+],
 
-  instructions: [
+instructions: [
     "Drain and rinse the chickpeas thoroughly.",
     "Add the chickpeas, tahini, lemon juice, garlic, olive oil, cumin, and salt to a food processor.",
     "Blend until smooth.",

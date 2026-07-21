@@ -33,21 +33,69 @@ export const healthyPistachioBaklavaRolls: Recipe = {
   difficulty: "Medium",
 
   ingredients: [
-    "12 sheets whole wheat phyllo pastry",
-    "1/3 cup extra virgin olive oil",
-    "1 cup finely chopped pistachios",
-    "1/2 cup finely chopped walnuts",
-    "1 tsp ground cinnamon",
-    "1/4 tsp ground cardamom",
-    "For the syrup:",
-    "3 tbsp honey",
-    "3 tbsp water",
-    "1 tsp fresh lemon juice",
-    "1 tsp orange blossom water",
-    "Extra chopped pistachios for garnish"
-  ],
+{
+    amount: 12,
+    unit: "sheets",
+    name: "whole wheat phyllo pastry"
+  },
+{
+    amount: 0.3333333333333333,
+    unit: "cup",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "finely chopped pistachios"
+  },
+{
+    amount: 0.5,
+    unit: "cup",
+    name: "finely chopped walnuts"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cinnamon"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "ground cardamom"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "For the syrup:"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "honey"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "water"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "orange blossom water"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Extra chopped pistachios for garnish"
+  }
+],
 
-  instructions: [
+instructions: [
     "Preheat the oven to 350°F (175°C).",
     "Line a baking tray with parchment paper.",
     "Mix the pistachios, walnuts, cinnamon, and cardamom in a bowl.",

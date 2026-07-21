@@ -33,20 +33,64 @@ export const grilledShrimpGarlicLemon: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "500 g large shrimp, peeled and deveined",
-    "2 tbsp extra virgin olive oil",
-    "3 garlic cloves, minced",
-    "2 tbsp fresh lemon juice",
-    "2 tbsp fresh parsley, chopped",
-    "1 tsp ground cumin",
-    "1 tsp paprika",
-    "1/2 tsp black pepper",
-    "1/2 tsp sea salt",
-    "1/4 tsp crushed red pepper flakes (optional)",
-    "Lemon wedges for serving"
-  ],
+{
+    amount: 500,
+    unit: "g",
+    name: "large shrimp, peeled and deveined"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 3,
+    unit: "garlic",
+    name: "cloves, minced"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "fresh parsley, chopped"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "paprika"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "crushed red pepper flakes (optional)"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Lemon wedges for serving"
+  }
+],
 
-  instructions: [
+instructions: [
     "Pat the shrimp dry with paper towels.",
     "In a bowl, whisk together olive oil, garlic, lemon juice, parsley, cumin, paprika, salt, black pepper, and red pepper flakes.",
     "Add the shrimp and toss until evenly coated.",

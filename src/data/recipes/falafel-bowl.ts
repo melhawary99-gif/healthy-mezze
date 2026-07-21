@@ -8,6 +8,8 @@ export const falafelBowl: Recipe = {
     "A nourishing bowl with crispy falafel, fresh vegetables, and Mediterranean flavors.",
   image: "/images/recipes/falafel-bowl.jpg",
 
+  cuisine: "Lebanese",
+
   category: "Vegetarian",
 
   prepTime: "20",
@@ -16,14 +18,34 @@ export const falafelBowl: Recipe = {
   difficulty: "Medium",
 
   ingredients: [
-    "Falafel",
-    "Mixed greens",
-    "Tomatoes",
-    "Hummus",
-    "Tahini sauce",
-  ],
+{
+    amount: 1,
+    unit: "",
+    name: "Falafel"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Mixed greens"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Tomatoes"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Hummus"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Tahini sauce"
+  }
+],
 
-  instructions: [
+instructions: [
     "Prepare fresh vegetables.",
     "Cook or warm falafel.",
     "Arrange ingredients in a bowl.",

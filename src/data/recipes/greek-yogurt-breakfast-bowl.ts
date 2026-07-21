@@ -33,20 +33,64 @@ export const greekYogurtBreakfastBowl: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 cups plain Greek yogurt",
-    "1 banana, sliced",
-    "1/2 cup fresh strawberries, sliced",
-    "1/2 cup blueberries",
-    "2 tbsp chopped walnuts",
-    "2 tbsp sliced almonds",
-    "1 tbsp chia seeds",
-    "1 tbsp pumpkin seeds",
-    "2 tsp honey",
-    "1 tsp ground cinnamon",
-    "Fresh mint leaves for garnish (optional)"
-  ],
+{
+    amount: 2,
+    unit: "cups",
+    name: "plain Greek yogurt"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "1 banana, sliced"
+  },
+{
+    amount: 0.5,
+    unit: "cup",
+    name: "fresh strawberries, sliced"
+  },
+{
+    amount: 0.5,
+    unit: "cup",
+    name: "blueberries"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped walnuts"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "sliced almonds"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "chia seeds"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "pumpkin seeds"
+  },
+{
+    amount: 2,
+    unit: "tsp",
+    name: "honey"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cinnamon"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh mint leaves for garnish (optional)"
+  }
+],
 
-  instructions: [
+instructions: [
     "Divide the Greek yogurt evenly between two serving bowls.",
     "Arrange the banana slices, strawberries, and blueberries over the yogurt.",
     "Sprinkle the walnuts, almonds, chia seeds, and pumpkin seeds evenly on top.",

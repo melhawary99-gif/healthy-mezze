@@ -33,21 +33,69 @@ export const authenticChermoulaSauce: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "1 cup fresh cilantro leaves",
-    "1 cup fresh parsley leaves",
-    "4 garlic cloves",
-    "1 tsp ground cumin",
-    "1 tsp ground coriander",
-    "1 tsp sweet paprika",
-    "1/4 tsp cayenne pepper (optional)",
-    "1/2 tsp sea salt",
-    "1/4 tsp black pepper",
-    "1/4 cup extra virgin olive oil",
-    "2 tbsp fresh lemon juice",
-    "1 tsp lemon zest"
-  ],
+{
+    amount: 1,
+    unit: "cup",
+    name: "fresh cilantro leaves"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "fresh parsley leaves"
+  },
+{
+    amount: 4,
+    unit: "garlic",
+    name: "cloves"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground coriander"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "sweet paprika"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "cayenne pepper (optional)"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "lemon zest"
+  }
+],
 
-  instructions: [
+instructions: [
     "Wash and thoroughly dry the cilantro and parsley.",
     "Add the herbs, garlic, cumin, coriander, paprika, cayenne, salt, and black pepper to a food processor.",
     "Pulse several times until finely chopped.",

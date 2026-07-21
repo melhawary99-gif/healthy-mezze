@@ -33,25 +33,89 @@ export const stuffedEggplant: Recipe = {
   difficulty: "Medium",
 
   ingredients: [
-    "2 large eggplants",
-    "400 g lean ground beef",
-    "1 medium onion, finely diced",
-    "3 garlic cloves, minced",
-    "2 medium tomatoes, diced",
-    "2 tbsp tomato paste",
-    "2 tbsp extra virgin olive oil",
-    "1 tsp ground cumin",
-    "1 tsp paprika",
-    "1/2 tsp ground cinnamon",
-    "1/2 tsp dried oregano",
-    "1 tsp sea salt",
-    "1/2 tsp black pepper",
-    "1/4 cup chopped fresh parsley",
-    "2 tbsp chopped fresh mint (optional)",
-    "1/2 cup low-sodium beef or vegetable broth"
-  ],
+{
+    amount: 2,
+    unit: "large",
+    name: "eggplants"
+  },
+{
+    amount: 400,
+    unit: "g",
+    name: "lean ground beef"
+  },
+{
+    amount: 1,
+    unit: "medium",
+    name: "onion, finely diced"
+  },
+{
+    amount: 3,
+    unit: "garlic",
+    name: "cloves, minced"
+  },
+{
+    amount: 2,
+    unit: "medium",
+    name: "tomatoes, diced"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "tomato paste"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "paprika"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "ground cinnamon"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "dried oregano"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "chopped fresh parsley"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped fresh mint (optional)"
+  },
+{
+    amount: 0.5,
+    unit: "cup",
+    name: "low-sodium beef or vegetable broth"
+  }
+],
 
-  instructions: [
+instructions: [
     "Preheat the oven to 200°C (400°F).",
     "Slice the eggplants in half lengthwise and score the flesh in a crisscross pattern without cutting through the skin.",
     "Brush the cut sides with 1 tablespoon of olive oil and roast for 25 minutes until softened.",

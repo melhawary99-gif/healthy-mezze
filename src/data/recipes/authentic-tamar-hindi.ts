@@ -33,17 +33,49 @@ export const authenticTamarHindi: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "1 cup tamarind pulp (seedless)",
-    "6 cups water",
-    "3 tbsp honey",
-    "1 tbsp fresh lemon juice",
-    "1 tsp orange blossom water (optional)",
-    "Ice cubes",
-    "Fresh mint leaves for garnish",
-    "Lemon slices for garnish"
-  ],
+{
+    amount: 1,
+    unit: "cup",
+    name: "tamarind pulp (seedless)"
+  },
+{
+    amount: 6,
+    unit: "cups",
+    name: "water"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "honey"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "orange blossom water (optional)"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Ice cubes"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh mint leaves for garnish"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Lemon slices for garnish"
+  }
+],
 
-  instructions: [
+instructions: [
     "Place the tamarind pulp in a saucepan with the water.",
     "Bring to a gentle boil, then reduce the heat and simmer for 10 minutes.",
     "Remove from the heat and allow the mixture to steep for another 10 minutes.",

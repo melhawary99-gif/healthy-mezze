@@ -33,27 +33,99 @@ export const mediterraneanVegetableBake: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 medium zucchini, sliced",
-    "1 medium eggplant, cubed",
-    "2 bell peppers, chopped",
-    "1 large onion, sliced",
-    "3 garlic cloves, minced",
-    "2 cups cherry tomatoes",
-    "1 can (400 g) chickpeas, drained and rinsed",
-    "2 tbsp tomato paste",
-    "2 tbsp extra virgin olive oil",
-    "1 tsp dried oregano",
-    "1 tsp dried thyme",
-    "1 tsp paprika",
-    "1/2 tsp ground cumin",
-    "1 tsp sea salt",
-    "1/2 tsp black pepper",
-    "1/2 cup low-sodium vegetable broth",
-    "1/4 cup chopped fresh parsley",
-    "2 tbsp chopped fresh basil"
-  ],
+{
+    amount: 2,
+    unit: "medium",
+    name: "zucchini, sliced"
+  },
+{
+    amount: 1,
+    unit: "medium",
+    name: "eggplant, cubed"
+  },
+{
+    amount: 2,
+    unit: "bell",
+    name: "peppers, chopped"
+  },
+{
+    amount: 1,
+    unit: "large",
+    name: "onion, sliced"
+  },
+{
+    amount: 3,
+    unit: "garlic",
+    name: "cloves, minced"
+  },
+{
+    amount: 2,
+    unit: "cups",
+    name: "cherry tomatoes"
+  },
+{
+    amount: 1,
+    unit: "can",
+    name: "(400 g) chickpeas, drained and rinsed"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "tomato paste"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "dried oregano"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "dried thyme"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "paprika"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 0.5,
+    unit: "cup",
+    name: "low-sodium vegetable broth"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "chopped fresh parsley"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped fresh basil"
+  }
+],
 
-  instructions: [
+instructions: [
     "Preheat the oven to 200°C (400°F).",
     "Lightly grease a large baking dish with olive oil.",
     "Arrange the zucchini, eggplant, bell peppers, onion, tomatoes, and chickpeas evenly in the dish.",

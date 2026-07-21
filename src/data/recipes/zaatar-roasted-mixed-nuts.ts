@@ -33,21 +33,69 @@ export const zaatarRoastedMixedNuts: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "1 cup raw almonds",
-    "1 cup raw walnuts",
-    "1 cup raw pistachios",
-    "1 cup raw unsalted cashews",
-    "2 tbsp extra virgin olive oil",
-    "2 tsp za'atar seasoning",
-    "1 tsp smoked paprika",
-    "1/2 tsp garlic powder",
-    "1 tbsp sesame seeds",
-    "1/2 tsp sea salt",
-    "1/4 tsp black pepper",
-    "1 tsp chopped fresh thyme (optional)"
-  ],
+{
+    amount: 1,
+    unit: "cup",
+    name: "raw almonds"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "raw walnuts"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "raw pistachios"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "raw unsalted cashews"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 2,
+    unit: "tsp",
+    name: "za'atar seasoning"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "smoked paprika"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "garlic powder"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "sesame seeds"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "chopped fresh thyme (optional)"
+  }
+],
 
-  instructions: [
+instructions: [
     "Preheat the oven to 325°F (165°C).",
     "Line a baking sheet with parchment paper.",
     "Combine the almonds, walnuts, pistachios, and cashews in a large mixing bowl.",

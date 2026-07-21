@@ -33,24 +33,84 @@ export const spinachLentilSoup: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 tbsp extra virgin olive oil",
-    "1 medium onion, diced",
-    "2 carrots, diced",
-    "2 celery stalks, diced",
-    "3 garlic cloves, minced",
-    "1 cup red lentils, rinsed",
-    "5 cups vegetable broth",
-    "2 cups fresh spinach, chopped",
-    "1 tsp ground cumin",
-    "1/2 tsp ground coriander",
-    "1/2 tsp turmeric",
-    "1 tsp sea salt",
-    "1/2 tsp black pepper",
-    "1 tbsp fresh lemon juice",
-    "2 tbsp chopped fresh parsley"
-  ],
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 1,
+    unit: "medium",
+    name: "onion, diced"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "2 carrots, diced"
+  },
+{
+    amount: 2,
+    unit: "celery",
+    name: "stalks, diced"
+  },
+{
+    amount: 3,
+    unit: "garlic",
+    name: "cloves, minced"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "red lentils, rinsed"
+  },
+{
+    amount: 5,
+    unit: "cups",
+    name: "vegetable broth"
+  },
+{
+    amount: 2,
+    unit: "cups",
+    name: "fresh spinach, chopped"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "ground coriander"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "turmeric"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped fresh parsley"
+  }
+],
 
-  instructions: [
+instructions: [
     "Heat the olive oil in a large soup pot over medium heat.",
     "Cook the onion, carrots, and celery for 6–8 minutes until softened.",
     "Add the garlic and cook for 1 minute.",

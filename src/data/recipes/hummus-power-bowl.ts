@@ -8,6 +8,8 @@ export const hummusPowerBowl: Recipe = {
     "A nourishing vegan bowl with creamy hummus, fresh vegetables, grains, and Mediterranean flavors.",
   image: "/images/recipes/hummus-power-bowl.jpg",
 
+  cuisine: "Mediterranean",
+
   category: "Vegan",
 
   prepTime: "20",
@@ -16,19 +18,59 @@ export const hummusPowerBowl: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "Hummus",
-    "Chickpeas",
-    "Quinoa",
-    "Cucumber",
-    "Cherry tomatoes",
-    "Roasted vegetables",
-    "Fresh parsley",
-    "Lemon juice",
-    "Extra virgin olive oil",
-    "Sesame seeds",
-  ],
+{
+    amount: 1,
+    unit: "",
+    name: "Hummus"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Chickpeas"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Quinoa"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Cucumber"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Cherry tomatoes"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Roasted vegetables"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh parsley"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Lemon juice"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Extra virgin olive oil"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Sesame seeds"
+  }
+],
 
-  instructions: [
+instructions: [
     "Prepare quinoa and roasted vegetables.",
     "Arrange hummus, chickpeas, vegetables, and quinoa in a bowl.",
     "Add lemon juice and olive oil dressing.",

@@ -33,17 +33,49 @@ export const classicTahiniSauce: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "1/2 cup tahini",
-    "1/4 cup fresh lemon juice",
-    "2 garlic cloves, finely minced",
-    "3–5 tbsp cold water",
-    "1 tbsp extra virgin olive oil",
-    "2 tbsp fresh parsley, finely chopped",
-    "1/2 tsp sea salt",
-    "1/4 tsp ground cumin (optional)"
-  ],
+{
+    amount: 0.5,
+    unit: "cup",
+    name: "tahini"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 2,
+    unit: "garlic",
+    name: "cloves, finely minced"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "3–5 tbsp cold water"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "fresh parsley, finely chopped"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "ground cumin (optional)"
+  }
+],
 
-  instructions: [
+instructions: [
     "Add the tahini to a medium mixing bowl.",
     "Whisk in the lemon juice until the mixture thickens.",
     "Add the minced garlic and sea salt.",

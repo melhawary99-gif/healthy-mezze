@@ -33,28 +33,104 @@ export const vegetableMoussaka: Recipe = {
   difficulty: "Medium",
 
   ingredients: [
-    "2 medium eggplants, sliced",
-    "2 zucchini, sliced",
-    "2 potatoes, thinly sliced",
-    "2 tbsp olive oil",
-    "1 onion, diced",
-    "3 garlic cloves, minced",
-    "400 g crushed tomatoes",
-    "2 tbsp tomato paste",
-    "1 tsp dried oregano",
-    "1 tsp ground cinnamon",
-    "1/2 tsp paprika",
-    "Salt and black pepper to taste",
-    "2 tbsp chopped parsley",
-    "2 tbsp butter",
-    "2 tbsp all-purpose flour",
-    "2 cups milk",
-    "1/4 cup grated Parmesan cheese",
-    "1 egg",
-    "Pinch of nutmeg"
-  ],
+{
+    amount: 2,
+    unit: "medium",
+    name: "eggplants, sliced"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "2 zucchini, sliced"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "2 potatoes, thinly sliced"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "olive oil"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "1 onion, diced"
+  },
+{
+    amount: 3,
+    unit: "garlic",
+    name: "cloves, minced"
+  },
+{
+    amount: 400,
+    unit: "g",
+    name: "crushed tomatoes"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "tomato paste"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "dried oregano"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cinnamon"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "paprika"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Salt and black pepper to taste"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped parsley"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "butter"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "all-purpose flour"
+  },
+{
+    amount: 2,
+    unit: "cups",
+    name: "milk"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "grated Parmesan cheese"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "1 egg"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Pinch of nutmeg"
+  }
+],
 
-  instructions: [
+instructions: [
     "Preheat oven to 200°C (400°F).",
     "Arrange eggplant, zucchini, and potato slices on baking trays, brush lightly with olive oil, and roast for 20 minutes.",
     "Meanwhile, heat olive oil in a skillet and sauté onion until soft.",

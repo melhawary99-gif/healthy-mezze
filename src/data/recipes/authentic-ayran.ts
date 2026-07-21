@@ -33,15 +33,39 @@ export const authenticAyran: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 cups plain Greek yogurt",
-    "2 cups ice-cold water",
-    "1/2 tsp sea salt",
-    "1/2 cup ice cubes",
-    "1 tbsp finely chopped fresh mint (optional)",
-    "Fresh mint sprigs for garnish"
-  ],
+{
+    amount: 2,
+    unit: "cups",
+    name: "plain Greek yogurt"
+  },
+{
+    amount: 2,
+    unit: "cups",
+    name: "ice-cold water"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.5,
+    unit: "cup",
+    name: "ice cubes"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "finely chopped fresh mint (optional)"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh mint sprigs for garnish"
+  }
+],
 
-  instructions: [
+instructions: [
     "Add the yogurt, cold water, and sea salt to a blender.",
     "Blend for 30–60 seconds until completely smooth and frothy.",
     "Stir in the chopped mint if using.",

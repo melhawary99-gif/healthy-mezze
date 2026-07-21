@@ -33,19 +33,59 @@ export const healthyMahalabia: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "4 cups low-fat milk",
-    "1/4 cup cornstarch",
-    "3 tbsp cold water",
-    "2 tbsp honey",
-    "1 tsp vanilla extract",
-    "1 tsp rose water",
-    "1/2 tsp orange blossom water (optional)",
-    "2 tbsp chopped pistachios",
-    "1 tsp ground cinnamon",
-    "Dried edible rose petals for garnish (optional)"
-  ],
+{
+    amount: 4,
+    unit: "cups",
+    name: "low-fat milk"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "cornstarch"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "cold water"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "honey"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "vanilla extract"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "rose water"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "orange blossom water (optional)"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped pistachios"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cinnamon"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Dried edible rose petals for garnish (optional)"
+  }
+],
 
-  instructions: [
+instructions: [
     "In a small bowl, dissolve the cornstarch in the cold water until smooth.",
     "Heat the milk in a saucepan over medium heat until warm but not boiling.",
     "Whisk in the cornstarch mixture.",

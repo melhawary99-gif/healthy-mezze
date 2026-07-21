@@ -33,21 +33,69 @@ export const herbRoastedCauliflower: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "1 large cauliflower, cut into florets",
-    "3 tbsp extra virgin olive oil",
-    "3 garlic cloves, minced",
-    "1 tsp paprika",
-    "1 tsp dried oregano",
-    "1 tsp dried thyme",
-    "1/2 tsp ground cumin",
-    "1/2 tsp sea salt",
-    "1/4 tsp black pepper",
-    "2 tbsp chopped fresh parsley",
-    "1 tbsp fresh lemon juice",
-    "Lemon wedges for serving"
-  ],
+{
+    amount: 1,
+    unit: "large",
+    name: "cauliflower, cut into florets"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 3,
+    unit: "garlic",
+    name: "cloves, minced"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "paprika"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "dried oregano"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "dried thyme"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped fresh parsley"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Lemon wedges for serving"
+  }
+],
 
-  instructions: [
+instructions: [
     "Preheat the oven to 220°C (425°F).",
     "Line a large baking tray with parchment paper.",
     "Place the cauliflower florets into a large bowl.",

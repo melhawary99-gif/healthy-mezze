@@ -33,16 +33,44 @@ export const sumacOnionSalad: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 medium red onions, very thinly sliced",
-    "1/4 cup chopped fresh parsley",
-    "2 tbsp extra virgin olive oil",
-    "2 tbsp fresh lemon juice",
-    "1 tbsp ground sumac",
-    "1/2 tsp sea salt",
-    "1/4 tsp black pepper"
-  ],
+{
+    amount: 2,
+    unit: "medium",
+    name: "red onions, very thinly sliced"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "chopped fresh parsley"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "ground sumac"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "black pepper"
+  }
+],
 
-  instructions: [
+instructions: [
     "Place the sliced onions in a large bowl.",
     "Add the lemon juice and salt.",
     "Massage the onions gently for 2–3 minutes to soften them.",

@@ -33,23 +33,79 @@ export const bakedKibbeh: Recipe = {
   difficulty: "Medium",
 
   ingredients: [
-    "1 cup fine bulgur wheat",
-    "500 g lean ground beef (90% lean), divided",
-    "1 large onion, finely chopped",
-    "1/4 cup fresh parsley, finely chopped",
-    "2 tbsp fresh mint, chopped",
-    "2 tbsp pine nuts, lightly toasted",
-    "2 tbsp extra virgin olive oil",
-    "1 tsp ground allspice",
-    "1 tsp ground cumin",
-    "1/2 tsp ground cinnamon",
-    "1/2 tsp paprika",
-    "1 tsp sea salt",
-    "1/2 tsp black pepper",
-    "1 tbsp olive oil for brushing"
-  ],
+{
+    amount: 1,
+    unit: "cup",
+    name: "fine bulgur wheat"
+  },
+{
+    amount: 500,
+    unit: "g",
+    name: "lean ground beef (90% lean), divided"
+  },
+{
+    amount: 1,
+    unit: "large",
+    name: "onion, finely chopped"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "fresh parsley, finely chopped"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "fresh mint, chopped"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "pine nuts, lightly toasted"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground allspice"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "ground cinnamon"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "paprika"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "olive oil for brushing"
+  }
+],
 
-  instructions: [
+instructions: [
     "Soak the bulgur wheat in warm water for 20 minutes, then drain and squeeze out excess moisture.",
     "Mix half of the ground beef with the bulgur, half the onion, parsley, mint, allspice, cumin, cinnamon, paprika, salt, and pepper.",
     "Process the mixture in a food processor until smooth.",

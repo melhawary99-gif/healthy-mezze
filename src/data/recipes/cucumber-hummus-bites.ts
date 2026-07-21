@@ -33,18 +33,54 @@ export const cucumberHummusBites: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 large cucumbers, sliced into 1/2-inch rounds",
-    "1 cup classic hummus",
-    "8 cherry tomatoes, quartered",
-    "1/4 cup crumbled feta cheese",
-    "8 Kalamata olives, sliced",
-    "2 tbsp chopped fresh parsley",
-    "1 tsp extra virgin olive oil",
-    "1/4 tsp smoked paprika",
-    "Freshly ground black pepper to taste"
-  ],
+{
+    amount: 2,
+    unit: "large",
+    name: "cucumbers, sliced into 1/2-inch rounds"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "classic hummus"
+  },
+{
+    amount: 8,
+    unit: "cherry",
+    name: "tomatoes, quartered"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "crumbled feta cheese"
+  },
+{
+    amount: 8,
+    unit: "Kalamata",
+    name: "olives, sliced"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped fresh parsley"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "smoked paprika"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Freshly ground black pepper to taste"
+  }
+],
 
-  instructions: [
+instructions: [
     "Wash and slice the cucumbers into thick rounds.",
     "Arrange the cucumber slices on a serving platter.",
     "Spoon about one teaspoon of hummus onto each cucumber slice.",

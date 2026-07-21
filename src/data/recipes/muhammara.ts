@@ -33,22 +33,74 @@ export const muhammara: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "3 large red bell peppers",
-    "1 cup walnuts",
-    "1/3 cup whole wheat breadcrumbs",
-    "2 tbsp pomegranate molasses",
-    "2 tbsp extra virgin olive oil",
-    "2 garlic cloves",
-    "1 tsp ground cumin",
-    "1/2 tsp smoked paprika",
-    "1/4 tsp crushed red pepper flakes (optional)",
-    "1/2 tsp sea salt",
-    "1/4 tsp black pepper",
-    "1 tbsp chopped fresh parsley",
-    "Pomegranate seeds for garnish (optional)"
-  ],
+{
+    amount: 3,
+    unit: "large",
+    name: "red bell peppers"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "walnuts"
+  },
+{
+    amount: 0.3333333333333333,
+    unit: "cup",
+    name: "whole wheat breadcrumbs"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "pomegranate molasses"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 2,
+    unit: "garlic",
+    name: "cloves"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "smoked paprika"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "crushed red pepper flakes (optional)"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "chopped fresh parsley"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Pomegranate seeds for garnish (optional)"
+  }
+],
 
-  instructions: [
+instructions: [
     "Preheat the oven to 450°F (230°C).",
     "Place the red peppers on a baking tray and roast for 20–25 minutes, turning occasionally, until the skins are blackened.",
     "Transfer the peppers to a covered bowl or sealed bag for 10 minutes to steam.",

@@ -33,22 +33,74 @@ export const healthyBasbousa: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 cups whole wheat semolina",
-    "1 cup plain Greek yogurt",
-    "1/4 cup extra virgin olive oil",
-    "1/4 cup honey",
-    "1 tsp baking powder",
-    "1 tsp vanilla extract",
-    "1 tbsp orange blossom water (optional)",
-    "12 whole almonds",
-    "2 tbsp unsweetened shredded coconut",
-    "For the syrup:",
-    "2 tbsp honey",
-    "2 tbsp fresh lemon juice",
-    "2 tbsp water"
-  ],
+{
+    amount: 2,
+    unit: "cups",
+    name: "whole wheat semolina"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "plain Greek yogurt"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "honey"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "baking powder"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "vanilla extract"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "orange blossom water (optional)"
+  },
+{
+    amount: 12,
+    unit: "whole",
+    name: "almonds"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "unsweetened shredded coconut"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "For the syrup:"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "honey"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "water"
+  }
+],
 
-  instructions: [
+instructions: [
     "Preheat the oven to 350°F (175°C).",
     "Lightly grease an 8-inch (20 cm) square baking pan.",
     "Combine the semolina and baking powder in a large bowl.",

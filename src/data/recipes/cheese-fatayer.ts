@@ -33,23 +33,79 @@ export const cheeseFatayer: Recipe = {
   difficulty: "Medium",
 
   ingredients: [
-    "2 cups whole wheat flour",
-    "1 cup all-purpose flour",
-    "2¼ tsp instant yeast",
-    "1 tsp sugar",
-    "1 tsp sea salt",
-    "1 cup warm water",
-    "2 tbsp extra virgin olive oil",
-    "1 cup Akkawi cheese, soaked and crumbled",
-    "1 cup reduced-fat mozzarella, shredded",
-    "2 tbsp low-fat feta cheese, crumbled",
-    "1/4 cup fresh parsley, finely chopped",
-    "1 tsp nigella seeds",
-    "1 tsp dried oregano",
-    "1 egg, lightly beaten (for brushing)"
-  ],
+{
+    amount: 2,
+    unit: "cups",
+    name: "whole wheat flour"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "all-purpose flour"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "2¼ tsp instant yeast"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "sugar"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "warm water"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "Akkawi cheese, soaked and crumbled"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "reduced-fat mozzarella, shredded"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "low-fat feta cheese, crumbled"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "fresh parsley, finely chopped"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "nigella seeds"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "dried oregano"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "1 egg, lightly beaten (for brushing)"
+  }
+],
 
-  instructions: [
+instructions: [
     "Combine the flours, yeast, sugar, and salt in a large bowl.",
     "Add the warm water and olive oil and knead for 8–10 minutes until smooth.",
     "Cover and allow the dough to rise for about 1 hour.",

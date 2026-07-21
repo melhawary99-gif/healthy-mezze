@@ -33,23 +33,79 @@ export const bakedEggsSpinachTomatoes: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "1 tbsp extra virgin olive oil",
-    "1 small onion, finely diced",
-    "2 garlic cloves, minced",
-    "4 cups fresh spinach",
-    "1 1/2 cups cherry tomatoes, halved",
-    "6 large eggs",
-    "1/3 cup crumbled feta cheese",
-    "1 tsp dried oregano",
-    "1/2 tsp paprika",
-    "1/2 tsp sea salt",
-    "1/4 tsp black pepper",
-    "2 tbsp chopped fresh parsley",
-    "Fresh basil leaves (optional)",
-    "Whole grain bread for serving"
-  ],
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 1,
+    unit: "small",
+    name: "onion, finely diced"
+  },
+{
+    amount: 2,
+    unit: "garlic",
+    name: "cloves, minced"
+  },
+{
+    amount: 4,
+    unit: "cups",
+    name: "fresh spinach"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "1 1/2 cups cherry tomatoes, halved"
+  },
+{
+    amount: 6,
+    unit: "large",
+    name: "eggs"
+  },
+{
+    amount: 0.3333333333333333,
+    unit: "cup",
+    name: "crumbled feta cheese"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "dried oregano"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "paprika"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped fresh parsley"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh basil leaves (optional)"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Whole grain bread for serving"
+  }
+],
 
-  instructions: [
+instructions: [
     "Preheat the oven to 375°F (190°C).",
     "Heat the olive oil in an oven-safe skillet over medium heat.",
     "Cook the onion for 3–4 minutes until softened.",

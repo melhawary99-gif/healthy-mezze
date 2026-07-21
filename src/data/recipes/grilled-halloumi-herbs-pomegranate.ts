@@ -33,18 +33,54 @@ export const grilledHalloumiHerbsPomegranate: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "250 g halloumi cheese",
-    "1 tbsp extra virgin olive oil",
-    "2 tbsp fresh parsley, chopped",
-    "1 tbsp fresh mint, chopped",
-    "1/4 cup pomegranate seeds",
-    "1 tbsp fresh lemon juice",
-    "1/4 tsp black pepper",
-    "1 tsp sesame seeds (optional)",
-    "Lemon wedges for serving"
-  ],
+{
+    amount: 250,
+    unit: "g",
+    name: "halloumi cheese"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "fresh parsley, chopped"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "fresh mint, chopped"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "pomegranate seeds"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "sesame seeds (optional)"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Lemon wedges for serving"
+  }
+],
 
-  instructions: [
+instructions: [
     "Slice the halloumi into 1 cm thick pieces.",
     "Heat a grill pan over medium-high heat.",
     "Lightly brush both sides of the halloumi with olive oil.",

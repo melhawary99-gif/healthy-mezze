@@ -33,21 +33,69 @@ export const mediterraneanChickpeaSalad: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 cups cooked chickpeas, drained",
-    "1 cucumber, diced",
-    "2 tomatoes, diced",
-    "¼ red onion, finely chopped",
-    "½ cup chopped parsley",
-    "¼ cup chopped fresh mint",
-    "½ cup crumbled feta cheese",
-    "3 tbsp extra virgin olive oil",
-    "2 tbsp fresh lemon juice",
-    "1 tsp dried oregano",
-    "½ tsp salt",
-    "¼ tsp black pepper"
-  ],
+{
+    amount: 2,
+    unit: "cups",
+    name: "cooked chickpeas, drained"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "1 cucumber, diced"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "2 tomatoes, diced"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "¼ red onion, finely chopped"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "½ cup chopped parsley"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "¼ cup chopped fresh mint"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "½ cup crumbled feta cheese"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "dried oregano"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "½ tsp salt"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "¼ tsp black pepper"
+  }
+],
 
-  instructions: [
+instructions: [
     "Drain and rinse the chickpeas.",
     "Dice the cucumber and tomatoes into bite-sized pieces.",
     "Finely chop the red onion, parsley, and mint.",

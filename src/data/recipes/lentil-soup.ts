@@ -8,6 +8,8 @@ export const lentilSoup: Recipe = {
     "A comforting Mediterranean soup made with lentils, vegetables, and warming spices.",
   image: "/images/recipes/lentil-soup.jpg",
 
+  cuisine: "Mediterranean",
+
   category: "Soups",
 
   prepTime: "15",
@@ -16,14 +18,34 @@ export const lentilSoup: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "Red lentils",
-    "Carrots",
-    "Onion",
-    "Garlic",
-    "Mediterranean spices",
-  ],
+{
+    amount: 1,
+    unit: "",
+    name: "Red lentils"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Carrots"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Onion"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Garlic"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Mediterranean spices"
+  }
+],
 
-  instructions: [
+instructions: [
     "Prepare vegetables.",
     "Cook lentils with spices.",
     "Blend or serve chunky.",

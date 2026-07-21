@@ -33,20 +33,64 @@ export const lebaneseMujadara: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "1 cup brown lentils",
-    "1 cup long-grain rice",
-    "3 large onions, thinly sliced",
-    "3 tbsp extra virgin olive oil",
-    "1 tsp ground cumin",
-    "1/2 tsp ground coriander",
-    "1 tsp sea salt",
-    "1/2 tsp black pepper",
-    "3 cups vegetable broth",
-    "Fresh parsley for garnish",
-    "Lemon wedges for serving"
-  ],
+{
+    amount: 1,
+    unit: "cup",
+    name: "brown lentils"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "long-grain rice"
+  },
+{
+    amount: 3,
+    unit: "large",
+    name: "onions, thinly sliced"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "ground coriander"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 3,
+    unit: "cups",
+    name: "vegetable broth"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh parsley for garnish"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Lemon wedges for serving"
+  }
+],
 
-  instructions: [
+instructions: [
     "Cook the lentils in water for about 20 minutes until nearly tender. Drain.",
     "Heat the olive oil in a large skillet over medium heat.",
     "Cook the sliced onions slowly for 20–25 minutes until deeply caramelized.",

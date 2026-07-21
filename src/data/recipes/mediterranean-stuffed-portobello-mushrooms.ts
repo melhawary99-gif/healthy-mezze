@@ -33,23 +33,79 @@ export const mediterraneanStuffedPortobelloMushrooms: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "4 large Portobello mushrooms",
-    "1 cup cooked quinoa",
-    "2 cups fresh spinach, chopped",
-    "120 g feta cheese, crumbled",
-    "1/4 cup sun-dried tomatoes, finely chopped",
-    "2 garlic cloves, minced",
-    "2 tbsp extra virgin olive oil",
-    "2 tbsp chopped fresh parsley",
-    "1 tbsp chopped fresh basil",
-    "1 tsp dried oregano",
-    "2 tbsp grated Parmesan cheese",
-    "1 tsp lemon juice",
-    "1/2 tsp sea salt",
-    "1/4 tsp black pepper"
-  ],
+{
+    amount: 4,
+    unit: "large",
+    name: "Portobello mushrooms"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "cooked quinoa"
+  },
+{
+    amount: 2,
+    unit: "cups",
+    name: "fresh spinach, chopped"
+  },
+{
+    amount: 120,
+    unit: "g",
+    name: "feta cheese, crumbled"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "sun-dried tomatoes, finely chopped"
+  },
+{
+    amount: 2,
+    unit: "garlic",
+    name: "cloves, minced"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped fresh parsley"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "chopped fresh basil"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "dried oregano"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "grated Parmesan cheese"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "lemon juice"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "black pepper"
+  }
+],
 
-  instructions: [
+instructions: [
     "Preheat the oven to 200°C (400°F).",
     "Remove the mushroom stems and gently scrape out the dark gills if desired.",
     "Brush both sides of the mushrooms with olive oil and place them on a baking tray.",

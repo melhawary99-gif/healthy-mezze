@@ -33,20 +33,64 @@ export const roastedEggplantSalad: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 medium eggplants",
-    "2 tomatoes, diced",
-    "1/4 red onion, finely chopped",
-    "1/4 cup chopped fresh parsley",
-    "2 tbsp chopped fresh mint",
-    "2 cloves garlic, minced",
-    "3 tbsp extra virgin olive oil",
-    "2 tbsp fresh lemon juice",
-    "1 tsp ground cumin",
-    "1/2 tsp salt",
-    "1/4 tsp black pepper"
-  ],
+{
+    amount: 2,
+    unit: "medium",
+    name: "eggplants"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "2 tomatoes, diced"
+  },
+{
+    amount: 0.25,
+    unit: "red",
+    name: "onion, finely chopped"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "chopped fresh parsley"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped fresh mint"
+  },
+{
+    amount: 2,
+    unit: "cloves",
+    name: "garlic, minced"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "ground cumin"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "salt"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "black pepper"
+  }
+],
 
-  instructions: [
+instructions: [
     "Preheat the oven to 220°C (425°F).",
     "Pierce the eggplants several times with a fork.",
     "Roast for 30–35 minutes until soft.",

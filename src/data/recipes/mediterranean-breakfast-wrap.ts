@@ -33,22 +33,74 @@ export const mediterraneanBreakfastWrap: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "2 whole wheat tortillas",
-    "4 large eggs",
-    "1 tbsp milk",
-    "1 tbsp extra virgin olive oil",
-    "1 cup baby spinach",
-    "1/2 cup cherry tomatoes, halved",
-    "1/2 small cucumber, diced",
-    "1/4 cup crumbled feta cheese",
-    "4 tbsp hummus",
-    "1 tbsp chopped parsley",
-    "1/2 tsp dried oregano",
-    "1/2 tsp sea salt",
-    "1/4 tsp black pepper"
-  ],
+{
+    amount: 2,
+    unit: "whole",
+    name: "wheat tortillas"
+  },
+{
+    amount: 4,
+    unit: "large",
+    name: "eggs"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "milk"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 1,
+    unit: "cup",
+    name: "baby spinach"
+  },
+{
+    amount: 0.5,
+    unit: "cup",
+    name: "cherry tomatoes, halved"
+  },
+{
+    amount: 0.5,
+    unit: "small",
+    name: "cucumber, diced"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "crumbled feta cheese"
+  },
+{
+    amount: 4,
+    unit: "tbsp",
+    name: "hummus"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "chopped parsley"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "dried oregano"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "black pepper"
+  }
+],
 
-  instructions: [
+instructions: [
     "Whisk together the eggs, milk, salt, pepper, and oregano.",
     "Heat the olive oil in a skillet over medium heat.",
     "Cook the eggs gently, stirring until softly scrambled.",

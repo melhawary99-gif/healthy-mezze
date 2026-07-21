@@ -33,21 +33,69 @@ export const eggplantParmesanMediterranean: Recipe = {
   difficulty: "Medium",
 
   ingredients: [
-    "2 large eggplants, sliced into 1 cm rounds",
-    "3 tbsp extra virgin olive oil",
-    "2 cups tomato sauce",
-    "250 g fresh mozzarella, sliced",
-    "1/2 cup grated Parmesan cheese",
-    "2 garlic cloves, minced",
-    "2 tbsp chopped fresh basil",
-    "1 tbsp chopped fresh parsley",
-    "1 tsp dried oregano",
-    "1/2 tsp sea salt",
-    "1/4 tsp black pepper",
-    "Fresh basil leaves for garnish"
-  ],
+{
+    amount: 2,
+    unit: "large",
+    name: "eggplants, sliced into 1 cm rounds"
+  },
+{
+    amount: 3,
+    unit: "tbsp",
+    name: "extra virgin olive oil"
+  },
+{
+    amount: 2,
+    unit: "cups",
+    name: "tomato sauce"
+  },
+{
+    amount: 250,
+    unit: "g",
+    name: "fresh mozzarella, sliced"
+  },
+{
+    amount: 0.5,
+    unit: "cup",
+    name: "grated Parmesan cheese"
+  },
+{
+    amount: 2,
+    unit: "garlic",
+    name: "cloves, minced"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "chopped fresh basil"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "chopped fresh parsley"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "dried oregano"
+  },
+{
+    amount: 0.5,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 0.25,
+    unit: "tsp",
+    name: "black pepper"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh basil leaves for garnish"
+  }
+],
 
-  instructions: [
+instructions: [
     "Preheat the oven to 220°C (425°F).",
     "Arrange the eggplant slices on baking trays lined with parchment paper.",
     "Brush both sides with olive oil and season with salt and pepper.",

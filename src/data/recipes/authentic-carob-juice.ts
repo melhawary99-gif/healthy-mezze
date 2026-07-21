@@ -33,16 +33,44 @@ export const authenticCarobJuice: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-    "1 cup roasted carob pods, roughly broken into pieces",
-    "6 cups water",
-    "1 tbsp honey (optional)",
-    "1 tsp orange blossom water (optional)",
-    "Ice cubes",
-    "Fresh mint leaves for garnish",
-    "Lemon slices for garnish"
-  ],
+{
+    amount: 1,
+    unit: "cup",
+    name: "roasted carob pods, roughly broken into pieces"
+  },
+{
+    amount: 6,
+    unit: "cups",
+    name: "water"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "honey (optional)"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "orange blossom water (optional)"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Ice cubes"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Fresh mint leaves for garnish"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Lemon slices for garnish"
+  }
+],
 
-  instructions: [
+instructions: [
     "Rinse the roasted carob pods thoroughly.",
     "Place the carob pods and water into a saucepan.",
     "Bring to a boil over medium-high heat.",

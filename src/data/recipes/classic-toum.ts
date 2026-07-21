@@ -33,15 +33,39 @@ export const classicToum: Recipe = {
   difficulty: "Medium",
 
   ingredients: [
-    "10 garlic cloves, peeled",
-    "1/4 cup aquafaba (liquid from canned chickpeas)",
-    "1 tsp sea salt",
-    "2 tbsp fresh lemon juice",
-    "3/4 cup avocado oil",
-    "1 tbsp ice water (if needed)"
-  ],
+{
+    amount: 10,
+    unit: "garlic",
+    name: "cloves, peeled"
+  },
+{
+    amount: 0.25,
+    unit: "cup",
+    name: "aquafaba (liquid from canned chickpeas)"
+  },
+{
+    amount: 1,
+    unit: "tsp",
+    name: "sea salt"
+  },
+{
+    amount: 2,
+    unit: "tbsp",
+    name: "fresh lemon juice"
+  },
+{
+    amount: 0.75,
+    unit: "cup",
+    name: "avocado oil"
+  },
+{
+    amount: 1,
+    unit: "tbsp",
+    name: "ice water (if needed)"
+  }
+],
 
-  instructions: [
+instructions: [
     "Place the garlic cloves and sea salt into a food processor.",
     "Process until finely minced.",
     "Add the aquafaba and blend until smooth.",
