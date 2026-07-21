@@ -13,7 +13,7 @@ export const mediterraneanVegetableBake: Recipe = {
   longDescription:
     "Mediterranean Vegetable Bake is a wholesome vegetarian dish packed with colorful vegetables, protein-rich chickpeas, aromatic herbs, and a rich tomato sauce. Slowly baked until perfectly tender, this comforting meal is naturally high in fiber, vitamins, and antioxidants. Serve it as a main course with whole-grain bread, quinoa, or brown rice for a nutritious Mediterranean-inspired dinner.",
 
-  image: "/images/recipes/mediterranean-vegetable-bake.jpg",
+  image: "/images/recipes/mediterranean-vegetable-bake.webp",
 
   imageAlt:
     "Mediterranean vegetable bake with zucchini, eggplant, peppers, tomatoes, chickpeas, herbs, and olive oil.",

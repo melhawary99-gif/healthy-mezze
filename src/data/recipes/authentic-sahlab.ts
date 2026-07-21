@@ -13,7 +13,7 @@ export const authenticSahlab: Recipe = {
   longDescription:
     "Sahlab is one of the Middle East's most cherished winter beverages, enjoyed throughout Egypt and Lebanon. Traditionally sold by street vendors during the colder months, this comforting drink is known for its velvety texture and fragrant aroma. This healthier version uses low-fat milk, honey instead of refined sugar, and authentic toppings of pistachios, shredded coconut, and cinnamon for a nourishing and satisfying drink.",
 
-  image: "/images/recipes/authentic-sahlab.jpg",
+  image: "/images/recipes/authentic-sahlab.webp",
 
   imageAlt:
     "A warm mug of authentic Middle Eastern sahlab topped with pistachios, shredded coconut, cinnamon, and served with a cinnamon stick.",

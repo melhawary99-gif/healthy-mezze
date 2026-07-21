@@ -13,7 +13,7 @@ export const authenticAmbaSauce: Recipe = {
   longDescription:
     "Amba is a traditional Iraqi condiment that has become a favorite throughout the Middle East. Made from pickled mango blended with aromatic spices, garlic, lemon juice, and olive oil, it delivers a unique balance of tangy, savory, and mildly spicy flavors. Traditionally served with shawarma, sabich, falafel, grilled meats, and roasted vegetables, Amba adds vibrant flavor to countless Mediterranean dishes.",
 
-  image: "/images/recipes/authentic-amba-sauce.jpg",
+  image: "/images/recipes/authentic-amba-sauce.webp",
 
   imageAlt:
     "A bowl of authentic Amba sauce garnished with turmeric, fresh cilantro, garlic cloves, and pickled mango slices.",

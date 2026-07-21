@@ -13,7 +13,7 @@ export const warakEnab: Recipe = {
   longDescription:
     "Warak Enab is one of the most beloved dishes throughout Lebanon and the Eastern Mediterranean. Tender grape leaves are carefully wrapped around a fragrant filling of rice, parsley, mint, tomatoes, onions, and warm spices before being slowly cooked with olive oil and fresh lemon juice. This healthy vegetarian dish is naturally rich in herbs, heart-healthy fats, and Mediterranean flavors, making it perfect as an appetizer, side dish, or light meal.",
 
-  image: "/images/recipes/warak-enab.jpg",
+  image: "/images/recipes/warak-enab.webp",
 
   imageAlt:
     "Traditional Lebanese stuffed grape leaves served with lemon wedges and fresh parsley.",

@@ -13,7 +13,7 @@ export const spinachFatayer: Recipe = {
   longDescription:
     "Spinach Fatayer are one of Lebanon's most iconic baked pastries. Soft whole wheat dough is filled with a vibrant mixture of fresh spinach, onions, parsley, olive oil, lemon juice, and aromatic sumac before being folded into traditional triangular pies and baked until golden brown. These wholesome pastries are rich in vitamins, fiber, and Mediterranean flavor while using minimal oil for a healthier version.",
 
-  image: "/images/recipes/spinach-fatayer.jpg",
+  image: "/images/recipes/spinach-fatayer.webp",
 
   imageAlt:
     "Golden baked Lebanese spinach fatayer arranged on a serving platter with fresh parsley and lemon wedges.",

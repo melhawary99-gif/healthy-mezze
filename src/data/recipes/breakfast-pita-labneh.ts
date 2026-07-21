@@ -13,7 +13,7 @@ export const breakfastPitaLabneh: Recipe = {
   longDescription:
     "This Breakfast Pita with Labneh & Fresh Vegetables is a classic Mediterranean breakfast that's light, refreshing, and incredibly satisfying. Creamy labneh is spread inside warm whole wheat pita bread and topped with crunchy cucumbers, ripe tomatoes, Kalamata olives, fresh mint, parsley, and a sprinkle of aromatic za'atar. Finished with extra virgin olive oil, it's a balanced meal packed with protein, healthy fats, and fresh vegetables.",
 
-  image: "/images/recipes/breakfast-pita-labneh.jpg",
+  image: "/images/recipes/breakfast-pita-labneh.webp",
 
   imageAlt:
     "Whole wheat pita filled with labneh, cucumbers, tomatoes, olives, parsley, mint, and za'atar.",

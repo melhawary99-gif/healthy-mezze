@@ -6,7 +6,7 @@ export const hummusPowerBowl: Recipe = {
   slug: "hummus-power-bowl",
   description:
     "A nourishing vegan bowl with creamy hummus, fresh vegetables, grains, and Mediterranean flavors.",
-  image: "/images/recipes/hummus-power-bowl.jpg",
+  image: "/images/recipes/hummus-power-bowl.webp",
 
   cuisine: "Mediterranean",
 

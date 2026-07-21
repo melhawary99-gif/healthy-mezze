@@ -13,7 +13,7 @@ export const mediterraneanBreakfastWrap: Recipe = {
   longDescription:
     "This Mediterranean Breakfast Wrap is a delicious grab-and-go breakfast packed with protein, vegetables, and healthy fats. Fluffy scrambled eggs are layered with hummus, fresh spinach, juicy tomatoes, crisp cucumbers, and crumbled feta inside a warm whole wheat tortilla. It's a satisfying breakfast that's perfect for busy mornings while staying true to Mediterranean flavors.",
 
-  image: "/images/recipes/mediterranean-breakfast-wrap.jpg",
+  image: "/images/recipes/mediterranean-breakfast-wrap.webp",
 
   imageAlt:
     "Whole wheat breakfast wrap filled with scrambled eggs, spinach, feta cheese, tomatoes, cucumbers, and hummus.",

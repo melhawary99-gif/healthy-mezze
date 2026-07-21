@@ -13,7 +13,7 @@ export const healthyMahalabia: Recipe = {
   longDescription:
     "Mahalabia is a beloved dessert enjoyed throughout Egypt and the Middle East. This healthier version uses low-fat milk, a small amount of honey for natural sweetness, and cornstarch for its silky texture instead of heavy cream. Finished with fragrant rose water, cinnamon, and chopped pistachios, it's an elegant dessert that's both satisfying and light.",
 
-  image: "/images/recipes/healthy-mahalabia.jpg",
+  image: "/images/recipes/healthy-mahalabia.webp",
 
   imageAlt:
     "Creamy Egyptian mahalabia served in glass cups with chopped pistachios, cinnamon, and dried rose petals.",

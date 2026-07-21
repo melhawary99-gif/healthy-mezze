@@ -6,7 +6,7 @@ export const mediterraneanVegetableSoup: Recipe = {
   slug: "mediterranean-vegetable-soup",
   description:
     "A hearty Mediterranean soup packed with fresh vegetables, herbs, and wholesome ingredients for a comforting healthy meal.",
-  image: "/images/recipes/mediterranean-vegetable-soup.jpg",
+  image: "/images/recipes/mediterranean-vegetable-soup.webp",
 
   cuisine: "Mediterranean",
 

@@ -13,7 +13,7 @@ export const zaatarRoastedMixedNuts: Recipe = {
   longDescription:
     "Za'atar Roasted Mixed Nuts are an easy, protein-rich Mediterranean snack that's perfect for meal prep, entertaining, or enjoying on the go. A combination of heart-healthy nuts is lightly coated with extra virgin olive oil and seasoned with aromatic za'atar, smoked paprika, garlic powder, and toasted sesame seeds before roasting until golden and fragrant. This wholesome snack is naturally satisfying and packed with healthy fats, protein, vitamins, and minerals.",
 
-  image: "/images/recipes/zaatar-roasted-mixed-nuts.jpg",
+  image: "/images/recipes/zaatar-roasted-mixed-nuts.webp",
 
   imageAlt:
     "Roasted almonds, walnuts, pistachios, and cashews seasoned with za'atar and sesame seeds in a serving bowl.",

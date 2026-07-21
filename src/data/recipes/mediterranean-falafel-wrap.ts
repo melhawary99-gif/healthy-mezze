@@ -6,7 +6,7 @@ export const mediterraneanFalafelWrap: Recipe = {
   slug: "mediterranean-falafel-wrap",
   description:
     "A delicious Mediterranean wrap filled with crispy falafel, fresh vegetables, herbs, and creamy tahini sauce.",
-  image: "/images/recipes/mediterranean-falafel-wrap.jpg",
+  image: "/images/recipes/mediterranean-falafel-wrap.webp",
 
   cuisine: "Mediterranean",
 

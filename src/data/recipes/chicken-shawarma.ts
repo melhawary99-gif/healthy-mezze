@@ -6,7 +6,7 @@ export const chickenShawarma: Recipe = {
   slug: "chicken-shawarma",
   description:
     "Tender Mediterranean chicken with spices, fresh vegetables, and warm bread.",
-  image: "/images/recipes/chicken-shawarma.jpg",
+  image: "/images/recipes/chicken-shawarma.webp",
 
   cuisine: "Lebanese",
 

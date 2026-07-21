@@ -13,7 +13,7 @@ export const spinachFetaOmelette: Recipe = {
   longDescription:
     "This Mediterranean Spinach & Feta Omelette is a protein-rich breakfast that combines fluffy eggs with sautéed spinach, tangy feta cheese, onions, and fresh herbs. Ready in under 20 minutes, it's packed with vitamins, minerals, and healthy fats, making it an excellent choice for a nutritious start to the day.",
 
-  image: "/images/recipes/spinach-feta-omelette.jpg",
+  image: "/images/recipes/spinach-feta-omelette.webp",
 
   imageAlt:
     "Golden spinach and feta omelette garnished with parsley and served with tomatoes and whole grain toast.",

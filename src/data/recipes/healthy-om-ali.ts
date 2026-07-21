@@ -13,7 +13,7 @@ export const healthyOmAli: Recipe = {
   longDescription:
     "Om Ali is Egypt's beloved national dessert, traditionally prepared with buttery pastry, cream, and plenty of sugar. This healthier version uses whole wheat puff pastry, low-fat milk, naturally sweet Medjool dates, raisins, and just a touch of honey for sweetness. Finished with almonds and pistachios, it delivers the same warm, comforting flavors with less saturated fat and refined sugar.",
 
-  image: "/images/recipes/healthy-om-ali.jpg",
+  image: "/images/recipes/healthy-om-ali.webp",
 
   imageAlt:
     "Healthy Egyptian Om Ali baked until golden and topped with pistachios, almonds, raisins, and cinnamon.",

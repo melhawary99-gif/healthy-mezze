@@ -13,7 +13,7 @@ export const creamyChickpeaSoup: Recipe = {
   longDescription:
     "This Creamy Chickpea Soup is a nourishing Mediterranean favorite made with protein-rich chickpeas, onions, carrots, celery, garlic, and warming spices. Blending part of the soup creates a naturally creamy texture without using dairy. Finished with fresh lemon juice and parsley, it's a wholesome meal that's ideal for lunch or dinner.",
 
-  image: "/images/recipes/creamy-chickpea-soup.jpg",
+  image: "/images/recipes/creamy-chickpea-soup.webp",
 
   imageAlt:
     "Creamy Mediterranean chickpea soup garnished with parsley, olive oil, and lemon wedges.",

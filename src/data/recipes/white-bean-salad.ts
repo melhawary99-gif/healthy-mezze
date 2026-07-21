@@ -13,7 +13,7 @@ export const whiteBeanSalad: Recipe = {
   longDescription:
     "This Mediterranean White Bean Salad is a nutritious combination of creamy cannellini beans, crisp vegetables, fresh herbs, and feta cheese. Tossed in a light olive oil and lemon dressing, it's rich in plant-based protein, fiber, and heart-healthy fats. It's perfect as a light lunch, side dish, or meal-prep option.",
 
-  image: "/images/recipes/white-bean-salad.jpg",
+  image: "/images/recipes/white-bean-salad.webp",
 
   imageAlt:
     "Mediterranean white bean salad with cannellini beans, cucumbers, tomatoes, parsley, and feta cheese.",

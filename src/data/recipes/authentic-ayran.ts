@@ -13,7 +13,7 @@ export const authenticAyran: Recipe = {
   longDescription:
     "Ayran, known as Laban Ayran in Lebanon, is a traditional yogurt-based drink enjoyed throughout the Middle East. Served ice cold, it is commonly paired with grilled meats, shawarma, kebabs, falafel, and mezze. This authentic recipe combines creamy yogurt, chilled water, sea salt, and optional fresh mint to create a refreshing beverage that's naturally high in protein and probiotics.",
 
-  image: "/images/recipes/authentic-ayran.jpg",
+  image: "/images/recipes/authentic-ayran.webp",
 
   imageAlt:
     "A chilled glass of traditional Lebanese Ayran garnished with fresh mint and served with ice.",

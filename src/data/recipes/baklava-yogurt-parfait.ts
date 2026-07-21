@@ -6,7 +6,7 @@ export const baklavaYogurtParfait: Recipe = {
   slug: "baklava-yogurt-parfait",
   description:
     "A healthier Mediterranean-inspired dessert combining creamy Greek yogurt, nuts, honey, and warm baklava flavors.",
-  image: "/images/recipes/baklava-yogurt-parfait.jpg",
+  image: "/images/recipes/baklava-yogurt-parfait.webp",
 
   cuisine: "Middle Eastern",
 

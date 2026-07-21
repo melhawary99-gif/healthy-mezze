@@ -13,7 +13,7 @@ export const roastedPumpkinSoup: Recipe = {
   longDescription:
     "This Roasted Pumpkin Soup combines naturally sweet roasted pumpkin with carrots, onions, garlic, and Mediterranean herbs to create a velvety, nourishing soup. Roasting the vegetables intensifies their flavor while blending them creates a creamy texture without dairy. Finished with a drizzle of extra virgin olive oil and fresh parsley, it's a comforting meal that's perfect for cooler weather.",
 
-  image: "/images/recipes/roasted-pumpkin-soup.jpg",
+  image: "/images/recipes/roasted-pumpkin-soup.webp",
 
   imageAlt:
     "Creamy roasted pumpkin soup garnished with parsley, pumpkin seeds, and olive oil.",

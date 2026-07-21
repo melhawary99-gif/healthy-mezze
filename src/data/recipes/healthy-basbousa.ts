@@ -13,7 +13,7 @@ export const healthyBasbousa: Recipe = {
   longDescription:
     "Basbousa is one of Egypt's most famous desserts. Traditionally soaked in a heavy sugar syrup and made with generous amounts of butter, this healthier version uses Greek yogurt for moisture, extra virgin olive oil instead of butter, honey for natural sweetness, and a light honey-lemon syrup. The result is a tender, aromatic cake with authentic flavor while significantly reducing refined sugar and saturated fat.",
 
-  image: "/images/recipes/healthy-basbousa.jpg",
+  image: "/images/recipes/healthy-basbousa.webp",
 
   imageAlt:
     "Golden Egyptian healthy basbousa cut into diamond shapes and topped with whole almonds.",

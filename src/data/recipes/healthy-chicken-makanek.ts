@@ -13,7 +13,7 @@ export const healthyChickenMakanek: Recipe = {
   longDescription:
     "Makanek are small Lebanese sausages traditionally prepared with beef or lamb. This healthier version uses lean ground chicken while preserving the authentic flavor profile of garlic, coriander, cinnamon, allspice, and fresh lemon juice. They're lightly cooked in olive oil instead of excess fat, making them a protein-rich appetizer or mezze that pairs perfectly with fresh vegetables, hummus, and warm whole wheat pita.",
 
-  image: "/images/recipes/healthy-chicken-makanek.jpg",
+  image: "/images/recipes/healthy-chicken-makanek.webp",
 
   imageAlt:
     "Healthy Lebanese chicken makanek garnished with parsley and served with lemon wedges.",

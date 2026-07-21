@@ -13,7 +13,7 @@ export const vegetableBarleySoup: Recipe = {
   longDescription:
     "This Mediterranean Vegetable Barley Soup is a wholesome, filling meal packed with colorful vegetables, tender pearl barley, tomatoes, and aromatic herbs. The barley adds a satisfying chewy texture while providing whole-grain nutrition, making this soup ideal for meal prep, cold weather, or a healthy family dinner. Finished with fresh parsley and a squeeze of lemon, it's comforting, nutritious, and naturally vegan.",
 
-  image: "/images/recipes/vegetable-barley-soup.jpg",
+  image: "/images/recipes/vegetable-barley-soup.webp",
 
   imageAlt:
     "Mediterranean vegetable barley soup served with parsley, lemon wedges, and whole-grain bread.",

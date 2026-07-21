@@ -13,7 +13,7 @@ export const authenticTamarHindi: Recipe = {
   longDescription:
     "Tamar Hindi is one of Egypt's most beloved traditional beverages, particularly during Ramadan. Its distinctive sweet-and-tangy flavor comes from tamarind pulp, which is steeped to create a refreshing drink. This healthier version replaces refined sugar with a modest amount of honey while preserving the authentic taste that has been enjoyed for generations.",
 
-  image: "/images/recipes/authentic-tamar-hindi.jpg",
+  image: "/images/recipes/authentic-tamar-hindi.webp",
 
   imageAlt:
     "A chilled glass of Egyptian Tamar Hindi garnished with tamarind pods, lemon slices, fresh mint, and ice cubes.",

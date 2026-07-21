@@ -13,7 +13,7 @@ export const stuffedDatesAlmondsPistachios: Recipe = {
   longDescription:
     "Stuffed Dates with Almonds & Pistachios are a simple yet elegant Mediterranean snack that's naturally sweet and packed with nutrients. Soft Medjool dates are filled with roasted almonds and pistachios, with optional creamy goat cheese for a delicious sweet-and-savory contrast. Perfect as a healthy dessert, afternoon snack, or addition to a mezze platter.",
 
-  image: "/images/recipes/stuffed-dates-almonds-pistachios.jpg",
+  image: "/images/recipes/stuffed-dates-almonds-pistachios.webp",
 
   imageAlt:
     "Medjool dates stuffed with almonds, pistachios, goat cheese, and topped with honey and sesame seeds.",

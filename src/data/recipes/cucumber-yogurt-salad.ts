@@ -13,7 +13,7 @@ export const cucumberYogurtSalad: Recipe = {
   longDescription:
     "This cooling cucumber yogurt salad is inspired by traditional Lebanese and Eastern Mediterranean flavors. Crisp cucumbers are mixed with creamy Greek yogurt, fresh herbs, garlic, and lemon juice to create a light and healthy side dish that's perfect with grilled meats, wraps, or enjoyed on its own.",
 
-  image: "/images/recipes/cucumber-yogurt-salad.jpg",
+  image: "/images/recipes/cucumber-yogurt-salad.webp",
 
   imageAlt:
     "Creamy cucumber yogurt salad garnished with fresh dill and mint.",

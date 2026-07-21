@@ -13,7 +13,7 @@ export const egyptianMolokhiaSoup: Recipe = {
   longDescription:
     "Molokhia is considered one of Egypt's most iconic comfort foods. Prepared with finely chopped jute mallow leaves, aromatic garlic, coriander, and a rich chicken broth, this nutritious soup has a uniquely silky texture and earthy flavor. It is traditionally served over rice alongside roasted or grilled chicken, rabbit, or beef, making it a staple of Egyptian family meals.",
 
-  image: "/images/recipes/egyptian-molokhia-soup.jpg",
+  image: "/images/recipes/egyptian-molokhia-soup.webp",
 
   imageAlt:
     "Traditional Egyptian molokhia soup served with rice, garlic, coriander, and lemon wedges.",

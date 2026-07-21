@@ -13,7 +13,7 @@ export const grilledShrimpGarlicLemon: Recipe = {
   longDescription:
     "Grilled Shrimp with Garlic & Lemon is a popular seafood appetizer served throughout Lebanon's coastal regions. Fresh shrimp are marinated with extra virgin olive oil, garlic, lemon juice, parsley, cumin, and paprika before being quickly grilled to perfection. This healthy recipe is naturally low in carbohydrates, rich in lean protein, and full of fresh Mediterranean flavors.",
 
-  image: "/images/recipes/grilled-shrimp-garlic-lemon.jpg",
+  image: "/images/recipes/grilled-shrimp-garlic-lemon.webp",
 
   imageAlt:
     "Grilled shrimp garnished with fresh parsley, lemon wedges, and a light drizzle of olive oil.",

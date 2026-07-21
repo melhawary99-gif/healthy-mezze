@@ -13,7 +13,7 @@ export const roastedEggplantSalad: Recipe = {
   longDescription:
     "This Roasted Eggplant Salad features tender roasted eggplant combined with juicy tomatoes, fresh parsley, mint, garlic, and extra virgin olive oil. Naturally vegan and packed with antioxidants, it's a flavorful side dish that pairs beautifully with grilled meats, pita bread, or as part of a mezze platter.",
 
-  image: "/images/recipes/roasted-eggplant-salad.jpg",
+  image: "/images/recipes/roasted-eggplant-salad.webp",
 
   imageAlt:
     "Roasted eggplant salad with tomatoes, parsley, mint, garlic and lemon dressing.",

@@ -13,7 +13,7 @@ export const authenticQamarAlDin: Recipe = {
   longDescription:
     "Qamar al-Din is one of the most cherished drinks served during Ramadan throughout Egypt, Lebanon, and the Levant. It is traditionally prepared by dissolving dried apricot leather in water to create a naturally sweet, silky beverage. This healthier version relies primarily on the fruit's natural sweetness while adding only a small amount of honey and fragrant orange blossom water for an authentic finish.",
 
-  image: "/images/recipes/authentic-qamar-al-din.jpg",
+  image: "/images/recipes/authentic-qamar-al-din.webp",
 
   imageAlt:
     "A chilled glass of authentic Qamar al-Din garnished with dried apricots, fresh mint, and ice cubes.",

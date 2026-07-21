@@ -13,7 +13,7 @@ export const mediterraneanChickpeaSalad: Recipe = {
   longDescription:
     "This Mediterranean Chickpea Salad is packed with plant-based protein, fiber, and fresh vegetables. Chickpeas are combined with crisp cucumbers, juicy tomatoes, parsley, red onion, and creamy feta cheese before being tossed in a simple lemon and olive oil dressing. Perfect as a healthy lunch, light dinner, or meal-prep recipe.",
 
-  image: "/images/recipes/mediterranean-chickpea-salad.jpg",
+  image: "/images/recipes/mediterranean-chickpea-salad.webp",
 
   imageAlt:
     "Mediterranean chickpea salad with cucumbers, tomatoes, parsley, feta cheese, and lemon dressing.",

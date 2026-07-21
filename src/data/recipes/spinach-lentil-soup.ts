@@ -13,7 +13,7 @@ export const spinachLentilSoup: Recipe = {
   longDescription:
     "This Spinach Lentil Soup is a wholesome Mediterranean dish combining protein-rich red lentils with fresh spinach, carrots, onions, celery, and aromatic spices. The lentils cook until tender, creating a naturally creamy texture, while fresh spinach adds vibrant color and essential nutrients. Finished with fresh lemon juice and parsley, this soup is satisfying, healthy, and perfect for meal prep.",
 
-  image: "/images/recipes/spinach-lentil-soup.jpg",
+  image: "/images/recipes/spinach-lentil-soup.webp",
 
   imageAlt:
     "Mediterranean spinach lentil soup garnished with parsley, lemon wedges, and olive oil.",

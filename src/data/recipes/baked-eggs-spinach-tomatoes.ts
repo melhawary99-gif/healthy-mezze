@@ -13,7 +13,7 @@ export const bakedEggsSpinachTomatoes: Recipe = {
   longDescription:
     "Baked Eggs with Spinach & Tomatoes is a wholesome Mediterranean breakfast featuring eggs gently baked over sautéed spinach, sweet cherry tomatoes, garlic, onions, and crumbled feta cheese. Finished with fresh herbs and extra virgin olive oil, this one-pan breakfast is rich in protein, vitamins, and heart-healthy fats while being easy enough for both weekday mornings and weekend brunch.",
 
-  image: "/images/recipes/baked-eggs-spinach-tomatoes.jpg",
+  image: "/images/recipes/baked-eggs-spinach-tomatoes.webp",
 
   imageAlt:
     "Mediterranean baked eggs with spinach, cherry tomatoes, feta cheese, parsley, and toasted whole grain bread.",

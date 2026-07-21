@@ -13,7 +13,7 @@ export const redLentilSoup: Recipe = {
   longDescription:
     "Shorbat Adas is one of the most beloved soups throughout Lebanon, Egypt, and the Middle East. Made with red lentils, onions, carrots, celery, garlic, and fragrant spices, this creamy soup is naturally vegetarian, high in plant-based protein, and incredibly satisfying. Serve it with warm pita bread and fresh lemon wedges for a traditional meal.",
 
-  image: "/images/recipes/red-lentil-soup.jpg",
+  image: "/images/recipes/red-lentil-soup.webp",
 
   imageAlt:
     "Creamy red lentil soup garnished with parsley, olive oil, and lemon wedges.",

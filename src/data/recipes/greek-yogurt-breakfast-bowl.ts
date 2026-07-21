@@ -13,7 +13,7 @@ export const greekYogurtBreakfastBowl: Recipe = {
   longDescription:
     "This Greek Yogurt Breakfast Bowl is a refreshing and nutritious way to begin your day. Thick Greek yogurt is layered with seasonal fruit, crunchy walnuts, almonds, chia seeds, and a touch of honey. Rich in protein, probiotics, fiber, and healthy fats, it's a balanced breakfast that's quick to prepare and naturally fits the Mediterranean lifestyle.",
 
-  image: "/images/recipes/greek-yogurt-breakfast-bowl.jpg",
+  image: "/images/recipes/greek-yogurt-breakfast-bowl.webp",
 
   imageAlt:
     "Greek yogurt breakfast bowl topped with berries, banana, walnuts, almonds, chia seeds, and honey.",

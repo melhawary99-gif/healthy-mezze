@@ -13,7 +13,7 @@ export const grilledHalloumiHerbsPomegranate: Recipe = {
   longDescription:
     "Grilled Halloumi is a beloved appetizer throughout the Eastern Mediterranean. Halloumi cheese develops a beautifully crisp golden crust while remaining soft inside when grilled. Finished with fresh parsley, mint, pomegranate seeds, lemon juice, and extra virgin olive oil, this vibrant mezze offers the perfect balance of salty, fresh, and sweet flavors.",
 
-  image: "/images/recipes/grilled-halloumi-herbs-pomegranate.jpg",
+  image: "/images/recipes/grilled-halloumi-herbs-pomegranate.webp",
 
   imageAlt:
     "Slices of grilled halloumi topped with parsley, mint, pomegranate seeds, and olive oil on a serving platter.",

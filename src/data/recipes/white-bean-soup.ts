@@ -13,7 +13,7 @@ export const whiteBeanSoup: Recipe = {
   longDescription:
     "This Mediterranean White Bean Soup is a wholesome and satisfying meal featuring creamy cannellini beans, fresh vegetables, aromatic herbs, and extra virgin olive oil. Blending a portion of the beans creates a naturally creamy texture while keeping the soup dairy-free. Rich in plant-based protein and fiber, it's perfect for meal prep and pairs beautifully with whole-grain bread.",
 
-  image: "/images/recipes/white-bean-soup.jpg",
+  image: "/images/recipes/white-bean-soup.webp",
 
   imageAlt:
     "Mediterranean white bean soup garnished with parsley, rosemary, olive oil, and crusty bread.",

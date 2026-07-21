@@ -13,7 +13,7 @@ export const authenticArabicCoffee: Recipe = {
   longDescription:
     "Arabic coffee, known as Ahwa, is a symbol of hospitality throughout the Middle East. In Lebanon and many Gulf countries it is traditionally prepared with lightly roasted coffee beans and freshly ground cardamom, while regional variations exist across Egypt and the Levant. Served in small cups without milk, this aromatic coffee is often enjoyed alongside dates or traditional sweets and plays an important role in welcoming guests and celebrating special occasions.",
 
-  image: "/images/recipes/authentic-arabic-coffee.jpg",
+  image: "/images/recipes/authentic-arabic-coffee.webp",
 
   imageAlt:
     "Traditional Arabic coffee served in a dallah with small finjan cups, dates, and cardamom pods.",

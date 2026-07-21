@@ -6,7 +6,7 @@ export const lentilSoup: Recipe = {
   slug: "lentil-soup",
   description:
     "A comforting Mediterranean soup made with lentils, vegetables, and warming spices.",
-  image: "/images/recipes/lentil-soup.jpg",
+  image: "/images/recipes/lentil-soup.webp",
 
   cuisine: "Mediterranean",
 

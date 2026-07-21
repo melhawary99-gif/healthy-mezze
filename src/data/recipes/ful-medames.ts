@@ -13,7 +13,7 @@ export const fulMedames: Recipe = {
   longDescription:
     "Ful Medames is one of Egypt's most beloved breakfast dishes and a staple throughout the Middle East. Tender fava beans are gently warmed with garlic, cumin, lemon juice, and olive oil before being topped with fresh parsley, tomatoes, onions, and optional boiled eggs. Rich in plant-based protein and fiber, it's a satisfying meal traditionally served with warm pita bread.",
 
-  image: "/images/recipes/ful-medames.jpg",
+  image: "/images/recipes/ful-medames.webp",
 
   imageAlt:
     "Traditional Egyptian Ful Medames topped with parsley, tomatoes, olive oil, and served with warm pita bread.",

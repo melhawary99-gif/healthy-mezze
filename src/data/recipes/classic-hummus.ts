@@ -13,7 +13,7 @@ export const classicHummus: Recipe = {
   longDescription:
     "Classic Creamy Hummus is one of the most beloved dishes in Mediterranean cuisine. Made from tender chickpeas blended with rich tahini, fresh lemon juice, garlic, and premium extra virgin olive oil, this protein-rich dip is creamy, flavorful, and incredibly versatile. Serve it with fresh vegetables, whole wheat pita, crackers, or as part of a mezze platter.",
 
-  image: "/images/recipes/classic-hummus.jpg",
+  image: "/images/recipes/classic-hummus.webp",
 
   imageAlt:
     "Creamy hummus topped with olive oil, paprika, parsley, whole chickpeas, and served with warm pita bread and fresh vegetables.",

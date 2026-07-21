@@ -6,7 +6,7 @@ export const chickenPitaWrap: Recipe = {
   slug: "chicken-pita-wrap",
   description:
     "A delicious Mediterranean wrap filled with grilled chicken, fresh vegetables, herbs, and a creamy yogurt sauce.",
-  image: "/images/recipes/chicken-pita-wrap.jpg",
+  image: "/images/recipes/chicken-pita-wrap.webp",
 
   cuisine: "Middle Eastern",
 

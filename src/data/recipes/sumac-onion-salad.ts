@@ -13,7 +13,7 @@ export const sumacOnionSalad: Recipe = {
   longDescription:
     "Sumac Onion Salad is a classic accompaniment served alongside shawarma, kebabs, grilled meats, kofta, and falafel throughout Lebanon and the Middle East. The sharpness of red onions is mellowed with lemon juice while earthy sumac provides its signature tangy flavor. Fresh parsley and extra virgin olive oil complete this simple yet flavorful condiment that adds freshness and brightness to many Mediterranean dishes.",
 
-  image: "/images/recipes/sumac-onion-salad.jpg",
+  image: "/images/recipes/sumac-onion-salad.webp",
 
   imageAlt:
     "A bowl of Lebanese sumac onion salad made with sliced red onions, parsley, lemon, and sumac.",

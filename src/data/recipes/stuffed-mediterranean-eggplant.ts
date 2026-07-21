@@ -6,7 +6,7 @@ export const stuffedMediterraneanEggplant: Recipe = {
   slug: "stuffed-mediterranean-eggplant",
   description:
     "A flavorful Mediterranean dish featuring roasted eggplant filled with vegetables, herbs, and wholesome grains.",
-  image: "/images/recipes/stuffed-mediterranean-eggplant.jpg",
+  image: "/images/recipes/stuffed-mediterranean-eggplant.webp",
 
   cuisine: "Mediterranean",
 

@@ -13,7 +13,7 @@ export const mediterraneanShakshuka: Recipe = {
   longDescription:
     "Mediterranean Shakshuka is a classic breakfast made by gently poaching eggs in a fragrant tomato sauce seasoned with garlic, onions, bell peppers, cumin, paprika, and herbs. Served with warm pita or crusty bread, it's a protein-rich meal that's naturally gluten-free (without bread) and packed with vegetables.",
 
-  image: "/images/recipes/mediterranean-shakshuka.jpg",
+  image: "/images/recipes/mediterranean-shakshuka.webp",
 
   imageAlt:
     "Mediterranean shakshuka with poached eggs in a tomato and pepper sauce garnished with parsley.",

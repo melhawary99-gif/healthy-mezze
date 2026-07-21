@@ -13,7 +13,7 @@ export const herbedLabnehDip: Recipe = {
   longDescription:
     "Herbed Labneh Dip is a refreshing Mediterranean mezze made with thick, tangy labneh mixed with fragrant parsley, mint, dill, garlic, and fresh lemon zest. Finished with a drizzle of extra virgin olive oil, this protein-rich dip is ideal for serving with fresh vegetables, whole wheat pita, crackers, or as part of a traditional mezze platter. It's quick to prepare and full of bright, fresh flavors.",
 
-  image: "/images/recipes/herbed-labneh-dip.jpg",
+  image: "/images/recipes/herbed-labneh-dip.webp",
 
   imageAlt:
     "Creamy labneh dip topped with fresh parsley, mint, dill, olive oil, lemon zest, and served with vegetables and pita bread.",

@@ -6,7 +6,7 @@ export const falafelBowl: Recipe = {
   slug: "falafel-bowl",
   description:
     "A nourishing bowl with crispy falafel, fresh vegetables, and Mediterranean flavors.",
-  image: "/images/recipes/falafel-bowl.jpg",
+  image: "/images/recipes/falafel-bowl.webp",
 
   cuisine: "Lebanese",
 

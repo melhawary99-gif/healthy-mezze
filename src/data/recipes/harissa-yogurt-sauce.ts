@@ -13,7 +13,7 @@ export const harissaYogurtSauce: Recipe = {
   longDescription:
     "Harissa Yogurt Sauce combines creamy Greek yogurt with traditional North African harissa paste, fresh garlic, lemon juice, and herbs for a bold yet balanced sauce. Popular throughout North Africa and increasingly across the Mediterranean, this healthy version is high in protein while delivering smoky, mildly spicy flavors that pair wonderfully with grilled chicken, lamb, seafood, roasted vegetables, falafel, and grain bowls.",
 
-  image: "/images/recipes/harissa-yogurt-sauce.jpg",
+  image: "/images/recipes/harissa-yogurt-sauce.webp",
 
   imageAlt:
     "A bowl of creamy harissa yogurt sauce garnished with parsley, olive oil, chili flakes, and lemon wedges.",

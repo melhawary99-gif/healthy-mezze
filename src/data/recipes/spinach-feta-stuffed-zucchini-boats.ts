@@ -13,7 +13,7 @@ export const spinachFetaStuffedZucchiniBoats: Recipe = {
   longDescription:
     "Spinach & Feta Stuffed Zucchini Boats are a nutritious Mediterranean-inspired vegetarian meal featuring roasted zucchini filled with spinach, creamy feta cheese, cooked quinoa, garlic, herbs, and a touch of Parmesan. This balanced recipe is packed with vegetables, plant protein, and whole grains while remaining light, flavorful, and satisfying. It makes an excellent lunch, dinner, or meal-prep option.",
 
-  image: "/images/recipes/spinach-feta-stuffed-zucchini-boats.jpg",
+  image: "/images/recipes/spinach-feta-stuffed-zucchini-boats.webp",
 
   imageAlt:
     "Roasted zucchini boats stuffed with spinach, feta cheese, quinoa, herbs, and baked until golden.",

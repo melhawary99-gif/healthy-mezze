@@ -13,7 +13,7 @@ export const mediterraneanChickenKabsa: Recipe = {
   longDescription:
     "Mediterranean Chicken Kabsa is a lighter version of the beloved Middle Eastern classic. Tender skinless chicken thighs are simmered with onions, garlic, tomatoes, carrots, and warm spices before being combined with nutritious brown basmati rice. This wholesome one-pot meal delivers lean protein, whole grains, and vegetables in every serving while preserving the rich flavors that make Kabsa so popular throughout the Middle East.",
 
-  image: "/images/recipes/mediterranean-chicken-kabsa.jpg",
+  image: "/images/recipes/mediterranean-chicken-kabsa.webp",
 
   imageAlt:
     "Mediterranean Chicken Kabsa served with brown basmati rice, roasted chicken, fresh parsley, and toasted almonds.",

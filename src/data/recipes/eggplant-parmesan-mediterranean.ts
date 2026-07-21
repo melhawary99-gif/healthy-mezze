@@ -13,7 +13,7 @@ export const eggplantParmesanMediterranean: Recipe = {
   longDescription:
     "This Mediterranean-inspired Eggplant Parmesan replaces deep frying with oven roasting while preserving the rich flavors of the classic dish. Tender roasted eggplant is layered with a light tomato sauce, mozzarella, Parmesan cheese, basil, and oregano before being baked to perfection. The result is a satisfying vegetarian meal that fits beautifully into a healthy Mediterranean lifestyle.",
 
-  image: "/images/recipes/eggplant-parmesan-mediterranean.jpg",
+  image: "/images/recipes/eggplant-parmesan-mediterranean.webp",
 
   imageAlt:
     "Mediterranean baked eggplant parmesan layered with tomato sauce, mozzarella, Parmesan, and fresh basil.",

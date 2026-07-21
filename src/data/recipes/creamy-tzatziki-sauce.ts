@@ -13,7 +13,7 @@ export const creamyTzatzikiSauce: Recipe = {
   longDescription:
     "Tzatziki is one of the Mediterranean's most beloved sauces. Made with thick Greek yogurt, fresh cucumber, garlic, dill, lemon juice, and extra virgin olive oil, it offers a cool, creamy flavor that complements grilled chicken, kebabs, shawarma, falafel, fresh vegetables, and warm pita bread. This healthier version uses low-fat Greek yogurt while preserving the authentic taste and texture.",
 
-  image: "/images/recipes/creamy-tzatziki-sauce.jpg",
+  image: "/images/recipes/creamy-tzatziki-sauce.webp",
 
   imageAlt:
     "A bowl of creamy tzatziki topped with olive oil, fresh dill, cucumber slices, and served with warm pita bread.",

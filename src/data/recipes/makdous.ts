@@ -13,7 +13,7 @@ export const makdous: Recipe = {
   longDescription:
     "Makdous is one of the Levant's most beloved traditional dishes and is especially popular in Lebanese homes. Baby eggplants are gently cooked until tender, then stuffed with a flavorful mixture of walnuts, garlic, parsley, chili flakes, and pomegranate molasses before being lightly marinated in extra virgin olive oil. This healthier version uses less oil while preserving the authentic sweet, tangy, and nutty flavors that make Makdous a staple of the Mediterranean diet.",
 
-  image: "/images/recipes/makdous.jpg",
+  image: "/images/recipes/makdous.webp",
 
   imageAlt:
     "Stuffed baby eggplants filled with walnuts, garlic, parsley, and pomegranate molasses, garnished with parsley and walnuts.",

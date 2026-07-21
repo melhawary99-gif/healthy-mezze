@@ -13,7 +13,7 @@ export const healthyDateWalnutMaamoul: Recipe = {
   longDescription:
     "Ma'amoul is a traditional Middle Eastern cookie enjoyed throughout Egypt and Lebanon during holidays and family gatherings. This healthier version replaces butter with extra virgin olive oil, uses whole wheat flour for extra fiber, and relies on naturally sweet Medjool dates instead of refined sugar. Chopped walnuts and warm spices create a rich, satisfying filling while keeping the cookies wholesome and delicious.",
 
-  image: "/images/recipes/healthy-date-walnut-maamoul.jpg",
+  image: "/images/recipes/healthy-date-walnut-maamoul.webp",
 
   imageAlt:
     "Healthy whole wheat Ma'amoul cookies filled with dates and walnuts, arranged on a serving plate with pistachios and fresh mint.",

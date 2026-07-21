@@ -13,7 +13,7 @@ export const cauliflowerSteaksTahini: Recipe = {
   longDescription:
     "Cauliflower Steaks with Lemon Tahini Sauce transform humble cauliflower into a satisfying Mediterranean-inspired main course. Thick slices of cauliflower are roasted until golden and tender, then drizzled with a creamy tahini sauce flavored with fresh lemon and garlic. Finished with toasted pine nuts, parsley, and paprika, this vegetarian dish is rich in fiber, healthy fats, and plant-based nutrients.",
 
-  image: "/images/recipes/cauliflower-steaks-tahini.jpg",
+  image: "/images/recipes/cauliflower-steaks-tahini.webp",
 
   imageAlt:
     "Roasted cauliflower steaks topped with lemon tahini sauce, parsley, paprika, and toasted pine nuts.",

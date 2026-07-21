@@ -13,7 +13,7 @@ export const roastedVegetableQuinoaBowl: Recipe = {
   longDescription:
     "Roasted Vegetable Quinoa Bowl is a wholesome Mediterranean-inspired meal packed with colorful roasted vegetables, protein-rich quinoa, chickpeas, and fresh herbs. Tossed with a light lemon-olive oil dressing, this nutrient-dense bowl is naturally vegetarian, high in fiber, and perfect for meal prep or a satisfying healthy dinner.",
 
-  image: "/images/recipes/roasted-vegetable-quinoa-bowl.jpg",
+  image: "/images/recipes/roasted-vegetable-quinoa-bowl.webp",
 
   imageAlt:
     "Mediterranean quinoa bowl with roasted zucchini, eggplant, bell peppers, chickpeas, parsley, and lemon dressing.",

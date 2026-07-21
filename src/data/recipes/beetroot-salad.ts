@@ -13,7 +13,7 @@ export const beetrootSalad: Recipe = {
   longDescription:
     "This Mediterranean Beetroot Salad combines naturally sweet roasted beets with creamy feta cheese, crunchy walnuts, fresh parsley, and mint. Finished with a simple olive oil and lemon dressing, it's packed with antioxidants, vitamins, and healthy fats, making it a nutritious appetizer, side dish, or light lunch.",
 
-  image: "/images/recipes/beetroot-salad.jpg",
+  image: "/images/recipes/beetroot-salad.webp",
 
   imageAlt:
     "Mediterranean beetroot salad with roasted beets, feta cheese, walnuts, parsley, and mint.",

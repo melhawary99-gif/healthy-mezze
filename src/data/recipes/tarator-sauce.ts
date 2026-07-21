@@ -13,7 +13,7 @@ export const taratorSauce: Recipe = {
   longDescription:
     "Tarator is one of Lebanon's most iconic sauces. Unlike a basic tahini sauce, Tarator has a brighter lemon flavor, a lighter consistency, and is traditionally served with grilled fish, fried seafood, falafel, shawarma, roasted cauliflower, and many mezze dishes. This authentic recipe uses fresh lemon juice, garlic, parsley, and creamy sesame tahini to create a smooth, versatile sauce that's naturally vegan and rich in Mediterranean flavor.",
 
-  image: "/images/recipes/tarator-sauce.jpg",
+  image: "/images/recipes/tarator-sauce.webp",
 
   imageAlt:
     "A bowl of Lebanese Tarator sauce garnished with parsley, sesame seeds, garlic, lemon wedges, and olive oil.",

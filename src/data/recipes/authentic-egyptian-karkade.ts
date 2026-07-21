@@ -13,7 +13,7 @@ export const authenticEgyptianKarkade: Recipe = {
   longDescription:
     "Karkade is one of Egypt's most famous traditional drinks and is enjoyed throughout the year, especially during Ramadan and the hot summer months. Made by steeping dried hibiscus flowers, it produces a vibrant ruby-red beverage with a naturally tart flavor. This healthier version uses a small amount of honey instead of refined sugar while preserving its authentic taste.",
 
-  image: "/images/recipes/authentic-egyptian-karkade.jpg",
+  image: "/images/recipes/authentic-egyptian-karkade.webp",
 
   imageAlt:
     "A glass of authentic Egyptian Karkade served over ice with lemon slices and dried hibiscus flowers.",

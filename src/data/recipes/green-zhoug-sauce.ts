@@ -13,7 +13,7 @@ export const greenZhougSauce: Recipe = {
   longDescription:
     "Green Zhoug, also known as Zhug or Shug, is a traditional Yemeni herb sauce that has become popular across the Middle East. Made with fresh cilantro, parsley, garlic, green chilies, cumin, coriander, cardamom, and olive oil, this bold and aromatic condiment adds freshness and gentle heat to grilled meats, faloufel, shawarma, roasted vegetables, eggs, sandwiches, and wraps. This healthier version uses heart-healthy extra virgin olive oil while preserving its authentic flavor.",
 
-  image: "/images/recipes/green-zhoug-sauce.jpg",
+  image: "/images/recipes/green-zhoug-sauce.webp",
 
   imageAlt:
     "A bowl of vibrant green zhoug sauce garnished with cilantro leaves, olive oil, garlic, green chilies, and spices.",

@@ -13,7 +13,7 @@ export const healthyDarkChocolateStuffedDates: Recipe = {
   longDescription:
     "Stuffed dates are a classic treat enjoyed throughout Egypt and the Mediterranean. This healthier version combines naturally sweet Medjool dates with creamy almond butter and antioxidant-rich dark chocolate. Finished with chopped nuts, coconut, and sesame seeds, these no-bake bites make an elegant dessert or energy-boosting snack without relying on refined sugar.",
 
-  image: "/images/recipes/healthy-dark-chocolate-stuffed-dates.jpg",
+  image: "/images/recipes/healthy-dark-chocolate-stuffed-dates.webp",
 
   imageAlt:
     "Dark chocolate stuffed Medjool dates topped with pistachios, walnuts, shredded coconut, and sesame seeds on a serving platter.",

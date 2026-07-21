@@ -13,7 +13,7 @@ export const shishTawook: Recipe = {
   longDescription:
     "Shish Tawook is one of Lebanon's most popular grilled dishes. Chicken breast is marinated in Greek yogurt, garlic, lemon juice, olive oil, and aromatic spices before being threaded onto skewers and grilled until juicy with lightly charred edges. Traditionally served with garlic sauce (toum), grilled vegetables, rice, or warm pita bread, this high-protein meal is ideal for family dinners and summer barbecues.",
 
-  image: "/images/recipes/shish-tawook.jpg",
+  image: "/images/recipes/shish-tawook.webp",
 
   imageAlt:
     "Lebanese Shish Tawook chicken skewers served with garlic sauce, grilled vegetables, and pita bread.",

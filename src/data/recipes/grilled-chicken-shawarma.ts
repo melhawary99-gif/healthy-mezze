@@ -13,7 +13,7 @@ export const grilledChickenShawarma: Recipe = {
   longDescription:
     "Grilled Chicken Shawarma is one of the Middle East's most beloved dishes. Boneless chicken is marinated in creamy yogurt, fresh lemon juice, garlic, olive oil, and an aromatic blend of spices before being grilled until tender and lightly charred. Serve it with rice, salad, hummus, or wrapped in warm pita bread with garlic sauce for an authentic Lebanese meal.",
 
-  image: "/images/recipes/grilled-chicken-shawarma.jpg",
+  image: "/images/recipes/grilled-chicken-shawarma.webp",
 
   imageAlt:
     "Grilled chicken shawarma served with pita bread, garlic sauce, pickles, and fresh salad.",

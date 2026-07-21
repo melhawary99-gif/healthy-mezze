@@ -13,7 +13,7 @@ export const lebaneseMujadara: Recipe = {
   longDescription:
     "Lebanese Mujadara is a timeless Middle Eastern comfort food prepared with brown lentils, long-grain rice, and deeply caramelized onions. Simple yet incredibly flavorful, this naturally vegan recipe is packed with fiber, plant-based protein, and minerals. Traditionally served warm or at room temperature with fresh vegetables, yogurt, or a simple cucumber salad, Mujadara is an excellent choice for healthy everyday meals.",
 
-  image: "/images/recipes/lebanese-mujadara.jpg",
+  image: "/images/recipes/lebanese-mujadara.webp",
 
   imageAlt:
     "Lebanese Mujadara served with caramelized onions, parsley, cucumber salad, and lemon wedges.",

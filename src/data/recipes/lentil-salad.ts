@@ -13,7 +13,7 @@ export const lentilSalad: Recipe = {
   longDescription:
     "This Mediterranean Lentil Salad combines tender green lentils with crisp vegetables, fresh parsley, mint, and creamy feta cheese. Dressed with extra virgin olive oil and fresh lemon juice, it's packed with plant-based protein, fiber, vitamins, and minerals. Perfect as a healthy lunch, side dish, or meal-prep recipe.",
 
-  image: "/images/recipes/lentil-salad.jpg",
+  image: "/images/recipes/lentil-salad.webp",
 
   imageAlt:
     "Mediterranean lentil salad with tomatoes, cucumbers, parsley, feta cheese and lemon dressing.",

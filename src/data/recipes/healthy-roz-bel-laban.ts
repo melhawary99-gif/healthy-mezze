@@ -13,7 +13,7 @@ export const healthyRozBelLaban: Recipe = {
   longDescription:
     "Roz Bel Laban is one of Egypt's most cherished desserts. This healthier version keeps its rich, creamy texture while using low-fat milk, less added sugar, and a touch of honey for natural sweetness. Finished with cinnamon and pistachios, it's a wholesome dessert that's satisfying without being overly sweet.",
 
-  image: "/images/recipes/healthy-roz-bel-laban.jpg",
+  image: "/images/recipes/healthy-roz-bel-laban.webp",
 
   imageAlt:
     "Creamy Egyptian rice pudding served in a glass bowl and topped with cinnamon, chopped pistachios, and fresh mint.",

@@ -13,7 +13,7 @@ export const mediterraneanAvocadoToast: Recipe = {
   longDescription:
     "Mediterranean Avocado Toast combines heart-healthy avocado with fresh vegetables, creamy feta cheese, fragrant herbs, and premium olive oil on crispy whole grain bread. This colorful breakfast is packed with healthy fats, fiber, vitamins, and protein, making it a balanced way to start the day while embracing Mediterranean flavors.",
 
-  image: "/images/recipes/mediterranean-avocado-toast.jpg",
+  image: "/images/recipes/mediterranean-avocado-toast.webp",
 
   imageAlt:
     "Whole grain avocado toast topped with feta cheese, tomatoes, cucumber, parsley, and olive oil.",

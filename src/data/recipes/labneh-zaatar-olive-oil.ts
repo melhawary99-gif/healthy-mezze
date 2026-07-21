@@ -13,7 +13,7 @@ export const labnehZaatarOliveOil: Recipe = {
   longDescription:
     "Labneh is a thick, creamy strained yogurt that has been enjoyed across the Mediterranean for centuries. Topped with extra virgin olive oil, aromatic za'atar, and fresh mint, this protein-rich breakfast is refreshing, nutritious, and incredibly easy to prepare. Serve it with warm pita bread, cucumbers, tomatoes, olives, and fresh herbs for an authentic Mediterranean breakfast.",
 
-  image: "/images/recipes/labneh-zaatar-olive-oil.jpg",
+  image: "/images/recipes/labneh-zaatar-olive-oil.webp",
 
   imageAlt:
     "Creamy labneh topped with za'atar, olive oil, fresh mint, olives, cucumber, tomatoes, and warm pita bread.",

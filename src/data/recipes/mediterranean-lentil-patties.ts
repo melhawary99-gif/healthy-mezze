@@ -13,7 +13,7 @@ export const mediterraneanLentilPatties: Recipe = {
   longDescription:
     "Mediterranean Lentil Patties are packed with plant-based protein, fiber, and aromatic herbs. Made from cooked lentils, oats, parsley, garlic, onion, cumin, coriander, and paprika, these patties are baked until golden and crisp on the outside while remaining tender inside. They pair wonderfully with tahini sauce, yogurt sauce, fresh salad, or tucked into pita bread.",
 
-  image: "/images/recipes/mediterranean-lentil-patties.jpg",
+  image: "/images/recipes/mediterranean-lentil-patties.webp",
 
   imageAlt:
     "Golden baked Mediterranean lentil patties served with tahini sauce and fresh parsley.",

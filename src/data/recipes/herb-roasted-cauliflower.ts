@@ -13,7 +13,7 @@ export const herbRoastedCauliflower: Recipe = {
   longDescription:
     "Herb-Roasted Cauliflower is a simple yet flavorful Mediterranean dish that transforms fresh cauliflower into a crispy, caramelized delight. Roasted with extra virgin olive oil, garlic, paprika, oregano, thyme, and finished with fresh lemon juice and parsley, it's an excellent healthy side dish or light vegetarian meal packed with fiber, vitamins, and antioxidants.",
 
-  image: "/images/recipes/herb-roasted-cauliflower.jpg",
+  image: "/images/recipes/herb-roasted-cauliflower.webp",
 
   imageAlt:
     "Golden roasted cauliflower florets garnished with parsley and lemon wedges.",

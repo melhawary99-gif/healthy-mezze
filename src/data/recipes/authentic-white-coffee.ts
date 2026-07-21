@@ -13,7 +13,7 @@ export const authenticWhiteCoffee: Recipe = {
   longDescription:
     "Ahweh Baida, or Lebanese White Coffee, is a fragrant, caffeine-free beverage traditionally served after meals or offered to guests as a symbol of hospitality. Although its name translates to 'white coffee,' it contains no coffee beans. Instead, hot water is delicately flavored with orange blossom water and lightly sweetened with honey, creating a soothing drink that is both elegant and refreshing.",
 
-  image: "/images/recipes/authentic-white-coffee.jpg",
+  image: "/images/recipes/authentic-white-coffee.webp",
 
   imageAlt:
     "A traditional glass of Lebanese White Coffee garnished with orange blossoms and served on a decorative tray.",

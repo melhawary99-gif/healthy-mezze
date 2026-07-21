@@ -13,7 +13,7 @@ export const tabboulehSalad: Recipe = {
   longDescription:
     "Tabbouleh is a classic Lebanese salad celebrated for its vibrant flavor and nutritional value. Fresh parsley is the star ingredient, complemented by mint, tomatoes, fine bulgur, lemon juice, and olive oil. It's naturally rich in vitamins, antioxidants, and fiber, making it an excellent healthy side dish or light meal.",
 
-  image: "/images/recipes/tabbouleh-salad.jpg",
+  image: "/images/recipes/tabbouleh-salad.webp",
 
   imageAlt:
     "Fresh Lebanese tabbouleh salad with parsley, tomatoes, mint, bulgur and lemon.",

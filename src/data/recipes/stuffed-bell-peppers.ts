@@ -13,7 +13,7 @@ export const stuffedBellPeppers: Recipe = {
   longDescription:
     "Mediterranean Stuffed Bell Peppers are a wholesome and satisfying meal featuring vibrant bell peppers filled with a flavorful mixture of lean ground beef, brown rice, tomatoes, onions, garlic, parsley, and warm Mediterranean spices. Baked until the peppers are perfectly tender, this balanced dish is rich in protein, fiber, vitamins, and minerals, making it ideal for healthy family dinners or meal prep.",
 
-  image: "/images/recipes/stuffed-bell-peppers.jpg",
+  image: "/images/recipes/stuffed-bell-peppers.webp",
 
   imageAlt:
     "Mediterranean stuffed bell peppers filled with beef, rice, herbs, and tomatoes, baked until tender.",

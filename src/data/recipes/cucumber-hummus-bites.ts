@@ -13,7 +13,7 @@ export const cucumberHummusBites: Recipe = {
   longDescription:
     "Cucumber Hummus Bites are a light, colorful, and nutritious Mediterranean snack that's perfect for parties, meal prep, or healthy afternoon cravings. Crisp cucumber slices replace crackers, creating a naturally low-carb base that's topped with smooth hummus, juicy cherry tomatoes, crumbled feta, Kalamata olives, and fresh parsley. Ready in minutes, these bite-sized appetizers are packed with flavor and wholesome ingredients.",
 
-  image: "/images/recipes/cucumber-hummus-bites.jpg",
+  image: "/images/recipes/cucumber-hummus-bites.webp",
 
   imageAlt:
     "Fresh cucumber slices topped with creamy hummus, cherry tomatoes, feta cheese, Kalamata olives, parsley, and paprika.",

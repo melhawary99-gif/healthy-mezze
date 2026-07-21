@@ -13,7 +13,7 @@ export const egyptianKoshari: Recipe = {
   longDescription:
     "Egyptian Koshari is the national dish of Egypt and a beloved vegetarian meal packed with flavor and texture. Layers of fluffy rice, brown lentils, pasta, tender chickpeas, crispy fried onions, and a bold garlic tomato sauce come together to create a hearty, protein-rich meal. Affordable, filling, and naturally meat-free, Koshari is enjoyed throughout Egypt as both street food and home cooking.",
 
-  image: "/images/recipes/egyptian-koshari.jpg",
+  image: "/images/recipes/egyptian-koshari.webp",
 
   imageAlt:
     "Traditional Egyptian Koshari topped with crispy onions, tomato sauce, chickpeas, and fresh parsley.",

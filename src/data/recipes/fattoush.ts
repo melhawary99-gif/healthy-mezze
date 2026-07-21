@@ -13,7 +13,7 @@ export const fattoush: Recipe = {
   longDescription:
     "Fattoush is one of Lebanon's most iconic salads. It combines fresh seasonal vegetables with crunchy toasted pita bread and a bright lemon-sumac dressing. Rich in fiber, vitamins, and antioxidants, it's a refreshing side dish or light meal.",
 
-  image: "/images/recipes/fattoush.jpg",
+  image: "/images/recipes/fattoush.webp",
 
   imageAlt:
     "Traditional Lebanese Fattoush salad with toasted pita bread, tomatoes, cucumbers, lettuce, parsley, mint and sumac.",

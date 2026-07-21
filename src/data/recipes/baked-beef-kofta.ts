@@ -13,7 +13,7 @@ export const bakedBeefKofta: Recipe = {
   longDescription:
     "Baked Beef Kofta is a classic Egyptian and Lebanese dish featuring lean ground beef combined with parsley, onions, garlic, and warm Mediterranean spices. Baking creates juicy, flavorful kofta with less oil than frying, making it a healthier option. Serve alongside rice, roasted vegetables, hummus, tahini sauce, or warm pita bread for a complete Mediterranean meal.",
 
-  image: "/images/recipes/baked-beef-kofta.jpg",
+  image: "/images/recipes/baked-beef-kofta.webp",
 
   imageAlt:
     "Baked beef kofta served with parsley, grilled vegetables, tahini sauce, and warm pita bread.",

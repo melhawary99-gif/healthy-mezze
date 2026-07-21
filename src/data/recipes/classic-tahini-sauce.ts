@@ -13,7 +13,7 @@ export const classicTahiniSauce: Recipe = {
   longDescription:
     "Tahini sauce is a staple throughout the Middle East and is traditionally served with falafel, shawarma, grilled fish, kebabs, roasted vegetables, and fresh salads. Made from sesame tahini blended with lemon juice, garlic, parsley, and water, this healthy version is rich in healthy fats, minerals, and authentic Mediterranean flavor while remaining naturally vegan and dairy-free.",
 
-  image: "/images/recipes/classic-tahini-sauce.jpg",
+  image: "/images/recipes/classic-tahini-sauce.webp",
 
   imageAlt:
     "A bowl of creamy tahini sauce garnished with parsley, sesame seeds, olive oil, garlic, and lemon wedges.",

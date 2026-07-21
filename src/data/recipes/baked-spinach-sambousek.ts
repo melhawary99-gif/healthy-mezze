@@ -13,7 +13,7 @@ export const bakedSpinachSambousek: Recipe = {
   longDescription:
     "Spinach Sambousek are popular throughout Lebanon and the Middle East. Traditionally fried, this healthier version is oven-baked until golden and crisp while maintaining the delicious savory filling. Fresh spinach is combined with onions, parsley, lemon juice, olive oil, and aromatic sumac, then wrapped in homemade whole wheat pastry and baked. They make an excellent appetizer, mezze, or light lunch.",
 
-  image: "/images/recipes/baked-spinach-sambousek.jpg",
+  image: "/images/recipes/baked-spinach-sambousek.webp",
 
   imageAlt:
     "Golden baked spinach sambousek arranged on a serving platter with lemon wedges and fresh parsley.",

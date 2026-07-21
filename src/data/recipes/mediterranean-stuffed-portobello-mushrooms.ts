@@ -13,7 +13,7 @@ export const mediterraneanStuffedPortobelloMushrooms: Recipe = {
   longDescription:
     "Mediterranean Stuffed Portobello Mushrooms combine meaty Portobello mushroom caps with a wholesome filling of quinoa, spinach, feta cheese, sun-dried tomatoes, garlic, and fresh herbs. The mushrooms become tender while the filling develops a delicious golden crust, creating a satisfying vegetarian meal rich in nutrients and Mediterranean flavors.",
 
-  image: "/images/recipes/mediterranean-stuffed-portobello-mushrooms.jpg",
+  image: "/images/recipes/mediterranean-stuffed-portobello-mushrooms.webp",
 
   imageAlt:
     "Baked Portobello mushrooms stuffed with spinach, quinoa, feta cheese, sun-dried tomatoes, parsley, and herbs.",

@@ -13,7 +13,7 @@ export const healthyKanafehRicotta: Recipe = {
   longDescription:
     "Kanafeh is one of the Middle East's most iconic desserts, enjoyed throughout Egypt and Lebanon. Traditional recipes use large amounts of butter and sugar syrup. This healthier version uses olive oil to crisp the kataifi pastry, combines part-skim ricotta with a small amount of mozzarella for a creamy filling, and finishes with a light honey-orange blossom syrup. The result is a beautifully crisp dessert with authentic flavor and a healthier nutritional profile.",
 
-  image: "/images/recipes/healthy-kanafeh-ricotta.jpg",
+  image: "/images/recipes/healthy-kanafeh-ricotta.webp",
 
   imageAlt:
     "Healthy kanafeh made with crispy kataifi pastry, ricotta, mozzarella, pistachios, and a light honey syrup.",

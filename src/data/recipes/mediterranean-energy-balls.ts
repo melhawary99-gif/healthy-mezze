@@ -13,7 +13,7 @@ export const mediterraneanEnergyBalls: Recipe = {
   longDescription:
     "Mediterranean Energy Balls are a convenient and nutritious snack made with simple whole-food ingredients. Sweet Medjool dates provide natural sweetness while rolled oats, almonds, walnuts, chia seeds, and unsweetened cocoa powder add fiber, healthy fats, and plant-based protein. These bite-sized treats require no baking, making them perfect for meal prep, lunchboxes, post-workout snacks, or healthy desserts.",
 
-  image: "/images/recipes/mediterranean-energy-balls.jpg",
+  image: "/images/recipes/mediterranean-energy-balls.webp",
 
   imageAlt:
     "No-bake Mediterranean energy balls coated with shredded coconut and served on a wooden plate.",

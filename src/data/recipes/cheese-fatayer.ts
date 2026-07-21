@@ -13,7 +13,7 @@ export const cheeseFatayer: Recipe = {
   longDescription:
     "Cheese Fatayer are among the most popular baked pastries found in Lebanese bakeries. This healthier version uses whole wheat flour and a lighter cheese filling made with soaked Akkawi cheese and reduced-fat mozzarella for less sodium and saturated fat while preserving the authentic flavor. Fresh parsley and nigella seeds add a traditional Mediterranean aroma, making these pastries perfect as breakfast, mezze, or a light meal.",
 
-  image: "/images/recipes/cheese-fatayer.jpg",
+  image: "/images/recipes/cheese-fatayer.webp",
 
   imageAlt:
     "Freshly baked Lebanese cheese fatayer arranged on a serving board with parsley and black nigella seeds.",

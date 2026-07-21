@@ -13,7 +13,7 @@ export const healthyPistachioBaklavaRolls: Recipe = {
   longDescription:
     "Baklava is one of the Middle East's most celebrated desserts. This healthier version swaps butter for extra virgin olive oil, uses whole wheat phyllo pastry when available, and sweetens the rolls with a light honey-orange blossom syrup instead of a heavy sugar syrup. The result is a crisp, flavorful dessert with authentic Mediterranean character and less saturated fat.",
 
-  image: "/images/recipes/healthy-pistachio-baklava-rolls.jpg",
+  image: "/images/recipes/healthy-pistachio-baklava-rolls.webp",
 
   imageAlt:
     "Healthy pistachio baklava rolls topped with chopped pistachios and a light honey drizzle on a serving platter.",

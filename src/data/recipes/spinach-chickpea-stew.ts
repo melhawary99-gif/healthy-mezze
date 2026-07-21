@@ -13,7 +13,7 @@ export const spinachChickpeaStew: Recipe = {
   longDescription:
     "Spinach & Chickpea Stew is a nourishing Mediterranean-inspired meal that combines protein-rich chickpeas with fresh spinach, tomatoes, onions, garlic, and aromatic spices. Slowly simmered to develop deep flavor, this naturally vegan stew is packed with fiber, vitamins, minerals, and antioxidants. Serve it with whole-grain bread, quinoa, or brown rice for a wholesome meal.",
 
-  image: "/images/recipes/spinach-chickpea-stew.jpg",
+  image: "/images/recipes/spinach-chickpea-stew.webp",
 
   imageAlt:
     "Mediterranean spinach and chickpea stew served in a bowl with parsley and lemon wedges.",

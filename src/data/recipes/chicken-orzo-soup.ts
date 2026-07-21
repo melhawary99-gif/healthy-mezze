@@ -13,7 +13,7 @@ export const chickenOrzoSoup: Recipe = {
   longDescription:
     "This Mediterranean Chicken Orzo Soup is a wholesome one-pot meal featuring juicy chicken breast, tender orzo pasta, carrots, celery, onions, and aromatic herbs simmered in a flavorful chicken broth. Finished with fresh lemon juice and parsley, it's rich in protein, comforting, and perfect for lunch or dinner throughout the year.",
 
-  image: "/images/recipes/chicken-orzo-soup.jpg",
+  image: "/images/recipes/chicken-orzo-soup.webp",
 
   imageAlt:
     "Mediterranean chicken orzo soup with carrots, celery, parsley, and lemon wedges.",

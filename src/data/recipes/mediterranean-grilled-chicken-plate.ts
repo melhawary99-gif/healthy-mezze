@@ -6,7 +6,7 @@ export const mediterraneanGrilledChickenPlate: Recipe = {
   slug: "mediterranean-grilled-chicken-plate",
   description:
     "A healthy Mediterranean meal featuring grilled chicken, fresh vegetables, herbs, and a side of wholesome grains.",
-  image: "/images/recipes/mediterranean-grilled-chicken-plate.jpg",
+  image: "/images/recipes/mediterranean-grilled-chicken-plate.webp",
 
   cuisine: "Mediterranean",
 

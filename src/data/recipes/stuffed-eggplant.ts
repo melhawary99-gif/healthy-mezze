@@ -13,7 +13,7 @@ export const stuffedEggplant: Recipe = {
   longDescription:
     "Mediterranean Stuffed Eggplant is a healthy baked dish featuring roasted eggplant halves filled with a savory mixture of lean ground beef, onions, garlic, tomatoes, fresh parsley, and aromatic Mediterranean spices. Naturally rich in fiber, antioxidants, and protein, this colorful recipe is perfect for a balanced family dinner and pairs beautifully with yogurt, quinoa, or a crisp salad.",
 
-  image: "/images/recipes/stuffed-eggplant.jpg",
+  image: "/images/recipes/stuffed-eggplant.webp",
 
   imageAlt:
     "Roasted Mediterranean stuffed eggplants filled with lean beef, tomatoes, parsley, and herbs.",

@@ -13,7 +13,7 @@ export const oliveTapenade: Recipe = {
   longDescription:
     "Olive Tapenade is a classic Mediterranean spread bursting with bold, briny flavors. Made with a blend of Kalamata and green olives, capers, garlic, fresh parsley, lemon juice, and premium extra virgin olive oil, this quick and healthy appetizer is rich in heart-healthy fats and antioxidants. Serve it with whole grain crackers, toasted bread, cucumber slices, or as part of a traditional Mediterranean mezze platter.",
 
-  image: "/images/recipes/olive-tapenade.jpg",
+  image: "/images/recipes/olive-tapenade.webp",
 
   imageAlt:
     "Mediterranean olive tapenade served in a bowl with whole grain crackers, cucumber slices, cherry tomatoes, and parsley.",

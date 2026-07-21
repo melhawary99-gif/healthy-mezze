@@ -13,7 +13,7 @@ export const authenticLebaneseMintTea: Recipe = {
   longDescription:
     "Shai bil Nana, or Lebanese Mint Tea, is one of the most popular hot beverages throughout Lebanon and the Levant. Fresh mint leaves are steeped alongside black tea to create a fragrant, refreshing drink that is commonly enjoyed after meals or served to guests. This healthier version uses a small amount of honey as an optional sweetener while preserving the authentic flavor and aroma.",
 
-  image: "/images/recipes/authentic-lebanese-mint-tea.jpg",
+  image: "/images/recipes/authentic-lebanese-mint-tea.webp",
 
   imageAlt:
     "A glass of authentic Lebanese mint tea garnished with fresh mint leaves and served alongside a traditional teapot.",

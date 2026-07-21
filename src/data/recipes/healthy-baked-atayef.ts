@@ -13,7 +13,7 @@ export const healthyBakedAtayef: Recipe = {
   longDescription:
     "Atayef is one of the most famous desserts enjoyed throughout Egypt and the Levant, especially during Ramadan. Traditional atayef are often deep-fried and soaked in sugar syrup. This healthier version uses soft homemade pancakes filled with a light mixture of ricotta cheese, Greek yogurt, pistachios, and honey before being baked until lightly golden. Finished with orange blossom water and crushed pistachios, it offers authentic flavor with less fat and refined sugar.",
 
-  image: "/images/recipes/healthy-baked-atayef.jpg",
+  image: "/images/recipes/healthy-baked-atayef.webp",
 
   imageAlt:
     "Healthy baked atayef filled with ricotta and pistachios, garnished with crushed pistachios, honey drizzle, and dried rose petals.",

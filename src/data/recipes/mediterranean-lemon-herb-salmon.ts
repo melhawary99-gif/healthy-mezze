@@ -6,7 +6,7 @@ export const mediterraneanLemonHerbSalmon: Recipe = {
   slug: "mediterranean-lemon-herb-salmon",
   description:
     "A healthy Mediterranean salmon dish prepared with fresh lemon, herbs, olive oil, and colorful vegetables.",
-  image: "/images/recipes/mediterranean-lemon-herb-salmon.jpg",
+  image: "/images/recipes/mediterranean-lemon-herb-salmon.webp",
 
   cuisine: "Mediterranean",
 

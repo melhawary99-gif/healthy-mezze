@@ -13,7 +13,7 @@ export const authenticChermoulaSauce: Recipe = {
   longDescription:
     "Chermoula is a traditional herb sauce and marinade enjoyed throughout North Africa and the Mediterranean. Popular in Morocco, Algeria, and Tunisia, it is commonly served with grilled fish, seafood, chicken, roasted vegetables, and potatoes. This authentic version combines fresh herbs, garlic, lemon juice, olive oil, cumin, coriander, paprika, and a touch of cayenne to create a bright, aromatic sauce that's naturally vegan, nutrient-rich, and incredibly versatile.",
 
-  image: "/images/recipes/authentic-chermoula-sauce.jpg",
+  image: "/images/recipes/authentic-chermoula-sauce.webp",
 
   imageAlt:
     "A bowl of authentic Chermoula sauce garnished with fresh cilantro, parsley, garlic, lemon wedges, paprika, and olive oil.",

@@ -13,7 +13,7 @@ export const bakedKibbeh: Recipe = {
   longDescription:
     "Baked Kibbeh is one of Lebanon's most treasured national dishes. Unlike the fried version, this healthier recipe is baked until beautifully golden, reducing fat while preserving its rich flavor. Layers of seasoned lean beef and fine bulgur wheat surround a savory filling with onions and toasted pine nuts, creating a hearty meal that's packed with protein and Mediterranean goodness.",
 
-  image: "/images/recipes/baked-kibbeh.jpg",
+  image: "/images/recipes/baked-kibbeh.webp",
 
   imageAlt:
     "Golden baked Lebanese kibbeh cut into diamond shapes and garnished with toasted pine nuts and fresh parsley.",

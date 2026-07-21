@@ -13,7 +13,7 @@ export const authenticCarobJuice: Recipe = {
   longDescription:
     "Kharoub, or Carob Juice, is a beloved beverage enjoyed across Egypt, Lebanon, and much of the Middle East, especially during Ramadan. Roasted carob pods create a naturally sweet, deep caramel-like flavor without caffeine. This healthier version relies primarily on the natural sweetness of carob while using only a small amount of honey if desired, making it a refreshing and wholesome traditional drink.",
 
-  image: "/images/recipes/authentic-carob-juice.jpg",
+  image: "/images/recipes/authentic-carob-juice.webp",
 
   imageAlt:
     "A chilled glass of traditional carob juice with ice, roasted carob pods, fresh mint, and lemon slices.",

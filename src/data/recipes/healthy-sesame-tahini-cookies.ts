@@ -13,7 +13,7 @@ export const healthySesameTahiniCookies: Recipe = {
   longDescription:
     "Tahini cookies are enjoyed throughout Egypt and the Levant for their rich sesame flavor and delicate texture. This healthier version replaces butter with extra virgin olive oil, uses whole wheat flour for added fiber, and relies on honey for gentle sweetness. Toasted sesame seeds add crunch while tahini provides a naturally nutty taste that's perfect with tea or coffee.",
 
-  image: "/images/recipes/healthy-sesame-tahini-cookies.jpg",
+  image: "/images/recipes/healthy-sesame-tahini-cookies.webp",
 
   imageAlt:
     "Healthy sesame tahini cookies topped with toasted sesame seeds on a rustic serving plate.",

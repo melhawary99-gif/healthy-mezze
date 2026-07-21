@@ -13,7 +13,7 @@ export const muhammara: Recipe = {
   longDescription:
     "Muhammara is a traditional Levantine dip that combines the sweetness of roasted red peppers with the earthy richness of walnuts and the tangy depth of pomegranate molasses. Blended with garlic, olive oil, breadcrumbs, and warm spices, this vibrant dip is packed with antioxidants and healthy fats. Serve it with warm pita bread, fresh vegetables, grilled meats, or as part of a Mediterranean mezze platter.",
 
-  image: "/images/recipes/muhammara.jpg",
+  image: "/images/recipes/muhammara.webp",
 
   imageAlt:
     "Creamy Muhammara topped with walnuts, parsley, olive oil, and pomegranate seeds, served with warm pita bread.",

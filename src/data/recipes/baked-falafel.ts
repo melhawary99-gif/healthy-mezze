@@ -13,7 +13,7 @@ export const bakedFalafel: Recipe = {
   longDescription:
     "Baked Falafel delivers all the classic Mediterranean flavors without deep frying. Made with soaked chickpeas, parsley, cilantro, garlic, onion, cumin, coriander, and baked until perfectly crisp outside and tender inside, these falafel are rich in plant-based protein and fiber. Serve them with tahini sauce, hummus, fresh vegetables, or tucked into warm pita bread for a satisfying meal.",
 
-  image: "/images/recipes/baked-falafel.jpg",
+  image: "/images/recipes/baked-falafel.webp",
 
   imageAlt:
     "Golden baked falafel served with tahini sauce, fresh parsley, cucumbers, tomatoes, and pita bread.",

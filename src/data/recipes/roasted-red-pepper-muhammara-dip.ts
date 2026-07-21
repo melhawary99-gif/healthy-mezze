@@ -13,7 +13,7 @@ export const roastedRedPepperMuhammaraDip: Recipe = {
   longDescription:
     "Muhammara is a classic Levantine dip originating in Aleppo, Syria, and enjoyed throughout Lebanon and the Middle East. This version emphasizes a smooth, creamy consistency that's ideal as a dip for pita bread, fresh vegetables, grilled meats, and sandwiches. Roasted red peppers, toasted walnuts, pomegranate molasses, and warm spices combine to create a naturally flavorful and nutritious appetizer.",
 
-  image: "/images/recipes/roasted-red-pepper-muhammara-dip.jpg",
+  image: "/images/recipes/roasted-red-pepper-muhammara-dip.webp",
 
   imageAlt:
     "A bowl of creamy Muhammara dip garnished with walnuts, parsley, olive oil, pomegranate seeds, and served with warm pita bread.",

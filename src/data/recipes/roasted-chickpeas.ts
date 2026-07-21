@@ -13,7 +13,7 @@ export const roastedChickpeas: Recipe = {
   longDescription:
     "Mediterranean Roasted Chickpeas are a simple yet incredibly satisfying snack made with crispy chickpeas coated in extra virgin olive oil and a blend of aromatic Mediterranean spices. High in plant-based protein, fiber, and essential minerals, these crunchy bites are perfect for healthy snacking, meal prep, or adding texture to salads and grain bowls.",
 
-  image: "/images/recipes/mediterranean-roasted-chickpeas.jpg",
+  image: "/images/recipes/mediterranean-roasted-chickpeas.webp",
 
   imageAlt:
     "Crispy roasted chickpeas seasoned with paprika, garlic, oregano, parsley, and Mediterranean herbs.",

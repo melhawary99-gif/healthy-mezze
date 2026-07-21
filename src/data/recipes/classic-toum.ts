@@ -13,7 +13,7 @@ export const classicToum: Recipe = {
   longDescription:
     "Toum is Lebanon's famous garlic sauce, traditionally served with chicken shawarma, grilled meats, kebabs, roasted vegetables, and fries. This healthier version uses aquafaba (the liquid from cooked chickpeas) to create the signature airy texture while reducing the amount of oil needed. The result is a creamy, intensely garlicky sauce that's naturally vegan and packed with authentic flavor.",
 
-  image: "/images/recipes/classic-toum.jpg",
+  image: "/images/recipes/classic-toum.webp",
 
   imageAlt:
     "A bowl of fluffy Lebanese toum garnished with garlic cloves, parsley, lemon wedges, and served with pita bread.",

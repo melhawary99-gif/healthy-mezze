@@ -13,7 +13,7 @@ export const mediterraneanOatmealDatesPistachios: Recipe = {
   longDescription:
     "Mediterranean Oatmeal with Dates & Pistachios transforms a classic breakfast into a nourishing Mediterranean-inspired meal. Whole grain oats are simmered until creamy, then topped with naturally sweet Medjool dates, roasted pistachios, walnuts, fresh berries, banana slices, and a touch of honey. Rich in fiber, antioxidants, and healthy fats, this breakfast provides long-lasting energy and supports heart health.",
 
-  image: "/images/recipes/mediterranean-oatmeal-dates-pistachios.jpg",
+  image: "/images/recipes/mediterranean-oatmeal-dates-pistachios.webp",
 
   imageAlt:
     "Creamy oatmeal topped with dates, pistachios, walnuts, banana slices, blueberries, cinnamon, and honey.",

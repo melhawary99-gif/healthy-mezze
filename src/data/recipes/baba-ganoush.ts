@@ -13,7 +13,7 @@ export const babaGanoush: Recipe = {
   longDescription:
     "Classic Baba Ganoush is one of the signature dishes of Mediterranean and Middle Eastern cuisine. Roasted eggplants develop a naturally smoky flavor before being blended with creamy tahini, fresh lemon juice, garlic, and extra virgin olive oil. This healthy dip is rich in antioxidants, fiber, and heart-healthy fats, making it an excellent appetizer, snack, or side dish for any Mediterranean meal.",
 
-  image: "/images/recipes/classic-baba-ganoush.jpg",
+  image: "/images/recipes/classic-baba-ganoush.webp",
 
   imageAlt:
     "Creamy baba ganoush topped with olive oil, parsley, smoked paprika, and served with warm pita bread and fresh vegetables.",

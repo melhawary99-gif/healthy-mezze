@@ -13,7 +13,7 @@ export const roastedCauliflowerTahini: Recipe = {
   longDescription:
     "Roasted Cauliflower with Tahini Sauce is a classic Lebanese appetizer that transforms simple ingredients into an elegant Mediterranean dish. Oven roasting caramelizes the cauliflower, bringing out its natural sweetness while keeping it tender. A silky tahini sauce flavored with garlic and lemon complements the roasted vegetables perfectly, while toasted pine nuts and parsley add texture and freshness.",
 
-  image: "/images/recipes/roasted-cauliflower-tahini.jpg",
+  image: "/images/recipes/roasted-cauliflower-tahini.webp",
 
   imageAlt:
     "Golden roasted cauliflower topped with creamy tahini sauce, toasted pine nuts, parsley, and lemon wedges.",

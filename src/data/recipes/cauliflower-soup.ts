@@ -13,7 +13,7 @@ export const cauliflowerSoup: Recipe = {
   longDescription:
     "This Creamy Cauliflower Soup transforms simple ingredients into a rich and velvety Mediterranean-inspired dish. Roasting the cauliflower enhances its natural sweetness while garlic, onions, and herbs provide deep flavor. The soup is blended until smooth without using cream, making it naturally dairy-free while remaining wonderfully creamy. It's a nutritious, low-calorie meal perfect for lunch or dinner.",
 
-  image: "/images/recipes/cauliflower-soup.jpg",
+  image: "/images/recipes/cauliflower-soup.webp",
 
   imageAlt:
     "Creamy roasted cauliflower soup garnished with parsley, cracked black pepper, roasted cauliflower florets, and olive oil.",

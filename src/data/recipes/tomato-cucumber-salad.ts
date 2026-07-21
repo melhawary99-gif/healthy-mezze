@@ -13,7 +13,7 @@ export const tomatoCucumberSalad: Recipe = {
   longDescription:
     "This classic Mediterranean Tomato & Cucumber Salad is one of the simplest and healthiest dishes found throughout Lebanon and Egypt. Fresh vegetables are tossed with parsley, mint, extra virgin olive oil, and lemon juice for a refreshing salad that's naturally vegan, hydrating, and rich in vitamins. It's the perfect side dish for grilled meats, seafood, wraps, or any mezze platter.",
 
-  image: "/images/recipes/tomato-cucumber-salad.jpg",
+  image: "/images/recipes/tomato-cucumber-salad.webp",
 
   imageAlt:
     "Mediterranean tomato and cucumber salad with parsley, mint, olive oil, and lemon dressing.",

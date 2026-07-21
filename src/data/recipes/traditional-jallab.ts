@@ -13,7 +13,7 @@ export const traditionalJallab: Recipe = {
   longDescription:
     "Jallab is one of Lebanon's most famous traditional drinks and is enjoyed throughout the Middle East, especially during Ramadan and the hot summer months. Made from date molasses, grape molasses, fragrant rose water, and served over ice with pine nuts and raisins, Jallab offers a naturally rich sweetness and unique floral aroma without artificial ingredients. This healthier version contains no refined sugar while preserving its authentic flavor.",
 
-  image: "/images/recipes/traditional-jallab.jpg",
+  image: "/images/recipes/traditional-jallab.webp",
 
   imageAlt:
     "A tall glass of traditional Lebanese Jallab served with ice, pine nuts, raisins, and fresh mint.",

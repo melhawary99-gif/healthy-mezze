@@ -13,7 +13,7 @@ export const tomatoBasilSoup: Recipe = {
   longDescription:
     "This Roasted Tomato Basil Soup brings together sweet roasted tomatoes, garlic, onions, and fresh basil in a comforting Mediterranean-inspired dish. Roasting the vegetables enhances their natural sweetness, while blending them creates a silky texture without needing heavy cream. Rich in antioxidants and vitamins, it's an ideal light lunch or dinner served with crusty whole-grain bread.",
 
-  image: "/images/recipes/tomato-basil-soup.jpg",
+  image: "/images/recipes/tomato-basil-soup.webp",
 
   imageAlt:
     "Creamy roasted tomato basil soup garnished with fresh basil leaves and olive oil.",

@@ -13,7 +13,7 @@ export const vegetableMoussaka: Recipe = {
   longDescription:
     "This vegetarian Mediterranean Moussaka layers roasted vegetables with a flavorful tomato sauce infused with garlic, onions, herbs, and warm spices. Finished with a light homemade béchamel and baked until beautifully golden, it's a comforting yet nutritious dish that's perfect for family dinners or meal prep.",
 
-  image: "/images/recipes/vegetable-moussaka.jpg",
+  image: "/images/recipes/vegetable-moussaka.webp",
 
   imageAlt:
     "A baked Mediterranean vegetable moussaka with golden béchamel topping served in a casserole dish.",
