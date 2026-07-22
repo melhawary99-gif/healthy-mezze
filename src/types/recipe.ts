@@ -6,7 +6,7 @@ export interface Ingredient {
    * 0.5
    * 250
    */
-  amount: number;
+  amount: number | string;
 
   /**
    * Unit of measurement.

@@ -63,11 +63,14 @@ export default function Hero() {
         {/* Right Side */}
         <div className="flex flex-1 justify-center">
           <Image
-            src="/images/hero-food.jpg"
-            alt="Healthy Mediterranean dishes"
+            src="/images/hero-food.webp"
+            alt="Healthy Mediterranean dishes with fresh vegetables, hummus, salads, and wraps"
             width={700}
             height={700}
             priority
+            quality={90}
+            placeholder="blur"
+            sizes="(max-width: 1024px) 100vw, 50vw"
             className="rounded-3xl shadow-2xl"
           />
         </div>

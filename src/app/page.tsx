@@ -1,14 +1,16 @@
 import Hero from "@/components/home/Hero";
-import Categories from "@/components/home/Categories";
-import FeaturedRecipes from "@/components/home/FeaturedRecipes";
-import Statistics from "@/components/home/Statistics";
-import WhyHealthyMezze from "@/components/home/WhyHealthyMezze";
-import HealthyTip from "@/components/home/HealthyTip";
-import Newsletter from "@/components/Newsletter";
+import dynamic from "next/dynamic";
+
+const Categories = dynamic(() => import("@/components/home/Categories"));
+const FeaturedRecipes = dynamic(() => import("@/components/home/FeaturedRecipes"));
+const Statistics = dynamic(() => import("@/components/home/Statistics"));
+const WhyHealthyMezze = dynamic(() => import("@/components/home/WhyHealthyMezze"));
+const HealthyTip = dynamic(() => import("@/components/home/HealthyTip"));
+const Newsletter = dynamic(() => import("@/components/Newsletter"));
 
 export default function Home() {
   return (
-    <main className="bg-[#FAFAF7]">
+    <div className="bg-[#FAFAF7]">
       <Hero />
 
       <Categories />

@@ -10,6 +10,8 @@ import IngredientsSection from "@/components/recipes/IngredientsSection";
 import InstructionsSection from "@/components/recipes/InstructionsSection";
 import NutritionSidebar from "@/components/recipes/NutritionSidebar";
 import RelatedRecipesSection from "@/components/recipes/RelatedRecipesSection";
+import { toISODuration } from "@/lib/schema";
+
 
 type RecipePageProps = {
   params: Promise<{
@@ -145,13 +147,11 @@ dateModified:
 
   recipeYield: `${recipe.servings} servings`,
 
-  prepTime: recipe.prepTime,
-
-  cookTime: recipe.cookTime,
-
-  totalTime:
-  recipe.totalTime ??
-  `${recipe.prepTime} ${recipe.cookTime}`,
+  prepTime: toISODuration(recipe.prepTime),
+cookTime: toISODuration(recipe.cookTime),
+totalTime: recipe.totalTime
+  ? toISODuration(recipe.totalTime)
+  : undefined,
 
   keywords: recipe.keywords?.join(", "),
 
@@ -186,6 +186,46 @@ dateModified:
   })),
 };
 
+
+const categorySlug = recipe.category
+  .toLowerCase()
+  .replace(/&/g, "and")
+  .replace(/\s+/g, "-");
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://healthymezze.com",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Recipes",
+      item: "https://healthymezze.com/recipes",
+    },
+    {
+      "@type": "ListItem",
+      position: 3,
+      name: recipe.category,
+      item: `https://healthymezze.com/categories/${categorySlug}`,
+    },
+    {
+      "@type": "ListItem",
+      position: 4,
+      name: recipe.title,
+      item: `https://healthymezze.com/recipes/${recipe.slug}`,
+    },
+  ],
+};
+
+
+
   return (
     <main className="bg-[#FAFAF7] text-gray-900">
     
@@ -193,6 +233,13 @@ dateModified:
   type="application/ld+json"
   dangerouslySetInnerHTML={{
     __html: JSON.stringify(recipeSchema),
+  }}
+/>
+
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify(breadcrumbSchema),
   }}
 />
 

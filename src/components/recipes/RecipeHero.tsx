@@ -17,10 +17,11 @@ export default function RecipeHero({
       <div className="relative aspect-[16/9] sm:aspect-[3/1]">
         <Image
           src={recipe.image}
-          alt={recipe.title}
+          alt={recipe.imageAlt ?? recipe.title}
           fill
           priority
           className="object-cover"
+          quality={90}
           sizes="100vw"
         />
       </div>

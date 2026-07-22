@@ -13,7 +13,7 @@ export const greekSalad: Recipe = {
   longDescription:
     "Greek Salad is one of the most popular Mediterranean dishes, loved for its fresh vegetables, healthy fats, and vibrant flavors. Made with tomatoes, cucumbers, onions, olives, and feta cheese, it is naturally rich in vitamins, minerals, antioxidants, and heart-healthy olive oil. It makes an excellent light lunch, side dish, or healthy dinner.",
 
-  image: "/images/recipes/salads/greek-salad.webp",
+  image: "/images/recipes/greek-salad.webp",
 
   imageAlt:
     "Traditional Greek salad served with tomatoes, cucumber, feta cheese, olives, red onion and oregano.",

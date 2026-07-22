@@ -19,7 +19,13 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
           src={recipe.image}
           alt={recipe.imageAlt ?? recipe.title}
           fill
-          sizes="(max-width:640px)100vw,(max-width:1024px)50vw,25vw"
+          quality={85}
+          sizes="
+  (max-width: 640px) 100vw,
+  (max-width: 768px) 50vw,
+  (max-width: 1280px) 33vw,
+  25vw
+  "
           className="object-cover transition-transform duration-700 group-hover:scale-110"
         />
 

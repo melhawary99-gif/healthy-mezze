@@ -1,4 +1,9 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#FAFAF7",
+};
 import { Inter, Poppins } from "next/font/google";
 
 import "./globals.css";
@@ -9,12 +14,14 @@ import Footer from "@/components/layout/Footer";
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
+  display: "swap",
 });
 
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
   variable: "--font-poppins",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -109,6 +116,38 @@ export const metadata: Metadata = {
   },
 };
 
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+
+  name: "Healthy Mezze",
+
+  url: "https://healthymezze.com",
+
+  logo: "https://healthymezze.com/logo.png",
+
+  description:
+    "Healthy Mediterranean recipes inspired by Egyptian, Lebanese, Greek, Turkish, Syrian, Jordanian, and Palestinian cuisines.",
+  
+  };
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+
+  name: "Healthy Mezze",
+
+  url: "https://healthymezze.com",
+
+  publisher: {
+    "@type": "Organization",
+    name: "Healthy Mezze",
+  },
+
+  inLanguage: "en",
+};
+
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -119,6 +158,23 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${poppins.variable} bg-[#FAFAF7] text-gray-900 antialiased`}
       >
+       
+       
+       
+       <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify(organizationSchema),
+  }}
+/>
+
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify(websiteSchema),
+  }}
+/>
+                 
         <Header />
 
         <main>{children}</main>

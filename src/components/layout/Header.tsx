@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { Heart, Search } from "lucide-react";
+import { Heart } from "lucide-react";
 import { usePathname } from "next/navigation";
 import MobileMenu from "@/components/MobileMenu";
 
@@ -34,7 +34,13 @@ export default function Header() {
       }`}
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
-        <Link href="/" className="text-2xl font-bold text-green-700">
+        <Link
+  href="/"
+  aria-label="Healthy Mezze Home"
+  className="text-2xl font-bold text-green-700"
+>
+  Healthy Mezze
+</Link>
           Healthy Mezze
         </Link>
 
@@ -62,13 +68,7 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-3">
-          <button
-            type="button"
-            aria-label="Search"
-            className="hidden h-11 w-11 items-center justify-center rounded-2xl bg-white text-gray-700 shadow-sm transition hover:bg-green-50 md:inline-flex"
-          >
-            <Search className="h-5 w-5" />
-          </button>
+          
 
           <Link
             href="/favorites"
