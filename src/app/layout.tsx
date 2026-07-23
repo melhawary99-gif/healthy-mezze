@@ -135,8 +135,13 @@ const organizationSchema = {
 
   description:
     "Healthy Mediterranean recipes inspired by Egyptian, Lebanese, Greek, Turkish, Syrian, Jordanian, and Palestinian cuisines.",
-  
-  };
+
+  sameAs: [
+    "https://www.facebook.com/profile.php?id=61592169398824",
+    "https://www.instagram.com/healthymezze/",
+    "https://ca.pinterest.com/healthymezze/",
+  ],
+};
 
 const websiteSchema = {
   "@context": "https://schema.org",
