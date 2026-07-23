@@ -11,7 +11,7 @@ export default function Statistics() {
       label: "Recipe Categories",
     },
     {
-      value: "2",
+      value: "20+",
       label: "Mediterranean Cuisines",
     },
     {
