@@ -1,5 +1,18 @@
+import { Metadata } from "next";
+
 import Container from "@/components/ui/Container";
 import Newsletter from "@/components/Newsletter";
+
+export const metadata: Metadata = {
+  title: "Contact Us",
+  description:
+    "Get in touch with Healthy Mezze for recipe questions, feedback, collaboration opportunities, or general inquiries.",
+  alternates: {
+    canonical: "/contact",
+  },
+};
+
+
 
 export default function ContactPage() {
   return (
@@ -31,8 +44,8 @@ export default function ContactPage() {
                 <p className="text-sm font-semibold uppercase tracking-[0.2em] text-emerald-600">
                   Email
                 </p>
-                <a href="mailto:hello@healthymezze.com" className="mt-3 block text-base font-semibold text-gray-900 hover:text-green-700">
-                  hello@healthymezze.com
+                <a href="mailto:contact@healthymezze.com" className="mt-3 block text-base font-semibold text-gray-900 hover:text-green-700">
+                  contact@healthymezze.com
                 </a>
               </div>
 
