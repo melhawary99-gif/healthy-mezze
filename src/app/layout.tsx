@@ -11,6 +11,7 @@ import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import Clarity from "@/components/analytics/Clarity";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -159,6 +160,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${poppins.variable} bg-[#FAFAF7] text-gray-900 antialiased`}
       >
+         <Clarity />
        
        
        
@@ -181,8 +183,12 @@ export default function RootLayout({
         <main>{children}</main>
 
         <Footer />
+
+        <GoogleAnalytics
+  gaId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID!}
+/>
       </body>
-      <GoogleAnalytics gaId="G-1LCF0RGQ3B" />
+      
     </html>
   );
 }

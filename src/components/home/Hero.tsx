@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import heroFood from "@/../public/images/hero-food.webp";
 
 export default function Hero() {
   return (
@@ -63,7 +64,7 @@ export default function Hero() {
         {/* Right Side */}
         <div className="flex flex-1 justify-center">
           <Image
-            src="/images/hero-food.webp"
+            src={heroFood}
             alt="Healthy Mediterranean dishes with fresh vegetables, hummus, salads, and wraps"
             width={700}
             height={700}
