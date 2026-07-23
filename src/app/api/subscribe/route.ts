@@ -14,18 +14,35 @@ export async function POST(request: Request) {
       );
     }
 
-    await resend.emails.send({
-      from: "Healthy Mezze <contact@healthymezze.com>",
-      to: "contact@healthymezze.com",
-      subject: "🥗 New Healthy Mezze Subscriber",
-      html: `
-        <h2>New Newsletter Subscription</h2>
+    const segmentId = process.env.RESEND_SEGMENT_ID!;
 
-        <p>A visitor has subscribed to Healthy Mezze.</p>
+try {
+  await resend.contacts.create({
+    email,
+    unsubscribed: false,
+    segments: [
+      {
+        id: segmentId,
+      },
+    ],
+  });
+} catch (err) {
+  // If the contact already exists, we'll ignore the error
+  console.log("Contact may already exist:", err);
+}
 
-        <p><strong>Email:</strong> ${email}</p>
-      `,
-    });
+await resend.emails.send({
+  from: "Healthy Mezze <contact@healthymezze.com>",
+  to: "contact@healthymezze.com",
+  subject: "🥗 New Healthy Mezze Subscriber",
+  html: `
+    <h2>New Newsletter Subscription</h2>
+
+    <p>A visitor has subscribed to Healthy Mezze.</p>
+
+    <p><strong>Email:</strong> ${email}</p>
+  `,
+});
 
     return NextResponse.json({ success: true });
   } catch (error) {
