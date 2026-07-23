@@ -1,31 +1,97 @@
+"use client";
+
+import { useState } from "react";
+
 type NewsletterProps = {
   variant?: "hero" | "footer";
 };
 
-function NewsletterForm({ idSuffix, compact }: { idSuffix: string; compact?: boolean }) {
+function NewsletterForm({
+  idSuffix,
+  compact,
+}: {
+  idSuffix: string;
+  compact?: boolean;
+}) {
+  const [email, setEmail] = useState("");
+  const [subscribed, setSubscribed] = useState(false);
+
   const inputId = `newsletter-email-${idSuffix}`;
+
   const inputClasses = compact
     ? "w-full rounded-full border border-green-100 bg-white px-4 py-2 text-gray-900 outline-none transition focus:border-emerald-500 focus:ring-2 focus:ring-emerald-100"
     : "w-full rounded-3xl border border-green-100 bg-white px-5 py-4 text-gray-900 outline-none transition focus:border-emerald-500 focus:ring-2 focus:ring-emerald-100";
 
   const buttonClasses = compact
-    ? "inline-flex items-center justify-center rounded-full bg-green-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2"
-    : "inline-flex items-center justify-center rounded-3xl bg-green-600 px-6 py-4 text-base font-semibold text-white transition hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2";
+    ? "inline-flex items-center justify-center rounded-full bg-green-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-green-700"
+    : "inline-flex items-center justify-center rounded-3xl bg-green-600 px-6 py-4 text-base font-semibold text-white transition hover:bg-green-700";
 
   const formLayout = compact
     ? "mt-4 flex w-full items-center gap-3"
     : "mt-8 grid gap-4 sm:grid-cols-[1fr_auto]";
 
+  const handleSubmit = async (
+  e: React.FormEvent<HTMLFormElement>
+) => {
+  e.preventDefault();
+
+
+  if (!email.trim()) return;
+
+  try {
+    const response = await fetch("/api/subscribe", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ email }),
+    });
+
+    if (!response.ok) {
+      throw new Error("Subscription failed");
+    }
+
+    setSubscribed(true);
+    setEmail("");
+
+    setTimeout(() => {
+      setSubscribed(false);
+    }, 3000);
+  } catch (err) {
+    console.error(err);
+    alert("Subscription failed.");
+  }
+};
+
   return (
-    <form action="#" className={formLayout}>
-      <label htmlFor={inputId} className="sr-only">
-        Email address
-      </label>
-      <input id={inputId} name="email" type="email" placeholder="Enter your email" className={inputClasses} />
-      <button type="submit" className={buttonClasses}>
-        Subscribe
-      </button>
-    </form>
+    <>
+      <form onSubmit={handleSubmit} className={formLayout}>
+        <label htmlFor={inputId} className="sr-only">
+          Email address
+        </label>
+
+        <input
+          id={inputId}
+          type="email"
+          name="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          placeholder="Enter your email"
+          className={inputClasses}
+          required
+        />
+
+        <button type="submit" className={buttonClasses}>
+          Subscribe
+        </button>
+      </form>
+
+      {subscribed && (
+        <div className="mt-4 rounded-xl border border-green-200 bg-green-50 px-4 py-3 text-green-700">
+          🎉 Thanks for subscribing! Healthy recipes and nutrition tips are on the way.
+        </div>
+      )}
+    </>
   );
 }
 
