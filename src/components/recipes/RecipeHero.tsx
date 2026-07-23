@@ -14,7 +14,7 @@ export default function RecipeHero({
 }: RecipeHeroProps) {
   return (
     <section className="overflow-hidden rounded-[2rem] bg-white shadow-lg">
-      <div className="relative aspect-[16/9] sm:aspect-[3/1]">
+      <div className="relative aspect-[4/3] lg:aspect-[16/9]">
         <Image
           src={recipe.image}
           alt={recipe.imageAlt ?? recipe.title}

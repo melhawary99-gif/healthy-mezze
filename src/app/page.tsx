@@ -24,6 +24,6 @@ export default function Home() {
       <HealthyTip />
 
       <Newsletter variant="hero" />
-    </main>
+    </div>
   );
 }
