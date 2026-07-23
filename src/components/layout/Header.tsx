@@ -41,9 +41,7 @@ export default function Header() {
 >
   Healthy Mezze
 </Link>
-          Healthy Mezze
-        </Link>
-
+        
         <nav className="hidden items-center gap-8 md:flex" aria-label="Primary navigation">
           {navLinks.map((link) => {
             const isActive =
