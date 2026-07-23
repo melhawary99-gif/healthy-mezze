@@ -1,5 +1,15 @@
+import { Metadata } from "next";
 import Container from "@/components/ui/Container";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "About Us",
+  description:
+    "Learn about Healthy Mezze, our mission, and our passion for sharing healthy Mediterranean recipes inspired by Egyptian, Lebanese, Greek, Turkish, Syrian, Jordanian, and Palestinian cuisine.",
+  alternates: {
+    canonical: "/about",
+  },
+};
 
 export default function AboutPage() {
   return (
@@ -28,10 +38,10 @@ export default function AboutPage() {
               Fresh inspiration from Mediterranean kitchens
             </h2>
             <p className="mt-6 text-base leading-8 text-gray-600 sm:text-lg">
-              Healthy Mezze was born from a love of vibrant Mediterranean food made approachable for modern life. We blend fresh produce, herbs, olive oil, and simple techniques so good food feels effortless every day.
+              Healthy Mezze was created to make healthy Mediterranean cooking simple, approachable, and enjoyable for everyone. Inspired by the rich culinary traditions of Egypt, Lebanon, Greece, Turkey, Syria, Jordan, and Palestine, our goal is to help home cooks prepare delicious meals using fresh ingredients and straightforward techniques.
             </p>
             <p className="mt-4 text-base leading-8 text-gray-600 sm:text-lg">
-              Our recipes are crafted for real kitchens, busy schedules, and families who want nourishing meals without compromising flavor.
+              Every recipe is designed with everyday home kitchens in mind. We focus on balanced nutrition, practical ingredients, clear step-by-step instructions, and authentic Mediterranean flavors that are easy to recreate at home.
             </p>
           </div>
 
@@ -110,6 +120,26 @@ export default function AboutPage() {
           </div>
         </section>
 
+                <section className="mb-16">
+          <div className="rounded-4xl border border-green-100 bg-white p-8 shadow-sm sm:p-10">
+            <p className="text-sm font-semibold uppercase tracking-[0.24em] text-emerald-600">
+              Our commitment
+            </p>
+
+            <h2 className="mt-4 text-3xl font-bold text-gray-900">
+              What you can expect from Healthy Mezze
+            </h2>
+
+            <p className="mt-6 text-lg leading-8 text-gray-600">
+              We strive to publish recipes that are carefully written, easy to
+              follow, and inspired by authentic Mediterranean cooking
+              traditions. Our nutrition information is intended for general
+              guidance and should not replace professional medical or dietary
+              advice.
+            </p>
+          </div>
+        </section>
+
         <section className="mb-16">
           <div className="mx-auto max-w-6xl">
             <div className="mb-10 text-center">
@@ -165,12 +195,24 @@ export default function AboutPage() {
             <p className="mt-4 text-base leading-7 text-gray-700 sm:text-lg">
               Explore our recipe collection for fresh meals, simple preparation, and delicious results.
             </p>
-            <Link
-              href="/recipes"
-              className="mt-8 inline-flex rounded-full bg-green-600 px-8 py-3 text-base font-semibold text-white transition hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2"
-            >
-              Browse recipes
-            </Link>
+            
+           <div className="mt-8 flex flex-wrap justify-center gap-4">
+  <Link
+    href="/recipes"
+    className="inline-flex rounded-full bg-green-600 px-8 py-3 text-base font-semibold text-white transition hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2"
+  >
+    Browse Recipes
+  </Link>
+
+  <Link
+    href="/contact"
+    className="inline-flex rounded-full border border-green-600 bg-white px-8 py-3 text-base font-semibold text-green-700 transition hover:bg-green-50 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2"
+  >
+    Contact Us
+  </Link>
+</div>
+
+
           </div>
         </section>
       </Container>

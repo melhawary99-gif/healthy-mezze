@@ -116,6 +116,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+
+  other: {
+  "p:domain_verify": "9c5313b6f5c1e891bac29d42d647f84e",
+},
+
 };
 
 const organizationSchema = {
