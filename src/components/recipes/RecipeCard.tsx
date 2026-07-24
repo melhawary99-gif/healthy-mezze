@@ -10,7 +10,17 @@ interface RecipeCardProps {
 
 export default function RecipeCard({ recipe }: RecipeCardProps) {
   return (
-    <article className="group flex h-full flex-col overflow-hidden rounded-3xl bg-white shadow-sm transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl">
+   <article className="group relative flex h-full flex-col overflow-hidden rounded-3xl bg-white shadow-sm transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl">
+      
+      <button
+  type="button"
+  aria-label={`Add ${recipe.title} to favorites`}
+  className="absolute right-4 top-4 z-10 cursor-pointer rounded-full bg-white/90 p-2 shadow-lg backdrop-blur transition hover:scale-110 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+>
+  <Heart className="h-5 w-5 text-gray-600" />
+</button>
+      
+      
       <Link
         href={`/recipes/${recipe.slug}`}
         className="relative block h-72 overflow-hidden bg-gray-100"
@@ -19,22 +29,13 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
           src={recipe.image}
           alt={recipe.imageAlt ?? recipe.title}
           fill
+          loading="lazy"
           quality={85}
-          sizes="
-  (max-width: 640px) 100vw,
-  (max-width: 768px) 50vw,
-  (max-width: 1280px) 33vw,
-  25vw
-  "
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
           className="object-cover transition-transform duration-700 group-hover:scale-110"
         />
 
-        <button
-          type="button"
-          className="absolute right-4 top-4 rounded-full bg-white/90 p-2 shadow-lg backdrop-blur transition hover:scale-110"
-        >
-          <Heart className="h-5 w-5 text-gray-600" />
-        </button>
+        
       </Link>
 
       <div className="flex flex-1 flex-col p-6">
