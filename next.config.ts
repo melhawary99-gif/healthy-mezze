@@ -13,11 +13,11 @@ script-src
   'unsafe-eval'
   https://www.googletagmanager.com
   https://www.google-analytics.com
-  https://www.googletagmanager.com
   https://pagead2.googlesyndication.com
   https://googleads.g.doubleclick.net
   https://fundingchoicesmessages.google.com
-  https://www.clarity.ms;
+  https://www.clarity.ms
+  https://scripts.clarity.ms;
 
 style-src
   'self'
