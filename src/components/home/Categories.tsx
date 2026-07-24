@@ -30,10 +30,11 @@ export default function Categories() {
               >
                 <div className="relative h-72">
                   <Image
-                    src={category.image}
-                    alt={category.name}
-                    fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-110"
+                  src={category.image}
+                  alt={category.name}
+                  fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  className="object-cover transition-transform duration-700 group-hover:scale-110"
                   />
 
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
