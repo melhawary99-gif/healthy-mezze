@@ -5,13 +5,59 @@ default-src 'self';
 base-uri 'self';
 object-src 'none';
 frame-ancestors 'self';
-img-src 'self' data: blob: https:;
-font-src 'self' data:;
-style-src 'self' 'unsafe-inline';
-script-src 'self' 'unsafe-inline' 'unsafe-eval' https:;
-connect-src 'self' https:;
-frame-src https:;
-worker-src 'self' blob:;
+form-action 'self';
+
+script-src
+  'self'
+  'unsafe-inline'
+  'unsafe-eval'
+  https://www.googletagmanager.com
+  https://www.google-analytics.com
+  https://www.googletagmanager.com
+  https://pagead2.googlesyndication.com
+  https://googleads.g.doubleclick.net
+  https://fundingchoicesmessages.google.com
+  https://www.clarity.ms;
+
+style-src
+  'self'
+  'unsafe-inline';
+
+img-src
+  'self'
+  data:
+  blob:
+  https://www.google-analytics.com
+  https://pagead2.googlesyndication.com
+  https://*.googlesyndication.com
+  https://*.g.doubleclick.net
+  https://www.clarity.ms
+  https:;
+
+font-src
+  'self'
+  data:;
+
+connect-src
+  'self'
+  https://www.google-analytics.com
+  https://region1.google-analytics.com
+  https://www.clarity.ms
+  https://c.clarity.ms
+  https://pagead2.googlesyndication.com;
+
+frame-src
+  'self'
+  https://googleads.g.doubleclick.net
+  https://*.googlesyndication.com
+  https://fundingchoicesmessages.google.com;
+
+worker-src
+  'self'
+  blob:;
+
+manifest-src 'self';
+
 upgrade-insecure-requests;
 `
   .replace(/\n/g, "")
