@@ -44,6 +44,7 @@ connect-src
   https://region1.google-analytics.com
   https://www.clarity.ms
   https://c.clarity.ms
+  https://t.clarity.ms
   https://pagead2.googlesyndication.com;
 
 frame-src
