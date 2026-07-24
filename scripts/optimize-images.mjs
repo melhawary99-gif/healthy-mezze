@@ -2,7 +2,7 @@ import sharp from "sharp";
 import fs from "fs/promises";
 import path from "path";
 
-const inputDir = path.join(process.cwd(), "public/images/recipes");
+const inputDir = path.join(process.cwd(), "public/images");
 
 const MAX_WIDTH = 1200;
 const MAX_HEIGHT = 800;
