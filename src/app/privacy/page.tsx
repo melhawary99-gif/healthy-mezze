@@ -1,9 +1,9 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy",
+  title: "Privacy Policy | Healthy Mezze",
   description:
-    "Read the Privacy Policy for Healthy Mezze, including information about cookies, analytics, and your privacy.",
+    "Learn how Healthy Mezze collects, uses, and protects your information, including our use of cookies, analytics, newsletter subscriptions, and advertising services.",
   alternates: {
     canonical: "/privacy",
   },
@@ -11,14 +11,22 @@ export const metadata: Metadata = {
 
 export default function PrivacyPage() {
   return (
-    <div className="mx-auto max-w-4xl px-6 py-16">
+    <div className="mx-auto max-w-4xl px-6 py-20">
       <h1 className="mb-8 text-4xl font-bold">Privacy Policy</h1>
 
       <p className="mb-6 text-gray-700">
-        <strong>Last updated:</strong> July 23, 2026
+        <strong>Last updated:</strong> July 24, 2026
       </p>
 
-      <div className="space-y-8 text-gray-700 leading-8">
+      <p className="mb-10 text-lg text-gray-600">
+        At Healthy Mezze, we are committed to protecting your privacy and
+        being transparent about how we collect, use, and safeguard your
+        information while you use our website.
+      </p>
+
+      <hr className="mb-10 border-gray-200" />
+
+      <div className="space-y-10 text-gray-700 leading-relaxed">
 
         <section>
           <h2 className="mb-3 text-2xl font-semibold">
@@ -34,23 +42,25 @@ export default function PrivacyPage() {
         </section>
 
         <section>
-          <h2 className="mb-3 text-2xl font-semibold">
-            Information We Collect
-          </h2>
+  <h2 className="mb-3 text-2xl font-semibold">
+    Information We Collect
+  </h2>
 
-          <p>
-            We may collect non-personal information such as:
-          </p>
+  <p>
+    Depending on how you use Healthy Mezze, we may collect:
+  </p>
 
-          <ul className="mt-3 list-disc pl-6 space-y-2">
-            <li>Browser type</li>
-            <li>Operating system</li>
-            <li>Device information</li>
-            <li>Pages visited</li>
-            <li>Time spent on pages</li>
-            <li>Referral websites</li>
-          </ul>
-        </section>
+  <ul className="mt-3 list-disc space-y-2 pl-6">
+    <li>Email addresses submitted through our newsletter subscription form.</li>
+    <li>Browser type and version.</li>
+    <li>Device information.</li>
+    <li>Operating system.</li>
+    <li>Pages visited and navigation behavior.</li>
+    <li>Time spent on pages.</li>
+    <li>Referral websites.</li>
+    <li>General analytics data collected through cookies.</li>
+  </ul>
+</section>
 
         <section>
           <h2 className="mb-3 text-2xl font-semibold">
@@ -65,6 +75,36 @@ export default function PrivacyPage() {
             experience.
           </p>
         </section>
+
+        <section>
+  <h2 className="mb-3 text-2xl font-semibold">
+    Newsletter
+  </h2>
+
+  <p>
+    If you subscribe to our newsletter, we collect your email address
+    so we can send recipe updates, cooking tips, and other Healthy Mezze
+    content. We use Resend to securely manage newsletter subscriptions
+    and email delivery.
+  </p>
+
+  <p className="mt-3">
+    You may unsubscribe at any time using the unsubscribe link included
+    in our emails.
+  </p>
+</section>
+
+<section>
+  <h2 className="mb-3 text-2xl font-semibold">
+    Your Rights
+  </h2>
+
+  <p>
+    You may request access to, correction of, or deletion of any
+    personal information you have provided to us. You may also
+    unsubscribe from our newsletter at any time.
+  </p>
+</section>
 
         <section>
           <h2 className="mb-3 text-2xl font-semibold">
@@ -91,7 +131,15 @@ export default function PrivacyPage() {
             settings, although some website features may not function
             properly.
           </p>
+
+          <p className="mt-3">
+  We may also use browser storage or cookies to remember your
+  preferences, such as saved favorite recipes, to improve your
+  experience on the website.
+</p>
         </section>
+
+        
 
         <section>
           <h2 className="mb-3 text-2xl font-semibold">
@@ -99,15 +147,21 @@ export default function PrivacyPage() {
           </h2>
 
           <p>
-            Healthy Mezze may display advertisements through Google
-            AdSense in the future. Google may use cookies to display
-            personalized advertisements based on your previous visits
-            to this and other websites.
+            Healthy Mezze may display advertisements through Google AdSense.
+            Google and its partners may use cookies to personalize advertisements
+            and measure advertising performance where applicable.
           </p>
 
           <p className="mt-3">
-            You can learn more about how Google uses information by
-            visiting Google's Privacy Policy.
+            You can learn more by reading{" "}
+           <a
+            href="https://policies.google.com/privacy"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-green-700 hover:underline"
+           >
+               Google's Privacy Policy
+           </a>.
           </p>
         </section>
 
@@ -127,12 +181,14 @@ export default function PrivacyPage() {
           <h2 className="mb-3 text-2xl font-semibold">
             Data Security
           </h2>
-
-          <p>
-            We take reasonable measures to protect the information we
-            collect. However, no method of internet transmission or
-            electronic storage is completely secure.
-          </p>
+        
+            <p>
+             We take reasonable technical and organizational measures to protect
+             the information we collect against unauthorized access, alteration,
+             disclosure, or destruction. However, no method of transmitting data
+             over the internet or storing electronic information can be guaranteed
+             to be completely secure.
+            </p>
         </section>
 
         <section>
@@ -148,15 +204,24 @@ export default function PrivacyPage() {
         </section>
 
         <section>
-          <h2 className="mb-3 text-2xl font-semibold">
-            Contact Us
-          </h2>
+  <h2 className="mb-3 text-2xl font-semibold">
+    Contact Us
+  </h2>
 
-          <p>
-            If you have any questions about this Privacy Policy,
-            please contact us through our Contact page.
-          </p>
-        </section>
+  <p>
+    If you have any questions regarding this Privacy Policy,
+    please contact us at:
+  </p>
+
+  <p className="mt-3 font-medium">
+  <a
+    href="mailto:contact@healthymezze.com"
+    className="text-green-700 hover:underline"
+  >
+    contact@healthymezze.com
+  </a>
+</p>
+</section>
 
       </div>
     </div>
