@@ -64,16 +64,17 @@ export default function Hero() {
         {/* Right Side */}
         <div className="flex flex-1 justify-center">
           <Image
-            src={heroFood}
-            alt="Healthy Mediterranean dishes with fresh vegetables, hummus, salads, and wraps"
-            width={700}
-            height={700}
-            priority
-            quality={85}
-            placeholder="blur"
-            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 90vw, 50vw"
-            className="rounded-3xl shadow-2xl"
-          />
+  src={heroFood}
+  alt="Healthy Mediterranean dishes with fresh vegetables, hummus, salads, and wraps"
+  width={700}
+  height={700}
+  priority
+  fetchPriority="high"
+  quality={85}
+  placeholder="blur"
+  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 90vw, 50vw"
+  className="rounded-3xl shadow-2xl"
+/>
         </div>
 
       </div>
