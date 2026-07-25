@@ -45,6 +45,7 @@ connect-src
   https://www.clarity.ms
   https://c.clarity.ms
   https://t.clarity.ms
+  https://n.clarity.ms
   https://pagead2.googlesyndication.com;
 
 frame-src
