@@ -21,6 +21,8 @@ export const spinachFetaOmelette: Recipe = {
   cuisine: "Lebanese",
 
   category: "Breakfast",
+  vegan: false,
+vegetarian: true,
 
   prepTime: "10 mins",
 

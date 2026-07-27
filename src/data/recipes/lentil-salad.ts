@@ -21,6 +21,8 @@ export const lentilSalad: Recipe = {
   cuisine: "Lebanese",
 
   category: "Salads",
+  vegan: true,
+vegetarian: true,
 
   prepTime: "15 mins",
 

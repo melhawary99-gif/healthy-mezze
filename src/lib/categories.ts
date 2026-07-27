@@ -10,6 +10,16 @@ export function getRecipesByCategory(categorySlug: string) {
     return [];
   }
 
+  // Dietary categories
+  if (category.name === "Vegan") {
+    return recipes.filter((recipe) => recipe.vegan === true);
+  }
+
+  if (category.name === "Vegetarian") {
+    return recipes.filter((recipe) => recipe.vegetarian === true);
+  }
+
+  // Regular categories
   return recipes.filter(
     (recipe) => recipe.category === category.name
   );

@@ -21,6 +21,8 @@ export const muhammara: Recipe = {
   cuisine: "Lebanese",
 
   category: "Snack",
+  vegan: true,
+vegetarian: true,
 
   prepTime: "15 mins",
 

@@ -21,6 +21,8 @@ export const stuffedBellPeppers: Recipe = {
   cuisine: "Lebanese",
 
   category: "Main Dishes",
+  vegan: false,
+  vegetarian: false,
 
   prepTime: "25 mins",
 

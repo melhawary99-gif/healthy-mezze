@@ -21,6 +21,8 @@ export const classicHummus: Recipe = {
   cuisine: "Lebanese",
 
   category: "Snack",
+  vegan: true,
+  vegetarian: true,
 
   prepTime: "15 mins",
 

@@ -18,9 +18,21 @@ export default function Categories() {
 
         <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {categories.map((category) => {
-            const recipeCount = recipes.filter(
-              (recipe) => recipe.category === category.name
-            ).length;
+            let recipeCount = 0;
+
+if (category.name === "Vegan") {
+  recipeCount = recipes.filter(
+    (recipe) => recipe.vegan === true
+  ).length;
+} else if (category.name === "Vegetarian") {
+  recipeCount = recipes.filter(
+    (recipe) => recipe.vegetarian === true
+  ).length;
+} else {
+  recipeCount = recipes.filter(
+    (recipe) => recipe.category === category.name
+  ).length;
+}
 
             return (
               <Link

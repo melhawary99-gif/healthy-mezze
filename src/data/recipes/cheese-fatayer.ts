@@ -21,6 +21,8 @@ export const cheeseFatayer: Recipe = {
   cuisine: "Lebanese",
 
   category: "Mezze",
+  vegan: false,
+vegetarian: true,
 
   prepTime: "35 mins",
 

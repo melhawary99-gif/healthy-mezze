@@ -20,7 +20,10 @@ export const babaGanoush: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Snack",
+  category: "Mezze",
+  vegan: true,
+  vegetarian: true,
+  
 
   prepTime: "15 mins",
 

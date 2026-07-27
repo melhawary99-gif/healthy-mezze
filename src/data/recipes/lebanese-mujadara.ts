@@ -21,6 +21,8 @@ export const lebaneseMujadara: Recipe = {
   cuisine: "Lebanese",
 
   category: "Main Dishes",
+  vegan: true,
+  vegetarian: true,
 
   prepTime: "15 mins",
 

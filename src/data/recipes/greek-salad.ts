@@ -21,6 +21,8 @@ export const greekSalad: Recipe = {
   cuisine: "Lebanese",
 
   category: "Salads",
+  vegan: false,
+vegetarian: true,
 
   prepTime: "15 mins",
 

@@ -21,6 +21,8 @@ export const roastedRedPepperMuhammaraDip: Recipe = {
   cuisine: "Lebanese",
 
   category: "Dips & Sauces",
+  vegan: true,
+  vegetarian: true,
 
   prepTime: "15 mins",
 

@@ -21,6 +21,8 @@ export const tabboulehSalad: Recipe = {
   cuisine: "Lebanese",
 
   category: "Salads",
+  vegan: true,
+vegetarian: true,
 
   prepTime: "20 mins",
 

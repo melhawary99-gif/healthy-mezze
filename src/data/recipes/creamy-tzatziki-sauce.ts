@@ -21,6 +21,8 @@ export const creamyTzatzikiSauce: Recipe = {
   cuisine: "Lebanese",
 
   category: "Dips & Sauces",
+  vegan: false,
+vegetarian: true,
 
   prepTime: "15 mins",
 

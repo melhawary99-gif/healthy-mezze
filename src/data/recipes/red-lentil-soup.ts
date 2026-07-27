@@ -21,6 +21,8 @@ export const redLentilSoup: Recipe = {
   cuisine: "Lebanese",
 
   category: "Soups",
+  vegan: true,
+vegetarian: true,
 
   prepTime: "15 mins",
 

@@ -21,6 +21,8 @@ export const grilledHalloumiHerbsPomegranate: Recipe = {
   cuisine: "Lebanese",
 
   category: "Mezze",
+  vegan: false,
+vegetarian: true,
 
   prepTime: "10 mins",
 

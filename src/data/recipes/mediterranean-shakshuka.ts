@@ -21,6 +21,8 @@ export const mediterraneanShakshuka: Recipe = {
   cuisine: "Lebanese",
 
   category: "Breakfast",
+  vegan: false,
+vegetarian: true,
 
   prepTime: "15 mins",
 

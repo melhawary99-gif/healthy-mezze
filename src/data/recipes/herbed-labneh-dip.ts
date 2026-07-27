@@ -21,6 +21,8 @@ export const herbedLabnehDip: Recipe = {
   cuisine: "Lebanese",
 
   category: "Snack",
+  vegan: false,
+vegetarian: true,
 
   prepTime: "10 mins",
 
