@@ -4,6 +4,7 @@ import FavoriteButton from "./FavoriteButton";
 import PrintButton from "./PrintButton";
 
 import { Recipe } from "@/types/recipe";
+import ShareButton from "./ShareButton";
 
 interface RecipeHeroProps {
   recipe: Recipe;
@@ -56,10 +57,14 @@ export default function RecipeHero({
             </p>
           </div>
 
-          <div className="flex gap-4">
-            <FavoriteButton slug={recipe.slug} />
-            <PrintButton />
-          </div>
+          <div className="flex flex-wrap gap-4">
+  <FavoriteButton slug={recipe.slug} />
+  <PrintButton />
+  <ShareButton
+  title={recipe.title}
+  description={recipe.description}
+/>
+</div>
         </div>
       </div>
     </section>
