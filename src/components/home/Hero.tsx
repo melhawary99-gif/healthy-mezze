@@ -70,7 +70,7 @@ export default function Hero() {
   height={700}
   priority
   fetchPriority="high"
-  quality={85}
+  quality={70}
   placeholder="blur"
   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 90vw, 50vw"
   className="rounded-3xl shadow-2xl"

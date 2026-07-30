@@ -45,7 +45,8 @@ if (category.name === "Vegan") {
                   src={category.image}
                   alt={category.name}
                   fill
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  quality={65}
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 540px"
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
                   />
 
