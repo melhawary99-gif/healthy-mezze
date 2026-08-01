@@ -14,7 +14,7 @@ export const recipeTemplate: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Salads",
+  category: "salads",
 
   prepTime: "15 min",
   cookTime: "10 min",
@@ -29,13 +29,9 @@ export const recipeTemplate: Recipe = {
 
   featured: false,
 
-  ingredients: [
+  ingredients: [],
 
-],
-
-instructions: [
-    "",
-  ],
+  instructions: [""],
 
   nutrition: {
     calories: 0,
@@ -47,15 +43,9 @@ instructions: [
     sodium: "",
   },
 
-  healthBenefits: [
-    "",
-  ],
+  healthBenefits: [""],
 
-  keywords: [
-    "",
-  ],
+  keywords: [""],
 
-  tags: [
-    "",
-  ],
+  tags: [""],
 };

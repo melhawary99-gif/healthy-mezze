@@ -35,6 +35,7 @@ const socialLinks = [
 export default function Footer() {
   const t = useTranslations("Footer");
   const nav = useTranslations("Navigation");
+  const categoryT = useTranslations();
 
   const navLinks = [
     { href: "/", label: nav("home") },
@@ -83,7 +84,7 @@ export default function Footer() {
                     href={`/categories/${category.slug}`}
                     className="transition hover:text-green-700"
                   >
-                    {category.name}
+                    {categoryT(category.nameKey)}
                   </Link>
                 </li>
               ))}

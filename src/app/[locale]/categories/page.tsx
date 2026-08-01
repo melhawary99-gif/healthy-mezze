@@ -1,10 +1,15 @@
+"use client";
+
 import { categories } from "@/data/categories";
 import { getRecipesByCategory } from "@/lib/categories";
 import Container from "@/components/ui/Container";
 import Image from "next/image";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 export default function CategoriesPage() {
+  const t = useTranslations("Categories");
+  const categoryT = useTranslations();
   const categoryCards = categories.map((category) => ({
     ...category,
     recipeCount: getRecipesByCategory(category.slug).length,
@@ -22,7 +27,8 @@ export default function CategoriesPage() {
               Explore healthy recipe categories
             </h1>
             <p className="mt-6 text-base leading-8 text-gray-600 sm:text-lg">
-              Browse Mediterranean recipe categories and discover fresh ideas for salads, soups, wraps, vegetarian meals, and more.
+              Browse Mediterranean recipe categories and discover fresh ideas for salads, soups,
+              wraps, vegetarian meals, and more.
             </p>
           </div>
         </section>
@@ -39,7 +45,7 @@ export default function CategoriesPage() {
                   <div className="relative h-56 overflow-hidden bg-gray-100 sm:h-64">
                     <Image
                       src={category.image}
-                      alt={category.name}
+                      alt={categoryT(category.nameKey)}
                       fill
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                       className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -49,16 +55,16 @@ export default function CategoriesPage() {
                   <div className="flex flex-1 flex-col p-6">
                     <div className="flex items-center justify-between gap-3">
                       <span className="rounded-full bg-green-100 px-3 py-1 text-sm font-semibold text-green-700">
-                        {category.recipeCount} recipes
+                        {category.recipeCount} {t("recipes")}
                       </span>
                     </div>
 
                     <div className="mt-6">
                       <h2 className="text-2xl font-semibold text-gray-900">
-                        {category.name}
+                        {categoryT(category.nameKey)}
                       </h2>
                       <p className="mt-3 text-sm leading-6 text-gray-600">
-                        {category.description}
+                        {categoryT(category.descriptionKey)}
                       </p>
                     </div>
 
