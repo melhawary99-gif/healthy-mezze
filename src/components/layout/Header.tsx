@@ -1,21 +1,24 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
 import { Heart } from "lucide-react";
-import { usePathname } from "next/navigation";
 import MobileMenu from "@/components/MobileMenu";
-
-const navLinks = [
-  { label: "Home", href: "/" },
-  { label: "Recipes", href: "/recipes" },
-  { label: "Categories", href: "/categories" },
-  { label: "Favorites", href: "/favorites" },
-  { label: "About", href: "/about" },
-];
+import { useTranslations, useLocale } from "next-intl";
+import { Link, usePathname } from "@/i18n/navigation";
 
 export default function Header() {
   const pathname = usePathname() || "/";
+  const t = useTranslations("Navigation");
+  const locale = useLocale();
+
+  const navLinks = [
+    { label: t("home"), href: "/" },
+    { label: t("recipes"), href: "/recipes" },
+    { label: t("categories"), href: "/categories" },
+    { label: t("favorites"), href: "/favorites" },
+    { label: t("about"), href: "/about" },
+  ];
+
   const [hasScrolled, setHasScrolled] = useState(false);
 
   useEffect(() => {
@@ -35,28 +38,23 @@ export default function Header() {
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
         <Link
-  href="/"
-  aria-label="Healthy Mezze Home"
-  className="text-2xl font-bold text-green-700"
->
-  Healthy Mezze
-</Link>
-        
+          href="/"
+          aria-label="Healthy Mezze Home"
+          className="text-2xl font-bold text-green-700"
+        >
+          Healthy Mezze
+        </Link>
+
         <nav className="hidden items-center gap-8 md:flex" aria-label="Primary navigation">
           {navLinks.map((link) => {
-            const isActive =
-              link.href === "/"
-                ? pathname === "/"
-                : pathname.startsWith(link.href);
+            const isActive = link.href === "/" ? pathname === "/" : pathname.startsWith(link.href);
 
             return (
               <Link
                 key={link.href}
                 href={link.href}
                 className={`text-sm font-medium transition ${
-                  isActive
-                    ? "text-green-700"
-                    : "text-gray-700 hover:text-green-700"
+                  isActive ? "text-green-700" : "text-gray-700 hover:text-green-700"
                 }`}
               >
                 {link.label}
@@ -65,9 +63,17 @@ export default function Header() {
           })}
         </nav>
 
-        <div className="flex items-center gap-3">
-          
+        <div className="hidden items-center gap-2 md:flex">
+          <Link
+            href={pathname}
+            locale={locale === "en" ? "ar" : "en"}
+            className="rounded-lg border px-3 py-2 text-sm font-medium transition hover:bg-green-50"
+          >
+            {locale === "en" ? "العربية" : "English"}
+          </Link>
+        </div>
 
+        <div className="flex items-center gap-3">
           <Link
             href="/favorites"
             aria-label="Favorites"

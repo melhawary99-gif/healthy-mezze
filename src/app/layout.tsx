@@ -107,8 +107,7 @@ export const metadata: Metadata = {
 
     title: "Healthy Mezze | Fresh Mediterranean Recipes",
 
-    description:
-      "Healthy Mediterranean recipes inspired by traditional regional cuisine.",
+    description: "Healthy Mediterranean recipes inspired by traditional regional cuisine.",
 
     images: ["/images/og-image.jpg"],
   },
@@ -118,10 +117,9 @@ export const metadata: Metadata = {
   },
 
   other: {
-  "p:domain_verify": "9c5313b6f5c1e891bac29d42d647f84e",
-  "google-adsense-account": "ca-pub-2945001903757081",
-},
-
+    "p:domain_verify": "9c5313b6f5c1e891bac29d42d647f84e",
+    "google-adsense-account": "ca-pub-2945001903757081",
+  },
 };
 
 const organizationSchema = {
@@ -160,7 +158,6 @@ const websiteSchema = {
   inLanguage: "en",
 };
 
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -171,35 +168,26 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${poppins.variable} bg-[#FAFAF7] text-gray-900 antialiased`}
       >
-         <Clarity />
-       
-       
-       
-       <script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify(organizationSchema),
-  }}
-/>
+        <Clarity />
 
-<script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify(websiteSchema),
-  }}
-/>
-                 
-        <Header />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationSchema),
+          }}
+        />
 
-        <main>{children}</main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(websiteSchema),
+          }}
+        />
 
-        <Footer />
+        {children}
 
-        <GoogleAnalytics
-  gaId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID!}
-/>
+        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID!} />
       </body>
-      
     </html>
   );
 }

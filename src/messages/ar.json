@@ -4,6 +4,12 @@
     "recipes": "الوصفات",
     "categories": "التصنيفات",
     "favorites": "المفضلة",
-    "about": "من نحن"
+    "about": "من نحن",
+    "contact": "اتصل بنا"
+  },
+
+  "Buttons": {
+    "browseRecipes": "تصفح الوصفات",
+    "exploreCategories": "استكشف التصنيفات"
   }
 }

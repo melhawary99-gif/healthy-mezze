@@ -4,6 +4,12 @@
     "recipes": "Recipes",
     "categories": "Categories",
     "favorites": "Favorites",
-    "about": "About"
+    "about": "About",
+    "contact": "Contact"
+  },
+
+  "Buttons": {
+    "browseRecipes": "Browse Recipes",
+    "exploreCategories": "Explore Categories"
   }
 }
