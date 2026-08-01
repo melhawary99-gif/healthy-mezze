@@ -9,6 +9,8 @@ const HealthyTip = dynamic(() => import("@/components/home/HealthyTip"));
 const Newsletter = dynamic(() => import("@/components/Newsletter"));
 
 export default function Home() {
+  console.log("✅ LOCALIZED HOMEPAGE");
+
   return (
     <div className="bg-[#FAFAF7]">
       <Hero />
