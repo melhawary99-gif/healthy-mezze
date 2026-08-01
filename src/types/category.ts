@@ -1,8 +1,8 @@
 export interface Category {
   id: number;
-  name: string;
+  nameKey: string;
   slug: string;
-  description: string;
+  descriptionKey: string;
   image: string;
   icon: string;
 }

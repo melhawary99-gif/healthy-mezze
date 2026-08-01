@@ -6,8 +6,6 @@ import { categories } from "@/data/categories";
 import { FaFacebookF, FaInstagram, FaPinterestP } from "react-icons/fa";
 import Container from "@/components/ui/Container";
 
-
-
 const legalLinks = [
   { href: "/privacy", label: "Privacy Policy" },
   { href: "/cookies", label: "Cookie Policy" },
@@ -39,14 +37,14 @@ export default function Footer() {
   const nav = useTranslations("Navigation");
 
   const navLinks = [
-  { href: "/", label: nav("home") },
-  { href: "/recipes", label: nav("recipes") },
-  { href: "/categories", label: nav("categories") },
-  { href: "/favorites", label: nav("favorites") },
-  { href: "/about", label: nav("about") },
-  { href: "/contact", label: nav("contact") },
-  { href: "/faq", label: "FAQ" },
-];
+    { href: "/", label: nav("home") },
+    { href: "/recipes", label: nav("recipes") },
+    { href: "/categories", label: nav("categories") },
+    { href: "/favorites", label: nav("favorites") },
+    { href: "/about", label: nav("about") },
+    { href: "/contact", label: nav("contact") },
+    { href: "/faq", label: "FAQ" },
+  ];
 
   const currentYear = new Date().getFullYear();
 
