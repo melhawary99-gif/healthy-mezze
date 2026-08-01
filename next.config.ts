@@ -1,4 +1,7 @@
 import type { NextConfig } from "next";
+import createNextIntlPlugin from "next-intl/plugin";
+
+const withNextIntl = createNextIntlPlugin();
 
 const csp = `
 default-src 'self';
@@ -71,11 +74,11 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
 
   images: {
-  formats: ["image/avif", "image/webp"],
-  deviceSizes: [640, 768, 1024, 1280, 1536],
-  imageSizes: [16, 32, 48, 64, 96, 128, 256, 384, 540],
-  qualities: [65, 70, 75, 85],
-},
+    formats: ["image/avif", "image/webp"],
+    deviceSizes: [640, 768, 1024, 1280, 1536],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384, 540],
+    qualities: [65, 70, 75, 85],
+  },
 
   async headers() {
     return [
@@ -92,8 +95,7 @@ const nextConfig: NextConfig = {
           },
           {
             key: "Permissions-Policy",
-            value:
-              "camera=(), microphone=(), geolocation=(), browsing-topics=()",
+            value: "camera=(), microphone=(), geolocation=(), browsing-topics=()",
           },
           {
             key: "Cross-Origin-Opener-Policy",
@@ -106,8 +108,8 @@ const nextConfig: NextConfig = {
 
           // REPORT ONLY (does NOT block anything)
           {
-           key: "Content-Security-Policy",
-           value: csp,
+            key: "Content-Security-Policy",
+            value: csp,
           },
         ],
       },
@@ -115,4 +117,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+export default withNextIntl(nextConfig);
