@@ -1,15 +1,16 @@
+"use client";
+
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
-import { getTranslations } from "next-intl/server";
-
+import { useTranslations } from "next-intl";
 import Container from "@/components/ui/Container";
 import SectionTitle from "@/components/ui/SectionTitle";
 
 import { categories } from "@/data/categories";
 import { recipes } from "@/data/recipes";
 
-export default async function Categories() {
-  const t = await getTranslations("Categories");
+export default function Categories() {
+  const t = useTranslations("Categories");
   return (
     <section className="py-20 bg-[#FAFAF7]">
       <Container>
