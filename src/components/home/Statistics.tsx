@@ -1,22 +1,26 @@
+"use client";
+
 import Container from "@/components/ui/Container";
+import { useTranslations } from "next-intl";
 
 export default function Statistics() {
+  const t = useTranslations("Statistics");
   const stats = [
     {
       value: "100+",
-      label: "Healthy Recipes",
+      label: t("healthyRecipes"),
     },
     {
       value: "10",
-      label: "Recipe Categories",
+      label: t("recipeCategories"),
     },
     {
       value: "20+",
-      label: "Mediterranean Cuisines",
+      label: t("mediterraneanCuisines"),
     },
     {
       value: "100%",
-      label: "Fresh Inspiration",
+      label: t("freshInspiration"),
     },
   ];
 
@@ -29,13 +33,9 @@ export default function Statistics() {
               key={stat.label}
               className="rounded-2xl border border-stone-200 bg-[#FAFAF7] p-8 text-center transition hover:-translate-y-1 hover:shadow-lg"
             >
-              <h3 className="text-4xl font-bold text-green-700">
-                {stat.value}
-              </h3>
+              <h3 className="text-4xl font-bold text-green-700">{stat.value}</h3>
 
-              <p className="mt-3 text-stone-600">
-                {stat.label}
-              </p>
+              <p className="mt-3 text-stone-600">{stat.label}</p>
             </div>
           ))}
         </div>

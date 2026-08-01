@@ -1,5 +1,8 @@
+"use client";
+
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
+import { useTranslations } from "next-intl";
 import { Heart, Clock3, Users } from "lucide-react";
 
 import { Recipe } from "@/types/recipe";
@@ -9,18 +12,17 @@ interface RecipeCardProps {
 }
 
 export default function RecipeCard({ recipe }: RecipeCardProps) {
+  const t = useTranslations("RecipeCard");
   return (
-   <article className="group relative flex h-full flex-col overflow-hidden rounded-3xl bg-white shadow-sm transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl">
-      
+    <article className="group relative flex h-full flex-col overflow-hidden rounded-3xl bg-white shadow-sm transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl">
       <button
-  type="button"
-  aria-label={`Add ${recipe.title} to favorites`}
-  className="absolute right-4 top-4 z-10 cursor-pointer rounded-full bg-white/90 p-2 shadow-lg backdrop-blur transition hover:scale-110 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
->
-  <Heart className="h-5 w-5 text-gray-600" />
-</button>
-      
-      
+        type="button"
+        aria-label={`Add ${recipe.title} to favorites`}
+        className="absolute right-4 top-4 z-10 cursor-pointer rounded-full bg-white/90 p-2 shadow-lg backdrop-blur transition hover:scale-110 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+      >
+        <Heart className="h-5 w-5 text-gray-600" />
+      </button>
+
       <Link
         href={`/recipes/${recipe.slug}`}
         className="relative block h-72 overflow-hidden bg-gray-100"
@@ -34,8 +36,6 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 380px"
           className="object-cover transition-transform duration-700 group-hover:scale-110"
         />
-
-        
       </Link>
 
       <div className="flex flex-1 flex-col p-6">
@@ -53,9 +53,7 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
           {recipe.title}
         </h3>
 
-        <p className="mt-3 line-clamp-3 flex-1 text-gray-600">
-          {recipe.description}
-        </p>
+        <p className="mt-3 line-clamp-3 flex-1 text-gray-600">{recipe.description}</p>
 
         <div className="mt-6 flex items-center gap-5 text-sm text-gray-500">
           <div className="flex items-center gap-2">
@@ -74,7 +72,7 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
             href={`/recipes/${recipe.slug}`}
             className="font-semibold text-green-700 transition-all hover:translate-x-1 hover:text-green-800"
           >
-            View Recipe →
+            {t("viewRecipe")} →
           </Link>
         </div>
       </div>

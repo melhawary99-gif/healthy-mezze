@@ -1,18 +1,14 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 type NewsletterProps = {
   variant?: "hero" | "footer";
 };
 
-function NewsletterForm({
-  idSuffix,
-  compact,
-}: {
-  idSuffix: string;
-  compact?: boolean;
-}) {
+function NewsletterForm({ idSuffix, compact }: { idSuffix: string; compact?: boolean }) {
+  const t = useTranslations("Newsletter");
   const [email, setEmail] = useState("");
   const [subscribed, setSubscribed] = useState(false);
 
@@ -30,44 +26,41 @@ function NewsletterForm({
     ? "mt-4 flex w-full items-center gap-3"
     : "mt-8 grid gap-4 sm:grid-cols-[1fr_auto]";
 
-  const handleSubmit = async (
-  e: React.FormEvent<HTMLFormElement>
-) => {
-  e.preventDefault();
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
 
+    if (!email.trim()) return;
 
-  if (!email.trim()) return;
+    try {
+      const response = await fetch("/api/subscribe", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email }),
+      });
 
-  try {
-    const response = await fetch("/api/subscribe", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ email }),
-    });
+      if (!response.ok) {
+        throw new Error("Subscription failed");
+      }
 
-    if (!response.ok) {
-      throw new Error("Subscription failed");
+      setSubscribed(true);
+      setEmail("");
+
+      setTimeout(() => {
+        setSubscribed(false);
+      }, 3000);
+    } catch (err) {
+      console.error(err);
+      alert(t("subscriptionFailed"));
     }
-
-    setSubscribed(true);
-    setEmail("");
-
-    setTimeout(() => {
-      setSubscribed(false);
-    }, 3000);
-  } catch (err) {
-    console.error(err);
-    alert("Subscription failed.");
-  }
-};
+  };
 
   return (
     <>
       <form onSubmit={handleSubmit} className={formLayout}>
         <label htmlFor={inputId} className="sr-only">
-          Email address
+          {t("emailAddress")}
         </label>
 
         <input
@@ -76,19 +69,19 @@ function NewsletterForm({
           name="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          placeholder="Enter your email"
+          placeholder={t("placeholder")}
           className={inputClasses}
           required
         />
 
         <button type="submit" className={buttonClasses}>
-          Subscribe
+          {t("subscribe")}
         </button>
       </form>
 
       {subscribed && (
         <div className="mt-4 rounded-xl border border-green-200 bg-green-50 px-4 py-3 text-green-700">
-          🎉 Thanks for subscribing! Healthy recipes and nutrition tips are on the way.
+          🎉 {t("success")}
         </div>
       )}
     </>
@@ -97,14 +90,17 @@ function NewsletterForm({
 
 export default function Newsletter({ variant = "hero" }: NewsletterProps) {
   const isHero = variant === "hero";
+  const t = useTranslations("Newsletter");
 
   if (isHero) {
     return (
       <section className="rounded-[2rem] border border-green-100 bg-green-50 p-6 shadow-sm sm:p-10">
         <div className="mx-auto max-w-3xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.24em] text-emerald-600">Join the Healthy Mezze Newsletter 🌿</p>
+          <p className="text-sm font-semibold uppercase tracking-[0.24em] text-emerald-600">
+            {t("join")} 🌿
+          </p>
           <h2 className="mt-4 text-3xl font-semibold text-gray-900 sm:text-4xl">
-            Get fresh Mediterranean recipes, healthy cooking tips, and meal ideas delivered to you.
+            {t("heroDescription")}
           </h2>
 
           <NewsletterForm idSuffix="hero" compact={false} />
@@ -118,8 +114,8 @@ export default function Newsletter({ variant = "hero" }: NewsletterProps) {
     <div className="w-full">
       <div className="mx-auto flex max-w-3xl items-center justify-between gap-4 px-0 text-left sm:px-0">
         <div>
-          <p className="text-sm font-semibold text-gray-900">Stay Updated 🌿</p>
-          <p className="mt-1 text-sm text-gray-600">Get our latest Mediterranean recipes.</p>
+          <p className="text-sm font-semibold text-gray-900">{t("stayUpdated")} 🌿</p>
+          <p className="mt-1 text-sm text-gray-600">{t("footerDescription")}</p>
         </div>
 
         <div className="ml-4 hidden w-2/5 sm:block">

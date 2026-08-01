@@ -36,5 +36,54 @@
     "subtitle": "Discover healthy Mediterranean recipes by category.",
     "browse": "Browse Recipes",
     "recipes": "Recipes"
+  },
+
+  "FeaturedRecipes": {
+    "title": "Featured Recipes",
+    "subtitle": "Our most popular healthy Mediterranean recipes."
+  },
+
+  "RecipeCard": {
+    "viewRecipe": "View Recipe"
+  },
+
+  "Statistics": {
+    "healthyRecipes": "Healthy Recipes",
+    "recipeCategories": "Recipe Categories",
+    "mediterraneanCuisines": "Mediterranean Cuisines",
+    "freshInspiration": "Fresh Inspiration"
+  },
+
+  "WhyHealthyMezze": {
+    "title": "Why Healthy Mezze?",
+    "subtitle": "Simple, nourishing recipes inspired by Mediterranean traditions."
+  },
+
+  "HealthyTip": {
+    "week": "Week",
+    "title": "Healthy Tip of the Week"
+  },
+
+  "Newsletter": {
+    "emailAddress": "Email address",
+    "placeholder": "Enter your email",
+    "subscribe": "Subscribe",
+    "subscriptionFailed": "Subscription failed.",
+    "success": "Thanks for subscribing! Healthy recipes and nutrition tips are on the way.",
+    "join": "Join the Healthy Mezze Newsletter",
+    "heroDescription": "Get fresh Mediterranean recipes, healthy cooking tips, and meal ideas delivered to you.",
+    "stayUpdated": "Stay Updated",
+    "footerDescription": "Get our latest Mediterranean recipes."
+  },
+
+  "Footer": {
+    "description": "Fresh Mediterranean recipes inspired by the authentic flavors of Egypt, Lebanon, Greece, Turkey, Syria, Jordan, and Palestine—designed for healthy everyday cooking.",
+    "explore": "Explore",
+    "categories": "Categories",
+    "stayInTouch": "Stay in touch",
+    "contactDescription": "Questions, feedback, or recipe requests? Reach out via our contact page.",
+    "contactUs": "Contact us",
+    "legal": "Legal",
+    "copyright": "Healthy Mezze. All rights reserved."
   }
 }

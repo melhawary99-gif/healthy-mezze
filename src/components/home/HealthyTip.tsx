@@ -1,15 +1,18 @@
+"use client";
+
 import { tips } from "@/data/tips";
 import Container from "@/components/ui/Container";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
+import { useTranslations } from "next-intl";
 
 export default function HealthyTip() {
+  const t = useTranslations("HealthyTip");
   // Calculate current week of the year
   const now = new Date();
   const startOfYear = new Date(now.getFullYear(), 0, 1);
 
   const daysSinceStart = Math.floor(
-    (now.getTime() - startOfYear.getTime()) /
-      (1000 * 60 * 60 * 24)
+    (now.getTime() - startOfYear.getTime()) / (1000 * 60 * 60 * 24)
   );
 
   const weekNumber = Math.floor(daysSinceStart / 7);
@@ -24,27 +27,23 @@ export default function HealthyTip() {
           <div className="text-5xl">{tip.icon}</div>
 
           <p className="mt-3 text-sm font-semibold uppercase tracking-widest text-green-600">
-            Week {weekNumber + 1}
+            {t("week")} {weekNumber + 1}
           </p>
 
-          <h2 className="mt-2 text-3xl font-bold text-gray-900">
-            Healthy Tip of the Week
-          </h2>
+          <h2 className="mt-2 text-3xl font-bold text-gray-900">{t("title")}</h2>
 
-          <h3 className="mt-6 text-xl font-semibold text-green-700">
-            {tip.title}
-          </h3>
+          <h3 className="mt-6 text-xl font-semibold text-green-700">{tip.title}</h3>
 
           <p className="mx-auto mt-4 max-w-2xl text-lg leading-8 text-gray-600">
             {tip.description}
           </p>
 
           <Link
-  href={`/recipes/${tip.recipeSlug}`}
-  className="mt-8 inline-flex rounded-xl bg-green-700 px-6 py-3 font-medium text-white transition hover:bg-green-800"
->
-  {tip.buttonText} →
-</Link>
+            href={`/recipes/${tip.recipeSlug}`}
+            className="mt-8 inline-flex rounded-xl bg-green-700 px-6 py-3 font-medium text-white transition hover:bg-green-800"
+          >
+            {tip.buttonText} →
+          </Link>
         </div>
       </Container>
     </section>
