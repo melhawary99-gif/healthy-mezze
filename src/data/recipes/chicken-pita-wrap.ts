@@ -10,7 +10,7 @@ export const chickenPitaWrap: Recipe = {
 
   cuisine: "Middle Eastern",
 
-  category: "Sandwiches & Wraps",
+  category: "sandwiches-wraps",
 
   prepTime: "15",
   cookTime: "20",

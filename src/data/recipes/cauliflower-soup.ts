@@ -20,7 +20,7 @@ export const cauliflowerSoup: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Soups",
+  category: "soups",
 
   prepTime: "15 mins",
 

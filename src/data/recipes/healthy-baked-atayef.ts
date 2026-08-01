@@ -20,7 +20,7 @@ export const healthyBakedAtayef: Recipe = {
 
   cuisine: "Egyptian",
 
-  category: "Desserts",
+  category: "desserts",
 
   prepTime: "30 mins",
 

@@ -20,7 +20,7 @@ export const authenticAmbaSauce: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Dips & Sauces",
+  category: "dips-sauces",
 
   prepTime: "10 mins",
 

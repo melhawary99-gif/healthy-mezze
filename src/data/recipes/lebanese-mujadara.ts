@@ -20,7 +20,7 @@ export const lebaneseMujadara: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Main Dishes",
+  category: "main-dishes",
   vegan: true,
   vegetarian: true,
 

@@ -10,7 +10,7 @@ export const falafelBowl: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Vegetarian",
+  category: "vegetarian",
   vegan: true,
 
   prepTime: "20",

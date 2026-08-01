@@ -20,7 +20,7 @@ export const spinachChickpeaStew: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Vegetarian",
+  category: "vegetarian",
 
   prepTime: "15 mins",
 

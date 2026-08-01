@@ -10,7 +10,7 @@ export const baklavaYogurtParfait: Recipe = {
 
   cuisine: "Middle Eastern",
 
-  category: "Desserts",
+  category: "desserts",
 
   prepTime: "10",
   cookTime: "0",

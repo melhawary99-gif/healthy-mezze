@@ -20,7 +20,7 @@ export const healthyPistachioBaklavaRolls: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Desserts",
+  category: "desserts",
 
   prepTime: "30 mins",
 

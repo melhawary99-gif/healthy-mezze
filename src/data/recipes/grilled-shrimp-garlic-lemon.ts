@@ -20,7 +20,7 @@ export const grilledShrimpGarlicLemon: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Mezze",
+  category: "mezze",
 
   prepTime: "15 mins",
 

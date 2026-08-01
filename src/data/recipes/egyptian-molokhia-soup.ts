@@ -20,7 +20,7 @@ export const egyptianMolokhiaSoup: Recipe = {
 
   cuisine: "Egyptian",
 
-  category: "Soups",
+  category: "soups",
 
   prepTime: "20 mins",
 

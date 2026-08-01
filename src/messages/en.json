@@ -85,5 +85,56 @@
     "contactUs": "Contact us",
     "legal": "Legal",
     "copyright": "Healthy Mezze. All rights reserved."
+  },
+
+  "CategoriesData": {
+    "breakfast": {
+      "name": "Breakfast",
+      "description": "Healthy Mediterranean breakfasts to start your day."
+    },
+    "salads": {
+      "name": "Salads",
+      "description": "Fresh vegetables, herbs, and Mediterranean flavors."
+    },
+    "soups": {
+      "name": "Soups",
+      "description": "Comforting soups packed with vegetables and legumes."
+    },
+    "mainDishes": {
+      "name": "Main Dishes",
+      "description": "Healthy Mediterranean meals made with wholesome ingredients."
+    },
+    "vegetarian": {
+      "name": "Vegetarian",
+      "description": "Plant-based recipes full of flavor and nutrition."
+    },
+    "vegan": {
+      "name": "Vegan",
+      "description": "Healthy vegan recipes inspired by Mediterranean traditions."
+    },
+    "sandwichesWraps": {
+      "name": "Sandwiches & Wraps",
+      "description": "Fresh wraps and sandwiches perfect for healthy meals."
+    },
+    "snack": {
+      "name": "Snack",
+      "description": "Healthy Mediterranean snacks and light bites."
+    },
+    "mezze": {
+      "name": "Mezze",
+      "description": "Traditional Mediterranean appetizers and sharing plates."
+    },
+    "drinks": {
+      "name": "Drinks",
+      "description": "Refreshing traditional Egyptian and Lebanese beverages."
+    },
+    "desserts": {
+      "name": "Desserts",
+      "description": "Healthier Mediterranean-inspired desserts."
+    },
+    "dipsSauces": {
+      "name": "Dips & Sauces",
+      "description": "Classic Mediterranean dips and flavorful sauces."
+    }
   }
 }

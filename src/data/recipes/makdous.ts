@@ -20,7 +20,7 @@ export const makdous: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Mezze",
+  category: "mezze",
 
   prepTime: "30 mins",
 

@@ -20,7 +20,7 @@ export const vegetableMoussaka: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Vegetarian",
+  category: "vegetarian",
 
   prepTime: "30 mins",
 

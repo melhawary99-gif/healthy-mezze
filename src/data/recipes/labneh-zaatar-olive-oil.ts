@@ -20,7 +20,7 @@ export const labnehZaatarOliveOil: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Breakfast",
+  category: "breakfast",
 
   prepTime: "10 mins",
 

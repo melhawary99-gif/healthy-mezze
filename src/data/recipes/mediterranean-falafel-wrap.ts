@@ -10,7 +10,7 @@ export const mediterraneanFalafelWrap: Recipe = {
 
   cuisine: "Mediterranean",
 
-  category: "Sandwiches & Wraps",
+  category: "sandwiches-wraps",
 
   prepTime: "15",
   cookTime: "10",

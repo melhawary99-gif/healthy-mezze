@@ -10,7 +10,7 @@ export const mediterraneanGrilledChickenPlate: Recipe = {
 
   cuisine: "Mediterranean",
 
-  category: "Main Dishes",
+  category: "main-dishes",
 
   prepTime: "20",
   cookTime: "25",

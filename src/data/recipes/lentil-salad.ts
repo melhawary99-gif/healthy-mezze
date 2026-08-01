@@ -20,7 +20,7 @@ export const lentilSalad: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Salads",
+  category: "salads",
   vegan: true,
 vegetarian: true,
 

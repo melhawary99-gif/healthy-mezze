@@ -20,7 +20,7 @@ export const classicHummus: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Snack",
+  category: "snack",
   vegan: true,
   vegetarian: true,
 

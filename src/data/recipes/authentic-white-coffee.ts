@@ -20,7 +20,7 @@ export const authenticWhiteCoffee: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Drinks",
+  category: "drinks",
 
   prepTime: "2 mins",
 

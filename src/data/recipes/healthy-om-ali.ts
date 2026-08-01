@@ -20,7 +20,7 @@ export const healthyOmAli: Recipe = {
 
   cuisine: "Egyptian",
 
-  category: "Desserts",
+  category: "desserts",
 
   prepTime: "20 mins",
 

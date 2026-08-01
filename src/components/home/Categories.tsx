@@ -11,6 +11,7 @@ import { recipes } from "@/data/recipes";
 
 export default function Categories() {
   const t = useTranslations("Categories");
+  const categoryT = useTranslations();
   return (
     <section className="py-20 bg-[#FAFAF7]">
       <Container>
@@ -20,12 +21,12 @@ export default function Categories() {
           {categories.map((category) => {
             let recipeCount = 0;
 
-            if (category.name === "Vegan") {
-              recipeCount = recipes.filter((recipe) => recipe.vegan === true).length;
-            } else if (category.name === "Vegetarian") {
-              recipeCount = recipes.filter((recipe) => recipe.vegetarian === true).length;
+            if (category.slug === "vegan") {
+              recipeCount = recipes.filter((recipe) => recipe.vegan).length;
+            } else if (category.slug === "vegetarian") {
+              recipeCount = recipes.filter((recipe) => recipe.vegetarian).length;
             } else {
-              recipeCount = recipes.filter((recipe) => recipe.category === category.name).length;
+              recipeCount = recipes.filter((recipe) => recipe.category === category.slug).length;
             }
 
             return (
@@ -37,7 +38,7 @@ export default function Categories() {
                 <div className="relative h-72">
                   <Image
                     src={category.image}
-                    alt={category.name}
+                    alt={categoryT(category.nameKey)}
                     fill
                     quality={65}
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 540px"
@@ -55,9 +56,11 @@ export default function Categories() {
                       </span>
                     </div>
 
-                    <h3 className="text-3xl font-bold">{category.name}</h3>
+                    <h3 className="text-3xl font-bold">{categoryT(category.nameKey)}</h3>
 
-                    <p className="mt-2 text-sm text-gray-200">{category.description}</p>
+                    <p className="mt-2 text-sm text-gray-200">
+                      {categoryT(category.descriptionKey)}
+                    </p>
 
                     <div className="mt-5 inline-flex items-center font-semibold text-green-300 transition-transform duration-300 group-hover:translate-x-2">
                       {t("browse")} →

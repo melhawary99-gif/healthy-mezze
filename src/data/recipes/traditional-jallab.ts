@@ -20,7 +20,7 @@ export const traditionalJallab: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Drinks",
+  category: "drinks",
 
   prepTime: "10 mins",
 

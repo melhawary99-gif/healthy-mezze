@@ -20,7 +20,7 @@ export const roastedVegetableQuinoaBowl: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Vegetarian",
+  category: "vegetarian",
 
   prepTime: "20 mins",
 

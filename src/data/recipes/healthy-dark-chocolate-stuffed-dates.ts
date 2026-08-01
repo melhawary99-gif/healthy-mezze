@@ -20,7 +20,7 @@ export const healthyDarkChocolateStuffedDates: Recipe = {
 
   cuisine: "Egyptian",
 
-  category: "Desserts",
+  category: "desserts",
 
   prepTime: "20 mins",
 

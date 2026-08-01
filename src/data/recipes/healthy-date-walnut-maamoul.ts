@@ -20,7 +20,7 @@ export const healthyDateWalnutMaamoul: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Desserts",
+  category: "desserts",
 
   prepTime: "30 mins",
 

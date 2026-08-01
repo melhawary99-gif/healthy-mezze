@@ -20,7 +20,7 @@ export const healthyChickenMakanek: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Mezze",
+  category: "mezze",
 
   prepTime: "20 mins",
 

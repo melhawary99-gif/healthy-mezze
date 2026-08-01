@@ -20,7 +20,7 @@ export const chickenOrzoSoup: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Soups",
+  category: "soups",
 
   prepTime: "20 mins",
 

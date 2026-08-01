@@ -20,7 +20,7 @@ export const fulMedames: Recipe = {
 
   cuisine: "Egyptian",
 
-  category: "Breakfast",
+  category: "breakfast",
   vegan: true,
   vegetarian: true,
 

@@ -20,7 +20,7 @@ export const stuffedDatesAlmondsPistachios: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Snack",
+  category: "snack",
 
   prepTime: "15 mins",
 

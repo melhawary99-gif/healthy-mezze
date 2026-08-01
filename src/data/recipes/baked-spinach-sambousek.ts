@@ -20,7 +20,7 @@ export const bakedSpinachSambousek: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Mezze",
+  category: "mezze",
 
   prepTime: "35 mins",
 

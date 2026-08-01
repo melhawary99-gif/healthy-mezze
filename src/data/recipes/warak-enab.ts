@@ -20,7 +20,7 @@ export const warakEnab: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Mezze",
+  category: "mezze",
 
   prepTime: "45 mins",
 

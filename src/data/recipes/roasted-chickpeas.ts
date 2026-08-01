@@ -20,7 +20,7 @@ export const roastedChickpeas: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Snack",
+  category: "snack",
 
   prepTime: "10 mins",
 

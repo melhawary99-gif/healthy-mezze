@@ -20,7 +20,7 @@ export const oliveTapenade: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Snack",
+  category: "snack",
   vegan: true,
   vegetarian: true,
 

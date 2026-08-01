@@ -60,10 +60,10 @@ export interface Recipe {
   slug: string;
   description: string;
   longDescription?: string;
-  
+
   // Publication Information
-datePublished?: string;
-dateModified?: string;
+  datePublished?: string;
+  dateModified?: string;
 
   // Recipe Image
   image: string;
@@ -71,31 +71,29 @@ dateModified?: string;
 
   // Classification
   cuisine:
-  | "Egyptian"
-  | "Lebanese"
-  | "Greek"
-  | "Turkish"
-  | "Syrian"
-  | "Jordanian"
-  | "Palestinian"
-  | "Mediterranean"
-  | "Middle Eastern";
-
-
+    | "Egyptian"
+    | "Lebanese"
+    | "Greek"
+    | "Turkish"
+    | "Syrian"
+    | "Jordanian"
+    | "Palestinian"
+    | "Mediterranean"
+    | "Middle Eastern";
 
   category:
-    | "Breakfast"
-    | "Salads"
-    | "Soups"
-    | "Main Dishes"
-    | "Vegetarian"
-    | "Vegan"
-    | "Sandwiches & Wraps"
-    | "Snack"
-    | "Mezze"
-    | "Drinks"
-    | "Desserts"
-    | "Dips & Sauces";
+    | "breakfast"
+    | "salads"
+    | "soups"
+    | "main-dishes"
+    | "vegetarian"
+    | "vegan"
+    | "sandwiches-wraps"
+    | "snack"
+    | "mezze"
+    | "drinks"
+    | "desserts"
+    | "dips-sauces";
 
   // Timing
   prepTime: string;
@@ -108,15 +106,15 @@ dateModified?: string;
   difficulty: "Easy" | "Medium" | "Hard";
 
   // Dietary Information
-vegetarian?: boolean;
-vegan?: boolean;
+  vegetarian?: boolean;
+  vegan?: boolean;
 
-// Recipe Status
-featured?: boolean;
+  // Recipe Status
+  featured?: boolean;
 
-// Search & SEO
-keywords?: string[];
-tags?: string[];
+  // Search & SEO
+  keywords?: string[];
+  tags?: string[];
 
   /**
    * Structured ingredients.
@@ -136,5 +134,4 @@ tags?: string[];
 
   // Health Information
   healthBenefits?: string[];
-
 }

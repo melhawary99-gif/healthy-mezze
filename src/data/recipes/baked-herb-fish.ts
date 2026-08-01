@@ -20,7 +20,7 @@ export const bakedHerbFish: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Main Dishes",
+  category: "main-dishes",
 
   prepTime: "15 mins",
 

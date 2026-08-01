@@ -20,7 +20,7 @@ export const healthyBasbousa: Recipe = {
 
   cuisine: "Egyptian",
 
-  category: "Desserts",
+  category: "desserts",
 
   prepTime: "15 mins",
 

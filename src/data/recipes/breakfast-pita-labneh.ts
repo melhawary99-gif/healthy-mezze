@@ -20,7 +20,7 @@ export const breakfastPitaLabneh: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Breakfast",
+  category: "breakfast",
 
   prepTime: "15 mins",
 

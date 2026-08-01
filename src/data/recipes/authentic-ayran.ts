@@ -20,7 +20,7 @@ export const authenticAyran: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Drinks",
+  category: "drinks",
 
   prepTime: "5 mins",
 

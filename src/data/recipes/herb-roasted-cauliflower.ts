@@ -20,7 +20,7 @@ export const herbRoastedCauliflower: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Vegetarian",
+  category: "vegetarian",
   vegan: true,
 
   prepTime: "15 mins",

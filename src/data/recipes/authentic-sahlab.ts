@@ -20,7 +20,7 @@ export const authenticSahlab: Recipe = {
 
   cuisine: "Egyptian",
 
-  category: "Drinks",
+  category: "drinks",
 
   prepTime: "5 mins",
 

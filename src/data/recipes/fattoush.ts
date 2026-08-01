@@ -20,7 +20,7 @@ export const fattoush: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Salads",
+  category: "salads",
 
   prepTime: "20 mins",
 

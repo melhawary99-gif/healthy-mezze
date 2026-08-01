@@ -20,7 +20,7 @@ export const babaGanoush: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Mezze",
+  category: "mezze",
   vegan: true,
   vegetarian: true,
   

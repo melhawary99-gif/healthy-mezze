@@ -20,7 +20,7 @@ export const redLentilSoup: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Soups",
+  category: "soups",
   vegan: true,
 vegetarian: true,
 

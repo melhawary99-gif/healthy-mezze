@@ -20,7 +20,7 @@ export const cucumberHummusBites: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Snack",
+  category: "snack",
 
   prepTime: "15 mins",
 

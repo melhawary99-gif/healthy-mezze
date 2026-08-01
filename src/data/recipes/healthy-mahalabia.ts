@@ -20,7 +20,7 @@ export const healthyMahalabia: Recipe = {
 
   cuisine: "Egyptian",
 
-  category: "Desserts",
+  category: "desserts",
 
   prepTime: "10 mins",
 

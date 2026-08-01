@@ -20,7 +20,7 @@ export const healthyKanafehRicotta: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Desserts",
+  category: "desserts",
 
   prepTime: "25 mins",
 

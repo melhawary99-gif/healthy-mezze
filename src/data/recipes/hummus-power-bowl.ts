@@ -10,7 +10,7 @@ export const hummusPowerBowl: Recipe = {
 
   cuisine: "Mediterranean",
 
-  category: "Vegan",
+  category: "vegan",
 
   prepTime: "20",
   cookTime: "15",

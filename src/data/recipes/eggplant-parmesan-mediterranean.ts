@@ -20,7 +20,7 @@ export const eggplantParmesanMediterranean: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Vegetarian",
+  category: "vegetarian",
 
   prepTime: "25 mins",
 

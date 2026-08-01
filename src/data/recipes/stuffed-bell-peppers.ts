@@ -20,7 +20,7 @@ export const stuffedBellPeppers: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Main Dishes",
+  category: "main-dishes",
   vegan: false,
   vegetarian: false,
 

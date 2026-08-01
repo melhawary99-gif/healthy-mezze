@@ -20,7 +20,7 @@ export const beetrootSalad: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Salads",
+  category: "salads",
 
   prepTime: "15 mins",
 

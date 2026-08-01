@@ -20,7 +20,7 @@ export const muhammara: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Snack",
+  category: "snack",
   vegan: true,
 vegetarian: true,
 

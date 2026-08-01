@@ -20,7 +20,7 @@ export const grilledHalloumiHerbsPomegranate: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Mezze",
+  category: "mezze",
   vegan: false,
 vegetarian: true,
 

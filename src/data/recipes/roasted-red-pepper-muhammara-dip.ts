@@ -20,7 +20,7 @@ export const roastedRedPepperMuhammaraDip: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Dips & Sauces",
+  category: "dips-sauces",
   vegan: true,
   vegetarian: true,
 

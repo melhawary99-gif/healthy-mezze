@@ -20,7 +20,7 @@ export const authenticQamarAlDin: Recipe = {
 
   cuisine: "Egyptian",
 
-  category: "Drinks",
+  category: "drinks",
 
   prepTime: "15 mins",
 

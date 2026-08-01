@@ -20,7 +20,7 @@ export const creamyTzatzikiSauce: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Dips & Sauces",
+  category: "dips-sauces",
   vegan: false,
 vegetarian: true,
 

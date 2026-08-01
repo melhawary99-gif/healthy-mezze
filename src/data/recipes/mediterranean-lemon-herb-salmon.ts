@@ -10,7 +10,7 @@ export const mediterraneanLemonHerbSalmon: Recipe = {
 
   cuisine: "Mediterranean",
 
-  category: "Main Dishes",
+  category: "main-dishes",
 
   prepTime: "10",
   cookTime: "20",

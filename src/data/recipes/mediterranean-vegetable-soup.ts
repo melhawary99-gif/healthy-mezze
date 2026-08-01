@@ -10,7 +10,7 @@ export const mediterraneanVegetableSoup: Recipe = {
 
   cuisine: "Mediterranean",
 
-  category: "Soups",
+  category: "soups",
 
   prepTime: "15",
   cookTime: "35",

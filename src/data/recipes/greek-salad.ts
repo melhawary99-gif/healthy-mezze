@@ -20,9 +20,9 @@ export const greekSalad: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Salads",
+  category: "salads",
   vegan: false,
-vegetarian: true,
+  vegetarian: true,
 
   prepTime: "15 mins",
 
@@ -35,59 +35,59 @@ vegetarian: true,
   difficulty: "Easy",
 
   ingredients: [
-{
-    amount: 2,
-    unit: "large",
-    name: "tomatoes, chopped"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "1 cucumber, sliced"
-  },
-{
-    amount: 1,
-    unit: "small",
-    name: "red onion, thinly sliced"
-  },
-{
-    amount: 150,
-    unit: "g",
-    name: "feta cheese, cubed"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "½ cup Kalamata olives"
-  },
-{
-    amount: 3,
-    unit: "tbsp",
-    name: "extra virgin olive oil"
-  },
-{
-    amount: 1,
-    unit: "tbsp",
-    name: "fresh lemon juice"
-  },
-{
-    amount: 1,
-    unit: "tsp",
-    name: "dried oregano"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "Salt to taste"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "Freshly ground black pepper"
-  }
-],
+    {
+      amount: 2,
+      unit: "large",
+      name: "tomatoes, chopped",
+    },
+    {
+      amount: 1,
+      unit: "",
+      name: "1 cucumber, sliced",
+    },
+    {
+      amount: 1,
+      unit: "small",
+      name: "red onion, thinly sliced",
+    },
+    {
+      amount: 150,
+      unit: "g",
+      name: "feta cheese, cubed",
+    },
+    {
+      amount: 1,
+      unit: "",
+      name: "½ cup Kalamata olives",
+    },
+    {
+      amount: 3,
+      unit: "tbsp",
+      name: "extra virgin olive oil",
+    },
+    {
+      amount: 1,
+      unit: "tbsp",
+      name: "fresh lemon juice",
+    },
+    {
+      amount: 1,
+      unit: "tsp",
+      name: "dried oregano",
+    },
+    {
+      amount: 1,
+      unit: "",
+      name: "Salt to taste",
+    },
+    {
+      amount: 1,
+      unit: "",
+      name: "Freshly ground black pepper",
+    },
+  ],
 
-instructions: [
+  instructions: [
     "Wash all vegetables thoroughly.",
     "Cut the tomatoes into bite-sized pieces.",
     "Slice the cucumber and red onion.",
@@ -97,7 +97,7 @@ instructions: [
     "Whisk together olive oil, lemon juice, oregano, salt and pepper.",
     "Pour the dressing over the salad.",
     "Gently toss everything together.",
-    "Serve immediately for the freshest flavor."
+    "Serve immediately for the freshest flavor.",
   ],
 
   nutrition: {
@@ -107,7 +107,7 @@ instructions: [
     fat: "19 g",
     fiber: "3 g",
     sugar: "5 g",
-    sodium: "480 mg"
+    sodium: "480 mg",
   },
 
   healthBenefits: [
@@ -116,7 +116,7 @@ instructions: [
     "High in Vitamin C",
     "Excellent source of healthy fats",
     "Contains calcium for strong bones",
-    "Supports digestive health"
+    "Supports digestive health",
   ],
 
   keywords: [
@@ -125,17 +125,10 @@ instructions: [
     "Healthy Salad",
     "Easy Greek Salad Recipe",
     "Fresh Salad",
-    "Healthy Mediterranean Food"
+    "Healthy Mediterranean Food",
   ],
 
-  tags: [
-    "Salad",
-    "Mediterranean",
-    "Vegetarian",
-    "Healthy",
-    "Quick",
-    "Fresh"
-  ],
+  tags: ["Salad", "Mediterranean", "Vegetarian", "Healthy", "Quick", "Fresh"],
 
-  featured: true
+  featured: true,
 };

@@ -20,7 +20,7 @@ export const mediterraneanOatmealDatesPistachios: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Breakfast",
+  category: "breakfast",
 
   prepTime: "5 mins",
 

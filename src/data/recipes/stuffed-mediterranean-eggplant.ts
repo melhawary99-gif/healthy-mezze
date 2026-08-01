@@ -10,7 +10,7 @@ export const stuffedMediterraneanEggplant: Recipe = {
 
   cuisine: "Mediterranean",
 
-  category: "Vegetarian",
+  category: "vegetarian",
 
   prepTime: "20",
   cookTime: "45",

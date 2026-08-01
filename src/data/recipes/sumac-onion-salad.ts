@@ -20,7 +20,7 @@ export const sumacOnionSalad: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Dips & Sauces",
+  category: "dips-sauces",
 
   prepTime: "10 mins",
 

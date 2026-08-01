@@ -20,7 +20,7 @@ export const cauliflowerSteaksTahini: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Vegetarian",
+  category: "vegetarian",
 
   prepTime: "15 mins",
 

@@ -20,7 +20,7 @@ export const bakedKibbeh: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Mezze",
+  category: "mezze",
 
   prepTime: "40 mins",
 

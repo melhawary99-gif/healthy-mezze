@@ -20,7 +20,7 @@ export const grilledChickenShawarma: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Main Dishes",
+  category: "main-dishes",
 
   prepTime: "20 mins",
 

@@ -20,7 +20,7 @@ export const cheeseFatayer: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Mezze",
+  category: "mezze",
   vegan: false,
 vegetarian: true,
 

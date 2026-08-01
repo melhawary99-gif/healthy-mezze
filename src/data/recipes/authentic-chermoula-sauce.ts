@@ -20,7 +20,7 @@ export const authenticChermoulaSauce: Recipe = {
 
   cuisine: "Lebanese",
 
-  category: "Dips & Sauces",
+  category: "dips-sauces",
 
   prepTime: "15 mins",
 
