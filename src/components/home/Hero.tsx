@@ -1,12 +1,13 @@
+"use client";
+
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import heroFood from "@/../public/images/hero-food.webp";
-import { getTranslations, getLocale } from "next-intl/server";
+import { useTranslations } from "next-intl";
 
-export default async function Hero() {
-  const t = await getTranslations("Home");
-  const buttons = await getTranslations("Buttons");
-  const locale = await getLocale();
+export default function Hero() {
+  const t = useTranslations("Home");
+  const buttons = useTranslations("Buttons");
 
   return (
     <section className="bg-gradient-to-b from-[#FAFAF7] to-green-50">

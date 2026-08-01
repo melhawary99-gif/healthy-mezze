@@ -10,17 +10,31 @@
 
   "Buttons": {
     "browseRecipes": "Browse Recipes",
-    "exploreCategories": "Explore Categories"
+    "exploreCategories": "Explore Categories",
+    "readMore": "Read More",
+    "viewRecipe": "View Recipe",
+    "subscribe": "Subscribe",
+    "learnMore": "Learn More"
   },
 
   "Home": {
     "badge": "Healthy Mediterranean Recipes",
+
     "titleLine1": "Healthy Mediterranean",
-    "titleLine2": "Recipes Made Simple",
-    "description": "Discover delicious, wholesome recipes made with fresh ingredients, easy-to-follow instructions, and nutrition information to help you cook with confidence.",
+    "titleLine2": "Recipes Made Easy",
+
+    "description": "Discover nutritious Mediterranean recipes inspired by Egyptian, Lebanese, Greek, Turkish, Syrian, Jordanian and Palestinian cuisine.",
+
     "freshIngredients": "Fresh Ingredients",
     "nutritionFacts": "Nutrition Facts",
     "easyRecipes": "Easy Recipes",
     "mediterraneanCuisine": "Mediterranean Cuisine"
+  },
+
+  "Categories": {
+    "title": "Browse Recipe Categories",
+    "subtitle": "Discover healthy Mediterranean recipes by category.",
+    "browse": "Browse Recipes",
+    "recipes": "Recipes"
   }
 }
