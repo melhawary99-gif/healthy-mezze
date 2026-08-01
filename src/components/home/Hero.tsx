@@ -1,14 +1,13 @@
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import heroFood from "@/../public/images/hero-food.webp";
-import { useTranslations, useLocale } from "next-intl";
+import { getTranslations, getLocale } from "next-intl/server";
 
-export default function Hero() {
-  const t = useTranslations("Home");
-  const buttons = useTranslations("Buttons");
-  const locale = useLocale();
+export default async function Hero() {
+  const t = await getTranslations("Home");
+  const buttons = await getTranslations("Buttons");
+  const locale = await getLocale();
 
-  console.log("Hero locale:", locale);
   return (
     <section className="bg-gradient-to-b from-[#FAFAF7] to-green-50">
       <div className="mx-auto flex max-w-7xl flex-col-reverse items-center gap-12 px-6 py-20 lg:flex-row">
