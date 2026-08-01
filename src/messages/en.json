@@ -1,0 +1,9 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "recipes": "Recipes",
+    "categories": "Categories",
+    "favorites": "Favorites",
+    "about": "About"
+  }
+}
