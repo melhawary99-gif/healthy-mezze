@@ -1,3 +1,5 @@
+import { RecipeTranslation } from "./recipeTranslation";
+
 export interface Ingredient {
   /**
    * Amount for the default number of servings.
@@ -56,10 +58,18 @@ export interface Recipe {
   id: number;
 
   // Basic Information
-  title: string;
   slug: string;
+
+  // Default English fields (temporary during migration)
+  title: string;
   description: string;
   longDescription?: string;
+
+  // Multilingual content
+  translations?: {
+    en: RecipeTranslation;
+    ar: RecipeTranslation;
+  };
 
   // Publication Information
   datePublished?: string;
@@ -67,6 +77,8 @@ export interface Recipe {
 
   // Recipe Image
   image: string;
+
+  // Temporary during migration
   imageAlt?: string;
 
   // Classification
@@ -124,14 +136,17 @@ export interface Recipe {
    * - Nutrition calculations
    * - Unit conversions
    */
+  // Temporary during migration
   ingredients: Ingredient[];
 
   // Cooking Instructions
+  // Temporary during migration
   instructions: string[];
 
   // Nutrition Facts (per serving)
   nutrition: Nutrition;
 
   // Health Information
+  // Temporary during migration
   healthBenefits?: string[];
 }
