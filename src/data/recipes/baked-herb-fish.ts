@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const bakedHerbFish: Recipe = {
-  id: 28,
+  id: 31,
 
   title: "Baked Herb Fish",
 
@@ -51,7 +51,7 @@ export const bakedHerbFish: Recipe = {
 {
     amount: 1,
     unit: "",
-    name: "1 lemon, juiced"
+    name: "lemon, juiced"
   },
 {
     amount: 1,
@@ -91,7 +91,7 @@ export const bakedHerbFish: Recipe = {
 {
     amount: 1,
     unit: "",
-    name: "1 lemon, sliced"
+    name: "lemon, sliced"
   },
 {
     amount: 1,
@@ -120,6 +120,12 @@ instructions: [
     fiber: "1 g",
     sugar: "1 g",
     sodium: "390 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

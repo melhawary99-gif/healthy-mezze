@@ -1,11 +1,11 @@
-import { recipeTranslations } from "@/data/recipe-translations/manifest";
-
-export function getRecipeTranslation(slug: string, locale: "en" | "ar") {
-  const translation = recipeTranslations[slug];
-
-  if (!translation) {
+export async function getRecipeTranslation(slug: string, locale: "en" | "ar") {
+  if (locale === "en") {
     return null;
   }
 
-  return translation[locale] ?? translation.en ?? null;
+  try {
+    return (await import(`@/translations/${locale}/recipes/${slug}`)).default;
+  } catch {
+    return null;
+  }
 }

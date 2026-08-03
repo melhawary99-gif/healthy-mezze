@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const labnehZaatarOliveOil: Recipe = {
-  id: 42,
+  id: 44,
 
   title: "Labneh with Za'atar & Olive Oil",
 
@@ -103,6 +103,12 @@ instructions: [
     fiber: "3 g",
     sugar: "5 g",
     sodium: "370 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

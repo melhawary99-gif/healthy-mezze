@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const lebaneseMujadara: Recipe = {
-  id: 25,
+  id: 28,
 
   title: "Lebanese Mujadara",
 
@@ -47,8 +47,8 @@ export const lebaneseMujadara: Recipe = {
   },
 {
     amount: 3,
-    unit: "large",
-    name: "onions, thinly sliced"
+    unit: "",
+    name: "Large onions, thinly sliced"
   },
 {
     amount: 3,
@@ -113,6 +113,12 @@ instructions: [
     fiber: "11 g",
     sugar: "5 g",
     sodium: "430 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

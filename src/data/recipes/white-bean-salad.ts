@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const whiteBeanSalad: Recipe = {
-  id: 7,
+  id: 11,
 
   title: "Mediterranean White Bean Salad",
 
@@ -41,12 +41,12 @@ export const whiteBeanSalad: Recipe = {
 {
     amount: 1,
     unit: "",
-    name: "1 cucumber, diced"
+    name: "cucumber, diced"
   },
 {
     amount: 1,
     unit: "",
-    name: "2 tomatoes, diced"
+    name: "tomatoes, diced"
   },
 {
     amount: 1,
@@ -114,6 +114,12 @@ instructions: [
     fiber: "9 g",
     sugar: "4 g",
     sodium: "380 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

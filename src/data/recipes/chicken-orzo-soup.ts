@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const chickenOrzoSoup: Recipe = {
-  id: 13,
+  id: 16,
 
   title: "Mediterranean Chicken Orzo Soup",
 
@@ -40,13 +40,13 @@ export const chickenOrzoSoup: Recipe = {
   },
 {
     amount: 1,
-    unit: "medium",
-    name: "onion, diced"
+    unit: "",
+    name: "Medium onion, diced"
   },
 {
     amount: 1,
     unit: "",
-    name: "2 carrots, diced"
+    name: "carrots, diced"
   },
 {
     amount: 2,
@@ -138,6 +138,12 @@ instructions: [
     fiber: "2 g",
     sugar: "4 g",
     sodium: "540 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const whiteBeanSoup: Recipe = {
-  id: 16,
+  id: 19,
 
   title: "Mediterranean White Bean Soup",
 
@@ -40,13 +40,13 @@ export const whiteBeanSoup: Recipe = {
   },
 {
     amount: 1,
-    unit: "medium",
-    name: "onion, diced"
+    unit: "",
+    name: "Medium onion, diced"
   },
 {
     amount: 1,
     unit: "",
-    name: "2 carrots, diced"
+    name: "carrots, diced"
   },
 {
     amount: 2,
@@ -137,6 +137,12 @@ instructions: [
     fiber: "11 g",
     sugar: "5 g",
     sodium: "460 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

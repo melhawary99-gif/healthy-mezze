@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const mediterraneanVegetableBake: Recipe = {
-  id: 30,
+  id: 33,
 
   title: "Mediterranean Vegetable Bake",
 
@@ -35,13 +35,13 @@ export const mediterraneanVegetableBake: Recipe = {
   ingredients: [
 {
     amount: 2,
-    unit: "medium",
-    name: "zucchini, sliced"
+    unit: "",
+    name: "Medium zucchini, sliced"
   },
 {
     amount: 1,
-    unit: "medium",
-    name: "eggplant, cubed"
+    unit: "",
+    name: "Medium eggplant, cubed"
   },
 {
     amount: 2,
@@ -50,8 +50,8 @@ export const mediterraneanVegetableBake: Recipe = {
   },
 {
     amount: 1,
-    unit: "large",
-    name: "onion, sliced"
+    unit: "",
+    name: "Large onion, sliced"
   },
 {
     amount: 3,
@@ -147,6 +147,12 @@ instructions: [
     fiber: "10 g",
     sugar: "9 g",
     sodium: "360 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

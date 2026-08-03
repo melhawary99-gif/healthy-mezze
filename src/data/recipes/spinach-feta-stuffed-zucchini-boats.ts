@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const spinachFetaStuffedZucchiniBoats: Recipe = {
-  id: 31,
+  id: 34,
 
   title: "Spinach & Feta Stuffed Zucchini Boats",
 
@@ -35,8 +35,8 @@ export const spinachFetaStuffedZucchiniBoats: Recipe = {
   ingredients: [
 {
     amount: 4,
-    unit: "medium",
-    name: "zucchini"
+    unit: "",
+    name: "Medium zucchini"
   },
 {
     amount: 2,
@@ -127,6 +127,12 @@ instructions: [
     fiber: "5 g",
     sugar: "5 g",
     sodium: "520 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

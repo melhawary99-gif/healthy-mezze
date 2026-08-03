@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const roastedVegetableQuinoaBowl: Recipe = {
-  id: 34,
+  id: 37,
 
   title: "Roasted Vegetable Quinoa Bowl",
 
@@ -40,28 +40,28 @@ export const roastedVegetableQuinoaBowl: Recipe = {
   },
 {
     amount: 1,
-    unit: "medium",
-    name: "zucchini, sliced"
+    unit: "",
+    name: "Medium zucchini, sliced"
   },
 {
     amount: 1,
-    unit: "small",
-    name: "eggplant, cubed"
+    unit: "",
+    name: "Small eggplant, cubed"
   },
 {
     amount: 1,
-    unit: "red",
-    name: "bell pepper, chopped"
+    unit: "",
+    name: "Red bell pepper, chopped"
   },
 {
     amount: 1,
-    unit: "yellow",
-    name: "bell pepper, chopped"
+    unit: "",
+    name: "Yellow bell pepper, chopped"
   },
 {
     amount: 1,
-    unit: "red",
-    name: "onion, sliced"
+    unit: "",
+    name: "Red onion, sliced"
   },
 {
     amount: 1,
@@ -171,6 +171,12 @@ instructions: [
     fiber: "11 g",
     sugar: "8 g",
     sodium: "340 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

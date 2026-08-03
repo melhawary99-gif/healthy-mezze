@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const creamyChickpeaSoup: Recipe = {
-  id: 14,
+  id: 17,
 
   title: "Creamy Chickpea Soup",
 
@@ -40,13 +40,13 @@ export const creamyChickpeaSoup: Recipe = {
   },
 {
     amount: 1,
-    unit: "medium",
-    name: "onion, diced"
+    unit: "",
+    name: "Medium onion, diced"
   },
 {
     amount: 1,
     unit: "",
-    name: "2 carrots, diced"
+    name: "carrots, diced"
   },
 {
     amount: 2,
@@ -136,6 +136,12 @@ instructions: [
     fiber: "10 g",
     sugar: "6 g",
     sodium: "470 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

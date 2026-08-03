@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const redLentilSoup: Recipe = {
-  id: 11,
+  id: 14,
 
   title: "Red Lentil Soup (Shorbat Adas)",
 
@@ -42,13 +42,13 @@ vegetarian: true,
   },
 {
     amount: 1,
-    unit: "large",
-    name: "onion, chopped"
+    unit: "",
+    name: "Large onion, chopped"
   },
 {
     amount: 1,
     unit: "",
-    name: "2 carrots, diced"
+    name: "carrots, diced"
   },
 {
     amount: 2,
@@ -138,6 +138,12 @@ instructions: [
     fiber: "12 g",
     sugar: "5 g",
     sodium: "520 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

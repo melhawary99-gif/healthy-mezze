@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const grilledChickenShawarma: Recipe = {
-  id: 21,
+  id: 24,
 
   title: "Grilled Chicken Shawarma",
 
@@ -130,6 +130,12 @@ instructions: [
     fiber: "1 g",
     sugar: "2 g",
     sodium: "590 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

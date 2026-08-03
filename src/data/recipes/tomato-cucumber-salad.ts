@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const tomatoCucumberSalad: Recipe = {
-  id: 10,
+  id: 13,
 
   title: "Mediterranean Tomato & Cucumber Salad",
 
@@ -41,12 +41,12 @@ export const tomatoCucumberSalad: Recipe = {
 {
     amount: 1,
     unit: "",
-    name: "2 cucumbers, diced"
+    name: "cucumbers, diced"
   },
 {
     amount: 0.25,
-    unit: "red",
-    name: "onion, finely sliced"
+    unit: "",
+    name: "Red onion, finely sliced"
   },
 {
     amount: 0.25,
@@ -105,6 +105,12 @@ instructions: [
     fiber: "3 g",
     sugar: "5 g",
     sodium: "220 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

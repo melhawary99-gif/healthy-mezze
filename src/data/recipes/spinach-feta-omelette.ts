@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const spinachFetaOmelette: Recipe = {
-  id: 45,
+  id: 47,
 
   title: "Spinach & Feta Omelette",
 
@@ -37,8 +37,8 @@ vegetarian: true,
   ingredients: [
 {
     amount: 4,
-    unit: "large",
-    name: "eggs"
+    unit: "",
+    name: "Large eggs"
   },
 {
     amount: 2,
@@ -57,8 +57,8 @@ vegetarian: true,
   },
 {
     amount: 0.25,
-    unit: "small",
-    name: "onion, finely diced"
+    unit: "",
+    name: "Small onion, finely diced"
   },
 {
     amount: 1,
@@ -128,6 +128,12 @@ instructions: [
     fiber: "2 g",
     sugar: "3 g",
     sodium: "480 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

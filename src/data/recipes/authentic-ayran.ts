@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const authenticAyran: Recipe = {
-  id: 86,
+  id: 88,
 
   title: "Authentic Ayran (Laban Ayran)",
 
@@ -83,6 +83,12 @@ instructions: [
     fiber: "0 g",
     sugar: "6 g",
     sodium: "340 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

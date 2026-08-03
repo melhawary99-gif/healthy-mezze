@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const bakedBeefKofta: Recipe = {
-  id: 23,
+  id: 26,
 
   title: "Baked Beef Kofta",
 
@@ -40,8 +40,8 @@ export const bakedBeefKofta: Recipe = {
   },
 {
     amount: 1,
-    unit: "medium",
-    name: "onion, finely grated"
+    unit: "",
+    name: "Medium onion, finely grated"
   },
 {
     amount: 4,
@@ -121,6 +121,12 @@ instructions: [
     fiber: "1 g",
     sugar: "2 g",
     sodium: "560 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const healthyBakedAtayef: Recipe = {
-  id: 75,
+  id: 77,
 
   title: "Healthy Baked Atayef with Ricotta & Pistachios",
 
@@ -129,6 +129,12 @@ instructions: [
     fiber: "2 g",
     sugar: "8 g",
     sodium: "120 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

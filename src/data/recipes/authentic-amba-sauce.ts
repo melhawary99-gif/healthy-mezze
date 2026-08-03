@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const authenticAmbaSauce: Recipe = {
-  id: 99,
+  id: 101,
 
   title: "Authentic Amba Sauce",
 
@@ -108,6 +108,12 @@ export const authenticAmbaSauce: Recipe = {
     fiber: "1 g",
     sugar: "2 g",
     sodium: "170 mg",
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

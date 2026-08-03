@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const stuffedDatesAlmondsPistachios: Recipe = {
-  id: 55,
+  id: 57,
 
   title: "Stuffed Dates with Almonds & Pistachios",
 
@@ -95,6 +95,12 @@ instructions: [
     fiber: "3 g",
     sugar: "18 g",
     sodium: "35 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

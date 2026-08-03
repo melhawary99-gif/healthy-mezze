@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const greekYogurtBreakfastBowl: Recipe = {
-  id: 46,
+  id: 48,
 
   title: "Greek Yogurt Breakfast Bowl",
 
@@ -41,7 +41,7 @@ export const greekYogurtBreakfastBowl: Recipe = {
 {
     amount: 1,
     unit: "",
-    name: "1 banana, sliced"
+    name: "banana, sliced"
   },
 {
     amount: 0.5,
@@ -108,6 +108,12 @@ instructions: [
     fiber: "7 g",
     sugar: "18 g",
     sodium: "90 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

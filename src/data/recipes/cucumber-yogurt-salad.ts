@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const cucumberYogurtSalad: Recipe = {
-  id: 6,
+  id: 9,
 
   title: "Cucumber Yogurt Salad",
 
@@ -35,8 +35,8 @@ export const cucumberYogurtSalad: Recipe = {
   ingredients: [
 {
     amount: 2,
-    unit: "medium",
-    name: "cucumbers, diced"
+    unit: "",
+    name: "Medium cucumbers, diced"
   },
 {
     amount: 1,
@@ -100,6 +100,12 @@ instructions: [
     fiber: "1 g",
     sugar: "6 g",
     sodium: "270 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

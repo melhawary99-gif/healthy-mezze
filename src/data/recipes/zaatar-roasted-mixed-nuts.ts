@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const zaatarRoastedMixedNuts: Recipe = {
-  id: 57,
+  id: 59,
 
   title: "Za'atar Roasted Mixed Nuts",
 
@@ -116,6 +116,12 @@ instructions: [
     fiber: "3 g",
     sugar: "2 g",
     sodium: "115 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const roastedPumpkinSoup: Recipe = {
-  id: 17,
+  id: 20,
 
   title: "Roasted Pumpkin Soup",
 
@@ -41,12 +41,12 @@ export const roastedPumpkinSoup: Recipe = {
 {
     amount: 1,
     unit: "",
-    name: "2 carrots, sliced"
+    name: "carrots, sliced"
   },
 {
     amount: 1,
-    unit: "medium",
-    name: "onion, quartered"
+    unit: "",
+    name: "Medium onion, quartered"
   },
 {
     amount: 5,
@@ -121,6 +121,12 @@ instructions: [
     fiber: "5 g",
     sugar: "9 g",
     sodium: "410 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

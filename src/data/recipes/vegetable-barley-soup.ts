@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const vegetableBarleySoup: Recipe = {
-  id: 19,
+  id: 22,
 
   title: "Mediterranean Vegetable Barley Soup",
 
@@ -40,13 +40,13 @@ export const vegetableBarleySoup: Recipe = {
   },
 {
     amount: 1,
-    unit: "medium",
-    name: "onion, diced"
+    unit: "",
+    name: "Medium onion, diced"
   },
 {
     amount: 1,
     unit: "",
-    name: "2 carrots, diced"
+    name: "carrots, diced"
   },
 {
     amount: 2,
@@ -56,7 +56,7 @@ export const vegetableBarleySoup: Recipe = {
 {
     amount: 1,
     unit: "",
-    name: "1 zucchini, diced"
+    name: "zucchini, diced"
   },
 {
     amount: 3,
@@ -137,6 +137,12 @@ instructions: [
     fiber: "8 g",
     sugar: "7 g",
     sodium: "440 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

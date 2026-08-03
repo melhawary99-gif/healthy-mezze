@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const herbedLabnehDip: Recipe = {
-  id: 58,
+  id: 60,
 
   title: "Herbed Labneh Dip",
 
@@ -117,6 +117,12 @@ instructions: [
     fiber: "0 g",
     sugar: "3 g",
     sodium: "220 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

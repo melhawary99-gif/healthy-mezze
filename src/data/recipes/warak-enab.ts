@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const warakEnab: Recipe = {
-  id: 61,
+  id: 63,
 
   title: "Warak Enab (Stuffed Grape Leaves)",
 
@@ -45,13 +45,13 @@ export const warakEnab: Recipe = {
   },
 {
     amount: 2,
-    unit: "medium",
-    name: "tomatoes, finely diced"
+    unit: "",
+    name: "Medium tomatoes, finely diced"
   },
 {
     amount: 1,
-    unit: "small",
-    name: "onion, finely chopped"
+    unit: "",
+    name: "Small onion, finely chopped"
   },
 {
     amount: 1,
@@ -133,6 +133,12 @@ instructions: [
     fiber: "3 g",
     sugar: "3 g",
     sodium: "320 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

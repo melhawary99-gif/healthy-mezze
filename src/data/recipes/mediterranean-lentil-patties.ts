@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const mediterraneanLentilPatties: Recipe = {
-  id: 38,
+  id: 40,
 
   title: "Mediterranean Lentil Patties",
 
@@ -45,8 +45,8 @@ export const mediterraneanLentilPatties: Recipe = {
   },
 {
     amount: 1,
-    unit: "small",
-    name: "onion, finely chopped"
+    unit: "",
+    name: "Small onion, finely chopped"
   },
 {
     amount: 3,
@@ -66,7 +66,7 @@ export const mediterraneanLentilPatties: Recipe = {
 {
     amount: 1,
     unit: "",
-    name: "1 egg"
+    name: "egg"
   },
 {
     amount: 1,
@@ -121,6 +121,12 @@ instructions: [
     fiber: "10 g",
     sugar: "3 g",
     sodium: "320 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

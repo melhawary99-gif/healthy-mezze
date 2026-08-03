@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const stuffedEggplant: Recipe = {
-  id: 29,
+  id: 32,
 
   title: "Mediterranean Stuffed Eggplant",
 
@@ -35,8 +35,8 @@ export const stuffedEggplant: Recipe = {
   ingredients: [
 {
     amount: 2,
-    unit: "large",
-    name: "eggplants"
+    unit: "",
+    name: "Large eggplants"
   },
 {
     amount: 400,
@@ -45,8 +45,8 @@ export const stuffedEggplant: Recipe = {
   },
 {
     amount: 1,
-    unit: "medium",
-    name: "onion, finely diced"
+    unit: "",
+    name: "Medium onion, finely diced"
   },
 {
     amount: 3,
@@ -55,8 +55,8 @@ export const stuffedEggplant: Recipe = {
   },
 {
     amount: 2,
-    unit: "medium",
-    name: "tomatoes, diced"
+    unit: "",
+    name: "Medium tomatoes, diced"
   },
 {
     amount: 2,
@@ -140,6 +140,12 @@ instructions: [
     fiber: "8 g",
     sugar: "9 g",
     sodium: "500 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

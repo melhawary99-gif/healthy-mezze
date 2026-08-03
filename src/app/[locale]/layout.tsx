@@ -1,5 +1,5 @@
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages, setRequestLocale } from "next-intl/server";
+import { setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -26,12 +26,16 @@ export default async function LocaleLayout({ children, params }: Props) {
   const messages = (await import(`@/messages/${locale}.json`)).default;
 
   return (
-    <NextIntlClientProvider locale={locale} messages={messages}>
-      <Header />
+    <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
+      <body>
+        <NextIntlClientProvider locale={locale} messages={messages}>
+          <Header />
 
-      <main>{children}</main>
+          <main>{children}</main>
 
-      <Footer />
-    </NextIntlClientProvider>
+          <Footer />
+        </NextIntlClientProvider>
+      </body>
+    </html>
   );
 }

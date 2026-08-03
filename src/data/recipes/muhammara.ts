@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const muhammara: Recipe = {
-  id: 54,
+  id: 56,
 
   title: "Muhammara (Roasted Red Pepper & Walnut Dip)",
 
@@ -37,8 +37,8 @@ vegetarian: true,
   ingredients: [
 {
     amount: 3,
-    unit: "large",
-    name: "red bell peppers"
+    unit: "",
+    name: "Large red bell peppers"
   },
 {
     amount: 1,
@@ -124,6 +124,12 @@ instructions: [
     fiber: "3 g",
     sugar: "5 g",
     sodium: "230 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

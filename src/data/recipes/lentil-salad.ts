@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const lentilSalad: Recipe = {
-  id: 5,
+  id: 8,
 
   title: "Mediterranean Lentil Salad",
 
@@ -43,12 +43,12 @@ vegetarian: true,
 {
     amount: 1,
     unit: "",
-    name: "1 cucumber, diced"
+    name: "cucumber, diced"
   },
 {
     amount: 1,
     unit: "",
-    name: "2 tomatoes, diced"
+    name: "tomatoes, diced"
   },
 {
     amount: 1,
@@ -123,6 +123,12 @@ instructions: [
     fiber: "11 g",
     sugar: "5 g",
     sodium: "360 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const healthyMahalabia: Recipe = {
-  id: 74,
+  id: 76,
 
   title: "Healthy Mahalabia (Egyptian Milk Pudding)",
 
@@ -106,6 +106,12 @@ instructions: [
     fiber: "1 g",
     sugar: "12 g",
     sodium: "95 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

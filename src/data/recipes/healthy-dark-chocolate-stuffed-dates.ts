@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const healthyDarkChocolateStuffedDates: Recipe = {
-  id: 80,
+  id: 82,
 
   title: "Healthy Dark Chocolate Stuffed Dates",
 
@@ -100,6 +100,12 @@ instructions: [
     fiber: "3 g",
     sugar: "13 g",
     sodium: "20 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

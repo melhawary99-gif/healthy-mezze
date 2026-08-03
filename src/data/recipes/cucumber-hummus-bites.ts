@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const cucumberHummusBites: Recipe = {
-  id: 56,
+  id: 58,
 
   title: "Cucumber Hummus Bites",
 
@@ -35,8 +35,8 @@ export const cucumberHummusBites: Recipe = {
   ingredients: [
 {
     amount: 2,
-    unit: "large",
-    name: "cucumbers, sliced into 1/2-inch rounds"
+    unit: "",
+    name: "Large cucumbers, sliced into 1/2-inch rounds"
   },
 {
     amount: 1,
@@ -101,6 +101,12 @@ instructions: [
     fiber: "3 g",
     sugar: "3 g",
     sodium: "220 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

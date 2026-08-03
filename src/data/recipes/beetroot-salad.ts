@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const beetrootSalad: Recipe = {
-  id: 8,
+  id: 10,
 
   title: "Mediterranean Beetroot Salad",
 
@@ -35,8 +35,8 @@ export const beetrootSalad: Recipe = {
   ingredients: [
 {
     amount: 4,
-    unit: "medium",
-    name: "beetroots"
+    unit: "",
+    name: "Medium beetroots"
   },
 {
     amount: 1,
@@ -106,6 +106,12 @@ instructions: [
     fiber: "5 g",
     sugar: "11 g",
     sodium: "300 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

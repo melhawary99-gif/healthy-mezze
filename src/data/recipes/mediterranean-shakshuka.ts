@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const mediterraneanShakshuka: Recipe = {
-  id: 41,
+  id: 43,
 
   title: "Mediterranean Shakshuka",
 
@@ -42,13 +42,13 @@ vegetarian: true,
   },
 {
     amount: 1,
-    unit: "medium",
-    name: "onion, diced"
+    unit: "",
+    name: "Medium onion, diced"
   },
 {
     amount: 1,
-    unit: "red",
-    name: "bell pepper, diced"
+    unit: "",
+    name: "Red bell pepper, diced"
   },
 {
     amount: 3,
@@ -97,8 +97,8 @@ vegetarian: true,
   },
 {
     amount: 4,
-    unit: "large",
-    name: "eggs"
+    unit: "",
+    name: "Large eggs"
   },
 {
     amount: 2,
@@ -139,6 +139,12 @@ instructions: [
     fiber: "5 g",
     sugar: "9 g",
     sodium: "470 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

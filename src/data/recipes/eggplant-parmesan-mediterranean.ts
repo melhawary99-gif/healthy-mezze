@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const eggplantParmesanMediterranean: Recipe = {
-  id: 36,
+  id: 103,
 
   title: "Eggplant Parmesan (Mediterranean Style)",
 
@@ -35,8 +35,8 @@ export const eggplantParmesanMediterranean: Recipe = {
   ingredients: [
 {
     amount: 2,
-    unit: "large",
-    name: "eggplants, sliced into 1 cm rounds"
+    unit: "",
+    name: "Large eggplants, sliced into 1 cm rounds"
   },
 {
     amount: 3,
@@ -119,6 +119,12 @@ instructions: [
     fiber: "7 g",
     sugar: "10 g",
     sodium: "470 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

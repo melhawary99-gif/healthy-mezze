@@ -23,7 +23,7 @@ type RecipePageProps = {
 export async function generateMetadata({ params }: RecipePageProps): Promise<Metadata> {
   const { slug, locale } = await params;
 
-  const recipe = getLocalizedRecipe(slug, locale);
+  const recipe = await getLocalizedRecipe(slug, locale);
 
   if (!recipe) {
     return {
@@ -82,7 +82,7 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
 
 export default async function RecipePage({ params }: RecipePageProps) {
   const { slug, locale } = await params;
-  const recipe = getLocalizedRecipe(slug, locale);
+  const recipe = await getLocalizedRecipe(slug, locale);
 
   if (!recipe) {
     notFound();
@@ -164,7 +164,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
         }`
     ),
 
-    recipeInstructions: recipe.instructions.map((step) => ({
+    recipeInstructions: recipe.instructions.map((step: string) => ({
       "@type": "HowToStep",
       text: step,
     })),

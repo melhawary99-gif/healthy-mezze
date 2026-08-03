@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const tomatoBasilSoup: Recipe = {
-  id: 15,
+  id: 18,
 
   title: "Roasted Tomato Basil Soup",
 
@@ -40,8 +40,8 @@ export const tomatoBasilSoup: Recipe = {
   },
 {
     amount: 1,
-    unit: "medium",
-    name: "onion, quartered"
+    unit: "",
+    name: "Medium onion, quartered"
   },
 {
     amount: 6,
@@ -113,6 +113,12 @@ instructions: [
     fiber: "5 g",
     sugar: "10 g",
     sodium: "430 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const tabboulehSalad: Recipe = {
-  id: 3,
+  id: 6,
 
   title: "Tabbouleh",
 
@@ -47,13 +47,13 @@ vegetarian: true,
   },
 {
     amount: 2,
-    unit: "medium",
-    name: "tomatoes, diced"
+    unit: "",
+    name: "Medium tomatoes, diced"
   },
 {
     amount: 2,
-    unit: "green",
-    name: "onions, finely sliced"
+    unit: "",
+    name: "Green onions, finely sliced"
   },
 {
     amount: 1,
@@ -103,6 +103,12 @@ instructions: [
     fiber: "5 g",
     sugar: "3 g",
     sodium: "250 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

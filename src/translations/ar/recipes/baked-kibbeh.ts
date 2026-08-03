@@ -1,0 +1,68 @@
+import { RecipeTranslation } from "@/types/recipe-translation";
+
+const translation: RecipeTranslation = {
+  "title": "Baked Kibbeh",
+  "description": "A healthier oven-baked version of traditional Lebanese kibbeh made with lean ground beef, fine bulgur wheat, onions, herbs, and aromatic Mediterranean spices.",
+  "longDescription": "Baked Kibbeh is one of Lebanon's most treasured national dishes. Unlike the fried version, this healthier recipe is baked until beautifully golden, reducing fat while preserving its rich flavor. Layers of seasoned lean beef and fine bulgur wheat surround a savory filling with onions and toasted pine nuts, creating a hearty meal that's packed with protein and Mediterranean goodness.",
+  "ingredients": [
+    "fine bulgur wheat",
+    "lean ground beef (90% lean), divided",
+    "Large onion, finely chopped",
+    "fresh parsley, finely chopped",
+    "fresh mint, chopped",
+    "pine nuts, lightly toasted",
+    "extra virgin olive oil",
+    "ground allspice",
+    "ground cumin",
+    "ground cinnamon",
+    "paprika",
+    "sea salt",
+    "black pepper",
+    "olive oil for brushing"
+  ],
+  "instructions": [
+    "Soak the bulgur wheat in warm water for 20 minutes, then drain and squeeze out excess moisture.",
+    "Mix half of the ground beef with the bulgur, half the onion, parsley, mint, allspice, cumin, cinnamon, paprika, salt, and pepper.",
+    "Process the mixture in a food processor until smooth.",
+    "Cook the remaining onion in olive oil until softened.",
+    "Add the remaining ground beef and cook until browned.",
+    "Stir in the toasted pine nuts and cook for another 2 minutes.",
+    "Preheat the oven to 375°F (190°C).",
+    "Lightly grease a baking dish.",
+    "Press half of the kibbeh mixture into the bottom of the dish.",
+    "Spread the beef filling evenly over the base.",
+    "Cover with the remaining kibbeh mixture and smooth the surface.",
+    "Score the top into traditional diamond shapes.",
+    "Brush lightly with olive oil.",
+    "Bake for 40–45 minutes until golden brown.",
+    "Allow to rest for 10 minutes before serving."
+  ],
+  "healthBenefits": [
+    "Excellent source of lean protein",
+    "Rich in iron and vitamin B12",
+    "Bulgur provides whole-grain fiber",
+    "Baked instead of fried for less fat",
+    "Contains heart-healthy olive oil",
+    "Provides essential minerals including zinc",
+    "Mediterranean diet friendly"
+  ],
+  "keywords": [
+    "Baked Kibbeh",
+    "Healthy Kibbeh",
+    "Lebanese Kibbeh",
+    "Mediterranean Beef Recipe",
+    "Traditional Lebanese Food"
+  ],
+  "tags": [
+    "mezze",
+    "Lebanese",
+    "kibbeh",
+    "ground beef",
+    "bulgur",
+    "healthy",
+    "baked",
+    "Mediterranean"
+  ]
+};
+
+export default translation;

@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const fulMedames: Recipe = {
-  id: 43,
+  id: 45,
 
   title: "Ful Medames (Egyptian Fava Beans)",
 
@@ -82,13 +82,13 @@ export const fulMedames: Recipe = {
   },
 {
     amount: 1,
-    unit: "small",
-    name: "tomato, diced"
+    unit: "",
+    name: "Small tomato, diced"
   },
 {
     amount: 0.25,
-    unit: "small",
-    name: "red onion, finely diced"
+    unit: "",
+    name: "Small red onion, finely diced"
   },
 {
     amount: 1,
@@ -132,6 +132,12 @@ instructions: [
     fiber: "12 g",
     sugar: "4 g",
     sodium: "390 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

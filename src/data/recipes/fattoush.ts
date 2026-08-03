@@ -36,32 +36,32 @@ export const fattoush: Recipe = {
 {
     amount: 1,
     unit: "",
-    name: "2 tomatoes, diced"
+    name: "tomatoes, diced"
   },
 {
     amount: 1,
     unit: "",
-    name: "1 cucumber, diced"
-  },
-{
-    amount: 1,
-    unit: "romaine",
-    name: "lettuce, chopped"
+    name: "cucumber, diced"
   },
 {
     amount: 1,
     unit: "",
-    name: "4 radishes, sliced"
+    name: "Romaine lettuce, chopped"
   },
 {
     amount: 1,
-    unit: "green",
-    name: "bell pepper, diced"
+    unit: "",
+    name: "radishes, sliced"
+  },
+{
+    amount: 1,
+    unit: "",
+    name: "Green bell pepper, diced"
   },
 {
     amount: 3,
-    unit: "green",
-    name: "onions, sliced"
+    unit: "",
+    name: "Green onions, sliced"
   },
 {
     amount: 1,
@@ -75,8 +75,8 @@ export const fattoush: Recipe = {
   },
 {
     amount: 2,
-    unit: "pita",
-    name: "breads, toasted and broken into pieces"
+    unit: "",
+    name: "Pita breads, toasted and broken into pieces"
   },
 {
     amount: 3,
@@ -124,6 +124,12 @@ instructions: [
     fiber: "5 g",
     sugar: "6 g",
     sodium: "330 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

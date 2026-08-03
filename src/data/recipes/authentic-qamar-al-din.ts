@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const authenticQamarAlDin: Recipe = {
-  id: 85,
+  id: 87,
 
   title: "Authentic Qamar al-Din (Apricot Drink)",
 
@@ -96,6 +96,12 @@ instructions: [
     fiber: "2 g",
     sugar: "20 g",
     sodium: "8 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

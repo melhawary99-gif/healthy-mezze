@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const spinachChickpeaStew: Recipe = {
-  id: 35,
+  id: 38,
 
   title: "Spinach & Chickpea Stew",
 
@@ -40,8 +40,8 @@ export const spinachChickpeaStew: Recipe = {
   },
 {
     amount: 1,
-    unit: "medium",
-    name: "onion, diced"
+    unit: "",
+    name: "Medium onion, diced"
   },
 {
     amount: 3,
@@ -142,6 +142,12 @@ instructions: [
     fiber: "13 g",
     sugar: "8 g",
     sodium: "430 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const traditionalJallab: Recipe = {
-  id: 81,
+  id: 83,
 
   title: "Traditional Jallab (Healthy Version)",
 
@@ -94,6 +94,12 @@ instructions: [
     fiber: "1 g",
     sugar: "19 g",
     sodium: "20 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const authenticArabicCoffee: Recipe = {
-  id: 87,
+  id: 89,
 
   title: "Authentic Arabic Coffee (Ahwa)",
 
@@ -55,8 +55,8 @@ export const authenticArabicCoffee: Recipe = {
   },
 {
     amount: 4,
-    unit: "fresh",
-    name: "dates for serving (optional)"
+    unit: "",
+    name: "Fresh dates for serving (optional)"
   }
 ],
 
@@ -79,6 +79,12 @@ instructions: [
     fiber: "0 g",
     sugar: "0 g",
     sodium: "5 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

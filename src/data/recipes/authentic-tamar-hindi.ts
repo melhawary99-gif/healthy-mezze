@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const authenticTamarHindi: Recipe = {
-  id: 84,
+  id: 86,
 
   title: "Authentic Tamar Hindi (Egyptian Tamarind Drink)",
 
@@ -95,6 +95,12 @@ instructions: [
     fiber: "1 g",
     sugar: "13 g",
     sodium: "8 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

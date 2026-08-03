@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const mediterraneanChickenKabsa: Recipe = {
-  id: 27,
+  id: 30,
 
   title: "Mediterranean Chicken Kabsa",
 
@@ -45,8 +45,8 @@ export const mediterraneanChickenKabsa: Recipe = {
   },
 {
     amount: 1,
-    unit: "large",
-    name: "onion, diced"
+    unit: "",
+    name: "Large onion, diced"
   },
 {
     amount: 4,
@@ -56,12 +56,12 @@ export const mediterraneanChickenKabsa: Recipe = {
 {
     amount: 1,
     unit: "",
-    name: "2 tomatoes, diced"
+    name: "tomatoes, diced"
   },
 {
     amount: 1,
-    unit: "medium",
-    name: "carrot, diced"
+    unit: "",
+    name: "Medium carrot, diced"
   },
 {
     amount: 2,
@@ -158,6 +158,12 @@ instructions: [
     fiber: "5 g",
     sugar: "4 g",
     sodium: "520 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

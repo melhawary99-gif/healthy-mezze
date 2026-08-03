@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const spinachLentilSoup: Recipe = {
-  id: 18,
+  id: 21,
 
   title: "Spinach Lentil Soup",
 
@@ -40,13 +40,13 @@ export const spinachLentilSoup: Recipe = {
   },
 {
     amount: 1,
-    unit: "medium",
-    name: "onion, diced"
+    unit: "",
+    name: "Medium onion, diced"
   },
 {
     amount: 1,
     unit: "",
-    name: "2 carrots, diced"
+    name: "carrots, diced"
   },
 {
     amount: 2,
@@ -131,6 +131,12 @@ instructions: [
     fiber: "11 g",
     sugar: "5 g",
     sodium: "430 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

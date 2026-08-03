@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const bakedEggsSpinachTomatoes: Recipe = {
-  id: 48,
+  id: 50,
 
   title: "Baked Eggs with Spinach & Tomatoes",
 
@@ -40,8 +40,8 @@ export const bakedEggsSpinachTomatoes: Recipe = {
   },
 {
     amount: 1,
-    unit: "small",
-    name: "onion, finely diced"
+    unit: "",
+    name: "Small onion, finely diced"
   },
 {
     amount: 2,
@@ -56,12 +56,12 @@ export const bakedEggsSpinachTomatoes: Recipe = {
 {
     amount: 1,
     unit: "",
-    name: "1 1/2 cups cherry tomatoes, halved"
+    name: "cups cherry tomatoes, halved"
   },
 {
     amount: 6,
-    unit: "large",
-    name: "eggs"
+    unit: "",
+    name: "Large eggs"
   },
 {
     amount: 0.3333333333333333,
@@ -128,6 +128,12 @@ instructions: [
     fiber: "3 g",
     sugar: "4 g",
     sodium: "430 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

@@ -4,14 +4,18 @@ export const viewport: Viewport = {
   initialScale: 1,
   themeColor: "#FAFAF7",
 };
-import { Inter, Poppins } from "next/font/google";
+import { Cairo, Inter, Poppins } from "next/font/google";
 
 import "./globals.css";
 
-import Header from "@/components/layout/Header";
-import Footer from "@/components/layout/Footer";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import Clarity from "@/components/analytics/Clarity";
+
+const cairo = Cairo({
+  subsets: ["arabic"],
+  variable: "--font-cairo",
+  display: "swap",
+});
 
 const inter = Inter({
   subsets: ["latin"],
@@ -164,9 +168,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" data-scroll-behavior="smooth">
+    <html suppressHydrationWarning data-scroll-behavior="smooth">
       <body
-        className={`${inter.variable} ${poppins.variable} bg-[#FAFAF7] text-gray-900 antialiased`}
+        className={`
+${inter.variable}
+${poppins.variable}
+${cairo.variable}
+bg-[#FAFAF7]
+text-gray-900
+antialiased
+`}
       >
         <Clarity />
 

@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const mediterraneanOatmealDatesPistachios: Recipe = {
-  id: 50,
+  id: 52,
 
   title: "Mediterranean Oatmeal with Dates & Pistachios",
 
@@ -70,8 +70,8 @@ export const mediterraneanOatmealDatesPistachios: Recipe = {
   },
 {
     amount: 1,
-    unit: "small",
-    name: "banana, sliced"
+    unit: "",
+    name: "Small banana, sliced"
   },
 {
     amount: 0.5,
@@ -114,6 +114,12 @@ instructions: [
     fiber: "10 g",
     sugar: "24 g",
     sodium: "130 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

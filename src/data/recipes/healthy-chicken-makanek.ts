@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const healthyChickenMakanek: Recipe = {
-  id: 68,
+  id: 70,
 
   title: "Healthy Chicken Makanek",
 
@@ -115,6 +115,12 @@ instructions: [
     fiber: "1 g",
     sugar: "1 g",
     sodium: "340 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

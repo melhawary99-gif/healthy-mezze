@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const babaGanoush: Recipe = {
-  id: 53,
+  id: 55,
 
   title: "Classic Baba Ganoush",
 
@@ -38,8 +38,8 @@ export const babaGanoush: Recipe = {
   ingredients: [
 {
     amount: 2,
-    unit: "large",
-    name: "eggplants"
+    unit: "",
+    name: "Large eggplants"
   },
 {
     amount: 0.25,
@@ -117,6 +117,12 @@ instructions: [
     fiber: "5 g",
     sugar: "5 g",
     sodium: "220 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const mediterraneanChickpeaSalad: Recipe = {
-  id: 4,
+  id: 7,
 
   title: "Mediterranean Chickpea Salad",
 
@@ -41,12 +41,12 @@ export const mediterraneanChickpeaSalad: Recipe = {
 {
     amount: 1,
     unit: "",
-    name: "1 cucumber, diced"
+    name: "cucumber, diced"
   },
 {
     amount: 1,
     unit: "",
-    name: "2 tomatoes, diced"
+    name: "tomatoes, diced"
   },
 {
     amount: 1,
@@ -114,6 +114,12 @@ instructions: [
     fiber: "8 g",
     sugar: "5 g",
     sodium: "390 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

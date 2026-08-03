@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const healthyBasbousa: Recipe = {
-  id: 73,
+  id: 75,
 
   title: "Healthy Basbousa",
 
@@ -124,6 +124,12 @@ instructions: [
     fiber: "3 g",
     sugar: "9 g",
     sodium: "80 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const cauliflowerSoup: Recipe = {
-  id: 20,
+  id: 23,
 
   title: "Creamy Cauliflower Soup",
 
@@ -35,13 +35,13 @@ export const cauliflowerSoup: Recipe = {
   ingredients: [
 {
     amount: 1,
-    unit: "large",
-    name: "cauliflower, cut into florets"
+    unit: "",
+    name: "Large cauliflower, cut into florets"
   },
 {
     amount: 1,
-    unit: "medium",
-    name: "onion, chopped"
+    unit: "",
+    name: "Medium onion, chopped"
   },
 {
     amount: 5,
@@ -117,6 +117,12 @@ instructions: [
     fiber: "6 g",
     sugar: "6 g",
     sodium: "420 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

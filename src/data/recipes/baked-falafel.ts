@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const bakedFalafel: Recipe = {
-  id: 40,
+  id: 42,
 
   title: "Baked Falafel",
 
@@ -40,8 +40,8 @@ export const bakedFalafel: Recipe = {
   },
 {
     amount: 1,
-    unit: "small",
-    name: "onion, roughly chopped"
+    unit: "",
+    name: "Small onion, roughly chopped"
   },
 {
     amount: 4,
@@ -128,6 +128,12 @@ instructions: [
     fiber: "10 g",
     sugar: "4 g",
     sodium: "340 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

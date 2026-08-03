@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const egyptianKoshari: Recipe = {
-  id: 24,
+  id: 27,
 
   title: "Egyptian Koshari",
 
@@ -55,8 +55,8 @@ export const egyptianKoshari: Recipe = {
   },
 {
     amount: 2,
-    unit: "large",
-    name: "onions, thinly sliced"
+    unit: "",
+    name: "Large onions, thinly sliced"
   },
 {
     amount: 3,
@@ -141,6 +141,12 @@ instructions: [
     fiber: "13 g",
     sugar: "8 g",
     sodium: "520 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

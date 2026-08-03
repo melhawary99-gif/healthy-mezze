@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const grilledShrimpGarlicLemon: Recipe = {
-  id: 69,
+  id: 71,
 
   title: "Grilled Shrimp with Garlic & Lemon",
 
@@ -110,6 +110,12 @@ instructions: [
     fiber: "1 g",
     sugar: "1 g",
     sodium: "360 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

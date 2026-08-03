@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const bakedKibbeh: Recipe = {
-  id: 64,
+  id: 66,
 
   title: "Baked Kibbeh",
 
@@ -45,8 +45,8 @@ export const bakedKibbeh: Recipe = {
   },
 {
     amount: 1,
-    unit: "large",
-    name: "onion, finely chopped"
+    unit: "",
+    name: "Large onion, finely chopped"
   },
 {
     amount: 0.25,
@@ -131,6 +131,12 @@ instructions: [
     fiber: "3 g",
     sugar: "2 g",
     sodium: "330 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

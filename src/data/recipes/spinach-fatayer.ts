@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const spinachFatayer: Recipe = {
-  id: 62,
+  id: 64,
 
   title: "Spinach Fatayer",
 
@@ -46,7 +46,7 @@ export const spinachFatayer: Recipe = {
 {
     amount: 1,
     unit: "",
-    name: "2 1/4 tsp instant yeast"
+    name: "tsp instant yeast"
   },
 {
     amount: 1,
@@ -75,8 +75,8 @@ export const spinachFatayer: Recipe = {
   },
 {
     amount: 1,
-    unit: "medium",
-    name: "onion, finely diced"
+    unit: "",
+    name: "Medium onion, finely diced"
   },
 {
     amount: 0.25,
@@ -134,6 +134,12 @@ instructions: [
     fiber: "4 g",
     sugar: "2 g",
     sodium: "210 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

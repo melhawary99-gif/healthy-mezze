@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const classicTahiniSauce: Recipe = {
-  id: 93,
+  id: 95,
 
   title: "Classic Tahini Sauce",
 
@@ -93,6 +93,12 @@ instructions: [
     fiber: "2 g",
     sugar: "0 g",
     sodium: "120 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const healthyDateWalnutMaamoul: Recipe = {
-  id: 76,
+  id: 78,
 
   title: "Healthy Date & Walnut Ma'amoul",
 
@@ -134,6 +134,12 @@ instructions: [
     fiber: "3 g",
     sugar: "8 g",
     sodium: "55 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

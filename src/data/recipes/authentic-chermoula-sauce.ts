@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const authenticChermoulaSauce: Recipe = {
-  id: 100,
+  id: 102,
 
   title: "Authentic Chermoula Sauce",
 
@@ -115,6 +115,12 @@ instructions: [
     fiber: "1 g",
     sugar: "0 g",
     sodium: "140 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

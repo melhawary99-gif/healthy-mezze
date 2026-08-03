@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const stuffedBellPeppers: Recipe = {
-  id: 26,
+  id: 29,
 
   title: "Mediterranean Stuffed Bell Peppers",
 
@@ -37,8 +37,8 @@ export const stuffedBellPeppers: Recipe = {
   ingredients: [
 {
     amount: 6,
-    unit: "large",
-    name: "bell peppers (mixed colors)"
+    unit: "",
+    name: "Large bell peppers (mixed colors)"
   },
 {
     amount: 500,
@@ -52,8 +52,8 @@ export const stuffedBellPeppers: Recipe = {
   },
 {
     amount: 1,
-    unit: "medium",
-    name: "onion, finely diced"
+    unit: "",
+    name: "Medium onion, finely diced"
   },
 {
     amount: 3,
@@ -63,7 +63,7 @@ export const stuffedBellPeppers: Recipe = {
 {
     amount: 1,
     unit: "",
-    name: "2 tomatoes, finely diced"
+    name: "tomatoes, finely diced"
   },
 {
     amount: 2,
@@ -145,6 +145,12 @@ instructions: [
     fiber: "6 g",
     sugar: "8 g",
     sodium: "510 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

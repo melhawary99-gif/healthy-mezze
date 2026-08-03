@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const healthyKanafehRicotta: Recipe = {
-  id: 78,
+  id: 80,
 
   title: "Healthy Kanafeh with Ricotta & Pistachios",
 
@@ -118,6 +118,12 @@ instructions: [
     fiber: "1 g",
     sugar: "8 g",
     sodium: "220 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

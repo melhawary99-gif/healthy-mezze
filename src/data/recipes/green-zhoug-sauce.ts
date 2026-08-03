@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const greenZhougSauce: Recipe = {
-  id: 95,
+  id: 97,
 
   title: "Green Zhoug (Zhug) Sauce",
 
@@ -45,8 +45,8 @@ export const greenZhougSauce: Recipe = {
   },
 {
     amount: 2,
-    unit: "green",
-    name: "chilies, seeded for a milder sauce"
+    unit: "",
+    name: "Green chilies, seeded for a milder sauce"
   },
 {
     amount: 4,
@@ -109,6 +109,12 @@ instructions: [
     fiber: "1 g",
     sugar: "0 g",
     sodium: "90 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

@@ -37,18 +37,18 @@ export const greekSalad: Recipe = {
   ingredients: [
     {
       amount: 2,
-      unit: "large",
-      name: "tomatoes, chopped",
+      unit: "",
+      name: "Large tomatoes, chopped",
     },
     {
       amount: 1,
       unit: "",
-      name: "1 cucumber, sliced",
+      name: "cucumber, sliced",
     },
     {
       amount: 1,
-      unit: "small",
-      name: "red onion, thinly sliced",
+      unit: "",
+      name: "Small red onion, thinly sliced",
     },
     {
       amount: 150,
@@ -108,6 +108,12 @@ export const greekSalad: Recipe = {
     fiber: "3 g",
     sugar: "5 g",
     sodium: "480 mg",
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

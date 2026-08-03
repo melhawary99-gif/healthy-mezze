@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const mediterraneanBreakfastWrap: Recipe = {
-  id: 47,
+  id: 49,
 
   title: "Mediterranean Breakfast Wrap",
 
@@ -40,8 +40,8 @@ export const mediterraneanBreakfastWrap: Recipe = {
   },
 {
     amount: 4,
-    unit: "large",
-    name: "eggs"
+    unit: "",
+    name: "Large eggs"
   },
 {
     amount: 1,
@@ -65,8 +65,8 @@ export const mediterraneanBreakfastWrap: Recipe = {
   },
 {
     amount: 0.5,
-    unit: "small",
-    name: "cucumber, diced"
+    unit: "",
+    name: "Small cucumber, diced"
   },
 {
     amount: 0.25,
@@ -120,6 +120,12 @@ instructions: [
     fiber: "8 g",
     sugar: "5 g",
     sodium: "560 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

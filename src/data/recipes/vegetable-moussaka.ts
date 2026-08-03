@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const vegetableMoussaka: Recipe = {
-  id: 39,
+  id: 41,
 
   title: "Vegetable Moussaka",
 
@@ -35,18 +35,18 @@ export const vegetableMoussaka: Recipe = {
   ingredients: [
 {
     amount: 2,
-    unit: "medium",
-    name: "eggplants, sliced"
+    unit: "",
+    name: "Medium eggplants, sliced"
   },
 {
     amount: 1,
     unit: "",
-    name: "2 zucchini, sliced"
+    name: "zucchini, sliced"
   },
 {
     amount: 1,
     unit: "",
-    name: "2 potatoes, thinly sliced"
+    name: "potatoes, thinly sliced"
   },
 {
     amount: 2,
@@ -56,7 +56,7 @@ export const vegetableMoussaka: Recipe = {
 {
     amount: 1,
     unit: "",
-    name: "1 onion, diced"
+    name: "onion, diced"
   },
 {
     amount: 3,
@@ -121,7 +121,7 @@ export const vegetableMoussaka: Recipe = {
 {
     amount: 1,
     unit: "",
-    name: "1 egg"
+    name: "egg"
   },
 {
     amount: 1,
@@ -154,6 +154,12 @@ instructions: [
     fiber: "7 g",
     sugar: "9 g",
     sodium: "410 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

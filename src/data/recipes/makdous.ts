@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const makdous: Recipe = {
-  id: 70,
+  id: 72,
 
   title: "Makdous (Stuffed Baby Eggplants)",
 
@@ -35,8 +35,8 @@ export const makdous: Recipe = {
   ingredients: [
 {
     amount: 12,
-    unit: "baby",
-    name: "eggplants"
+    unit: "",
+    name: "Baby eggplants"
   },
 {
     amount: 1,
@@ -111,6 +111,12 @@ instructions: [
     fiber: "5 g",
     sugar: "4 g",
     sodium: "170 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

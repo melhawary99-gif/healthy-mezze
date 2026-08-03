@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const roastedChickpeas: Recipe = {
-  id: 51,
+  id: 53,
 
   title: "Mediterranean Roasted Chickpeas",
 
@@ -111,6 +111,12 @@ instructions: [
     fiber: "7 g",
     sugar: "3 g",
     sodium: "310 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

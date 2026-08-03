@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const healthyRozBelLaban: Recipe = {
-  id: 71,
+  id: 73,
 
   title: "Healthy Roz Bel Laban (Egyptian Rice Pudding)",
 
@@ -112,6 +112,12 @@ instructions: [
     fiber: "1 g",
     sugar: "11 g",
     sodium: "85 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

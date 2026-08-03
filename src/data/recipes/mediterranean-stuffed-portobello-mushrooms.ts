@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const mediterraneanStuffedPortobelloMushrooms: Recipe = {
-  id: 33,
+  id: 36,
 
   title: "Mediterranean Stuffed Portobello Mushrooms",
 
@@ -35,8 +35,8 @@ export const mediterraneanStuffedPortobelloMushrooms: Recipe = {
   ingredients: [
 {
     amount: 4,
-    unit: "large",
-    name: "Portobello mushrooms"
+    unit: "",
+    name: "Large Portobello mushrooms"
   },
 {
     amount: 1,
@@ -127,6 +127,12 @@ instructions: [
     fiber: "5 g",
     sugar: "4 g",
     sodium: "510 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

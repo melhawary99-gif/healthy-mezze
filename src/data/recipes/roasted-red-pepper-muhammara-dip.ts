@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const roastedRedPepperMuhammaraDip: Recipe = {
-  id: 94,
+  id: 96,
 
   title: "Roasted Red Pepper Muhammara Dip",
 
@@ -37,8 +37,8 @@ export const roastedRedPepperMuhammaraDip: Recipe = {
   ingredients: [
 {
     amount: 2,
-    unit: "large",
-    name: "roasted red bell peppers, peeled"
+    unit: "",
+    name: "Large roasted red bell peppers, peeled"
   },
 {
     amount: 1,
@@ -121,6 +121,12 @@ instructions: [
     fiber: "2 g",
     sugar: "3 g",
     sodium: "150 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

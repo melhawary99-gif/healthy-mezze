@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const harissaYogurtSauce: Recipe = {
-  id: 96,
+  id: 98,
 
   title: "Harissa Yogurt Sauce",
 
@@ -36,7 +36,7 @@ export const harissaYogurtSauce: Recipe = {
 {
     amount: 1,
     unit: "",
-    name: "1 1/2 cups plain Greek yogurt"
+    name: "cups plain Greek yogurt"
   },
 {
     amount: 2,
@@ -113,6 +113,12 @@ instructions: [
     fiber: "0 g",
     sugar: "2 g",
     sodium: "180 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

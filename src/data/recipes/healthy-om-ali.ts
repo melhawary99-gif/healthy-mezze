@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const healthyOmAli: Recipe = {
-  id: 72,
+  id: 74,
 
   title: "Healthy Om Ali",
 
@@ -118,6 +118,12 @@ instructions: [
     fiber: "4 g",
     sugar: "15 g",
     sodium: "170 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const sumacOnionSalad: Recipe = {
-  id: 97,
+  id: 99,
 
   title: "Sumac Onion Salad",
 
@@ -35,8 +35,8 @@ export const sumacOnionSalad: Recipe = {
   ingredients: [
 {
     amount: 2,
-    unit: "medium",
-    name: "red onions, very thinly sliced"
+    unit: "",
+    name: "Medium red onions, very thinly sliced"
   },
 {
     amount: 0.25,
@@ -88,6 +88,12 @@ instructions: [
     fiber: "1 g",
     sugar: "2 g",
     sodium: "180 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

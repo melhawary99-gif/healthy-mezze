@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const creamyTzatzikiSauce: Recipe = {
-  id: 91,
+  id: 93,
 
   title: "Creamy Tzatziki Sauce",
 
@@ -42,8 +42,8 @@ vegetarian: true,
   },
 {
     amount: 1,
-    unit: "medium",
-    name: "cucumber, grated and squeezed dry"
+    unit: "",
+    name: "Medium cucumber, grated and squeezed dry"
   },
 {
     amount: 2,
@@ -100,6 +100,12 @@ instructions: [
     fiber: "0 g",
     sugar: "3 g",
     sodium: "180 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

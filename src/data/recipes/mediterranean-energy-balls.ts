@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const mediterraneanEnergyBalls: Recipe = {
-  id: 59,
+  id: 61,
 
   title: "Mediterranean Energy Balls",
 
@@ -118,6 +118,12 @@ instructions: [
     fiber: "3 g",
     sugar: "8 g",
     sodium: "20 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

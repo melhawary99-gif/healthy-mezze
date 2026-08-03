@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const roastedEggplantSalad: Recipe = {
-  id: 9,
+  id: 12,
 
   title: "Roasted Eggplant Salad",
 
@@ -35,18 +35,18 @@ export const roastedEggplantSalad: Recipe = {
   ingredients: [
 {
     amount: 2,
-    unit: "medium",
-    name: "eggplants"
+    unit: "",
+    name: "Medium eggplants"
   },
 {
     amount: 1,
     unit: "",
-    name: "2 tomatoes, diced"
+    name: "tomatoes, diced"
   },
 {
     amount: 0.25,
-    unit: "red",
-    name: "onion, finely chopped"
+    unit: "",
+    name: "Red onion, finely chopped"
   },
 {
     amount: 0.25,
@@ -111,6 +111,12 @@ instructions: [
     fiber: "7 g",
     sugar: "8 g",
     sodium: "240 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

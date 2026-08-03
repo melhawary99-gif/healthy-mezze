@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const grilledHalloumiHerbsPomegranate: Recipe = {
-  id: 66,
+  id: 68,
 
   title: "Grilled Halloumi with Herbs & Pomegranate",
 
@@ -102,6 +102,12 @@ instructions: [
     fiber: "1 g",
     sugar: "3 g",
     sodium: "610 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

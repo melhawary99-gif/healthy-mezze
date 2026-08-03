@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const mediterraneanAvocadoToast: Recipe = {
-  id: 44,
+  id: 46,
 
   title: "Mediterranean Avocado Toast",
 
@@ -119,6 +119,12 @@ instructions: [
     fiber: "10 g",
     sugar: "4 g",
     sodium: "360 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

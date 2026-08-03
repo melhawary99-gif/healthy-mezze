@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const bakedSpinachSambousek: Recipe = {
-  id: 65,
+  id: 67,
 
   title: "Baked Spinach Sambousek",
 
@@ -75,8 +75,8 @@ export const bakedSpinachSambousek: Recipe = {
   },
 {
     amount: 1,
-    unit: "medium",
-    name: "onion, finely diced"
+    unit: "",
+    name: "Medium onion, finely diced"
   },
 {
     amount: 0.25,
@@ -111,7 +111,7 @@ export const bakedSpinachSambousek: Recipe = {
 {
     amount: 1,
     unit: "",
-    name: "1 egg, lightly beaten (for brushing)"
+    name: "egg, lightly beaten (for brushing)"
   }
 ],
 
@@ -139,6 +139,12 @@ instructions: [
     fiber: "4 g",
     sugar: "2 g",
     sodium: "220 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

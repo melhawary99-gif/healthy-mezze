@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const breakfastPitaLabneh: Recipe = {
-  id: 49,
+  id: 51,
 
   title: "Breakfast Pita with Labneh & Fresh Vegetables",
 
@@ -45,13 +45,13 @@ export const breakfastPitaLabneh: Recipe = {
   },
 {
     amount: 1,
-    unit: "small",
-    name: "cucumber, thinly sliced"
+    unit: "",
+    name: "Small cucumber, thinly sliced"
   },
 {
     amount: 1,
-    unit: "medium",
-    name: "tomato, sliced"
+    unit: "",
+    name: "Medium tomato, sliced"
   },
 {
     amount: 8,
@@ -115,6 +115,12 @@ instructions: [
     fiber: "6 g",
     sugar: "5 g",
     sodium: "520 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

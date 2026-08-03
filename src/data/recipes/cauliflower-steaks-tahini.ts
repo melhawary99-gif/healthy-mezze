@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const cauliflowerSteaksTahini: Recipe = {
-  id: 32,
+  id: 35,
 
   title: "Cauliflower Steaks with Lemon Tahini Sauce",
 
@@ -35,8 +35,8 @@ export const cauliflowerSteaksTahini: Recipe = {
   ingredients: [
 {
     amount: 1,
-    unit: "large",
-    name: "cauliflower"
+    unit: "",
+    name: "Large cauliflower"
   },
 {
     amount: 3,
@@ -143,6 +143,12 @@ instructions: [
     fiber: "7 g",
     sugar: "5 g",
     sodium: "360 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

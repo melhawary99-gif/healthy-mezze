@@ -1,14 +1,14 @@
 import { getRecipeBySlug } from "@/lib/recipes";
 import { getRecipeTranslation } from "@/lib/recipeTranslationLoader";
 
-export function getLocalizedRecipe(slug: string, locale: "en" | "ar") {
+export async function getLocalizedRecipe(slug: string, locale: "en" | "ar") {
   const recipe = getRecipeBySlug(slug);
 
   if (!recipe) {
     return null;
   }
 
-  const translation = getRecipeTranslation(slug, locale);
+  const translation = await getRecipeTranslation(slug, locale);
 
   if (!translation) {
     return recipe;
@@ -21,13 +21,19 @@ export function getLocalizedRecipe(slug: string, locale: "en" | "ar") {
     description: translation.description,
     longDescription: translation.longDescription,
 
-    imageAlt: translation.imageAlt,
+    ingredients: recipe.ingredients.map((ingredient, index) => ({
+      ...ingredient,
+      name: translation.ingredients[index] ?? ingredient.name,
+    })),
 
-    ingredients: translation.ingredients,
-    instructions: translation.instructions,
+    instructions:
+      translation.instructions.length > 0 ? translation.instructions : recipe.instructions,
 
-    healthBenefits: translation.healthBenefits,
-    keywords: translation.keywords,
-    tags: translation.tags,
+    healthBenefits:
+      translation.healthBenefits.length > 0 ? translation.healthBenefits : recipe.healthBenefits,
+
+    keywords: translation.keywords.length > 0 ? translation.keywords : recipe.keywords,
+
+    tags: translation.tags.length > 0 ? translation.tags : recipe.tags,
   };
 }

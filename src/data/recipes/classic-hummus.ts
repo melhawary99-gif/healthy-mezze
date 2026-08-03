@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const classicHummus: Recipe = {
-  id: 52,
+  id: 54,
 
   title: "Classic Creamy Hummus",
 
@@ -114,6 +114,12 @@ instructions: [
     fiber: "5 g",
     sugar: "2 g",
     sodium: "250 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [

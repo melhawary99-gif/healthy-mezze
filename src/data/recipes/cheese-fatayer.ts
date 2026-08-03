@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const cheeseFatayer: Recipe = {
-  id: 63,
+  id: 65,
 
   title: "Cheese Fatayer",
 
@@ -103,7 +103,7 @@ vegetarian: true,
 {
     amount: 1,
     unit: "",
-    name: "1 egg, lightly beaten (for brushing)"
+    name: "egg, lightly beaten (for brushing)"
   }
 ],
 
@@ -131,6 +131,12 @@ instructions: [
     fiber: "3 g",
     sugar: "1 g",
     sodium: "320 mg"
+  
+  
+  
+  
+  
+  
   },
 
   healthBenefits: [
