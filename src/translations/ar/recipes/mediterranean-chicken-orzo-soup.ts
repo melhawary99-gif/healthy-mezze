@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "b291fd062c6250aac03c43877b05429b5790841d61fd6d73cdb9c031a79f70fa";
+
 const translation: RecipeTranslation = {
   "title": "Mediterranean Chicken Orzo Soup",
   "description": "A comforting chicken soup with tender vegetables, orzo pasta, fresh herbs, and a bright touch of lemon.",

@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "3143d66b62c7409c47d696e3783d2a8915b40dd85be0805c3f2c5bdfa9a36a3e";
+
 const translation: RecipeTranslation = {
   "title": "Spinach Fatayer",
   "description": "Traditional Lebanese baked pastries filled with spinach, onions, herbs, lemon juice, and tangy sumac. A healthy mezze that's perfect as an appetizer, snack, or light meal.",

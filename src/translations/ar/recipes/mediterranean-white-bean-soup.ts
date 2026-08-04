@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "8a9d60f5d2029f2b26918e8e99ab43a19f81af7569580c4e1800785810810991";
+
 const translation: RecipeTranslation = {
   "title": "Mediterranean White Bean Soup",
   "description": "A hearty Mediterranean white bean soup with vegetables, herbs, garlic, and extra virgin olive oil.",

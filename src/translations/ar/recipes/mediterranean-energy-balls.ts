@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "88540d939b412226a86f5bd10f13efcc53164e915f9077cd5f483f8fa22e6b2d";
+
 const translation: RecipeTranslation = {
   "title": "Mediterranean Energy Balls",
   "description": "Naturally sweet no-bake energy balls made with Medjool dates, oats, almonds, walnuts, cocoa, chia seeds, and coconut for a wholesome Mediterranean-inspired snack.",

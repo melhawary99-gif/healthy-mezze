@@ -1,59 +1,61 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "77d58d7e4f3cc37fe41b862d97ac2b0955428777ee4dc595d36b6577c27eeb12";
+
 const translation: RecipeTranslation = {
-  "title": "Authentic Chermoula Sauce",
-  "description": "A vibrant North African herb sauce and marinade made with fresh cilantro, parsley, garlic, lemon, olive oil, and warm spices.",
-  "longDescription": "Chermoula is a traditional herb sauce and marinade enjoyed throughout North Africa and the Mediterranean. Popular in Morocco, Algeria, and Tunisia, it is commonly served with grilled fish, seafood, chicken, roasted vegetables, and potatoes. This authentic version combines fresh herbs, garlic, lemon juice, olive oil, cumin, coriander, paprika, and a touch of cayenne to create a bright, aromatic sauce that's naturally vegan, nutrient-rich, and incredibly versatile.",
+  "title": "صلصة الشرمولة الأصلية",
+  "description": "صلصة أعشاب وتتبيلة شمال أفريقية مليئة بالحيوية، مصنوعة من الكزبرة الطازجة، والبقدونس، والثوم، والليمون، وزيت الزيتون، والتوابل الدافئة.",
+  "longDescription": "الشرمولة هي صلصة أعشاب وتتبيلة تقليدية تُستمتع بها في جميع أنحاء شمال أفريقيا والبحر الأبيض المتوسط. وتشتهر في المغرب والجزائر وتونس، وعادة ما تُقدَّم مع السمك المشوي، والمأكولات البحرية، والدجاج، والخضروات المشوية، والبطاطس. تجمع هذه الوصفة الأصلية بين الأعشاب الطازجة، والثوم، وعصير الليمون، وزيت الزيتون، والكمون، والكزبرة، والبابريكا، ولمسة من الفلفل الحار (الكايين) لابتكار صلصة زاهية وعطرية، وهي نباتية بطبيعتها، وغنية بالمغذيات، ومتعددة الاستخدامات للغاية.",
   "ingredients": [
-    "fresh cilantro leaves",
-    "fresh parsley leaves",
-    "cloves",
-    "ground cumin",
-    "ground coriander",
-    "sweet paprika",
-    "cayenne pepper (optional)",
-    "sea salt",
-    "black pepper",
-    "extra virgin olive oil",
-    "fresh lemon juice",
-    "lemon zest"
+    "أوراق كزبرة طازجة",
+    "أوراق بقدونس طازجة",
+    "فصوص ثوم",
+    "كمون مطحون",
+    "كزبرة مطحونة",
+    "بابريكا حلوة",
+    "فلفل كايين حار (اختياري)",
+    "ملح البحر",
+    "فلفل أسود",
+    "زيت زيتون بكر ممتاز",
+    "عصير ليمون طازج",
+    "برش ليمون"
   ],
   "instructions": [
-    "Wash and thoroughly dry the cilantro and parsley.",
-    "Add the herbs, garlic, cumin, coriander, paprika, cayenne, salt, and black pepper to a food processor.",
-    "Pulse several times until finely chopped.",
-    "Add the olive oil, lemon juice, and lemon zest.",
-    "Blend until a coarse but well-combined sauce forms.",
-    "Taste and adjust the seasoning or lemon juice if desired.",
-    "Transfer to a jar or serving bowl.",
-    "Let the sauce rest for at least 20 minutes before serving.",
-    "Use as a marinade for fish or chicken, or serve as a dipping sauce with vegetables, grilled meats, potatoes, or bread."
+    "اغسل الكزبرة والبقدونس وجففهما جيدًا.",
+    "أضف الأعشاب، والثوم، والكمون، والكزبرة، والبابريكا، والفلفل الحار، والملح، والفلفل الأسود إلى محضر الطعام.",
+    "اخفق على دفعات عدة مرات حتى تُفرم المكونات ناعمًا.",
+    "أضف زيت الزيتون، وعصير الليمون، وبرش الليمون.",
+    "اهرس حتى تتكون صلصة خشنة الملمس ولكن ممتزجة جيدًا.",
+    "تذوق واضبط التوابل أو عصير الليمون حسب الرغبة.",
+    "انقل الصلصة إلى برطمان أو وعاء تقديم.",
+    "اترك الصلصة ترتاح لمدة 20 دقيقة على الأقل قبل التقديم.",
+    "استخدمها كتتبيلة للسمك أو الدجاج، أو قدمها كصلصة للتغميس مع الخضروات، أو اللحوم المشوية، أو البطاطس، أو الخبز."
   ],
   "healthBenefits": [
-    "Rich in antioxidants from fresh herbs",
-    "Contains heart-healthy monounsaturated fats",
-    "Naturally vegan and dairy-free",
-    "Garlic provides beneficial plant compounds",
-    "Fresh herbs supply vitamins A, C, and K",
-    "Adds bold flavor without processed ingredients",
-    "Excellent as both a sauce and a healthy marinade"
+    "غنية بمضادات الأكسدة من الأعشاب الطازجة",
+    "تحتوي على دهون أحادية غير مشبعة مفيدة لصحة القلب",
+    "نباتية بطبيعتها وخالية من منتجات الألبان",
+    "يوفر الثوم مركبات نباتية مفيدة",
+    "تمد الأعشاب الطازجة الجسم بفيتامينات A و C و K",
+    "تضيف نكهة قوية دون مكونات مصنعة",
+    "ممتازة كصلصة وتتبيلة صحية في آن واحد"
   ],
   "keywords": [
-    "Chermoula",
-    "Chermoula Sauce",
-    "Moroccan Chermoula",
-    "North African Herb Sauce",
-    "Mediterranean Marinade"
+    "شرمولة",
+    "صلصة الشرمولة",
+    "الشرمولة المغربية",
+    "صلصة الأعشاب الشمال أفريقية",
+    "تتبيلة البحر الأبيض المتوسط"
   ],
   "tags": [
-    "dip",
-    "sauce",
-    "chermoula",
-    "North African",
-    "Mediterranean",
-    "vegan",
-    "healthy",
-    "marinade"
+    "تغميسة",
+    "صلصة",
+    "شرمولة",
+    "شمال أفريقي",
+    "بحر أبيض متوسط",
+    "نباتي",
+    "صحي",
+    "تتبيلة"
   ]
 };
 

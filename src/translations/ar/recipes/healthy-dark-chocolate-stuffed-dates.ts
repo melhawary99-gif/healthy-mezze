@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "bb897d3e11f08f8edf8f57e814fda54f02d0641dc996f6300bea0ee3ae9f79d9";
+
 const translation: RecipeTranslation = {
   "title": "Healthy Dark Chocolate Stuffed Dates",
   "description": "Naturally sweet Medjool dates filled with creamy almond butter, coated in dark chocolate, and finished with crunchy pistachios, walnuts, coconut, and sesame seeds.",

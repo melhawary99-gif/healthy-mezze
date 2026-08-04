@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "ce886118cf57d01a06f2ffcac5608c9155073f08c916be7e67dee4b7cd670c29";
+
 const translation: RecipeTranslation = {
   "title": "Greek Yogurt Breakfast Bowl",
   "description": "Creamy Greek yogurt topped with fresh berries, banana, crunchy nuts, seeds, and a drizzle of honey for a wholesome Mediterranean-inspired breakfast.",

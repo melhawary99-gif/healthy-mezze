@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "8c21f75e8c8466d567c964b8e617c19aa4038d8bfaeb593b56333dfacdb47110";
+
 const translation: RecipeTranslation = {
   "title": "Healthy Kanafeh with Ricotta & Pistachios",
   "description": "A lighter version of the classic kanafeh made with crispy kataifi pastry, part-skim ricotta, a touch of mozzarella, olive oil, and a light honey-orange blossom syrup.",

@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "4ed144e5636e82b06498603cfaad6c793ff580c0c2cf9849061da2b631f6497c";
+
 const translation: RecipeTranslation = {
   "title": "Grilled Shrimp with Garlic & Lemon",
   "description": "Juicy grilled shrimp marinated in garlic, lemon juice, olive oil, parsley, and Mediterranean spices. A light, protein-rich Lebanese-inspired mezze.",

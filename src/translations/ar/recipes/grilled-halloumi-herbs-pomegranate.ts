@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "f914d420396de3156e6723a85830438257ed013eeab40f1a71f0b25f75918915";
+
 const translation: RecipeTranslation = {
   "title": "Grilled Halloumi with Herbs & Pomegranate",
   "description": "Golden grilled halloumi topped with fresh herbs, juicy pomegranate seeds, and extra virgin olive oil. A colorful Mediterranean mezze that's simple, flavorful, and rich in protein.",

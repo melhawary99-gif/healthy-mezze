@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "0b9ecea65d7941f31584ebb337773ba9d3dd0b44c87cfb68e9f92ffbfc5fb8b6";
+
 const translation: RecipeTranslation = {
   "title": "Roasted Tomato Basil Soup",
   "description": "A creamy Mediterranean tomato soup made with roasted tomatoes, garlic, fresh basil, and extra virgin olive oil.",

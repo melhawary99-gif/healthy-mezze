@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "68b02accef218e517a715e49b05bb1d36819a7d89d91aee12070e89d082c907a";
+
 const translation: RecipeTranslation = {
   "title": "Healthy Om Ali",
   "description": "A lighter version of Egypt's famous bread pudding made with whole wheat puff pastry, low-fat milk, naturally sweet dates, raisins, and crunchy nuts.",

@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "0087881702d9d255244b08ce1960562171188ac37d1bd0baae1a74cd5912e9b2";
+
 const translation: RecipeTranslation = {
   "title": "Mediterranean Stuffed Eggplant",
   "description": "Tender roasted eggplants filled with lean ground beef, tomatoes, herbs, and Mediterranean spices for a wholesome, satisfying meal.",

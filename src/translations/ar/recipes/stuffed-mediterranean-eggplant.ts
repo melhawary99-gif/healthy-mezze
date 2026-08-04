@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "e42f011ad776deb585bee73c2b7b7010a23848535c86dd1b0a8bf43e0a96b0a2";
+
 const translation: RecipeTranslation = {
   "title": "Stuffed Mediterranean Eggplant",
   "description": "A wholesome Mediterranean dish featuring roasted eggplant stuffed with quinoa, colorful vegetables, aromatic herbs, and heart-healthy olive oil.",

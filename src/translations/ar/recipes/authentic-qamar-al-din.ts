@@ -1,56 +1,58 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "12b07fc831e48eec84749374a2607d4f3414cf76bb6e96260d18a0853a239c39";
+
 const translation: RecipeTranslation = {
-  "title": "Authentic Qamar al-Din (Apricot Drink)",
-  "description": "A traditional Middle Eastern apricot drink prepared from dried apricot leather, lightly sweetened with honey, and delicately scented with orange blossom water.",
-  "longDescription": "Qamar al-Din is one of the most cherished drinks served during Ramadan throughout Egypt, Lebanon, and the Levant. It is traditionally prepared by dissolving dried apricot leather in water to create a naturally sweet, silky beverage. This healthier version relies primarily on the fruit's natural sweetness while adding only a small amount of honey and fragrant orange blossom water for an authentic finish.",
+  "title": "قمر الدين الأصلي (مشروب المشمش)",
+  "description": "مشروب مشمش شرقي تقليدي يُحضر من رقائق قمر الدين المجففة، ومُحلى بلطف بالعسل، ومُعطر بنعومة بماء الزهر.",
+  "longDescription": "يُعد قمر الدين من أكثر المشروبات المحبوبة التي تُقدم خلال شهر رمضان في جميع أنحاء مصر ولبنان وبلاد الشام. يُحضر تقليديًا عن طريق إذابة رقائق المشمش المجفف في الماء للحصول على مشروب سلس وحلو طبيعيًا. تعتمد هذه النسخة الأكثر صحة بشكل أساسي على الحلاوة الطبيعية للفاكهة مع إضافة كمية صغيرة فقط من العسل وماء الزهر العطر لإضفاء لمسة أصلية.",
   "ingredients": [
-    "(7 oz) dried apricot leather (Qamar al-Din sheets)",
-    "cold water",
-    "honey",
-    "orange blossom water",
-    "fresh lemon juice",
-    "Ice cubes",
-    "Fresh mint leaves for garnish",
-    "Dried apricot slices for garnish"
+    "(7 أونصة) رقائق المشمش المجفف (شرائح قمر الدين)",
+    "ماء بارد",
+    "عسل",
+    "ماء الزهر",
+    "عصير ليمون طازج",
+    "مكعبات ثلج",
+    "أوراق نعناع طازجة للتزيين",
+    "شرائح مشمش مجفف للتزيين"
   ],
   "instructions": [
-    "Cut the apricot leather into small pieces.",
-    "Place the pieces into a large bowl with the cold water.",
-    "Cover and refrigerate for 4 hours or overnight until softened.",
-    "Transfer the softened mixture to a blender.",
-    "Blend until completely smooth.",
-    "Stir in the honey, orange blossom water, and lemon juice.",
-    "Taste and adjust sweetness if needed.",
-    "Chill until ready to serve.",
-    "Pour over ice.",
-    "Garnish with fresh mint and dried apricot slices."
+    "قطع رقائق قمر الدين إلى قطع صغيرة.",
+    "ضع القطع في وعاء كبير مع الماء البارد.",
+    "غطّ الوعاء وضعه في الثلاجة لمدة 4 ساعات أو طوال الليل حتى تطرى القطع.",
+    "انقل الخليط الطري إلى الخلاط الكهربائي.",
+    "اخلط المزيج حتى يصبح ناعمًا تمامًا.",
+    "أضف العسل، وماء الزهر، وعصير الليمون وحرك المزيج.",
+    "ذُق المشروب وعدّل مستوى الحلاوة حسب الحاجة.",
+    "برّد المشروب حتى يصبح جاهزًا للتقديم.",
+    "اسكبه فوق الثلج.",
+    "زيّنه بالنعناع الطازج وشرائح المشمش المجفف."
   ],
   "healthBenefits": [
-    "Naturally rich in vitamin A",
-    "Good source of potassium",
-    "Contains antioxidants from apricots",
-    "Naturally caffeine-free",
-    "Lower in added sugar than many traditional recipes",
-    "Hydrating and refreshing",
-    "A classic Ramadan beverage"
+    "غني طبيعيًا بفيتامين أ",
+    "مصدر جيد للبوتاسيوم",
+    "يحتوي على مضادات الأكسدة من المشمش",
+    "خالٍ طبيعيًا من الكافيين",
+    "يحتوي على نسبة سكر مضاف أقل من العديد من الوصفات التقليدية",
+    "مرطب ومنعش",
+    "مشروب رمضاني كلاسيكي"
   ],
   "keywords": [
-    "Qamar al-Din",
-    "Apricot Drink",
-    "Ramadan Drink",
-    "Traditional Egyptian Beverage",
-    "Middle Eastern Apricot Juice"
+    "قمر الدين",
+    "مشروب المشمش",
+    "مشروب رمضاني",
+    "مشروب مصري تقليدي",
+    "عصير مشمش شرقي"
   ],
   "tags": [
-    "drink",
-    "Egyptian",
-    "Lebanese",
-    "Ramadan",
-    "apricot",
-    "healthy",
-    "traditional",
-    "vegetarian"
+    "مشروب",
+    "مصري",
+    "لبناني",
+    "رمضان",
+    "مشمش",
+    "صحي",
+    "تقليدي",
+    "نباتي"
   ]
 };
 

@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "06b3902ef84078767104172321231e879a04265cb9287acd50d576674518ca58";
+
 const translation: RecipeTranslation = {
   "title": "Herbed Labneh Dip",
   "description": "Creamy labneh blended with fresh herbs, garlic, lemon zest, and extra virgin olive oil for a refreshing Mediterranean dip that's perfect with vegetables or warm pita.",

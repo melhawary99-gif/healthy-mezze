@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "67b01cfcbe7d284280b043deb076c57fd9e3434a4bf98c4519ddac65fd647dd6";
+
 const translation: RecipeTranslation = {
   "title": "Mediterranean White Bean Salad",
   "description": "A hearty Mediterranean salad with white beans, fresh vegetables, herbs, feta cheese, and a zesty lemon dressing.",

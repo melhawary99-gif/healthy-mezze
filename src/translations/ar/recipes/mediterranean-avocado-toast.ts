@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "4571a8c306c3d759b48e8829ca6588a24723a0c1fd165fb8e27c85de1d88f666";
+
 const translation: RecipeTranslation = {
   "title": "Mediterranean Avocado Toast",
   "description": "Creamy avocado spread over toasted whole grain bread and topped with feta cheese, cherry tomatoes, cucumbers, herbs, and a drizzle of extra virgin olive oil.",

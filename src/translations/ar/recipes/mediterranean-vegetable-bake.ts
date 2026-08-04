@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "1e387afb8a60cfaa570aca3fd204923099fed1c6edb09755998f7036781c9282";
+
 const translation: RecipeTranslation = {
   "title": "Mediterranean Vegetable Bake",
   "description": "A colorful baked casserole featuring zucchini, eggplant, bell peppers, chickpeas, tomatoes, and Mediterranean herbs in a light tomato sauce.",

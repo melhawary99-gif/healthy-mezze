@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "515bf673809fb788325043d9e5fe457332b9aa7c5054ac2cc68803a9d88ada76";
+
 const translation: RecipeTranslation = {
   "title": "Healthy Baked Atayef with Ricotta & Pistachios",
   "description": "Soft Middle Eastern pancakes filled with creamy ricotta, Greek yogurt, pistachios, and lightly sweetened with honey. Baked instead of fried for a healthier traditional dessert.",

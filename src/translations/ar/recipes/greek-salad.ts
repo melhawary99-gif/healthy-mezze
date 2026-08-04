@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "40830726db7a84a914a7372cd951206123d04c5090c562846b35a1f00fcda99a";
+
 const translation: RecipeTranslation = {
   "title": "Greek Salad",
   "description": "A fresh Mediterranean salad made with crisp vegetables, creamy feta cheese, Kalamata olives, and extra virgin olive oil.",

@@ -1,60 +1,62 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "588e5569b8ad4d41313232ed1632a6b5f32960758f2b4a0ec3b724f162ade427";
+
 const translation: RecipeTranslation = {
-  "title": "Baked Beef Kofta",
-  "description": "Juicy Middle Eastern beef kofta made with fresh herbs, onions, garlic, and aromatic spices, baked until perfectly tender.",
-  "longDescription": "Baked Beef Kofta is a classic Egyptian and Lebanese dish featuring lean ground beef combined with parsley, onions, garlic, and warm Mediterranean spices. Baking creates juicy, flavorful kofta with less oil than frying, making it a healthier option. Serve alongside rice, roasted vegetables, hummus, tahini sauce, or warm pita bread for a complete Mediterranean meal.",
+  "title": "كفتة اللحم البقري بالفرن",
+  "description": "كفتة لحم بقري شرق أوسطية طرية ولذيذة، مصنوعة من الأعشاب الطازجة، والبصل، والثوم، والبهارات العطرية، ومخبوزة بالفرن حتى تنضج تماماً.",
+  "longDescription": "تعتبر كفتة اللحم البقري بالفرن طبقاً مصرياً ولبنانياً كلاسيكياً يتكون من لحم بقري مفروم قليل الدسم ممزوج مع البقدونس، والبصل، والثوم، وبهارات البحر الأبيض المتوسط الدافئة. يمنحها الخبز بالفرن طراوة ونكهة غنية باستخدام زيت أقل من القلي، مما يجعلها خياراً صحياً أكثر. تُقدم إلى جانب الأرز، أو الخضار المشوية، أو الحمص، أو صوص الطحينة، أو الخبز العربي الدافئ لوجبة متوسطية متكاملة.",
   "ingredients": [
-    "lean ground beef (90% lean)",
-    "Medium onion, finely grated",
-    "cloves, minced",
-    "fresh parsley, finely chopped",
-    "fresh mint, chopped (optional)",
-    "ground cumin",
-    "ground coriander",
-    "paprika",
-    "ground allspice",
-    "ground cinnamon",
-    "sea salt",
-    "black pepper",
-    "extra virgin olive oil"
+    "لحم بقري مفروم قليل الدسم (90% خالي من الدهون)",
+    "بصلة متوسطة، مبشورة ناعماً",
+    "فصوص ثوم، مفرومة",
+    "بقدونس طازج، مفروم ناعماً",
+    "نعناع طازج، مفروم (اختياري)",
+    "كمون مطحون",
+    "كزبرة مطحونة",
+    "بابريكا",
+    "بهار حلو مطحون",
+    "قرفة مطحونة",
+    "ملح البحر",
+    "فلفل أسود",
+    "زيت زيتون بكر ممتاز"
   ],
   "instructions": [
-    "Preheat the oven to 200°C (400°F).",
-    "Line a baking tray with parchment paper or lightly grease it.",
-    "Combine all ingredients in a large mixing bowl.",
-    "Mix gently until evenly combined without overworking the meat.",
-    "Shape into oval kofta logs or long cylinders.",
-    "Arrange evenly on the prepared baking tray.",
-    "Brush lightly with olive oil.",
-    "Bake for 20–25 minutes until cooked through and browned.",
-    "For extra color, broil for the final 2–3 minutes if desired.",
-    "Serve hot with tahini sauce, rice, salad, or warm pita bread."
+    "سخن الفرن مسبقاً على درجة حرارة 200 درجة مئوية (400 درجة فهرنهايت).",
+    "بطّن صينية خبز بورق زبدة أو ادهنها بقليل من الزيت.",
+    "اخلط جميع المكونات في وعاء خلط كبير.",
+    "اعجن المكونات برفق حتى تتجانس دون المبالغة في خلط اللحم.",
+    "شكّل اللحم على هيئة أصابع كفتة بيضاوية أو أسطوانية طويلة.",
+    "رتب أصابع الكفتة بشكل متساوٍ في صينية الخبز المحضرة.",
+    "ادهنها بقليل من زيت الزيتون.",
+    "اخبزها لمدة 20–25 دقيقة حتى تنضج تماماً وتكتسب لوناً محمراً.",
+    "للحصول على لون إضافي، قم بتحمير الجزء العلوي تحت الشواية لآخر 2–3 دقائق حسب الرغبة.",
+    "قدمها ساخنة مع صوص الطحينة، أو الأرز، أو السلطة، أو الخبز العربي الدافئ."
   ],
   "healthBenefits": [
-    "Excellent source of high-quality protein",
-    "Rich in iron and vitamin B12",
-    "Contains fresh antioxidant-rich herbs",
-    "Baked instead of fried for a lighter meal",
-    "Supports muscle growth and maintenance",
-    "Mediterranean diet friendly"
+    "مصدر ممتاز للبروتين عال الجودة",
+    "غنية بالحديد وفيتامين B12",
+    "تحتوي على أعشاب طازجة غنية بمضادات الأكسدة",
+    "مخبوزة بالفرن بدلاً من القلي لوجبة أخف",
+    "تدعم نمو العضلات والحفاظ عليها",
+    "مناسبة لحمية البحر الأبيض المتوسط"
   ],
   "keywords": [
-    "Beef Kofta",
-    "Baked Kofta",
-    "Lebanese Kofta",
-    "Egyptian Kofta",
-    "Healthy Beef Recipe"
+    "كفتة اللحم البقري",
+    "كفتة بالفرن",
+    "كفتة لبنانية",
+    "كفتة مصرية",
+    "وصفة لحم بقري صحية"
   ],
   "tags": [
-    "main dish",
-    "beef",
-    "kofta",
-    "Lebanese",
-    "Egyptian",
-    "baked",
-    "high protein",
-    "Mediterranean"
+    "طبق رئيسي",
+    "لحم بقري",
+    "كفتة",
+    "لبناني",
+    "مصري",
+    "مخبوز بالفرن",
+    "غني بالبروتين",
+    "متوسطي"
   ]
 };
 

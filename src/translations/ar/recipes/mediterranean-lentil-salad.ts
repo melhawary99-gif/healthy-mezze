@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "72030ebc2a0dfc4cecc403acf2e6a15077efe2eaf1abdb211d4b59bd0faf982c";
+
 const translation: RecipeTranslation = {
   "title": "Mediterranean Lentil Salad",
   "description": "A wholesome Mediterranean lentil salad with fresh vegetables, herbs, feta cheese, and a bright lemon vinaigrette.",

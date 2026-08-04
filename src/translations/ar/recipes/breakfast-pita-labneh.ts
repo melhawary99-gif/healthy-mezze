@@ -1,59 +1,61 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "73d5b420ae283b38812accd97905deb5a6cfa993b7b26c19313c139237235877";
+
 const translation: RecipeTranslation = {
-  "title": "Breakfast Pita with Labneh & Fresh Vegetables",
-  "description": "Soft whole wheat pita filled with creamy labneh, crisp cucumbers, juicy tomatoes, olives, fresh herbs, and za'atar for a refreshing Mediterranean breakfast.",
-  "longDescription": "This Breakfast Pita with Labneh & Fresh Vegetables is a classic Mediterranean breakfast that's light, refreshing, and incredibly satisfying. Creamy labneh is spread inside warm whole wheat pita bread and topped with crunchy cucumbers, ripe tomatoes, Kalamata olives, fresh mint, parsley, and a sprinkle of aromatic za'atar. Finished with extra virgin olive oil, it's a balanced meal packed with protein, healthy fats, and fresh vegetables.",
+  "title": "خبز البيتا للإفطار مع اللبنة والخضروات الطازجة",
+  "description": "خبز بيتا طري من القمح الكامل محشو باللبنة الكريمة، الخيار المقرمش، الطماطم العصيرية، الزيتون، الأعشاب الطازجة، والزعتر لإفطار متوسطي منعش.",
+  "longDescription": "يُعد خبز البيتا للإفطار مع اللبنة والخضروات الطازجة إفطاراً متوسطياً كلاسيكياً خفيفاً ومنعشاً ومشبعاً للغاية. تُدهن اللبنة الكريمة داخل خبز البيتا الدافئ المصنوع من القمح الكامل، وتُغطى بالخيار المقرمش، الطماطم الناضجة، زيتون الكالاماتا، النعناع الطازج، البقدونس، ورشة من الزعتر العطري. ومع إضافة زيت الزيتون البكر الممتاز، تكتمل هذه الوجبة المتوازنة الغنية بالبروتين، الدهون الصحية، والخضروات الطازجة.",
   "ingredients": [
-    "wheat pita breads",
-    "labneh",
-    "Small cucumber, thinly sliced",
-    "Medium tomato, sliced",
-    "olives, sliced",
-    "chopped parsley",
-    "chopped fresh mint",
-    "za'atar seasoning",
-    "extra virgin olive oil",
-    "sea salt",
-    "black pepper",
-    "Mixed greens (optional)"
+    "أرغفة خبز بيتا بالقمح",
+    "لبنة",
+    "خيارة صغيرة، مقطعة إلى شرائح رفيعة",
+    "ثمرة طماطم متوسطة، مقطعة إلى شرائح",
+    "زيتون، مقطع إلى شرائح",
+    "بقدونس مفروم",
+    "نعناع طازج مفروم",
+    "توابل الزعتر",
+    "زيت زيتون بكر ممتاز",
+    "ملح البحر",
+    "فلفل أسود",
+    "خضروات ورقية مشكلة (اختياري)"
   ],
   "instructions": [
-    "Warm the pita breads for 2–3 minutes until soft.",
-    "Slice each pita open to create a pocket.",
-    "Spread the labneh evenly inside each pita.",
-    "Layer the cucumber and tomato slices.",
-    "Add the sliced Kalamata olives.",
-    "Sprinkle with parsley, mint, za'atar, salt, and black pepper.",
-    "Drizzle with extra virgin olive oil.",
-    "Add mixed greens if desired.",
-    "Serve immediately."
+    "سخن خبز البيتا لمدة 2–3 دقائق حتى يصبح طرياً.",
+    "اقطع كل رغيف بيتا لفتح جيب داخلي.",
+    "وزع اللبنة بالتساوي داخل كل رغيف بيتا.",
+    "ضع شرائح الخيار والطماطم في طبقات.",
+    "أضف شرائح زيتون الكالاماتا.",
+    "رش البقدونس، النعناع، الزعتر، الملح، والفلفل الأسود.",
+    "أضف قطرات من زيت الزيتون البكر الممتاز.",
+    "أضف الخضروات الورقية المشكلة إذا رغبت في ذلك.",
+    "قدمها فوراً."
   ],
   "healthBenefits": [
-    "Excellent source of protein",
-    "Rich in probiotics from labneh",
-    "Contains heart-healthy olive oil",
-    "Provides vitamins A and C from fresh vegetables",
-    "High in calcium",
-    "Good source of dietary fiber",
-    "Mediterranean diet friendly"
+    "مصدر ممتاز للبروتين",
+    "غني بالبروبيوتيك من اللبنة",
+    "يحتوي على زيت الزيتون المفيد لصحة القلب",
+    "يوفر فيتامينات A و C من الخضروات الطازجة",
+    "غني بالكالسيوم",
+    "مصدر جيد للألياف الغذائية",
+    "مناسب للنظام الغذائي المتوسطي"
   ],
   "keywords": [
-    "Breakfast Pita",
-    "Labneh Recipe",
-    "Mediterranean Breakfast",
-    "Healthy Pita",
-    "Easy Breakfast"
+    "خبز بيتا للإفطار",
+    "وصفة اللبنة",
+    "إفطار متوسطي",
+    "بيتا صحي",
+    "إفطار سهل"
   ],
   "tags": [
-    "breakfast",
-    "Mediterranean",
-    "labneh",
-    "pita",
-    "vegetarian",
-    "healthy",
-    "quick meal",
-    "high protein"
+    "إفطار",
+    "متوسطي",
+    "لبنة",
+    "بيتا",
+    "نباتي",
+    "صحي",
+    "وجبة سريعة",
+    "عالي البروتين"
   ]
 };
 

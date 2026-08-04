@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "0bd22e9928fc709d2c0d2da9f47f84f10d4995ff0e35541459e7141592e542c1";
+
 const translation: RecipeTranslation = {
   "title": "Tabbouleh",
   "description": "A refreshing Lebanese parsley salad with bulgur wheat, tomatoes, mint, lemon juice, and extra virgin olive oil.",

@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "694ab40429e6ee0a1c55a371293ec8fbb923a420a9a262d1af988593150c5f41";
+
 const translation: RecipeTranslation = {
   "title": "Egyptian Molokhia Soup",
   "description": "A traditional Egyptian soup made with finely chopped molokhia leaves simmered in a fragrant garlic and coriander broth.",

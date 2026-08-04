@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "f6d8517faec77984d215b868709cd4883f7dda3e6857cceee337ebfef1115735";
+
 const translation: RecipeTranslation = {
   "title": "Mediterranean Chickpea Salad",
   "description": "A colorful Mediterranean salad with chickpeas, fresh vegetables, herbs, feta cheese, and a light lemon dressing.",

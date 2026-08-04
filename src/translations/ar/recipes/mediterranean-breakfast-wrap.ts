@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "0309462e26b1298eb57fde6549683775335e203511e8d5b0ab430a69882841f2";
+
 const translation: RecipeTranslation = {
   "title": "Mediterranean Breakfast Wrap",
   "description": "A wholesome whole wheat wrap filled with fluffy eggs, spinach, feta cheese, tomatoes, cucumbers, and creamy hummus for a portable Mediterranean breakfast.",

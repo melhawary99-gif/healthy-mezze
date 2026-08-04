@@ -1,5 +1,10 @@
 #!/usr/bin/env node
 
+import dotenv from "dotenv";
+
+dotenv.config({ path: ".env.local" });
+
+import { exportTranslations } from "./commands/export";
 import path from "node:path";
 import { generate } from "./commands/generate";
 import { normalize } from "./commands/normalize";
@@ -8,6 +13,7 @@ import { translate } from "./commands/translate";
 import { stats } from "./commands/stats";
 import { check } from "./commands/check";
 import { upgrade } from "./commands/upgrade";
+import { syncHashes } from "./commands/sync-hashes";
 
 const recipesDir = path.join(process.cwd(), "src/data/recipes");
 
@@ -35,6 +41,9 @@ async function main() {
         process.exit(1);
       }
 
+      generate(argument);
+      break;
+
     case "normalize":
       normalize();
       break;
@@ -53,7 +62,24 @@ async function main() {
       await translate(argument);
       break;
 
-      generate(argument);
+    case "export":
+      if (!argument) {
+        console.log("Usage:");
+        console.log("npm run recipes export <language>");
+        process.exit(1);
+      }
+
+      exportTranslations(argument);
+      break;
+
+    case "sync-hashes":
+      if (!argument) {
+        console.log("Usage:");
+        console.log("npm run recipes sync-hashes <language>");
+        process.exit(1);
+      }
+
+      await syncHashes(argument);
       break;
 
     default:
@@ -68,6 +94,8 @@ npm run recipes upgrade
 npm run recipes generate <language>
 npm run recipes normalize
 npm run recipes migrate
+npm run recipes translate <language>
+npm run recipes export <language>
 `);
   }
 }

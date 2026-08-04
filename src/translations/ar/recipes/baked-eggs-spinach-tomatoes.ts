@@ -1,64 +1,66 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "a9ce8ef3ac1122463d658edb1872db9c4670c75389f80edc4366bfbf1cd54468";
+
 const translation: RecipeTranslation = {
-  "title": "Baked Eggs with Spinach & Tomatoes",
-  "description": "Tender baked eggs nestled in a flavorful mixture of spinach, cherry tomatoes, garlic, and feta cheese. A simple Mediterranean breakfast that's both nutritious and satisfying.",
-  "longDescription": "Baked Eggs with Spinach & Tomatoes is a wholesome Mediterranean breakfast featuring eggs gently baked over sautéed spinach, sweet cherry tomatoes, garlic, onions, and crumbled feta cheese. Finished with fresh herbs and extra virgin olive oil, this one-pan breakfast is rich in protein, vitamins, and heart-healthy fats while being easy enough for both weekday mornings and weekend brunch.",
+  "title": "بيض مخبوز مع السبانخ والطماطم",
+  "description": "بيض مخبوز طري مستقر في مزيج شهي من السبانخ والطماطم الكرزية والثوم وجبن الفيتا. فطور متوسطي بسيط، مغذٍ ومشبع في الوقت نفسه.",
+  "longDescription": "إن البيض المخبوز مع السبانخ والطماطم هو وجبة فطور متوسطية صحية تتكون من بيض مخبوز بلطف فوق السبانخ المقلية، والطماطم الكرزية الحلوة، والثوم، والبصل، وجبن الفيتا المفتت. مع لمسة من الأعشاب الطازجة وزيت الزيتون البكر الممتاز، تُعد هذه الوجبة المحضرة في مقلاة واحدة غنية بالبروتين والفيتامينات والدهون الصحية للقلب، كما أنها سهلة التحضير لصباح أيام الأسبوع أو لوجبة الغداء المتأخرة في عطلة نهاية الأسبوع.",
   "ingredients": [
-    "extra virgin olive oil",
-    "Small onion, finely diced",
-    "cloves, minced",
-    "fresh spinach",
-    "cups cherry tomatoes, halved",
-    "Large eggs",
-    "crumbled feta cheese",
-    "dried oregano",
-    "paprika",
-    "sea salt",
-    "black pepper",
-    "chopped fresh parsley",
-    "Fresh basil leaves (optional)",
-    "Whole grain bread for serving"
+    "زيت زيتون بكر ممتاز",
+    "بصلة صغيرة، مقطعة إلى مكعبات صغيرة",
+    "فصوص ثوم، مفرومة",
+    "سبانخ طازجة",
+    "أكواب طماطم كرزية، مقطعة إلى أنصاف",
+    "بيض كبير الحجم",
+    "جبن فيتا مفتت",
+    "أوريغانو مجفف",
+    "بابريكا",
+    "ملح البحر",
+    "فلفل أسود",
+    "بقدونس طازج مفروم",
+    "أوراق ريحان طازجة (اختياري)",
+    "خبز الحبوب الكاملة للتقديم"
   ],
   "instructions": [
-    "Preheat the oven to 375°F (190°C).",
-    "Heat the olive oil in an oven-safe skillet over medium heat.",
-    "Cook the onion for 3–4 minutes until softened.",
-    "Add the garlic and cook for 30 seconds.",
-    "Stir in the spinach and cook until wilted.",
-    "Add the cherry tomatoes, oregano, paprika, salt, and black pepper.",
-    "Cook for 2–3 minutes until the tomatoes begin to soften.",
-    "Make six small wells in the vegetable mixture and crack one egg into each well.",
-    "Sprinkle the feta cheese evenly over the top.",
-    "Transfer the skillet to the oven and bake for 10–12 minutes, or until the egg whites are set while the yolks remain slightly runny.",
-    "Garnish with parsley and fresh basil if desired.",
-    "Serve immediately with warm whole grain bread."
+    "سخن الفرن مسبقاً إلى 375°F (190°C).",
+    "سخن زيت الزيتون في مقلاة صالحة للاستخدام في الفرن على نار متوسطة.",
+    "اطبخ البصل لمدة 3–4 دقائق حتى يذبل.",
+    "أضف الثوم واطبخه لمدة 30 ثانية.",
+    "قلّب السبانخ واطبخها حتى تذبل.",
+    "أضف الطماطم الكرزية والأوريغانو والبابريكا والملح والفلفل الأسود.",
+    "اطبخ لمدة 2–3 دقائق حتى تبدأ الطماطم بالطرين.",
+    "اصنع ست تجاويف صغيرة في مزيج الخضار واكسر بيضة واحدة في كل تجويف.",
+    "رش جبن الفيتا بالتساوي على الوجه.",
+    "انقل المقلاة إلى الفرن واخبز لمدة 10–12 دقيقة، أو حتى ينضج بياض البيض مع بقاء الصفار سائلاً قليلاً.",
+    "زيّن بالبقدونس والريحان الطازج حسب الرغبة.",
+    "قدمه فوراً مع خبز الحبوب الكاملة الدافئ."
   ],
   "healthBenefits": [
-    "Excellent source of complete protein",
-    "Rich in iron and vitamin K from spinach",
-    "Provides antioxidants from tomatoes",
-    "Contains calcium from feta cheese",
-    "Heart-healthy olive oil supports cardiovascular health",
-    "Low in carbohydrates",
-    "Mediterranean diet friendly"
+    "مصدر ممتاز للبروتين الكامل",
+    "غني بالحديد وفيتامين K من السبانخ",
+    "يوفر مضادات الأكسدة من الطماطم",
+    "يحتوي على الكالسيوم من جبن الفيتا",
+    "زيت الزيتون الصحي للقلب يدعم صحة الجهاز الدوري",
+    "منخفض الكربوهيدرات",
+    "مناسب للنظام الغذائي المتوسطي"
   ],
   "keywords": [
-    "Baked Eggs",
-    "Mediterranean Breakfast",
-    "Spinach Eggs",
-    "Healthy Egg Recipe",
-    "Easy Brunch"
+    "بيض مخبوز",
+    "فطور متوسطي",
+    "بيض بالسبانخ",
+    "وصفة بيض صحية",
+    "برانش سهل"
   ],
   "tags": [
-    "breakfast",
-    "Mediterranean",
-    "eggs",
-    "spinach",
-    "tomatoes",
-    "high protein",
-    "healthy",
-    "one pan"
+    "فطور",
+    "متوسطي",
+    "بيض",
+    "سبانخ",
+    "طماطم",
+    "عالي البروتين",
+    "صحي",
+    "مقلاة واحدة"
   ]
 };
 

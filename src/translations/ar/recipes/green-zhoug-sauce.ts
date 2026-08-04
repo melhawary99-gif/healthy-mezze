@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "7f2c201da447beff9ec23e4b77c91e12768d177e6f3d8013e77a52409c2950ec";
+
 const translation: RecipeTranslation = {
   "title": "Green Zhoug (Zhug) Sauce",
   "description": "A vibrant Middle Eastern herb sauce made with cilantro, parsley, garlic, green chilies, spices, and extra virgin olive oil.",

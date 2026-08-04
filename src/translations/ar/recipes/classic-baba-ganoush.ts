@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "faff318e7aabb6a833b0bf8bd6f5433a34d7c8b2ed06eb67a2b688bb5099641c";
+
 const translation: RecipeTranslation = {
   "title": "Classic Baba Ganoush",
   "description": "A creamy roasted eggplant dip blended with tahini, garlic, lemon juice, and extra virgin olive oil. A classic Mediterranean mezze that's smoky, flavorful, and nutritious.",

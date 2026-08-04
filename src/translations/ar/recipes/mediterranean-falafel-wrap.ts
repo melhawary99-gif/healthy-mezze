@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "d70536f894b207637bd961ea2e7ef02eeea0a7d14c66c375cda275c451841a6e";
+
 const translation: RecipeTranslation = {
   "title": "Mediterranean Falafel Wrap",
   "description": "A satisfying Mediterranean wrap packed with crispy falafel, fresh vegetables, herbs, pickled vegetables, and creamy tahini sauce for a wholesome plant-based meal.",

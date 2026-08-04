@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "3e6838a4536b08dea3230ac29b4d53cf41aa8dbbd3733b6237967443df4891bd";
+
 const translation: RecipeTranslation = {
   "title": "Classic Creamy Hummus",
   "description": "A silky smooth Mediterranean hummus made with chickpeas, tahini, fresh lemon juice, garlic, and extra virgin olive oil. Perfect as a healthy snack, appetizer, or spread.",

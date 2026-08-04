@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "a9bf506dd22a33bd9929a1691c46895e8016806008c305da6c1f8161a3af0ec9";
+
 const translation: RecipeTranslation = {
   "title": "Muhammara (Roasted Red Pepper & Walnut Dip)",
   "description": "A rich and smoky Mediterranean dip made with roasted red peppers, walnuts, olive oil, garlic, and pomegranate molasses. Perfect as a mezze, spread, or healthy snack.",

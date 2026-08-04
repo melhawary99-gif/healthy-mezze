@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "c83ffad7752c728326c02732374d6383d4c0c491ce72b3e20a45df1809cded4d";
+
 const translation: RecipeTranslation = {
   "title": "Egyptian Koshari",
   "description": "Egypt's famous comfort food made with rice, lentils, pasta, chickpeas, crispy onions, and a rich spiced tomato sauce.",

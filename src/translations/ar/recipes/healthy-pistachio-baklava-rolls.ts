@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "77d4646c8d557c10b75a22338507a49d93b5dc02fd618c7d57489d20db6b83e8";
+
 const translation: RecipeTranslation = {
   "title": "Healthy Pistachio Baklava Rolls",
   "description": "Crispy whole wheat phyllo rolls filled with pistachios and walnuts, lightly brushed with olive oil and finished with a fragrant honey-orange blossom syrup.",

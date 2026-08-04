@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "3c2bc53f39ac5c046dfcfd749878b97b920968b574a925e4e052d7e5d8aa80fe";
+
 const translation: RecipeTranslation = {
   "title": "Roasted Pumpkin Soup",
   "description": "A creamy Mediterranean pumpkin soup made with roasted pumpkin, carrots, garlic, warm spices, and olive oil.",

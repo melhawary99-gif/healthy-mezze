@@ -1,56 +1,58 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "538a49c9f1fff647488f8ccd75708828ade28b6f08a56b359e93795dad000987";
+
 const translation: RecipeTranslation = {
-  "title": "Authentic Amba Sauce",
-  "description": "A tangy Middle Eastern mango sauce made with pickled mango, turmeric, fenugreek, garlic, lemon juice, and spices.",
-  "longDescription": "Amba is a traditional Iraqi condiment that has become a favorite throughout the Middle East. Made from pickled mango blended with aromatic spices, garlic, lemon juice, and olive oil, it delivers a unique balance of tangy, savory, and mildly spicy flavors. Traditionally served with shawarma, sabich, falafel, grilled meats, roasted vegetables, and sandwiches, Amba adds vibrant flavor to countless Mediterranean dishes.",
+  "title": "صلصة العمبة الأصلية",
+  "description": "صلصة مانجو حامضة من الشرق الأوسط مصنوعة من المانجو المخلل والكركم والحلبة والثوم وعصير الليمون والتوابل.",
+  "longDescription": "العمبة هي توابل عراقية تقليدية أصبحت مفضلة في جميع أنحاء الشرق الأوسط. وهي مصنوعة من المانجو المخلل المخلوط مع التوابل العطرية والثوم وعصير الليمون وزيت الزيتون، وتوفر توازناً فريداً من النكهات الحامضة والمالحة والحرّاقة بلطف. تُقدَّم العمبة تقليدياً مع الشاورما، والسبيح، والفلافل، واللحوم المشوية، والخضروات المشوية، والشطائر، وتضفي نكهة حيوية على العديد من الأطباق المتوسطية.",
   "ingredients": [
-    "Pickled mango",
-    "Garlic cloves",
-    "Fresh lemon juice",
-    "Extra virgin olive oil",
-    "Water",
-    "Ground turmeric",
-    "Ground fenugreek",
-    "Ground cumin",
-    "Cayenne pepper",
-    "Salt",
-    "Fresh cilantro, chopped"
+    "مانجو مخلل",
+    "فصوص ثوم",
+    "عصير ليمون طازج",
+    "زيت زيتون بكر ممتاز",
+    "ماء",
+    "كركم مطحون",
+    "حلبة مطحونة",
+    "كمون مطحون",
+    "فلفل حار (كايين)",
+    "ملح",
+    "كزبرة طازجة مفرومة"
   ],
   "instructions": [
-    "Add the pickled mango, garlic, lemon juice, olive oil, water, turmeric, fenugreek, cumin, cayenne pepper, and salt to a food processor.",
-    "Blend until smooth.",
-    "Stir in the chopped cilantro.",
-    "Taste and adjust the seasoning or lemon juice if needed.",
-    "Transfer to an airtight jar.",
-    "Refrigerate for at least 30 minutes before serving.",
-    "Serve with shawarma, falafel, sabich, grilled meats, roasted vegetables, or sandwiches."
+    "أضف المانجو المخلل، والثوم، وعصير الليمون، وزيت الزيتون، والماء، والكركم، والحلبة، والكمون، والفلفل الحار، والملح إلى محضرة الطعام.",
+    "اخفق المكونات حتى تصبح ناعمة.",
+    "أضف الكزبرة المفرومة وقلّبها.",
+    "تذوق واضبط التوابل أو عصير الليمون إذا لزم الأمر.",
+    "انقل الصلصة إلى برطمان محكم الإغلاق.",
+    "ضعها في الثلاجة لمدة 30 دقيقة على الأقل قبل التقديم.",
+    "قدّمها مع الشاورما، أو الفلافل، أو السبيح، أو اللحوم المشوية، أو الخضار المشوية، أو الشطائر."
   ],
   "healthBenefits": [
-    "Turmeric provides powerful antioxidant compounds.",
-    "Fenugreek contributes beneficial plant nutrients.",
-    "Naturally vegan and dairy-free.",
-    "Contains heart-healthy fats from extra virgin olive oil.",
-    "Garlic provides beneficial sulfur compounds.",
-    "Adds bold flavor with very few calories.",
-    "Pairs well with vegetables, legumes, and lean proteins."
+    "يوفر الكركم مركبات قوية مضادة للأكسدة.",
+    "تسهم الحلبة في توفير مغذيات نباتية مفيدة.",
+    "نباتية وخالية من الألبان بشكل طبيعي.",
+    "تحتوي على دهون صحية للقلب من زيت الزيتون البكر الممتاز.",
+    "يوفر الثوم مركبات كبريتية مفيدة.",
+    "تضيف نكهة قوية مع قليل جداً من السعرات الحرارية.",
+    "تتناسب جيداً مع الخضروات، والبقوليات، والبروتينات الخالية من الدهون."
   ],
   "keywords": [
-    "Amba Sauce",
-    "Iraqi Mango Sauce",
-    "Middle Eastern Condiment",
-    "Shawarma Sauce",
-    "Pickled Mango Sauce"
+    "صلصة العمبة",
+    "صلصة المانجو العراقية",
+    "توابل من الشرق الأوسط",
+    "صلصة الشاورما",
+    "صلصة المانجو المخلل"
   ],
   "tags": [
-    "dip",
-    "sauce",
-    "Iraqi",
-    "Middle Eastern",
-    "mango",
-    "vegan",
-    "healthy",
-    "condiment"
+    "غموس",
+    "صلصة",
+    "عراقي",
+    "شرق أوسطي",
+    "مانجو",
+    "نباتي",
+    "صحي",
+    "توابل"
   ]
 };
 

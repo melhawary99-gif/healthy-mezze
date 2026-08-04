@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "965bfecb2ef29ff580f2d8d2357caffce4016ce522fae77a40e3c3aa05ad54f3";
+
 const translation: RecipeTranslation = {
   "title": "Mediterranean Roasted Chickpeas",
   "description": "Crunchy oven-roasted chickpeas seasoned with Mediterranean herbs, smoked paprika, garlic, and extra virgin olive oil. A healthy, protein-packed snack that's perfect any time of day.",

@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "d14457bd9469848aab190a31ca6d36206de8d69d7fc14959fbf806941a024b0a";
+
 const translation: RecipeTranslation = {
   "title": "Eggplant Parmesan (Mediterranean Style)",
   "description": "Layers of baked eggplant, homemade tomato sauce, mozzarella, Parmesan cheese, and fresh herbs baked until golden and bubbling.",

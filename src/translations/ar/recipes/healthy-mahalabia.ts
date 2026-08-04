@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "4a4195558b42f0e4726bb6f351cec22991fdc0ca0ebc529800bd402871e60023";
+
 const translation: RecipeTranslation = {
   "title": "Healthy Mahalabia (Egyptian Milk Pudding)",
   "description": "A light and creamy Egyptian milk pudding made with low-fat milk, naturally sweetened with honey, delicately flavored with vanilla and rose water, then topped with pistachios.",

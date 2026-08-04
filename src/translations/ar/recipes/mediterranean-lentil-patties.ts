@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "7ff65643e589e46cd729c73fe75d7bf7c1e2ae477626476f26fd2b5317550e26";
+
 const translation: RecipeTranslation = {
   "title": "Mediterranean Lentil Patties",
   "description": "Healthy baked lentil patties made with oats, herbs, garlic, onion, and Mediterranean spices. Perfect as a main dish, burger alternative, or meal-prep recipe.",

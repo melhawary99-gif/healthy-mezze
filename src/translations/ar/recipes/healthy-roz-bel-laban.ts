@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "80a803d5c64aa187289a7f9b8550f6826aad383529282516e4cb1d9f693a34c5";
+
 const translation: RecipeTranslation = {
   "title": "Healthy Roz Bel Laban (Egyptian Rice Pudding)",
   "description": "A lighter version of the classic Egyptian rice pudding made with low-fat milk, naturally sweetened with honey, and flavored with vanilla and cinnamon.",

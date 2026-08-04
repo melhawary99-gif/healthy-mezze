@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "3015403eea9595b3eb69a832976f2fa0fa3b9ff1392c82178d780551657c6327";
+
 const translation: RecipeTranslation = {
   "title": "Chicken Shawarma",
   "description": "Tender Mediterranean chicken with spices, fresh vegetables, and warm bread.",

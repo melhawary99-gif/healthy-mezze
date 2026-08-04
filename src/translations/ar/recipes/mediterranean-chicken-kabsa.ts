@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "10682f0ca8605996bef897e17c01264f07d61355c5cffe2495f53614b71e5fe4";
+
 const translation: RecipeTranslation = {
   "title": "Mediterranean Chicken Kabsa",
   "description": "A healthy one-pot chicken and brown basmati rice dish infused with fragrant Middle Eastern spices, tomatoes, and vegetables.",

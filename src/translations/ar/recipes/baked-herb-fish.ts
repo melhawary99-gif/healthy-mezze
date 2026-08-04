@@ -1,59 +1,61 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "acf5351ca713b8e558786233d47f31a43615f765b55e35635b2d6b29939eb994";
+
 const translation: RecipeTranslation = {
-  "title": "Baked Herb Fish",
-  "description": "Tender white fish baked with fresh herbs, garlic, lemon, olive oil, and Mediterranean seasonings for a light and healthy meal.",
-  "longDescription": "Baked Herb Fish is a simple yet elegant Mediterranean-inspired dish featuring flaky white fish seasoned with garlic, lemon juice, fresh parsley, dill, oregano, and extra virgin olive oil. Baking preserves the fish's natural moisture while creating a flavorful, heart-healthy meal that pairs beautifully with roasted vegetables, quinoa, or a fresh salad.",
+  "title": "سمك مخبوز بالأعشاب",
+  "description": "سمك أبيض طري مخبوز مع الأعشاب الطازجة، والثوم، والليمون، وزيت الزيتون، وتوابل البحر الأبيض المتوسط لتقديم وجبة خفيفة وصحية.",
+  "longDescription": "السمك المخبوز بالأعشاب هو طبق بسيط وأنيق مستوحى من مطبخ البحر الأبيض المتوسط، يتكون من سمك أبيض طري متبل بالثوم، وعصير الليمون، والبقدونس الطازج، والشبت، والأوريغانو، وزيت الزيتون البكر الممتاز. يحافظ الخبز على الرطوبة الطبيعية للسمك مع إعداد وجبة غنية بالنكهة ومفيدة لصحة القلب تتناسب تماماً مع الخضار المشوية، أو الكينوا، أو السلطة الطازجة.",
   "ingredients": [
-    "fish fillets (cod, haddock, sea bass, or halibut)",
-    "extra virgin olive oil",
-    "cloves, minced",
-    "lemon, juiced",
-    "lemon zest",
-    "fresh parsley, chopped",
-    "fresh dill, chopped",
-    "dried oregano",
-    "paprika",
-    "sea salt",
-    "black pepper",
-    "lemon, sliced",
-    "Fresh parsley for garnish"
+    "شرائح سمك (قد، أو هادوك، أو قاروص، أو هلبوت)",
+    "زيت زيتون بكر ممتاز",
+    "فصوص ثوم مفرومة",
+    "عصير ليمون",
+    "برش ليمون",
+    "بقدونس طازج مفروم",
+    "شبت طازج مفروم",
+    "أوريغانو مجفف",
+    "بابريكا",
+    "ملح بحري",
+    "فلفل أسود",
+    "شرائح ليمون",
+    "بقدونس طازج للتزيين"
   ],
   "instructions": [
-    "Preheat the oven to 200°C (400°F).",
-    "Lightly grease a baking dish with olive oil.",
-    "Pat the fish fillets dry with paper towels and place them in the dish.",
-    "In a small bowl, combine olive oil, garlic, lemon juice, lemon zest, parsley, dill, oregano, paprika, salt, and pepper.",
-    "Brush the herb mixture evenly over each fish fillet.",
-    "Arrange lemon slices on top of the fish.",
-    "Bake for 18–20 minutes or until the fish flakes easily with a fork.",
-    "Garnish with fresh parsley before serving.",
-    "Serve with roasted vegetables, quinoa, brown rice, or a fresh Mediterranean salad."
+    "سخن الفرن مسبقاً إلى 200 درجة مئوية (400 درجة فهرنهايت).",
+    "ادهن طبق الخبز بقليل من زيت الزيتون.",
+    "جفف شرائح السمك برفق باستخدام مناشف ورقية وضعها في الطبق.",
+    "في وعاء صغير، اخلط زيت الزيتون، والثوم، وعصير الليمون، وبرش الليمون، والبقدونس، والشبت، والأوريغانو، والبابريكا، والملح، والفلفل.",
+    "ادهن خليط الأعشاب بالتساوي فوق كل قطعة سمك.",
+    "رتب شرائح الليمون فوق السمك.",
+    "اخبز لمدة 18–20 دقيقة أو حتى يتفتت السمك بسهولة باستخدام شوكة.",
+    "زين بالبقدونس الطازج قبل التقديم.",
+    "قدمه مع الخضار المشوية، أو الكينوا، أو الأرز الأسمر، أو سلطة البحر الأبيض المتوسط الطازجة."
   ],
   "healthBenefits": [
-    "Excellent source of lean protein",
-    "Rich in heart-healthy omega-3 fatty acids",
-    "Low in saturated fat",
-    "High in vitamin D and selenium",
-    "Supports brain and cardiovascular health",
-    "Mediterranean diet friendly"
+    "مصدر ممتاز للبروتين الخالي من الدهون",
+    "غني بأحماض أوميغا 3 الدهنية المفيدة لصحة القلب",
+    "منخفض الدهون المشبعة",
+    "غني بفيتامين د والسيلينيوم",
+    "يدعم صحة الدماغ والجهاز الدوري",
+    "مناسب لنظام البحر الأبيض المتوسط الغذائي"
   ],
   "keywords": [
-    "Baked Fish",
-    "Mediterranean Fish",
-    "Healthy Fish Recipe",
-    "Herb Baked Cod",
-    "Healthy Seafood"
+    "سمك مخبوز",
+    "سمك على طريقة البحر الأبيض المتوسط",
+    "وصفة سمك صحية",
+    "سمك قد مخبوز بالأعشاب",
+    "مأكولات بحرية صحية"
   ],
   "tags": [
-    "main dish",
-    "fish",
-    "seafood",
-    "Mediterranean",
-    "healthy",
-    "high protein",
-    "low carb",
-    "oven baked"
+    "طبق رئيسي",
+    "سمك",
+    "مأكولات بحرية",
+    "البحر الأبيض المتوسط",
+    "صحي",
+    "عالي البروتين",
+    "قليل الكربوهيدرات",
+    "مخبوز في الفرن"
   ]
 };
 

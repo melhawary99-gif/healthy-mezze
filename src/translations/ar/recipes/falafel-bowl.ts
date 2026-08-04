@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "2f4c8e63241f0a66ad721dc062fbf28a3d0277551b0103c3718632560df0541b";
+
 const translation: RecipeTranslation = {
   "title": "Falafel Bowl",
   "description": "A wholesome Mediterranean bowl made with crispy falafel, fresh vegetables, creamy hummus, and rich tahini sauce.",

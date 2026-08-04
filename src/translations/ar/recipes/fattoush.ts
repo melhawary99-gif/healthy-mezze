@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "28af131a07cfa2494c3df7b2a5f4e493545fc8f91940edcd12884fcc0f46b65b";
+
 const translation: RecipeTranslation = {
   "title": "Fattoush",
   "description": "A traditional Lebanese salad made with crisp vegetables, fresh herbs, toasted pita bread, and a tangy sumac dressing.",

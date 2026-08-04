@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "4dd807d06e6071b1f00f54137452eded89f546b5ba00aee869b7b43d3245052f";
+
 const translation: RecipeTranslation = {
   "title": "Ful Medames (Egyptian Fava Beans)",
   "description": "A traditional Egyptian breakfast made with slow-cooked fava beans, garlic, lemon juice, cumin, and extra virgin olive oil. Nutritious, filling, and naturally vegan.",

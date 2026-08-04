@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "3c32fcfd3c32f621c082f02d5525273fa5cb101acff34192cfd0701c68f5c003";
+
 const translation: RecipeTranslation = {
   "title": "Lentil Soup",
   "description": "A hearty Mediterranean red lentil soup made with vegetables, aromatic spices, and wholesome ingredients for a comforting and nutritious meal.",

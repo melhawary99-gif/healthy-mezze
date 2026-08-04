@@ -1,6 +1,8 @@
 import { Ingredient } from "./recipe";
 
 export interface RecipeTranslation {
+  sourceHash?: string;
+
   title: string;
 
   description: string;

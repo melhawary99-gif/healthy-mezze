@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "e4a9d82f4b10bc9b96ec38979f4044832cdcd058e74c1048fafb4394c5b623e7";
+
 const translation: RecipeTranslation = {
   "title": "Lebanese Mujadara",
   "description": "A wholesome Lebanese dish made with lentils, rice, caramelized onions, and warm spices for a comforting plant-based meal.",

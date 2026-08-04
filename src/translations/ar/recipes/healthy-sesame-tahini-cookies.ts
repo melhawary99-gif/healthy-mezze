@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "24fce0e244cd34411e9bef31f132862635925d731702354cb5537a7aa73a2ca3";
+
 const translation: RecipeTranslation = {
   "title": "Healthy Sesame Tahini Cookies",
   "description": "Soft whole wheat cookies made with creamy tahini, honey, olive oil, and toasted sesame seeds for a wholesome Mediterranean-inspired treat.",

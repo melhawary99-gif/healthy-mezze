@@ -1,51 +1,53 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "05dd01553c0e2843833c7b51b2edec6935990f3a951d8739bc3f8e1b4c15778b";
+
 const translation: RecipeTranslation = {
-  "title": "Authentic Arabic Coffee (Ahwa)",
-  "description": "A traditional Arabic coffee brewed with lightly roasted coffee, fragrant cardamom, and served in small cups.",
-  "longDescription": "Arabic coffee, known as Ahwa, is a symbol of hospitality throughout the Middle East. In Lebanon and many Gulf countries it is traditionally prepared with lightly roasted coffee beans and freshly ground cardamom, while regional variations exist across Egypt and the Levant. Served in small cups without milk, this aromatic coffee is often enjoyed alongside dates or traditional sweets and plays an important role in welcoming guests and celebrating special occasions.",
+  "title": "القهوة العربية الأصيلة (القهوة)",
+  "description": "قهوة عربية تقليدية تُحضر من بن محمص خفيف، وهيل معطر، وتُقدم في فناجين صغيرة.",
+  "longDescription": "تُعد القهوة العربية رمزاً للضيافة في جميع أنحاء الشرق الأوسط. وتُحضر تقليدياً في لبنان والعديد من دول الخليج من حبوب البن المحمصة خفيفاً والهيل المطحون طازجاً، بينما توجد تنوعات إقليمية في مصر وبلاد الشام. تُقدم هذه القهوة العطرية في فناجين صغيرة بدون حليب، وغالباً ما يُستمتع بها مع التمر أو الحلويات التقليدية، وتلعب دوراً مهماً في الترحيب بالضيوف والاحتفال بالمناسبات الخاصة.",
   "ingredients": [
-    "water",
-    "finely ground Arabic coffee",
-    "freshly ground cardamom",
-    "cardamom pods (optional)",
-    "Fresh dates for serving (optional)"
+    "ماء",
+    "قهوة عربية مطحونة ناعماً",
+    "هيل مطحون طازجاً",
+    "حبوب هيل (اختياري)",
+    "تمر طازج للتقديم (اختياري)"
   ],
   "instructions": [
-    "Bring the water to a gentle boil in a traditional coffee pot (dallah) or small saucepan.",
-    "Reduce the heat to low.",
-    "Add the ground Arabic coffee and stir gently.",
-    "Allow the coffee to simmer for 8–10 minutes without boiling vigorously.",
-    "Add the ground cardamom during the final minute of simmering.",
-    "Remove from the heat and let the grounds settle for 1–2 minutes.",
-    "Carefully pour the coffee into small finjan cups, leaving the grounds behind.",
-    "Serve immediately with fresh dates if desired."
+    "اجعل الماء يغلي بدرجة هادئة في دلة قهوة تقليدية أو قدر صغير.",
+    "خفف النار إلى هادئة.",
+    "أضف القهوة العربية المطحونة وحرك ببطء.",
+    "اترك القهوة تغلي على نار هادئة لمدة 8–10 دقائق دون أن تغلي بشدة.",
+    "أضف الهيل المطحون خلال الدقيقة الأخيرة من الغليان.",
+    "ارفعها عن النار واترك الرواسب تستقر لمدة 1–2 دقيقة.",
+    "صب القهوة بحرص في فناجين صغيرة، مع ترك الرواسب في الأسفل.",
+    "قدمها فوراً مع التمر الطازج حسب الرغبة."
   ],
   "healthBenefits": [
-    "Naturally low in calories",
-    "Contains antioxidants from coffee beans",
-    "Cardamom adds aromatic flavor without sugar",
-    "Naturally dairy-free",
-    "Traditionally enjoyed without sweeteners",
-    "May help improve alertness due to its caffeine content",
-    "An authentic part of Middle Eastern hospitality"
+    "منخفضة السعرات الحرارية طبيعياً",
+    "تحتوي على مضادات الأكسدة من حبوب البن",
+    "يضيف الهيل نكهة عطرية بدون سكر",
+    "خالية من منتجات الألبان طبيعياً",
+    "يُستمتع بها تقليدياً بدون محليات",
+    "قد تساعد في تحسين اليقظة بفضل محتواها من الكافيين",
+    "جزء أصيل من الضيافة الشرق أوسطية"
   ],
   "keywords": [
-    "Arabic Coffee",
-    "Ahwa",
-    "Lebanese Coffee",
-    "Middle Eastern Coffee",
-    "Traditional Arabic Coffee"
+    "قهوة عربية",
+    "قهوة",
+    "قهوة لبنانية",
+    "قهوة شرق أوسطية",
+    "قهوة عربية تقليدية"
   ],
   "tags": [
-    "drink",
-    "coffee",
-    "Arabic",
-    "Lebanese",
-    "traditional",
-    "cardamom",
-    "Middle Eastern",
-    "dairy-free"
+    "مشروب",
+    "قهوة",
+    "عربي",
+    "لبناني",
+    "تقليدي",
+    "هيل",
+    "شرق أوسطي",
+    "خالي من الألبان"
   ]
 };
 

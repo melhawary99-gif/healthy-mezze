@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "b4b045849069b6a130733cacdafc2510199aac496cba9a60358f0311bb3edbe1";
+
 const translation: RecipeTranslation = {
   "title": "Classic Toum (Lebanese Garlic Sauce)",
   "description": "A creamy, fluffy Lebanese garlic sauce made with fresh garlic, lemon juice, avocado oil, and aquafaba for a lighter, healthier twist.",

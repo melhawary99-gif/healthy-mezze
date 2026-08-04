@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "71e5194a46e5a752462520f97dbddbdc458ff31ee9e9a652ff4c1ecc9c425f18";
+
 const translation: RecipeTranslation = {
   "title": "Cheese Fatayer",
   "description": "Soft whole wheat pastries filled with a delicious blend of Akkawi cheese, reduced-fat mozzarella, fresh parsley, and nigella seeds. A healthier version of a classic Lebanese bakery favorite.",

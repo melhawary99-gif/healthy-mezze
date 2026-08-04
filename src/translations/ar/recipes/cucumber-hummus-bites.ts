@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "3ba0423feaa1938844ba5eea4b8b970407c07820f4069d989476eb15812e2ace";
+
 const translation: RecipeTranslation = {
   "title": "Cucumber Hummus Bites",
   "description": "Fresh cucumber rounds topped with creamy hummus, cherry tomatoes, feta cheese, olives, and herbs for a refreshing Mediterranean snack or appetizer.",

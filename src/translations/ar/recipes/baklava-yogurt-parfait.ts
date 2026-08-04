@@ -1,55 +1,57 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "23d62598a6dfeb93ea537c9686a573da6f0de7ff0f4567b5ac23e78673a0b21c";
+
 const translation: RecipeTranslation = {
-  "title": "Baklava-Inspired Yogurt Parfait",
-  "description": "A healthier twist on traditional baklava featuring creamy Greek yogurt layered with walnuts, pistachios, dates, honey, fresh berries, and warm cinnamon flavors.",
+  "title": "بارفيه الزبادي المستوحى من البقلاوة",
+  "description": "لمسة صحية أكثر على البقلاوة التقليدية تتميز بطبقات من الزبادي اليوناني الكريمي مع الجوز، الفستق، التمر، العسل، التوت الطازج، ونكهة القرفة الدافئة.",
   "longDescription": "",
   "ingredients": [
-    "Greek yogurt",
-    "Walnuts",
-    "Pistachios",
-    "Honey",
-    "Cinnamon",
-    "Dates",
-    "Fresh berries",
-    "Vanilla extract",
-    "Crushed almonds"
+    "زبادي يوناني",
+    "جوز",
+    "فستق",
+    "عسل",
+    "قرفة",
+    "تمر",
+    "توت طازج",
+    "خلاصة الفانيليا",
+    "لوز مجروش"
   ],
   "instructions": [
-    "Mix the Greek yogurt with the vanilla extract until smooth.",
-    "Roughly chop the walnuts, pistachios, dates, and almonds.",
-    "Spoon a layer of Greek yogurt into each serving glass.",
-    "Add a layer of chopped dates and mixed nuts.",
-    "Top with a handful of fresh berries.",
-    "Drizzle lightly with honey.",
-    "Repeat the layers until the glasses are full.",
-    "Sprinkle with ground cinnamon.",
-    "Finish with extra pistachios and almonds on top.",
-    "Chill for 15 minutes before serving for the best flavor."
+    "اخلط الزبادي اليوناني مع خلاصة الفانيليا حتى يصبح ناعماً.",
+    "اقطع الجوز والفستق والتمر واللوز تقطيعاً خشناً.",
+    "ضع طبقة من الزبادي اليوناني بالملعقة في كل كوب تقديم.",
+    "أضف طبقة من التمر المقطع والمكسرات المشكلة.",
+    "ضَع حفنة من التوت الطازج على الوجه.",
+    "اسكب القليل من العسل بخفة.",
+    "كرر الطبقات حتى تمتلئ الأكواب.",
+    "رش القرفة المطحونة.",
+    "زَيّن الوجه بمزيد من الفستق واللوز.",
+    "برّده في الثلاجة لمدة 15 دقيقة قبل التقديم للحصول على أفضل نكهة."
   ],
   "healthBenefits": [
-    "Excellent source of protein",
-    "Rich in healthy fats from nuts",
-    "Contains calcium for strong bones",
-    "Provides antioxidants from berries",
-    "Supports heart health",
-    "Offers sustained energy"
+    "مصدر ممتاز للبروتين",
+    "غني بالدهون الصحية من المكسرات",
+    "يحتوي على الكالسيوم لعظام قوية",
+    "يوفر مضادات الأكسدة من التوت",
+    "يدعم صحة القلب",
+    "يوفر طاقة مستدامة"
   ],
   "keywords": [
-    "Baklava Yogurt Parfait",
-    "Healthy Baklava Dessert",
-    "Greek Yogurt Parfait",
-    "Mediterranean Dessert",
-    "Healthy Middle Eastern Dessert",
-    "Easy Yogurt Parfait"
+    "بارفيه الزبادي بالبقلاوة",
+    "حلوى البقلاوة الصحية",
+    "بارفيه الزبادي اليوناني",
+    "حلوى البحر الأبيض المتوسط",
+    "حلوى شرقية صحية",
+    "بارفيه الزبادي السهل"
   ],
   "tags": [
-    "Dessert",
-    "Greek Yogurt",
-    "Mediterranean",
-    "Healthy",
-    "Baklava",
-    "Parfait"
+    "حلويات",
+    "زبادي يوناني",
+    "بحر أبيض متوسط",
+    "صحي",
+    "بقلاوة",
+    "بارفيه"
   ]
 };
 

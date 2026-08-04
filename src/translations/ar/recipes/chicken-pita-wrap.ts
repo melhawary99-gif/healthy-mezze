@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "d19a93a461db888bd3d80231db03567c062d54bac71d2bc6d85dee08cc34f4cd";
+
 const translation: RecipeTranslation = {
   "title": "Chicken Pita Wrap",
   "description": "A flavorful Mediterranean pita wrap packed with juicy grilled chicken, crisp vegetables, fresh herbs, and creamy yogurt sauce for a satisfying and healthy meal.",

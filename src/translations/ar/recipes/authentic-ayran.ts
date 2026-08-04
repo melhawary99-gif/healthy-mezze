@@ -1,51 +1,53 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "fd1deb611cb04b75b1484f35fb636eb447f1f8b621111aa1dba7234c878cdaad";
+
 const translation: RecipeTranslation = {
-  "title": "Authentic Ayran (Laban Ayran)",
-  "description": "A refreshing traditional yogurt drink made with plain yogurt, cold water, sea salt, and fresh mint.",
-  "longDescription": "Ayran, known as Laban Ayran in Lebanon, is a traditional yogurt-based drink enjoyed throughout the Middle East. Served ice cold, it is commonly paired with grilled meats, shawarma, kebabs, falafel, and mezze. This authentic recipe combines creamy yogurt, chilled water, sea salt, and optional fresh mint to create a refreshing beverage that's naturally high in protein and probiotics.",
+  "title": "عيران أصلي (لبن عيران)",
+  "description": "مشروب زبادي تقليدي منعش مصنوع من الزبادي السادة، والماء البارد، وملح البحر، والنعناع الطازج.",
+  "longDescription": "العيران، المعروف باسم لبن عيران في لبنان، هو مشروب تقليدي يعتمد على الزبادي ويُستمتع به في جميع أنحاء الشرق الأوسط. يُقدم مثلجاً، وعادة ما يُتناول مع اللحوم المشوية، والشاورما، والكباب، والفلافل، والمقبلات. تجمع هذه الوصفة الأصلية بين الزبادي الكريمي، والماء المثلج، وملح البحر، والنعناع الطازج الاختياري لإعداد مشروب منعش غني طبيعياً بالبروتين والبروبيوتيك.",
   "ingredients": [
-    "plain Greek yogurt",
-    "ice-cold water",
-    "sea salt",
-    "ice cubes",
-    "finely chopped fresh mint (optional)",
-    "Fresh mint sprigs for garnish"
+    "زبادي يوناني سادة",
+    "ماء مثلج",
+    "ملح البحر",
+    "مكعبات ثلج",
+    "نعناع طازج مفروم ناعماً (اختياري)",
+    "أغصان نعناع طازجة للتزيين"
   ],
   "instructions": [
-    "Add the yogurt, cold water, and sea salt to a blender.",
-    "Blend for 30–60 seconds until completely smooth and frothy.",
-    "Stir in the chopped mint if using.",
-    "Taste and adjust the salt if desired.",
-    "Pour into chilled serving glasses over ice.",
-    "Garnish with fresh mint sprigs.",
-    "Serve immediately."
+    "أضف الزبادي، والماء البارد، وملح البحر إلى الخلاط.",
+    "اخفق لمدة 30–60 ثانية حتى يصبح المزيج ناعماً ورغوياً بالكامل.",
+    "أضف النعناع المفروم مع التحريك في حال استخدامه.",
+    "تذوق واضبط كمية الملح حسب الرغبة.",
+    "اسكب المشروب في كؤوس تقديم مبردة فوق الثلج.",
+    "زيّن بأغصان النعناع الطازجة.",
+    "قَدّمه فوراً."
   ],
   "healthBenefits": [
-    "Excellent source of protein",
-    "Rich in calcium for healthy bones",
-    "Contains beneficial probiotics from yogurt",
-    "Naturally hydrating",
-    "Supports digestion",
-    "Low in added sugar",
-    "A refreshing accompaniment to savory meals"
+    "مصدر ممتاز للبروتين",
+    "غني بالكالسيوم لصحة العظام",
+    "يحتوي على البروبيوتيك المفيد من الزبادي",
+    "مرطب للجسم بشكل طبيعي",
+    "يدعم عملية الهضم",
+    "منخفض السكر المضاف",
+    "مرافق منعش للوجبات المالحة"
   ],
   "keywords": [
-    "Ayran",
-    "Laban Ayran",
-    "Lebanese Yogurt Drink",
-    "Middle Eastern Drink",
-    "Healthy Yogurt Beverage"
+    "عيران",
+    "لبن عيران",
+    "مشروب زبادي لبناني",
+    "مشروب شرق أوسطي",
+    "مشروب زبادي صحي"
   ],
   "tags": [
-    "drink",
-    "Lebanese",
-    "ayran",
-    "yogurt",
-    "healthy",
-    "traditional",
-    "high-protein",
-    "vegetarian"
+    "مشروب",
+    "لبناني",
+    "عيران",
+    "زبادي",
+    "صحي",
+    "تقليدي",
+    "غني بالبروتين",
+    "نباتي"
   ]
 };
 

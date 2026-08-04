@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "5efd729ab2ff30f4d695020b89a5268531ae974f9d3dc071d8ec6cf74ede017a";
+
 const translation: RecipeTranslation = {
   "title": "Sumac Onion Salad",
   "description": "A traditional Lebanese onion relish made with red onions, fresh parsley, sumac, lemon juice, and olive oil.",

@@ -1,67 +1,69 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "37cf290be5e4f48da99e450129851f571732a47a8cd2c31687fca4b664ad66aa";
+
 const translation: RecipeTranslation = {
-  "title": "Cauliflower Steaks with Lemon Tahini Sauce",
-  "description": "Thick roasted cauliflower steaks topped with creamy lemon tahini sauce, toasted pine nuts, fresh herbs, and warm Mediterranean spices.",
-  "longDescription": "Cauliflower Steaks with Lemon Tahini Sauce transform humble cauliflower into a satisfying Mediterranean-inspired main course. Thick slices of cauliflower are roasted until golden and tender, then drizzled with a creamy tahini sauce flavored with fresh lemon and garlic. Finished with toasted pine nuts, parsley, and paprika, this vegetarian dish is rich in fiber, healthy fats, and plant-based nutrients.",
+  "title": "شرائح القرنبيط المشوية مع صلصة الطحينة بالليمون",
+  "description": "شرائح قرنبيط سميكة مشوية يعلوها صلصة الطحينة بالليمون الكثيفة، والصنوبر المحمص، والأعشاب الطازجة، وتوابل البحر الأبيض المتوسط الدافئة.",
+  "longDescription": "تحول شرائح القرنبيط مع صلصة الطحينة بالليمون نبات القرنبيط البسيط إلى طبق رئيسي مشبع مستوحى من مطبخ البحر الأبيض المتوسط. تُشوى شرائح القرنبيط السميكة حتى تكتسب لوناً ذهبياً وتصبح طرية، ثم يُسكب عليها صلصة الطحينة الكثيفة المنكهة بالليمون الطازج والثوم. يُزين الطبق بالصنوبر المحمص والبقدونس والبابريكا، وهو طبق نباتي غني بالألياف والدهون الصحية والمغذيات النباتية.",
   "ingredients": [
-    "Large cauliflower",
-    "extra virgin olive oil",
-    "paprika",
-    "ground cumin",
-    "garlic powder",
-    "sea salt",
-    "black pepper",
-    "For the Tahini Sauce:",
-    "tahini",
-    "fresh lemon juice",
-    "clove, minced",
-    "water",
-    "extra virgin olive oil",
-    "For Garnish:",
-    "toasted pine nuts",
-    "chopped fresh parsley",
-    "Pinch of smoked paprika"
+    "رأس قرنبيط كبير",
+    "زيت زيتون بكر ممتاز",
+    "بابريكا",
+    "كمون مطحون",
+    "بودرة ثوم",
+    "ملح البحر",
+    "ففل أسود",
+    "لصلصة الطحينة:",
+    "طحينة",
+    "عصير ليمون طازج",
+    "فص ثوم مفروم",
+    "ماء",
+    "زيت زيتون بكر ممتاز",
+    "لتزيين الطبق:",
+    "صنوبر محمص",
+    "بقدونس طازج مفروم",
+    "رشة بابريكا مدخنة"
   ],
   "instructions": [
-    "Preheat the oven to 220°C (425°F).",
-    "Remove the outer leaves from the cauliflower while keeping the stem intact.",
-    "Slice the cauliflower into 1-inch thick steaks.",
-    "Brush both sides with olive oil.",
-    "Season with paprika, cumin, garlic powder, salt, and pepper.",
-    "Arrange on a parchment-lined baking tray.",
-    "Roast for 20 minutes.",
-    "Carefully flip each steak and roast another 15 minutes until golden and tender.",
-    "Meanwhile whisk together the tahini, lemon juice, garlic, olive oil, and water until smooth.",
-    "Transfer the roasted cauliflower steaks to serving plates.",
-    "Drizzle generously with the lemon tahini sauce.",
-    "Top with toasted pine nuts, chopped parsley, and a pinch of smoked paprika before serving."
+    "سخن الفرن مسبقاً على درجة حرارة 220 مئوية (425 فهرنهايت).",
+    "أزل الأوراق الخارجية من القرنبيط مع الحفاظ على الساق سليماً.",
+    "قطّع القرنبيط إلى شرائح بسُمك 1 بوصة.",
+    "ادهن كلا الجانبين بزيت الزيتون.",
+    "تبّل بالبابريكا، والكمون، وبودرة الثوم، والملح، والفلفل الأسود.",
+    "رتب الشرائح على صينية خبز مغطاة بورق زبدة.",
+    "اخبز في الفرن لمدة 20 دقيقة.",
+    "اقلب كل شريحة بحذر واخبز لمدة 15 دقيقة أخرى حتى تكتسب لوناً ذهبياً وتصبح طرية.",
+    "في هذه الأثناء، اخفق الطحينة وعصير الليمون والثوم وزيت الزيتون والماء معاً حتى يصبح الخليط ناعماً.",
+    "انقل شرائح القرنبيط المشوية إلى أطباق التقديم.",
+    "اسكب صلصة الطحينة بالليمون بسخاء.",
+    "زيّن بالصنوبر المحمص، والبقدونس المفروم، ورشة من البابريكا المدخنة قبل التقديم."
   ],
   "healthBenefits": [
-    "Excellent source of dietary fiber",
-    "Rich in antioxidants",
-    "Provides vitamin C and vitamin K",
-    "Contains heart-healthy fats from olive oil and tahini",
-    "Supports digestive health",
-    "Naturally gluten-free",
-    "Mediterranean diet friendly"
+    "مصدر ممتاز للألياف الغذائية",
+    "غني بمضادات الأكسدة",
+    "يوفر فيتامين C وفيتامين K",
+    "يحتوي على دهون مفيدة لصحة القلب من زيت الزيتون والطحينة",
+    "يدعم صحة الجهاز الهضمي",
+    "خالٍ من الغلوتين طبيعياً",
+    "مناسب لنظام حمية البحر الأبيض المتوسط"
   ],
   "keywords": [
-    "Cauliflower Steaks",
-    "Tahini Sauce",
-    "Roasted Cauliflower",
-    "Mediterranean Vegetarian",
-    "Healthy Vegetarian Dinner"
+    "شرائح القرنبيط",
+    "صلصة الطحينة",
+    "قرنبيط مشوي",
+    "نباتي متوسطي",
+    "عشاء نباتي صحي"
   ],
   "tags": [
-    "vegetarian",
-    "Mediterranean",
-    "Lebanese",
-    "cauliflower",
-    "tahini",
-    "healthy",
-    "gluten free",
-    "oven roasted"
+    "نباتي",
+    "متوسطي",
+    "لبناني",
+    "قرنبيط",
+    "طحينة",
+    "صحي",
+    "خالٍ من الغلوتين",
+    "مشوي بالفرن"
   ]
 };
 

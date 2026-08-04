@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "3ac5f9116320aa7b53e38e3c046666046af7ee7d566adde645d59ef55871710d";
+
 const translation: RecipeTranslation = {
   "title": "Olive Tapenade with Whole Grain Crackers",
   "description": "A savory Mediterranean olive spread made with Kalamata olives, green olives, capers, garlic, herbs, and extra virgin olive oil. Perfect with whole grain crackers or fresh vegetables.",

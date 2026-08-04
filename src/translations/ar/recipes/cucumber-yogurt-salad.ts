@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "5b6d6f077956daa1a8b0b8e40e8188cbc3a8d322b3689083e2af172b6d7e0d4f";
+
 const translation: RecipeTranslation = {
   "title": "Cucumber Yogurt Salad",
   "description": "A refreshing Mediterranean cucumber yogurt salad with fresh dill, mint, garlic, and creamy Greek yogurt.",

@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "0e12593422ba2f0cba7223cd2a522c27034d31aedd556bbaf269a99457f2ea56";
+
 const translation: RecipeTranslation = {
   "title": "Classic Tahini Sauce",
   "description": "A creamy Middle Eastern sauce made with tahini, fresh lemon juice, garlic, parsley, and olive oil.",

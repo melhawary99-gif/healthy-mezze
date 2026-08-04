@@ -1,51 +1,53 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "cd4e2f976fb6a7d80dd0dcf70f6ddbbb9a898da9e501ea7131746cba99a4dd0a";
+
 const translation: RecipeTranslation = {
-  "title": "Authentic Lebanese Mint Tea (Shai bil Nana)",
-  "description": "A traditional Lebanese black tea infused with fresh mint leaves and lightly sweetened with honey.",
-  "longDescription": "Shai bil Nana, or Lebanese Mint Tea, is one of the most popular hot beverages throughout Lebanon and the Levant. Fresh mint leaves are steeped alongside black tea to create a fragrant, refreshing drink that is commonly enjoyed after meals or served to guests. This healthier version uses a small amount of honey as an optional sweetener while preserving the authentic flavor and aroma.",
+  "title": "شاي بالنعناع لبناني أصيل (شاي بالنعناع)",
+  "description": "شاي أسود لبناني تقليدي منقوع بأوراق النعناع الطازجة ومُحلى بقليل من العسل.",
+  "longDescription": "يُعد الشاي بالنعناع، أو الشاي اللبناني بالنعناع، من أكثر المشروبات الساخنة شعبية في جميع أنحاء لبنان وبلاد الشام. تُنقع أوراق النعناع الطازجة مع الشاي الأسود لإعداد مشروب عطري ومنعش يُتناول عادةً بعد الوجبات أو يُقدم للضيوف. تستخدم هذه النسخة الأكثر صحة كمية صغيرة من العسل كمُحلٍ اختياري مع الحفاظ على النكهة والرائحة الأصليتين.",
   "ingredients": [
-    "water",
-    "tea bags (or 4 tsp loose black tea)",
-    "Large handful fresh mint leaves",
-    "honey (optional)",
-    "Fresh mint sprigs for garnish"
+    "ماء",
+    "أكياس شاي (أو 4 ملاعق صغيرة من الشاي الأسود الفرط)",
+    "حفنة كبيرة من أوراق النعناع الطازجة",
+    "عسل (اختياري)",
+    "عروق نعناع طازجة للتزيين"
   ],
   "instructions": [
-    "Bring the water to a boil in a saucepan or kettle.",
-    "Remove from the heat and add the black tea.",
-    "Steep for 3–4 minutes.",
-    "Add the fresh mint leaves and steep for another 2–3 minutes.",
-    "Remove the tea bags or strain the loose tea and mint leaves.",
-    "Stir in the honey if desired.",
-    "Pour into heatproof glasses or teacups.",
-    "Garnish with fresh mint sprigs and serve hot."
+    "سخن الماء حتى الغليان في قدر أو غلاية.",
+    "ارفعه عن النار وأضف الشاي الأسود.",
+    "اتركه ينقع لمدة 3–4 دقائق.",
+    "أضف أوراق النعناع الطازجة واتركه ينقع لمدة 2–3 دقائق أخرى.",
+    "أزل أكياس الشاي أو صفّ الشاي الفرط وأوراق النعناع.",
+    "حرك العسل مع المشروب حسب الرغبة.",
+    "اسكبه في أكواب مقاومة للحرارة أو أكواب شاي.",
+    "زيّنه بعروق النعناع الطازجة وقدّمه ساخناً."
   ],
   "healthBenefits": [
-    "Naturally rich in antioxidants from black tea",
-    "Fresh mint may help support healthy digestion",
-    "Naturally low in calories",
-    "Contains no dairy",
-    "Hydrating and comforting",
-    "Uses only a small amount of natural sweetener",
-    "Traditionally served after meals"
+    "غني طبيعياً بمضادات الأكسدة من الشاي الأسود",
+    "قد يساعد النعناع الطازج في دعم عملية الهضم الصحية",
+    "قليل السعرات الحرارية طبيعياً",
+    "خالٍ من منتجات الألبان",
+    "مرطب ومريح",
+    "يستخدم كمية صغيرة فقط من المُحلي الطبيعي",
+    "يُقدم تقليدياً بعد الوجبات"
   ],
   "keywords": [
-    "Lebanese Mint Tea",
-    "Shai bil Nana",
-    "Middle Eastern Tea",
-    "Mint Tea",
-    "Traditional Lebanese Drink"
+    "شاي بالنعناع لبناني",
+    "شاي بالنعناع",
+    "شاي شرقي",
+    "شاي بالنعناع",
+    "مشروب لبناني تقليدي"
   ],
   "tags": [
-    "drink",
-    "tea",
-    "Lebanese",
-    "mint",
-    "traditional",
-    "healthy",
-    "hot drink",
-    "vegan"
+    "مشروب",
+    "شاي",
+    "لبناني",
+    "نعناع",
+    "تقليدي",
+    "صحي",
+    "مشروب ساخن",
+    "نباتي خضري"
   ]
 };
 

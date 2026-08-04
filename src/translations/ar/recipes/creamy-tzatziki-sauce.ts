@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "b3ac28c9bf922e8495ad0151bd7d20b086b9c78b0bde51a632bc643b0e2a4b0c";
+
 const translation: RecipeTranslation = {
   "title": "Creamy Tzatziki Sauce",
   "description": "A refreshing Greek yogurt dip with cucumber, garlic, dill, lemon, and olive oil that pairs perfectly with grilled meats, vegetables, and pita.",

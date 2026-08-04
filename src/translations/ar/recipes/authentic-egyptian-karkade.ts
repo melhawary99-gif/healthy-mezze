@@ -1,53 +1,55 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "aad196967cc92bc66320306250940a0b43548e1f0799105b62f3b19d4e701e39";
+
 const translation: RecipeTranslation = {
-  "title": "Authentic Egyptian Karkade (Hibiscus Tea)",
-  "description": "A refreshing traditional Egyptian hibiscus tea served hot or cold with honey and fresh lemon.",
-  "longDescription": "Karkade is one of Egypt's most famous traditional drinks and is enjoyed throughout the year, especially during Ramadan and the hot summer months. Made by steeping dried hibiscus flowers, it produces a vibrant ruby-red beverage with a naturally tart flavor. This healthier version uses a small amount of honey instead of refined sugar while preserving its authentic taste.",
+  "title": "كركديه مصري أصيل (شاي الكركديه)",
+  "description": "شاي كركديه مصري تقليدي ومنعش يُقدَّم ساخناً أو بارداً مع العسل والليمون الطازج.",
+  "longDescription": "يُعتبر الكركديه من أشهر المشروبات التقليدية في مصر، ويُستمتع به على مدار العام، وخاصة خلال شهر رمضان وأشهر الصيف الحارة. يُحضر عن طريق نقع أزهار الكركديه المجففة، لينتج مشروباً باللون الأحمر الياقوتي الزاهي وبنكهة حمضية طبيعية. تستخدم هذه النسخة الأكثر صحة كمية قليلة من العسل بدلاً من السكر المكرر مع الحفاظ على طعمه الأصيل.",
   "ingredients": [
-    "dried hibiscus flowers",
-    "water",
-    "honey",
-    "fresh lemon juice",
-    "Ice cubes (for serving cold)",
-    "Lemon slices for garnish",
-    "Fresh mint leaves (optional)"
+    "أزهار كركديه مجففة",
+    "ماء",
+    "عسل",
+    "عصير ليمون طازج",
+    "مكعبات ثلج (للتقديم بارداً)",
+    "شرائح ليمون للتزيين",
+    "أوراق نعناع طازجة (اختياري)"
   ],
   "instructions": [
-    "Bring the water to a boil in a saucepan.",
-    "Remove from the heat and add the dried hibiscus flowers.",
-    "Cover and steep for 10 minutes.",
-    "Strain the tea into a pitcher.",
-    "Stir in the honey while the tea is still warm.",
-    "Add the lemon juice and mix well.",
-    "Serve warm, or chill in the refrigerator.",
-    "For iced Karkade, pour over ice and garnish with lemon slices and mint."
+    "أغلِ الماء في قدر.",
+    "ارفع القدر عن النار وأضف أزهار الكركديه المجففة.",
+    "غطِّ القدر واتركه ينقع لمدة 10 دقائق.",
+    "صفِّ الشاي في إبريق.",
+    "قلّب العسل في الشاي بينما لا يزال دافئاً.",
+    "أضف عصير الليمون واخلط جيداً.",
+    "قَدِّمه دافئاً، أو برّده في الثلاجة.",
+    "للحصول على كركديه مثلج، صبّه فوق الثلج وزيّنه بشرائح الليمون والنعناع."
   ],
   "healthBenefits": [
-    "Rich in natural antioxidants",
-    "Naturally caffeine-free",
-    "Provides vitamin C from fresh lemon",
-    "Hydrating and refreshing",
-    "Lower in sugar than many commercial beverages",
-    "Contains plant compounds traditionally associated with heart health",
-    "Suitable served hot or cold"
+    "غني بمضادات الأكسدة الطبيعية",
+    "خالٍ من الكافيين طبيعياً",
+    "يمد الجسم بفيتامين ج من الليمون الطازج",
+    "مرطب ومنعش",
+    "يحتوي على نسبة سكر أقل من العديد من المشروبات التجارية",
+    "يحتوي على مركبات نباتية ترتبط تقليدياً بصحة القلب",
+    "مناسب للتقديم ساخناً أو بارداً"
   ],
   "keywords": [
-    "Karkade",
-    "Egyptian Hibiscus Tea",
-    "Healthy Hibiscus Drink",
-    "Traditional Egyptian Beverage",
-    "Ramadan Drink"
+    "كركديه",
+    "شاي الكركديه المصري",
+    "مشروب الكركديه الصحي",
+    "مشروب مصري تقليدي",
+    "مشروب رمضاني"
   ],
   "tags": [
-    "drink",
-    "Egyptian",
-    "hibiscus",
-    "karkade",
-    "healthy",
-    "tea",
-    "Ramadan",
-    "vegetarian"
+    "مشروب",
+    "مصري",
+    "كركديه",
+    "الكركديه",
+    "صحي",
+    "شاي",
+    "رمضان",
+    "نباتي"
   ]
 };
 

@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "14145124d30f65b79bb90c7da18a89c3d8018af32bafa52775023866e0883dd0";
+
 const translation: RecipeTranslation = {
   "title": "Healthy Date & Walnut Ma'amoul",
   "description": "Soft whole wheat Ma'amoul cookies filled with naturally sweet Medjool dates, walnuts, cinnamon, and lightly scented with orange blossom water.",

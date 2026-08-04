@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "d447d2da259db1972fa5636219493bb0e475ca60bdaf6420771fc580f3e911d6";
+
 const translation: RecipeTranslation = {
   "title": "Za'atar Roasted Mixed Nuts",
   "description": "A crunchy blend of roasted almonds, walnuts, pistachios, and cashews seasoned with fragrant za'atar, olive oil, sesame seeds, and Mediterranean spices.",

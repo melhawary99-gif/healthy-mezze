@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "176e6d0e2d867de3733680bcc217b5ae2410b622df9430e234210f8bbbe33100";
+
 const translation: RecipeTranslation = {
   "title": "Creamy Chickpea Soup",
   "description": "A creamy Mediterranean chickpea soup with vegetables, garlic, cumin, and fresh lemon.",

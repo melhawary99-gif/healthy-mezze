@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "c185f549bf0fb83f8f7d0b4e4b0e56bfa98129fc74eae241f8c702536974d3d6";
+
 const translation: RecipeTranslation = {
   "title": "Warak Enab (Stuffed Grape Leaves)",
   "description": "Tender grape leaves stuffed with seasoned rice, fresh herbs, tomatoes, onions, and aromatic spices, gently simmered in a bright lemon broth. A classic Lebanese mezze enjoyed warm or cold.",

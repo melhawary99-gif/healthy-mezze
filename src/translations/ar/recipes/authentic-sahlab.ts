@@ -1,55 +1,57 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "ffb4108efb8901ac19c74e73688d3b8debe70aa4eeb6bea8433a0543cf414be4";
+
 const translation: RecipeTranslation = {
-  "title": "Authentic Sahlab (Healthy Version)",
-  "description": "A warm and creamy Middle Eastern milk drink flavored with orange blossom water, honey, cinnamon, pistachios, and coconut.",
-  "longDescription": "Sahlab is one of the Middle East's most cherished winter beverages, enjoyed throughout Egypt and Lebanon. Traditionally sold by street vendors during the colder months, this comforting drink is known for its velvety texture and fragrant aroma. This healthier version uses low-fat milk, honey instead of refined sugar, and authentic toppings of pistachios, shredded coconut, and cinnamon for a nourishing and satisfying drink.",
+  "title": "السحلب الأصلي (نسخة صحية)",
+  "description": "مشروب حليب دافئ وكريمي من الشرق الأوسط، منكه بماء الزهر، والعسل، والقرفة، والفستق الحلبي، وجوز الهند.",
+  "longDescription": "يُعتبر السحلب من أكثر المشروبات الشتوية المحبوبة في الشرق الأوسط، حيث يستمتع به الناس في جميع أنحاء مصر ولبنان. ويُباع هذا المشروب الدافئ والمريح تقليدياً من قبل الباعة الجوالين خلال الأشهر الأكثر برودة، ويتميز بقوامه المخملي ورائحته العطرة. تستخدم هذه النسخة الأكثر صحة حليباً قليل الدسم، والعسل بدلاً من السكر المكرر، وإضافات أصلية من الفستق الحلبي، وجوز الهند المبشور، والقرفة لمشروب مغذٍ ومُرضٍ.",
   "ingredients": [
-    "low-fat milk",
-    "sahlab powder",
-    "honey",
-    "orange blossom water",
-    "vanilla extract",
-    "chopped pistachios",
-    "unsweetened shredded coconut",
-    "ground cinnamon",
-    "Ground cinnamon for garnish"
+    "حليب قليل الدسم",
+    "مسحوق السحلب",
+    "عسل",
+    "ماء الزهر",
+    "خلاصة الفانيليا",
+    "فستق حلبي مفروم",
+    "جوز هند مبشور غير محلى",
+    "قرفة مطحونة",
+    "قرفة مطحونة للتزيين"
   ],
   "instructions": [
-    "In a saucepan, whisk together the cold milk and sahlab powder until completely smooth.",
-    "Place over medium heat and stir constantly.",
-    "Cook until the mixture thickens to a creamy consistency, about 8–10 minutes.",
-    "Stir in the honey, vanilla extract, and orange blossom water.",
-    "Remove from the heat.",
-    "Pour into serving mugs.",
-    "Top with chopped pistachios, shredded coconut, and ground cinnamon.",
-    "Serve immediately while warm."
+    "في قدر، اخلط الحليب البارد ومسحوق السحلب بالمضرب حتى يصبح المزيج ناعماً تماماً.",
+    "ضعه على نار متوسطة وقلّب باستمرار.",
+    "اطهطه حتى يثخن المزيج ويصل إلى قوام كريمي، لمدة 8–10 دقائق تقريباً.",
+    "أضف العسل، وخلاصة الفانيليا، وماء الزهر مع التحريك.",
+    "ارفعه عن النار.",
+    "اصبه في أكواب التقديم.",
+    "زين الوجه بالفستق الحلبي المفروم، وجوز الهند المبشور، والقرفة المطحونة.",
+    "قدّمه فوراً وهو دافئ."
   ],
   "healthBenefits": [
-    "Excellent source of calcium",
-    "Provides high-quality protein",
-    "Lower in fat than traditional recipes",
-    "Naturally sweetened with honey",
-    "Pistachios contribute healthy fats and antioxidants",
-    "A warming, comforting beverage for cold weather",
-    "Contains authentic Middle Eastern flavors"
+    "مصدر ممتاز للكالسيوم",
+    "يوفر بروتيناً عالي الجودة",
+    "أقل في الدهون مقارنة بالوصفات التقليدية",
+    "محلى طبيعياً بالعسل",
+    "يساهم الفستق الحلبي في توفير دهون صحية ومضادات أكسدة",
+    "مشروب دافئ ومريح للطقس البارد",
+    "يحتوي على نكهات أصلية من الشرق الأوسط"
   ],
   "keywords": [
-    "Sahlab",
-    "Healthy Sahlab",
-    "Middle Eastern Milk Drink",
-    "Egyptian Drink",
-    "Lebanese Drink"
+    "سحلب",
+    "سحلب صحي",
+    "مشروب حليب من الشرق الأوسط",
+    "مشروب مصري",
+    "مشروب لبناني"
   ],
   "tags": [
-    "drink",
-    "Egyptian",
-    "Lebanese",
-    "sahlab",
-    "winter",
-    "healthy",
-    "vegetarian",
-    "milk"
+    "مشروب",
+    "مصري",
+    "لبناني",
+    "سحلب",
+    "شتاء",
+    "صحي",
+    "نباتي",
+    "حليب"
   ]
 };
 

@@ -1,64 +1,66 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "c2cd1d71bbb9e5340827c18a38681d2d8f401fad43296fb82e9732ec9c26855b";
+
 const translation: RecipeTranslation = {
-  "title": "Baked Falafel",
-  "description": "Crispy oven-baked falafel made with chickpeas, fresh herbs, garlic, onion, and warm Mediterranean spices. A healthier alternative to traditional fried falafel.",
-  "longDescription": "Baked Falafel delivers all the classic Mediterranean flavors without deep frying. Made with soaked chickpeas, parsley, cilantro, garlic, onion, cumin, coriander, and baked until perfectly crisp outside and tender inside, these falafel are rich in plant-based protein and fiber. Serve them with tahini sauce, hummus, fresh vegetables, or tucked into warm pita bread for a satisfying meal.",
+  "title": "فلافل مخبوزة",
+  "description": "فلافل مخبوزة في الفرن ومقرمشة مصنوعة من الحمص، الأعشاب الطازجة، الثوم، البصل، والتوابل المتوسطية الدافئة. بديل صحي أكثر للفلافل المقلية التقليدية.",
+  "longDescription": "تقدم الفلافل المخبوزة جميع النكهات المتوسطية الكلاسيكية دون الحاجة للقلي العميق. تُصنع من الحمص المنقوع، البقدونس، الكزبرة، الثوم، البصل، الكمون، والكزبرة الجافة، وتُخبز حتى تصبح مقرمشة تماماً من الخارج وطريّة من الداخل، كما أن أقراص الفلافل هذه غنية بالبروتين النباتي والألياف. قدّمها مع صوص الطحينة، الحمص، الخضار الطازجة، أو داخل خبز عربي دافئ لوجبة مشبعة.",
   "ingredients": [
-    "dried chickpeas, soaked overnight (do not use canned)",
-    "Small onion, roughly chopped",
-    "cloves",
-    "fresh parsley",
-    "fresh cilantro",
-    "ground cumin",
-    "ground coriander",
-    "paprika",
-    "baking powder",
-    "chickpea flour",
-    "olive oil",
-    "sea salt",
-    "black pepper",
-    "Cooking spray or extra olive oil for brushing"
+    "حمص مجفف، منقوع طوال الليل (لا تستخدم المعلب)",
+    "بصلة صغيرة، مفرومة خشناً",
+    "فصوص ثوم",
+    "بقدونس طازج",
+    "كزبرة طازجة",
+    "كمون مطحون",
+    "كزبرة جافة مطحونة",
+    "بابريكا",
+    "مسحوق الخبز (باكنج بودر)",
+    "دقيق الحمص",
+    "زيت زيتون",
+    "ملح بحري",
+    "فلفل أسود",
+    "رذاذ الطبخ أو زيت زيتون إضافي للدهن"
   ],
   "instructions": [
-    "Preheat the oven to 200°C (400°F).",
-    "Line a baking tray with parchment paper and lightly grease it.",
-    "Drain the soaked chickpeas thoroughly.",
-    "Add chickpeas, onion, garlic, parsley, cilantro, cumin, coriander, paprika, baking powder, chickpea flour, olive oil, salt, and pepper to a food processor.",
-    "Pulse until the mixture is finely chopped but not completely smooth.",
-    "Refrigerate the mixture for 30 minutes if it feels too soft.",
-    "Shape into approximately 18 small balls or patties.",
-    "Arrange them on the prepared baking tray.",
-    "Lightly brush or spray the tops with olive oil.",
-    "Bake for 15 minutes.",
-    "Carefully flip each falafel and bake another 12–15 minutes until crisp and golden.",
-    "Serve warm with tahini sauce, hummus, salad, or inside pita bread."
+    "سخن الفرن مسبقاً إلى 200°C (400°F).",
+    "بطّن صينية خبز بورق الزبدة وادهنها بقليل من الزيت.",
+    "صَفِّ الحمص المنقوع جيداً.",
+    "أضف الحمص، البصل، الثوم، البقدونس، الكزبرة، الكمون، الكزبرة الجافة، البابريكا، مسحوق الخبز، دقيق الحمص، زيت الزيتون، الملح، والفلفل إلى محضرة الطعام.",
+    "اضغط بفرَمات متقطعة حتى يُفرم الخليط ناعماً دون أن يصبح أملس تماماً.",
+    "ضع الخليط في الثلاجة لمدة 30 دقيقة إذا كان طرياً جداً.",
+    "شَكِّل الخليط إلى حوالي 18 كُرة صغيرة أو أقراص.",
+    "رُتِّبها على صينية الخبز المجهزة.",
+    "ادهن أو رش الجزء العلوي بقليل من زيت الزيتون.",
+    "اخبز لمدة 15 دقيقة.",
+    "اقلب كل قرص فلافل بحذر واخبز لمدة 12–15 دقيقة أخرى حتى يصبح مقرمشاً وذهبي اللون.",
+    "قدمها دافئة مع صوص الطحينة، الحمص، السلطة، أو داخل خبز عربي."
   ],
   "healthBenefits": [
-    "Excellent source of plant-based protein",
-    "High in dietary fiber",
-    "Rich in folate and iron",
-    "Supports digestive health",
-    "Lower in fat than fried falafel",
-    "Mediterranean diet friendly",
-    "Naturally dairy-free"
+    "مصدر ممتاز للبروتين النباتي",
+    "غني بالألياف الغذائية",
+    "غني بالفولات والحديد",
+    "يدعم صحة الجهاز الهضمي",
+    "يحتوي على نسبة دهون أقل من الفلافل المقلية",
+    "مناسب للنظام الغذائي المتوسطي",
+    "خالٍ من منتجات الألبان طبيعياً"
   ],
   "keywords": [
-    "Baked Falafel",
-    "Healthy Falafel",
-    "Mediterranean Chickpeas",
-    "Vegetarian Dinner",
-    "Plant Based Protein"
+    "فلافل مخبوزة",
+    "فلافل صحية",
+    "حمص على الطريقة المتوسطية",
+    "عشاء نباتي",
+    "بروتين نباتي"
   ],
   "tags": [
-    "vegetarian",
-    "vegan",
-    "Mediterranean",
-    "Lebanese",
-    "falafel",
-    "chickpeas",
-    "healthy",
-    "baked"
+    "نباتي",
+    "نباتي صرف",
+    "متوسطي",
+    "لبناني",
+    "فلافل",
+    "حمص",
+    "صحي",
+    "مخبوز"
   ]
 };
 

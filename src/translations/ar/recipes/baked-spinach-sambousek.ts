@@ -1,67 +1,69 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "dd05f43f4bf1c825beb509cd9f0603a51021b859d187d538568ee9e3fe81ea05";
+
 const translation: RecipeTranslation = {
-  "title": "Baked Spinach Sambousek",
-  "description": "Crispy baked Lebanese pastries filled with spinach, onions, parsley, lemon juice, and tangy sumac. A healthier version of the traditional fried sambousek.",
-  "longDescription": "Spinach Sambousek are popular throughout Lebanon and the Middle East. Traditionally fried, this healthier version is oven-baked until golden and crisp while maintaining the delicious savory filling. Fresh spinach is combined with onions, parsley, lemon juice, olive oil, and aromatic sumac, then wrapped in homemade whole wheat pastry and baked. They make an excellent appetizer, mezze, or light lunch.",
+  "title": "سمبوسك السبانخ المخبوز",
+  "description": "معجنات لبنانية مخبوزة ومقرمشة محشوة بالسبانخ، البصل، البقدونس، عصير الليمون، والسماق الحامض. نسخة صحية أكثر من السمبوسك التقليدي المقلي.",
+  "longDescription": "تحظى سمبوسك السبانخ بشعبية واسعة في جميع أنحاء لبنان والشرق الأوسط. تُقلى عادةً، ولكن هذه النسخة الصحية تُخبز في الفرن حتى تكتسب لوناً ذهبياً وقواماً مقرمشاً مع الحفاظ على الحشوة المتبلة اللذيذة. يُخلط السبانخ الطازج مع البصل، البقدونس، عصير الليمون، زيت الزيتون، والسماق العطري، ثم يُغلف بعجينة القمح الكامل المصنوعة منزلياً ويُخبز. وتعد هذه الفطائر مقبلات أو مازة ممتازة أو وجبة غداء خفيفة.",
   "ingredients": [
-    "whole wheat flour",
-    "all-purpose flour",
-    "2¼ tsp instant yeast",
-    "sugar",
-    "sea salt",
-    "warm water",
-    "extra virgin olive oil",
-    "fresh spinach, chopped",
-    "Medium onion, finely diced",
-    "fresh parsley, chopped",
-    "fresh mint, chopped",
-    "fresh lemon juice",
-    "ground sumac",
-    "ground allspice",
-    "black pepper",
-    "egg, lightly beaten (for brushing)"
+    "طحين القمح الكامل",
+    "طحين متعدد الاستعمالات",
+    "2¼ ملعقة صغيرة خميرة فورية",
+    "سكر",
+    "ملح البحر",
+    "ماء دافئ",
+    "زيت زيتون بكر ممتاز",
+    "سبانخ طازج، مفروم",
+    "بصلة متوسطة الحجم، مقطعة مكعبات صغيرة",
+    "بقدونس طازج، مفروم",
+    "نعناع طازج، مفروم",
+    "عصير ليمون طازج",
+    "سماق مطحون",
+    "بهار حلو مطحون",
+    "فلفل أسود",
+    "بيضة، مخفوقة خفيفاً (لدهن الوجه)"
   ],
   "instructions": [
-    "Mix the flours, yeast, sugar, and salt in a large bowl.",
-    "Add the warm water and olive oil and knead until smooth.",
-    "Cover and allow the dough to rise for 1 hour.",
-    "Meanwhile, combine the spinach, onion, parsley, mint, lemon juice, sumac, allspice, and black pepper.",
-    "Squeeze out any excess liquid from the spinach mixture.",
-    "Preheat the oven to 400°F (200°C).",
-    "Divide the dough into 12 equal portions.",
-    "Roll each portion into a small circle.",
-    "Place about 2 tablespoons of filling in the center.",
-    "Fold over to create a half-moon shape and firmly seal the edges.",
-    "Brush the tops lightly with beaten egg.",
-    "Bake for 20–22 minutes until golden brown.",
-    "Serve warm with lemon wedges."
+    "اخلط أنواع الطحين، الخميرة، السكر، والملح في وعاء كبير.",
+    "أضف الماء الدافئ وزيت الزيتون واعجن حتى تصبح العجينة ناعمة.",
+    "غطّ العجينة واتركها تتخمر لمدة 1 ساعة.",
+    "في هذه الأثناء، اخلط السبانخ، البصل، البقدونس، النعناع، عصير الليمون، السماق، البهار الحلو، والفلفل الأسود.",
+    "اعصر خليط السبانخ للتخلص من أي سوائل زائدة.",
+    "سخن الفرن مسبقاً إلى 400°F (200°C).",
+    "قسّم العجينة إلى 12 قطعة متساوية.",
+    "افرد كل قطعة على شكل دائرة صغيرة.",
+    "ضع حوالي 2 ملعقة كبيرة من الحشوة في المنتصف.",
+    "اطوِ العجينة لتشكيل نصف قمر وأغلق الحواف بإحكام.",
+    "ادهن السطح بخفة بالبيض المخفوق.",
+    "اخبز لمدة 20–22 دقيقة حتى تصبح ذهبية اللون.",
+    "قدمها دافئة مع شرائح الليمون."
   ],
   "healthBenefits": [
-    "Excellent source of vitamins A and K",
-    "Rich in antioxidants from spinach",
-    "Whole wheat pastry provides extra fiber",
-    "Baked instead of fried to reduce fat",
-    "Contains heart-healthy olive oil",
-    "Naturally vegetarian",
-    "Mediterranean diet friendly"
+    "مصدر ممتاز لفيتامينات A و K",
+    "غني بمضادات الأكسدة من السبانخ",
+    "عجينة القمح الكامل توفر أليافاً إضافية",
+    "مخبوزة بدلاً من المقلية لتقليل الدهون",
+    "تحتوي على زيت الزيتون المفيد لصحة القلب",
+    "نباتية طبيعياً",
+    "مناسبة لنظام الحمية المتوسطية"
   ],
   "keywords": [
-    "Spinach Sambousek",
-    "Lebanese Sambousek",
-    "Healthy Pastry",
-    "Mediterranean Appetizer",
-    "Baked Sambousek"
+    "سمبوسك السبانخ",
+    "سمبوسك لبناني",
+    "معجنات صحية",
+    "مقبلات متوسطية",
+    "سمبوسك مخبوز"
   ],
   "tags": [
-    "mezze",
-    "Lebanese",
-    "sambousek",
-    "spinach",
-    "baked",
-    "healthy",
-    "vegetarian",
-    "Mediterranean"
+    "مازة",
+    "لبناني",
+    "سمبوسك",
+    "سبانخ",
+    "مخبوز",
+    "صحي",
+    "نباتي",
+    "متوسطي"
   ]
 };
 

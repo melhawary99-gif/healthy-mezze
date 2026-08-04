@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "e5cf84cdf86175c6e15cf43773f31adb7372515880f1d3b93925ffcbb72d6408";
+
 const translation: RecipeTranslation = {
   "title": "Tarator Sauce",
   "description": "A classic Lebanese tahini sauce made with garlic, lemon juice, parsley, and sesame tahini. Perfect for seafood, falafel, shawarma, and grilled vegetables.",

@@ -1,5 +1,7 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "39873c0dc268fd471824412aeb540a93c565e8afcae8a7d2e776d1d0d6811398";
+
 const translation: RecipeTranslation = {
   "title": "Mediterranean Stuffed Portobello Mushrooms",
   "description": "Large Portobello mushrooms stuffed with spinach, quinoa, feta cheese, sun-dried tomatoes, and Mediterranean herbs, then baked until golden.",

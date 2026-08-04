@@ -1,67 +1,69 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "d2ea5d9b2a8bc7db39beb31b38ba145bace2fa4d493d83436cec3194526f3957";
+
 const translation: RecipeTranslation = {
-  "title": "Baked Kibbeh",
-  "description": "A healthier oven-baked version of traditional Lebanese kibbeh made with lean ground beef, fine bulgur wheat, onions, herbs, and aromatic Mediterranean spices.",
-  "longDescription": "Baked Kibbeh is one of Lebanon's most treasured national dishes. Unlike the fried version, this healthier recipe is baked until beautifully golden, reducing fat while preserving its rich flavor. Layers of seasoned lean beef and fine bulgur wheat surround a savory filling with onions and toasted pine nuts, creating a hearty meal that's packed with protein and Mediterranean goodness.",
+  "title": "كبة بالفرن",
+  "description": "نسخة صحية ومخبوزة بالفرن من الكبة اللبنانية التقليدية، مصنوعة من لحم البقر المفروم الخالي من الدهون، والبرغل الناعم، والبصل، والأعشاب، والبهارات المتوسطية العطرية.",
+  "longDescription": "تُعد الكبة بالفرن واحدة من أكثر الأطباق الوطنية القيمة في لبنان. وعلى عكس النسخة المقلية، تُخبز هذه الوصفة الأكثر صحة حتى تكتسب لوناً ذهبياً جميلاً، مما يقلل من الدهون مع الحفاظ على نكهتها الغنية. تحيط طبقات من لحم البقر الخالي من الدهون والمتبل مع البرغل الناعم بحشوة شهية من البصل والصنوبر المحمص، مما يبتكر وجبة مشبعة مليئة بالبروتين والخيرات المتوسطية.",
   "ingredients": [
-    "fine bulgur wheat",
-    "lean ground beef (90% lean), divided",
-    "Large onion, finely chopped",
-    "fresh parsley, finely chopped",
-    "fresh mint, chopped",
-    "pine nuts, lightly toasted",
-    "extra virgin olive oil",
-    "ground allspice",
-    "ground cumin",
-    "ground cinnamon",
-    "paprika",
-    "sea salt",
-    "black pepper",
-    "olive oil for brushing"
+    "برغل ناعم",
+    "لحم بقر مفروم خالي من الدهون (90% خالي من الدهون)، مقسم",
+    "بصلة كبيرة، مفرومة ناعماً",
+    "بقدونس طازج، مفروم ناعماً",
+    "نعناع طازج، مفروم",
+    "صنوبر، محمص خفيفاً",
+    "زيت زيتون بكر ممتاز",
+    "بهار حلو مطحون",
+    "كمون مطحون",
+    "قرفة مطحونة",
+    "بابريكا",
+    "ملح بحر",
+    "فلفل أسود",
+    "زيت زيتون للدهن"
   ],
   "instructions": [
-    "Soak the bulgur wheat in warm water for 20 minutes, then drain and squeeze out excess moisture.",
-    "Mix half of the ground beef with the bulgur, half the onion, parsley, mint, allspice, cumin, cinnamon, paprika, salt, and pepper.",
-    "Process the mixture in a food processor until smooth.",
-    "Cook the remaining onion in olive oil until softened.",
-    "Add the remaining ground beef and cook until browned.",
-    "Stir in the toasted pine nuts and cook for another 2 minutes.",
-    "Preheat the oven to 375°F (190°C).",
-    "Lightly grease a baking dish.",
-    "Press half of the kibbeh mixture into the bottom of the dish.",
-    "Spread the beef filling evenly over the base.",
-    "Cover with the remaining kibbeh mixture and smooth the surface.",
-    "Score the top into traditional diamond shapes.",
-    "Brush lightly with olive oil.",
-    "Bake for 40–45 minutes until golden brown.",
-    "Allow to rest for 10 minutes before serving."
+    "انقع البرغل في ماء دافئ لمدة 20 دقيقة، ثم صفه واعصره للتخلص من الرطوبة الزائدة.",
+    "اخلط نصف كمية اللحم المفروم مع البرغل، ونصف كمية البصل، والبقدونس، والنعناع، والبهار الحلو، والكمون، والقرفة، والبابريكا، والملح، والفلفل.",
+    "اضرب الخليط في محضرة الطعام حتى يصبح ناعماً.",
+    "اطبخ البصل المتبقي في زيت الزيتون حتى يذبل.",
+    "أضف اللحم المفروم المتبقي واطهه حتى يتغير لونه إلى البني.",
+    "أضف الصنوبر المحمص واطهه لمدة 2 دقيقة أخرى.",
+    "سخن الفرن مسبقاً إلى 375 درجة فهرنهايت (190 درجة مئوية).",
+    "ادهن صينية الخبز بقليل من الزيت.",
+    "اضغط نصف خليط الكبة في قاع الصينية.",
+    "افرد حشوة اللحم بالتساوي فوق القاعدة.",
+    "غطّها بخليط الكبة المتبقي وانسُم السطح.",
+    "قسّم السطح بسكين إلى أشكال معينة تقليدية.",
+    "ادهن السطح بخفة بزيت الزيتون.",
+    "اخبز لمدة 40–45 دقيقة حتى يصبح لونها بني ذهبي.",
+    "اتركها لترتاح لمدة 10 دقائق قبل التقديم."
   ],
   "healthBenefits": [
-    "Excellent source of lean protein",
-    "Rich in iron and vitamin B12",
-    "Bulgur provides whole-grain fiber",
-    "Baked instead of fried for less fat",
-    "Contains heart-healthy olive oil",
-    "Provides essential minerals including zinc",
-    "Mediterranean diet friendly"
+    "مصدر ممتاز للبروتين الخالي من الدهون",
+    "غني بالحديد وفيتامين B12",
+    "يوفر البرغل ألياف الحبوب الكاملة",
+    "مخبوزة بدلاً من القلي لنسبة دهون أقل",
+    "تحتوي على زيت الزيتون المفيد لصحة القلب",
+    "توفر المعادن الأساسية بما في ذلك الزنك",
+    "مناسبة لنظام الحمية المتوسطية"
   ],
   "keywords": [
-    "Baked Kibbeh",
-    "Healthy Kibbeh",
-    "Lebanese Kibbeh",
-    "Mediterranean Beef Recipe",
-    "Traditional Lebanese Food"
+    "كبة بالفرن",
+    "كبة صحية",
+    "كبة لبنانية",
+    "وصفة لحم بقر متوسطية",
+    "طعام لبناني تقليدي"
   ],
   "tags": [
-    "mezze",
-    "Lebanese",
-    "kibbeh",
-    "ground beef",
-    "bulgur",
-    "healthy",
-    "baked",
-    "Mediterranean"
+    "مقبلات",
+    "لبناني",
+    "كبة",
+    "لحم بقر مفروم",
+    "برغل",
+    "صحي",
+    "مخبوز",
+    "متوسطي"
   ]
 };
 

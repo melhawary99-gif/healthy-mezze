@@ -1,55 +1,57 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
+export const sourceHash = "b5e17e0b74a44ce61d82d0cd53bca67a9d119594e9fcf88812b99771c95c8ef1";
+
 const translation: RecipeTranslation = {
-  "title": "Authentic Carob Juice (Kharoub)",
-  "description": "A traditional Middle Eastern drink made from roasted carob pods, naturally sweet with rich caramel-like flavor and served chilled.",
-  "longDescription": "Kharoub, or Carob Juice, is a beloved beverage enjoyed across Egypt, Lebanon, and much of the Middle East, especially during Ramadan. Roasted carob pods create a naturally sweet, deep caramel-like flavor without caffeine. This healthier version relies primarily on the natural sweetness of carob while using only a small amount of honey if desired, making it a refreshing and wholesome traditional drink.",
+  "title": "عصير الخروب الأصلي",
+  "description": "مشروب شرق أوسطي تقليدي مصنوع من قرون الخروب المحمصة، حلو طبيعياً بنكهة غنية تشبه الكراميل ويُقدم بارداً.",
+  "longDescription": "الخروب، أو عصير الخروب، هو مشروب محبوب يُستمتع به في جميع أنحاء مصر ولبنان ومعظم الشرق الأوسط، وخاصة خلال شهر رمضان. تمنح قرون الخروب المحمصة نكهة حلوة طبيعياً وعميقة تشبه الكراميل وخالية من الكافيين. تعتمد هذه النسخة الأكثر صحة بشكل أساسي على الحلاوة الطبيعية للخروب مع استخدام كمية صغيرة فقط من العسل حسب الرغبة، مما يجعله مشروباً تقليدياً منعشاً ومغذياً.",
   "ingredients": [
-    "roasted carob pods, roughly broken into pieces",
-    "water",
-    "honey (optional)",
-    "orange blossom water (optional)",
-    "Ice cubes",
-    "Fresh mint leaves for garnish",
-    "Lemon slices for garnish"
+    "قرون خروب محمصة، مقطعة إلى قطع كبيرة",
+    "ماء",
+    "عسل (اختياري)",
+    "ماء زهر البرتقال (اختياري)",
+    "مكعبات ثلج",
+    "أوراق نعناع طازجة للتزيين",
+    "شرائح ليمون للتزيين"
   ],
   "instructions": [
-    "Rinse the roasted carob pods thoroughly.",
-    "Place the carob pods and water into a saucepan.",
-    "Bring to a boil over medium-high heat.",
-    "Reduce the heat and simmer for 20–25 minutes.",
-    "Remove from the heat and allow the mixture to cool slightly.",
-    "Strain through a fine-mesh sieve, pressing gently on the pods.",
-    "Stir in the honey and orange blossom water if using.",
-    "Refrigerate until completely chilled.",
-    "Serve over ice.",
-    "Garnish with fresh mint leaves and lemon slices."
+    "اغسل قرون الخروب المحمصة جيداً.",
+    "ضع قرون الخروب والماء في قدر.",
+    "اترك المزيج يغلي على نار متوسطة إلى عالية.",
+    "خفف النار واتركه يغلي على نار هادئة لمدة 20–25 دقيقة.",
+    "ارفعه عن النار واترك المزيج يبرد قليلاً.",
+    "صفّ المزيج من خلال مصفاة ناعمة مع الضغط برفق على القرون.",
+    "أضف العسل وماء الزهر وقلّب المزيج إذا كنت تستخدمهما.",
+    "ضعه في الثلاجة حتى يبرد تماماً.",
+    "قدّمه فوق الثلج.",
+    "زيّن بأوراق النعناع الطازجة وشرائح الليمون."
   ],
   "healthBenefits": [
-    "Naturally caffeine-free",
-    "Rich in antioxidants",
-    "Contains dietary fiber from carob",
-    "Naturally sweet with minimal added sweetener",
-    "Hydrating and refreshing",
-    "Lower in calories than many sweetened beverages",
-    "Traditionally enjoyed during Ramadan"
+    "خالٍ من الكافيين طبيعياً",
+    "غني بمضادات الأكسدة",
+    "يحتوي على ألياف غذائية من الخروب",
+    "حلو طبيعياً مع الحد الأدنى من المحليات المضافة",
+    "مرطب ومنعش",
+    "أقل في السعرات الحرارية من العديد من المشروبات المحلاة",
+    "يُستمتع به تقليدياً خلال شهر رمضان"
   ],
   "keywords": [
-    "Carob Juice",
-    "Kharoub",
-    "Lebanese Drink",
-    "Egyptian Drink",
-    "Traditional Middle Eastern Beverage"
+    "عصير الخروب",
+    "الخروب",
+    "مشروب لبناني",
+    "مشروب مصري",
+    "مشروب شرق أوسطي تقليدي"
   ],
   "tags": [
-    "drink",
-    "Lebanese",
-    "Egyptian",
-    "carob",
-    "Ramadan",
-    "traditional",
-    "healthy",
-    "vegan"
+    "مشروب",
+    "لبناني",
+    "مصري",
+    "خروب",
+    "رمضان",
+    "تقليدي",
+    "صحي",
+    "نباتي"
   ]
 };
 
