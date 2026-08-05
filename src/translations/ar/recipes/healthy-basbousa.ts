@@ -1,66 +1,66 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "d8d78733ca3b847da2cb05a297fc3c58575cc029f5a0c8e37c0c943f0e68248c";
 
 const translation: RecipeTranslation = {
-  "title": "Healthy Basbousa",
-  "description": "A healthier Egyptian semolina cake made with Greek yogurt, olive oil, honey, and whole wheat semolina, lightly sweetened and topped with almonds.",
-  "longDescription": "Basbousa is one of Egypt's most famous desserts. Traditionally soaked in a heavy sugar syrup and made with generous amounts of butter, this healthier version uses Greek yogurt for moisture, extra virgin olive oil instead of butter, honey for natural sweetness, and a light honey-lemon syrup. The result is a tender, aromatic cake with authentic flavor while significantly reducing refined sugar and saturated fat.",
+  "title": "بسبوسة صحية",
+  "description": "كعكة السميد المصرية بأسلوب صحي، مصنوعة من الزبادي اليوناني، وزيت الزيتون، والعسل، والسميد الكامل، محلاة بلطف ومزينة باللوز.",
+  "longDescription": "تعد البسبوسة واحدة من أشهر الحلويات المصرية. وتُسقى تقليديًا بشربات السكر الثقيل وتُصنع بكميات سخية من الزبدة، بينما تستخدم هذه النسخة الأكثر صحة الزبادي اليوناني للحصول على الرطوبة، وزيت الزيتون البكر الممتاز بدلاً من الزبدة، والعسل للحلاوة الطبيعية، وشربات خفيف من العسل والليمون. والنتيجة هي كعكة طرية وعطرة ذات نكهة أصيلة مع تقليل السكر المكرر والدهون المشبعة بشكل كبير.",
   "ingredients": [
-    "whole wheat semolina",
-    "plain Greek yogurt",
-    "extra virgin olive oil",
-    "honey",
-    "baking powder",
-    "vanilla extract",
-    "orange blossom water (optional)",
-    "almonds",
-    "unsweetened shredded coconut",
-    "For the syrup:",
-    "honey",
-    "fresh lemon juice",
-    "water"
+    "سميد القمح الكامل",
+    "زبادي يوناني سادة",
+    "زيت زيتون بكر ممتاز",
+    "عسل",
+    "بيكنج بودر",
+    "خلاصة الفانيليا",
+    "ماء زهر البرتقال (اختياري)",
+    "لوز",
+    "جوز هند مبشور غير محلى",
+    "للشربات:",
+    "عسل",
+    "عصير ليمون طازج",
+    "ماء"
   ],
   "instructions": [
-    "Preheat the oven to 350°F (175°C).",
-    "Lightly grease an 8-inch (20 cm) square baking pan.",
-    "Combine the semolina and baking powder in a large bowl.",
-    "Add the Greek yogurt, olive oil, honey, vanilla, and orange blossom water.",
-    "Mix until just combined without overmixing.",
-    "Spread the batter evenly into the prepared pan.",
-    "Score into diamond or square shapes.",
-    "Place one almond in the center of each piece.",
-    "Bake for 30–35 minutes until golden brown.",
-    "Meanwhile, warm the honey, lemon juice, and water together until smooth.",
-    "Immediately drizzle the warm syrup evenly over the hot basbousa.",
-    "Allow the cake to cool completely before cutting and serving.",
-    "Sprinkle with shredded coconut if desired."
+    "سخن الفرن مسبقًا إلى 350 درجة فهرنهايت (175 درجة مئوية).",
+    "ادهن صينية خبز مربعة مقاس 8 بوصات (20 سم) بقليل من الزيت.",
+    "اخلط السميد والبيكنج بودر في وعاء كبير.",
+    "أضف الزبادي اليوناني، وزيت الزيتون، والعسل، والفانيليا، وماء الزهر.",
+    "اخلط المكونات حتى تتداخل فقط دون الإفراط في الخلط.",
+    "افرد الخليط بالتساوي في الصينية المحضرة.",
+    "قطع السطح خفيفًا إلى أشكال ألماسية أو مربعة.",
+    "ضع حبة لوز واحدة في منتصف كل قطعة.",
+    "اخبز لمدة 30–35 دقيقة حتى تصبح ذهبية اللون.",
+    "في هذه الأثناء، سخن العسل وعصير الليمون والماء معًا حتى يمتزج الخليط ويصبح سلسًا.",
+    "صب الشربات الدافئ فورًا بالتساوي فوق البسبوسة الساخنة.",
+    "اترك الكعكة تبرد تمامًا قبل التقطيع والتقديم.",
+    "رش جوز الهند المبشور على الوجه حسب الرغبة."
   ],
   "healthBenefits": [
-    "Lower in refined sugar than traditional basbousa",
-    "Greek yogurt provides protein and calcium",
-    "Olive oil supplies heart-healthy monounsaturated fats",
-    "Whole wheat semolina contributes dietary fiber",
-    "Honey offers natural sweetness",
-    "Almonds provide vitamin E and healthy fats",
-    "Mediterranean diet inspired"
+    "أقل في السكر المكرر مقارنة بالبسبوسة التقليدية",
+    "يوفر الزبادي اليوناني البروتين والكالسيوم",
+    "يمد زيت الزيتون الجسم بالدهون الأحادية غير المشبعة المفيدة لصحة القلب",
+    "يسهم سميد القمح الكامل في توفير الألياف الغذائية",
+    "يمنح العسل حلاوة طبيعية",
+    "يوفر اللوز فيتامين E والدهون الصحية",
+    "مستوحاة من حمية البحر الأبيض المتوسط"
   ],
   "keywords": [
-    "Healthy Basbousa",
-    "Egyptian Semolina Cake",
-    "Healthy Egyptian Dessert",
-    "Mediterranean Dessert",
-    "Honey Basbousa"
+    "بسبوسة صحية",
+    "كعكة السميد المصرية",
+    "حلوى مصرية صحية",
+    "حلوى من البحر الأبيض المتوسط",
+    "بسبوسة بالعسل"
   ],
   "tags": [
-    "dessert",
-    "Egyptian",
-    "basbousa",
-    "healthy",
-    "semolina",
-    "Mediterranean",
-    "vegetarian",
-    "low-sugar"
+    "حلوى",
+    "مصري",
+    "بسبوسة",
+    "صحي",
+    "سميد",
+    "بحر أبيض متوسط",
+    "نباتي",
+    "قليل السكر"
   ]
 };
 

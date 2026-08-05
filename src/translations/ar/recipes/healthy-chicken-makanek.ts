@@ -1,61 +1,61 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "d987e21c8aaa7576dc6353547282a6e0474188aa11ac0b80e308768fbd43de44";
 
 const translation: RecipeTranslation = {
-  "title": "Healthy Chicken Makanek",
-  "description": "Lean homemade Lebanese-style chicken sausages seasoned with garlic, parsley, lemon juice, and warm Mediterranean spices, then lightly pan-seared for a healthy mezze.",
-  "longDescription": "Makanek are small Lebanese sausages traditionally prepared with beef or lamb. This healthier version uses lean ground chicken while preserving the authentic flavor profile of garlic, coriander, cinnamon, allspice, and fresh lemon juice. They're lightly cooked in olive oil instead of excess fat, making them a protein-rich appetizer or mezze that pairs perfectly with fresh vegetables, hummus, and warm whole wheat pita.",
+  "title": "مقانق الدجاج الصحية",
+  "description": "نقانق دجاج صحية محضرة في المنزل على الطريقة اللبنانية بقليل من الدهون، متبلة بالثوم، والبقدونس، وعصير الليمون، والبهارات المتوسطية الدافئة، ثم تحمر خفيفاً في المقلاة للحصول على مقبلات صحية.",
+  "longDescription": "المقانق هي نقانق لبنانية صغيرة تُحضر تقليدياً من لحم البقر أو الضأن. تستخدم هذه النسخة الأكثر صحة لحم الدجاج المفروم الخالي من الدهون مع الحفاظ على نكهتها الأصيلة المكونة من الثوم، والكزبرة، والقرفة، والبهار الحلو، وعصير الليمون الطازج. تُطهى خفيفاً بزيت الزيتون بدلاً من الدهون الزائدة، مما يجعلها مقبلات غنية بالبروتين تتناسب تماماً مع الخضار الطازجة، والحمص، وخبز القمح الكامل الدافئ.",
   "ingredients": [
-    "lean ground chicken",
-    "cloves, minced",
-    "fresh parsley, finely chopped",
-    "fresh lemon juice",
-    "extra virgin olive oil",
-    "ground coriander",
-    "ground allspice",
-    "ground cinnamon",
-    "paprika",
-    "black pepper",
-    "sea salt",
-    "cayenne pepper (optional)"
+    "لحم دجاج مفروم خالي من الدهون",
+    "فصوص ثوم مفرومة",
+    "بقدونس طازج مفروم ناعماً",
+    "عصير ليمون طازج",
+    "زيت زيتون بكر ممتاز",
+    "كزبرة مطحونة",
+    "بهار حلو مطحون",
+    "قرفة مطحونة",
+    "بابريكا",
+    "فلفل أسود",
+    "ملح بحر",
+    "فلفل حار (اختياري)"
   ],
   "instructions": [
-    "Combine the ground chicken with all herbs, spices, garlic, lemon juice, and olive oil.",
-    "Mix thoroughly until well combined.",
-    "Cover and refrigerate for at least 30 minutes.",
-    "Shape the mixture into small finger-length sausages.",
-    "Heat a non-stick skillet over medium heat.",
-    "Cook the sausages for 12–15 minutes, turning frequently until evenly browned and fully cooked.",
-    "Transfer to a serving platter.",
-    "Garnish with fresh parsley and lemon wedges.",
-    "Serve immediately with whole wheat pita or fresh vegetables."
+    "اخلط الدجاج المفروم مع جميع الأعشاب، والبهارات، والثوم، وعصير الليمون، وزيت الزيتون.",
+    "امزج المكونات جيداً حتى تتداخل تماماً.",
+    "غطّ الخليط وضعه في الثلاجة لمدة 30 دقيقة على الأقل.",
+    "شكل الخليط على هيئة نقانق صغيرة بطول الأصبع.",
+    "سخن مقلاة غير لاصقة على نار متوسطة.",
+    "اطه المكونات لمدة 12–15 دقيقة، مع التقليب المستمر حتى تتحمر بالتساوي وتنضج تماماً.",
+    "انقلها إلى طبق التقديم.",
+    "زيّن بالبقدونس الطازج وشرائح الليمون.",
+    "قدمها فوراً مع خبز القمح الكامل أو الخضار الطازجة."
   ],
   "healthBenefits": [
-    "Excellent source of lean protein",
-    "Lower in saturated fat than traditional makanek",
-    "Rich in vitamin B6 and niacin",
-    "Contains immune-supporting garlic",
-    "Olive oil provides heart-healthy fats",
-    "Naturally low in carbohydrates",
-    "Mediterranean diet friendly"
+    "مصدر ممتاز للبروتين الخالي من الدهون",
+    "تحتوي على نسبة أقل من الدهون المشبعة مقارنة بالمقانق التقليدية",
+    "غنية بفيتامين B6 والنياسين",
+    "تحتوي على الثوم الداعم للمناعة",
+    "يوفر زيت الزيتون دهوناً صحية للقلب",
+    "منخفضة الكربوهيدرات طبيعياً",
+    "مناسبة للنظام الغذائي المتوسطي"
   ],
   "keywords": [
-    "Healthy Chicken Makanek",
-    "Lebanese Chicken Sausage",
-    "Healthy Mezze",
-    "Mediterranean Chicken",
-    "High Protein Appetizer"
+    "مقانق دجاج صحية",
+    "سجق دجاج لبناني",
+    "مقبلات صحية",
+    "دجاج على الطريقة المتوسطية",
+    "مقبلات غنية بالبروتين"
   ],
   "tags": [
-    "mezze",
-    "Lebanese",
-    "chicken",
-    "high-protein",
-    "healthy",
-    "Mediterranean",
-    "appetizer",
-    "gluten-free"
+    "مقبلات",
+    "لبناني",
+    "دجاج",
+    "غني بالبروتين",
+    "صحي",
+    "متوسطي",
+    "مقبلات",
+    "خالي من الغلوتين"
   ]
 };
 
