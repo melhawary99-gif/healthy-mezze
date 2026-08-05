@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "ffb4108efb8901ac19c74e73688d3b8debe70aa4eeb6bea8433a0543cf414be4";
+export const sourceHash = "18e83f704500b0ec3ae196f408d4607e48cb7bdc82811c13b99a2117cde3b1d4";
 
 const translation: RecipeTranslation = {
   "title": "السحلب الأصلي (نسخة صحية)",

@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "e5cf84cdf86175c6e15cf43773f31adb7372515880f1d3b93925ffcbb72d6408";
+
 
 const translation: RecipeTranslation = {
   "title": "Tarator Sauce",

@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "14d0b9dc1ff7ad9792b2e9ae0cf3428f380c6f46916c2ff302e4476437a01dd0";
+
 
 const translation: RecipeTranslation = {
   "title": "Spinach & Feta Omelette",

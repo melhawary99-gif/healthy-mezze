@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "d70536f894b207637bd961ea2e7ef02eeea0a7d14c66c375cda275c451841a6e";
+
 
 const translation: RecipeTranslation = {
   "title": "Mediterranean Falafel Wrap",

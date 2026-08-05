@@ -1,58 +1,58 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "40830726db7a84a914a7372cd951206123d04c5090c562846b35a1f00fcda99a";
+export const sourceHash = "1b63e04da6f8595f3a79e717ff18eeaa76f0772866f0681e1f5eab58e3b7c9ce";
 
 const translation: RecipeTranslation = {
-  "title": "Greek Salad",
-  "description": "A fresh Mediterranean salad made with crisp vegetables, creamy feta cheese, Kalamata olives, and extra virgin olive oil.",
-  "longDescription": "Greek Salad is one of the most popular Mediterranean dishes, loved for its fresh vegetables, healthy fats, and vibrant flavors. Made with tomatoes, cucumbers, onions, olives, and feta cheese, it is naturally rich in vitamins, minerals, antioxidants, and heart-healthy olive oil. It makes an excellent light lunch, side dish, or healthy dinner.",
+  "title": "السلطة اليونانية",
+  "description": "سلطة متوسطية طازجة مصنوعة من الخضار المقرمشة، وجبنة الفتة الكريمية، وزيتون الكالاماتا، وزيت الزيتون البكر الممتاز.",
+  "longDescription": "تعتبر السلطة اليونانية واحدة من أكثر الأطباق المتوسطية شعبية، وهي محبوبة لخضارها الطازجة، ودهونها الصحية، ونكهاتها النابضة بالحياة. تُحضر من الطماطم، والخيار، والبصل، والزيتون، وجبنة الفتة، وهي غنية طبيعيًا بالفيتامينات، والمعادن، ومضادات الأكسدة، وزيت الزيتون المفيد لصحة القلب. إنها وجبة غداء خفيفة ممتازة، أو طبق جانبي، أو عشاء صحي.",
   "ingredients": [
-    "Large tomatoes, chopped",
-    "cucumber, sliced",
-    "Small red onion, thinly sliced",
-    "feta cheese, cubed",
-    "½ cup Kalamata olives",
-    "extra virgin olive oil",
-    "fresh lemon juice",
-    "dried oregano",
-    "Salt to taste",
-    "Freshly ground black pepper"
+    "طماطم كبيرة، مقطعة",
+    "خيار، شرائح",
+    "بصلة حمراء صغيرة، مقطعة شرائح رفيعة",
+    "جبنة فتة، مقطعة مكعبات",
+    "½ كوب زيتون كالاماتا",
+    "زيت زيتون بكر ممتاز",
+    "عصير ليمون طازج",
+    "أوريغانو مجفف",
+    "ملح حسب الرغبة",
+    "فلفل أسود مطحون طازج"
   ],
   "instructions": [
-    "Wash all vegetables thoroughly.",
-    "Cut the tomatoes into bite-sized pieces.",
-    "Slice the cucumber and red onion.",
-    "Place all vegetables into a large salad bowl.",
-    "Add the Kalamata olives.",
-    "Top with cubed feta cheese.",
-    "Whisk together olive oil, lemon juice, oregano, salt and pepper.",
-    "Pour the dressing over the salad.",
-    "Gently toss everything together.",
-    "Serve immediately for the freshest flavor."
+    "اغسل جميع الخضروات جيدًا.",
+    "قطع الطماطم إلى قطع صغيرة مناسبة للأكل.",
+    "قطع الخيار والبصل الأحمر إلى شرائح.",
+    "ضع جميع الخضروات في وعاء سلطة كبير.",
+    "أضف زيتون الكالاماتا.",
+    "ضع مكعبات جبنة الفتة على الوجه.",
+    "اخفق زيت الزيتون، وعصير الليمون، والأوريغانو، والملح، والفلفل معًا.",
+    "اسكب التتبيلة فوق السلطة.",
+    "اقلب جميع المكونات بلطف.",
+    "قدمها فورًا للحصول على أطازج نكهة."
   ],
   "healthBenefits": [
-    "Rich in antioxidants",
-    "Supports heart health",
-    "High in Vitamin C",
-    "Excellent source of healthy fats",
-    "Contains calcium for strong bones",
-    "Supports digestive health"
+    "غنية بمضادات الأكسدة",
+    "تدعم صحة القلب",
+    "غنية بفيتامين C",
+    "مصدر ممتاز للدهون الصحية",
+    "تحتوي على الكالسيوم لعظام قوية",
+    "تدعم صحة الجهاز الهضمي"
   ],
   "keywords": [
-    "Greek Salad",
-    "Mediterranean Salad",
-    "Healthy Salad",
-    "Easy Greek Salad Recipe",
-    "Fresh Salad",
-    "Healthy Mediterranean Food"
+    "سلطة يونانية",
+    "سلطة متوسطية",
+    "سلطة صحية",
+    "وصفة سلطة يونانية سهلة",
+    "سلطة طازجة",
+    "طعام متوسطي صحي"
   ],
   "tags": [
-    "Salad",
-    "Mediterranean",
-    "Vegetarian",
-    "Healthy",
-    "Quick",
-    "Fresh"
+    "سلطة",
+    "متوسطي",
+    "نباتي",
+    "صحي",
+    "سريع",
+    "طازج"
   ]
 };
 

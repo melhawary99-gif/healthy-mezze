@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "73d5b420ae283b38812accd97905deb5a6cfa993b7b26c19313c139237235877";
+export const sourceHash = "4e9c495109816e07fe32170e86d34bdc7f468b7aa056e073b40ab9838048e656";
 
 const translation: RecipeTranslation = {
   "title": "خبز البيتا للإفطار مع اللبنة والخضروات الطازجة",

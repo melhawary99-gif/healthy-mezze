@@ -1,58 +1,58 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "ce886118cf57d01a06f2ffcac5608c9155073f08c916be7e67dee4b7cd670c29";
+export const sourceHash = "e48c6b6dab815a5c20467a1cea4fa63ffdf6135d7f70e5b538d8111685cf99a5";
 
 const translation: RecipeTranslation = {
-  "title": "Greek Yogurt Breakfast Bowl",
-  "description": "Creamy Greek yogurt topped with fresh berries, banana, crunchy nuts, seeds, and a drizzle of honey for a wholesome Mediterranean-inspired breakfast.",
-  "longDescription": "This Greek Yogurt Breakfast Bowl is a refreshing and nutritious way to begin your day. Thick Greek yogurt is layered with seasonal fruit, crunchy walnuts, almonds, chia seeds, and a touch of honey. Rich in protein, probiotics, fiber, and healthy fats, it's a balanced breakfast that's quick to prepare and naturally fits the Mediterranean lifestyle.",
+  "title": "وعاء إفطار الزبادي اليوناني",
+  "description": "زبادي يوناني كريمي يعلوه التوت الطازج والموز والمكسرات المقرمشة والبذور وقليل من العسل لوجبة إفطار صحية مستوحاة من نمط البحر الأبيض المتوسط.",
+  "longDescription": "يُعد وعاء إفطار الزبادي اليوناني هذا طريقة منعشة ومغذية لبدء يومك. يتم وضع طبقات من الزبادي اليوناني السميك مع الفواكه الموسمية، والجوز المقرمش، واللوز، وبذور الشيا، لمسة من العسل. إنه إفطار متوازن غني بالبروتين والبروبيوتيك والألياف والدهون الصحية، وسريع التحضير ويناسب بشكل طبيعي نمط الحياة المتوسطي.",
   "ingredients": [
-    "plain Greek yogurt",
-    "banana, sliced",
-    "fresh strawberries, sliced",
-    "blueberries",
-    "chopped walnuts",
-    "sliced almonds",
-    "chia seeds",
-    "pumpkin seeds",
-    "honey",
-    "ground cinnamon",
-    "Fresh mint leaves for garnish (optional)"
+    "زبادي يوناني سادة",
+    "موز مقطع إلى شرائح",
+    "فراولة طازجة مقطعة إلى شرائح",
+    "توت أزرق",
+    "جوز مفروم",
+    "شرائح لوز",
+    "بذور الشيا",
+    "بذور القرع",
+    "عسل",
+    "قرفة مطحونة",
+    "أوراق نعناع طازجة للتزيين (اختياري)"
   ],
   "instructions": [
-    "Divide the Greek yogurt evenly between two serving bowls.",
-    "Arrange the banana slices, strawberries, and blueberries over the yogurt.",
-    "Sprinkle the walnuts, almonds, chia seeds, and pumpkin seeds evenly on top.",
-    "Drizzle with honey.",
-    "Dust lightly with ground cinnamon.",
-    "Garnish with fresh mint leaves if desired.",
-    "Serve immediately."
+    "وزّع الزبادي اليوناني بالتساوي بين وعاءي تقديم.",
+    "رتب شرائح الموز والفراولة والتوت الأزرق فوق الزبادي.",
+    "رش الجوز واللوز وبذور الشيا وبذور القرع بالتساوي على الوجه.",
+    "رش القليل من العسل.",
+    "رش رشة خفيفة من القرفة المطحونة.",
+    "زيّن بأوراق النعناع الطازجة إذا كنت ترغب في ذلك.",
+    "قدّمه فوراً."
   ],
   "healthBenefits": [
-    "Excellent source of protein",
-    "Contains probiotics for digestive health",
-    "Rich in calcium",
-    "Provides heart-healthy omega-3 fats from chia and walnuts",
-    "Packed with antioxidants from fresh berries",
-    "High in fiber for sustained fullness",
-    "Mediterranean diet friendly"
+    "مصدر ممتاز للبروتين",
+    "يحتوي على البروبيوتيك المفيد لصحة الجهاز الهضمي",
+    "غني بالكالسيوم",
+    "يوفر دهون أوميغا-3 الصحية للقلب من بذور الشيا والجوز",
+    "مليء بمضادات الأكسدة من التوت الطازج",
+    "غني بالألياف للشعور والشبع لفترة أطول",
+    "مناسب لنظام حمية البحر الأبيض المتوسط"
   ],
   "keywords": [
-    "Greek Yogurt Breakfast",
-    "Healthy Breakfast Bowl",
-    "Mediterranean Breakfast",
-    "Protein Breakfast",
-    "Greek Yogurt Recipe"
+    "إفطار الزبادي اليوناني",
+    "وعاء إفطار صحي",
+    "إفطار متوسطي",
+    "إفطار غني بالبروتين",
+    "وصفة الزبادي اليوناني"
   ],
   "tags": [
-    "breakfast",
-    "Mediterranean",
-    "Greek yogurt",
-    "healthy",
-    "high protein",
-    "berries",
-    "vegetarian",
-    "quick meal"
+    "إفطار",
+    "البحر الأبيض المتوسط",
+    "زبادي يوناني",
+    "صحي",
+    "عالي البروتين",
+    "توت",
+    "نباتي",
+    "وجبة سريعة"
   ]
 };
 

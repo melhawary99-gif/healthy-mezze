@@ -1,53 +1,53 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "3015403eea9595b3eb69a832976f2fa0fa3b9ff1392c82178d780551657c6327";
+export const sourceHash = "ae7a6848ba5d960cb6c73950b2b92d30d67c16fdaf2d11e6235a23ffd2f4f29c";
 
 const translation: RecipeTranslation = {
-  "title": "Chicken Shawarma",
-  "description": "Tender Mediterranean chicken with spices, fresh vegetables, and warm bread.",
+  "title": "شاورما الدجاج",
+  "description": "دجاج متوسطي طري مع التوابل، والخضار الطازجة، والخبز الدافئ.",
   "longDescription": "",
   "ingredients": [
-    "Chicken",
-    "Garlic",
-    "Mediterranean spices",
-    "Yogurt sauce",
-    "Flatbread"
+    "دجاج",
+    "ثوم",
+    "توابل متوسطية",
+    "صلصة الزبادي",
+    "خبز مفرود"
   ],
   "instructions": [
-    "Pat the chicken dry using paper towels.",
-    "Combine olive oil, garlic, lemon juice, and all spices in a bowl.",
-    "Coat the chicken thoroughly with the marinade.",
-    "Cover and refrigerate for at least 30 minutes, preferably overnight.",
-    "Preheat a grill or skillet over medium-high heat.",
-    "Cook the chicken for 6–8 minutes per side until fully cooked.",
-    "Transfer the chicken to a cutting board and let it rest for 5 minutes.",
-    "Slice the chicken into thin shawarma-style strips.",
-    "Serve with rice, salad, pita bread, or garlic sauce.",
-    "Garnish with fresh parsley and enjoy immediately."
+    "جفف الدجاج باستخدام المناشف الورقية.",
+    "اخلط زيت الزيتون، والثوم، وعصير الليمون، وجميع التوابل في وعاء.",
+    "غطّ الدجاج بالتتبيلة جيدًا.",
+    "غطّ الوعاء وضعه في الثلاجة لمدة 30 دقيقة على الأقل، ويفضل طوال الليل.",
+    "سخّن الشواية أو المقلاة على نار متوسطة إلى عالية.",
+    "اطه الدجاج لمدة 6–8 دقائق لكل جانب حتى ينضج تمامًا.",
+    "انقل الدجاج إلى لوح التقطيع واتركه يرتاح لمدة 5 دقائق.",
+    "قطّع الدجاج إلى شرائح رفيعة على طريقة الشاورما.",
+    "قدّمه مع الأرز، أو السلطة، أو خبز البيتا، أو صلصة الثوم.",
+    "زيّنه بالبقدونس الطازج واستمتع به فورًا."
   ],
   "healthBenefits": [
-    "Excellent source of lean protein",
-    "Supports muscle growth and recovery",
-    "Rich in essential vitamins and minerals",
-    "Contains heart-healthy olive oil",
-    "Provides long-lasting energy",
-    "Supports a balanced Mediterranean diet"
+    "مصدر ممتاز للبروتين الخالي من الدهون",
+    "يدعم نمو العضلات واستشفائها",
+    "غني بالفيتامينات والمعادن الأساسية",
+    "يحتوي على زيت الزيتون المفيد لصحة القلب",
+    "يوفر طاقة تدوم طويلاً",
+    "يدعم نظامًا غذائيًا متوسطيًا متوازنًا"
   ],
   "keywords": [
-    "Chicken Shawarma",
-    "Healthy Chicken Shawarma",
-    "Mediterranean Chicken Recipe",
-    "Easy Lebanese Chicken",
-    "High Protein Dinner",
-    "Healthy Mediterranean Food"
+    "شاورما الدجاج",
+    "شاورما دجاج صحية",
+    "وصفة دجاج متوسطية",
+    "دجاج لبناني سهل",
+    "عشاء غني بالبروتين",
+    "طعام متوسطي صحي"
   ],
   "tags": [
-    "Chicken",
-    "Mediterranean",
-    "Lebanese",
-    "High Protein",
-    "Dinner",
-    "Healthy"
+    "دجاج",
+    "متوسطي",
+    "لبناني",
+    "عالي البروتين",
+    "عشاء",
+    "صحي"
   ]
 };
 

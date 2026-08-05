@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "37cf290be5e4f48da99e450129851f571732a47a8cd2c31687fca4b664ad66aa";
+export const sourceHash = "f59efde1c2298754d686312762bc776586181c38e270a15d57e4e17caddbb280";
 
 const translation: RecipeTranslation = {
   "title": "شرائح القرنبيط المشوية مع صلصة الطحينة بالليمون",

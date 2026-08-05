@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "fd1deb611cb04b75b1484f35fb636eb447f1f8b621111aa1dba7234c878cdaad";
+export const sourceHash = "2703a07e6319309cd066af99904d4aca261c47b0538782d2df8e400222f60667";
 
 const translation: RecipeTranslation = {
   "title": "عيران أصلي (لبن عيران)",

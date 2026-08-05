@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "2bc0ef971c919bc11c9f289065f3d19e36cea28de2b55c62c2b3bd6a1f0818c4";
+
 
 const translation: RecipeTranslation = {
   "title": "Spinach & Chickpea Stew",

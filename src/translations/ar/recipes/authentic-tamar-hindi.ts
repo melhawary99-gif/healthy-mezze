@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "7bd71a01a3ee84ec51959f9f693f63b59b9d06b37ea0b421defb8b03c4bb802f";
+export const sourceHash = "6f9cc3bc8bbfd94e0a2bf3ee29d373a4f6033d0273f55dc9afc6b13f78497b15";
 
 const translation: RecipeTranslation = {
   "title": "تمر هندي أصيل (مشروب التمر الهندي المصري)",

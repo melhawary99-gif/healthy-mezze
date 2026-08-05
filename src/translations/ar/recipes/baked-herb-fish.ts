@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "acf5351ca713b8e558786233d47f31a43615f765b55e35635b2d6b29939eb994";
+export const sourceHash = "adb45ab217b4d481b277a769500a05fcca13fc11095315f420af1785a3a0c353";
 
 const translation: RecipeTranslation = {
   "title": "سمك مخبوز بالأعشاب",

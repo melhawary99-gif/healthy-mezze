@@ -1,64 +1,64 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "faff318e7aabb6a833b0bf8bd6f5433a34d7c8b2ed06eb67a2b688bb5099641c";
+export const sourceHash = "e1da914c61fb34cf23fcc1f1a6bd8335ddf7e1e3f55285fd421661f32e82f414";
 
 const translation: RecipeTranslation = {
-  "title": "Classic Baba Ganoush",
-  "description": "A creamy roasted eggplant dip blended with tahini, garlic, lemon juice, and extra virgin olive oil. A classic Mediterranean mezze that's smoky, flavorful, and nutritious.",
-  "longDescription": "Classic Baba Ganoush is one of the signature dishes of Mediterranean and Middle Eastern cuisine. Roasted eggplants develop a naturally smoky flavor before being blended with creamy tahini, fresh lemon juice, garlic, and extra virgin olive oil. This healthy dip is rich in antioxidants, fiber, and heart-healthy fats, making it an excellent appetizer, snack, or side dish for any Mediterranean meal.",
+  "title": "بابا غنوج كلاسيكي",
+  "description": "مغمس باذنجان مشوي كريمي ممزوج بالطحينة والثوم وعصير الليمون وزيت الزيتون البكر الممتاز. مقبلات متوسطية كلاسيكية تتميز بنكهتها المدخنة والغنية والغنية بالقيم الغذائية.",
+  "longDescription": "يعد بابا غنوج الكلاسيكي أحد الأطباق المميزة في المطبخ المتوسطي والشرق أوسطي. يكتسب الباذنجان المشوي نكهة مدخنة طبيعية قبل خلطه مع الطحينة الكريمية وعصير الليمون الطازج والثوم وزيت الزيتون البكر الممتاز. هذا المغمس الصحي غني بمضادات الأكسدة والألياف والدهون المفيدة لصحة القلب، مما يجعله مقبلات أو وجبة خفيفة أو طبقاً جانبياً ممتازاً لأي وجبة متوسطية.",
   "ingredients": [
-    "Large eggplants",
-    "tahini",
-    "fresh lemon juice",
-    "cloves, minced",
-    "extra virgin olive oil, plus more for serving",
-    "ground cumin",
-    "sea salt",
-    "black pepper",
-    "chopped fresh parsley",
-    "smoked paprika",
-    "Pomegranate seeds for garnish (optional)"
+    "حبات باذنجان كبيرة",
+    "طحينة",
+    "عصير ليمون طازج",
+    "فصوص ثوم مفرومة",
+    "زيت زيتون بكر ممتاز، بالإضافة إلى المزيد للتقديم",
+    "كمون مطحون",
+    "ملح بحر",
+    "فلفل أسود",
+    "بقدونس طازج مفروم",
+    "بابريكا مدخنة",
+    "بذور رمان للتزيين (اختياري)"
   ],
   "instructions": [
-    "Preheat the oven to 425°F (220°C).",
-    "Pierce the eggplants several times with a fork.",
-    "Roast for 35–40 minutes until the skin is charred and the flesh is very soft.",
-    "Allow the eggplants to cool for about 10 minutes.",
-    "Cut them open and scoop the flesh into a colander to drain excess liquid for 10 minutes.",
-    "Transfer the flesh to a food processor.",
-    "Add the tahini, lemon juice, garlic, olive oil, cumin, salt, and black pepper.",
-    "Blend until smooth while leaving a little texture.",
-    "Taste and adjust seasoning if needed.",
-    "Transfer to a serving bowl and create a shallow swirl.",
-    "Drizzle with extra virgin olive oil.",
-    "Garnish with parsley, smoked paprika, and optional pomegranate seeds.",
-    "Serve with whole wheat pita, crackers, or fresh vegetables."
+    "سخن الفرن مسبقاً إلى 425 درجة فهرنهايت (220 درجة مئوية).",
+    "اثقب الباذنجان عدة مرات باستخدام شوكة.",
+    "اشوِ الباذنجان لمدة 35–40 دقيقة حتى تتفحم القشرة ويصبح اللب طرياً جداً.",
+    "اترك الباذنجان ليبرد لمدة 10 دقائق تقريباً.",
+    "اقطع الباذنجان واستخرج اللب بملعقة وضعه في مصفاة لتصفية السوائل الزائدة لمدة 10 دقائق.",
+    "انقل اللب إلى محضرة الطعام.",
+    "أضف الطحينة وعصير الليمون والثوم وزيت الزيتون والكمون والملح والفلفل الأسود.",
+    "اخفق المكونات حتى تصبح ناعمة مع الإبقاء على القليل من القوام المتماسك.",
+    "ذق الخليط وعدّل التوابل إذا لزم الأمر.",
+    "انقل الخليط إلى طبق التقديم وشكّل تجويفاً دائرياً سطحياً.",
+    "رش زيت الزيتون البكر الممتاز فوقه.",
+    "زيّن بالبقدونس والبابريكا المدخنة وبذور الرمان الاختيارية.",
+    "قدمه مع خبز البيتا المصنوع من القمح الكامل، أو المقرمشات، أو الخضار الطازجة."
   ],
   "healthBenefits": [
-    "Rich in dietary fiber",
-    "Excellent source of antioxidants",
-    "Supports heart health",
-    "Contains healthy fats from tahini and olive oil",
-    "Low in saturated fat",
-    "Naturally vegetarian and gluten-free",
-    "Mediterranean diet approved"
+    "غني بالألياف الغذائية",
+    "مصدر ممتاز لمضادات الأكسدة",
+    "يدعم صحة القلب",
+    "يحتوي على دهون صحية من الطحينة وزيت الزيتون",
+    "منخفض الدهون المشبعة",
+    "نباتي وخالٍ من الغلوتين طبيعياً",
+    "مناسب للنظام الغذائي المتوسطي"
   ],
   "keywords": [
-    "Baba Ganoush",
-    "Roasted Eggplant Dip",
-    "Mediterranean Dip",
-    "Healthy Snack",
-    "Eggplant Recipe"
+    "بابا غنوج",
+    "مغمس الباذنجان المشوي",
+    "مغمس متوسطي",
+    "وجبة خفيفة صحية",
+    "وصفة الباذنجان"
   ],
   "tags": [
-    "snack",
-    "Mediterranean",
-    "eggplant",
-    "baba ganoush",
-    "mezze",
-    "vegetarian",
-    "healthy",
-    "gluten-free"
+    "وجبة خفيفة",
+    "متوسطي",
+    "باذنجان",
+    "بابا غنوج",
+    "مقبلات",
+    "نباتي",
+    "صحي",
+    "خالٍ من الغلوتين"
   ]
 };
 

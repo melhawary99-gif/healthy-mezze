@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "2209b9ca06704512302875f6fcd551d66f8d594a811129a2601bd17926014cf0";
+
 
 const translation: RecipeTranslation = {
   "title": "Mediterranean Vegetable Soup",

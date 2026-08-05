@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "2b6fba9233ade45daa7812196414d338e288494090f68391cdaad5e12a274cfe";
+
 
 const translation: RecipeTranslation = {
   "title": "Labneh with Za'atar & Olive Oil",

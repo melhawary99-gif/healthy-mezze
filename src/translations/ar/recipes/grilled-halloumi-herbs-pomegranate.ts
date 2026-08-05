@@ -1,58 +1,58 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "f914d420396de3156e6723a85830438257ed013eeab40f1a71f0b25f75918915";
+export const sourceHash = "1f62de9097869dd4de8f5e112fbb955fa2ce2b081c4f785b8706493fe2ad2533";
 
 const translation: RecipeTranslation = {
-  "title": "Grilled Halloumi with Herbs & Pomegranate",
-  "description": "Golden grilled halloumi topped with fresh herbs, juicy pomegranate seeds, and extra virgin olive oil. A colorful Mediterranean mezze that's simple, flavorful, and rich in protein.",
-  "longDescription": "Grilled Halloumi is a beloved appetizer throughout the Eastern Mediterranean. Halloumi cheese develops a beautifully crisp golden crust while remaining soft inside when grilled. Finished with fresh parsley, mint, pomegranate seeds, lemon juice, and extra virgin olive oil, this vibrant mezze offers the perfect balance of salty, fresh, and sweet flavors.",
+  "title": "حلوم مشوي بالأعشاب والرمان",
+  "description": "حلوم مشوي ذهبي تعلوه أعشاب طازجة، وبذور رمان عصيرة، وزيت زيتون بكر ممتاز. مقبلات متوسطية ملونة وبسيطة، غنية بالنكهة والبروتين.",
+  "longDescription": "الحلوم المشوي هو مقبلات محبوبة في جميع أنحاء شرق البحر الأبيض المتوسط. يكتسب جبن الحلوم قشرة ذهبية مقرمشة وجميلة مع بقائه طرياً من الداخل عند شوائه. تزين هذه المقبّلات الحيوية بالبقدونس الطازج والنعناع وبذور الرمان وعصير الليمون وزيت الزيتون البكر الممتاز، مما يقدم توازناً مثالياً بين النكهات المالحة والطازجة والحلوة.",
   "ingredients": [
-    "halloumi cheese",
-    "extra virgin olive oil",
-    "fresh parsley, chopped",
-    "fresh mint, chopped",
-    "pomegranate seeds",
-    "fresh lemon juice",
-    "black pepper",
-    "sesame seeds (optional)",
-    "Lemon wedges for serving"
+    "جبن حلوم",
+    "زيت زيتون بكر ممتاز",
+    "بقدونس طازج مفروم",
+    "نعناع طازج مفروم",
+    "بذور الرمان",
+    "عصير ليمون طازج",
+    "فلفل أسود",
+    "بذور السمسم (اختياري)",
+    "شرائح ليمون للتقديم"
   ],
   "instructions": [
-    "Slice the halloumi into 1 cm thick pieces.",
-    "Heat a grill pan over medium-high heat.",
-    "Lightly brush both sides of the halloumi with olive oil.",
-    "Grill for 2–3 minutes per side until golden grill marks appear.",
-    "Arrange the grilled halloumi on a serving platter.",
-    "Sprinkle with parsley, mint, and pomegranate seeds.",
-    "Drizzle with lemon juice and a little extra virgin olive oil.",
-    "Finish with black pepper and sesame seeds if using.",
-    "Serve immediately with lemon wedges."
+    "قطع جبن الحلوم إلى شرائح بسمك 1 سم.",
+    "سخن مقلاة الشواء على نار متوسطة إلى عالية.",
+    "ادهن جانبي شرائح الحلوم بطبقة خفيفة من زيت الزيتون.",
+    "اشوِ لمدة 2–3 دقائق لكل جانب حتى تظهر علامات الشواء الذهبية.",
+    "رتب الحلوم المشوي في طبق التقديم.",
+    "رش البقدونس والنعناع وبذور الرمان.",
+    "رش عصير الليمون وقليلاً من زيت الزيتون البكر الممتاز.",
+    "أضف الفلفل الأسود وبذور السمسم في حال استخدامها.",
+    "قدمه فوراً مع شرائح الليمون."
   ],
   "healthBenefits": [
-    "Excellent source of protein",
-    "Rich in calcium for healthy bones",
-    "Provides vitamin B12",
-    "Fresh herbs contribute antioxidants",
-    "Pomegranate adds vitamin C and polyphenols",
-    "Naturally low in carbohydrates",
-    "Suitable for a Mediterranean-style diet"
+    "مصدر ممتاز للبروتين",
+    "غني بالكالسيوم لعظام صحية",
+    "يوفر فيتامين B12",
+    "تساهم الأعشاب الطازجة بمضادات الأكسدة",
+    "يضيف الرمان فيتامين C والبوليفينول",
+    "منخفض الكربوهيدرات طبيعياً",
+    "مناسب لنظام غذائي على نمط البحر الأبيض المتوسط"
   ],
   "keywords": [
-    "Grilled Halloumi",
-    "Halloumi Recipe",
-    "Mediterranean Mezze",
-    "Lebanese Appetizer",
-    "Healthy Halloumi"
+    "حلوم مشوي",
+    "وصفة الحلوم",
+    "مقبلات متوسطية",
+    "مقبلات لبنانية",
+    "حلوم صحي"
   ],
   "tags": [
-    "mezze",
-    "Lebanese",
-    "halloumi",
-    "vegetarian",
-    "grilled",
-    "healthy",
-    "Mediterranean",
-    "high-protein"
+    "مقبلات",
+    "لبناني",
+    "حلوم",
+    "نباتي",
+    "مشوي",
+    "صحي",
+    "متوسطي",
+    "غني بالبروتين"
   ]
 };
 

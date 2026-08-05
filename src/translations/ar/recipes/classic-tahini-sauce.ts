@@ -1,55 +1,55 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "0e12593422ba2f0cba7223cd2a522c27034d31aedd556bbaf269a99457f2ea56";
+export const sourceHash = "b7d6a65fdf353c7afa8b18586455fe4c713fb7c805431d2f6b1adb8cbd9fbf1e";
 
 const translation: RecipeTranslation = {
-  "title": "Classic Tahini Sauce",
-  "description": "A creamy Middle Eastern sauce made with tahini, fresh lemon juice, garlic, parsley, and olive oil.",
-  "longDescription": "Tahini sauce is a staple throughout the Middle East and is traditionally served with falafel, shawarma, grilled fish, kebabs, roasted vegetables, and fresh salads. Made from sesame tahini blended with lemon juice, garlic, parsley, and water, this healthy version is rich in healthy fats, minerals, and authentic Mediterranean flavor while remaining naturally vegan and dairy-free.",
+  "title": "صلصة الطحينة الكلاسيكية",
+  "description": "صلصة شرقية كريمية مصنوعة من الطحينة وعصير الليمون الطازج والثوم والبقدونس وزيت الزيتون.",
+  "longDescription": "تعتبر صلصة الطحينة عنصرًا أساسيًا في جميع أنحاء الشرق الأوسط، وتُقدم تقليديًا مع الفلافل والشاورما والسمك المشوي والكباب والخضروات المشوية والسلطات الطازجة. تُحضر هذه النسخة الصحية من طحينة السمسم الممزوجة بعصير الليمون والثوم والبقدونس والماء، وهي غنية بالدهون الصحية والمعادن والنكهة المتوسطية الأصيلة، مع بقائها نباتية بالكامل وخالية من منتجات الألبان بشكل طبيعي.",
   "ingredients": [
-    "tahini",
-    "fresh lemon juice",
-    "cloves, finely minced",
-    "3–5 tbsp cold water",
-    "extra virgin olive oil",
-    "fresh parsley, finely chopped",
-    "sea salt",
-    "ground cumin (optional)"
+    "طحينة",
+    "عصير ليمون طازج",
+    "فصوص ثوم، مفرومة ناعمًا",
+    "3–5 ملاعق كبيرة ماء بارد",
+    "زيت زيتون بكر ممتاز",
+    "بقدونس طازج، مفروم ناعمًا",
+    "ملح بحر",
+    "كمون مطحون (اختياري)"
   ],
   "instructions": [
-    "Add the tahini to a medium mixing bowl.",
-    "Whisk in the lemon juice until the mixture thickens.",
-    "Add the minced garlic and sea salt.",
-    "Gradually whisk in the cold water until the sauce becomes smooth and creamy.",
-    "Stir in the olive oil, parsley, and cumin if using.",
-    "Taste and adjust the lemon juice or salt if needed.",
-    "Serve immediately or refrigerate in an airtight container for up to 5 days."
+    "أضف الطحينة إلى وعاء خلط متوسط الحجم.",
+    "اخفق عصير الليمون مع الطحينة حتى يثخن المزيج.",
+    "أضف الثوم المفروم وملح البحر.",
+    "أضف الماء البارد تدريجيًا مع الخفق حتى تصبح الصلصة ناعمة وكريمية.",
+    "قلّب زيت الزيتون والبقدونس والكمون في حال استخدامه.",
+    "تذوق واضبط كمية عصير الليمون أو الملح حسب الحاجة.",
+    "قَدّمها فورًا أو احفظها في الثلاجة في وعاء محكم الإغلاق لمدة تصل إلى 5 أيام."
   ],
   "healthBenefits": [
-    "Rich in heart-healthy unsaturated fats",
-    "Excellent source of calcium",
-    "Provides plant-based protein",
-    "Naturally vegan and dairy-free",
-    "Contains antioxidants from sesame seeds",
-    "Garlic contributes beneficial plant compounds",
-    "Pairs well with vegetables and lean proteins"
+    "غنية بالدهون غير المشبعة المفيدة لصحة القلب",
+    "مصدر ممتاز للكالسيوم",
+    "تزود الجسم بالبروتين النباتي",
+    "نباتية بالكامل وخالية من منتجات الألبان طبيعيًا",
+    "تحتوي على مضادات أكسدة من بذور السمسم",
+    "يساهم الثوم في توفير مركبات نباتية مفيدة",
+    "تتناسب جيدًا مع الخضروات والبروتينات الخالية من الدهون"
   ],
   "keywords": [
-    "Tahini Sauce",
-    "Lebanese Tahini",
-    "Middle Eastern Sauce",
-    "Healthy Tahini",
-    "Sesame Sauce"
+    "صلصة الطحينة",
+    "طحينة لبنانية",
+    "صلصة شرقية",
+    "طحينة صحية",
+    "صلصة السمسم"
   ],
   "tags": [
-    "dip",
-    "sauce",
-    "tahini",
-    "Lebanese",
-    "vegan",
-    "healthy",
-    "sesame",
-    "mezze"
+    "غموس",
+    "صلصة",
+    "طحينة",
+    "لبناني",
+    "نباتي",
+    "صحي",
+    "سمسم",
+    "مقبلات"
   ]
 };
 

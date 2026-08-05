@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "c2cd1d71bbb9e5340827c18a38681d2d8f401fad43296fb82e9732ec9c26855b";
+export const sourceHash = "2884ed97c95b8e6b6ffbc3e643eb7c0969db82c42cf09e408f920d4d700996ec";
 
 const translation: RecipeTranslation = {
   "title": "فلافل مخبوزة",

@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "515bf673809fb788325043d9e5fe457332b9aa7c5054ac2cc68803a9d88ada76";
+
 
 const translation: RecipeTranslation = {
   "title": "Healthy Baked Atayef with Ricotta & Pistachios",

@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "e3fb083e5e1ab3a79376f64f3ee66dced482686ec4e30f752827db267ad48704";
+
 
 const translation: RecipeTranslation = {
   "title": "Spinach & Feta Stuffed Zucchini Boats",

@@ -1,53 +1,53 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "2f4c8e63241f0a66ad721dc062fbf28a3d0277551b0103c3718632560df0541b";
+export const sourceHash = "f16990684081bd6b7d5355937a85a64a3d7ec21df926f800f963e5fd23d85172";
 
 const translation: RecipeTranslation = {
-  "title": "Falafel Bowl",
-  "description": "A wholesome Mediterranean bowl made with crispy falafel, fresh vegetables, creamy hummus, and rich tahini sauce.",
-  "longDescription": "This healthy Falafel Bowl combines crispy homemade falafel with fresh mixed greens, juicy tomatoes, creamy hummus, and tahini sauce. Packed with plant-based protein, fiber, and Mediterranean flavors, it makes a satisfying lunch or dinner that's both nutritious and naturally vegan.",
+  "title": "وعاء الفلافل",
+  "description": "وعاء متوسطي صحي ومغذٍّ مصنوع من الفلافل المقرمشة، والخضروات الطازجة، والحمص الكريمي، وصلصة الطحينة الغنية.",
+  "longDescription": "يجمع وعاء الفلافل الصحي هذا بين الفلافل المنزلية المقرمشة والسلطة الخضراء المشكلة الطازجة، والطماطم العصارية، والحمص الكريمي، وصلصة الطحينة. يُعد هذا الطبق الغني بالبروتين النباتي والألياف والنكهات المتوسطية وجبة غداء أو عشاء مشبعة، وصحية ونباتية بالكامل بشكل طبيعي.",
   "ingredients": [
-    "Falafel",
-    "Mixed greens",
-    "Tomatoes",
-    "Hummus",
-    "Tahini sauce"
+    "فلافل",
+    "خضروات ورقية مشكلة",
+    "طماطم",
+    "حمص",
+    "صلصة الطحينة"
   ],
   "instructions": [
-    "Prepare the falafel according to the recipe or package instructions.",
-    "Cook the quinoa or rice until tender if using as the bowl base.",
-    "Wash and dry the mixed greens thoroughly.",
-    "Slice the tomatoes into bite-sized pieces.",
-    "Arrange the greens in two serving bowls.",
-    "Add the cooked falafel on top of the vegetables.",
-    "Spoon the hummus into the bowl.",
-    "Drizzle generously with tahini sauce.",
-    "Garnish with fresh parsley if desired.",
-    "Serve immediately while the falafel is warm."
+    "حضّر الفلافل وفقًا للوصفة أو للتعليمات المدوّنة على العبوة.",
+    "اطبخ الكينوا أو الأرز حتى ينضج إذا كنت تستخدمه كقاعدة للوعاء.",
+    "اغسل الخضروات الورقية المشكلة وجففها جيدًا.",
+    "قطّع الطماطم إلى قطع صغيرة مناسبة للأكل.",
+    "وزّع الخضروات الورقية في وعاءين للتقديم.",
+    "أضف الفلافل المطهوة فوق الخضروات.",
+    "ضِع الحمص في الوعاء باستخدام ملعقة.",
+    "اسكب صلصة الطحينة بسخاء.",
+    "زيّن الطبق بالبقدونس الطازج حسب الرغبة.",
+    "قدّمه فورًا بينما تكون الفلافل ساخنة."
   ],
   "healthBenefits": [
-    "Rich in plant-based protein",
-    "High in dietary fiber",
-    "Supports digestive health",
-    "Contains heart-healthy fats",
-    "Excellent source of vitamins and minerals",
-    "Helps promote long-lasting energy"
+    "غني بالبروتين النباتي",
+    "غني بالألياف الغذائية",
+    "يدعم صحة الجهاز الهضمي",
+    "يحتوي على دهون مفيدة لصحة القلب",
+    "مصدر ممتاز للفيتامينات والمعادن",
+    "يساعد على تعزيز الطاقة لفترة طويلة"
   ],
   "keywords": [
-    "Falafel Bowl",
-    "Healthy Falafel Bowl",
-    "Mediterranean Bowl",
-    "Vegetarian Lunch",
-    "High Protein Vegetarian Meal",
-    "Healthy Mediterranean Recipe"
+    "وعاء الفلافل",
+    "وعاء الفلافل الصحي",
+    "وعاء متوسطي",
+    "غداء نباتي",
+    "وجبة نباتية غنية بالبروتين",
+    "وصفة متوسطية صحية"
   ],
   "tags": [
-    "Vegetarian",
-    "Vegan",
-    "Mediterranean",
-    "Healthy",
-    "Lunch",
-    "Falafel"
+    "نباتي",
+    "نباتي صرف",
+    "متوسطي",
+    "صحي",
+    "غداء",
+    "فلافل"
   ]
 };
 

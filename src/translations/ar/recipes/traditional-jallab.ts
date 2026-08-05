@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "459125b2f2c536066f420b182af596d5d2e886c1df7e646a1c2b65c473b5ca52";
+
 
 const translation: RecipeTranslation = {
   "title": "Traditional Jallab (Healthy Version)",

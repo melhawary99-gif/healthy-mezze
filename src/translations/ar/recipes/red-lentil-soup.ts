@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "f46a0241580ab796bf3267b72f508b2a919f789cd55f44e885c46a6a768ec466";
+
 
 const translation: RecipeTranslation = {
   "title": "Red Lentil Soup (Shorbat Adas)",

@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "33b78f69335b71545cb6f7a0c76ee7123e44426e349bfc9b23630d399bfdfb40";
+
 
 const translation: RecipeTranslation = {
   "title": "Mediterranean Shakshuka",

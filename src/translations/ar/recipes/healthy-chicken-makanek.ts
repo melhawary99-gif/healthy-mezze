@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "642223a2488d122435c487c099214413179f6e51112029ee0b649a182479f16c";
+
 
 const translation: RecipeTranslation = {
   "title": "Healthy Chicken Makanek",

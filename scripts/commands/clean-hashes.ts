@@ -3,16 +3,18 @@ import path from "path";
 import { pathToFileURL } from "url";
 
 import { recipes } from "@/data/recipes";
-import { recipeHash } from "../utils/hash";
 
-export async function syncHashes(language: string) {
+export async function cleanHashes(language: string) {
   const translationsDir = path.join(process.cwd(), "src", "translations", language, "recipes");
 
   const files = fs.readdirSync(translationsDir).filter((file) => file.endsWith(".ts"));
 
   console.log("");
-  console.log(`🔄 Syncing hashes for ${files.length} recipes...`);
+  console.log(`🧹 Cleaning hashes for ${files.length} recipes...`);
   console.log("");
+
+  let removed = 0;
+  let kept = 0;
 
   for (const file of files) {
     const slug = file.replace(".ts", "");
@@ -30,17 +32,11 @@ export async function syncHashes(language: string) {
 
     const translation = translationModule.default;
 
-    // Skip English files
-    if (translation.title === englishRecipe.title) {
-      console.log(`⏭ ${slug} is still English`);
-      continue;
-    }
-
-    const currentHash = recipeHash(englishRecipe);
+    const isTranslated = translation.title !== englishRecipe.title;
 
     const output = `import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "${currentHash}";
+${isTranslated ? `export const sourceHash = "${translationModule.sourceHash ?? ""}";` : ""}
 
 const translation: RecipeTranslation = ${JSON.stringify(translation, null, 2)};
 
@@ -49,9 +45,18 @@ export default translation;
 
     fs.writeFileSync(path.join(translationsDir, file), output, "utf8");
 
-    console.log(`✓ ${slug}`);
+    if (isTranslated) {
+      kept++;
+      console.log(`✓ ${slug}`);
+    } else {
+      removed++;
+      console.log(`🧹 Removed hash: ${slug}`);
+    }
   }
 
   console.log("");
-  console.log("✅ Hash synchronization complete.");
+  console.log(`Removed hashes: ${removed}`);
+  console.log(`Kept hashes: ${kept}`);
+  console.log("");
+  console.log("✅ Done.");
 }

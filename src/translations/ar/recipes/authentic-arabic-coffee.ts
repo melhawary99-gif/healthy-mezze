@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "05dd01553c0e2843833c7b51b2edec6935990f3a951d8739bc3f8e1b4c15778b";
+export const sourceHash = "73eced9a7a76550a3d4fe691a2ca32fcc54b36ebc4bda5f754e8e1fac47d760a";
 
 const translation: RecipeTranslation = {
   "title": "القهوة العربية الأصيلة (القهوة)",

@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "ffbc1f655f739701d22939cec5bef42148a37bd9580dcdc208c40453a34aa7d6";
+
 
 const translation: RecipeTranslation = {
   "title": "Stuffed Dates with Almonds & Pistachios",

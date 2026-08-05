@@ -1,63 +1,63 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "d933f3707a99727e657de0cef7a6b802e7bcdc7d7b69ec38ddcd9a9638bef1bc";
+export const sourceHash = "137d0b6811836f948d52034fafa9d61e145e442ee9b86359b03d04ac5f928e68";
 
 const translation: RecipeTranslation = {
-  "title": "Grilled Chicken Shawarma",
-  "description": "Juicy Mediterranean grilled chicken marinated in garlic, lemon, yogurt, and warm shawarma spices.",
-  "longDescription": "Grilled Chicken Shawarma is one of the Middle East's most beloved dishes. Boneless chicken is marinated in creamy yogurt, fresh lemon juice, garlic, olive oil, and an aromatic blend of spices before being grilled until tender and lightly charred. Serve it with rice, salad, hummus, or wrapped in warm pita bread with garlic sauce for an authentic Lebanese meal.",
+  "title": "شاورما الدجاج المشوي",
+  "description": "دجاج مشوي على الطريقة المتوسطية طري ومتبل بالثوم، والليمون، والزبادي، وتوابل الشاورما الدافئة.",
+  "longDescription": "تُعد شاورما الدجاج المشوي واحدة من أكثر الأطباق شعبية في الشرق الأوسط. يُتبل الدجاج الخالي من العظم في الزبادي الكريمي، وعصير الليمون الطازج، والثوم، وزيت الزيتون، ومزيج عطري من التوابل قبل شوائه حتى يصبح طرياً ومحمصاً خفيفاً. قدمها مع الأرز، أو السلطة، أو الحمص، أو ملفوفة في خبز البيتا الدافئ مع صلصة الثوم لوجبة لبنانية أصيلة.",
   "ingredients": [
-    "boneless skinless chicken thighs",
-    "plain Greek yogurt",
-    "extra virgin olive oil",
-    "Juice of 2 lemons",
-    "cloves, minced",
-    "ground cumin",
-    "paprika",
-    "ground coriander",
-    "turmeric",
-    "ground cinnamon",
-    "ground allspice",
-    "cayenne pepper (optional)",
-    "sea salt",
-    "black pepper",
-    "Fresh parsley for garnish"
+    "أفخاذ دجاج مخلية من العظم والجلد",
+    "زبادي يوناني سادة",
+    "زيت زيتون بكر ممتاز",
+    "عصير 2 حبة ليمون",
+    "فصوص ثوم مفرومة",
+    "كمون مطحون",
+    "بابريكا",
+    "كزبرة مطحونة",
+    "كركم",
+    "قرفة مطحونة",
+    "بهار حلو مطحون",
+    "فلفل حار مطحون (اختياري)",
+    "ملح بحر",
+    "فلفل أسود",
+    "بقدونس طازج للتزيين"
   ],
   "instructions": [
-    "In a large bowl, combine the yogurt, olive oil, lemon juice, garlic, and all the spices.",
-    "Add the chicken and coat thoroughly with the marinade.",
-    "Cover and refrigerate for at least 8 hours, preferably overnight.",
-    "Preheat a grill or grill pan over medium-high heat.",
-    "Grill the chicken for 6–8 minutes per side until fully cooked and lightly charred.",
-    "Transfer to a cutting board and let rest for 5 minutes.",
-    "Slice the chicken into thin strips.",
-    "Garnish with fresh parsley.",
-    "Serve with pita bread, garlic sauce, hummus, rice, pickled vegetables, or fresh salad."
+    "في وعاء كبير، اخلط الزبادي، وزيت الزيتون، وعصير الليمون، والثوم، وجميع التوابل.",
+    "أضف الدجاج وقلبه جيداً لتغطيته بالكامل بالتتبيلة.",
+    "غطِّ الوعاء وضعه في الثلاجة لمدة 8 ساعات على الأقل، ويفضل طوال الليل.",
+    "سخن الشواية أو مقلاة الشواء على نار متوسطة إلى عالية.",
+    "اشوِ الدجاج لمدة 6–8 دقائق لكل جانب حتى ينضج تماماً ويتحمر خفيفاً.",
+    "انقل الدجاج إلى لوح تقطيع واتركه يرتاح لمدة 5 دقائق.",
+    "قطّع الدجاج إلى شرائح رفيعة.",
+    "زيّن بالبقدونس الطازج.",
+    "قدمه مع خبز البيتا، وصلصة الثوم، والحمص، والأرز، الخضار المخللة، أو السلطة الطازجة."
   ],
   "healthBenefits": [
-    "Excellent source of lean protein",
-    "Rich in B vitamins",
-    "Contains immune-supporting garlic",
-    "Healthy fats from olive oil",
-    "Naturally low in carbohydrates",
-    "Mediterranean diet friendly"
+    "مصدر ممتاز للبروتين الخالي من الدهون",
+    "غني بفيتامينات B",
+    "يحتوي على الثوم الداعم للمناعة",
+    "دهون صحية من زيت الزيتون",
+    "منخفض الكربوهيدرات طبيعياً",
+    "مناسب لنظام الحمية المتوسطية"
   ],
   "keywords": [
-    "Chicken Shawarma",
-    "Grilled Chicken Shawarma",
-    "Lebanese Chicken",
-    "Healthy Shawarma",
-    "Mediterranean Chicken"
+    "شاورما الدجاج",
+    "شاورما الدجاج المشوي",
+    "دجاج لبناني",
+    "شاورما صحية",
+    "دجاج متوسطي"
   ],
   "tags": [
-    "main dish",
-    "Lebanese",
-    "chicken",
-    "grilled",
-    "high protein",
-    "Mediterranean",
-    "healthy",
-    "shawarma"
+    "طبق رئيسي",
+    "لبناني",
+    "دجاج",
+    "مشوي",
+    "عالي البروتين",
+    "متوسطي",
+    "صحي",
+    "شاورما"
   ]
 };
 

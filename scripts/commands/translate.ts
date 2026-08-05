@@ -42,7 +42,11 @@ export async function translate(language: string) {
       const currentHash = recipeHash(englishRecipe);
 
       // Skip if already translated and the English recipe hasn't changed
-      if (translationModule.sourceHash === currentHash) {
+
+      const isTranslated = translation.title !== englishRecipe.title;
+      const isUpToDate = translationModule.sourceHash === currentHash;
+
+      if (isTranslated && isUpToDate) {
         console.log(`⏭ ${slug} is already up to date`);
         continue;
       }

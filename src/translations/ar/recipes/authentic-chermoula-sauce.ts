@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "77d58d7e4f3cc37fe41b862d97ac2b0955428777ee4dc595d36b6577c27eeb12";
+export const sourceHash = "09e92a3ada03a5d0aa42c317ab2abbc3f8454ae399a0b48569a659f840600874";
 
 const translation: RecipeTranslation = {
   "title": "صلصة الشرمولة الأصلية",

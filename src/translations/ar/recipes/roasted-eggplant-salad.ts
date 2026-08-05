@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "9077594d3c0c27749186cd77f128deeea110eb2a7e6ef6b3f0448f3c0fbea16b";
+
 
 const translation: RecipeTranslation = {
   "title": "Roasted Eggplant Salad",

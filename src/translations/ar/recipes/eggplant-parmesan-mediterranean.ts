@@ -1,65 +1,65 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "d14457bd9469848aab190a31ca6d36206de8d69d7fc14959fbf806941a024b0a";
+export const sourceHash = "6c6d52bf29286c2b79badbb2cf6f1f53dc008848377cf9a9b229751da0f1162e";
 
 const translation: RecipeTranslation = {
-  "title": "Eggplant Parmesan (Mediterranean Style)",
-  "description": "Layers of baked eggplant, homemade tomato sauce, mozzarella, Parmesan cheese, and fresh herbs baked until golden and bubbling.",
-  "longDescription": "This Mediterranean-inspired Eggplant Parmesan replaces deep frying with oven roasting while preserving the rich flavors of the classic dish. Tender roasted eggplant is layered with a light tomato sauce, mozzarella, Parmesan cheese, basil, and oregano before being baked to perfection. The result is a satisfying vegetarian meal that fits beautifully into a healthy Mediterranean lifestyle.",
+  "title": "باذنجان بارميزان (على الطريقة المتوسطية)",
+  "description": "طبقات من الباذنجان المخبوز، وصلصة الطماطم المصنوعة منزلياً، وجبنة الموزاريلا، وجبنة البارميزان، والأعشاب الطازجة، يُخبز حتى يصبح ذهبياً وفواراً.",
+  "longDescription": "تستبدل وصفة باذنجان البارميزان المستوحاة من البحر الأبيض المتوسط القلي العميق بالتحميص في الفرن مع الحفاظ على النكهات الغنية للطبق الكلاسيكي. يُوضع الباذنجان المحمص الطري في طبقات مع صلصة طماطم خفيفة، وجبنة الموزاريلا، وجبنة البارميزان، والريحان، والأوريغانو قبل خبزه حتى الكمال. والنتيجة هي وجبة نباتية مشبعة تناسب تماماً أسلوب الحياة المتوسطي الصحي.",
   "ingredients": [
-    "Large eggplants, sliced into 1 cm rounds",
-    "extra virgin olive oil",
-    "tomato sauce",
-    "fresh mozzarella, sliced",
-    "grated Parmesan cheese",
-    "cloves, minced",
-    "chopped fresh basil",
-    "chopped fresh parsley",
-    "dried oregano",
-    "sea salt",
-    "black pepper",
-    "Fresh basil leaves for garnish"
+    "باذنجان كبير، مقطع إلى شرائح دائرية بسمك 1 سم",
+    "زيت زيتون بكر ممتاز",
+    "صلصة طماطم",
+    "جبنة موزاريلا طازجة، شرائح",
+    "جبنة بارميزان مبشورة",
+    "فصوص ثوم مفرومة",
+    "ريحان طازج مفروم",
+    "بقدونس طازج مفروم",
+    "أوريغانو مجفف",
+    "ملح البحر",
+    "فلفل أسود",
+    "أوراق ريحان طازجة للتزيين"
   ],
   "instructions": [
-    "Preheat the oven to 220°C (425°F).",
-    "Arrange the eggplant slices on baking trays lined with parchment paper.",
-    "Brush both sides with olive oil and season with salt and pepper.",
-    "Roast for 20 minutes, flipping halfway through.",
-    "Meanwhile, warm the tomato sauce with garlic and oregano for 5 minutes.",
-    "Lightly grease a baking dish.",
-    "Spread a thin layer of tomato sauce on the bottom.",
-    "Layer roasted eggplant, tomato sauce, mozzarella, Parmesan, basil, and parsley.",
-    "Repeat the layers until all ingredients are used.",
-    "Finish with the remaining Parmesan cheese.",
-    "Bake for 25 minutes until bubbling and lightly browned.",
-    "Allow to rest for 10 minutes before slicing.",
-    "Garnish with fresh basil and serve warm."
+    "سخن الفرن مسبقاً إلى 220 درجة مئوية (425 درجة فهرنهايت).",
+    "رتّب شرائح الباذنجان على صواني خبز مغطاة بورق الزبدة.",
+    "ادهن الجانبين بزيت الزيتون وتبلهما بالملح والفلفل.",
+    "اخبز لمدة 20 دقيقة، مع التقليب في منتصف الوقت.",
+    "في هذه الأثناء، سخن صلصة الطماطم مع الثوم والأوريغانو لمدة 5 دقائق.",
+    "ادهن طبق الخبز بقليل من الزيت.",
+    "افرد طبقة رقيقة من صلصة الطماطم في القاع.",
+    "ضع طبقات من الباذنجان المحمص، وصلصة الطماطم، والموزاريلا، والبارميزان، والريحان، والبقدونس.",
+    "كرر الطبقات حتى تنفد جميع المكونات.",
+    "انهِ بوضع ما تبقى من جبنة البارميزان.",
+    "اخبز لمدة 25 دقيقة حتى يغلي ويكتسب لوناً ذهبياً خفيفاً.",
+    "اتركه يرتاح لمدة 10 دقائق قبل التقطيع.",
+    "زين بأوراق الريحان الطازجة وقدمه دافئاً."
   ],
   "healthBenefits": [
-    "Rich in antioxidants from eggplant",
-    "Excellent source of calcium",
-    "High in dietary fiber",
-    "Provides vitamins A and C",
-    "Uses heart-healthy olive oil",
-    "Baked instead of fried",
-    "Mediterranean diet friendly"
+    "غني بمضادات الأكسدة من الباذنجان",
+    "مصدر ممتاز للكالسيوم",
+    "غني بالألياف الغذائية",
+    "يوفر فيتامينات A و C",
+    "يستخدم زيت الزيتون المفيد لصحة القلب",
+    "مخبوز بدلاً من القلي",
+    "مناسب لنظام البحر الأبيض المتوسط الغذائي"
   ],
   "keywords": [
-    "Eggplant Parmesan",
-    "Healthy Eggplant Parmesan",
-    "Mediterranean Vegetarian",
-    "Baked Eggplant",
-    "Healthy Mediterranean Dinner"
+    "باذنجان بارميزان",
+    "باذنجان بارميزان صحي",
+    "نباتي متوسطي",
+    "باذنجان مخبوز",
+    "عشاء صحي من البحر الأبيض المتوسط"
   ],
   "tags": [
-    "vegetarian",
-    "Mediterranean",
-    "Lebanese",
-    "eggplant",
-    "healthy",
-    "baked",
-    "cheese",
-    "main dish"
+    "نباتي",
+    "متوسطي",
+    "لبناني",
+    "باذنجان",
+    "صحي",
+    "مخبوز",
+    "جبنة",
+    "طبق رئيسي"
   ]
 };
 

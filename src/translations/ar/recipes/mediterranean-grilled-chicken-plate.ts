@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "b56e5b77edcc01310fc6947f3349dc61a63649b75faef3b5c0c26e801a8680db";
+
 
 const translation: RecipeTranslation = {
   "title": "Mediterranean Grilled Chicken Plate",

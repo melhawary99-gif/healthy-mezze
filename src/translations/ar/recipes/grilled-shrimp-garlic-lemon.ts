@@ -1,60 +1,60 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "4ed144e5636e82b06498603cfaad6c793ff580c0c2cf9849061da2b631f6497c";
+export const sourceHash = "09d55f4dfdaa493554f620b6429f3a5afe49390fc6237c652f8067bd2ace0031";
 
 const translation: RecipeTranslation = {
-  "title": "Grilled Shrimp with Garlic & Lemon",
-  "description": "Juicy grilled shrimp marinated in garlic, lemon juice, olive oil, parsley, and Mediterranean spices. A light, protein-rich Lebanese-inspired mezze.",
-  "longDescription": "Grilled Shrimp with Garlic & Lemon is a popular seafood appetizer served throughout Lebanon's coastal regions. Fresh shrimp are marinated with extra virgin olive oil, garlic, lemon juice, parsley, cumin, and paprika before being quickly grilled to perfection. This healthy recipe is naturally low in carbohydrates, rich in lean protein, and full of fresh Mediterranean flavors.",
+  "title": "روبيان مشوي بالثوم والليمون",
+  "description": "روبيان مشوي طري منقوع في الثوم، عصير الليمون، زيت الزيتون، البقدونس، والبهارات المتوسطية. مزة خفيفة وغنية بالبروتين مستوحاة من المطبخ اللبناني.",
+  "longDescription": "يُعد الروبيان المشوي بالثوم والليمون مقبّلات بحرية شهيرة تُقدَّم في جميع المناطق الساحلية في لبنان. يُنقع الروبيان الطازج في زيت الزيتون البكر الممتاز، الثوم، عصير الليمون، البقدونس، الكمون، والبابريكا قبل شوائه سريعاً حتى الكمال. هذه الوصفة الصحية منخفضة الكربوهيدرات طبيعياً، وغنية بالبروتين الخالي من الدهون، ومفعمة بالنكهات المتوسطية الطازجة.",
   "ingredients": [
-    "large shrimp, peeled and deveined",
-    "extra virgin olive oil",
-    "cloves, minced",
-    "fresh lemon juice",
-    "fresh parsley, chopped",
-    "ground cumin",
-    "paprika",
-    "black pepper",
-    "sea salt",
-    "crushed red pepper flakes (optional)",
-    "Lemon wedges for serving"
+    "روبيان كبير، مقشر ومُنظف",
+    "زيت زيتون بكر ممتاز",
+    "فصوص ثوم مفرومة",
+    "عصير ليمون طازج",
+    "بقدونس طازج مفروم",
+    "كمون مطحون",
+    "بابريكا",
+    "فلفل أسود",
+    "ملح البحر",
+    "رقائق الفلفل الأحمر الحار المجروش (اختياري)",
+    "شرائح ليمون للتقديم"
   ],
   "instructions": [
-    "Pat the shrimp dry with paper towels.",
-    "In a bowl, whisk together olive oil, garlic, lemon juice, parsley, cumin, paprika, salt, black pepper, and red pepper flakes.",
-    "Add the shrimp and toss until evenly coated.",
-    "Marinate for 15–20 minutes in the refrigerator.",
-    "Preheat a grill or grill pan over medium-high heat.",
-    "Grill the shrimp for 2–3 minutes per side until pink and opaque.",
-    "Transfer to a serving platter.",
-    "Garnish with fresh parsley and lemon wedges.",
-    "Serve immediately."
+    "جفف الروبيان باستخدام مناشف ورقية.",
+    "في وعاء، اخلط زيت الزيتون، الثوم، عصير الليمون، البقدونس، الكمون، البابريكا، الملح، الفلفل الأسود، ورقائق الفلفل الأحمر.",
+    "أضف الروبيان وقلّبه حتى يتغطى بالتساوي.",
+    "اتركه في التتبيلة لمدة 15–20 دقيقة في الثلاجة.",
+    "سخّن الشواية أو مقلاة الشواء على نار متوسطة إلى عالية.",
+    "اشوِ الروبيان لمدة 2–3 دقائق لكل جانب حتى يصبح وردي اللون وغير شفاف.",
+    "انقله إلى طبق التقديم.",
+    "زينه بالبقدونس الطازج وشرائح الليمون.",
+    "قدّمه فوراً."
   ],
   "healthBenefits": [
-    "Excellent source of lean protein",
-    "Rich in selenium and iodine",
-    "Provides heart-healthy omega-3 fatty acids",
-    "Low in carbohydrates",
-    "Garlic contains beneficial antioxidants",
-    "Olive oil provides healthy monounsaturated fats",
-    "Mediterranean diet friendly"
+    "مصدر ممتاز للبروتين الخالي من الدهون",
+    "غني بالسيلينيوم واليود",
+    "يوفر أحماض أوميغا-3 الدهنية المفيدة لصحة القلب",
+    "منخفض الكربوهيدرات",
+    "يحتوي الثوم على مضادات أكسدة مفيدة",
+    "يوفر زيت الزيتون دهوناً صحية أحادية غير مشبعة",
+    "مناسب لنظام الحمية المتوسطية"
   ],
   "keywords": [
-    "Grilled Shrimp",
-    "Garlic Shrimp",
-    "Lebanese Seafood",
-    "Healthy Shrimp Recipe",
-    "Mediterranean Mezze"
+    "روبيان مشوي",
+    "روبيان بالثوم",
+    "مأكولات بحرية لبنانية",
+    "وصفة روبيان صحية",
+    "مزة متوسطية"
   ],
   "tags": [
-    "mezze",
-    "Lebanese",
-    "shrimp",
-    "seafood",
-    "high-protein",
-    "healthy",
-    "Mediterranean",
-    "gluten-free"
+    "مزة",
+    "لبناني",
+    "روبيان",
+    "مأكولات بحرية",
+    "عالي البروتين",
+    "صحي",
+    "متوسطي",
+    "خالي من الغلوتين"
   ]
 };
 

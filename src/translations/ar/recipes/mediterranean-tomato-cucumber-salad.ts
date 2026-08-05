@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "c5405014f13b3bf55a33ef44a3bdfaedad390cc4b975962c16574f6ed20979f6";
+
 
 const translation: RecipeTranslation = {
   "title": "Mediterranean Tomato & Cucumber Salad",

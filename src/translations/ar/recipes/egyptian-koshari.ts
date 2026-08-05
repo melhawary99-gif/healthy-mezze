@@ -1,66 +1,66 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "c83ffad7752c728326c02732374d6383d4c0c491ce72b3e20a45df1809cded4d";
+export const sourceHash = "674b14a5841244b4b562de8775bbcf2392c916ae6d875de231d57301d1f6940d";
 
 const translation: RecipeTranslation = {
-  "title": "Egyptian Koshari",
-  "description": "Egypt's famous comfort food made with rice, lentils, pasta, chickpeas, crispy onions, and a rich spiced tomato sauce.",
-  "longDescription": "Egyptian Koshari is the national dish of Egypt and a beloved vegetarian meal packed with flavor and texture. Layers of fluffy rice, brown lentils, pasta, tender chickpeas, crispy fried onions, and a bold garlic tomato sauce come together to create a hearty, protein-rich meal. Affordable, filling, and naturally meat-free, Koshari is enjoyed throughout Egypt as both street food and home cooking.",
+  "title": "الكشري المصري",
+  "description": "طعام الراحة الشهير في مصر، المحضر من الأرز والعدس والمعكرونة والحمص والبصل المقرمش وصلصة الطماطم الغنية بالتوابل.",
+  "longDescription": "الكشري المصري هو الطبق الوطني لمصر ووجبة نباتية محبوبة مليئة بالنكهات والقوام المتنوع. تتكون الوجبة من طبقات من الأرز الهش، والعدس البني، والمعكرونة، والحمص الطري، والبصل المقلي المقرمش، وصلصة الطماطم القوية بالثوم لتشكيل وجبة مشبعة وغنية بالبروتين. يتميز الكشري بسعره المناسب وطعمه المشبع وكونه خاليًا من اللحوم طبيعيًا، ويستمتع به الجميع في جميع أنحاء مصر كطعام شوارع ووجبة منزلية.",
   "ingredients": [
-    "long-grain rice",
-    "brown lentils",
-    "cooked chickpeas",
-    "small pasta (elbow or ditalini)",
-    "Large onions, thinly sliced",
-    "extra virgin olive oil",
-    "cloves, minced",
-    "tomato puree",
-    "tomato paste",
-    "ground cumin",
-    "ground coriander",
-    "paprika",
-    "crushed red pepper flakes (optional)",
-    "white vinegar",
-    "sea salt",
-    "black pepper",
-    "Fresh parsley for garnish"
+    "أرز طويل الحبة",
+    "عدس بني",
+    "حمص مطبوخ",
+    "معكرونة صغيرة (معكرونة الكوع أو ديتاليني)",
+    "بصل كبير، مقطع إلى شرائح رفيعة",
+    "زيت زيتون بكر ممتاز",
+    "فصوص ثوم مفرومة",
+    "بيوريه الطماطم",
+    "معجون الطماطم",
+    "كمون مطحون",
+    "كزبرة مطحونة",
+    "بابريكا",
+    "رقائق الفلفل الأحمر الحار المجروش (اختياري)",
+    "خل أبيض",
+    "ملح البحر",
+    "فلفل أسود",
+    "بقدونس طازج للتزيين"
   ],
   "instructions": [
-    "Cook the lentils until just tender, then drain.",
-    "Cook the rice according to package instructions.",
-    "Boil the pasta until al dente and drain.",
-    "Heat the olive oil in a skillet and fry the sliced onions until deep golden and crispy. Remove and drain on paper towels.",
-    "In the same pan, sauté the garlic for 30 seconds.",
-    "Add the tomato puree, tomato paste, cumin, coriander, paprika, chili flakes, vinegar, salt, and pepper.",
-    "Simmer the tomato sauce for about 15 minutes until slightly thickened.",
-    "To assemble, layer the rice, lentils, pasta, and chickpeas in serving bowls.",
-    "Top generously with the tomato sauce and crispy onions.",
-    "Garnish with chopped parsley and serve immediately."
+    "اطبخ العدس حتى ينضج تمامًا دون أن يتهرى، ثم صفّه.",
+    "اطبخ الأرز وفقًا للتعليمات المدونة على العبوة.",
+    "اسلق المعكرونة حتى تصبح مطبوخة بدرجة متماسكة، ثم صفّها.",
+    "سخّن زيت الزيتون في مقلاة واقلِ شرائح البصل حتى تصبح ذهبية داكنة ومقرمشة. أخرجها وصفّها على محارم ورقية.",
+    "في المقلاة نفسها، شوّح الثوم لمدة 30 ثانية.",
+    "أضف بيوريه الطماطم، ومعجون الطماطم، والكمون، والكزبرة، والبابريكا، ورقائق الفلفل الحار، والخل، والملح، والفلفل الأسود.",
+    "اترك صلصة الطماطم تغلي على نار هادئة لمدة 15 دقيقة تقريبًا حتى تتسبك وتصبح أسمك قليلاً.",
+    "للتقديم، ضع طبقات من الأرز والعدس والمعكرونة والحمص في أطباق التقديم.",
+    "أضف كمية سخية من صلصة الطماطم والبصل المقرمش على الوجه.",
+    "زيّن بالبقدونس المفروم وقدّمه فورًا."
   ],
   "healthBenefits": [
-    "Excellent source of plant-based protein",
-    "High in dietary fiber",
-    "Rich in iron and folate",
-    "Provides long-lasting energy from whole grains and legumes",
-    "Naturally vegetarian",
-    "Supports digestive and heart health"
+    "مصدر ممتاز للبروتين النباتي",
+    "غني بالألياف الغذائية",
+    "غني بالحديد وحمض الفوليك",
+    "يوفر طاقة طويلة الأمد من الحبوب الكاملة والبقوليات",
+    "نباتي طبيعيًا",
+    "يدعم صحة الجهاز الهضمي والقلب"
   ],
   "keywords": [
-    "Egyptian Koshari",
-    "Koshari Recipe",
-    "Egyptian Rice and Lentils",
-    "Vegetarian Egyptian Food",
-    "Healthy Koshari"
+    "الكشري المصري",
+    "وصفة الكشري",
+    "أرز وعدس مصري",
+    "طعام مصري نباتي",
+    "كشري صحي"
   ],
   "tags": [
-    "main dish",
-    "Egyptian",
-    "vegetarian",
-    "vegan",
-    "rice",
-    "lentils",
-    "chickpeas",
-    "healthy"
+    "طبق رئيسي",
+    "مصري",
+    "نباتي",
+    "خضري",
+    "أرز",
+    "عدس",
+    "حمص",
+    "صحي"
   ]
 };
 

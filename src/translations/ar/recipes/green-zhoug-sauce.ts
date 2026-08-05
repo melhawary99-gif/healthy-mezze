@@ -1,59 +1,59 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "7f2c201da447beff9ec23e4b77c91e12768d177e6f3d8013e77a52409c2950ec";
+export const sourceHash = "792f19c9d8e00e7090adf101197910959d4fc9e014547ce9c4923c471f02a4be";
 
 const translation: RecipeTranslation = {
-  "title": "Green Zhoug (Zhug) Sauce",
-  "description": "A vibrant Middle Eastern herb sauce made with cilantro, parsley, garlic, green chilies, spices, and extra virgin olive oil.",
-  "longDescription": "Green Zhoug, also known as Zhug or Shug, is a traditional Yemeni herb sauce that has become popular across the Middle East. Made with fresh cilantro, parsley, garlic, green chilies, cumin, coriander, cardamom, and olive oil, this bold and aromatic condiment adds freshness and gentle heat to grilled meats, faloufel, shawarma, roasted vegetables, eggs, sandwiches, and wraps. This healthier version uses heart-healthy extra virgin olive oil while preserving its authentic flavor.",
+  "title": "صلصة الزحوق (السحاوق) الخضراء",
+  "description": "صلصة أعشاب شرق أوسطية منعشة مصنوعة من الكزبرة والبقدونس والثوم والفلفل الأخضر الحار والبهارات وزيت الزيتون البكر الممتاز.",
+  "longDescription": "الزحوق الأخضر، المعروف أيضاً باسم السحاوق، هو صلصة أعشاب يمنية تقليدية أصبحت شائعة في جميع أنحاء الشرق الأوسط. تتكون هذه التتبيلة القوية والعطرية من الكزبرة الطازجة، والبقدونس، والثوم، والفلفل الأخضر الحار، والكمون، والكزبرة، والهيل، وزيت الزيتون، وتضفي نكهة طازجة وحرارة خفيفة على اللحوم المشوية، والفلافل، والشاورما، والخضروات المشوية، والبيض، والشطائر، واللفائف. وتستخدم هذه النسخة الأكثر صحة زيت الزيتون البكر الممتاز المفيد لصحة القلب مع الحفاظ على نكهتها الأصلية.",
   "ingredients": [
-    "fresh cilantro leaves",
-    "fresh parsley leaves",
-    "Green chilies, seeded for a milder sauce",
-    "cloves",
-    "extra virgin olive oil",
-    "fresh lemon juice",
-    "ground cumin",
-    "ground coriander",
-    "ground cardamom",
-    "sea salt",
-    "cold water (if needed)"
+    "أوراق كزبرة طازجة",
+    "أوراق بقدونس طازجة",
+    "فلفل أخضر حار، منزوع البذور لصلصة أقل حرارة",
+    "فصوص ثوم",
+    "زيت زيتون بكر ممتاز",
+    "عصير ليمون طازج",
+    "كمون مطحون",
+    "كزبرة مطحونة",
+    "هيل مطحون",
+    "ملح البحر",
+    "ماء بارد (حسب الحاجة)"
   ],
   "instructions": [
-    "Wash and thoroughly dry the cilantro and parsley.",
-    "Add the herbs, green chilies, garlic, cumin, coriander, cardamom, lemon juice, olive oil, and salt to a food processor.",
-    "Pulse several times until finely chopped.",
-    "Blend briefly while slowly adding the cold water if a thinner consistency is desired.",
-    "Taste and adjust the seasoning or lemon juice as needed.",
-    "Transfer to a serving bowl or airtight jar.",
-    "Refrigerate for at least 30 minutes before serving to allow the flavors to develop.",
-    "Serve with grilled meats, falafel, shawarma, eggs, roasted vegetables, or sandwiches."
+    "اغسل الكزبرة والبقدونس وجففهما جيداً.",
+    "أضف الأعشاب، والفلفل الأخضر الحار، والثوم، والكمون، والكزبرة، والهيل، وعصير الليمون، وزيت الزيتون، والملح إلى محضرة الطعام.",
+    "اخلط على دفعات متقطعة عدة مرات حتى تفرم المكونات فرماً ناعماً.",
+    "اخلط لفترة وجيزة مع إضافة الماء البارد ببطء إذا كنت ترغب في الحصول على قوام أكثر سيولة.",
+    "تذوق وعدل البهارات أو عصير الليمون حسب الحاجة.",
+    "انقل الصلصة إلى وعاء تقديم أو برطمان محكم الإغلاق.",
+    "ضعها في الثلاجة لمدة 30 دقيقة على الأقل قبل التقديم لتمتزج النكهات وتترسخ.",
+    "قدمها مع اللحوم المشوية، أو الفلافل، أو الشاورما، أو البيض، أو الخضار المشوية، أو الشطائر."
   ],
   "healthBenefits": [
-    "Rich in antioxidants from fresh herbs",
-    "Contains heart-healthy monounsaturated fats",
-    "Naturally vegan and dairy-free",
-    "Garlic provides beneficial plant compounds",
-    "Fresh herbs provide vitamin K and vitamin C",
-    "Adds flavor without processed ingredients",
-    "Pairs well with lean proteins and vegetables"
+    "غنية بمضادات الأكسدة من الأعشاب الطازجة",
+    "تحتوي على دهون أحادية غير مشبعة مفيدة لصحة القلب",
+    "نباتية خالصة وخالية من الألبان طبيعياً",
+    "يوفر الثوم مركبات نباتية مفيدة",
+    "تزود الأعشاب الطازجة الجسم بفيتامين K وفيتامين C",
+    "تضيف نكهة دون الحاجة إلى مكونات مصنعة",
+    "تتماشى جيداً مع البروتينات الخالية من الدهون والخضروات"
   ],
   "keywords": [
-    "Green Zhoug",
-    "Zhug Sauce",
-    "Yemeni Herb Sauce",
-    "Middle Eastern Sauce",
-    "Healthy Zhoug"
+    "الزحوق الأخضر",
+    "صلصة السحاوق",
+    "صلصة أعشاب يمنية",
+    "صلصة شرق أوسطية",
+    "زحوق صحي"
   ],
   "tags": [
-    "dip",
-    "sauce",
-    "Middle Eastern",
-    "Yemeni",
-    "herbs",
-    "vegan",
-    "healthy",
-    "condiment"
+    "غموس",
+    "صلصة",
+    "شرق أوسطي",
+    "يمني",
+    "أعشاب",
+    "نباتي",
+    "صحي",
+    "تتبيلة"
   ]
 };
 

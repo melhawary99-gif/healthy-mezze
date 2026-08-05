@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "977de2a392bb2f42b8116286500dc7f4a507ee67d4a634ed7a138617f504bb46";
+
 
 const translation: RecipeTranslation = {
   "title": "Hummus Power Bowl",

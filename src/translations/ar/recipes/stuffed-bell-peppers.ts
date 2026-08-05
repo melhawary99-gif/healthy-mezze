@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "4ea6c205580033752a1651f07d3962f4b162af3fc479b30e4075412839231113";
+
 
 const translation: RecipeTranslation = {
   "title": "Mediterranean Stuffed Bell Peppers",

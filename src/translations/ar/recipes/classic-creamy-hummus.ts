@@ -1,62 +1,62 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "3e6838a4536b08dea3230ac29b4d53cf41aa8dbbd3733b6237967443df4891bd";
+export const sourceHash = "a4fb01b399ff9d676596aad0198ff0c107c7e7011c3c6c71af03ab96c36b5ec8";
 
 const translation: RecipeTranslation = {
-  "title": "Classic Creamy Hummus",
-  "description": "A silky smooth Mediterranean hummus made with chickpeas, tahini, fresh lemon juice, garlic, and extra virgin olive oil. Perfect as a healthy snack, appetizer, or spread.",
-  "longDescription": "Classic Creamy Hummus is one of the most beloved dishes in Mediterranean cuisine. Made from tender chickpeas blended with rich tahini, fresh lemon juice, garlic, and premium extra virgin olive oil, this protein-rich dip is creamy, flavorful, and incredibly versatile. Serve it with fresh vegetables, whole wheat pita, crackers, or as part of a mezze platter.",
+  "title": "حمص كلاسيكي كريمي",
+  "description": "حمص متوسطي ناعم وحريري مصنوع من الحمص، الطحينة، عصير الليمون الطازج، الثوم، وزيت الزيتون البكر الممتاز. مثالي كوجبة خفيفة صحية، أو مقبلات، أو دهن.",
+  "longDescription": "يعد الحمص الكلاسيكي الكريمي أحد أكثر الأطباق المحبوبة في المطبخ المتوسطي. يتم تحضيره من الحمص الطري المخلوط مع الطحينة الغنية، وعصير الليمون الطازج، والثوم، وزيت الزيتون البكر الممتاز الفاخر. هذا المغمس الغني بالبروتين كريمي، ومليء بالنكهة، ومتعدد الاستخدامات بشكل رائع. قدمه مع الخضروات الطازجة، أو خبز البيتا المصنوع من القمح الكامل، أو المقرمشات، أو كجزء من طبق المزة.",
   "ingredients": [
-    "(15 oz each) chickpeas, drained and rinsed",
-    "tahini",
-    "fresh lemon juice",
-    "cloves",
-    "extra virgin olive oil, plus extra for serving",
-    "ground cumin",
-    "sea salt",
-    "3–5 tbsp cold water",
-    "chopped fresh parsley",
-    "smoked paprika",
-    "Whole chickpeas for garnish (optional)"
+    "(15 أونصة لكل منها) حمص، مصفى ومغسول",
+    "طحينة",
+    "عصير ليمون طازج",
+    "فصوص ثوم",
+    "زيت زيتون بكر ممتاز، بالإضافة إلى المزيد للتقديم",
+    "كمون مطحون",
+    "ملح البحر",
+    "3–5 ملعقة كبيرة ماء بارد",
+    "بقدونس طازج مفروم",
+    "بابريكا مدخنة",
+    "حمص حب للتزيين (اختياري)"
   ],
   "instructions": [
-    "Drain and rinse the chickpeas thoroughly.",
-    "Add the chickpeas, tahini, lemon juice, garlic, olive oil, cumin, and salt to a food processor.",
-    "Blend until smooth.",
-    "Gradually add cold water, one tablespoon at a time, until the hummus becomes light and creamy.",
-    "Taste and adjust the seasoning with additional lemon juice or salt if needed.",
-    "Transfer to a serving bowl.",
-    "Create a shallow swirl on top using the back of a spoon.",
-    "Drizzle with extra virgin olive oil.",
-    "Sprinkle with smoked paprika and chopped parsley.",
-    "Garnish with a few whole chickpeas if desired.",
-    "Serve with whole wheat pita bread or fresh vegetables."
+    "صفِّ الحمص واغسله جيدًا.",
+    "أضف الحمص، الطحينة، عصير الليمون، الثوم، زيت الزيتون، الكمون، والملح إلى محضرة الطعام.",
+    "اخلط المكونات حتى تصبح ناعمة.",
+    "أضف الماء البارد تدريجيًا، ملعقة كبيرة في كل مرة، حتى يصبح الحمص خفيفًا وكريميًا.",
+    "تذوق واضبط التوابل بإضافة المزيد من عصير الليمون أو الملح إذا لزم الأمر.",
+    "انقل الحمص إلى طبق التقديم.",
+    "اصنع دوامة ضحلة على السطح باستخدام ظهر ملعقة.",
+    "رش القليل من زيت الزيتون البكر الممتاز.",
+    "رش البابريكا المدخنة والبقدونس المفروم.",
+    "زيّن ببعض حبات الحمص الكاملة إذا رغبت في ذلك.",
+    "قدمه مع خبز البيتا المصنوع من القمح الكامل أو الخضروات الطازجة."
   ],
   "healthBenefits": [
-    "Excellent source of plant-based protein",
-    "Rich in dietary fiber",
-    "Contains heart-healthy monounsaturated fats",
-    "High in folate and iron",
-    "Supports digestive health",
-    "Naturally vegetarian",
-    "Mediterranean diet approved"
+    "مصدر ممتاز للبروتين النباتي",
+    "غني بالألياف الغذائية",
+    "يحتوي على دهون أحادية غير مشبعة مفيدة لصحة القلب",
+    "غني بالفوليك والحديد",
+    "يدعم صحة الجهاز الهضمي",
+    "نباتي طبيعيًا",
+    "معتمد في الحمية المتوسطية"
   ],
   "keywords": [
-    "Classic Hummus",
-    "Creamy Hummus",
-    "Mediterranean Dip",
-    "Healthy Snack",
-    "Homemade Hummus"
+    "حمص كلاسيكي",
+    "حمص كريمي",
+    "مغمس متوسطي",
+    "وجبة خفيفة صحية",
+    "حمص منزلي الصنع"
   ],
   "tags": [
-    "snack",
-    "Mediterranean",
-    "hummus",
-    "chickpeas",
-    "vegetarian",
-    "vegan",
-    "healthy",
-    "mezze"
+    "وجبة خفيفة",
+    "متوسطي",
+    "حمص",
+    "حمص حب",
+    "نباتي",
+    "نباتي صرف",
+    "صحي",
+    "مزة"
   ]
 };
 

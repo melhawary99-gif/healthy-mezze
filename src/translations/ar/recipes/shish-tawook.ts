@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "d49ee8eb8663adb111c6a07ffa4fa33b50ff2be47e04426d6f9bea2f169e3130";
+
 
 const translation: RecipeTranslation = {
   "title": "Shish Tawook (Lebanese Chicken Kabobs)",

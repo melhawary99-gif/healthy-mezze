@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "cd4e2f976fb6a7d80dd0dcf70f6ddbbb9a898da9e501ea7131746cba99a4dd0a";
+export const sourceHash = "7def56554652ff70f121d446288cc43003840978cbd331c7b568dcf98a223c3f";
 
 const translation: RecipeTranslation = {
   "title": "شاي بالنعناع لبناني أصيل (شاي بالنعناع)",

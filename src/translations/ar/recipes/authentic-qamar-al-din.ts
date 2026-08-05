@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "12b07fc831e48eec84749374a2607d4f3414cf76bb6e96260d18a0853a239c39";
+export const sourceHash = "ae490b93ace056da0f565e9be6d53f91342472ca5983ec2b46b6740979ce5b25";
 
 const translation: RecipeTranslation = {
   "title": "قمر الدين الأصلي (مشروب المشمش)",

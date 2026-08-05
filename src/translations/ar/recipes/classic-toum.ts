@@ -1,54 +1,54 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "b4b045849069b6a130733cacdafc2510199aac496cba9a60358f0311bb3edbe1";
+export const sourceHash = "5153bdc798771bd8afb26c1ef9e158fd236eddeb35acb14ae1b11b05d1d0c398";
 
 const translation: RecipeTranslation = {
-  "title": "Classic Toum (Lebanese Garlic Sauce)",
-  "description": "A creamy, fluffy Lebanese garlic sauce made with fresh garlic, lemon juice, avocado oil, and aquafaba for a lighter, healthier twist.",
-  "longDescription": "Toum is Lebanon's famous garlic sauce, traditionally served with chicken shawarma, grilled meats, kebabs, roasted vegetables, and fries. This healthier version uses aquafaba (the liquid from cooked chickpeas) to create the signature airy texture while reducing the amount of oil needed. The result is a creamy, intensely garlicky sauce that's naturally vegan and packed with authentic flavor.",
+  "title": "الثوم الكلاسيكي (صلصة الثوم اللبنانية)",
+  "description": "صلصة ثوم لبنانية كريمية وخفيفة مصنوعة من الثوم الطازج، وعصير الليمون، وزيت الأفوكادو، والأكوافابا لمسة أخف وأكثر صحة.",
+  "longDescription": "الثوم هو صلصة الثوم الشهيرة في لبنان، وتقدم تقليدياً مع شاورما الدجاج، واللحوم المشوية، والكباب، والخضروات المشوية، والبطاطس المقلية. تستخدم هذه النسخة الأكثر صحة الأكوافابا (ماء سلق الحمص) للحصول على القوام الخفيف المميز مع تقليل كمية الزيت المطلوبة. والنتيجة هي صلصة كريمية بنكهة ثوم غنية، وهي نباتية بالكامل ومفعمة بالنكهة الأصيلة.",
   "ingredients": [
-    "cloves, peeled",
-    "aquafaba (liquid from canned chickpeas)",
-    "sea salt",
-    "fresh lemon juice",
-    "avocado oil",
-    "ice water (if needed)"
+    "فصوص ثوم، مقشرة",
+    "أكوافابا (ماء الحمص المعلب)",
+    "ملح البحر",
+    "عصير ليمون طازج",
+    "زيت الأفوكادو",
+    "ماء مثلج (عند الحاجة)"
   ],
   "instructions": [
-    "Place the garlic cloves and sea salt into a food processor.",
-    "Process until finely minced.",
-    "Add the aquafaba and blend until smooth.",
-    "With the processor running, slowly drizzle in the avocado oil in a thin, steady stream.",
-    "Alternate between small amounts of oil and lemon juice until all have been incorporated.",
-    "Continue blending until the sauce becomes thick, fluffy, and creamy.",
-    "If the mixture becomes too thick, blend in the ice water.",
-    "Transfer to a container and refrigerate for at least 1 hour before serving."
+    "ضع فصوص الثوم وملح البحر في محضرة الطعام.",
+    "اطحن المكونات حتى تصبح مفرومة ناعماً.",
+    "أضف الأكوافابا واخلط حتى يصبح المزيج ناعماً.",
+    "أثناء تشغيل المحضرة، أضف زيت الأفوكادو ببطء على شكل خيط رفيع وثابت.",
+    "بدّل بين كميات صغيرة من الزيت وعصير الليمون حتى تندمج جميع المكونات.",
+    "استمر في الخلط حتى تصبح الصلصة سميكة، وخفيفة، وكريمية.",
+    "إذا أصبح المزيج سميكاً جداً، أضف الماء المثلج واخلط.",
+    "انقل الصلصة إلى وعاء وضعها في الثلاجة لمدة 1 ساعة على الأقل قبل التقديم."
   ],
   "healthBenefits": [
-    "Garlic is rich in antioxidants",
-    "Contains heart-healthy unsaturated fats",
-    "Naturally dairy-free",
-    "Vegan-friendly",
-    "Lower in oil than many traditional versions",
-    "Pairs well with lean proteins and vegetables",
-    "Made without preservatives"
+    "الثوم غني بمضادات الأكسدة",
+    "يحتوي على دهون غير مشبعة مفيدة لصحة القلب",
+    "خالٍ من مشتقات الحليب طبيعياً",
+    "مناسب للنباتيين",
+    "يحتوي على نسبة زيت أقل من العديد من النسخ التقليدية",
+    "يتناسب جيداً مع البروتينات الخالية من الدهون والخضروات",
+    "مصنوع بدون مواد حافظة"
   ],
   "keywords": [
-    "Toum",
-    "Lebanese Garlic Sauce",
-    "Garlic Dip",
-    "Middle Eastern Sauce",
-    "Healthy Toum"
+    "ثوم",
+    "صلصة الثوم اللبنانية",
+    "غموس الثوم",
+    "صلصة الشرق الأوسط",
+    "ثوم صحي"
   ],
   "tags": [
-    "dip",
-    "sauce",
-    "Lebanese",
-    "garlic",
-    "vegan",
-    "healthy",
-    "mezze",
-    "condiment"
+    "غموس",
+    "صلصة",
+    "لبناني",
+    "ثوم",
+    "نباتي",
+    "صحي",
+    "مقبلات",
+    "توابل"
   ]
 };
 

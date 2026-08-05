@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "aad196967cc92bc66320306250940a0b43548e1f0799105b62f3b19d4e701e39";
+export const sourceHash = "e53658d31f851957b4e52f26893ec76e30324d164dae238ec571e40e30438a90";
 
 const translation: RecipeTranslation = {
   "title": "كركديه مصري أصيل (شاي الكركديه)",

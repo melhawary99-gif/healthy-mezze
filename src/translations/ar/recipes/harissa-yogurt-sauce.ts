@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "1214b0290af414b2f3a388003c8dc713314ba95866bd00fc053be1d3680b6138";
+
 
 const translation: RecipeTranslation = {
   "title": "Harissa Yogurt Sauce",

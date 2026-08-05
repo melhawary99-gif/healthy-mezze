@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "d5ea8d577a5547aaf26e9ab5f27f88fedbdf776d1c43fe84e774cb9f59b210bf";
+
 
 const translation: RecipeTranslation = {
   "title": "Herb-Roasted Cauliflower",

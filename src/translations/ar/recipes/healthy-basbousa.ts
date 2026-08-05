@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "206d7d83b73321544006030fc730ee95be665b8b78004341c01379052d53d134";
+
 
 const translation: RecipeTranslation = {
   "title": "Healthy Basbousa",

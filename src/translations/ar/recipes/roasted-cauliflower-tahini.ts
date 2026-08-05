@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "c01752302ebf248a276371253d03074ff43986d0d225a6c6a2243675b9b2b97b";
+
 
 const translation: RecipeTranslation = {
   "title": "Roasted Cauliflower with Tahini Sauce",

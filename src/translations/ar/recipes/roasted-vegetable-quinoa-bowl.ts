@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "25ea2a7229b756201295a88c54b2b4c35c158d00d69a67d6b263edb95f825dac";
+
 
 const translation: RecipeTranslation = {
   "title": "Roasted Vegetable Quinoa Bowl",

@@ -1,64 +1,64 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "4dd807d06e6071b1f00f54137452eded89f546b5ba00aee869b7b43d3245052f";
+export const sourceHash = "7fcde5d46af5210f8f08a71177fe2e6c54a1a8d8b573c409b26f94140889bbba";
 
 const translation: RecipeTranslation = {
-  "title": "Ful Medames (Egyptian Fava Beans)",
-  "description": "A traditional Egyptian breakfast made with slow-cooked fava beans, garlic, lemon juice, cumin, and extra virgin olive oil. Nutritious, filling, and naturally vegan.",
-  "longDescription": "Ful Medames is one of Egypt's most beloved breakfast dishes and a staple throughout the Middle East. Tender fava beans are gently warmed with garlic, cumin, lemon juice, and olive oil before being topped with fresh parsley, tomatoes, onions, and optional boiled eggs. Rich in plant-based protein and fiber, it's a satisfying meal traditionally served with warm pita bread.",
+  "title": "فول مدمس (فول مصري)",
+  "description": "إفطار مصري تقليدي مصنوع من الفول المطهو على نار هادئة، والثوم، وعصير الليمون، والكمون، وزيت الزيتون البكر الممتاز. مغذٍ ومشبِع ونباتي تمامًا بطبيعته.",
+  "longDescription": "يعتبر الفول المدمس من أكثر أطباق الإفطار محبوبية في مصر وهو طبق أساسي في جميع أنحاء الشرق الأوسط. يتم تسخين حبات الفول الطرية بلطف مع الثوم والكمون وعصير الليمون وزيت الزيتون قبل تزيينها بالبقدونس الطازج والطماطم والبصل والبيض المسلوق الاختياري. وهو غني بالبروتين النباتي والألياف، مما يجعله وجبة مشبعة تُقدم تقليديًا مع الخبز العربي الدافئ.",
   "ingredients": [
-    "(400 g each) fava beans, drained and rinsed",
-    "extra virgin olive oil",
-    "cloves, minced",
-    "fresh lemon juice",
-    "ground cumin",
-    "paprika",
-    "sea salt",
-    "black pepper",
-    "chopped fresh parsley",
-    "Small tomato, diced",
-    "Small red onion, finely diced",
-    "chopped fresh cilantro (optional)",
-    "eggs (optional)",
-    "Warm whole wheat pita bread for serving",
-    "Lemon wedges for serving"
+    "(400 غرام لكل منها) فول، مصفى ومغسول",
+    "زيت زيتون بكر ممتاز",
+    "فصوص ثوم، مفرومة",
+    "عصير ليمون طازج",
+    "كمون مطحون",
+    "بابريكا",
+    "ملح البحر",
+    "فلفل أسود",
+    "بقدونس طازج مفروم",
+    "حبة طماطم صغيرة، مقطعة مكعبات",
+    "بصلة حمراء صغيرة، مقطعة مكعبات صغيرة",
+    "كزبرة طازجة مفرومة (اختياري)",
+    "بيض (اختياري)",
+    "خبز عربي دافئ من القمح الكامل للتقديم",
+    "شرائح ليمون للتقديم"
   ],
   "instructions": [
-    "Heat the olive oil in a saucepan over medium heat.",
-    "Add the minced garlic and cook for 30 seconds until fragrant.",
-    "Stir in the fava beans, cumin, paprika, salt, and black pepper.",
-    "Cook for 5–7 minutes, gently mashing some of the beans while leaving others whole.",
-    "Add the lemon juice and stir well.",
-    "Transfer the beans to a serving bowl.",
-    "Top with diced tomatoes, red onion, parsley, and optional cilantro.",
-    "Drizzle with additional olive oil if desired.",
-    "Serve with boiled eggs, warm pita bread, and fresh lemon wedges."
+    "سخن زيت الزيتون في قدر على نار متوسطة.",
+    "أضف الثوم المفروم واطهُ لمدة 30 ثانية حتى تفوح رائحته.",
+    "أضف الفول، والكمون، والبابريكا، والملح، والفلفل الأسود وقلّب المكونات.",
+    "اطهُ لمدة 5–7 دقائق، مع هرص بعض حبات الفول بلطف وترك البعض الآخر كاملاً.",
+    "أضف عصير الليمون وقلّب جيدًا.",
+    "انقل الفول إلى طبق التقديم.",
+    "زيّن الوجه بالطماطم المقطعة، والبصل الأحمر، والبقدونس، والكزبرة الاختيارية.",
+    "رش القليل من زيت الزيتون الإضافي إذا رغبت في ذلك.",
+    "قدمه مع البيض المسلوق، والخبز العربي الدافئ، وشرائح الليمون الطازجة."
   ],
   "healthBenefits": [
-    "Excellent source of plant-based protein",
-    "High in dietary fiber",
-    "Supports heart health",
-    "Rich in iron and folate",
-    "Provides long-lasting energy",
-    "Mediterranean diet friendly",
-    "Naturally vegan without eggs"
+    "مصدر ممتاز للبروتين النباتي",
+    "غني بالألياف الغذائية",
+    "يدعم صحة القلب",
+    "غني بالحديد وحمض الفوليك",
+    "يمد الجسم بالطاقة لفترة طويلة",
+    "مناسب لنظام حمية البحر الأبيض المتوسط",
+    "نباتي تمامًا بطبيعته بدون بيض"
   ],
   "keywords": [
-    "Ful Medames",
-    "Egyptian Breakfast",
-    "Fava Beans",
-    "Mediterranean Breakfast",
-    "Healthy Vegan Breakfast"
+    "فول مدمس",
+    "إفطار مصري",
+    "حبوب الفول",
+    "إفطار من البحر الأبيض المتوسط",
+    "إفطار نباتي صحي"
   ],
   "tags": [
-    "breakfast",
-    "Egyptian",
-    "Mediterranean",
-    "fava beans",
-    "vegan",
-    "healthy",
-    "high protein",
-    "high fiber"
+    "إفطار",
+    "مصري",
+    "البحر الأبيض المتوسط",
+    "فول",
+    "نباتي",
+    "صحي",
+    "عالي البروتين",
+    "عالي الألياف"
   ]
 };
 

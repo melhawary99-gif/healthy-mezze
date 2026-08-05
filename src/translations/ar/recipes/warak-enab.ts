@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "c185f549bf0fb83f8f7d0b4e4b0e56bfa98129fc74eae241f8c702536974d3d6";
+
 
 const translation: RecipeTranslation = {
   "title": "Warak Enab (Stuffed Grape Leaves)",

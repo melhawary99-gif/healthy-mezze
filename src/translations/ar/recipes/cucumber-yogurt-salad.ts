@@ -1,56 +1,56 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "5b6d6f077956daa1a8b0b8e40e8188cbc3a8d322b3689083e2af172b6d7e0d4f";
+export const sourceHash = "1cb6c52eedb71a946425013d7cf5771c0c8e1cdb5132f773c9982de583ecb775";
 
 const translation: RecipeTranslation = {
-  "title": "Cucumber Yogurt Salad",
-  "description": "A refreshing Mediterranean cucumber yogurt salad with fresh dill, mint, garlic, and creamy Greek yogurt.",
-  "longDescription": "This cooling cucumber yogurt salad is inspired by traditional Lebanese and Eastern Mediterranean flavors. Crisp cucumbers are mixed with creamy Greek yogurt, fresh herbs, garlic, and lemon juice to create a light and healthy side dish that's perfect with grilled meats, wraps, or enjoyed on its own.",
+  "title": "سلطة الخيار بالزبادي",
+  "description": "سلطة خيار بالزبادي متوسطية منعشة مع الشبت الطازج، والنعناع، والثوم، والزبادي اليوناني الكريمي.",
+  "longDescription": "هذه السلطة المنعشة من الخيار والزبادي مستوحاة من النكهات اللبنانية وشرق المتوسط التقليدية. يُخلط الخيار المقرمش مع الزبادي اليوناني الكريمي، والأعشاب الطازجة، والثوم، وعصير الليمون لإعداد طبق جانبي خفيف وصحي مثالي مع اللحوم المشوية، أو الساندويتشات، أو تناوله بمفرده.",
   "ingredients": [
-    "Medium cucumbers, diced",
-    "1½ cups plain Greek yogurt",
-    "garlic, minced",
-    "chopped fresh dill",
-    "chopped fresh mint",
-    "fresh lemon juice",
-    "extra virgin olive oil",
-    "½ tsp salt",
-    "¼ tsp black pepper"
+    "خيار متوسط الحجم، مقطع إلى مكعبات",
+    "1½ كوب زبادي يوناني سادة",
+    "ثوم مفروم",
+    "شبت طازج مفروم",
+    "نعناع طازج مفروم",
+    "عصير ليمون طازج",
+    "زيت زيتون بكر ممتاز",
+    "½ ملعقة صغيرة ملح",
+    "¼ ملعقة صغيرة فلفل أسود"
   ],
   "instructions": [
-    "Dice the cucumbers into small bite-sized pieces.",
-    "Pat the cucumbers dry with paper towels to remove excess moisture.",
-    "In a large bowl, combine the Greek yogurt, garlic, lemon juice, olive oil, salt, and pepper.",
-    "Mix until smooth.",
-    "Fold in the cucumbers.",
-    "Add the chopped dill and mint.",
-    "Mix gently until well combined.",
-    "Refrigerate for at least 20 minutes before serving.",
-    "Garnish with extra dill and a drizzle of olive oil if desired."
+    "قطّع الخيار إلى مكعبات صغيرة بحجم اللقمة.",
+    "جفف الخيار باستخدام مناشف ورقية لإزالة الرطوبة الزائدة.",
+    "في وعاء كبير، اخلط الزبادي اليوناني، والثوم، وعصير الليمون، وزيت الزيتون، والملح، والفلفل الأسود.",
+    "اخلط المكونات حتى تصبح ناعمة.",
+    "أضف الخيار وقلّبه ببطء مع الخليط.",
+    "أضف الشبت والنعناع المفرومين.",
+    "اخلط ببطء حتى تتداخل المكونات جيداً.",
+    "ضع السلطة في الثلاجة لمدة 20 دقيقة على الأقل قبل التقديم.",
+    "زيّن بالشبت الإضافي ورشة من زيت الزيتون حسب الرغبة."
   ],
   "healthBenefits": [
-    "Excellent source of probiotics",
-    "High in protein",
-    "Supports digestive health",
-    "Hydrating and refreshing",
-    "Rich in calcium",
-    "Low in carbohydrates"
+    "مصدر ممتاز للبروبيوتيك",
+    "غني بالبروتين",
+    "يدعم صحة الجهاز الهضمي",
+    "مرطب ومنعش",
+    "غني بالكالسيوم",
+    "منخفض الكربوهيدرات"
   ],
   "keywords": [
-    "Cucumber Yogurt Salad",
-    "Lebanese yogurt salad",
-    "Healthy cucumber salad",
-    "Mediterranean yogurt recipe",
-    "Greek yogurt salad"
+    "سلطة الخيار بالزبادي",
+    "سلطة زبادي لبنانية",
+    "سلطة خيار صحية",
+    "وصفة زبادي متوسطية",
+    "سلطة بالزبادي اليوناني"
   ],
   "tags": [
-    "salad",
-    "healthy",
-    "Lebanese",
-    "vegetarian",
-    "low carb",
-    "high protein",
-    "Mediterranean"
+    "سلطة",
+    "صحي",
+    "لبناني",
+    "نباتي",
+    "منخفض الكربوهيدرات",
+    "غني بالبروتين",
+    "متوسطي"
   ]
 };
 

@@ -1,58 +1,58 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "d19a93a461db888bd3d80231db03567c062d54bac71d2bc6d85dee08cc34f4cd";
+export const sourceHash = "5bd9502058253d011f899e1dc75c1804266e072eb60f1c4b49296fffa36f95b7";
 
 const translation: RecipeTranslation = {
-  "title": "Chicken Pita Wrap",
-  "description": "A flavorful Mediterranean pita wrap packed with juicy grilled chicken, crisp vegetables, fresh herbs, and creamy yogurt sauce for a satisfying and healthy meal.",
+  "title": "لفافة دجاج بخبز البيتا",
+  "description": "لفافة بيتا متوسطية مليئة بالنكهات، محشوة بالدجاج المشوي الطري، والخضروات المقرمشة، والأعشاب الطازجة، وصلصة اللبن الزبادي الكريمة لوجبة مشبعة وصحية.",
   "longDescription": "",
   "ingredients": [
-    "Chicken breast",
-    "Pita bread",
-    "Lettuce",
-    "Tomato",
-    "Cucumber",
-    "Red onion",
-    "Yogurt sauce",
-    "Garlic",
-    "Lemon juice",
-    "Fresh parsley"
+    "صدر دجاج",
+    "خبز بيتا",
+    "خس",
+    "طماطم",
+    "خيار",
+    "بصل أحمر",
+    "صلصة الزبادي",
+    "ثوم",
+    "عصير ليمون",
+    "بقدونس طازج"
   ],
   "instructions": [
-    "Pat the chicken breast dry and season with Mediterranean spices.",
-    "Mix garlic, lemon juice, olive oil, salt, and pepper into a simple marinade.",
-    "Marinate the chicken for at least 15 minutes.",
-    "Grill the chicken until fully cooked and lightly charred.",
-    "Allow the chicken to rest for 5 minutes before slicing into thin strips.",
-    "Warm the pita bread until soft and pliable.",
-    "Layer the pita with lettuce, tomato, cucumber, and red onion.",
-    "Add the sliced grilled chicken.",
-    "Drizzle generously with yogurt sauce and sprinkle with chopped parsley.",
-    "Wrap tightly and serve immediately."
+    "جفف صدر الدجاج وتبّله بالبهارات المتوسطية.",
+    "اخلط الثوم، وعصير الليمون، وزيت الزيتون، والملح، والفلفل لتحضير تتبيلة بسيطة.",
+    "انقع الدجاج في التتبيلة لمدة 15 دقيقة على الأقل.",
+    "اشوِ الدجاج حتى ينضج تماماً ويتفحم خفيفاً.",
+    "اترك الدجاج يرتاح لمدة 5 دقائق قبل تقطيعه إلى شرائح رفيعة.",
+    "سخن خبز البيتا حتى يصبح طرياً ومارناً.",
+    "ضع طبقات من الخس والطماطم والخيار والبصل الأحمر داخل خبز البيتا.",
+    "أضف شرائح الدجاج المشوي.",
+    "اسكب صلصة الزبادي بسخاء ورش البقدونس المفروم.",
+    "لف الساندويتش بإحكام وقدّمه فوراً."
   ],
   "healthBenefits": [
-    "Excellent source of lean protein",
-    "Supports muscle growth and recovery",
-    "Contains heart-healthy olive oil",
-    "Rich in vitamins and minerals",
-    "Provides balanced energy",
-    "Supports a healthy Mediterranean diet"
+    "مصدر ممتاز للبروتين الخالي من الدهون",
+    "يدعم نمو العضلات واستعادتها",
+    "يحتوي على زيت الزيتون المفيد لصحة القلب",
+    "غني بالفيتامينات والمعادن",
+    "يوفر طاقة متوازنة",
+    "يدعم نظاماً غذائياً متوسطياً صحياً"
   ],
   "keywords": [
-    "Chicken Pita Wrap",
-    "Mediterranean Chicken Wrap",
-    "Healthy Chicken Wrap",
-    "Easy Lunch Recipe",
-    "Middle Eastern Wrap",
-    "Healthy Mediterranean Food"
+    "لفافة دجاج بخبز البيتا",
+    "لفافة دجاج متوسطية",
+    "لفافة دجاج صحية",
+    "وصفة غداء سهلة",
+    "لفافة شرقية",
+    "طعام متوسطي صحي"
   ],
   "tags": [
-    "Chicken",
-    "Wrap",
-    "Mediterranean",
-    "Healthy",
-    "Lunch",
-    "High Protein"
+    "دجاج",
+    "لفافة",
+    "متوسطي",
+    "صحي",
+    "غداء",
+    "عالي البروتين"
   ]
 };
 

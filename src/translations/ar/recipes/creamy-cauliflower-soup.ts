@@ -1,62 +1,62 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "66f391c291547eabbdf48a138a664f732b5ae3deb721fcd398e32ab23f020e21";
+export const sourceHash = "f739eebe1e0f7fe0d54753a590cfdce76b3b95861532da96f8eb0d12fa03a76c";
 
 const translation: RecipeTranslation = {
-  "title": "Creamy Cauliflower Soup",
-  "description": "A silky Mediterranean cauliflower soup with roasted cauliflower, garlic, onions, herbs, and extra virgin olive oil.",
-  "longDescription": "This Creamy Cauliflower Soup transforms simple ingredients into a rich and velvety Mediterranean-inspired dish. Roasting the cauliflower enhances its natural sweetness while garlic, onions, and herbs provide deep flavor. The soup is blended until smooth without using cream, making it naturally dairy-free while remaining wonderfully creamy. It's a nutritious, low-calorie meal perfect for lunch or dinner.",
+  "title": "حساء القرنبيط الكريمي",
+  "description": "حساء قرنبيط متوسطي ناعم مع القرنبيط المحمص، والثوم، والبصل، والأعشاب، وزيت الزيتون البكر الممتاز.",
+  "longDescription": "يحول حساء القرنبيط الكريمي هذا المكونات البسيطة إلى طبق غني ومخملي مستوحى من البحر الأبيض المتوسط. يعزز تحميص القرنبيط حلاوته الطبيعية، بينما يمنح الثوم والبصل والأعشاب نكهة عميقة. يُخلط الحساء حتى يصبح ناعماً دون استخدام الكريمة، مما يجعله خالياً من الألبان بشكل طبيعي مع بقائه كريمياً بشكل رائع. إنه وجبة مغذية وقليلة السعرات الحرارية ومثالية للغداء أو العشاء.",
   "ingredients": [
-    "Large cauliflower, cut into florets",
-    "Medium onion, chopped",
-    "cloves",
-    "extra virgin olive oil",
-    "vegetable broth",
-    "dried thyme",
-    "ground cumin",
-    "sea salt",
-    "black pepper",
-    "fresh parsley, chopped",
-    "lemon juice",
-    "Extra virgin olive oil for serving"
+    "رأس قرنبيط كبير، مقطع إلى زهرات",
+    "بصلة متوسطة، مفرومة",
+    "فصوص ثوم",
+    "زيت زيتون بكر ممتاز",
+    "مرق خضار",
+    "زعتر مجفف",
+    "كمون مطحون",
+    "ملح بحر",
+    "فلفل أسود",
+    "بقدونس طازج، مفروم",
+    "عصير ليمون",
+    "زيت زيتون بكر ممتاز للتقديم"
   ],
   "instructions": [
-    "Preheat the oven to 200°C (400°F).",
-    "Arrange the cauliflower, onion, and garlic on a baking tray.",
-    "Drizzle with olive oil and season with salt and pepper.",
-    "Roast for 35 minutes until golden and tender.",
-    "Transfer the roasted vegetables to a large soup pot.",
-    "Add the vegetable broth, thyme, and cumin.",
-    "Bring to a gentle simmer for 10 minutes.",
-    "Blend until completely smooth using an immersion blender or countertop blender.",
-    "Stir in the lemon juice.",
-    "Taste and adjust seasoning.",
-    "Serve warm with chopped parsley and a drizzle of extra virgin olive oil."
+    "سخن الفرن مسبقاً إلى 200 درجة مئوية (400 درجة فهرنهايت).",
+    "رتب القرنبيط والبصل والثوم على صينية خبز.",
+    "رش زيت الزيتون وتبل بالملح والفلفل الأسود.",
+    "احمص لمدة 35 دقيقة حتى يصبح ذهبياً وطرياً.",
+    "انقل الخضار المحمصة إلى قدر حساء كبير.",
+    "أضف مرق الخضار والزعتر والكمون.",
+    "اتركه يغلي على نار هادئة لمدة 10 دقائق.",
+    "اخفق المكونات حتى تصبح ناعمة تماماً باستخدام خلاط يدوي أو خلاط ثابت.",
+    "أضف عصير الليمون وحركه.",
+    "تذوق واضبط التوابل.",
+    "قدمه دافئاً مع البقدونس المفروم ورشة من زيت الزيتون البكر الممتاز."
   ],
   "healthBenefits": [
-    "Excellent source of vitamin C",
-    "Rich in antioxidants",
-    "Supports immune health",
-    "High in dietary fiber",
-    "Naturally low in calories",
-    "Dairy-free and heart healthy"
+    "مصدر ممتاز لفيتامين C",
+    "غني بمضادات الأكسدة",
+    "يدعم صحة الجهاز المناعي",
+    "غني بالألياف الغذائية",
+    "قليل السعرات الحرارية طبيعياً",
+    "خالٍ من الألبان وصحي للقلب"
   ],
   "keywords": [
-    "Cauliflower Soup",
-    "Creamy Cauliflower Soup",
-    "Mediterranean Soup",
-    "Healthy Cauliflower Soup",
-    "Roasted Cauliflower Soup"
+    "حساء القرنبيط",
+    "حساء القرنبيط الكريمي",
+    "حساء متوسطي",
+    "حساء القرنبيط الصحي",
+    "حساء القرنبيط المحمص"
   ],
   "tags": [
-    "soup",
-    "Mediterranean",
-    "vegetarian",
-    "vegan",
-    "cauliflower",
-    "healthy",
-    "low calorie",
-    "meal prep"
+    "حساء",
+    "متوسطي",
+    "نباتي",
+    "نباتي صرف",
+    "قرنبيط",
+    "صحي",
+    "قليل السعرات الحرارية",
+    "تحضير الوجبات"
   ]
 };
 

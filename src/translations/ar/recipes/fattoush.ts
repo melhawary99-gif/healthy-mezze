@@ -1,57 +1,57 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "28af131a07cfa2494c3df7b2a5f4e493545fc8f91940edcd12884fcc0f46b65b";
+export const sourceHash = "4b27bf118c5231e0182e24fe206802df18ff205710a14f38659ea2d53284ba5e";
 
 const translation: RecipeTranslation = {
-  "title": "Fattoush",
-  "description": "A traditional Lebanese salad made with crisp vegetables, fresh herbs, toasted pita bread, and a tangy sumac dressing.",
-  "longDescription": "Fattoush is one of Lebanon's most iconic salads. It combines fresh seasonal vegetables with crunchy toasted pita bread and a bright lemon-sumac dressing. Rich in fiber, vitamins, and antioxidants, it's a refreshing side dish or light meal.",
+  "title": "فتوش",
+  "description": "سلطة لبنانية تقليدية مصنوعة من الخضار المقرمشة، والأعشاب الطازجة، وخبز البيتا المحمص، وتتبيلة السماق الحامضة.",
+  "longDescription": "تعتبر سلطة الفتوش واحدة من أشهر السلطات اللبنانية. وهي تجمع بين الخضار الموسمية الطازجة وخبز البيتا المحمص المقرمش وتتبيلة الليمون والسماق المنعشة. وهي غنية بالألياف والفيتامينات ومضادات الأكسدة، وتعد طبقاً جانبياً منعشاً أو وجبة خفيفة.",
   "ingredients": [
-    "tomatoes, diced",
-    "cucumber, diced",
-    "Romaine lettuce, chopped",
-    "radishes, sliced",
-    "Green bell pepper, diced",
-    "Green onions, sliced",
-    "½ cup chopped parsley",
-    "¼ cup chopped fresh mint",
-    "Pita breads, toasted and broken into pieces",
-    "extra virgin olive oil",
-    "lemon juice",
-    "sumac",
-    "Salt to taste",
-    "Black pepper to taste"
+    "طماطم مقطعة إلى مكعبات",
+    "خيار مقطع إلى مكعبات",
+    "خس روماني مفروم",
+    "فجل مقطع إلى شرائح",
+    "فلفل رومي أخضر مقطع إلى مكعبات",
+    "بصل أخضر مقطع إلى شرائح",
+    "½ كوب بقدونس مفروم",
+    "¼ كوب نعناع طازج مفروم",
+    "خبز بيتا محمص ومقطع إلى قطع صغيرة",
+    "زيت زيتون بكر ممتاز",
+    "عصير ليمون",
+    "سماق",
+    "ملح حسب الرغبة",
+    "فلفل أسود حسب الرغبة"
   ],
   "instructions": [
-    "Toast the pita bread until golden and crisp.",
-    "Break the toasted pita into bite-sized pieces.",
-    "Wash and prepare all vegetables.",
-    "Combine vegetables and herbs in a large bowl.",
-    "Whisk together olive oil, lemon juice, sumac, salt and pepper.",
-    "Pour the dressing over the salad.",
-    "Add the toasted pita just before serving.",
-    "Toss gently and serve immediately."
+    "حمّص خبز البيتا حتى يصبح ذهبياً ومقرمشاً.",
+    "قطّع خبز البيتا المحمص إلى قطع صغيرة بحجم اللقمة.",
+    "اغسل وقطّع جميع الخضروات.",
+    "اخلط الخضروات والأعشاب في وعاء كبير.",
+    "اخفق زيت الزيتون وعصير الليمون والسماق والملح والفلفل معاً.",
+    "اسكب التتبيلة فوق السلطة.",
+    "أضف الخبز المحمص قبل التقديم مباشرة.",
+    "اقلب المكونات بلطف وقدّمها فوراً."
   ],
   "healthBenefits": [
-    "High in dietary fiber",
-    "Rich in antioxidants",
-    "Excellent source of Vitamin C",
-    "Supports digestive health",
-    "Heart-friendly olive oil"
+    "غنية بالألياف الغذائية",
+    "غنية بمضادات الأكسدة",
+    "مصدر ممتاز لفيتامين سي",
+    "تدعم صحة الجهاز الهضمي",
+    "تحتوي على زيت زيتون مفيد لصحة القلب"
   ],
   "keywords": [
-    "Fattoush",
-    "Lebanese salad",
-    "Healthy Mediterranean salad",
-    "Fattoush recipe",
-    "Traditional Lebanese food"
+    "فتوش",
+    "سلطة لبنانية",
+    "سلطة متوسطية صحية",
+    "وصفة الفتوش",
+    "طعام لبناني تقليدي"
   ],
   "tags": [
-    "salad",
-    "healthy",
-    "Lebanese",
-    "vegetarian",
-    "Mediterranean"
+    "سلطة",
+    "صحي",
+    "لبناني",
+    "نباتي",
+    "متوسطي"
   ]
 };
 

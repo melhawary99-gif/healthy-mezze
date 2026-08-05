@@ -14,6 +14,7 @@ import { stats } from "./commands/stats";
 import { check } from "./commands/check";
 import { upgrade } from "./commands/upgrade";
 import { syncHashes } from "./commands/sync-hashes";
+import { cleanHashes } from "./commands/clean-hashes";
 
 const recipesDir = path.join(process.cwd(), "src/data/recipes");
 
@@ -80,6 +81,16 @@ async function main() {
       }
 
       await syncHashes(argument);
+      break;
+
+    case "clean-hashes":
+      if (!argument) {
+        console.log("Usage:");
+        console.log("npm run recipes clean-hashes <language>");
+        process.exit(1);
+      }
+
+      await cleanHashes(argument);
       break;
 
     default:

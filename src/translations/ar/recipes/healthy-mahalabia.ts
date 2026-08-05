@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "4a4195558b42f0e4726bb6f351cec22991fdc0ca0ebc529800bd402871e60023";
+
 
 const translation: RecipeTranslation = {
   "title": "Healthy Mahalabia (Egyptian Milk Pudding)",

@@ -1,64 +1,64 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "176e6d0e2d867de3733680bcc217b5ae2410b622df9430e234210f8bbbe33100";
+export const sourceHash = "5ec99b4d1328b41dc1d6ba4cedd6bf4c6fd4df906d6c642598adde974189af2f";
 
 const translation: RecipeTranslation = {
-  "title": "Creamy Chickpea Soup",
-  "description": "A creamy Mediterranean chickpea soup with vegetables, garlic, cumin, and fresh lemon.",
-  "longDescription": "This Creamy Chickpea Soup is a nourishing Mediterranean favorite made with protein-rich chickpeas, onions, carrots, celery, garlic, and warming spices. Blending part of the soup creates a naturally creamy texture without using dairy. Finished with fresh lemon juice and parsley, it's a wholesome meal that's ideal for lunch or dinner.",
+  "title": "شوربة حمص كريمية",
+  "description": "شوربة حمص متوسطية كريمية مع الخضار، الثوم، الكمون، والليمون الطازج.",
+  "longDescription": "تعتبر شوربة الحمص الكريمية هذه من الأطباق المتوسطية المفضلة والمغذية، المصنوعة من الحمص الغني بالبروتين، البصل، الجزر، الكرفس، الثوم، والتوابل الدافئة. يمنح خفق جزء من الشوربة قوامًا كريميًا طبيعيًا دون استخدام منتجات الألبان. تكتمل الوجبة بإضافة عصير الليمون الطازج والبقدونس، مما يجعلها وجبة صحية ومثالية للغداء أو العشاء.",
   "ingredients": [
-    "extra virgin olive oil",
-    "Medium onion, diced",
-    "carrots, diced",
-    "stalks, diced",
-    "garlic, minced",
-    "(400 g each) chickpeas, drained and rinsed",
-    "vegetable broth",
-    "water",
-    "ground cumin",
-    "ground coriander",
-    "paprika",
-    "sea salt",
-    "black pepper",
-    "fresh lemon juice",
-    "chopped fresh parsley",
-    "Extra virgin olive oil for serving"
+    "زيت زيتون بكر ممتاز",
+    "بصلة متوسطة الحجم، مقطعة إلى مكعبات",
+    "جزر، مقطع إلى مكعبات",
+    "أعواد كرفس، مقطعة إلى مكعبات",
+    "ثوم مفروم",
+    "(400 غرام لكل منها) حمص، مصفى ومغسول",
+    "مرق خضار",
+    "ماء",
+    "كمون مطحون",
+    "كزبرة مطحونة",
+    "بابريكا",
+    "ملح البحر",
+    "فلفل أسود",
+    "عصير ليمون طازج",
+    "بقدونس طازج مفروم",
+    "زيت زيتون بكر ممتاز للتقديم"
   ],
   "instructions": [
-    "Heat the olive oil in a large soup pot over medium heat.",
-    "Cook the onion, carrots, and celery for 6–8 minutes until softened.",
-    "Add the garlic and cook for 1 minute.",
-    "Stir in the cumin, coriander, and paprika until fragrant.",
-    "Add the chickpeas, vegetable broth, and water.",
-    "Bring to a boil, then reduce to a gentle simmer for 20 minutes.",
-    "Blend about half of the soup using an immersion blender, leaving some chickpeas whole for texture.",
-    "Season with salt and black pepper.",
-    "Stir in the lemon juice and chopped parsley.",
-    "Serve warm with a drizzle of olive oil."
+    "سخن زيت الزيتون في قدر شوربة كبير على نار متوسطة.",
+    "اطبخ البصل والجزر والكرفس لمدة 6–8 دقائق حتى تطرى الخضار.",
+    "أضف الثوم واطبخه لمدة 1 دقيقة.",
+    "قلّب الكمون والكزبرة والبابريكا حتى تفوح رائحتها.",
+    "أضف الحمص ومرق الخضار والماء.",
+    "اترك المزيج يغلي، ثم قلل الحرارة ليغلي بهدوء لمدة 20 دقيقة.",
+    "اخفق نحو نصف الشوربة باستخدام خلاط يدوي، مع ترك بعض الحمص كاملاً لإعطاء قوام.",
+    "تبّل بالملح والفلفل الأسود.",
+    "قلّب عصير الليمون والبقدونس المفروم.",
+    "قدمها دافئة مع رشة من زيت الزيتون."
   ],
   "healthBenefits": [
-    "Excellent source of plant protein",
-    "High in dietary fiber",
-    "Supports digestive health",
-    "Rich in folate and iron",
-    "Naturally dairy-free",
-    "Heart-healthy Mediterranean ingredients"
+    "مصدر ممتاز للبروتين النباتي",
+    "غنية بالألياف الغذائية",
+    "تدعم صحة الجهاز الهضمي",
+    "غنية بحمض الفوليك والحديد",
+    "خالية طبيعيًا من منتجات الألبان",
+    "مكونات متوسطية صحية للقلب"
   ],
   "keywords": [
-    "Creamy Chickpea Soup",
-    "Mediterranean Chickpea Soup",
-    "Healthy Chickpea Soup",
-    "Vegetarian Chickpea Soup",
-    "Easy Chickpea Soup"
+    "شوربة حمص كريمية",
+    "شوربة حمص متوسطية",
+    "شوربة حمص صحية",
+    "شوربة حمص نباتية",
+    "شوربة حمص سهلة"
   ],
   "tags": [
-    "soup",
-    "Mediterranean",
-    "vegetarian",
-    "high protein",
-    "high fiber",
-    "meal prep",
-    "healthy"
+    "شوربة",
+    "متوسطي",
+    "نباتي",
+    "عالي البروتين",
+    "عالي الألياف",
+    "تحضير الوجبات",
+    "صحي"
   ]
 };
 

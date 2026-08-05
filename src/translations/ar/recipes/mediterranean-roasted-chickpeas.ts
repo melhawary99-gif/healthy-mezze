@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "965bfecb2ef29ff580f2d8d2357caffce4016ce522fae77a40e3c3aa05ad54f3";
+
 
 const translation: RecipeTranslation = {
   "title": "Mediterranean Roasted Chickpeas",

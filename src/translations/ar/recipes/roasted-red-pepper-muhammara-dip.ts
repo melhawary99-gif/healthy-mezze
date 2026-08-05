@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "ba4c673d13421727d041e18b53fcceebcc3d15b2844488a6020abdf03100769f";
+
 
 const translation: RecipeTranslation = {
   "title": "Roasted Red Pepper Muhammara Dip",

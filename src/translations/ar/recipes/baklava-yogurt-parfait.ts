@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "23d62598a6dfeb93ea537c9686a573da6f0de7ff0f4567b5ac23e78673a0b21c";
+export const sourceHash = "7ddca5f3a16d52f2570c42f9618694b08ccec3343e267f135bd516f837bc6ba1";
 
 const translation: RecipeTranslation = {
   "title": "بارفيه الزبادي المستوحى من البقلاوة",

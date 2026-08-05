@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "a9ce8ef3ac1122463d658edb1872db9c4670c75389f80edc4366bfbf1cd54468";
+export const sourceHash = "d11fc5411341432e8d13c6050f75394435933fc8e05c5abf454b459317299933";
 
 const translation: RecipeTranslation = {
   "title": "بيض مخبوز مع السبانخ والطماطم",

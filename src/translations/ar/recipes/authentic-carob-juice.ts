@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "b5e17e0b74a44ce61d82d0cd53bca67a9d119594e9fcf88812b99771c95c8ef1";
+export const sourceHash = "d536b5793a5dda3bf52a114c89b2271ca59d780919eb113c9e0f0dde59e74542";
 
 const translation: RecipeTranslation = {
   "title": "عصير الخروب الأصلي",

@@ -1,59 +1,59 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "694ab40429e6ee0a1c55a371293ec8fbb923a420a9a262d1af988593150c5f41";
+export const sourceHash = "397ff5c8543c5db06eb15e17420c5994301c3c8dd3f8b781860f446d00a8ef4f";
 
 const translation: RecipeTranslation = {
-  "title": "Egyptian Molokhia Soup",
-  "description": "A traditional Egyptian soup made with finely chopped molokhia leaves simmered in a fragrant garlic and coriander broth.",
-  "longDescription": "Molokhia is considered one of Egypt's most iconic comfort foods. Prepared with finely chopped jute mallow leaves, aromatic garlic, coriander, and a rich chicken broth, this nutritious soup has a uniquely silky texture and earthy flavor. It is traditionally served over rice alongside roasted or grilled chicken, rabbit, or beef, making it a staple of Egyptian family meals.",
+  "title": "شوربة الملوخية المصرية",
+  "description": "شوربة مصرية تقليدية تُحضر من أوراق الملوخية المفرومة فرماً ناعماً والمطهوة في مرق عطري بالثوم والكسبرة.",
+  "longDescription": "تُعد الملوخية واحدة من أشهر الأطباق الدافئة والمحبوبة في مصر. تُحضر هذه الشوربة المغذية من أوراق الملوخية المفرومة ناعماً، والثوم العطري، والكسبرة، ومرق الدجاج الغني، وتمتاز بقوامها الحريري الفريد ونكهتها الغنية. تُقدم تقليدياً فوق الأرز إلى جانب الدجاج أو الأرانب أو لحم البقر المحمر أو المشوي، مما يجعلها طبقاً أساسياً في الوجبات العائلية المصرية.",
   "ingredients": [
-    "frozen or fresh finely chopped molokhia leaves",
-    "chicken broth",
-    "butter or ghee",
-    "garlic, minced",
-    "ground coriander",
-    "extra virgin olive oil",
-    "sea salt",
-    "black pepper",
-    "fresh lemon juice (optional)",
-    "Cooked white rice for serving",
-    "Lemon wedges for serving"
+    "أوراق ملوخية مفرومة ناعماً (طازجة أو مجمدة)",
+    "مرق دجاج",
+    "زبدة أو سمن",
+    "ثوم مفروم",
+    "كسبرة مطحونة",
+    "زيت زيتون بكر ممتاز",
+    "ملح بحر",
+    "فلفل أسود",
+    "عصير ليمون طازج (اختياري)",
+    "أرز أبيض مطبوخ للتقديم",
+    "شرائح ليمون للتقديم"
   ],
   "instructions": [
-    "Bring the chicken broth to a gentle boil in a large pot.",
-    "Add the molokhia leaves and stir continuously.",
-    "Reduce the heat and simmer for 8–10 minutes without allowing the soup to boil vigorously.",
-    "Meanwhile, heat the butter or ghee in a small skillet.",
-    "Add the minced garlic and cook until lightly golden.",
-    "Stir in the ground coriander and cook for another 30 seconds.",
-    "Immediately pour the garlic mixture into the soup.",
-    "Season with salt and black pepper.",
-    "Stir gently and simmer for 2 more minutes.",
-    "Finish with lemon juice if desired and serve hot over rice."
+    "اجعل مرق الدجاج يغلي غلياناً هادئاً في قدر كبير.",
+    "أضف أوراق الملوخية وقلّب باستمرار.",
+    "أخفض الحرارة واتركها تغلي على نار هادئة لمدة 8–10 دقائق دون السماح للشوربة بالغليان بشدة.",
+    "في هذه الأثناء، سخن الزبدة أو السمن في مقلاة صغيرة.",
+    "أضف الثوم المفروم واطهه حتى يصبح ذهبياً فاتحاً.",
+    "أضف الكسبرة المطحونة وقلّب واطهُ لمدة 30 ثانية أخرى.",
+    "اسكب خليط الثوم فوراً فوق الشوربة.",
+    "تبّل بالملح والفلفل الأسود.",
+    "قلّب برفق واتركها على نار هادئة لمدة 2 دقيقة إضافية.",
+    "أضف عصير الليمون في النهاية حسب الرغبة وتُقدم ساخنة فوق الأرز."
   ],
   "healthBenefits": [
-    "Excellent source of vitamin A",
-    "Rich in vitamin C",
-    "High in antioxidants",
-    "Good source of iron",
-    "Supports immune health",
-    "Provides dietary fiber"
+    "مصدر ممتاز لفيتامين أ",
+    "غنية بفيتامين ج",
+    "غنية بمضادات الأكسدة",
+    "مصدر جيد للحديد",
+    "تدعم صحة الجهاز المناعي",
+    "توفّر الألياف الغذائية"
   ],
   "keywords": [
-    "Egyptian Molokhia",
-    "Molokhia Soup",
-    "Jute Mallow Soup",
-    "Traditional Egyptian Soup",
-    "Healthy Egyptian Recipe"
+    "ملوخية مصرية",
+    "شوربة ملوخية",
+    "شوربة أوراق الملوخية",
+    "شوربة مصرية تقليدية",
+    "وصفة مصرية صحية"
   ],
   "tags": [
-    "soup",
-    "Egyptian",
-    "traditional",
-    "healthy",
-    "comfort food",
-    "high protein",
-    "family dinner"
+    "شوربة",
+    "مصري",
+    "تقليدي",
+    "صحي",
+    "أطباق دافئة",
+    "عالي البروتين",
+    "عشاء عائلي"
   ]
 };
 

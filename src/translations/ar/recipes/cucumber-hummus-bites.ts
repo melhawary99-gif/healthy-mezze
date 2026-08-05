@@ -1,59 +1,59 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "3ba0423feaa1938844ba5eea4b8b970407c07820f4069d989476eb15812e2ace";
+export const sourceHash = "24dfb9443b38b1b10453d5b1b97c13195eea4816d03ed3da0f15e209fd3ce0e9";
 
 const translation: RecipeTranslation = {
-  "title": "Cucumber Hummus Bites",
-  "description": "Fresh cucumber rounds topped with creamy hummus, cherry tomatoes, feta cheese, olives, and herbs for a refreshing Mediterranean snack or appetizer.",
-  "longDescription": "Cucumber Hummus Bites are a light, colorful, and nutritious Mediterranean snack that's perfect for parties, meal prep, or healthy afternoon cravings. Crisp cucumber slices replace crackers, creating a naturally low-carb base that's topped with smooth hummus, juicy cherry tomatoes, crumbled feta, Kalamata olives, and fresh parsley. Ready in minutes, these bite-sized appetizers are packed with flavor and wholesome ingredients.",
+  "title": "لقم الخيار بالحمص",
+  "description": "دوائر الخيار الطازجة المكسوة بالحمص الكريمي، والطماطم الكرزية، وجبنة الفتة، والزيتون، والأعشاب لوجبة خفيفة أو مقبلات متوسطية منعشة.",
+  "longDescription": "تعد لقم الخيار بالحمص وجبة متوسطية خفيفة، ملونة ومغذية، وهي مثالية للحفلات، أو التحضير المسبق للوجبات، أو لإرضاء الرغبة الشديدة في تناول طعام صحي بعد الظهر. تستبدل شرائح الخيار المقرمشة البسكويت المالح، مما يخلق قاعدة منخفضة الكربوهيدرات طبيعيًا مغطاة بالحمص الناعم، والطماطم الكرزية العصيرية، وجبنة الفتة المفتتة، وزيتون الكالاماتا، والبقدونس الطازج. هذه المقبلات صغيرة الحجم جاهزة في دقائق، ومحمّلة بالنكهة والمكونات الصحية.",
   "ingredients": [
-    "Large cucumbers, sliced into 1/2-inch rounds",
-    "classic hummus",
-    "tomatoes, quartered",
-    "crumbled feta cheese",
-    "olives, sliced",
-    "chopped fresh parsley",
-    "extra virgin olive oil",
-    "smoked paprika",
-    "Freshly ground black pepper to taste"
+    "خيار كبير، مقطع إلى دوائر بسمك 1/2 بوصة",
+    "حمص كلاسيكي",
+    "طماطم، مقطعة إلى أرباع",
+    "جبنة فتة مفتتة",
+    "زيتون شرائح",
+    "بقدونس طازج مفروم",
+    "زيت زيتون بكر ممتاز",
+    "بابريكا مدخنة",
+    "فلفل أسود مطحون طازجًا حسب الرغبة"
   ],
   "instructions": [
-    "Wash and slice the cucumbers into thick rounds.",
-    "Arrange the cucumber slices on a serving platter.",
-    "Spoon about one teaspoon of hummus onto each cucumber slice.",
-    "Top each with a piece of cherry tomato.",
-    "Sprinkle with crumbled feta cheese.",
-    "Add sliced Kalamata olives.",
-    "Drizzle lightly with extra virgin olive oil.",
-    "Garnish with chopped parsley and smoked paprika.",
-    "Season with freshly ground black pepper.",
-    "Serve immediately or chill for 15 minutes before serving."
+    "اغسل الخيار وقطعه إلى دوائر سميكة.",
+    "رتب شرائح الخيار في طبق التقديم.",
+    "ضع حوالي ملعقة صغيرة من الحمص على كل شريحة خيار.",
+    "ضع فوق كل منها قطعة من الطماطم الكرزية.",
+    "رش جبنة الفتة المفتتة.",
+    "أضف شرائح زيتون الكالاماتا.",
+    "رش القليل من زيت الزيتون البكر الممتاز.",
+    "زيّن بالبقدونس المفروم والبابريكا المدخنة.",
+    "تبّل بالفلفل الأسود المطحون طازجًا.",
+    "قدّمه فورًا أو برّده لمدة 15 دقيقة قبل التقديم."
   ],
   "healthBenefits": [
-    "Low in carbohydrates",
-    "Rich in fiber",
-    "Good source of plant-based protein",
-    "Supports heart health",
-    "Provides vitamins A and C",
-    "Hydrating thanks to fresh cucumber",
-    "Mediterranean diet friendly"
+    "منخفض الكربوهيدرات",
+    "غني بالألياف",
+    "مصدر جيد للبروتين النباتي",
+    "يدعم صحة القلب",
+    "يوفر فيتاميني A و C",
+    "مرطب بفضل الخيار الطازج",
+    "مناسب للنظام الغذائي المتوسطي"
   ],
   "keywords": [
-    "Cucumber Hummus Bites",
-    "Healthy Appetizer",
-    "Mediterranean Snack",
-    "Low Carb Snack",
-    "Easy Party Appetizer"
+    "لقم الخيار بالحمص",
+    "مقبلات صحية",
+    "وجبة متوسطية خفيفة",
+    "وجبة خفيفة منخفضة الكربوهيدرات",
+    "مقبلات سهلة للحفلات"
   ],
   "tags": [
-    "snack",
-    "appetizer",
-    "Mediterranean",
-    "cucumber",
-    "hummus",
-    "healthy",
-    "vegetarian",
-    "low-carb"
+    "وجبة خفيفة",
+    "مقبلات",
+    "متوسطي",
+    "خيار",
+    "حمص",
+    "صحي",
+    "نباتي",
+    "منخفض الكربوهيدرات"
   ]
 };
 

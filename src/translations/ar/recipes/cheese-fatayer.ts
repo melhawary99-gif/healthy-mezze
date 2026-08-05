@@ -1,67 +1,67 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "71e5194a46e5a752462520f97dbddbdc458ff31ee9e9a652ff4c1ecc9c425f18";
+export const sourceHash = "27d27c7892d947ddda031af5abc18a9c07f9fc4e08c9ba6c99799ef4e505e4ae";
 
 const translation: RecipeTranslation = {
-  "title": "Cheese Fatayer",
-  "description": "Soft whole wheat pastries filled with a delicious blend of Akkawi cheese, reduced-fat mozzarella, fresh parsley, and nigella seeds. A healthier version of a classic Lebanese bakery favorite.",
-  "longDescription": "Cheese Fatayer are among the most popular baked pastries found in Lebanese bakeries. This healthier version uses whole wheat flour and a lighter cheese filling made with soaked Akkawi cheese and reduced-fat mozzarella for less sodium and saturated fat while preserving the authentic flavor. Fresh parsley and nigella seeds add a traditional Mediterranean aroma, making these pastries perfect as breakfast, mezze, or a light meal.",
+  "title": "فطائر بالجبنة",
+  "description": "معجنات هشة من دقيق القمح الكامل محشوة بمزيج لديد من جبن العكاوي، وجبن الموزاريلا قليلة الدسم، والبقدونس الطازج، وحبة البركة. نسخة صحية أكثر من إحدى أشهر معجنات المخابز اللبنانية الكلاسيكية.",
+  "longDescription": "تعتبر فطائر الجبن من بين أكثر المعجنات المخبوزة شعبية في المخابز اللبنانية. تستخدم هذه النسخة الصحية دقيق القمح الكامل وحشوة جبن خفيفة مصنوعة من جبن العكاوي المنقوع والموزاريلا قليلة الدسم لتقليل الصوديوم والدهون المشبعة مع الحفاظ على النكهة الأصيلة. يضفي البقدونس الطازج وحبة البركة نكهة متوسطية تقليدية، مما يجعل هذه الفطائر مثالية كوجبة إفطار أو مقبلات (مزة) أو وجبة خفيفة.",
   "ingredients": [
-    "whole wheat flour",
-    "all-purpose flour",
-    "2¼ tsp instant yeast",
-    "sugar",
-    "sea salt",
-    "warm water",
-    "extra virgin olive oil",
-    "Akkawi cheese, soaked and crumbled",
-    "reduced-fat mozzarella, shredded",
-    "low-fat feta cheese, crumbled",
-    "fresh parsley, finely chopped",
-    "nigella seeds",
-    "dried oregano",
-    "egg, lightly beaten (for brushing)"
+    "دقيق القمح الكامل",
+    "دقيق متعدد الاستعمالات",
+    "2¼ ملعقة صغيرة خميرة فورية",
+    "سكر",
+    "ملح البحر",
+    "ماء دافئ",
+    "زيت زيتون بكر ممتاز",
+    "جبن عكاوي، منقوع ومفتت",
+    "جبن موزاريلا قليل الدسم، مبشور",
+    "جبن فيتا قليل الدسم، مفتت",
+    "بقدونس طازج، مفروم ناعماً",
+    "حبة البركة",
+    "أوريغانو مجفف",
+    "بيضة، مخفوقة خفيفاً (لدهن الوجه)"
   ],
   "instructions": [
-    "Combine the flours, yeast, sugar, and salt in a large bowl.",
-    "Add the warm water and olive oil and knead for 8–10 minutes until smooth.",
-    "Cover and allow the dough to rise for about 1 hour.",
-    "Meanwhile, mix the Akkawi cheese, mozzarella, feta, parsley, oregano, and nigella seeds.",
-    "Preheat the oven to 400°F (200°C).",
-    "Divide the dough into 12 equal balls.",
-    "Roll each into a 5-inch (13 cm) circle.",
-    "Place about 2 tablespoons of cheese filling in the center.",
-    "Fold and pinch the edges together to form the traditional triangular fatayer shape.",
-    "Arrange on a parchment-lined baking tray.",
-    "Brush lightly with beaten egg.",
-    "Bake for 20–22 minutes until golden brown.",
-    "Serve warm or at room temperature."
+    "اخلط أنواع الدقيق، والخميرة، والسكر، والملح في وعاء كبير.",
+    "أضف الماء الدافئ وزيت الزيتون واعجن لمدة 8–10 دقائق حتى تصبح العجينة ناعمة.",
+    "غطّ العجينة واتركها تتخمر لمدة 1 ساعة تقريباً.",
+    "في هذه الأثناء، اخلط جبن العكاوي، والموزاريلا، والفيتا، والبقدونس، والأوريغانو، وحبة البركة.",
+    "سخن الفرن مسبقاً إلى 400 درجة فهرنهايت (200 درجة مئوية).",
+    "قسّم العجينة إلى 12 كرة متساوية.",
+    "افرد كل كرة إلى دائرة بحجم 5 بوصات (13 سم).",
+    "ضع حوالي 2 ملعقة كبيرة من حشوة الجبن في المنتصف.",
+    "اطوِ الحواف واضغط عليها معاً لتشكيل شكل الفطائر المثلث التقليدي.",
+    "رتب الفطائر على صينية خبز مغطاة بورق الزبدة.",
+    "ادهن الوجه برفق بالبيض المخفوق.",
+    "اخبز لمدة 20–22 دقيقة حتى تصبح ذهبية اللون.",
+    "قدمها دافئة أو بدرجة حرارة الغرفة."
   ],
   "healthBenefits": [
-    "Excellent source of calcium",
-    "Higher in protein than many pastries",
-    "Made with whole wheat flour for extra fiber",
-    "Reduced sodium compared to traditional recipes",
-    "Contains heart-healthy olive oil",
-    "Provides B vitamins",
-    "Mediterranean diet inspired"
+    "مصدر ممتاز للكالسيوم",
+    "تحتوي على نسبة أعلى من البروتين مقارنة بالعديد من المعجنات",
+    "مصنوعة من دقيق القمح الكامل للحصول على ألياف إضافية",
+    "صوديوم أقل مقارنة بالوصفات التقليدية",
+    "تحتوي على زيت الزيتون المفيد لصحة القلب",
+    "توفر فيتامينات B",
+    "مستوحاة من حمية البحر الأبيض المتوسط"
   ],
   "keywords": [
-    "Cheese Fatayer",
-    "Lebanese Cheese Pies",
-    "Healthy Fatayer",
-    "Lebanese Bakery",
-    "Mediterranean Pastry"
+    "فطائر بالجبنة",
+    "فطائر جبن لبنانية",
+    "فطائر صحية",
+    "مخبز لبناني",
+    "معجنات بحر متوسطية"
   ],
   "tags": [
-    "mezze",
-    "Lebanese",
-    "fatayer",
-    "cheese",
-    "vegetarian",
-    "healthy",
-    "baked",
-    "Mediterranean"
+    "مزة",
+    "لبناني",
+    "فطائر",
+    "جبن",
+    "نباتي",
+    "صحي",
+    "مخبوز",
+    "بحر متوسطي"
   ]
 };
 

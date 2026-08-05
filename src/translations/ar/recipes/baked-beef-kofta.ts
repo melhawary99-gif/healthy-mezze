@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "588e5569b8ad4d41313232ed1632a6b5f32960758f2b4a0ec3b724f162ade427";
+export const sourceHash = "f6141f872a4f32ec7a34d4a61a26f6e4ed29e1634630b52030e00fae32e1754c";
 
 const translation: RecipeTranslation = {
   "title": "كفتة اللحم البقري بالفرن",

@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "3ac5f9116320aa7b53e38e3c046666046af7ee7d566adde645d59ef55871710d";
+
 
 const translation: RecipeTranslation = {
   "title": "Olive Tapenade with Whole Grain Crackers",

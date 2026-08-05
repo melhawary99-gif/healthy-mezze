@@ -1,56 +1,56 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "b3ac28c9bf922e8495ad0151bd7d20b086b9c78b0bde51a632bc643b0e2a4b0c";
+export const sourceHash = "ddacc330c2dbe91c87f3dbf272add1a931a05f2fcb24cc631de5247149c55f3f";
 
 const translation: RecipeTranslation = {
-  "title": "Creamy Tzatziki Sauce",
-  "description": "A refreshing Greek yogurt dip with cucumber, garlic, dill, lemon, and olive oil that pairs perfectly with grilled meats, vegetables, and pita.",
-  "longDescription": "Tzatziki is one of the Mediterranean's most beloved sauces. Made with thick Greek yogurt, fresh cucumber, garlic, dill, lemon juice, and extra virgin olive oil, it offers a cool, creamy flavor that complements grilled chicken, kebabs, shawarma, falafel, fresh vegetables, and warm pita bread. This healthier version uses low-fat Greek yogurt while preserving the authentic taste and texture.",
+  "title": "صلصة التزاتزيكي الكريمية",
+  "description": "غمسة زبادي يوناني منعشة مع الخيار والثوم والشبت والليمون وزيت الزيتون، تتناسب تماماً مع اللحوم المشوية والخضروات وخبز البيتا.",
+  "longDescription": "تعد التزاتزيكي واحدة من أكثر الصلصات المحبوبة في منطقة البحر الأبيض المتوسط. تُحضر من الزبادي اليوناني السميك والخيار الطازج والثوم والشبت وعصير الليمون وزيت الزيتون البكر الممتاز، وتوفر نكهة منعشة وكريمية تكمل الدجاج المشوي والكباب والشاورما والفلافل والخضروات الطازجة وخبز البيتا الدافئ. تستخدم هذه النسخة الأكثر صحة زبادي يوناني قليل الدسم مع الحفاظ على الطعم والقوام الأصليين.",
   "ingredients": [
-    "low-fat Greek yogurt",
-    "Medium cucumber, grated and squeezed dry",
-    "garlic, minced",
-    "fresh dill, finely chopped",
-    "fresh mint, finely chopped (optional)",
-    "extra virgin olive oil",
-    "fresh lemon juice",
-    "sea salt",
-    "black pepper"
+    "زبادي يوناني قليل الدسم",
+    "خيارة متوسطة الحجم، مبشورة ومصرورة للتخلص من السوائل",
+    "ثوم مفروم",
+    "شبت طازج مفروم ناعماً",
+    "نعناع طازج مفروم ناعماً (اختياري)",
+    "زيت زيتون بكر ممتاز",
+    "عصير ليمون طازج",
+    "ملح البحر",
+    "فلفل أسود"
   ],
   "instructions": [
-    "Grate the cucumber and squeeze out as much moisture as possible using a clean kitchen towel.",
-    "Place the yogurt in a mixing bowl.",
-    "Add the cucumber, garlic, dill, mint, olive oil, lemon juice, salt, and black pepper.",
-    "Mix until well combined.",
-    "Cover and refrigerate for at least 30 minutes to allow the flavors to develop.",
-    "Drizzle with a little extra virgin olive oil before serving.",
-    "Serve chilled with vegetables, grilled meats, wraps, or pita bread."
+    "ابشر الخيار واعصره للتخلص من أكبر قدر ممكن من السوائل باستخدام منشفة مطبخ نظيفة.",
+    "ضع الزبادي في وعاء خلط.",
+    "أضف الخيار والثوم والشبت والنعناع وزيت الزيتون وعصير الليمون والملح والفلفل الأسود.",
+    "اخلط المكونات جيداً حتى تتجانس.",
+    "غطّ الوعاء وضعه في الثلاجة لمدة 30 دقيقة على الأقل حتى امتزاج النكهات.",
+    "رش القليل من زيت الزيتون البكر الممتاز قبل التقديم.",
+    "قدّمها باردة مع الخضروات، أو اللحوم المشوية، أو اللفائف، أو خبز البيتا."
   ],
   "healthBenefits": [
-    "Rich in protein",
-    "Excellent source of calcium",
-    "Contains probiotics that support gut health",
-    "Low in calories",
-    "Fresh cucumber helps with hydration",
-    "Garlic provides beneficial antioxidants",
-    "A healthy alternative to mayonnaise-based dips"
+    "غنية بالبروتين",
+    "مصدر ممتاز للكالسيوم",
+    "تحتوي على البروبيوتيك التي تدعم صحة الأمعاء",
+    "قليلة السعرات الحرارية",
+    "الخيار الطازج يساعد على ترطيب الجسم",
+    "يوفر الثوم مضادات أكسدة مفيدة",
+    "بديل صحي للصلصات التي تعتمد على المايونيز"
   ],
   "keywords": [
-    "Tzatziki",
-    "Greek Yogurt Sauce",
-    "Mediterranean Dip",
-    "Healthy Yogurt Dip",
-    "Garlic Cucumber Sauce"
+    "تزاتزيكي",
+    "صلصة الزبادي اليوناني",
+    "غمسة متوسطية",
+    "غمسة زبادي صحية",
+    "صلصة الخيار والثوم"
   ],
   "tags": [
-    "dip",
-    "sauce",
-    "Mediterranean",
-    "Greek yogurt",
-    "healthy",
-    "vegetarian",
-    "low-calorie",
-    "mezze"
+    "غمسة",
+    "صلصة",
+    "متوسطي",
+    "زبادي يوناني",
+    "صحي",
+    "نباتي",
+    "قليل السعرات الحرارية",
+    "مقبلات"
   ]
 };
 

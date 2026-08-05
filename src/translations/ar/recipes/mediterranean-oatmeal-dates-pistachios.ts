@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "8c76d77fb4668ea72334f74f161267149b7bbeddf61489ffb5e042a2b540cb0c";
+
 
 const translation: RecipeTranslation = {
   "title": "Mediterranean Oatmeal with Dates & Pistachios",

@@ -1,6 +1,6 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-export const sourceHash = "eebaa3742dd5b7f54abb1c51aac7316fe4787fd0bee20fe261d92138ac9c737a";
+
 
 const translation: RecipeTranslation = {
   "title": "Makdous (Stuffed Baby Eggplants)",
