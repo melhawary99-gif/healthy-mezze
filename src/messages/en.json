@@ -17,6 +17,19 @@
     "learnMore": "Learn More"
   },
 
+  "Recipe": {
+    "nutritionFacts": "Nutrition Facts",
+    "nutritionDescription": "Approximate nutrition values per serving.",
+    "calories": "Calories",
+    "protein": "Protein",
+    "carbohydrates": "Carbohydrates",
+    "fat": "Fat",
+    "fiber": "Fiber",
+    "sugar": "Sugar",
+    "sodium": "Sodium",
+    "healthBenefits": "Health Benefits"
+  },
+
   "Home": {
     "badge": "Healthy Mediterranean Recipes",
 

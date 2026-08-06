@@ -17,6 +17,19 @@
     "learnMore": "اعرف المزيد"
   },
 
+  "Recipe": {
+    "nutritionFacts": "القيم الغذائية",
+    "nutritionDescription": "القيم الغذائية التقريبية لكل حصة.",
+    "calories": "السعرات الحرارية",
+    "protein": "البروتين",
+    "carbohydrates": "الكربوهيدرات",
+    "fat": "الدهون",
+    "fiber": "الألياف",
+    "sugar": "السكريات",
+    "sodium": "الصوديوم",
+    "healthBenefits": "الفوائد الصحية"
+  },
+
   "Home": {
     "badge": "وصفات البحر الأبيض المتوسط الصحية",
 
