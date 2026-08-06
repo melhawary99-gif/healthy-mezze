@@ -1,60 +1,60 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "b955cbab45a6964bc579a3da892c62763173904c546cca6688fd726ee66529dc";
 
 const translation: RecipeTranslation = {
-  "title": "Healthy Mahalabia (Egyptian Milk Pudding)",
-  "description": "A light and creamy Egyptian milk pudding made with low-fat milk, naturally sweetened with honey, delicately flavored with vanilla and rose water, then topped with pistachios.",
-  "longDescription": "Mahalabia is a beloved dessert enjoyed throughout Egypt and the Middle East. This healthier version uses low-fat milk, a small amount of honey for natural sweetness, and cornstarch for its silky texture instead of heavy cream. Finished with fragrant rose water, cinnamon, and chopped pistachios, it's an elegant dessert that's both satisfying and light.",
+  "title": "مهلبية صحية (بودينغ الحليب المصري)",
+  "description": "حلوى مهلبية مصرية خفيفة وكريمية مصنوعة من حليب قليل الدسم، ومُحلاة طبيعيًا بالعسل، ومُعطرة بنكهة خفيفة من الفانيليا وماء الورد، ومزينة بالفستق الحلبي.",
+  "longDescription": "المهلبية هي حلوى محبوبة يُستمتع بها في جميع أنحاء مصر والشرق الأوسط. تُستخدم في هذه النسخة الأكثر صحة حليب قليل الدسم، وكمية صغيرة من العسل للحصول على حلاوة طبيعية، ونشا الذرة لإعطائها قوامًا حريريًا بدلاً من الكريمة الثقيلة. وتكتمل بمكونات معطرة كماء الورد، والقرفة، والفستق الحلبي المفروم، مما يجعلها حلوى أنيقة ومرضية وخفيفة في الوقت نفسه.",
   "ingredients": [
-    "low-fat milk",
-    "cornstarch",
-    "cold water",
-    "honey",
-    "vanilla extract",
-    "rose water",
-    "orange blossom water (optional)",
-    "chopped pistachios",
-    "ground cinnamon",
-    "Dried edible rose petals for garnish (optional)"
+    "حليب قليل الدسم",
+    "نشا الذرة",
+    "ماء بارد",
+    "عسل",
+    "خلاصة الفانيليا",
+    "ماء الورد",
+    "ماء الزهر (اختياري)",
+    "فستق حلبي مفروم",
+    "قرفة مطحونة",
+    "بتلات ورد مجففة صالحة للأكل للتزيين (اختياري)"
   ],
   "instructions": [
-    "In a small bowl, dissolve the cornstarch in the cold water until smooth.",
-    "Heat the milk in a saucepan over medium heat until warm but not boiling.",
-    "Whisk in the cornstarch mixture.",
-    "Continue stirring constantly until the pudding thickens.",
-    "Remove from the heat.",
-    "Stir in the honey, vanilla, rose water, and orange blossom water.",
-    "Pour into individual serving bowls or glasses.",
-    "Allow to cool to room temperature.",
-    "Refrigerate for at least 2 hours until fully set.",
-    "Before serving, garnish with pistachios, cinnamon, and rose petals."
+    "في وعاء صغير، أذب نشا الذرة في الماء البارد حتى يصبح المزيج ناعمًا.",
+    "سخن الحليب في قدر على نار متوسطة حتى يسخن دون أن يغلي.",
+    "أضف خليط نشا الذرة مع الخفق.",
+    "استمر في التحريك باستمرار حتى يثخن قوام المهلبية.",
+    "ارفع القدر عن النار.",
+    "أضف العسل، والفانيليا، وماء الورد، وماء الزهر مع التحريك.",
+    "اسكب المزيج في أطباق أو كؤوس تقديم فردية.",
+    "اتركه ليبرد في درجة حرارة الغرفة.",
+    "ضعه في الثلاجة لمدة 2 ساعات على الأقل حتى يجمد تمامًا.",
+    "قبل التقديم، زين بالفستق الحلبي، والقرفة، وبتلات الورد."
   ],
   "healthBenefits": [
-    "Excellent source of calcium",
-    "Provides high-quality protein",
-    "Lower in fat than traditional milk puddings",
-    "Uses honey instead of refined sugar",
-    "Pistachios provide healthy fats and antioxidants",
-    "Rose water adds flavor without extra calories",
-    "Naturally gluten-free"
+    "مصدر ممتاز للكالسيوم",
+    "يوفر بروتينًا عالي الجودة",
+    "أقل في الدهون مقارنة بمهلبية الحليب التقليدية",
+    "يستخدم العسل بدلاً من السكر المكرر",
+    "يوفر الفستق الحلبي دهونًا صحية ومضادات أكسدة",
+    "يضيف ماء الورد نكهة دون سعرات حرارية إضافية",
+    "خالٍ من الغلوتين طبيعيًا"
   ],
   "keywords": [
-    "Healthy Mahalabia",
-    "Egyptian Milk Pudding",
-    "Healthy Egyptian Dessert",
-    "Mediterranean Dessert",
-    "Rose Water Pudding"
+    "مهلبية صحية",
+    "بودينغ الحليب المصري",
+    "حلوى مصرية صحية",
+    "حلوى من البحر الأبيض المتوسط",
+    "مهلبية بماء الورد"
   ],
   "tags": [
-    "dessert",
-    "Egyptian",
-    "mahalabia",
-    "milk pudding",
-    "healthy",
-    "gluten-free",
-    "Mediterranean",
-    "vegetarian"
+    "حلوى",
+    "مصري",
+    "مهلبية",
+    "بودينغ الحليب",
+    "صحي",
+    "خالٍ من الغلوتين",
+    "بحر أبيض متوسط",
+    "نباتي"
   ]
 };
 

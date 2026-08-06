@@ -1,55 +1,55 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "3fea6208d67f66b0d4e4adffe17748c011b02328086f6f012595babaa0205e96";
 
 const translation: RecipeTranslation = {
-  "title": "Tarator Sauce",
-  "description": "A classic Lebanese tahini sauce made with garlic, lemon juice, parsley, and sesame tahini. Perfect for seafood, falafel, shawarma, and grilled vegetables.",
-  "longDescription": "Tarator is one of Lebanon's most iconic sauces. Unlike a basic tahini sauce, Tarator has a brighter lemon flavor, a lighter consistency, and is traditionally served with grilled fish, fried seafood, falafel, shawarma, roasted cauliflower, and many mezze dishes. This authentic recipe uses fresh lemon juice, garlic, parsley, and creamy sesame tahini to create a smooth, versatile sauce that's naturally vegan and rich in Mediterranean flavor.",
+  "title": "صلصة الطراطور",
+  "description": "صلصة طحينة لبنانية كلاسيكية مصنوعة من الثوم، وعصير الليمون، والبقدونس، وطحينة السمسم. مثالية للمأكولات البحرية، والفلافل، والشاورما، والخضروات المشوية.",
+  "longDescription": "تعتبر صلصة الطراطور واحدة من أشهر الصلصات اللبنانية. وعلى عكس صلصة الطحينة العادية، يتميز الطراطور بنكهة ليمون أكثر انتعاشًا، وقوام أخف، ويُقدم تقليديًا مع السمك المشوي، والمأكولات البحرية المقلية، والفلافل، والشاورما، والقرنبيط المشوي، والعديد من أطباق المزة. تستخدم هذه الوصفة الأصلية عصير الليمون الطازج، والثوم، والبقدونس، وطحينة السمسم الكثيفة لتحضير صلصة ناعمة ومتعددة الاستخدامات، وهي نباتية بالكامل وغنية بنكهات البحر الأبيض المتوسط.",
   "ingredients": [
-    "tahini",
-    "fresh lemon juice",
-    "cloves, crushed",
-    "4–6 tbsp ice-cold water",
-    "chopped fresh parsley",
-    "extra virgin olive oil",
-    "sea salt",
-    "white pepper"
+    "طحينة",
+    "عصير ليمون طازج",
+    "فصوص ثوم، مهروسة",
+    "4–6 ملاعق كبيرة ماء مثلج",
+    "بقدونس طازج مفروم",
+    "زيت زيتون بكر ممتاز",
+    "ملح بحر",
+    "فلفل أبيض"
   ],
   "instructions": [
-    "Whisk the tahini and lemon juice together until the mixture thickens.",
-    "Add the crushed garlic and sea salt.",
-    "Gradually whisk in the cold water until the sauce becomes smooth and pourable.",
-    "Stir in the parsley, olive oil, and white pepper.",
-    "Taste and adjust the seasoning or lemon juice if needed.",
-    "Allow the sauce to rest for 10 minutes before serving.",
-    "Serve with grilled fish, seafood, falafel, shawarma, roasted vegetables, or kebabs."
+    "اخفق الطحينة وعصير الليمون معًا حتى يثخن الخليط.",
+    "أضف الثوم المهروس وملح البحر.",
+    "أضف الماء البارد تدريجيًا مع الخفق حتى تصبح الصلصة ناعمة وقابلة للسكب.",
+    "قلّب البقدونس، وزيت الزيتون، والفلفل الأبيض.",
+    "تذوق واضبط التوابل أو عصير الليمون حسب الحاجة.",
+    "اترك الصلصة ترتاح لمدة 10 دقائق قبل التقديم.",
+    "قدّمها مع السمك المشوي، أو المأكولات البحرية، أو الفلافل، أو الشاورما، أو الخضروات المشوية، أو الكباب."
   ],
   "healthBenefits": [
-    "Rich in healthy unsaturated fats",
-    "Provides plant-based protein",
-    "Excellent source of calcium",
-    "Naturally vegan and dairy-free",
-    "Garlic contains beneficial antioxidants",
-    "Fresh lemon juice provides vitamin C",
-    "Made without preservatives"
+    "غنية بالدهون غير المشبعة الصحية",
+    "توفّر بروتينًا نباتيًا",
+    "مصدر ممتاز للكالسيوم",
+    "نباتية تمامًا وخالية من منتجات الألبان",
+    "يحتوي الثوم على مضادات أكسدة مفيدة",
+    "يوفر عصير الليمون الطازج فيتامين سي",
+    "مصنوعة بدون مواد حافظة"
   ],
   "keywords": [
-    "Tarator Sauce",
-    "Lebanese Tarator",
-    "Tahini Garlic Sauce",
-    "Fish Tahini Sauce",
-    "Middle Eastern Sauce"
+    "صلصة الطراطور",
+    "طراطور لبناني",
+    "صلصة الطحينة والثوم",
+    "صلصة طحينة السمك",
+    "صلصة شرقية"
   ],
   "tags": [
-    "dip",
-    "sauce",
-    "Lebanese",
-    "tahini",
-    "garlic",
-    "vegan",
-    "healthy",
-    "mezze"
+    "غموس",
+    "صلصة",
+    "لبناني",
+    "طحينة",
+    "ثوم",
+    "نباتي",
+    "صحي",
+    "مزة"
   ]
 };
 

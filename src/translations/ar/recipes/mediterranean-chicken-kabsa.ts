@@ -1,71 +1,71 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "c0f13069901f4218617a990a54403a6f26574dcf25da717f00d341f7e1c8bb57";
 
 const translation: RecipeTranslation = {
-  "title": "Mediterranean Chicken Kabsa",
-  "description": "A healthy one-pot chicken and brown basmati rice dish infused with fragrant Middle Eastern spices, tomatoes, and vegetables.",
-  "longDescription": "Mediterranean Chicken Kabsa is a lighter version of the beloved Middle Eastern classic. Tender skinless chicken thighs are simmered with onions, garlic, tomatoes, carrots, and warm spices before being combined with nutritious brown basmati rice. This wholesome one-pot meal delivers lean protein, whole grains, and vegetables in every serving while preserving the rich flavors that make Kabsa so popular throughout the Middle East.",
+  "title": "كبسة الدجاج المتوسطية",
+  "description": "طبق صحي يُعد في قدر واحد من الدجاج وأرز البسمتي البني، معزز بالتوابل الشرق أوسطية العطرة والطماطم والخضراوات.",
+  "longDescription": "تعتبر كبسة الدجاج المتوسطية نسخة أخف وزناً من هذا الطبق الكلاسيكي المفضل في الشرق الأوسط. يتم طهي أفخاذ الدجاج الطرية الخالية من الجلد مع البصل والثوم والطماطم والجزر والتوابل الدافئة قبل دمجها مع أرز البسمتي البني المغذي. تقدم هذه الوجبة المتكاملة المطهوة في قدر واحد بروتيناً خالياً من الدهون وحبوباً كاملة وخضراوات في كل وجبة، مع الحفاظ على النكهات الغنية التي تجعل الكبسة شائعة جداً في جميع أنحاء الشرق الأوسط.",
   "ingredients": [
-    "chicken thighs",
-    "brown basmati rice",
-    "Large onion, diced",
-    "cloves, minced",
-    "tomatoes, diced",
-    "Medium carrot, diced",
-    "tomato paste",
-    "extra virgin olive oil",
-    "low-sodium chicken broth",
-    "ground cumin",
-    "ground coriander",
-    "paprika",
-    "turmeric",
-    "ground cinnamon",
-    "ground cloves",
-    "sea salt",
-    "black pepper",
-    "leaves",
-    "toasted sliced almonds",
-    "Fresh parsley, chopped"
+    "أفخاذ دجاج",
+    "أرز بسمتي بني",
+    "بصلة كبيرة، مكعبات",
+    "فصوص ثوم، مفرومة",
+    "طماطم، مكعبات",
+    "جزرة متوسطة، مكعبات",
+    "معجون طماطم",
+    "زيت زيتون بكر ممتاز",
+    "مرق دجاج قليل الصوديوم",
+    "كمون مطحون",
+    "كزبرة مطحونة",
+    "بابريكا",
+    "كركم",
+    "قرفة مطحونة",
+    "قرنفل مطحون",
+    "ملح البحر",
+    "فلفل أسود",
+    "أوراق الغار",
+    "شرائح لوز محمصة",
+    "بقدونس طازج، مفروم"
   ],
   "instructions": [
-    "Heat the olive oil in a large Dutch oven over medium heat.",
-    "Season the chicken with salt and pepper, then brown on both sides. Remove and set aside.",
-    "In the same pot, cook the onion until softened, then stir in the garlic.",
-    "Add the tomatoes, carrot, tomato paste, cumin, coriander, paprika, turmeric, cinnamon, and cloves. Cook for 5 minutes.",
-    "Return the chicken to the pot and pour in the chicken broth. Add the bay leaves.",
-    "Cover and simmer for 20 minutes.",
-    "Remove the chicken and set aside.",
-    "Stir the rinsed brown basmati rice into the broth.",
-    "Place the chicken back on top of the rice.",
-    "Cover and cook on low heat for 30–35 minutes until the rice is tender and the chicken is fully cooked.",
-    "Discard the bay leaves.",
-    "Garnish with toasted almonds and chopped parsley before serving."
+    "سخن زيت الزيتون في قدر كبير على نار متوسطة.",
+    "تبّل الدجاج بالملح والفلفل، ثم حمر الوجهين. أخرجه وضعه جانباً.",
+    "في القدر نفسه، اطهُ البصل حتى يطرى، ثم أضف الثوم وقلبه.",
+    "أضف الطماطم والجزر ومعجون الطماطم والكمون والكزبرة والبابريكا والكركم والقرفة والقرنفل. اطهُ لمدة 5 دقائق.",
+    "أعد الدجاج إلى القدر واسكب مرق الدجاج. أضف أوراق الغار.",
+    "غطّ القدر واتركه يغلي على نار هادئة لمدة 20 دقيقة.",
+    "أخرج الدجاج وضعه جانباً.",
+    "قلّب أرز البسمتي البني المغسول في المرق.",
+    "ضع الدجاج مجدداً فوق الأرز.",
+    "غطّ القدر واطهُ على نار هادئة لمدة 30–35 دقيقة حتى ينضج الأرز ويصبح الدجاج مطهواً بالكامل.",
+    "تخلص من أوراق الغار.",
+    "زيّن باللوز المحمص والبقدونس المفروم قبل التقديم."
   ],
   "healthBenefits": [
-    "Excellent source of lean protein",
-    "Whole-grain brown basmati rice provides sustained energy",
-    "Rich in vitamins and minerals from vegetables",
-    "Heart-healthy olive oil",
-    "Balanced source of protein, healthy fats, and complex carbohydrates",
-    "Mediterranean diet friendly"
+    "مصدر ممتاز للبروتين الخالي من الدهون",
+    "يوفر أرز البسمتي البني من الحبوب الكاملة طاقة مستدامة",
+    "غني بالفيتامينات والمعادن من الخضراوات",
+    "زيت زيتون صحي للقلب",
+    "مصدر متوازن للبروتين والدهون الصحية والكربوهيدرات المعقدة",
+    "مناسب للنظام الغذائي المتوسطي"
   ],
   "keywords": [
-    "Chicken Kabsa",
-    "Healthy Kabsa",
-    "Mediterranean Chicken Rice",
-    "One Pot Chicken",
-    "Brown Rice Chicken Recipe"
+    "كبسة دجاج",
+    "كبسة صحية",
+    "أرز بالدجاج على الطريقة المتوسطية",
+    "دجاج القدر الواحد",
+    "وصفة دجاج بالأرز البني"
   ],
   "tags": [
-    "main dish",
-    "Mediterranean",
-    "Lebanese",
-    "chicken",
-    "brown rice",
-    "healthy",
-    "high protein",
-    "one pot"
+    "طبق رئيسي",
+    "متوسطي",
+    "لبناني",
+    "دجاج",
+    "أرز بني",
+    "صحي",
+    "عالي البروتين",
+    "قدر واحد"
   ]
 };
 

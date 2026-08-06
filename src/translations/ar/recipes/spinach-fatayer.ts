@@ -1,68 +1,68 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "c3477c190bc69c521352ea5ec4b6f13d25d0dd135943401f720073c67f7eccb6";
 
 const translation: RecipeTranslation = {
-  "title": "Spinach Fatayer",
-  "description": "Traditional Lebanese baked pastries filled with spinach, onions, herbs, lemon juice, and tangy sumac. A healthy mezze that's perfect as an appetizer, snack, or light meal.",
-  "longDescription": "Spinach Fatayer are one of Lebanon's most iconic baked pastries. Soft whole wheat dough is filled with a vibrant mixture of fresh spinach, onions, parsley, olive oil, lemon juice, and aromatic sumac before being folded into traditional triangular pies and baked until golden brown. These wholesome pastries are rich in vitamins, fiber, and Mediterranean flavor while using minimal oil for a healthier version.",
+  "title": "فطائر السبانخ",
+  "description": "معجنات لبنانية مخبوزة تقليدية محشوة بالسبانخ والبصل والأعشاب وعصير الليمون والسماق الحامض. مازة صحية مثالية كمقبلات أو وجبة خفيفة أو وجبة خفيفة.",
+  "longDescription": "تُعد فطائر السبانخ واحدة من أشهر المعجنات المخبوزة في لبنان. تُحشى عجينة القمح الكامل الناعمة بمزيج حيوي من السبانخ الطازجة والبصل والبقدونس وزيت الزيتون وعصير الليمون والسماق العطري قبل طيها على شكل فطائر مثلثية تقليدية وخبزها حتى تكتسب لوناً ذهبياً. هذه المعجنات المغذية غنية بالفيتامينات والألياف ونكهة البحر الأبيض المتوسط مع استخدام حد أدنى من الزيت للحصول على نسخة صحية أكثر.",
   "ingredients": [
-    "whole wheat flour",
-    "all-purpose flour",
-    "tsp instant yeast",
-    "sugar",
-    "sea salt",
-    "warm water",
-    "extra virgin olive oil",
-    "fresh spinach, finely chopped",
-    "Medium onion, finely diced",
-    "chopped parsley",
-    "fresh mint, chopped",
-    "fresh lemon juice",
-    "ground sumac",
-    "ground black pepper",
-    "ground allspice"
+    "دقيق القمح الكامل",
+    "دقيق متعدد الاستعمالات",
+    "ملعقة صغيرة خميرة فورية",
+    "سكر",
+    "ملح البحر",
+    "ماء دافئ",
+    "زيت زيتون بكر ممتاز",
+    "سبانخ طازجة، مفرومة ناعماً",
+    "بصلة متوسطة، مقطعة مكعبات صغيرة",
+    "بقدونس مفروم",
+    "نعناع طازج، مفروم",
+    "عصير ليمون طازج",
+    "سماق مطحون",
+    "فلفل أسود مطحون",
+    "بهار حلو مطحون"
   ],
   "instructions": [
-    "Combine the flours, yeast, sugar, and salt in a large bowl.",
-    "Add the warm water and olive oil and knead until a smooth dough forms.",
-    "Cover and let the dough rise for 1 hour.",
-    "Meanwhile, combine the spinach, onion, parsley, mint, lemon juice, sumac, black pepper, and allspice.",
-    "Squeeze out any excess liquid from the spinach mixture.",
-    "Preheat the oven to 400°F (200°C).",
-    "Divide the dough into 12 equal portions.",
-    "Roll each portion into a small circle.",
-    "Place about 2 tablespoons of filling in the center.",
-    "Pinch the edges together to form the traditional triangular fatayer shape.",
-    "Place on a parchment-lined baking tray.",
-    "Bake for 20–25 minutes until golden brown.",
-    "Serve warm or at room temperature."
+    "اخلط أنواع الدقيق والخميرة والسكر والملح في وعاء كبير.",
+    "أضف الماء الدافئ وزيت الزيتون واعجن حتى تتكون عجينة ناعمة.",
+    "غطّ العجينة واتركها تتخمر لمدة 1 ساعة.",
+    "في هذه الأثناء، اخلط السبانخ والبصل والبقدونس والنعناع وعصير الليمون والسماق والفلفل الأسود والبهار الحلو.",
+    "اعصر أي سائل زائد من مزيج السبانخ.",
+    "سخّن الفرن مسبقاً إلى 400°F (200°C).",
+    "قسّم العجينة إلى 12 حصة متساوية.",
+    "افرد كل حصة على شكل دائرة صغيرة.",
+    "ضع حوالي 2 ملعقة كبيرة من الحشوة في المنتصف.",
+    "اجمع الحواف معاً واضغط عليها لتشكيل شكل الفطائر المثلثي التقليدي.",
+    "ضعها في صينية خبز مغطاة بورق زبدة.",
+    "اخبز لمدة 20–25 دقيقة حتى تكتسب لوناً ذهبياً.",
+    "قدّمها دافئة أو بدرجة حرارة الغرفة."
   ],
   "healthBenefits": [
-    "Excellent source of iron from spinach",
-    "Rich in vitamins A, C, and K",
-    "High in dietary fiber",
-    "Contains heart-healthy olive oil",
-    "Good source of plant-based nutrients",
-    "Lower in fat than traditional versions",
-    "Mediterranean diet friendly"
+    "مصدر ممتاز للحديد من السبانخ",
+    "غني بالفيتامينات A و C و K",
+    "غني بالألياف الغذائية",
+    "يحتوي على زيت الزيتون المفيد لصحة القلب",
+    "مصدر جيد للمغذيات النباتية",
+    "أقل في الدهون مقارنة بالوصفات التقليدية",
+    "مناسب لنظام حمية البحر الأبيض المتوسط"
   ],
   "keywords": [
-    "Spinach Fatayer",
-    "Lebanese Spinach Pies",
-    "Healthy Fatayer",
-    "Mediterranean Appetizer",
-    "Lebanese Bakery"
+    "فطائر السبانخ",
+    "فطائر السبانخ اللبنانية",
+    "فطائر صحية",
+    "مقبلات البحر الأبيض المتوسط",
+    "مخبوزات لبنانية"
   ],
   "tags": [
-    "mezze",
-    "Lebanese",
-    "fatayer",
-    "spinach",
-    "vegetarian",
-    "baked",
-    "healthy",
-    "Mediterranean"
+    "مازة",
+    "لبناني",
+    "فطائر",
+    "سبانخ",
+    "نباتي",
+    "مخبوز",
+    "صحي",
+    "بحر أبيض متوسط"
   ]
 };
 

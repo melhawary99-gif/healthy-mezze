@@ -1,64 +1,64 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "fb4849b3aba2a3bb0c8316985bd73e55158aae8516623112ce01b10c43d72547";
 
 const translation: RecipeTranslation = {
-  "title": "Spinach & Feta Stuffed Zucchini Boats",
-  "description": "Fresh zucchini filled with spinach, feta cheese, herbs, and whole grains, then baked until perfectly tender.",
-  "longDescription": "Spinach & Feta Stuffed Zucchini Boats are a nutritious Mediterranean-inspired vegetarian meal featuring roasted zucchini filled with spinach, creamy feta cheese, cooked quinoa, garlic, herbs, and a touch of Parmesan. This balanced recipe is packed with vegetables, plant protein, and whole grains while remaining light, flavorful, and satisfying. It makes an excellent lunch, dinner, or meal-prep option.",
+  "title": "قوارب الكوسة المحشوة بالسبانخ وجبنة الفتة",
+  "description": "كوسة طازجة محشوة بالسبانخ وجبنة الفتة والأعشاب والحبوب الكاملة، ثم مَخبوزة حتى تنضج تماماً.",
+  "longDescription": "تُعد قوارب الكوسة المحشوة بالسبانخ وجبنة الفتة وجبة نباتية مغذية مستوحاة من مطبخ البحر الأبيض المتوسط، وتتكون من كوسة محمصة محشوة بالسبانخ وجبنة الفتة الكريمية والكينوا المطهوة والثوم والأعشاب ولمسة من جبن البارميزان. هذه الوصفة المتوازنة مليئة بالخضروات والبروتين النباتي والحبوب الكاملة، مع الحفاظ على كونها خفيفة ولذيذة ومشبعة. وهي خيار ممتاز للغداء أو العشاء أو لتحضير الوجبات المسبق.",
   "ingredients": [
-    "Medium zucchini",
-    "fresh spinach, chopped",
-    "cooked quinoa",
-    "feta cheese, crumbled",
-    "grated Parmesan cheese",
-    "cloves, minced",
-    "extra virgin olive oil",
-    "chopped fresh parsley",
-    "chopped fresh dill",
-    "dried oregano",
-    "paprika",
-    "sea salt",
-    "black pepper",
-    "lemon juice"
+    "كوسة متوسطة الحجم",
+    "سبانخ طازجة مفرومة",
+    "كينوا مطهوة",
+    "جبنة فتة مفتتة",
+    "جبن بارميزان مبشور",
+    "فصوص ثوم مفرومة",
+    "زيت زيتون بكر ممتاز",
+    "بقدونس طازج مفروم",
+    "شبت طازج مفروم",
+    "أوريغانو مجفف",
+    "بابريكا",
+    "ملح البحر",
+    "فلفل أسود",
+    "عصير ليمون"
   ],
   "instructions": [
-    "Preheat the oven to 200°C (400°F).",
-    "Slice each zucchini in half lengthwise and scoop out the center to create boats.",
-    "Brush the zucchini with olive oil and arrange in a baking dish.",
-    "Bake the zucchini shells for 10 minutes.",
-    "Meanwhile, heat a little olive oil in a skillet and sauté the garlic for 30 seconds.",
-    "Add the spinach and cook until wilted.",
-    "Stir in the cooked quinoa, feta cheese, parsley, dill, oregano, paprika, lemon juice, salt, and pepper.",
-    "Remove from the heat and mix in the Parmesan cheese.",
-    "Fill each zucchini boat generously with the mixture.",
-    "Bake for 20 minutes until the zucchini is tender and the tops are lightly golden.",
-    "Serve warm with a Greek salad or yogurt sauce."
+    "سخن الفرن مسبقاً على درجة حرارة 200 مئوية (400 فهرنهايت).",
+    "اقطع كل حبة كوسة إلى نصفين طولياً وفرّغ منتصفها لتشكيل قوارب.",
+    "ادهن الكوسة بزيت الزيتون ورتبها في صينية خبز.",
+    "اخبز قوارب الكوسة لمدة 10 دقائق.",
+    "في هذه الأثناء، سخن القليل من زيت الزيتون في مقلاة وقلّب الثوم لمدة 30 ثانية.",
+    "أضف السبانخ واطهها حتى تذبل.",
+    "أضف الكينوا المطهوة، وجبنة الفتة، والبقدونس، والشبت، والأوريغانو، والبابريكا، وعصير الليمون، والملح، والفلفل الأسود مع التحريك.",
+    "ارفع المقلاة عن النار واخلط معها جبن البارميزان.",
+    "املأ كل قارب كوسة بسخاء بالمزيج.",
+    "اخبز لمدة 20 دقيقة حتى تطرى الكوسة ويصبح الجزء العلوي ذهبياً خفيفاً.",
+    "قدّمها دافئة مع سلطة يونانية أو صلصة الزبادي."
   ],
   "healthBenefits": [
-    "Rich in plant protein",
-    "Excellent source of calcium",
-    "High in vitamin A and vitamin C",
-    "Good source of dietary fiber",
-    "Contains heart-healthy olive oil",
-    "Mediterranean diet friendly"
+    "غنية بالبروتين النباتي",
+    "مصدر ممتاز للكالسيوم",
+    "غنية بفيتامين A وفيتامين C",
+    "مصدر جيد للألياف الغذائية",
+    "تحتوي على زيت الزيتون المفيد لصحة القلب",
+    "مناسبة لحمية البحر الأبيض المتوسط"
   ],
   "keywords": [
-    "Stuffed Zucchini",
-    "Vegetarian Zucchini Boats",
-    "Spinach Feta Zucchini",
-    "Healthy Mediterranean Recipe",
-    "Baked Zucchini Boats"
+    "كوسة محشوة",
+    "قوارب كوسة نباتية",
+    "كوسة بالسبانخ والفتة",
+    "وصفة صحية من مطبخ البحر الأبيض المتوسط",
+    "قوارب كوسة مخبوزة"
   ],
   "tags": [
-    "vegetarian",
-    "Mediterranean",
-    "Lebanese",
-    "zucchini",
-    "spinach",
-    "feta",
-    "healthy",
-    "high protein"
+    "نباتي",
+    "بحر أبيض متوسط",
+    "لبناني",
+    "كوسة",
+    "سبانخ",
+    "فتة",
+    "صحي",
+    "عالي البروتين"
   ]
 };
 

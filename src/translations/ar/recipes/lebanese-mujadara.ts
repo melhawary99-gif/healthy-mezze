@@ -1,60 +1,60 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "832055b21b75a84480706771796b3be1f03d512ec8053132fdf941c7733fade8";
 
 const translation: RecipeTranslation = {
-  "title": "Lebanese Mujadara",
-  "description": "A wholesome Lebanese dish made with lentils, rice, caramelized onions, and warm spices for a comforting plant-based meal.",
-  "longDescription": "Lebanese Mujadara is a timeless Middle Eastern comfort food prepared with brown lentils, long-grain rice, and deeply caramelized onions. Simple yet incredibly flavorful, this naturally vegan recipe is packed with fiber, plant-based protein, and minerals. Traditionally served warm or at room temperature with fresh vegetables, yogurt, or a simple cucumber salad, Mujadara is an excellent choice for healthy everyday meals.",
+  "title": "المجدرة اللبنانية",
+  "description": "طبق لبناني صحي يُحضر من العدس والأرز والبصل المكرمل والتوابل الدافئة لوجبة نباتية مريحة ومغذية.",
+  "longDescription": "تعد المجدرة اللبنانية وجبة مريحة وأصيلة من المطبخ الشرق أوسطي، تُحضر من العدس البني والأرز طويل الحبة والبصل المكرمل بدرجة داكنة. تتميز هذه الوصفة النباتية بطبيعتها بالبساطة والنكهة الغنية للغاية، وهي غنية بالألياف والبروتين النباتي والمعادن. تُقدم المجدرة تقليدياً دافئة أو بدرجة حرارة الغرفة مع الخضار الطازجة، أو اللبن، أو سلطة الخيار البسيطة، مما يجعلها خياراً ممتازاً للوجبات اليومية الصحية.",
   "ingredients": [
-    "brown lentils",
-    "long-grain rice",
-    "Large onions, thinly sliced",
-    "extra virgin olive oil",
-    "ground cumin",
-    "ground coriander",
-    "sea salt",
-    "black pepper",
-    "vegetable broth",
-    "Fresh parsley for garnish",
-    "Lemon wedges for serving"
+    "عدس بني",
+    "أرز طويل الحبة",
+    "بصل كبير الحجم، مقطع إلى شرائح رفيعة",
+    "زيت زيتون بكر ممتاز",
+    "كمون مطحون",
+    "كزبرة مطحونة",
+    "ملح البحر",
+    "فلفل أسود",
+    "مرق خضار",
+    "بقدونس طازج للتزيين",
+    "شرائح ليمون للتقديم"
   ],
   "instructions": [
-    "Cook the lentils in water for about 20 minutes until nearly tender. Drain.",
-    "Heat the olive oil in a large skillet over medium heat.",
-    "Cook the sliced onions slowly for 20–25 minutes until deeply caramelized.",
-    "Remove half of the onions and reserve for garnish.",
-    "Add the cumin, coriander, salt, and pepper to the remaining onions.",
-    "Stir in the rice and cooked lentils.",
-    "Pour in the vegetable broth and bring to a boil.",
-    "Reduce the heat to low, cover, and simmer for about 20 minutes until the rice is tender and the liquid is absorbed.",
-    "Allow the Mujadara to rest for 10 minutes before fluffing with a fork.",
-    "Top with the reserved caramelized onions, garnish with parsley, and serve with lemon wedges."
+    "اطبخ العدس في الماء لمدة 20 دقيقة تقريباً حتى ينضج تقريباً. ثم صفّه.",
+    "سخن زيت الزيتون في مقلاة كبيرة على نار متوسطة.",
+    "طهي شرائح البصل ببطء لمدة 20–25 دقيقة حتى تتكرمل وتكتسب لوناً داكناً.",
+    "ارفع نصف كمية البصل واحتفظ بها جانباً للتزيين.",
+    "أضف الكمون والكزبرة والملح والفلفل إلى البصل المتبقي.",
+    "قلّب الأرز والعدس المطبوخ.",
+    "اسكب مرق الخضار واتركه حتى يغلي.",
+    "اخفض الحرارة إلى هادئة، وغطِّ المقلاة، واتركها تتسبك لمدة 20 دقيقة تقريباً حتى ينضج الأرز ويمتص السائل.",
+    "اترك المجدرة ترتاح لمدة 10 دقائق قبل تفكيك الحبات باستخدام شوكة.",
+    "ضَع البصل المكرمل المحفوظ على السطح، وزّين بالبقدونس، وقدّمها مع شرائح الليمون."
   ],
   "healthBenefits": [
-    "Excellent source of plant-based protein",
-    "Rich in dietary fiber",
-    "Supports heart health",
-    "Provides slow-release carbohydrates",
-    "Naturally vegan and cholesterol-free",
-    "High in iron and folate"
+    "مصدر ممتاز للبروتين النباتي",
+    "غنية بالألياف الغذائية",
+    "تدعم صحة القلب",
+    "تزود الجسم بكربوهيدرات بطيئة الإطلاق",
+    "نباتية خالية من الكوليسترول بطبيعتها",
+    "غنية بالحديد والفولات"
   ],
   "keywords": [
-    "Lebanese Mujadara",
-    "Mujadara Recipe",
-    "Rice and Lentils",
-    "Healthy Lebanese Food",
-    "Vegan Mediterranean Recipe"
+    "المجدرة اللبنانية",
+    "وصفة المجدرة",
+    "أرز وعدس",
+    "طعام لبناني صحي",
+    "وصفة متوسطية نباتية"
   ],
   "tags": [
-    "main dish",
-    "Lebanese",
-    "vegan",
-    "vegetarian",
-    "lentils",
-    "rice",
-    "healthy",
-    "Mediterranean"
+    "طبق رئيسي",
+    "لبناني",
+    "نباتي خضري",
+    "نباتي",
+    "عدس",
+    "أرز",
+    "صحي",
+    "متوسطي"
   ]
 };
 

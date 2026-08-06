@@ -1,58 +1,58 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "e7bdd1caee8e0839bd7d32863417589d3c8169f4f23d6387ed9d92ecb295a75d";
 
 const translation: RecipeTranslation = {
-  "title": "Mediterranean Vegetable Soup",
-  "description": "A nourishing Mediterranean vegetable soup made with fresh seasonal vegetables, chickpeas, aromatic herbs, and heart-healthy olive oil for a wholesome and comforting meal.",
+  "title": "حساء الخضار المتوسطي",
+  "description": "حساء خضار متوسطي مغذٍ مصنوع من خضروات الموسم الطازجة، والحمص، والأعشاب العطرية، وزيت الزيتون الصحي للقلب لوجبة صحية ومريحة.",
   "longDescription": "",
   "ingredients": [
-    "Zucchini",
-    "Carrots",
-    "Tomatoes",
-    "Onion",
-    "Garlic",
-    "Chickpeas",
-    "Vegetable broth",
-    "Fresh parsley",
-    "Olive oil",
-    "Mediterranean herbs"
+    "كوسة",
+    "جزر",
+    "طماطم",
+    "بصل",
+    "ثوم",
+    "حمص",
+    "مرق الخضار",
+    "بقدونس طازج",
+    "زيت زيتون",
+    "أعشاب متوسطية"
   ],
   "instructions": [
-    "Wash and chop all the vegetables into bite-sized pieces.",
-    "Heat olive oil in a large soup pot over medium heat.",
-    "Sauté the onion and garlic until fragrant and translucent.",
-    "Add the carrots and zucchini, cooking for a few minutes.",
-    "Stir in the tomatoes and Mediterranean herbs.",
-    "Add the chickpeas and vegetable broth.",
-    "Bring the soup to a gentle boil.",
-    "Reduce the heat and simmer for about 30 minutes until the vegetables are tender.",
-    "Taste and adjust the seasoning with salt and black pepper.",
-    "Garnish with fresh parsley and serve warm."
+    "اغسل جميع الخضروات وقطعها إلى قطع صغيرة مناسبة للأكل.",
+    "سخن زيت الزيتون في قدر حساء كبير على نار متوسطة.",
+    "اقلِ البصل والثوم حتى تخرج رائحتهما ويصبحا شفافين.",
+    "أضف الجزر والكوسة، واطهِهما لعدة دقائق.",
+    "قلّب الطماطم والأعشاب المتوسطية مع المكونات.",
+    "أضف الحمص ومرق الخضار.",
+    "اترك الحساء يغلي غلياناً خفيفاً.",
+    "خفف النار واتركه يطهى هادئاً لمدة 30 دقيقة تقريباً حتى تصبح الخضروات طرية.",
+    "تذوق الحساء واضبط التوابل بالملح والفلفل الأسود.",
+    "زيّن بالبقدونس الطازج وقدّمه دافئاً."
   ],
   "healthBenefits": [
-    "Rich in dietary fiber",
-    "Supports digestive health",
-    "Packed with vitamins and antioxidants",
-    "Contains heart-healthy olive oil",
-    "Provides plant-based protein",
-    "Supports a healthy immune system"
+    "غني بالألياف الغذائية",
+    "يدعم صحة الجهاز الهضمي",
+    "مليء بالفيتامينات ومضادات الأكسدة",
+    "يحتوي على زيت الزيتون المفيد لصحة القلب",
+    "يوفر البروتين النباتي",
+    "يدعم صحة جهاز المناعة"
   ],
   "keywords": [
-    "Mediterranean Vegetable Soup",
-    "Healthy Vegetable Soup",
-    "Mediterranean Soup Recipe",
-    "Plant Based Soup",
-    "Easy Vegetable Soup",
-    "Healthy Mediterranean Recipe"
+    "حساء الخضار المتوسطي",
+    "حساء خضار صحي",
+    "وصفة حساء متوسطي",
+    "حساء نباتي",
+    "حساء خضار سهل",
+    "وصفة متوسطية صحية"
   ],
   "tags": [
-    "Soup",
-    "Mediterranean",
-    "Vegetarian",
-    "Vegan",
-    "Healthy",
-    "Vegetables"
+    "حساء",
+    "متوسطي",
+    "نباتي",
+    "نباتي صرف",
+    "صحي",
+    "خضروات"
   ]
 };
 

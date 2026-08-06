@@ -1,64 +1,64 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "4286cebb02c765282f607cb040d220c1a141bc62462cc2a7462cf7096fd6a161";
 
 const translation: RecipeTranslation = {
-  "title": "Spinach & Feta Omelette",
-  "description": "A fluffy omelette filled with fresh spinach, creamy feta cheese, herbs, and cooked in extra virgin olive oil for a healthy Mediterranean breakfast.",
-  "longDescription": "This Mediterranean Spinach & Feta Omelette is a protein-rich breakfast that combines fluffy eggs with sautéed spinach, tangy feta cheese, onions, and fresh herbs. Ready in under 20 minutes, it's packed with vitamins, minerals, and healthy fats, making it an excellent choice for a nutritious start to the day.",
+  "title": "أومليت السبانخ وجبنة الفتة",
+  "description": "أومليت هش محشو بالسبانخ الطازجة، وجبن الفتة الكريمي، والأعشاب، ومطبوخ في زيت زيتون بكر ممتاز لإفطار متوسطي صحي.",
+  "longDescription": "يُعد أومليت السبانخ والفتة المتوسطي هذا وجبة إفطار غنية بالبروتين تجمع بين البيض الهش والسبانخ المطهوة، وجبن الفتة الحادق، والبصل، والأعشاب الطازجة. جاهز في أقل من 20 دقيقة، ومحمل بالفيتامينات والمعادن والدهون الصحية، مما يجعله خيارًا ممتازًا لبداية مغذية لليوم.",
   "ingredients": [
-    "Large eggs",
-    "milk",
-    "extra virgin olive oil",
-    "fresh spinach, chopped",
-    "Small onion, finely diced",
-    "clove, minced",
-    "crumbled feta cheese",
-    "chopped parsley",
-    "chopped dill (optional)",
-    "sea salt",
-    "black pepper",
-    "dried oregano",
-    "Cherry tomatoes for serving",
-    "Whole grain toast for serving"
+    "بيض كبير",
+    "حليب",
+    "زيت زيتون بكر ممتاز",
+    "سبانخ طازجة، مفرومة",
+    "بصلة صغيرة، مقطعة مكعبات صغيرة",
+    "فص ثوم، مفروم",
+    "جبن فتة مفتت",
+    "بقدونس مفروم",
+    "شبت مفروم (اختياري)",
+    "ملح البحر",
+    "فلفل أسود",
+    "أوريجانو مجفف",
+    "طماطم كرزية للتقديم",
+    "خبز محمص من الحبوب الكاملة للتقديم"
   ],
   "instructions": [
-    "Whisk together the eggs, milk, salt, pepper, and oregano until smooth.",
-    "Heat the olive oil in a non-stick skillet over medium heat.",
-    "Cook the onion for 2–3 minutes until softened.",
-    "Add the garlic and spinach, cooking until the spinach has wilted.",
-    "Pour the egg mixture evenly into the skillet.",
-    "Cook undisturbed for about 2 minutes until the edges begin to set.",
-    "Sprinkle the feta cheese, parsley, and optional dill over one half of the omelette.",
-    "Carefully fold the omelette in half.",
-    "Cook for another 2–3 minutes until the eggs are fully set.",
-    "Serve immediately with cherry tomatoes and whole grain toast."
+    "اخفق البيض والحليب والملح والفلفل والأوريجانو معًا حتى يصبح الخليط ناعمًا.",
+    "سخن زيت الزيتون في مقلاة غير لاصقة على نار متوسطة.",
+    "اطبخ البصل لمدة 2–3 دقائق حتى يذبل.",
+    "أضف الثوم والسبانخ، واطبخ حتى تذبل السبانخ.",
+    "اسكب مزيج البيض بالتساوي في المقلاة.",
+    "اتركه يطهى دون تحريك لمدة 2 دقيقة تقريبًا حتى تبدأ الأطراف في التماسك.",
+    "رش جبن الفتة والبقدونس والشبت الاختياري فوق نصف الأومليت.",
+    "اطوِ الأومليت بحذر إلى نصفين.",
+    "اطبخ لمدة 2–3 دقائق أخرى حتى ينضج البيض تمامًا.",
+    "قدمه فورًا مع الطماطم الكرزية والخبز المحمص من الحبوب الكاملة."
   ],
   "healthBenefits": [
-    "Excellent source of complete protein",
-    "Rich in calcium from feta cheese",
-    "High in iron and vitamin K from spinach",
-    "Contains healthy fats from olive oil",
-    "Supports muscle maintenance",
-    "Mediterranean diet friendly",
-    "Low in carbohydrates"
+    "مصدر ممتاز للبروتين الكامل",
+    "غني بالكالسيوم من جبن الفتة",
+    "غني بالحديد وفيتامين K من السبانخ",
+    "يحتوي على دهون صحية من زيت الزيتون",
+    "يدعم الحفاظ على العضلات",
+    "مناسب للنظام الغذائي المتوسطي",
+    "قليل الكربوهيدرات"
   ],
   "keywords": [
-    "Spinach Omelette",
-    "Feta Omelette",
-    "Healthy Breakfast",
-    "Mediterranean Eggs",
-    "Protein Breakfast"
+    "أومليت السبانخ",
+    "أومليت الفتة",
+    "إفطار صحي",
+    "بيض على الطريقة المتوسطية",
+    "إفطار غني بالبروتين"
   ],
   "tags": [
-    "breakfast",
-    "Mediterranean",
-    "eggs",
-    "spinach",
-    "feta",
-    "high protein",
-    "healthy",
-    "vegetarian"
+    "إفطار",
+    "متوسطي",
+    "بيض",
+    "سبانخ",
+    "فتة",
+    "غني بالبروتين",
+    "صحي",
+    "نباتي"
   ]
 };
 

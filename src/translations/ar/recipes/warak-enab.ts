@@ -1,67 +1,67 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "29a18ef98a6a6a8ac0e6806d52526ae4adcd8af4704d6033f2557005c6ef4b2b";
 
 const translation: RecipeTranslation = {
-  "title": "Warak Enab (Stuffed Grape Leaves)",
-  "description": "Tender grape leaves stuffed with seasoned rice, fresh herbs, tomatoes, onions, and aromatic spices, gently simmered in a bright lemon broth. A classic Lebanese mezze enjoyed warm or cold.",
-  "longDescription": "Warak Enab is one of the most beloved dishes throughout Lebanon and the Eastern Mediterranean. Tender grape leaves are carefully wrapped around a fragrant filling of rice, parsley, mint, tomatoes, onions, and warm spices before being slowly cooked with olive oil and fresh lemon juice. This healthy vegetarian dish is naturally rich in herbs, heart-healthy fats, and Mediterranean flavors, making it perfect as an appetizer, side dish, or light meal.",
+  "title": "ورق عنب (ورق العنب المحشي)",
+  "description": "أوراق عنب طرية محشوة بالأرز المبهر، الأعشاب الطازجة، الطماطم، البصل، والبهارات العطرية، مطهوة بطريقة هادئة في مرق الليمون المنعش. مقبلات لبنانية كلاسيكية تؤكل دافئة أو باردة.",
+  "longDescription": "يعتبر ورق العنب من أكثر الأطباق المحبوبة في جميع أنحاء لبنان وشرق البحر الأبيض المتوسط. تُحشى أوراق العنب الطرية بعناية بحشوة عطرة من الأرز، البقدونس، النعناع، الطماطم، البصل، والبهارات الدافئة قبل أن تُطهى ببطء مع زيت الزيتون وعصير الليمون الطازج. هذا الطبق النباتي الصحي غني بطبيعته بالأعشاب، الدهون الصحية للقلب، والنكهات المتوسطية، مما يجعله مثالياً كمقبلات، طبق جانبي، أو وجبة خفيفة.",
   "ingredients": [
-    "(16 oz) grape leaves, rinsed and drained",
-    "short-grain rice, rinsed",
-    "Medium tomatoes, finely diced",
-    "Small onion, finely chopped",
-    "fresh parsley, finely chopped",
-    "fresh mint, chopped",
-    "fresh dill, chopped",
-    "extra virgin olive oil",
-    "fresh lemon juice",
-    "ground allspice",
-    "ground cinnamon",
-    "sea salt",
-    "black pepper",
-    "vegetable broth",
-    "Lemon slices for serving"
+    "(16 أونصة) ورق عنب، مغسول ومصفى",
+    "أرز قصير الحبة، مغسول",
+    "طماطم متوسطة الحجم، مقطعة مكعبات صغيرة",
+    "بصلة صغيرة، مفرومة ناعماً",
+    "بقدونس طازج، مفروم ناعماً",
+    "نعناع طازج، مفروم",
+    "شبت طازج، مفروم",
+    "زيت زيتون بكر ممتاز",
+    "عصير ليمون طازج",
+    "بهار حلو مطحون",
+    "قرفة مطحونة",
+    "ملح بحر",
+    "فلفل أسود",
+    "مرق خضار",
+    "شرائح ليمون للتقديم"
   ],
   "instructions": [
-    "Rinse the grape leaves well and trim any tough stems.",
-    "In a large bowl, combine the rice, tomatoes, onion, parsley, mint, dill, olive oil, lemon juice, allspice, cinnamon, salt, and pepper.",
-    "Place one grape leaf shiny-side down.",
-    "Add about one tablespoon of filling near the stem end.",
-    "Fold in the sides and roll tightly into a small cylinder.",
-    "Repeat until all filling is used.",
-    "Arrange the stuffed grape leaves seam-side down in a large pot.",
-    "Pour the vegetable broth over the rolls.",
-    "Place a heatproof plate on top to keep them from unrolling.",
-    "Cover and simmer over low heat for 45–50 minutes until the rice is fully cooked.",
-    "Allow to cool slightly before serving.",
-    "Serve with fresh lemon wedges and an extra drizzle of olive oil."
+    "اغسل أوراق العنب جيداً وقص أي سيقان صلبة.",
+    "في وعاء كبير، اخلط الأرز، الطماطم، البصل، البقدونس، النعناع، الشبت، زيت الزيتون، عصير الليمون، البهار الحلو، القرفة، الملح، والفلفل الأسود.",
+    "ضع ورقة عنب واحدة بحيث يكون الجانب اللامع لأسفل.",
+    "أضف حوالي ملعقة كبيرة من الحشوة بالقرب من طرف الساق.",
+    "اطوِ الجانبين للداخل ولفها بإحكام على شكل أسطوانة صغيرة.",
+    "كرر العملية حتى تنتهي الحشوة بالكامل.",
+    "رتب أوراق العنب المحشوة بحيث تكون جهة الإغلاق لأسفل في قدر كبير.",
+    "اسكب مرق الخضار فوق أوراق العنب الملفوفة.",
+    "ضع طبقاً مقاوماً للحرارة في الأعلى لمنعها من التفكك.",
+    "غطّ القدر واتركه يطهو على نار هادئة لمدة 45–50 دقيقة حتى ينضج الأرز تماماً.",
+    "اتركه يبرد قليلاً قبل التقديم.",
+    "قدمه مع شرائح الليمون الطازج ورشة إضافية من زيت الزيتون."
   ],
   "healthBenefits": [
-    "Rich in fresh herbs and antioxidants",
-    "Contains heart-healthy olive oil",
-    "Good source of dietary fiber",
-    "Naturally vegetarian",
-    "Provides vitamins A and C",
-    "Mediterranean diet friendly",
-    "Can be enjoyed warm or cold"
+    "غني بالأعشاب الطازجة ومضادات الأكسدة",
+    "يحتوي على زيت الزيتون الصحي للقلب",
+    "مصدر جيد للألياف الغذائية",
+    "نباتي بطبيعته",
+    "يوفر فيتامينات A و C",
+    "مناسب ونشط لنظام البحر الأبيض المتوسط الغذائي",
+    "يمكن تناوله دافئاً أو بارداً"
   ],
   "keywords": [
-    "Warak Enab",
-    "Stuffed Grape Leaves",
-    "Lebanese Recipe",
-    "Mediterranean Mezze",
-    "Healthy Appetizer"
+    "ورق عنب",
+    "محشي ورق عنب",
+    "وصفة لبنانية",
+    "مقبلات متوسطية",
+    "مقبلات صحية"
   ],
   "tags": [
-    "mezze",
-    "Lebanese",
-    "grape leaves",
-    "vegetarian",
-    "healthy",
-    "Mediterranean",
-    "rice",
-    "appetizer"
+    "مقبلات",
+    "لبناني",
+    "ورق عنب",
+    "نباتي",
+    "صحي",
+    "متوسطي",
+    "أرز",
+    "مقبلات"
   ]
 };
 

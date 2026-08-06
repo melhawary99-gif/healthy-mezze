@@ -1,66 +1,66 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "2cc3e8f7e21fdbaccc0cc23fd49521db9a5902e496e46b8b3160890d0525a7d6";
 
 const translation: RecipeTranslation = {
-  "title": "Mediterranean Vegetable Barley Soup",
-  "description": "A hearty Mediterranean soup made with pearl barley, vegetables, tomatoes, herbs, and extra virgin olive oil.",
-  "longDescription": "This Mediterranean Vegetable Barley Soup is a wholesome, filling meal packed with colorful vegetables, tender pearl barley, tomatoes, and aromatic herbs. The barley adds a satisfying chewy texture while providing whole-grain nutrition, making this soup ideal for meal prep, cold weather, or a healthy family dinner. Finished with fresh parsley and a squeeze of lemon, it's comforting, nutritious, and naturally vegan.",
+  "title": "شوربة الشعير والخضار على طريقة البحر الأبيض المتوسط",
+  "description": "شوربة مشبعة من منطقة البحر الأبيض المتوسط مصنوعة من الشعير اللؤلؤي والخضار والطماطم والأعشاب وزيت الزيتون البكر الممتاز.",
+  "longDescription": "تعتبر شوربة الشعير والخضار المتوسطية هذه وجبة صحية ومشبعة مليئة بالخضار الملونة، والشعير اللؤلؤي الطري، والطماطم، والأعشاب العطرية. يضيف الشعير قواماً مطاطياً ممتعاً بينما يوفر القيمة الغذائية للحبوب الكاملة، مما يجعل هذه الشوربة مثالية لتحضير الوجبات المسبق، أو للطقس البارد، أو لعشاء عائلي صحي. مع لمسة أخيرة من البقدونس الطازج وعصرة ليمون، فهي وجبة مريحة ومغذية ونباتية صرفة بطبيعتها.",
   "ingredients": [
-    "extra virgin olive oil",
-    "Medium onion, diced",
-    "carrots, diced",
-    "stalks, diced",
-    "zucchini, diced",
-    "cloves, minced",
-    "pearl barley",
-    "(400 g) diced tomatoes",
-    "vegetable broth",
-    "dried oregano",
-    "dried thyme",
-    "leaf",
-    "sea salt",
-    "black pepper",
-    "chopped fresh parsley",
-    "fresh lemon juice"
+    "زيت زيتون بكر ممتاز",
+    "بصلة متوسطة، مقطعة مكعبات",
+    "جزر، مقطع مكعبات",
+    "سيقان كرفس، مقطعة مكعبات",
+    "كوسة، مقطعة مكعبات",
+    "فصوص ثوم، مفرومة",
+    "شعير لؤلؤي",
+    "(400 g) طماطم مقطعة مكعبات",
+    "مرق خضار",
+    "أوريغانو مجفف",
+    "زعتر مجفف",
+    "ورقة غار",
+    "ملح البحر",
+    "فلفل أسود",
+    "بقدونس طازج مفروم",
+    "عصير ليمون طازج"
   ],
   "instructions": [
-    "Heat the olive oil in a large soup pot over medium heat.",
-    "Cook the onion, carrots, celery, and zucchini for about 8 minutes until softened.",
-    "Add the garlic and cook for 1 minute.",
-    "Stir in the pearl barley, oregano, thyme, and bay leaf.",
-    "Add the diced tomatoes and vegetable broth.",
-    "Bring to a boil.",
-    "Reduce the heat and simmer for 35–40 minutes until the barley is tender.",
-    "Remove the bay leaf.",
-    "Season with salt and black pepper.",
-    "Stir in the lemon juice and chopped parsley just before serving.",
-    "Serve warm with whole-grain bread if desired."
+    "سخن زيت الزيتون في قدر شوربة كبير على نار متوسطة.",
+    "اطبخ البصل والجزر والكرفس والكوسة لمدة 8 دقائق تقريباً حتى تطرى المكونات.",
+    "أضف الثوم واطبخه لمدة 1 دقيقة.",
+    "أضف الشعير اللؤلؤي والأوريغانو والزعتر وورقة الغار وقلّب المكونات.",
+    "أضف الطماطم المقطعة ومرق الخضار.",
+    "اترك المزيج يغلي.",
+    "خفف النار واتركه يغلي بهدوء لمدة 35–40 دقيقة حتى ينضج الشعير ويصبح طرياً.",
+    "أزل ورقة الغار.",
+    "تبّل بالملح والفلفل الأسود.",
+    "أضف عصير الليمون والبقدونس المفروم واخلطهما قبل تقديم الشوربة مباشرة.",
+    "قدّم الشوربة دافئة مع خبز الحبوب الكاملة حسب الرغبة."
   ],
   "healthBenefits": [
-    "Excellent source of whole grains",
-    "High in dietary fiber",
-    "Supports digestive health",
-    "Rich in vitamins and minerals",
-    "Heart-healthy Mediterranean ingredients",
-    "Naturally vegan and cholesterol-free"
+    "مصدر ممتاز للحبوب الكاملة",
+    "غنية بالألياف الغذائية",
+    "تدعم صحة الجهاز الهضمي",
+    "غنية بالفيتامينات والمعادن",
+    "مكونات متوسطية مفيدة لصحة القلب",
+    "نباتية صرفة وخالية من الكوليسترول بطبيعتها"
   ],
   "keywords": [
-    "Vegetable Barley Soup",
-    "Mediterranean Barley Soup",
-    "Healthy Vegetable Soup",
-    "Whole Grain Soup",
-    "Barley Soup Recipe"
+    "شوربة الخضار والشعير",
+    "شوربة الشعير المتوسطية",
+    "شوربة خضار صحية",
+    "شوربة الحبوب الكاملة",
+    "وصفة شوربة الشعير"
   ],
   "tags": [
-    "soup",
-    "Mediterranean",
-    "vegetarian",
-    "vegan",
-    "barley",
-    "whole grains",
-    "healthy",
-    "meal prep"
+    "شوربة",
+    "متوسطي",
+    "نباتي",
+    "نباتي صرف",
+    "شعير",
+    "حبوب كاملة",
+    "صحي",
+    "تحضير الوجبات"
   ]
 };
 

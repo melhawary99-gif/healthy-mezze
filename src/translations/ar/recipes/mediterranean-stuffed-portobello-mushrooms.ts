@@ -1,65 +1,65 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "c67a98f750b7e4863a68ea4a52d1d3fc6e727ad305c8c843e38098261bc8dae8";
 
 const translation: RecipeTranslation = {
-  "title": "Mediterranean Stuffed Portobello Mushrooms",
-  "description": "Large Portobello mushrooms stuffed with spinach, quinoa, feta cheese, sun-dried tomatoes, and Mediterranean herbs, then baked until golden.",
-  "longDescription": "Mediterranean Stuffed Portobello Mushrooms combine meaty Portobello mushroom caps with a wholesome filling of quinoa, spinach, feta cheese, sun-dried tomatoes, garlic, and fresh herbs. The mushrooms become tender while the filling develops a delicious golden crust, creating a satisfying vegetarian meal rich in nutrients and Mediterranean flavors.",
+  "title": "فطر بورتوبيلو المحشو على طريقة البحر الأبيض المتوسط",
+  "description": "قبعات فطر بورتوبيلو الكبيرة المحشوة بالسبانخ والكينوا وجبن الفيتا والطماطم المجففة تحت الشمس وأعشاب البحر الأبيض المتوسط، والمخبوزة حتى تكتسب لوناً ذهبياً.",
+  "longDescription": "يجمع فطر بورتوبيلو المحشو على طريقة البحر الأبيض المتوسط بين قبعات فطر بورتوبيلو اللحمية وحشوة صحية من الكينوا والسبانخ وجبن الفيتا والطماطم المجففة تحت الشمس والثوم والأعشاب الطازجة. يصبح الفطر طرياً بينما تكتسب الحشوة قشرة ذهبية لذيذة، مما يصنع وجبة نباتية مشبعة وغنية بالمواد المغذية ونكهات البحر الأبيض المتوسط.",
   "ingredients": [
-    "Large Portobello mushrooms",
-    "cooked quinoa",
-    "fresh spinach, chopped",
-    "feta cheese, crumbled",
-    "sun-dried tomatoes, finely chopped",
-    "cloves, minced",
-    "extra virgin olive oil",
-    "chopped fresh parsley",
-    "chopped fresh basil",
-    "dried oregano",
-    "grated Parmesan cheese",
-    "lemon juice",
-    "sea salt",
-    "black pepper"
+    "فطر بورتوبيلو كبير الحجم",
+    "كينوا مطبوخة",
+    "سبانخ طازجة مفرومة",
+    "جبن فيتا مفتت",
+    "طماطم مجففة تحت الشمس، مفرومة ناعماً",
+    "فصوص ثوم مفرومة",
+    "زيت زيتون بكر ممتاز",
+    "بقدونس طازج مفروم",
+    "ريحان طازج مفروم",
+    "أوريغانو مجفف",
+    "جبن بارميزان مبشور",
+    "عصير ليمون",
+    "ملح البحر",
+    "فلفل أسود"
   ],
   "instructions": [
-    "Preheat the oven to 200°C (400°F).",
-    "Remove the mushroom stems and gently scrape out the dark gills if desired.",
-    "Brush both sides of the mushrooms with olive oil and place them on a baking tray.",
-    "Bake the mushroom caps for 8 minutes to release excess moisture.",
-    "Meanwhile, heat a small amount of olive oil in a skillet and sauté the garlic until fragrant.",
-    "Add the spinach and cook until wilted.",
-    "Stir in the cooked quinoa, sun-dried tomatoes, feta cheese, parsley, basil, oregano, lemon juice, salt, and pepper.",
-    "Remove from the heat and mix in the Parmesan cheese.",
-    "Fill each mushroom cap generously with the mixture.",
-    "Bake for another 15–18 minutes until the mushrooms are tender and the tops are lightly golden.",
-    "Serve warm with a fresh Mediterranean salad or roasted vegetables."
+    "سخن الفرن مسبقاً إلى 200°C (400°F).",
+    "أزل سيقان الفطر واكشط الخياشيم الداكنة بلطف إذا رغبت في ذلك.",
+    "ادهن جانبي الفطر بزيت الزيتون وضعه على صينية خبز.",
+    "اخبز قبعات الفطر لمدة 8 دقائق للتخلص من الرطوبة الزائدة.",
+    "في هذه الأثناء، سخن كمية صغيرة من زيت الزيتون في مقلاة وشوح الثوم حتى تفوح رائحته.",
+    "أضف السبانخ واطهها حتى تذبل.",
+    "أضف الكينوا المطبوخة، والطماطم المجففة تحت الشمس، وجبن الفيتا، والبقدونس، والريحان، والأوريغانو، وعصير الليمون، والملح، والفلفل الأسود وقلب المكونات.",
+    "ارفع المقلاة عن النار واخلط معها جبن البارميزان.",
+    "املأ كل قبعة فطر بسخاء بالمزيج.",
+    "اخبز لمدة 15–18 دقيقة أخرى حتى يصبح الفطر طرياً وتكتسب القمة لوناً ذهبياً خفيفاً.",
+    "قدمه دافئاً مع سلطة طازجة على طريقة البحر الأبيض المتوسط أو خضروات مشوية."
   ],
   "healthBenefits": [
-    "Excellent source of plant-based protein",
-    "Rich in antioxidants",
-    "High in B vitamins",
-    "Good source of dietary fiber",
-    "Provides calcium from feta cheese",
-    "Heart-healthy olive oil",
-    "Mediterranean diet friendly"
+    "مصدر ممتاز للبروتين النباتي",
+    "غني بمضادات الأكسدة",
+    "غني بفيتامينات B",
+    "مصدر جيد للألياف الغذائية",
+    "يوفر الكالسيوم من جبن الفيتا",
+    "زيت زيتون مفيد لصحة القلب",
+    "مناسب لنظام حمية البحر الأبيض المتوسط"
   ],
   "keywords": [
-    "Stuffed Portobello Mushrooms",
-    "Mediterranean Mushrooms",
-    "Vegetarian Mushrooms",
-    "Healthy Mushroom Recipe",
-    "Baked Portobello"
+    "فطر بورتوبيلو محشو",
+    "فطر على طريقة البحر الأبيض المتوسط",
+    "فطر نباتي",
+    "وصفة فطر صحية",
+    "بورتوبيلو مخبوز"
   ],
   "tags": [
-    "vegetarian",
-    "Mediterranean",
-    "Lebanese",
-    "mushrooms",
-    "quinoa",
-    "spinach",
-    "healthy",
-    "high protein"
+    "نباتي",
+    "متوسطي",
+    "لبناني",
+    "فطر",
+    "كينوا",
+    "سبانخ",
+    "صحي",
+    "عالي البروتين"
   ]
 };
 

@@ -1,58 +1,58 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "767ac037f6a4fdf34c418489f28fcb4200ef7f35a7432e600cb64b3f8fd1b5d8";
 
 const translation: RecipeTranslation = {
-  "title": "Hummus Power Bowl",
-  "description": "A wholesome Mediterranean power bowl featuring creamy hummus, protein-rich chickpeas, quinoa, roasted vegetables, and fresh herbs for a nutritious plant-based meal.",
+  "title": "وعاء الطاقة بالحمص",
+  "description": "وعاء طاقة متوسطي صحي ومغذي يحتوي على الحمص المفروم الناعم، والحمص الحب الغني بالبروتين، والكينوا، والخضروات المشوية، والأعشاب الطازجة لوجبة نباتية مغذية.",
   "longDescription": "",
   "ingredients": [
-    "Hummus",
-    "Chickpeas",
-    "Quinoa",
-    "Cucumber",
-    "Cherry tomatoes",
-    "Roasted vegetables",
-    "Fresh parsley",
-    "Lemon juice",
-    "Extra virgin olive oil",
-    "Sesame seeds"
+    "حمص بطحينة",
+    "حمص حب",
+    "كينوا",
+    "خيار",
+    "طماطم كرزية",
+    "خضروات مشوية",
+    "بقدونس طازج",
+    "عصير ليمون",
+    "زيت زيتون بكر ممتاز",
+    "بذور السمسم"
   ],
   "instructions": [
-    "Cook the quinoa according to the package instructions and let it cool slightly.",
-    "Roast the vegetables until tender and lightly caramelized.",
-    "Drain and rinse the chickpeas if using canned.",
-    "Wash and slice the cucumber and cherry tomatoes.",
-    "Spread a generous layer of hummus in the bottom of each serving bowl.",
-    "Arrange the quinoa, roasted vegetables, chickpeas, cucumber, and tomatoes around the hummus.",
-    "Drizzle with extra virgin olive oil and fresh lemon juice.",
-    "Sprinkle with sesame seeds and chopped parsley.",
-    "Season with salt and freshly ground black pepper to taste.",
-    "Serve immediately while the roasted vegetables are still warm."
+    "اطبخ الكينوا وفقًا للتعليمات المدونة على العبوة واتركها تبرد قليلاً.",
+    "اشوِ الخضروات حتى تصبح طرية وتتحمر قليلاً.",
+    "صفّ الحمص واغسله في حال استخدام الحمص المعلب.",
+    "اغسل الخيار والطماطم الكرزية وقطعها إلى شرائح.",
+    "افرد طبقة سخية من الحمص في قاع كل وعاء تقديم.",
+    "رتّب الكينوا، والخضروات المشوية، والحمص، والخيار، والطماطم حول الحمص.",
+    "رش زيت الزيتون البكر الممتاز وعصير الليمون الطازج.",
+    "رش بذور السمسم والبقدونس المفروم.",
+    "تبّل بالملح والفلفل الأسود المطحون طازجًا حسب الرغبة.",
+    "قدّم الوجبة فورًا بينما لا تزال الخضروات المشوية دافئة."
   ],
   "healthBenefits": [
-    "Excellent source of plant-based protein",
-    "High in dietary fiber",
-    "Supports heart health",
-    "Rich in vitamins and minerals",
-    "Promotes digestive health",
-    "Provides long-lasting energy"
+    "مصدر ممتاز للبروتين النباتي",
+    "غني بالألياف الغذائية",
+    "يدعم صحة القلب",
+    "غني بالفيتامينات والمعادن",
+    "يعزز صحة الجهاز الهضمي",
+    "يوفر طاقة تدوم طويلاً"
   ],
   "keywords": [
-    "Hummus Power Bowl",
-    "Mediterranean Power Bowl",
-    "Healthy Vegan Bowl",
-    "Plant Based Mediterranean Recipe",
-    "High Fiber Meal",
-    "Healthy Lunch Recipe"
+    "وعاء الطاقة بالحمص",
+    "وعاء الطاقة المتوسطي",
+    "وعاء صحي نباتي",
+    "وصفة متوسطية نباتية",
+    "وجبة غنية بالألياف",
+    "وصفة غداء صحية"
   ],
   "tags": [
-    "Vegan",
-    "Mediterranean",
-    "Healthy",
-    "Hummus",
-    "Quinoa",
-    "Plant Based"
+    "نباتي",
+    "متوسطي",
+    "صحي",
+    "حمص",
+    "كينوا",
+    "نباتي المصدر"
   ]
 };
 

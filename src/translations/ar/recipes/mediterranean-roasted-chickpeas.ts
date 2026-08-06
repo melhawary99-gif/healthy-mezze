@@ -1,61 +1,61 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "2e62e79d5623a43d77dc0cbb90e71b4616ff6f80bd4678e7c2c8b4902e0399d6";
 
 const translation: RecipeTranslation = {
-  "title": "Mediterranean Roasted Chickpeas",
-  "description": "Crunchy oven-roasted chickpeas seasoned with Mediterranean herbs, smoked paprika, garlic, and extra virgin olive oil. A healthy, protein-packed snack that's perfect any time of day.",
-  "longDescription": "Mediterranean Roasted Chickpeas are a simple yet incredibly satisfying snack made with crispy chickpeas coated in extra virgin olive oil and a blend of aromatic Mediterranean spices. High in plant-based protein, fiber, and essential minerals, these crunchy bites are perfect for healthy snacking, meal prep, or adding texture to salads and grain bowls.",
+  "title": "حمص محمص على طريقة البحر الأبيض المتوسط",
+  "description": "حمص مقرمش محمص في الفرن ومتبل بالأعشاب المتوسطية، البابريكا المدخنة، الثوم، وزيت الزيتون البكر الممتاز. وجبة خفيفة صحية وغنية بالبروتين ومثالية في أي وقت من اليوم.",
+  "longDescription": "تعد وجبة الحمص المحمص على طريقة البحر الأبيض المتوسط وجبة خفيفة بسيطة ولذيذة للغاية، مصنوعة من الحمص المقرمش المغلف بزيت الزيتون البكر الممتاز ومزيج من التوابل المتوسطية العطرية. تشكل هذه اللقيمات المقرمشة، الغنية بالبروتين النباتي والألياف والمعادن الأساسية، خيارًا مثاليًا لتناول وجبات خفيفة صحية، أو للتحضير المسبق للوجبات، أو لإضافة قرمشة ممتازة إلى السلطات وأطباق الحبوب.",
   "ingredients": [
-    "(15 oz each) chickpeas, drained and rinsed",
-    "extra virgin olive oil",
-    "smoked paprika",
-    "garlic powder",
-    "dried oregano",
-    "ground cumin",
-    "onion powder",
-    "sea salt",
-    "black pepper",
-    "cayenne pepper (optional)",
-    "chopped fresh parsley for garnish"
+    "(15 oz لكل علبة) حمص مصفى ومغسول",
+    "زيت زيتون بكر ممتاز",
+    "بابريكا مدخنة",
+    "بودرة الثوم",
+    "أوريغانو مجفف",
+    "كمون مطحون",
+    "بودرة البصل",
+    "ملح البحر",
+    "فلفل أسود",
+    "فلفل كايين (اختياري)",
+    "بقدونس طازج مفروم للتزيين"
   ],
   "instructions": [
-    "Preheat the oven to 400°F (200°C).",
-    "Drain, rinse, and thoroughly pat the chickpeas dry using paper towels.",
-    "Remove any loose skins for extra crispiness.",
-    "Place the chickpeas on a baking sheet and toss with olive oil.",
-    "Sprinkle with paprika, garlic powder, oregano, cumin, onion powder, salt, black pepper, and cayenne if using.",
-    "Mix well until evenly coated.",
-    "Spread the chickpeas into a single layer.",
-    "Roast for 30–35 minutes, shaking the pan halfway through, until golden and crispy.",
-    "Allow to cool for 5 minutes to become even crispier.",
-    "Garnish with fresh parsley before serving."
+    "سخن الفرن مسبقًا على درجة حرارة 400°F (200°C).",
+    "صفِّ الحمص واغسله، ثم جففه جيدًا باستخدام مناشف ورقية.",
+    "أزل أي قشور مفكوكة للحصول على قرمشة إضافية.",
+    "ضع الحمص في صينية خبز واخلطه مع زيت الزيتون.",
+    "رش البابريكا، وبودرة الثوم، والأوريغانو، والكمون، وبودرة البصل، والملح، والفلفل الأسود، وفلفل كايين في حال استخدامه.",
+    "اخلط الجرعة جيدًا حتى يتغطى الحمص بالكامل وبشكل متساوٍ.",
+    "وزع الحمص في طبقة واحدة.",
+    "حمّص الحمص لمدة 30–35 دقيقة، مع تحريك الصينية في منتصف المدة، حتى يصبح ذهبيًا ومقرمشًا.",
+    "اتركه يبرد لمدة 5 دقائق ليزداد قرمشة.",
+    "زين بالبقدونس الطازج قبل التقديم."
   ],
   "healthBenefits": [
-    "Excellent source of plant-based protein",
-    "High in dietary fiber for digestive health",
-    "Supports heart health",
-    "Provides iron, magnesium, and folate",
-    "Naturally gluten-free",
-    "Helps promote fullness",
-    "Mediterranean diet friendly"
+    "مصدر ممتاز للبروتين النباتي",
+    "غني بالألياف الغذائية لدعم صحة الجهاز الهضمي",
+    "يدعم صحة القلب",
+    "يوفر الحديد والمغنيسيوم والفولات",
+    "خالٍ من الغلوتين طبيعيًا",
+    "يساعد على تعزيز الشعور بالشبع",
+    "مناسب لنظام حمية البحر الأبيض المتوسط الغذائي"
   ],
   "keywords": [
-    "Roasted Chickpeas",
-    "Healthy Snack",
-    "Mediterranean Snack",
-    "Crunchy Chickpeas",
-    "High Protein Snack"
+    "حمص محمص",
+    "وجبة خفيفة صحية",
+    "وجبة خفيفة متوسطية",
+    "حمص مقرمش",
+    "وجبة خفيفة غنية بالبروتين"
   ],
   "tags": [
-    "snack",
-    "Mediterranean",
-    "chickpeas",
-    "healthy",
-    "vegan",
-    "vegetarian",
-    "high protein",
-    "meal prep"
+    "وجبة خفيفة",
+    "متوسطي",
+    "حمص",
+    "صحي",
+    "نباتي صارم",
+    "نباتي",
+    "غني بالبروتين",
+    "تحضير الوجبات"
   ]
 };
 

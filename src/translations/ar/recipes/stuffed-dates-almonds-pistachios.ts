@@ -1,57 +1,57 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "15db0df60bba24db0f50125149a67ee8bf164595a1f362ba8c7e4fb9d5b5546a";
 
 const translation: RecipeTranslation = {
-  "title": "Stuffed Dates with Almonds & Pistachios",
-  "description": "Naturally sweet Medjool dates stuffed with crunchy almonds, pistachios, and a touch of creamy goat cheese, then finished with a drizzle of honey and sesame seeds.",
-  "longDescription": "Stuffed Dates with Almonds & Pistachios are a simple yet elegant Mediterranean snack that's naturally sweet and packed with nutrients. Soft Medjool dates are filled with roasted almonds and pistachios, with optional creamy goat cheese for a delicious sweet-and-savory contrast. Perfect as a healthy dessert, afternoon snack, or addition to a mezze platter.",
+  "title": "تمر محشو باللوز والفستق الحلبي",
+  "description": "تمر المجهول الحلو طبيعياً والمحشو باللوز المقرمش، والفستق الحلبي، ولمسة من جبن الماعز الكريمي، والمزين بخيط من العسل وبذور السمسم.",
+  "longDescription": "التمر المحشو باللوز والفستق الحلبي هو وجبة خفيفة متوسطية بسيطة وأنيقة، حلوة طبيعياً وغنية بالعناصر الغذائية. يُحشى تمر المجهول الطري باللوز المحمص والفستق الحلبي، مع إمكانية إضافة جبن الماعز الكريمي لإيجاد تباين شهي بين الطعمين الحلو والمالح. مثالي كتحلية صحية، أو وجبة خفيفة بعد الظهر، أو إضافة إلى طبق المزة.",
   "ingredients": [
-    "dates",
-    "roasted almonds",
-    "chopped pistachios",
-    "soft goat cheese (optional)",
-    "honey",
-    "toasted sesame seeds",
-    "ground cinnamon (optional)",
-    "Fresh mint leaves for garnish"
+    "تمر",
+    "لوز محمص",
+    "فستق حلبي مفروم",
+    "جبن ماعز طري (اختياري)",
+    "عسل",
+    "بذور سمسم محمصة",
+    "قرفة مطحونة (اختياري)",
+    "أوراق نعناع طازجة للتزيين"
   ],
   "instructions": [
-    "Slice each date lengthwise without cutting all the way through.",
-    "Remove the pits carefully.",
-    "If using goat cheese, spread a small amount inside each date.",
-    "Insert one roasted almond into each date.",
-    "Sprinkle the chopped pistachios over the filling.",
-    "Arrange the stuffed dates on a serving platter.",
-    "Drizzle lightly with honey.",
-    "Sprinkle with toasted sesame seeds and cinnamon if desired.",
-    "Garnish with fresh mint leaves before serving."
+    "شق كل تمرة بطولها دون قطعها بالكامل.",
+    "أزل النوى بحذر.",
+    "في حال استخدام جبن الماعز، ادهن كمية صغيرة داخل كل تمرة.",
+    "ضع لوزة محمصة واحدة داخل كل تمرة.",
+    "رش الفستق الحلبي المفروم فوق الحشوة.",
+    "رتب التمر المحشو في طبق التقديم.",
+    "اسكب العسل بلطف فوق التمر.",
+    "رش بذور السمسم المحمصة والقرفة حسب الرغبة.",
+    "زيّن بأوراق النعناع الطازجة قبل التقديم."
   ],
   "healthBenefits": [
-    "Naturally sweet without refined sugar",
-    "Good source of dietary fiber",
-    "Rich in potassium",
-    "Contains healthy fats from nuts",
-    "Provides antioxidants",
-    "Perfect for quick natural energy",
-    "Mediterranean diet friendly"
+    "حلو طبيعياً بدون سكر مكرر",
+    "مصدر جيد للألياف الغذائية",
+    "غني بالبوتاسيوم",
+    "يحتوي على دهون صحية من المكسرات",
+    "يوفر مضادات الأكسدة",
+    "مثالي للحصول على طاقة طبيعية سريعة",
+    "مناسب للنظام الغذائي المتوسطي"
   ],
   "keywords": [
-    "Stuffed Dates",
-    "Healthy Snack",
-    "Mediterranean Dessert",
-    "Energy Snack",
-    "Medjool Dates"
+    "تمر محشو",
+    "وجبة خفيفة صحية",
+    "حلوى متوسطية",
+    "وجبة طاقة خفيفة",
+    "تمر المجهول"
   ],
   "tags": [
-    "snack",
-    "Mediterranean",
-    "dates",
-    "almonds",
-    "pistachios",
-    "healthy",
-    "vegetarian",
-    "no-bake"
+    "وجبة خفيفة",
+    "متوسطي",
+    "تمر",
+    "لوز",
+    "فستق حلبي",
+    "صحي",
+    "نباتي",
+    "بدون طهي"
   ]
 };
 

@@ -1,58 +1,58 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "64fed22cf8706c1036e9e22d967c1c509ae0e911555d6e717ff3fc20df4391a5";
 
 const translation: RecipeTranslation = {
-  "title": "Mediterranean Beetroot Salad",
-  "description": "A vibrant beetroot salad with feta cheese, walnuts, fresh herbs, and a light lemon vinaigrette.",
-  "longDescription": "This Mediterranean Beetroot Salad combines naturally sweet roasted beets with creamy feta cheese, crunchy walnuts, fresh parsley, and mint. Finished with a simple olive oil and lemon dressing, it's packed with antioxidants, vitamins, and healthy fats, making it a nutritious appetizer, side dish, or light lunch.",
+  "title": "سلطة الشمندر المتوسطية",
+  "description": "سلطة شمندر زاهية مع جبنة الفيتا، وعين الجمل، والأعشاب الطازجة، وتتبيلة الليمون الخفيفة.",
+  "longDescription": "تجمع سلطة الشمندر المتوسطية هذه بين الشمندر المشوي الحلو طبيعياً مع جبنة الفيتا الكريمية، وعين الجمل المقرمش، والبقدونس الطازج، والنعناع. متبلة بصلصة بسيطة من زيت الزيتون والليمون، وهي مليئة بمضادات الأكسدة والفيتامينات والدهون الصحية، مما يجعلها مقبلاً مغذياً، أو طبقاً جانبياً، أو وجبة غداء خفيفة.",
   "ingredients": [
-    "Medium beetroots",
-    "½ cup crumbled feta cheese",
-    "⅓ cup chopped walnuts",
-    "¼ cup chopped fresh parsley",
-    "chopped fresh mint",
-    "extra virgin olive oil",
-    "fresh lemon juice",
-    "honey",
-    "½ tsp salt",
-    "¼ tsp black pepper"
+    "حبات شمندر متوسطة",
+    "½ كوب جبنة فيتا مفتتة",
+    "⅓ كوب عين جمل مفروم",
+    "¼ كوب بقدونس طازج مفروم",
+    "نعناع طازج مفروم",
+    "زيت زيتون بكر ممتاز",
+    "عصير ليمون طازج",
+    "عسل",
+    "½ ملعقة صغيرة ملح",
+    "¼ ملعقة صغيرة فلفل أسود"
   ],
   "instructions": [
-    "Preheat the oven to 200°C (400°F).",
-    "Wrap each beetroot in aluminum foil.",
-    "Roast for 40–45 minutes until fork tender.",
-    "Allow the beets to cool, then peel and cut into cubes.",
-    "Arrange the beetroot in a serving bowl.",
-    "Add the feta cheese, walnuts, parsley, and mint.",
-    "Whisk together the olive oil, lemon juice, honey, salt, and pepper.",
-    "Pour the dressing over the salad.",
-    "Toss gently to combine.",
-    "Serve chilled or at room temperature."
+    "سخن الفرن مسبقاً إلى 200 درجة مئوية (400 درجة فهرنهايت).",
+    "غلف كل حبة شمندر ورقائق الألومنيوم.",
+    "اشوِ لمدة 40–45 دقيقة حتى تصبح طرية عند غرس شوكة بها.",
+    "اترك الشمندر يبرد، ثم قشره وقطعه إلى مكعبات.",
+    "رتب الشمندر في وعاء التقديم.",
+    "أضف جبنة الفيتا، وعين الجمل، والبقدونس، والنعناع.",
+    "اخفق زيت الزيتون، وعصير الليمون، والعسل، والملح، والفلفل معاً.",
+    "اسكب التتبيلة فوق السلطة.",
+    "قلّب بلطف للمزج.",
+    "قدمها باردة أو في درجة حرارة الغرفة."
   ],
   "healthBenefits": [
-    "Rich in antioxidants",
-    "Supports heart health",
-    "High in dietary fiber",
-    "Excellent source of folate",
-    "Contains healthy omega-3 fats from walnuts",
-    "Naturally gluten-free"
+    "غنية بمضادات الأكسدة",
+    "تدعم صحة القلب",
+    "غنية بالألياف الغذائية",
+    "مصدر ممتاز للفولات",
+    "تحتوي على دهون أوميغا-3 الصحية من عين الجمل",
+    "خالية من الغلوتين طبيعياً"
   ],
   "keywords": [
-    "Beetroot Salad",
-    "Mediterranean Beet Salad",
-    "Healthy Beetroot Recipe",
-    "Roasted Beet Salad",
-    "Feta Beet Salad"
+    "سلطة الشمندر",
+    "سلطة الشمندر المتوسطية",
+    "وصفة الشمندر الصحية",
+    "سلطة الشمندر المشوي",
+    "سلطة الشمندر بالفيتا"
   ],
   "tags": [
-    "salad",
-    "Mediterranean",
-    "healthy",
-    "vegetarian",
-    "beetroot",
-    "gluten-free",
-    "meal prep"
+    "سلطة",
+    "متوسطي",
+    "صحي",
+    "نباتي",
+    "شمندر",
+    "خالٍ من الغلوتين",
+    "تحضير الوجبات"
   ]
 };
 

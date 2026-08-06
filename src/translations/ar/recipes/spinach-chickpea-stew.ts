@@ -1,68 +1,68 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "7747c3d892179ee92e1af43940123b28f2f4a3cd2880c60c7ac7515d91a286ae";
 
 const translation: RecipeTranslation = {
-  "title": "Spinach & Chickpea Stew",
-  "description": "A hearty Mediterranean stew made with chickpeas, spinach, tomatoes, onions, garlic, and warm spices, simmered until rich and flavorful.",
-  "longDescription": "Spinach & Chickpea Stew is a nourishing Mediterranean-inspired meal that combines protein-rich chickpeas with fresh spinach, tomatoes, onions, garlic, and aromatic spices. Slowly simmered to develop deep flavor, this naturally vegan stew is packed with fiber, vitamins, minerals, and antioxidants. Serve it with whole-grain bread, quinoa, or brown rice for a wholesome meal.",
+  "title": "يخنة السبانخ والحمص",
+  "description": "يخنة متوسطية مشبعة مصنوعة من الحمص، السبانخ، الطماطم، البصل، الثوم، والتوابل الدافئة، مطهوة على نار هادئة حتى تصبح غنية وشهية.",
+  "longDescription": "يخنة السبانخ والحمص هي وجبة مغذية مستوحاة من البحر الأبيض المتوسط تجمع بين الحمص الغني بالبروتين والسبانخ الطازجة والطماطم والبصل والثوم والتوابل العطرية. تُطهى هذه اليخنة النباتية بطبيعتها على نار هادئة لتطوير طعم عميق، وهي مليئة بالألياف والفيتامينات والمعادن ومضادات الأكسدة. قدمها مع خبز الحبوب الكاملة أو الكينوا أو الأرز البني لوجبة متكاملة.",
   "ingredients": [
-    "extra virgin olive oil",
-    "Medium onion, diced",
-    "cloves, minced",
-    "(400 g each) chickpeas, drained and rinsed",
-    "fresh spinach",
-    "(400 g) diced tomatoes",
-    "tomato paste",
-    "low-sodium vegetable broth",
-    "ground cumin",
-    "smoked paprika",
-    "ground coriander",
-    "cayenne pepper (optional)",
-    "dried oregano",
-    "sea salt",
-    "black pepper",
-    "fresh lemon juice",
-    "chopped fresh parsley"
+    "زيت زيتون بكر ممتاز",
+    "بصلة متوسطة، مقطعة مكعبات",
+    "فصوص ثوم، مفرومة",
+    "(400 غرام لكل منها) حمص، مصفى ومغسول",
+    "سبانخ طازجة",
+    "(400 غرام) طماطم مقطعة مكعبات",
+    "معجون طماطم",
+    "مرق خضار قليل الصوديوم",
+    "كمون مطحون",
+    "بابريكا مدخنة",
+    "كزبرة مطحونة",
+    "فلفل حار (اختياري)",
+    "أوريغانو مجفف",
+    "ملح بحر",
+    "فلفل أسود",
+    "عصير ليمون طازج",
+    "بقدونس طازج مفروم"
   ],
   "instructions": [
-    "Heat the olive oil in a large pot over medium heat.",
-    "Add the onion and cook for about 5 minutes until softened.",
-    "Stir in the garlic and cook for 30 seconds until fragrant.",
-    "Add the cumin, paprika, coriander, oregano, salt, and pepper, stirring for 1 minute.",
-    "Mix in the tomato paste and diced tomatoes.",
-    "Pour in the vegetable broth and add the chickpeas.",
-    "Bring to a gentle boil, then reduce to a simmer for 20 minutes.",
-    "Stir in the fresh spinach and cook until wilted, about 3–4 minutes.",
-    "Add the lemon juice and adjust seasoning if needed.",
-    "Sprinkle with chopped parsley before serving.",
-    "Serve warm with whole-grain bread, brown rice, or quinoa."
+    "سخن زيت الزيتون في قدر كبير على نار متوسطة.",
+    "أضف البصل واطهه لمدة 5 دقائق تقريبا حتى يطرى.",
+    "أضف الثوم وقلبه لمدة 30 ثانية حتى تفوح رائحته.",
+    "أضف الكمون والبابريكا والكزبرة والأوريغانو والملح والفلفل، وقلب لمدة 1 دقيقة.",
+    "أضف معجون الطماطم والطماطم المقطعة واخلط المكونات.",
+    "اسكب مرق الخضار وأضف الحمص.",
+    "اترك المزيج يغلي بهدوء، ثم خفف النار واتركه يطهى على نار هادئة لمدة 20 دقيقة.",
+    "أضف السبانخ الطازجة وقلبها واطهها حتى تذبل، حوالي 3–4 دقائق.",
+    "أضف عصير الليمون وعدل التوابل إذا لزم الأمر.",
+    "رش البقدونس المفروم قبل التقديم.",
+    "قدمها دافئة مع خبز الحبوب الكاملة، الأرز البني، أو الكينوا."
   ],
   "healthBenefits": [
-    "Excellent source of plant-based protein",
-    "Very high in dietary fiber",
-    "Rich in iron and folate",
-    "Packed with antioxidants",
-    "Supports heart health",
-    "Naturally vegan",
-    "Mediterranean diet friendly"
+    "مصدر ممتاز للبروتين النباتي",
+    "غني جدا بالألياف الغذائية",
+    "غني بالحديد والفولات",
+    "مليء بمضادات الأكسدة",
+    "يدعم صحة القلب",
+    "نباتي تماما بطبيعته",
+    "مناسب لنظام حمية البحر الأبيض المتوسط"
   ],
   "keywords": [
-    "Spinach Chickpea Stew",
-    "Mediterranean Chickpea Stew",
-    "Healthy Vegan Stew",
-    "Lebanese Chickpeas",
-    "Healthy Spinach Recipe"
+    "يخنة السبانخ والحمص",
+    "يخنة الحمص المتوسطية",
+    "يخنة نباتية صحية",
+    "حمص على الطريقة اللبنانية",
+    "وصفة السبانخ الصحية"
   ],
   "tags": [
-    "vegetarian",
-    "vegan",
-    "Mediterranean",
-    "Lebanese",
-    "chickpeas",
-    "spinach",
-    "healthy",
-    "high fiber"
+    "نباتي",
+    "نباتي صرف",
+    "متوسطي",
+    "لبناني",
+    "حمص",
+    "سبانخ",
+    "صحي",
+    "غني بالألياف"
   ]
 };
 

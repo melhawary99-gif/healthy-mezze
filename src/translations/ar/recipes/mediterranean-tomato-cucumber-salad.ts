@@ -1,57 +1,57 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "cc4fc7c7ff272c3a38d7ef3ca1fae74def6cadf814faee7d4f155c212b00ef52";
 
 const translation: RecipeTranslation = {
-  "title": "Mediterranean Tomato & Cucumber Salad",
-  "description": "A fresh and colorful Mediterranean salad made with ripe tomatoes, crisp cucumbers, herbs, and a simple lemon olive oil dressing.",
-  "longDescription": "This classic Mediterranean Tomato & Cucumber Salad is one of the simplest and healthiest dishes found throughout Lebanon and Egypt. Fresh vegetables are tossed with parsley, mint, extra virgin olive oil, and lemon juice for a refreshing salad that's naturally vegan, hydrating, and rich in vitamins. It's the perfect side dish for grilled meats, seafood, wraps, or any mezze platter.",
+  "title": "سلطة الطماطم والخيار المتوسطية",
+  "description": "سلطة متوسطية طازجة وملونة مصنوعة من الطماطم الناضجة، والخيار المقرمش، والأعشاب، وتتبيلة بسيطة من الليمون وزيت الزيتون.",
+  "longDescription": "تعد سلطة الطماطم والخيار المتوسطية الكلاسيكية هذه واحدة من أبسط وأصح الأطباق المنتشرة في لبنان ومصر. تُخلط الخضار الطازجة مع البقدونس، والنعناع، وزيت الزيتون البكر الممتاز، وعصير الليمون للحصول على سلطة منعشة ونباتية بالكامل، ومقوية، وغنية بالفيتامينات. إنها الطبق الجانبي المثالي للحوم المشوية، والمأكولات البحرية، والشطائر، أو أي طبق مزة.",
   "ingredients": [
-    "tomatoes, diced",
-    "cucumbers, diced",
-    "Red onion, finely sliced",
-    "chopped fresh parsley",
-    "chopped fresh mint",
-    "extra virgin olive oil",
-    "fresh lemon juice",
-    "sumac (optional)",
-    "sea salt",
-    "freshly ground black pepper"
+    "طماطم، مقطعة إلى مكعبات",
+    "خيار، مقطع إلى مكعبات",
+    "بصل أحمر، مقطع إلى شرائح رفيعة",
+    "بقدونس طازج مفروم",
+    "نعناع طازج مفروم",
+    "زيت زيتون بكر ممتاز",
+    "عصير ليمون طازج",
+    "سماق (اختياري)",
+    "ملح البحر",
+    "فلفل أسود مطحون طازجًا"
   ],
   "instructions": [
-    "Wash and dice the tomatoes and cucumbers.",
-    "Thinly slice the red onion.",
-    "Chop the parsley and mint.",
-    "Place all vegetables and herbs into a large mixing bowl.",
-    "Whisk together the olive oil, lemon juice, salt, pepper, and sumac.",
-    "Pour the dressing over the vegetables.",
-    "Toss gently until everything is evenly coated.",
-    "Allow the salad to rest for 10 minutes before serving.",
-    "Serve chilled or at room temperature."
+    "اغسل الطماطم والخيار وقطعهما إلى مكعبات.",
+    "قطع البصل الأحمر إلى شرائح رفيعة.",
+    "افرم البقدونس والنعناع.",
+    "ضع جميع الخضروات والأعشاب في وعاء خلط كبير.",
+    "اخفق زيت الزيتون، وعصير الليمون، والملح، والفلفل، والسماق معًا.",
+    "صب التتبيلة فوق الخضروات.",
+    "قلب المكونات برفق حتى تتغطى جميعها بشكل متساوٍ.",
+    "اترك السلطة ترتاح لمدة 10 دقائق قبل التقديم.",
+    "قدمها باردة أو في درجة حرارة الغرفة."
   ],
   "healthBenefits": [
-    "Rich in vitamin C",
-    "Excellent source of hydration",
-    "Supports heart health",
-    "Low in calories",
-    "High in antioxidants",
-    "Naturally vegan and gluten-free"
+    "غنية بفيتامين ج",
+    "مصدر ممتاز للترطيب",
+    "تدعم صحة القلب",
+    "قليلة السعرات الحرارية",
+    "غنية بمضادات الأكسدة",
+    "نباتية وخالية من الغلوتين طبيعيًا"
   ],
   "keywords": [
-    "Tomato Cucumber Salad",
-    "Mediterranean Salad",
-    "Lebanese Salad",
-    "Healthy Tomato Salad",
-    "Fresh Cucumber Salad"
+    "سلطة طماطم وخيار",
+    "سلطة متوسطية",
+    "سلطة لبنانية",
+    "سلطة طماطم صحية",
+    "سلطة خيار طازجة"
   ],
   "tags": [
-    "salad",
-    "Mediterranean",
-    "healthy",
-    "vegan",
-    "gluten-free",
-    "summer",
-    "quick recipe"
+    "سلطة",
+    "متوسطي",
+    "صحي",
+    "نباتي",
+    "خالي من الغلوتين",
+    "صيفي",
+    "وصفة سريعة"
   ]
 };
 

@@ -1,56 +1,56 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "96e70ecde77bd7a43c2114b2616e8127ecaf7416f2c3c1834a9bdbd90b0b011f";
 
 const translation: RecipeTranslation = {
-  "title": "Traditional Jallab (Healthy Version)",
-  "description": "A refreshing Lebanese drink made with date molasses, grape molasses, rose water, chilled water, and topped with pine nuts and raisins.",
-  "longDescription": "Jallab is one of Lebanon's most famous traditional drinks and is enjoyed throughout the Middle East, especially during Ramadan and the hot summer months. Made from date molasses, grape molasses, fragrant rose water, and served over ice with pine nuts and raisins, Jallab offers a naturally rich sweetness and unique floral aroma without artificial ingredients. This healthier version contains no refined sugar while preserving its authentic flavor.",
+  "title": "جلاب تقليدي (نسخة صحية)",
+  "description": "مشروب لبناني منعش مصنوع من دبس التمر ودبس العنب وماء الورد والماء البارد، ومزين بالصنوبر والزبيب.",
+  "longDescription": "يُعد الجلاب أحد أشهر المشروبات التقليدية في لبنان ويُستمتع به في جميع أنحاء الشرق الأوسط، لا سيما خلال شهر رمضان وأشهر الصيف الحارة. يُحضر الجلاب من دبس التمر ودبس العنب وماء الورد العطر، ويُقدم مع الثلج ومزينًا بالصنوبر والزبيب، مما يمنحه حلاوة غنية طبيعيًا ونكهة زهرية فريدة دون أي مكونات اصطناعية. لا تحتوي هذه النسخة الصحية على أي سكر مكرر مع الحفاظ على نكهته الأصيلة.",
   "ingredients": [
-    "cold water",
-    "date molasses",
-    "grape molasses",
-    "rose water",
-    "ice cubes",
-    "pine nuts",
-    "golden raisins",
-    "Fresh mint leaves for garnish (optional)"
+    "ماء بارد",
+    "دبس التمر",
+    "دبس العنب",
+    "ماء الورد",
+    "مكعبات ثلج",
+    "صنوبر",
+    "زبيب ذهبي",
+    "أوراق نعناع طازجة للتزيين (اختياري)"
   ],
   "instructions": [
-    "Combine the cold water, date molasses, grape molasses, and rose water in a large pitcher.",
-    "Stir until the molasses is completely dissolved.",
-    "Taste and adjust with additional date molasses if a sweeter drink is desired.",
-    "Fill serving glasses with ice cubes.",
-    "Pour the Jallab over the ice.",
-    "Top each glass with pine nuts and golden raisins.",
-    "Garnish with fresh mint leaves if desired.",
-    "Serve immediately while chilled."
+    "اخلط الماء البارد ودبس التمر ودبس العنب وماء الورد في إبريق كبير.",
+    "حرك المزيج حتى يذوب الدبس تمامًا.",
+    "تذوق المشروب وأضف المزيد من دبس التمر إذا كنت ترغب في طعم أكثر حلاوة.",
+    "املأ كؤوس التقديم بمكعبات الثلج.",
+    "اسكب الجلاب فوق الثلج.",
+    "زين وجه كل كأس بالصنوبر والزبيب الذهبي.",
+    "زين بأوراق النعناع الطازجة حسب الرغبة.",
+    "قدمه فورًا وهو بارد."
   ],
   "healthBenefits": [
-    "Naturally sweetened with date and grape molasses",
-    "Contains antioxidants from grapes and dates",
-    "Pine nuts provide healthy fats and vitamin E",
-    "Free from refined sugar",
-    "Naturally caffeine-free",
-    "Hydrating and refreshing",
-    "A traditional Lebanese beverage enjoyed year-round"
+    "محلى طبيعيًا بدبس التمر ودبس العنب",
+    "يحتوي على مضادات الأكسدة من العنب والتمر",
+    "يوفر الصنوبر دهونًا صحية وفيتامين E",
+    "خالٍ من السكر المكرر",
+    "خالٍ طبيعيًا من الكافيين",
+    "مرطب ومنعش",
+    "مشروب لبناني تقليدي يُستمتع به طوال العام"
   ],
   "keywords": [
-    "Jallab",
-    "Traditional Lebanese Drink",
-    "Date Molasses Drink",
-    "Healthy Middle Eastern Beverage",
-    "Ramadan Drink"
+    "جلاب",
+    "مشروب لبناني تقليدي",
+    "مشروب دبس التمر",
+    "مشروب شرقي صحي",
+    "مشروب رمضاني"
   ],
   "tags": [
-    "drink",
-    "Lebanese",
-    "jallab",
-    "date molasses",
-    "healthy",
-    "Middle Eastern",
-    "Ramadan",
-    "vegetarian"
+    "مشروب",
+    "لبناني",
+    "جلاب",
+    "دبس التمر",
+    "صحي",
+    "شرق أوسطي",
+    "رمضان",
+    "نباتي"
   ]
 };
 

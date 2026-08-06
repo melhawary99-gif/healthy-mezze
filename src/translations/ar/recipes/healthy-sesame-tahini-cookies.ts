@@ -1,62 +1,62 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "20df8dd7f433d19f6fde99882da33ef0915a582bde86617926539a44451d7da0";
 
 const translation: RecipeTranslation = {
-  "title": "Healthy Sesame Tahini Cookies",
-  "description": "Soft whole wheat cookies made with creamy tahini, honey, olive oil, and toasted sesame seeds for a wholesome Mediterranean-inspired treat.",
-  "longDescription": "Tahini cookies are enjoyed throughout Egypt and the Levant for their rich sesame flavor and delicate texture. This healthier version replaces butter with extra virgin olive oil, uses whole wheat flour for added fiber, and relies on honey for gentle sweetness. Toasted sesame seeds add crunch while tahini provides a naturally nutty taste that's perfect with tea or coffee.",
+  "title": "بسكويت الطحينة والسمسم الصحي",
+  "description": "بسكويت طري من دقيق القمح الكامل مصنوع من الطحينة الكريمية والعسل وزيت الزيتون وبذور السمسم المحمصة للحصول على حلوى صحية مستوحاة من البحر الأبيض المتوسط.",
+  "longDescription": "يُستمتع ببسكويت الطحينة في جميع أنحاء مصر وبلاد الشام لنكهة السمسم الغنية وقوامه الهش. تستبدل هذه النسخة الأكثر صحة الزبدة بزيت الزيتون البكر الممتاز، وتستخدم دقيق القمح الكامل لإضافة الألياف، وتعتمد على العسل للحصول على حلاوة خفيفة. تضيف بذور السمسم المحمصة قرمشة بينما تمنح الطحينة طعماً غنياً بالمكسرات بطبيعته ومثاليًا مع الشاي أو القهوة.",
   "ingredients": [
-    "1½ cups whole wheat flour",
-    "baking powder",
-    "sea salt",
-    "tahini",
-    "extra virgin olive oil",
-    "honey",
-    "Large egg",
-    "vanilla extract",
-    "toasted sesame seeds",
-    "chopped pistachios (optional)",
-    "ground cinnamon"
+    "1½ كوب دقيق القمح الكامل",
+    "مسحوق الخبز (بيكنج بودر)",
+    "ملح البحر",
+    "طحينة",
+    "زيت زيتون بكر ممتاز",
+    "عسل",
+    "بيضة كبيرة",
+    "خلاصة الفانيليا",
+    "بذور سمسم محمصة",
+    "فستق حلبي مفروم (اختياري)",
+    "قرفة مطحونة"
   ],
   "instructions": [
-    "Preheat the oven to 350°F (175°C).",
-    "Line a baking tray with parchment paper.",
-    "Whisk together the whole wheat flour, baking powder, cinnamon, and salt.",
-    "In another bowl, mix the tahini, olive oil, honey, egg, and vanilla until smooth.",
-    "Gradually stir the dry ingredients into the wet ingredients until a soft dough forms.",
-    "Fold in half of the toasted sesame seeds.",
-    "Roll the dough into small balls and place them on the prepared tray.",
-    "Flatten each cookie slightly with your hand or the bottom of a glass.",
-    "Sprinkle the remaining sesame seeds and chopped pistachios over the tops.",
-    "Bake for 12–15 minutes until lightly golden around the edges.",
-    "Allow the cookies to cool on the baking tray for 5 minutes before transferring to a wire rack."
+    "سخن الفرن مسبقًا إلى 350 درجة فهرنهايت (175 درجة مئوية).",
+    "بطّن صينية خبز بورق الزبدة.",
+    "اخفق دقيق القمح الكامل ومسحوق الخبز والقرفة والملح معًا.",
+    "في وعاء آخر، اخلط الطحينة وزيت الزيتون والعسل والبيضة والفانيليا حتى يصبح المزيج ناعمًا.",
+    "أضف المكونات الجافة تدريجيًا إلى المكونات السائلة مع التحريك حتى تتكون عجينة طرية.",
+    "أضف نصف بذور السمسم المحمصة واخلطها برفق.",
+    "شكّل العجينة إلى كرات صغيرة وذُعها على الصينية المجهزة.",
+    "اضغط على كل قطعة بسكويت قليلاً بيدك أو بقاع كوب.",
+    "رش بذور السمسم المتبقية والفستق الحلبي المفروم على الوجه.",
+    "اخبز لمدة 12–15 دقيقة حتى تصبح الحواف ذهبية اللون قليلاً.",
+    "اترك البسكويت يبرد على صينية الخبز لمدة 5 دقائق قبل نقله إلى شبك التبريد."
   ],
   "healthBenefits": [
-    "Tahini provides calcium, iron, and healthy unsaturated fats",
-    "Whole wheat flour increases fiber content",
-    "Honey offers natural sweetness with less refined sugar",
-    "Olive oil replaces butter, reducing saturated fat",
-    "Sesame seeds are rich in minerals and antioxidants",
-    "A satisfying snack that pairs well with tea or coffee",
-    "Mediterranean-inspired ingredients"
+    "توفر الطحينة الكالسيوم والحديد والدهون الصحية غير المشبعة",
+    "يزيد دقيق القمح الكامل من محتوى الألياف",
+    "يقدم العسل حلاوة طبيعية بسكر أقل تكرارًا",
+    "يحل زيت الزيتون محل الزبدة، مما يقلل من الدهون المشبعة",
+    "بذور السمسم غنية بالمعادن ومضادات الأكسدة",
+    "وجبة خفيفة مشبعة تتناسب جيدًا مع الشاي أو القهوة",
+    "مكونات مستوحاة من المطبخ المتوسطي"
   ],
   "keywords": [
-    "Healthy Tahini Cookies",
-    "Sesame Cookies",
-    "Healthy Mediterranean Cookies",
-    "Lebanese Dessert",
-    "Egyptian Tahini Cookies"
+    "بسكويت الطحينة الصحي",
+    "بسكويت السمسم",
+    "بسكويت البحر الأبيض المتوسط الصحي",
+    "حلوى لبنانية",
+    "بسكويت الطحينة المصري"
   ],
   "tags": [
-    "dessert",
-    "cookies",
-    "tahini",
-    "sesame",
-    "healthy",
-    "Mediterranean",
-    "vegetarian",
-    "whole wheat"
+    "حلوى",
+    "بسكويت",
+    "طحينة",
+    "سمسم",
+    "صحي",
+    "بحر أوسطي",
+    "نباتي",
+    "قمح كامل"
   ]
 };
 

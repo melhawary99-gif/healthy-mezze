@@ -1,58 +1,58 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "49c78d04f4fde77c21a1b30ffbfd6d5e5b335d5641e0cb033fdcea3228db4863";
 
 const translation: RecipeTranslation = {
-  "title": "Healthy Dark Chocolate Stuffed Dates",
-  "description": "Naturally sweet Medjool dates filled with creamy almond butter, coated in dark chocolate, and finished with crunchy pistachios, walnuts, coconut, and sesame seeds.",
-  "longDescription": "Stuffed dates are a classic treat enjoyed throughout Egypt and the Mediterranean. This healthier version combines naturally sweet Medjool dates with creamy almond butter and antioxidant-rich dark chocolate. Finished with chopped nuts, coconut, and sesame seeds, these no-bake bites make an elegant dessert or energy-boosting snack without relying on refined sugar.",
+  "title": "تمر محشو بالشوكولاتة الداكنة الصحية",
+  "description": "تمر مجدول حلو طبيعياً محشو بزبده اللوز الكريمية، ومغطى بالشوكولاتة الداكنة، ومزين بالفستق المقرمش، وعين الجمل (الجوز)، وجوز الهند، وبذور السمسم.",
+  "longDescription": "يُعد التمر المحشو حلوى كلاسيكية تحظى بشعبية كبيرة في جميع أنحاء مصر وحوض البحر الأبيض المتوسط. تجمع هذه النسخة الأكثر صحة بين تمر المجدول الحلو طبيعياً وزبدة اللوز الكريمية والشوكولاتة الداكنة الغنية بمضادات الأكسدة. مع لمسة أخيرة من المكسرات المفرومة وجوز الهند وبذور السمسم، تُشكل هذه اللقيمات التي لا تتطلب طهياً حلوى أنيقة أو وجبة خفيفة مُغذية تمدك بالطاقة دون الاعتماد على السكر المكرر.",
   "ingredients": [
-    "dates",
-    "natural almond butter",
-    "(85 g) 70% dark chocolate",
-    "coconut oil",
-    "chopped pistachios",
-    "finely chopped walnuts",
-    "unsweetened shredded coconut",
-    "toasted sesame seeds",
-    "flaky sea salt (optional)"
+    "تمر",
+    "زبدة لوز طبيعية",
+    "(85 غرام) 70% شوكولاتة داكنة",
+    "زيت جوز الهند",
+    "فستق حلبي مفروم",
+    "عين جمل (جوز) مفروم ناعماً",
+    "جوز هند مبشور غير محلى",
+    "بذور سمسم محمصة",
+    "ملح بحري رقائقي (اختياري)"
   ],
   "instructions": [
-    "Slice each date lengthwise and remove the pit.",
-    "Fill each date with about 1 teaspoon of almond butter.",
-    "Close the dates gently around the filling.",
-    "Melt the dark chocolate with the coconut oil until smooth.",
-    "Dip each stuffed date halfway into the melted chocolate.",
-    "Arrange on a parchment-lined tray.",
-    "Immediately sprinkle with pistachios, walnuts, coconut, sesame seeds, and flaky sea salt if using.",
-    "Refrigerate for 15–20 minutes until the chocolate is firm.",
-    "Serve chilled or at room temperature."
+    "شق كل تمرة بطولها وأزل النواة.",
+    "احشُ كل تمرة بحوالي 1 ملعقة صغيرة من زبدة اللوز.",
+    "أغلق التمر برفق حول الحشوة.",
+    "أذب الشوكولاتة الداكنة مع زيت جوز الهند حتى تصبح ناعمة.",
+    "اغمس منتصف كل تمرة محشوة في الشوكولاتة المذابة.",
+    "رتب التمر على صينية مغطاة بورق الزبدة.",
+    "رش على الفور الفستق، وعين الجمل، وجوز الهند، وبذور السمسم، والملح البحري الرقائقي إذا كنت تستخدمه.",
+    "ضعه في الثلاجة لمدة 15–20 دقيقة حتى تتصلب الشوكولاتة.",
+    "قدمه بارداً أو في درجة حرارة الغرفة."
   ],
   "healthBenefits": [
-    "Naturally sweetened with Medjool dates",
-    "Dark chocolate provides antioxidants",
-    "Almond butter contributes healthy monounsaturated fats",
-    "Pistachios and walnuts provide fiber and heart-healthy fats",
-    "Sesame seeds supply calcium and minerals",
-    "No refined sugar added",
-    "A wholesome, energy-rich dessert"
+    "محلى طبيعياً بتمر المجدول",
+    "توفر الشوكولاتة الداكنة مضادات الأكسدة",
+    "تساهم زبدة اللوز في توفير دهون أحادية غير مشبعة صحية",
+    "يوفر الفستق وعين الجمل الألياف والدهون المفيدة لصحة القلب",
+    "تزود بذور السمسم الجسم بالكالسيوم والمعادن",
+    "بدون إضافة سكر مكرر",
+    "حلوى صحية ومغذية غنية بالطاقة"
   ],
   "keywords": [
-    "Healthy Stuffed Dates",
-    "Dark Chocolate Dates",
-    "Healthy Mediterranean Dessert",
-    "No-Bake Dessert",
-    "Healthy Egyptian Dessert"
+    "تمر محشو صحي",
+    "تمر بالشوكولاتة الداكنة",
+    "حلوى متوسطية صحية",
+    "حلوى بدون طهي",
+    "حلوى مصرية صحية"
   ],
   "tags": [
-    "dessert",
-    "dates",
-    "dark chocolate",
-    "healthy",
-    "no-bake",
-    "Mediterranean",
-    "vegetarian",
-    "gluten-free"
+    "حلوى",
+    "تمر",
+    "شوكولاتة داكنة",
+    "صحي",
+    "بدون طهي",
+    "متوسطي",
+    "نباتي",
+    "خالٍ من الغلوتين"
   ]
 };
 

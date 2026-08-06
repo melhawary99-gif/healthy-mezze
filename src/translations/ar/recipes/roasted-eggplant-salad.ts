@@ -1,59 +1,59 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "ff88b0d05f778e36102367731202fcfe48ed393dddb3af2c1807cfa63b16165f";
 
 const translation: RecipeTranslation = {
-  "title": "Roasted Eggplant Salad",
-  "description": "A smoky Mediterranean eggplant salad with tomatoes, parsley, mint, garlic, and a fresh lemon dressing.",
-  "longDescription": "This Roasted Eggplant Salad features tender roasted eggplant combined with juicy tomatoes, fresh parsley, mint, garlic, and extra virgin olive oil. Naturally vegan and packed with antioxidants, it's a flavorful side dish that pairs beautifully with grilled meats, pita bread, or as part of a mezze platter.",
+  "title": "سلطة الباذنجان المشوي",
+  "description": "سلطة باذنجان متوسطية بنكهة مدخنة مع الطماطم والبقدونس والنعناع والثوم وتتبيلة الليمون الطازجة.",
+  "longDescription": "تتميز سلطة الباذنجان المشوي هذه بباذنجان مشوي طري ممزوج بطماطم طازجة، وبقدونس طازج، ونعناع، وثوم، وزيت زيتون بكر ممتاز. وهي سلطة نباتية طبيعيًا وغنية بمضادات الأكسدة، وتعد طبقًا جانبيًا غنيًا بالنكهات يتناسب تمامًا مع اللحوم المشوية، أو خبز البيتا، أو كجزء من طبق المزة.",
   "ingredients": [
-    "Medium eggplants",
-    "tomatoes, diced",
-    "Red onion, finely chopped",
-    "chopped fresh parsley",
-    "chopped fresh mint",
-    "garlic, minced",
-    "extra virgin olive oil",
-    "fresh lemon juice",
-    "ground cumin",
-    "salt",
-    "black pepper"
+    "باذنجان متوسط الحجم",
+    "طماطم مقطعة إلى مكعبات",
+    "بصل أحمر مفروم ناعمًا",
+    "بقدونس طازج مفروم",
+    "نعناع طازج مفروم",
+    "ثوم مهروس",
+    "زيت زيتون بكر ممتاز",
+    "عصير ليمون طازج",
+    "كمون مطحون",
+    "ملح",
+    "فلفل أسود"
   ],
   "instructions": [
-    "Preheat the oven to 220°C (425°F).",
-    "Pierce the eggplants several times with a fork.",
-    "Roast for 30–35 minutes until soft.",
-    "Allow the eggplants to cool slightly.",
-    "Peel away the skin and roughly chop the flesh.",
-    "Transfer the eggplant to a large bowl.",
-    "Add the tomatoes, onion, parsley, mint, and garlic.",
-    "Whisk together the olive oil, lemon juice, cumin, salt, and pepper.",
-    "Pour the dressing over the salad.",
-    "Mix gently and refrigerate for 20 minutes before serving."
+    "سخن الفرن مسبقًا على درجة حرارة 220 درجة مئوية (425 درجة فهرنهايت).",
+    "اثقب الباذنجان عدة مرات باستخدام شوكة.",
+    "اشوِ الباذنجان لمدة 30–35 دقيقة حتى يصبح طريًا.",
+    "اترك الباذنجان ليبرد قليلاً.",
+    "قشّر القشرة وافرم اللب بشكل خشن.",
+    "انقل الباذنجان إلى وعاء كبير.",
+    "أضف الطماطم والبصل والبقدونس والنعناع والثوم.",
+    "اخفق زيت الزيتون وعصير الليمون والكمون والملح والفلفل الأسود معًا.",
+    "اسكب التتبيلة فوق السلطة.",
+    "اخلط المكونات برفق وضعها في الثلاجة لمدة 20 دقيقة قبل التقديم."
   ],
   "healthBenefits": [
-    "Rich in antioxidants",
-    "High in dietary fiber",
-    "Supports heart health",
-    "Naturally vegan",
-    "Low in calories",
-    "Good source of potassium"
+    "غني بمضادات الأكسدة",
+    "غني بالألياف الغذائية",
+    "يدعم صحة القلب",
+    "نباتي طبيعيًا",
+    "قليل السعرات الحرارية",
+    "مصدر جيد للبوتاسيوم"
   ],
   "keywords": [
-    "Roasted Eggplant Salad",
-    "Mediterranean Eggplant Salad",
-    "Healthy Eggplant Recipe",
-    "Lebanese Eggplant Salad",
-    "Vegan Mediterranean Salad"
+    "سلطة باذنجان مشوي",
+    "سلطة باذنجان متوسطية",
+    "وصفة باذنجان صحية",
+    "سلطة باذنجان لبنانية",
+    "سلطة متوسطية نباتية"
   ],
   "tags": [
-    "salad",
-    "Mediterranean",
-    "healthy",
-    "vegan",
-    "eggplant",
-    "mezze",
-    "gluten-free"
+    "سلطة",
+    "متوسطي",
+    "صحي",
+    "نباتي",
+    "باذنجان",
+    "مزة",
+    "خالٍ من الغلوتين"
   ]
 };
 

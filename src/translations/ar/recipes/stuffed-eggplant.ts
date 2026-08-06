@@ -1,69 +1,69 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "3f3fe4f8ff8ddb17b98e9202edd30bb319d17b89c588d9b567448abaf1252c55";
 
 const translation: RecipeTranslation = {
-  "title": "Mediterranean Stuffed Eggplant",
-  "description": "Tender roasted eggplants filled with lean ground beef, tomatoes, herbs, and Mediterranean spices for a wholesome, satisfying meal.",
-  "longDescription": "Mediterranean Stuffed Eggplant is a healthy baked dish featuring roasted eggplant halves filled with a savory mixture of lean ground beef, onions, garlic, tomatoes, fresh parsley, and aromatic Mediterranean spices. Naturally rich in fiber, antioxidants, and protein, this colorful recipe is perfect for a balanced family dinner and pairs beautifully with yogurt, quinoa, or a crisp salad.",
+  "title": "باذنجان محشي على الطريقة المتوسطية",
+  "description": "باذنجان مشوي طري محشو باللحم البقري المفروم الخالي من الدهون، والطماطم، والأعشاب، والبهارات المتوسطية لوجبة صحية ومشبعة.",
+  "longDescription": "الباذنجان المحشي على الطريقة المتوسطية هو طبق صحي مخبوز بالفرن يتكون من أنصاف الباذنجان المشوي المحشوة بمزيج شهي من اللحم البقري المفروم الخالي من الدهون، والبصل، والثوم، والطماطم، والبقدونس الطازج، والبهارات المتوسطية العطرية. تتميز هذه الوصفة الملونة بكونها غنية طبيعيًا بالألياف ومضادات الأكسدة والبروتين، مما يجعلها مثالية لعشاء عائلي متوازن وتتناسب بشكل رائع مع اللبن، أو الكينوا، أو السلطة الطازجة.",
   "ingredients": [
-    "Large eggplants",
-    "lean ground beef",
-    "Medium onion, finely diced",
-    "cloves, minced",
-    "Medium tomatoes, diced",
-    "tomato paste",
-    "extra virgin olive oil",
-    "ground cumin",
-    "paprika",
-    "ground cinnamon",
-    "dried oregano",
-    "sea salt",
-    "black pepper",
-    "chopped fresh parsley",
-    "chopped fresh mint (optional)",
-    "low-sodium beef or vegetable broth"
+    "حبات باذنجان كبيرة",
+    "لحم بقري مفروم خالي من الدهون",
+    "بصلة متوسطة، مقطعة مكعبات صغيرة",
+    "فصوص ثوم، مفرومة",
+    "حبات طماطم متوسطة، مقطعة مكعبات",
+    "معجون طماطم",
+    "زيت زيتون بكر ممتاز",
+    "كمون مطحون",
+    "بابريكا",
+    "قرفة مطحونة",
+    "أوريغانو مجفف",
+    "ملح بحر",
+    "فلفل أسود",
+    "بقدونس طازج مفروم",
+    "نعناع طازج مفروم (اختياري)",
+    "مرق لحم بقري أو خضار قليل الصوديوم"
   ],
   "instructions": [
-    "Preheat the oven to 200°C (400°F).",
-    "Slice the eggplants in half lengthwise and score the flesh in a crisscross pattern without cutting through the skin.",
-    "Brush the cut sides with 1 tablespoon of olive oil and roast for 25 minutes until softened.",
-    "Carefully scoop out some of the flesh, leaving a sturdy shell. Chop the removed flesh.",
-    "Heat the remaining olive oil in a skillet over medium heat.",
-    "Cook the onion until softened, then add the garlic.",
-    "Add the ground beef and cook until browned.",
-    "Stir in the chopped eggplant flesh, tomatoes, tomato paste, cumin, paprika, cinnamon, oregano, salt, and pepper.",
-    "Cook for 8–10 minutes until the mixture thickens.",
-    "Mix in the parsley and optional mint.",
-    "Fill each roasted eggplant generously with the beef mixture.",
-    "Pour the broth into the baking dish around the eggplants.",
-    "Bake for another 20 minutes until heated through.",
-    "Serve warm with Greek yogurt, quinoa, or a fresh Mediterranean salad."
+    "سخن الفرن مسبقًا إلى 200°C (400°F).",
+    "اقطع الباذنجان إلى نصفين طوليًا واعمل شقوقًا في اللب على شكل شبكة دون قطع القشرة.",
+    "ادهن الجوانب المقطوعة بـ 1 ملعقة كبيرة من زيت الزيتون واشويها لمدة 25 دقيقة حتى تطرى.",
+    "احفر جزءًا من اللب بحذر مع إبقاء القشرة متماسكة. افرم اللب المستخرج.",
+    "سخن زيت الزيتون المتبقي في مقلاة على نار متوسطة.",
+    "اطبخ البصل حتى يطرى، ثم أضف الثوم.",
+    "أضف اللحم المفروم واطبخه حتى يتغير لونه إلى البني.",
+    "أضف لب الباذنجان المفروم، والطماطم، ومعجون الطماطم، والكمون، والبابريكا، والقرفة، والأوريغانو، والملح، والفلفل الأسود مع التحريك.",
+    "اطبخ لمدة 8–10 دقائق حتى يتماسك المزيج.",
+    "أضف البقدونس والنعناع الاختياري وقلّب.",
+    "املأ كل نصف باذنجان مشوي بسخاء بمزيج اللحم.",
+    "اسكب المرق في صينية الخبز حول قطع الباذنجان.",
+    "اخبز لمدة 20 دقيقة أخرى حتى ينضج تمامًا ويسخن.",
+    "قدّمه دافئًا مع اللبن اليوناني، أو الكينوا، أو سلطة متوسطية طازجة."
   ],
   "healthBenefits": [
-    "Excellent source of lean protein",
-    "Rich in dietary fiber",
-    "High in antioxidants from eggplant",
-    "Provides vitamins C and K",
-    "Heart-healthy olive oil",
-    "Mediterranean diet friendly"
+    "مصدر ممتاز للبروتين الخالي من الدهون",
+    "غني بالألياف الغذائية",
+    "غني بمضادات الأكسدة الموجودة في الباذنجان",
+    "يوفر فيتامينات C و K",
+    "زيت زيتون مفيد لصحة القلب",
+    "مناسب للنظام الغذائي المتوسطي"
   ],
   "keywords": [
-    "Stuffed Eggplant",
-    "Mediterranean Eggplant",
-    "Healthy Eggplant Recipe",
-    "Lebanese Eggplant",
-    "Baked Stuffed Eggplant"
+    "باذنجان محشي",
+    "باذنجان متوسطي",
+    "وصفة باذنجان صحية",
+    "باذنجان لبناني",
+    "باذنجان محشي مخبوز"
   ],
   "tags": [
-    "main dish",
-    "Mediterranean",
-    "Lebanese",
-    "eggplant",
-    "beef",
-    "healthy",
-    "high protein",
-    "oven baked"
+    "طبق رئيسي",
+    "متوسطي",
+    "لبناني",
+    "باذنجان",
+    "لحم بقري",
+    "صحي",
+    "غني بالبروتين",
+    "مخبوز بالفرن"
   ]
 };
 

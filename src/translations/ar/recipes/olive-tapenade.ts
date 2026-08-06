@@ -1,60 +1,60 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "3ca2fba27f89122c0e5011e78bef68c71994214880db47041822faad955edd78";
 
 const translation: RecipeTranslation = {
-  "title": "Olive Tapenade with Whole Grain Crackers",
-  "description": "A savory Mediterranean olive spread made with Kalamata olives, green olives, capers, garlic, herbs, and extra virgin olive oil. Perfect with whole grain crackers or fresh vegetables.",
-  "longDescription": "Olive Tapenade is a classic Mediterranean spread bursting with bold, briny flavors. Made with a blend of Kalamata and green olives, capers, garlic, fresh parsley, lemon juice, and premium extra virgin olive oil, this quick and healthy appetizer is rich in heart-healthy fats and antioxidants. Serve it with whole grain crackers, toasted bread, cucumber slices, or as part of a traditional Mediterranean mezze platter.",
+  "title": "تابيناد الزيتون مع مقرمشات الحبوب الكاملة",
+  "description": "معجون زيتون متوسطي مالح وممتع مصنوع من زيتون الكالاماتا، والزيتون الأخضر، والكابر، والثوم، والأعشاب، وزيت الزيتون البكر الممتاز. مثالي مع مقرمشات الحبوب الكاملة أو الخضروات الطازجة.",
+  "longDescription": "تابيناد الزيتون هو معجون متوسطي كلاسيكي يفيض بالنكهات القوية والمالحة. يُحضر من مزيج من زيتون الكالاماتا والزيتون الأخضر، والكابر، والثوم، والبقدونس الطازج، وعصير الليمون، وزيت الزيتون البكر الممتاز الفاخر. هذه المقبلات السريعة والصحية غنية بالدهون المفيدة لصحة القلب ومضادات الأكسدة. قدمها مع مقرمشات الحبوب الكاملة، أو الخبز المحمص، أو شرائح الخيار، أو كجزء من طبق المزة المتوسطية التقليدية.",
   "ingredients": [
-    "Kalamata olives, pitted",
-    "green olives, pitted",
-    "capers, drained",
-    "cloves",
-    "fresh parsley, chopped",
-    "fresh lemon juice",
-    "extra virgin olive oil",
-    "dried oregano",
-    "black pepper",
-    "Whole grain crackers for serving",
-    "Fresh cucumber slices (optional)",
-    "Cherry tomatoes (optional)"
+    "زيتون كالاماتا، منزوع النوى",
+    "زيتون أخضر، منزوع النوى",
+    "كابر، مصفى",
+    "فصوص ثوم",
+    "بقدونس طازج، مفروم",
+    "عصير ليمون طازج",
+    "زيت زيتون بكر ممتاز",
+    "أوريغانو مجفف",
+    "فلفل أسود",
+    "مقرمشات الحبوب الكاملة للتقديم",
+    "شرائح خيار طازجة (اختياري)",
+    "طماطم كرزية (اختياري)"
   ],
   "instructions": [
-    "Add the Kalamata olives, green olives, capers, garlic, parsley, lemon juice, oregano, and black pepper to a food processor.",
-    "Pulse several times until the mixture is finely chopped but still slightly chunky.",
-    "With the processor running, slowly drizzle in the olive oil until combined.",
-    "Taste and adjust the seasoning if needed.",
-    "Transfer the tapenade to a serving bowl.",
-    "Drizzle with a little extra virgin olive oil.",
-    "Garnish with chopped parsley.",
-    "Serve with whole grain crackers, cucumber slices, or cherry tomatoes."
+    "أضف زيتون الكالاماتا، والزيتون الأخضر، والكابر، والثوم، والبقدونس، وعصير الليمون، والأوريغانو، والفلفل الأسود إلى محضرة الطعام.",
+    "اضغط على زر التشغيل النبضي عدة مرات حتى يُفرم المزيج فرماً ناعماً مع البقاء خشناً قليلاً.",
+    "أثناء تشغيل المحضرة، أضف زيت الزيتون ببطء على شكل خيط رفيع حتى يتجانس المزيج.",
+    "تذوق واضبط التوابل إذا لزم الأمر.",
+    "انقل التابيناد إلى وعاء التقديم.",
+    "رش القليل من زيت الزيتون البكر الممتاز على الوجه.",
+    "زيّن بالبقدونس المفروم.",
+    "قدمه مع مقرمشات الحبوب الكاملة، أو شرائح الخيار، أو الطماطم الكرزية."
   ],
   "healthBenefits": [
-    "Rich in heart-healthy monounsaturated fats",
-    "Contains powerful antioxidants from olives",
-    "Supports cardiovascular health",
-    "Low in carbohydrates",
-    "Provides vitamin E",
-    "Quick and nutritious appetizer",
-    "Mediterranean diet friendly"
+    "غني بالدهون الأحادية غير المشبعة المفيدة لصحة القلب",
+    "يحتوي على مضادات أكسدة قوية من الزيتون",
+    "يدعم صحة القلب والأوعية الدموية",
+    "قليل الكربوهيدرات",
+    "يوفر فيتامين E",
+    "مقبلات سريعة ومغذية",
+    "مناسب للنظام الغذائي المتوسطي"
   ],
   "keywords": [
-    "Olive Tapenade",
-    "Mediterranean Spread",
-    "Healthy Appetizer",
-    "Olive Dip",
-    "Mezze Recipe"
+    "تابيناد الزيتون",
+    "معجون متوسطي",
+    "مقبلات صحية",
+    "غموس الزيتون",
+    "وصفة مزة"
   ],
   "tags": [
-    "snack",
-    "Mediterranean",
-    "olive tapenade",
-    "mezze",
-    "healthy",
-    "vegetarian",
-    "low-carb",
-    "quick recipe"
+    "وجبة خفيفة",
+    "متوسطي",
+    "تابيناد الزيتون",
+    "مزة",
+    "صحي",
+    "نباتي",
+    "قليل الكربوهيدرات",
+    "وصفة سريعة"
   ]
 };
 

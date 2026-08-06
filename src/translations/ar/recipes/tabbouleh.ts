@@ -1,56 +1,56 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "a64fc2d5605f78c6de00a37124f141f284b8d0c4d656423a631c449f60f4472b";
 
 const translation: RecipeTranslation = {
-  "title": "Tabbouleh",
-  "description": "A refreshing Lebanese parsley salad with bulgur wheat, tomatoes, mint, lemon juice, and extra virgin olive oil.",
-  "longDescription": "Tabbouleh is a classic Lebanese salad celebrated for its vibrant flavor and nutritional value. Fresh parsley is the star ingredient, complemented by mint, tomatoes, fine bulgur, lemon juice, and olive oil. It's naturally rich in vitamins, antioxidants, and fiber, making it an excellent healthy side dish or light meal.",
+  "title": "تبولة",
+  "description": "سلطة بقدونس لبنانية منعشة مع البرغل، الطماطم، النعناع، عصير الليمون، وزيت الزيتون البكر الممتاز.",
+  "longDescription": "التبولة هي سلطة لبنانية كلاسيكية تشتهر بنكهتها المنعشة وقيمتها الغذائية. البقدونس الطازج هو المكون الأساسي، ويكمله النعناع، الطماطم، البرغل الناعم، عصير الليمون، وزيت الزيتون. وهي غنية طبيعياً بالفيتامينات، مضادات الأكسدة، والألياف، مما يجعلها طبقاً جانبياً صحياً ممتازاً أو وجبة خفيفة.",
   "ingredients": [
-    "fresh parsley, finely chopped",
-    "½ cup fresh mint, finely chopped",
-    "Medium tomatoes, diced",
-    "Green onions, finely sliced",
-    "¼ cup fine bulgur wheat",
-    "extra virgin olive oil",
-    "fresh lemon juice",
-    "½ tsp salt",
-    "¼ tsp black pepper"
+    "بقدونس طازج، مفروم ناعماً",
+    "½ كوب نعناع طازج، مفروم ناعماً",
+    "طماطم متوسطة الحجم، مقطعة إلى مكعبات",
+    "بصل أخضر، مقطع بشرائح ناعمة",
+    "¼ كوب برغل ناعم",
+    "زيت زيتون بكر ممتاز",
+    "عصير ليمون طازج",
+    "½ ملعقة صغيرة ملح",
+    "¼ ملعقة صغيرة فلفل أسود"
   ],
   "instructions": [
-    "Rinse the bulgur and soak it in cold water for 15 minutes.",
-    "Drain the bulgur thoroughly.",
-    "Finely chop the parsley and mint.",
-    "Dice the tomatoes into small cubes.",
-    "Slice the green onions.",
-    "Combine all vegetables and bulgur in a large bowl.",
-    "Whisk together the olive oil, lemon juice, salt and pepper.",
-    "Pour the dressing over the salad.",
-    "Mix gently until everything is evenly coated.",
-    "Chill for 15 minutes before serving for the best flavor."
+    "اغسل البرغل وانقعه في ماء بارد لمدة 15 دقيقة.",
+    "صفِّ البرغل جيداً.",
+    "افرم البقدونس والنعناع ناعماً.",
+    "قطع الطماطم إلى مكعبات صغيرة.",
+    "قطع البصل الأخضر إلى شرائح.",
+    "اخلط جميع الخضراوات والبرغل في وعاء كبير.",
+    "اخفق زيت الزيتون، عصير الليمون، الملح، والفلفل الأسود معاً.",
+    "صب التتبيلة فوق السلطة.",
+    "اقلب المكونات بلطف حتى تتغطى بالتتبيلة بشكل متساوٍ.",
+    "برّد السلطة لمدة 15 دقيقة قبل التقديم للحصول على أفضل نكهة."
   ],
   "healthBenefits": [
-    "Excellent source of Vitamin K",
-    "Rich in antioxidants",
-    "Supports heart health",
-    "High in dietary fiber",
-    "Low in saturated fat",
-    "Good source of Vitamin C"
+    "مصدر ممتاز لفيتامين K",
+    "غنية بمضادات الأكسدة",
+    "تدعم صحة القلب",
+    "غنية بالألياف الغذائية",
+    "منخفضة الدهون المشبعة",
+    "مصدر جيد لفيتامين C"
   ],
   "keywords": [
-    "Tabbouleh",
-    "Tabbouleh recipe",
-    "Lebanese salad",
-    "Healthy Mediterranean salad",
-    "Parsley salad"
+    "تبولة",
+    "وصفة التبولة",
+    "سلطة لبنانية",
+    "سلطة متوسطية صحية",
+    "سلطة بقدونس"
   ],
   "tags": [
-    "salad",
-    "healthy",
-    "vegetarian",
-    "Mediterranean",
-    "Lebanese",
-    "fresh"
+    "سلطة",
+    "صحي",
+    "نباتي",
+    "متوسطي",
+    "لبناني",
+    "طازج"
   ]
 };
 

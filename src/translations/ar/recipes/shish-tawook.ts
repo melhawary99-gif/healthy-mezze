@@ -1,63 +1,63 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "366e7875cdcd899c6591fa5c53304471b1c6b5c11b7bc1f182a6a924330135e2";
 
 const translation: RecipeTranslation = {
-  "title": "Shish Tawook (Lebanese Chicken Kabobs)",
-  "description": "Tender Lebanese chicken skewers marinated in yogurt, garlic, lemon, and Mediterranean spices, then grilled to perfection.",
-  "longDescription": "Shish Tawook is one of Lebanon's most popular grilled dishes. Chicken breast is marinated in Greek yogurt, garlic, lemon juice, olive oil, and aromatic spices before being threaded onto skewers and grilled until juicy with lightly charred edges. Traditionally served with garlic sauce (toum), grilled vegetables, rice, or warm pita bread, this high-protein meal is ideal for family dinners and summer barbecues.",
+  "title": "شيش طاووق (كباب الدجاج اللبناني)",
+  "description": "أسياخ دجاج لبنانية طرية منقوعة في اللبن والثوم والليمون والبهارات المتوسطية، ثم مشوية حتى النضج التام.",
+  "longDescription": "يُعد الشيش طاووق من أشهر المشويات في لبنان. تُنقع صدور الدجاج في اللبن اليوناني والثوم وعصير الليمون وزيت الزيتون والبهارات العطرية قبل شكّها في الأسياخ وشيّها حتى تصبح طرية مع أطراف محمرة خفيفاً. يُقدم تقليدياً مع صلصة الثوم (الثومية)، والخضروات المشوية، والأرز، أو الخبز العربي الدافئ، وهذه الوجبة الغنية بالبروتين مثالية للعشاء العائلي وحفلات الشواء الصيفية.",
   "ingredients": [
-    "boneless skinless chicken breast, cut into cubes",
-    "plain Greek yogurt",
-    "extra virgin olive oil",
-    "Juice of 2 lemons",
-    "cloves, minced",
-    "paprika",
-    "ground cumin",
-    "oregano",
-    "sea salt",
-    "black pepper",
-    "turmeric",
-    "tomato paste",
-    "Wooden or metal skewers",
-    "Fresh parsley for garnish"
+    "صدور دجاج مخلاة من العظم والجلد، مقطعة إلى مكعبات",
+    "لبن يوناني سادة",
+    "زيت زيتون بكر ممتاز",
+    "عصير 2 ليمونة",
+    "فصوص ثوم مفرومة",
+    "بابريكا",
+    "كمون مطحون",
+    "أوريغانو",
+    "ملح البحر",
+    "فلفل أسود",
+    "كركم",
+    "معجون طماطم",
+    "أسياخ خشبية أو معدنية",
+    "بقدونس طازج للتزيين"
   ],
   "instructions": [
-    "In a large bowl, whisk together the yogurt, olive oil, lemon juice, garlic, tomato paste, and spices.",
-    "Add the chicken cubes and coat well with the marinade.",
-    "Cover and refrigerate for at least 6 hours or overnight.",
-    "If using wooden skewers, soak them in water for 30 minutes.",
-    "Thread the marinated chicken evenly onto the skewers.",
-    "Preheat a grill or grill pan to medium-high heat.",
-    "Grill the skewers for 12–15 minutes, turning every few minutes until the chicken is fully cooked and lightly charred.",
-    "Rest the skewers for 5 minutes before serving.",
-    "Garnish with fresh parsley.",
-    "Serve with garlic sauce (toum), rice, grilled vegetables, or pita bread."
+    "في وعاء كبير، اخلط اللبن، وزيت الزيتون، وعصير الليمون، والثوم، ومعجون الطماطم، والبهارات جيداً.",
+    "أضف مكعبات الدجاج واغمرها جيداً بالتتبيلة.",
+    "غطّ الوعاء وضعه في الثلاجة لمدة 6 ساعات على الأقل أو طوال الليل.",
+    "في حالة استخدام أسياخ خشبية، انقعها في الماء لمدة 30 دقيقة.",
+    "أدخل قطع الدجاج المتبلة بالتساوي في الأسياخ.",
+    "سخّن الشواية أو مقلاة الشواء على حرارة متوسطة إلى عالية.",
+    "اشوِ الأسياخ لمدة 12–15 دقيقة، مع التقليب كل بضع دقائق حتى ينضج الدجاج تماماً ويتحمر خفيفاً.",
+    "اترك الأسياخ ترتاح لمدة 5 دقائق قبل التقديم.",
+    "زَيّن بالبقدونس الطازج.",
+    "قَدّم الوصفة مع صلصة الثوم (الثومية)، والأرز، والخضروات المشوية، أو الخبز العربي."
   ],
   "healthBenefits": [
-    "Excellent source of lean protein",
-    "Rich in vitamin B6 and niacin",
-    "Contains probiotics from yogurt marinade",
-    "Heart-healthy olive oil",
-    "Naturally low in carbohydrates",
-    "Mediterranean diet friendly"
+    "مصدر ممتاز للبروتين الخالي من الدهون",
+    "غني بفيتامين B6 والنياسين",
+    "يحتوي على البروبيوتيك من تتبيلة اللبن",
+    "زيت زيتون مفيد لصحة القلب",
+    "منخفض الكربوهيدرات طبيعياً",
+    "مناسب لنظام حمية البحر المتوسط"
   ],
   "keywords": [
-    "Shish Tawook",
-    "Lebanese Chicken Kabobs",
-    "Chicken Skewers",
-    "Mediterranean Chicken",
-    "Healthy Grilled Chicken"
+    "شيش طاووق",
+    "كباب الدجاج اللبناني",
+    "أسياخ الدجاج",
+    "دجاج على الطريقة المتوسطية",
+    "دجاج مشوي صحي"
   ],
   "tags": [
-    "main dish",
-    "Lebanese",
-    "chicken",
-    "kabobs",
-    "grilled",
-    "high protein",
-    "Mediterranean",
-    "healthy"
+    "طبق رئيسي",
+    "لبناني",
+    "دجاج",
+    "كباب",
+    "مشوي",
+    "عالي البروتين",
+    "بحر متوسط",
+    "صحي"
   ]
 };
 

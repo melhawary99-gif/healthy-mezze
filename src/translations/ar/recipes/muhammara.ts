@@ -1,64 +1,64 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "654506c010222bea517ea8e1c62aa6a7c44a07a3ddf017301c855e4dbb4f066d";
 
 const translation: RecipeTranslation = {
-  "title": "Muhammara (Roasted Red Pepper & Walnut Dip)",
-  "description": "A rich and smoky Mediterranean dip made with roasted red peppers, walnuts, olive oil, garlic, and pomegranate molasses. Perfect as a mezze, spread, or healthy snack.",
-  "longDescription": "Muhammara is a traditional Levantine dip that combines the sweetness of roasted red peppers with the earthy richness of walnuts and the tangy depth of pomegranate molasses. Blended with garlic, olive oil, breadcrumbs, and warm spices, this vibrant dip is packed with antioxidants and healthy fats. Serve it with warm pita bread, fresh vegetables, grilled meats, or as part of a Mediterranean mezze platter.",
+  "title": "المحمرة (غموس الفلفل الأحمر المشوي والجوز)",
+  "description": "غموس متوسطي غني ودخاني النكهة مصنوع من الفلفل الأحمر المشوي والجوز وزيت الزيتون والثوم ودبس الرمان. مثالي للمقبلات، أو كغموس للدهن، أو كوجبة خفيفة صحية.",
+  "longDescription": "المحمرة هي غموس شامي تقليدي يجمع بين حلاوة الفلفل الأحمر المشوي وغنى الجوز النكهاتي وعمق دبس الرمان الحامض. يُخلط مع الثوم، وزيت الزيتون، وفتات الخبز، والبهارات الدافئة، مما يجعل هذا الغموس الحيوي غنياً بمضادات الأكسدة والدهون الصحية. قدمه مع خبز البيتا الدافئ، أو الخضروات الطازجة، أو اللحوم المشوية، أو كجزء من طبق المقبلات المتوسطية.",
   "ingredients": [
-    "Large red bell peppers",
-    "walnuts",
-    "whole wheat breadcrumbs",
-    "pomegranate molasses",
-    "extra virgin olive oil",
-    "cloves",
-    "ground cumin",
-    "smoked paprika",
-    "crushed red pepper flakes (optional)",
-    "sea salt",
-    "black pepper",
-    "chopped fresh parsley",
-    "Pomegranate seeds for garnish (optional)"
+    "فلفل حلو أحمر كبير الحجم",
+    "جوز",
+    "فتات خبز القمح الكامل",
+    "دبس الرمان",
+    "زيت زيتون بكر ممتاز",
+    "فصوص ثوم",
+    "كمون مطحون",
+    "بابريكا مدخنة",
+    "رقائق الفلفل الأحمر الحار المجروش (اختياري)",
+    "ملح البحر",
+    "فلفل أسود",
+    "بقدونس طازج مفروم",
+    "بذور الرمان للتزيين (اختياري)"
   ],
   "instructions": [
-    "Preheat the oven to 450°F (230°C).",
-    "Place the red peppers on a baking tray and roast for 20–25 minutes, turning occasionally, until the skins are blackened.",
-    "Transfer the peppers to a covered bowl or sealed bag for 10 minutes to steam.",
-    "Peel off the skins, remove the seeds, and roughly chop the peppers.",
-    "Toast the walnuts in a dry skillet over medium heat for 3–4 minutes until fragrant.",
-    "Add the roasted peppers, walnuts, breadcrumbs, pomegranate molasses, olive oil, garlic, cumin, paprika, salt, pepper, and red pepper flakes to a food processor.",
-    "Blend until mostly smooth while leaving a little texture.",
-    "Taste and adjust seasoning if needed.",
-    "Transfer to a serving bowl.",
-    "Drizzle with olive oil and garnish with parsley, chopped walnuts, and pomegranate seeds.",
-    "Serve with whole wheat pita bread or fresh vegetables."
+    "سخن الفرن مسبقاً على درجة حرارة 450°F (230°C).",
+    "ضع الفلفل الأحمر في صينية خبز واشوه لمدة 20–25 دقيقة، مع التقليب من حين لآخر، حتى تسود القشرة الخارجية.",
+    "انقل الفلفل إلى وعاء مغطى أو كيس مغلق لمدة 10 دقائق ليتبخر.",
+    "قشر القشرة الخارجية، وأزل البذور، وقطع الفلفل بشكل تقريبي.",
+    "حمص الجوز في مقلاة جافة على نار متوسطة لمدة 3–4 دقائق حتى تفوح رائحته.",
+    "أضف الفلفل المشوي، والجوز، وفتات الخبز، ودبس الرمان، وزيت الزيتون، والثوم، والكمون، والبابريكا، والملح، والفلفل، ورقائق الفلفل الأحمر إلى محضر الطعام.",
+    "اخفق المكونات حتى تصبح ناعمة تقريباً مع الحفاظ على القليل من القوام الملموس.",
+    "تذوق واضبط التوابل حسب الحاجة.",
+    "انقل الغموس إلى وعاء التقديم.",
+    "رش القليل من زيت الزيتون وزين بالبقدونس، والجوز المفروم، وبذور الرمان.",
+    "قدمه مع خبز البيتا المصنوع من القمح الكامل أو الخضروات الطازجة."
   ],
   "healthBenefits": [
-    "Rich in antioxidants from roasted red peppers",
-    "Excellent source of heart-healthy fats",
-    "Provides vitamin C and vitamin E",
-    "Contains omega-3 fatty acids from walnuts",
-    "Supports brain and heart health",
-    "Mediterranean diet friendly",
-    "Naturally vegetarian"
+    "غني بمضادات الأكسدة من الفلفل الأحمر المشوي",
+    "مصدر ممتاز للدهون الصحية المفيدة للقلب",
+    "يوفر فيتامين C وفيتامين E",
+    "يحتوي على أحماض أوميغا 3 الدهنية من الجوز",
+    "يدعم صحة الدماغ والقلب",
+    "مناسب للنظام الغذائي المتوسطي",
+    "نباتي طبيعياً"
   ],
   "keywords": [
-    "Muhammara",
-    "Roasted Red Pepper Dip",
-    "Mediterranean Dip",
-    "Walnut Dip",
-    "Healthy Mezze"
+    "المحمرة",
+    "غموس الفلفل الأحمر المشوي",
+    "غموس متوسطي",
+    "غموس الجوز",
+    "مقبلات صحية"
   ],
   "tags": [
-    "snack",
-    "Mediterranean",
-    "muhammara",
-    "red peppers",
-    "walnuts",
-    "mezze",
-    "vegetarian",
-    "healthy"
+    "وجبة خفيفة",
+    "متوسطي",
+    "محمرة",
+    "فلفل أحمر",
+    "جوز",
+    "مقبلات",
+    "نباتي",
+    "صحي"
   ]
 };
 

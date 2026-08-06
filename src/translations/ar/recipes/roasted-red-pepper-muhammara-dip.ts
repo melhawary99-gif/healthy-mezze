@@ -1,61 +1,61 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "75b6607fa61da0d375df5f00c11ac1e54f5db10780c9346bc708009005e44340";
 
 const translation: RecipeTranslation = {
-  "title": "Roasted Red Pepper Muhammara Dip",
-  "description": "A creamy Syrian-Lebanese roasted red pepper dip made with walnuts, pomegranate molasses, and olive oil.",
-  "longDescription": "Muhammara is a classic Levantine dip originating in Aleppo, Syria, and enjoyed throughout Lebanon and the Middle East. This version emphasizes a smooth, creamy consistency that's ideal as a dip for pita bread, fresh vegetables, grilled meats, and sandwiches. Roasted red peppers, toasted walnuts, pomegranate molasses, and warm spices combine to create a naturally flavorful and nutritious appetizer.",
+  "title": "غموس المحمرة بالفلفل الأحمر المشوي",
+  "description": "غموس سوري لبناني كريمي من الفلفل الأحمر المشوي، مصنوع من الجوز، ودبس الرمان، وزيت الزيتون.",
+  "longDescription": "المحمرة هي غموس شامي كلاسيكي يعود أصله إلى مدينة حلب في سوريا، وتُستهلك على نطاق واسع في لبنان والشرق الأوسط. تُبرز هذه الوصفة قوامًا ناعمًا وكريميًا مثاليًا كغموس لخبز البيتا، والخضراوات الطازجة، واللحوم المشوية، والشطائر. يمتزج الفلفل الأحمر المشوي، والجوز المحمص، ودبس الرمان، والبهارات الدافئة لابتكار مقبلات غنية بالنكهة الطبيعية ومغذية.",
   "ingredients": [
-    "Large roasted red bell peppers, peeled",
-    "toasted walnuts",
-    "whole wheat breadcrumbs",
-    "pomegranate molasses",
-    "extra virgin olive oil",
-    "cloves",
-    "fresh lemon juice",
-    "ground cumin",
-    "smoked paprika",
-    "Aleppo pepper or mild chili flakes",
-    "sea salt",
-    "chopped parsley for garnish",
-    "pomegranate seeds for garnish (optional)"
+    "حبات فلفل رومي أحمر كبيرة مشوية ومقشرة",
+    "جوز محمص",
+    "فتات خبز القمح الكامل",
+    "دبس الرمان",
+    "زيت زيتون بكر ممتاز",
+    "فصوص ثوم",
+    "عصير ليمون طازج",
+    "كمون مطحون",
+    "بابريكا مدخنة",
+    "فلفل حلبي أو رقائق فلفل حار خفيف",
+    "ملح البحر",
+    "بقدونس مفروم للتزيين",
+    "بذور الرمان للتزيين (اختياري)"
   ],
   "instructions": [
-    "Toast the walnuts in a dry skillet for 5–7 minutes until fragrant.",
-    "Add the roasted peppers, walnuts, breadcrumbs, garlic, lemon juice, olive oil, pomegranate molasses, cumin, paprika, chili flakes, and salt to a food processor.",
-    "Blend until mostly smooth while retaining a slight texture.",
-    "Taste and adjust the seasoning if needed.",
-    "Transfer to a serving bowl.",
-    "Drizzle with a little olive oil.",
-    "Garnish with parsley, walnuts, and pomegranate seeds.",
-    "Serve with warm pita bread, crackers, or fresh vegetables."
+    "حمص الجوز في مقلاة جافة لمدة 5–7 دقائق حتى تفوح رائحته.",
+    "أضف الفلفل المشوي، والجوز، وفتات الخبز، والثوم، وعصير الليمون، وزيت الزيتون، ودبس الرمان، والكمون، والبابريكا، ورقائق الفلفل الحار، والملح إلى محضرة الطعام.",
+    "اطحن المكونات حتى تصبح ناعمة تقريبًا مع الحفاظ على بعض القوام.",
+    "تذوق واضبط التوابل إذا لزم الأمر.",
+    "انقل الغموس إلى وعاء التقديم.",
+    "رش القليل من زيت الزيتون على الوجه.",
+    "زين بالبقدونس، والجوز، وبذور الرمان.",
+    "قدمه مع الخبز العربي الدافئ، أو المقرمشات، أو الخضراوات الطازجة."
   ],
   "healthBenefits": [
-    "Rich in antioxidants from roasted peppers",
-    "Walnuts provide heart-healthy omega-3 fats",
-    "Good source of vitamin E",
-    "Contains fiber for digestive health",
-    "Naturally vegetarian",
-    "Made with extra virgin olive oil",
-    "Pairs well with fresh vegetables for a nutritious snack"
+    "غني بمضادات الأكسدة من الفلفل المشوي",
+    "يوفر الجوز دهون أوميغا-3 المفيدة لصحة القلب",
+    "مصدر جيد لفيتامين E",
+    "يحتوي على الألياف المفيدة لصحة الجهاز الهضمي",
+    "نباتي طبيعيًا",
+    "مصنوع من زيت الزيتون البكر الممتاز",
+    "يتناسب جيدًا مع الخضراوات الطازجة لوجبة خفيفة مغذية"
   ],
   "keywords": [
-    "Muhammara Dip",
-    "Roasted Red Pepper Dip",
-    "Lebanese Dip",
-    "Syrian Muhammara",
-    "Healthy Muhammara"
+    "غموس المحمرة",
+    "غموس الفلفل الأحمر المشوي",
+    "غموس لبناني",
+    "محمرة سورية",
+    "محمرة صحية"
   ],
   "tags": [
-    "dip",
-    "sauce",
-    "Lebanese",
-    "Syrian",
-    "muhammara",
-    "vegetarian",
-    "healthy",
-    "mezze"
+    "غموس",
+    "صلصة",
+    "لبناني",
+    "سوري",
+    "محمرة",
+    "نباتي",
+    "صحي",
+    "مقبلات"
   ]
 };
 

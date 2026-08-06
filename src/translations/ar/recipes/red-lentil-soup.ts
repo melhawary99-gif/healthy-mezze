@@ -1,65 +1,65 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "396636262b09c68541c73bb471001681e7bb0c7be191cc7c5de729cdfd37c874";
 
 const translation: RecipeTranslation = {
-  "title": "Red Lentil Soup (Shorbat Adas)",
-  "description": "A comforting Middle Eastern red lentil soup made with vegetables, warming spices, and fresh lemon juice.",
-  "longDescription": "Shorbat Adas is one of the most beloved soups throughout Lebanon, Egypt, and the Middle East. Made with red lentils, onions, carrots, celery, garlic, and fragrant spices, this creamy soup is naturally vegetarian, high in plant-based protein, and incredibly satisfying. Serve it with warm pita bread and fresh lemon wedges for a traditional meal.",
+  "title": "شوربة العدس الأحمر (شوربة عدس)",
+  "description": "شوربة عدس أحمر دافئة ومغذية من الشرق الأوسط مصنوعة من الخضار والتوابل الدافئة وعصير الليمون الطازج.",
+  "longDescription": "تعتبر شوربة العدس من أكثر أنواع الشوربة المحبوبة في لبنان ومصر والشرق الأوسط. تُحضر من العدس الأحمر والبصل والجزر والكرفس والثوم والتوابل العطرة، وتتميز هذه الشوربة الكثيفة بكونها نباتية طبيعياً، وغنية بالبروتين النباتي، ومشبِعة للغاية. قدّمها مع خبز البيتا الدافئ وشرائح الليمون الطازجة لوجبة تقليدية.",
   "ingredients": [
-    "red lentils, rinsed",
-    "Large onion, chopped",
-    "carrots, diced",
-    "stalks, diced",
-    "garlic, minced",
-    "extra virgin olive oil",
-    "ground cumin",
-    "ground turmeric",
-    "ground coriander",
-    "paprika",
-    "vegetable broth",
-    "fresh lemon juice",
-    "sea salt",
-    "black pepper",
-    "Fresh parsley for garnish",
-    "Lemon wedges for serving"
+    "عدس أحمر، مغسول",
+    "بصلة كبيرة، مفرومة",
+    "جزر، مقطع إلى مكعبات",
+    "سيقان كرفس، مقطعة إلى مكعبات",
+    "ثوم، مهروس",
+    "زيت زيتون بكر ممتاز",
+    "كمون مطحون",
+    "كركم مطحون",
+    "كزبرة مطحونة",
+    "بابريكا",
+    "مرق خضار",
+    "عصير ليمون طازج",
+    "ملح بحر",
+    "فلفل أسود",
+    "بقدونس طازج للتزيين",
+    "شرائح ليمون للتقديم"
   ],
   "instructions": [
-    "Heat the olive oil in a large soup pot over medium heat.",
-    "Add the onion, carrots, and celery. Cook for 6–8 minutes until softened.",
-    "Stir in the garlic and cook for 1 minute.",
-    "Add the cumin, turmeric, coriander, and paprika. Cook for 30 seconds until fragrant.",
-    "Add the rinsed lentils and vegetable broth.",
-    "Bring to a boil, then reduce to a gentle simmer.",
-    "Cook for about 25 minutes until the lentils are very soft.",
-    "Blend the soup until smooth using an immersion blender or countertop blender.",
-    "Stir in the lemon juice, salt, and black pepper.",
-    "Serve hot with chopped parsley and fresh lemon wedges."
+    "سخّن زيت الزيتون في قدر شوربة كبير على نار متوسطة.",
+    "أضف البصل والجزر والكرفس. اطبخ لمدة 6–8 دقائق حتى تطرى الخضار.",
+    "أضف الثوم ومقلبه، واطبخ لمدة 1 دقيقة.",
+    "أضف الكمون والكركم والكزبرة والبابريكا. اطبخ لمدة 30 ثانية حتى تفوح رائحة التوابل.",
+    "أضف العدس المغسول ومرق الخضار.",
+    "اترك المزيج يغلي، ثم خفف النار ليتسبك على نار هادئة.",
+    "اطبخ لمدة 25 دقيقة تقريباً حتى ينضج العدس ويكون طرياً جداً.",
+    "اخفق الشوربة حتى تصبح ناعمة باستخدام خلاط يدوي أو خلاط كهربائي.",
+    "أضف عصير الليمون والملح والفلفل الأسود وقلّب المزيج.",
+    "قدّمها ساخنة مع البقدونس المفروم وشرائح الليمون الطازجة."
   ],
   "healthBenefits": [
-    "Excellent source of plant protein",
-    "Very high in dietary fiber",
-    "Rich in iron and folate",
-    "Supports digestive health",
-    "Heart-healthy and naturally cholesterol-free",
-    "Naturally vegetarian and gluten-free"
+    "مصدر ممتاز للبروتين النباتي",
+    "غنية جداً بالألياف الغذائية",
+    "غنية بالحديد والفولات",
+    "تدعم صحة الجهاز الهضمي",
+    "مفيدة لصحة القلب وخالية طبيعياً من الكوليسترول",
+    "نباتية وخالية من الغلوتين طبيعياً"
   ],
   "keywords": [
-    "Red Lentil Soup",
-    "Shorbat Adas",
-    "Middle Eastern Lentil Soup",
-    "Lebanese Lentil Soup",
-    "Healthy Lentil Soup"
+    "شوربة العدس الأحمر",
+    "شوربة عدس",
+    "شوربة عدس شرقية",
+    "شوربة عدس لبنانية",
+    "شوربة عدس صحية"
   ],
   "tags": [
-    "soup",
-    "Middle Eastern",
-    "Lebanese",
-    "healthy",
-    "vegetarian",
-    "gluten-free",
-    "high protein",
-    "meal prep"
+    "شوربة",
+    "شرق أوسطي",
+    "لبناني",
+    "صحي",
+    "نباتي",
+    "خالي من الغلوتين",
+    "غني بالبروتين",
+    "تحضير الوجبات"
   ]
 };
 

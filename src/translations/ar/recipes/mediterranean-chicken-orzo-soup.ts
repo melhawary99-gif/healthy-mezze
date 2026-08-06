@@ -1,66 +1,66 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "fef01a62ec4e969aa626df096c7155132e58af0dbd5f29cac4d395bfdeff89f0";
 
 const translation: RecipeTranslation = {
-  "title": "Mediterranean Chicken Orzo Soup",
-  "description": "A comforting chicken soup with tender vegetables, orzo pasta, fresh herbs, and a bright touch of lemon.",
-  "longDescription": "This Mediterranean Chicken Orzo Soup is a wholesome one-pot meal featuring juicy chicken breast, tender orzo pasta, carrots, celery, onions, and aromatic herbs simmered in a flavorful chicken broth. Finished with fresh lemon juice and parsley, it's rich in protein, comforting, and perfect for lunch or dinner throughout the year.",
+  "title": "شوربة الدجاج والأورزو المتوسطية",
+  "description": "شوربة دجاج مريحة ومغذية تحتوي على خضار طرية، ومعكرونة الأورزو، وأعشاب طازجة، ولمسة منعشة من الليمون.",
+  "longDescription": "تعد شوربة الدجاج والأورزو المتوسطية هذه وجبة صحية متكاملة تُطهى في إناء واحد، وتحتوي على صدور دجاج طرية، ومعكرونة أورزو هشة، وجزر، وكرفس، وبصل، وأعشاب عطرة طُهيت على نار هادئة في مرق دجاج غني بالنكهة. ومع إضافة عصير الليمون الطازج والبقدونس، تمنحك هذه الشوربة الغنية بالبروتين الشعور بالراحة وتعتبر مثالية للغداء أو العشاء طوال العام.",
   "ingredients": [
-    "extra virgin olive oil",
-    "Medium onion, diced",
-    "carrots, diced",
-    "stalks, diced",
-    "garlic, minced",
-    "skinless chicken breasts, diced",
-    "low-sodium chicken broth",
-    "orzo pasta",
-    "dried oregano",
-    "dried thyme",
-    "leaf",
-    "fresh lemon juice",
-    "chopped fresh parsley",
-    "sea salt",
-    "black pepper",
-    "Lemon wedges for serving"
+    "زيت زيتون بكر ممتاز",
+    "بصلة متوسطة، مقطعة مكعبات",
+    "جزر، مقطع مكعبات",
+    "سيقان كرفس، مقطعة مكعبات",
+    "ثوم، مفروم",
+    "صدور دجاج بدون جلد، مقطعة مكعبات",
+    "مرق دجاج قليل الصوديوم",
+    "معكرونة أورزو",
+    "أوريغانو مجفف",
+    "زعتر مجفف",
+    "ورقة غار",
+    "عصير ليمون طازج",
+    "بقدونس طازج مفروم",
+    "ملح بحر",
+    "فلفل أسود",
+    "شرائح ليمون للتقديم"
   ],
   "instructions": [
-    "Heat the olive oil in a large soup pot over medium heat.",
-    "Add the onion, carrots, and celery. Cook for 6–8 minutes until softened.",
-    "Add the garlic and cook for 1 minute.",
-    "Stir in the diced chicken and cook until lightly browned.",
-    "Pour in the chicken broth.",
-    "Add the oregano, thyme, bay leaf, salt, and pepper.",
-    "Bring to a boil, then reduce to a gentle simmer for 15 minutes.",
-    "Stir in the orzo pasta and cook for another 8–10 minutes until tender.",
-    "Remove the bay leaf.",
-    "Stir in the lemon juice and chopped parsley.",
-    "Taste and adjust seasoning if needed.",
-    "Serve hot with fresh lemon wedges."
+    "سخن زيت الزيتون في قدر شوربة كبير على نار متوسطة.",
+    "أضف البصل والجزر والكرفس. اطهُ لمدة 6–8 دقائق حتى تطرى الخضار.",
+    "أضف الثوم واطهُ لمدة 1 دقيقة.",
+    "أضف مكعبات الدجاج واطهُ حتى يتغير لونها قليلاً إلى البني.",
+    "اسكب مرق الدجاج.",
+    "أضف الأوريغانو، والزعتر، وورقة الغار، والملح، والفلفل الأسود.",
+    "اترك المزيج يغلي، ثم قلل الحرارة ليغلي بهدوء لمدة 15 دقيقة.",
+    "أضف معكرونة الأورزو واطهُ لمدة 8–10 دقائق أخرى حتى تنضج.",
+    "أزل ورقة الغار.",
+    "أضف عصير الليمون والبقدونس المفروم.",
+    "تذوق الشوربة واضبط التوابل حسب الحاجة.",
+    "قدمها ساخنة مع شرائح الليمون الطازجة."
   ],
   "healthBenefits": [
-    "Excellent source of lean protein",
-    "Provides essential B vitamins",
-    "Supports muscle maintenance",
-    "Contains vitamin C from fresh lemon",
-    "Balanced carbohydrates for sustained energy",
-    "Comforting and nourishing meal"
+    "مصدر ممتاز للبروتين الخالي من الدهون",
+    "يوفر فيتامينات B الأساسية",
+    "يدعم الحفاظ على العضلات",
+    "يحتوي على فيتامين C من الليمون الطازج",
+    "كربوهيدرات متوازنة لطاقة مستمرة",
+    "وجبة مريحة ومغذية"
   ],
   "keywords": [
-    "Chicken Orzo Soup",
-    "Mediterranean Chicken Soup",
-    "Healthy Chicken Soup",
-    "Lemon Chicken Orzo",
-    "Easy Chicken Soup Recipe"
+    "شوربة الدجاج بالأورزو",
+    "شوربة الدجاج المتوسطية",
+    "شوربة دجاج صحية",
+    "أورزو الدجاج بالليمون",
+    "وصفة شوربة دجاج سهلة"
   ],
   "tags": [
-    "soup",
-    "Mediterranean",
-    "chicken",
-    "high protein",
-    "family dinner",
-    "comfort food",
-    "meal prep"
+    "شوربة",
+    "متوسطي",
+    "دجاج",
+    "عالي البروتين",
+    "عشاء عائلي",
+    "طعام مريح",
+    "تحضير الوجبات"
   ]
 };
 

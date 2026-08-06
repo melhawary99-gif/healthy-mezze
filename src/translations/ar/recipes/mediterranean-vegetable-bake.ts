@@ -1,68 +1,68 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "b9bdbd976fd1a04d8c765172f5a440fc7f494181fecce081978d2dbe41aa50ec";
 
 const translation: RecipeTranslation = {
-  "title": "Mediterranean Vegetable Bake",
-  "description": "A colorful baked casserole featuring zucchini, eggplant, bell peppers, chickpeas, tomatoes, and Mediterranean herbs in a light tomato sauce.",
-  "longDescription": "Mediterranean Vegetable Bake is a wholesome vegetarian dish packed with colorful vegetables, protein-rich chickpeas, aromatic herbs, and a rich tomato sauce. Slowly baked until perfectly tender, this comforting meal is naturally high in fiber, vitamins, and antioxidants. Serve it as a main course with whole-grain bread, quinoa, or brown rice for a nutritious Mediterranean-inspired dinner.",
+  "title": "صينية الخضار على طريقة البحر الأبيض المتوسط",
+  "description": "كاسرول مخبوز ملون يحتوي على الكوسى، والباذنجان، والفلفل الرومي، والحمص، والطماطم، والأعشاب المتوسطية في صلصة طماطم خفيفة.",
+  "longDescription": "تعد صينية الخضار على طريقة البحر الأبيض المتوسط وجبة نباتية صحية مليئة بالخضروات الملونة، والحمص الغني بالبروتين، والأعشاب العطرية، وصلصة الطماطم الغنية. تُخبز ببطء حتى تنضج تمامًا وتصبح طرية، وتتميز هذه الوجبة المشبعة بكونها غنية طبيعيًا بالألياف، والفيتامينات، ومضادات الأكسدة. قدمها كطبق رئيسي مع خبز الحبوب الكاملة، أو الكينوا، أو الأرز البني لعشاء مغذٍ مستوحى من مطبخ البحر الأبيض المتوسط.",
   "ingredients": [
-    "Medium zucchini, sliced",
-    "Medium eggplant, cubed",
-    "peppers, chopped",
-    "Large onion, sliced",
-    "cloves, minced",
-    "cherry tomatoes",
-    "(400 g) chickpeas, drained and rinsed",
-    "tomato paste",
-    "extra virgin olive oil",
-    "dried oregano",
-    "dried thyme",
-    "paprika",
-    "ground cumin",
-    "sea salt",
-    "black pepper",
-    "low-sodium vegetable broth",
-    "chopped fresh parsley",
-    "chopped fresh basil"
+    "كوسى متوسطة الحجم، مقطعة إلى شرائح",
+    "باذنجان متوسط الحجم، مقطع إلى مكعبات",
+    "فلفل رومي، مقطع",
+    "بصلة كبيرة، مقطعة إلى شرائح",
+    "فصوص ثوم، مفرومة",
+    "طماطم كرزية",
+    "(400 g) حمص، مصفى ومغسول",
+    "معجون طماطم",
+    "زيت زيتون بكر ممتاز",
+    "أوريغانو مجفف",
+    "زعتر مجفف",
+    "بابريكا",
+    "كمون مطحون",
+    "ملح بحر",
+    "فلفل أسود",
+    "مرق خضار قليل الصوديوم",
+    "بقدونس طازج مفروم",
+    "ريحان طازج مفروم"
   ],
   "instructions": [
-    "Preheat the oven to 200°C (400°F).",
-    "Lightly grease a large baking dish with olive oil.",
-    "Arrange the zucchini, eggplant, bell peppers, onion, tomatoes, and chickpeas evenly in the dish.",
-    "In a bowl, whisk together the olive oil, tomato paste, garlic, vegetable broth, oregano, thyme, paprika, cumin, salt, and pepper.",
-    "Pour the tomato mixture evenly over the vegetables.",
-    "Gently toss until everything is coated.",
-    "Cover the baking dish with foil.",
-    "Bake for 30 minutes.",
-    "Remove the foil and continue baking for another 15 minutes until the vegetables are tender and lightly caramelized.",
-    "Sprinkle with fresh parsley and basil before serving.",
-    "Serve warm on its own or with quinoa, brown rice, or whole-grain pita bread."
+    "سخن الفرن مسبقًا إلى 200°C (400°F).",
+    "ادهن صينية خبز كبيرة بقليل من زيت الزيتون.",
+    "رتب الكوسى، والباذنجان، والفلفل الرومي، والبصل، والطماطم، والحمص بشكل متساوٍ في الصينية.",
+    "في وعاء، اخفق زيت الزيتون، ومعجون الطماطم، والثوم، ومرق الخضار، والأوريغانو، والزعتر، والبابريكا، والكمون، والملح، والفلفل الأسود معًا.",
+    "اسكب مزيج الطماطم بالتساوي فوق الخضار.",
+    "قلّب المكونات برفق حتى تتغطى بالكامل.",
+    "غطّ صينية الخبز ورق ألومنيوم.",
+    "اخبز لمدة 30 دقيقة.",
+    "أزل ورق الألومنيوم وواصل الخبز لمدة 15 دقيقة أخرى حتى تكتسب الخضار طراوة وتتحمر خفيفًا.",
+    "رش البقدونس والريحان الطازجين قبل التقديم.",
+    "قدمها دافئة بمفردها أو مع الكينوا، أو الأرز البني، أو خبز البيتا المصنوع من الحبوب الكاملة."
   ],
   "healthBenefits": [
-    "Rich in dietary fiber",
-    "Excellent source of antioxidants",
-    "Provides plant-based protein",
-    "High in vitamins A and C",
-    "Heart-healthy olive oil",
-    "Naturally vegetarian and Mediterranean diet friendly"
+    "غني بالألياف الغذائية",
+    "مصدر ممتاز لمضادات الأكسدة",
+    "يوفر بروتينًا نباتيًا",
+    "غني بفيتامينات A و C",
+    "زيت زيتون مفيد لصحة القلب",
+    "نباتي طبيعيًا ومناسب لنظام البحر الأبيض المتوسط الغذائي"
   ],
   "keywords": [
-    "Mediterranean Vegetable Bake",
-    "Healthy Vegetable Casserole",
-    "Vegetarian Mediterranean Recipe",
-    "Roasted Vegetables",
-    "Healthy Vegetable Bake"
+    "صينية خضار على طريقة البحر الأبيض المتوسط",
+    "كاسرول خضار صحي",
+    "وصفة متوسطية نباتية",
+    "خضار مشوية",
+    "خضار مخبوزة صحية"
   ],
   "tags": [
-    "main dish",
-    "Mediterranean",
-    "Lebanese",
-    "vegetarian",
-    "vegan",
-    "vegetables",
-    "healthy",
-    "oven baked"
+    "طبق رئيسي",
+    "بحر أبيض متوسط",
+    "لبناني",
+    "نباتي",
+    "نباتي صرف",
+    "خضروات",
+    "صحي",
+    "مخبوز في الفرن"
   ]
 };
 

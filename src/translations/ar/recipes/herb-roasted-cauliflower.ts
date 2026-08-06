@@ -1,63 +1,63 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "10fe075ec2c2d575d193be277056f173ade078e72300028a6476c0becce9d41e";
 
 const translation: RecipeTranslation = {
-  "title": "Herb-Roasted Cauliflower",
-  "description": "Tender roasted cauliflower florets seasoned with Mediterranean herbs, garlic, paprika, olive oil, and finished with fresh lemon and parsley.",
-  "longDescription": "Herb-Roasted Cauliflower is a simple yet flavorful Mediterranean dish that transforms fresh cauliflower into a crispy, caramelized delight. Roasted with extra virgin olive oil, garlic, paprika, oregano, thyme, and finished with fresh lemon juice and parsley, it's an excellent healthy side dish or light vegetarian meal packed with fiber, vitamins, and antioxidants.",
+  "title": "قرنبيط مشوي بالأعشاب",
+  "description": "زهرات قرنبيط طرية ومشوية ومتبلة بأعشاب البحر الأبيض المتوسط، والثوم، والبابريكا، وزيت الزيتون، وتُقدم مع الليمون الطازج والبقدونس.",
+  "longDescription": "القرنبيط المشوي بالأعشاب هو طبق متوسطي بسيط وغني بالنكهات يحول القرنبيط الطازج إلى وجبة مقرمشة ومكرملة شهية. يُشوى مع زيت الزيتون البكر الممتاز، والثوم، والبابريكا، والأوريغانو، والزعتر، ويُزين بعصير الليمون الطازج والبقدونس، مما يجعله طبقًا جانبيًا صحيًا ممتازًا أو وجبة نباتية خفيفة مليئة بالألياف والفيتامينات ومضادات الأكسدة.",
   "ingredients": [
-    "Large cauliflower, cut into florets",
-    "extra virgin olive oil",
-    "cloves, minced",
-    "paprika",
-    "dried oregano",
-    "dried thyme",
-    "ground cumin",
-    "sea salt",
-    "black pepper",
-    "chopped fresh parsley",
-    "fresh lemon juice",
-    "Lemon wedges for serving"
+    "رأس قرنبيط كبير، مقطع إلى زهرات",
+    "زيت زيتون بكر ممتاز",
+    "فصوص ثوم مفرومة",
+    "بابريكا",
+    "أوريغانو مجفف",
+    "زعتر مجفف",
+    "كمون مطحون",
+    "ملح البحر",
+    "فلفل أسود",
+    "بقدونس طازج مفروم",
+    "عصير ليمون طازج",
+    "شرائح ليمون للتقديم"
   ],
   "instructions": [
-    "Preheat the oven to 220°C (425°F).",
-    "Line a large baking tray with parchment paper.",
-    "Place the cauliflower florets into a large bowl.",
-    "Add olive oil, garlic, paprika, oregano, thyme, cumin, salt, and pepper.",
-    "Toss until all florets are evenly coated.",
-    "Spread the cauliflower in a single layer on the baking tray.",
-    "Roast for 25–30 minutes, turning halfway through, until golden brown and tender.",
-    "Transfer to a serving dish.",
-    "Drizzle with fresh lemon juice.",
-    "Sprinkle with chopped parsley.",
-    "Serve immediately with lemon wedges."
+    "سخن الفرن مسبقًا إلى 220 درجة مئوية (425 درجة فهرنهايت).",
+    "بطّن صينية خبز كبيرة بورق الزبدة.",
+    "ضع زهرات القرنبيط في وعاء كبير.",
+    "أضف زيت الزيتون، والثوم، والبابريكا، والأوريغانو، والزعتر، والكمون، والملح، والفلفل الأسود.",
+    "قلّب المكونات جيدًا حتى تتغطى جميع الزهرات بالتساوي.",
+    "وزّع القرنبيط في طبقة واحدة على صينية الخبز.",
+    "اشوِ لمدة 25–30 دقيقة، مع التقليب في منتصف المدة، حتى يصبح لونه ذهبيًا وطريًا.",
+    "انقل القرنبيط إلى طبق التقديم.",
+    "رش عليه عصير الليمون الطازج.",
+    "زيّن بالبقدونس المفروم.",
+    "قدّمه فورًا مع شرائح الليمون."
   ],
   "healthBenefits": [
-    "Excellent source of vitamin C",
-    "High in dietary fiber",
-    "Rich in antioxidants",
-    "Supports digestive health",
-    "Low in calories",
-    "Heart-healthy olive oil",
-    "Mediterranean diet friendly"
+    "مصدر ممتاز لفيتامين C",
+    "غني بالألياف الغذائية",
+    "غني بمضادات الأكسدة",
+    "يدعم صحة الجهاز الهضمي",
+    "قليل السعرات الحرارية",
+    "يحتوي على زيت الزيتون المفيد لصحة القلب",
+    "مناسب لنظام حمية البحر الأبيض المتوسط"
   ],
   "keywords": [
-    "Roasted Cauliflower",
-    "Mediterranean Cauliflower",
-    "Healthy Side Dish",
-    "Vegetarian Recipe",
-    "Roasted Vegetables"
+    "قرنبيط مشوي",
+    "قرنبيط متوسطي",
+    "طبق جانبي صحي",
+    "وصفة نباتية",
+    "خضروات مشوية"
   ],
   "tags": [
-    "vegetarian",
-    "vegan",
-    "Mediterranean",
-    "Lebanese",
-    "cauliflower",
-    "healthy",
-    "roasted",
-    "side dish"
+    "نباتي",
+    "نباتي صرف",
+    "متوسطي",
+    "لبناني",
+    "قرنبيط",
+    "صحي",
+    "مشوي",
+    "طبق جانبي"
   ]
 };
 

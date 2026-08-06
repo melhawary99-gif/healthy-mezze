@@ -1,66 +1,66 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "62cc0eb835d9c24080aaf15dbce4ccee088c30a9930a75eeb3aae2f72f2f995d";
 
 const translation: RecipeTranslation = {
-  "title": "Mediterranean White Bean Soup",
-  "description": "A hearty Mediterranean white bean soup with vegetables, herbs, garlic, and extra virgin olive oil.",
-  "longDescription": "This Mediterranean White Bean Soup is a wholesome and satisfying meal featuring creamy cannellini beans, fresh vegetables, aromatic herbs, and extra virgin olive oil. Blending a portion of the beans creates a naturally creamy texture while keeping the soup dairy-free. Rich in plant-based protein and fiber, it's perfect for meal prep and pairs beautifully with whole-grain bread.",
+  "title": "شوربة الفاصوليا البيضاء المتوسطية",
+  "description": "شوربة فاصوليا بيضاء متوسطية مشبعة مع الخضار، والأعشاب، والثوم، وزيت الزيتون البكر الممتاز.",
+  "longDescription": "تعد شوربة الفاصوليا البيضاء المتوسطية هذه وجبة صحية ومغذية تحتوي على فاصوليا كانيليني الكريمية، والخضار الطازجة، والأعشاب العطرية، وزيت الزيتون البكر الممتاز. وخلط جزء من الفاصوليا يمنح الشوربة قواماً كريمياً طبيعياً مع الحفاظ عليها خالية من منتجات الألبان. وبفضل غناها بالبروتين النباتي والألياف، فإنها مثالية للتحضير المسبق وتتناسق بشكل رائع مع خبز الحبوب الكاملة.",
   "ingredients": [
-    "extra virgin olive oil",
-    "Medium onion, diced",
-    "carrots, diced",
-    "stalks, diced",
-    "garlic, minced",
-    "(400 g each) cannellini beans, drained and rinsed",
-    "vegetable broth",
-    "water",
-    "dried rosemary",
-    "dried thyme",
-    "leaf",
-    "sea salt",
-    "black pepper",
-    "fresh lemon juice",
-    "chopped fresh parsley",
-    "Extra virgin olive oil for serving"
+    "زيت زيتون بكر ممتاز",
+    "بصلة متوسطة الحجم، مقطعة إلى مكعبات",
+    "جزر، مقطع إلى مكعبات",
+    "سيقان كرفس، مقطعة إلى مكعبات",
+    "ثوم، مفروم",
+    "علب فاصوليا كانيليني (400 غرام لكل منها)، مصفاة ومغسولة",
+    "مرقة خضار",
+    "ماء",
+    "إكليل الجبل مجفف",
+    "زعتر مجفف",
+    "ورقة غار",
+    "ملح بحر",
+    "فلفل أسود",
+    "عصير ليمون طازج",
+    "بقدونس طازج مفروم",
+    "زيت زيتون بكر ممتاز للتقديم"
   ],
   "instructions": [
-    "Heat the olive oil in a large soup pot over medium heat.",
-    "Cook the onion, carrots, and celery for 6–8 minutes until softened.",
-    "Add the garlic and cook for 1 minute.",
-    "Stir in the rosemary, thyme, and bay leaf.",
-    "Add the white beans, vegetable broth, and water.",
-    "Bring to a boil, then reduce the heat and simmer for 25 minutes.",
-    "Remove the bay leaf.",
-    "Blend about one-third of the soup until smooth, then stir it back into the pot.",
-    "Season with salt and black pepper.",
-    "Stir in the lemon juice and chopped parsley.",
-    "Serve warm with a drizzle of olive oil."
+    "سخن زيت الزيتون في قدر شوربة كبير على نار متوسطة.",
+    "اطبخ البصل، والجزر، والكرفس لمدة 6–8 دقائق حتى تطرى الخضار.",
+    "أضف الثوم واطبخه لمدة 1 دقيقة.",
+    "أضف إكليل الجبل، والزعتر، ورق الغار وحرك المكونات.",
+    "أضف الفاصوليا البيضاء، ومرقة الخضار، والماء.",
+    "اترك المزيج يغلي، ثم خفف النار واتركه يطهى على نار هادئة لمدة 25 دقيقة.",
+    "أزل ورقة الغار.",
+    "اطحن حوالي ثلث الشوربة حتى تصبح ناعمة، ثم أعدها إلى القدر وحركها.",
+    "تبل بالملح والفلفل الأسود.",
+    "أضف عصير الليمون والبقدونس المفروم وحرك المكونات.",
+    "قدمها دافئة مع رشة من زيت الزيتون."
   ],
   "healthBenefits": [
-    "Excellent source of plant protein",
-    "Very high in dietary fiber",
-    "Supports heart health",
-    "Rich in folate and iron",
-    "Naturally cholesterol-free",
-    "Promotes digestive health"
+    "مصدر ممتاز للبروتين النباتي",
+    "غنية جداً بالألياف الغذائية",
+    "تدعم صحة القلب",
+    "غنية بالفولات والحديد",
+    "خالية طبيعياً من الكوليسترول",
+    "تعزز صحة الجهاز الهضمي"
   ],
   "keywords": [
-    "White Bean Soup",
-    "Cannellini Bean Soup",
-    "Mediterranean Bean Soup",
-    "Healthy Bean Soup",
-    "Vegetarian Soup"
+    "شوربة الفاصوليا البيضاء",
+    "شوربة فاصوليا كانيليني",
+    "شوربة الفاصوليا المتوسطية",
+    "شوربة فاصوليا صحية",
+    "شوربة نباتية"
   ],
   "tags": [
-    "soup",
-    "Mediterranean",
-    "vegetarian",
-    "vegan",
-    "high fiber",
-    "high protein",
-    "meal prep",
-    "healthy"
+    "شوربة",
+    "متوسطي",
+    "نباتي",
+    "نباتي تام",
+    "عالي الألياف",
+    "عالي البروتين",
+    "تحضير الوجبات",
+    "صحي"
   ]
 };
 

@@ -1,62 +1,62 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "61e6b48b86632ae56b89c069a5dfa87001b6969cd67b81b3e6d12f86f120e20c";
 
 const translation: RecipeTranslation = {
-  "title": "Roasted Pumpkin Soup",
-  "description": "A creamy Mediterranean pumpkin soup made with roasted pumpkin, carrots, garlic, warm spices, and olive oil.",
-  "longDescription": "This Roasted Pumpkin Soup combines naturally sweet roasted pumpkin with carrots, onions, garlic, and Mediterranean herbs to create a velvety, nourishing soup. Roasting the vegetables intensifies their flavor while blending them creates a creamy texture without dairy. Finished with a drizzle of extra virgin olive oil and fresh parsley, it's a comforting meal that's perfect for cooler weather.",
+  "title": "شوربة القرع المشوي",
+  "description": "شوربة قرع متوسطية كريمية مصنوعة من القرع المشوي، والجزر، والثوم، والتوابل الدافئة، وزيت الزيتون.",
+  "longDescription": "تجمع شوربة القرع المشوي هذه بين القرع المشوي الحلو طبيعيًا والجزر والبصل والثوم والأعشاب المتوسطية لتحضير شوربة مخملية ومغذية. يعزز شوى الخضار نكهتها، بينما يمنحها الخفق قوامًا كريميًا دون الحاجة لمنتجات الألبان. مع لمسة من زيت الزيتون البكر الممتاز والبقدونس الطازج، تُعد هذه الوجبة المريحة مثالية للطقس البارد.",
   "ingredients": [
-    "pumpkin, peeled and cubed",
-    "carrots, sliced",
-    "Medium onion, quartered",
-    "cloves",
-    "extra virgin olive oil",
-    "vegetable broth",
-    "ground cumin",
-    "ground cinnamon",
-    "paprika",
-    "sea salt",
-    "black pepper",
-    "chopped fresh parsley",
-    "Roasted pumpkin seeds for garnish (optional)"
+    "قرع، مقشر ومقطع إلى مكعبات",
+    "جزر، مقطع إلى شرائح",
+    "بصلة متوسطة الحجم، مقطعة إلى أرباع",
+    "فصوص ثوم",
+    "زيت زيتون بكر ممتاز",
+    "مرق خضار",
+    "كمون مطحون",
+    "قرفة مطحونة",
+    "بابريكا",
+    "ملح بحر",
+    "فلفل أسود",
+    "بقدونس طازج مفروم",
+    "بذور القرع المحمصة للتزيين (اختياري)"
   ],
   "instructions": [
-    "Preheat the oven to 200°C (400°F).",
-    "Arrange the pumpkin, carrots, onion, and garlic on a baking tray.",
-    "Drizzle with olive oil and season with salt and pepper.",
-    "Roast for 35–40 minutes until tender and lightly caramelized.",
-    "Transfer the roasted vegetables to a large soup pot.",
-    "Add the vegetable broth, cumin, cinnamon, and paprika.",
-    "Bring to a gentle simmer for 10 minutes.",
-    "Blend until completely smooth using an immersion blender or countertop blender.",
-    "Taste and adjust seasoning.",
-    "Serve warm garnished with parsley, roasted pumpkin seeds, and a drizzle of olive oil."
+    "سخن الفرن مسبقًا إلى 200 درجة مئوية (400 درجة فهرنهايت).",
+    "رتب القرع والجزر والبصل والثوم على صينية خبز.",
+    "رش زيت الزيتون وتبل بالملح والفلفل.",
+    "اشوِ الخضار لمدة 35–40 دقيقة حتى تصبح طرية وتتحمر خفيفًا.",
+    "انقل الخضار المشوية إلى قدر شوربة كبير.",
+    "أضف مرق الخضار والكمون والقرفة والبابريكا.",
+    "اترك المزيج يغلي على نار هادئة لمدة 10 دقائق.",
+    "اخفق المزيج حتى يصبح ناعمًا تمامًا باستخدام خلاط يدوي أو خلاط كهربائي.",
+    "تذوق واضبط التوابل حسب الرغبة.",
+    "قدم الشوربة دافئة ومزينة بالبقدونس وبذور القرع المحمصة ولمسة من زيت الزيتون."
   ],
   "healthBenefits": [
-    "Excellent source of vitamin A",
-    "Rich in beta-carotene",
-    "Supports eye health",
-    "High in antioxidants",
-    "Good source of dietary fiber",
-    "Naturally dairy-free and low in saturated fat"
+    "مصدر ممتاز لفيتامين A",
+    "غني بالبيتا كاروتين",
+    "يدعم صحة العين",
+    "غني بمضادات الأكسدة",
+    "مصدر جيد للألياف الغذائية",
+    "خالٍ من منتجات الألبان طبيعيًا وقليل الدهون المشبعة"
   ],
   "keywords": [
-    "Roasted Pumpkin Soup",
-    "Mediterranean Pumpkin Soup",
-    "Healthy Pumpkin Soup",
-    "Creamy Pumpkin Soup",
-    "Easy Pumpkin Soup"
+    "شوربة القرع المشوي",
+    "شوربة القرع المتوسطية",
+    "شوربة القرع الصحية",
+    "شوربة القرع الكريمية",
+    "شوربة القرع السهلة"
   ],
   "tags": [
-    "soup",
-    "Mediterranean",
-    "vegetarian",
-    "vegan",
-    "pumpkin",
-    "healthy",
-    "meal prep",
-    "comfort food"
+    "شوربة",
+    "متوسطي",
+    "نباتي",
+    "نباتي صرف",
+    "قرع",
+    "صحي",
+    "تجهيز الوجبات",
+    "طعام مريح"
   ]
 };
 

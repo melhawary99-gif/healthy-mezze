@@ -1,67 +1,67 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "8e19362a5284377068f5ea4bc1ad5335fb1f7f465b130f43369bed48b601f168";
 
 const translation: RecipeTranslation = {
-  "title": "Mediterranean Shakshuka",
-  "description": "Poached eggs simmered in a rich tomato sauce with peppers, onions, garlic, and Mediterranean spices. A healthy and flavorful breakfast enjoyed throughout the Middle East.",
-  "longDescription": "Mediterranean Shakshuka is a classic breakfast made by gently poaching eggs in a fragrant tomato sauce seasoned with garlic, onions, bell peppers, cumin, paprika, and herbs. Served with warm pita or crusty bread, it's a protein-rich meal that's naturally gluten-free (without bread) and packed with vegetables.",
+  "title": "الشكشوكة المتوسطية",
+  "description": "بيض مسلوق بلطف ومطهو في صلصة طماطم غنية مع الفلفل، والبصل، والثوم، والبهارات المتوسطية. فطور صحي ولذيذ يستمتع به في جميع أنحاء الشرق الأوسط.",
+  "longDescription": "الشكشوكة المتوسطية هي وجبة فطور كلاسيكية تُحضر عن طريق سلق البيض برفق في صلصة طماطم عطرة ومتبلة بالثوم، والبصل، والفلفل الرومي، والكمون، والبابريكا، والأعشاب. تُقدم مع خبز البيتا الدافئ أو الخبز المقرمش، وهي وجبة غنية بالبروتين وخالية طبيعياً من الغلوتين (بدون الخبز) ومحشوة بالخضار.",
   "ingredients": [
-    "extra virgin olive oil",
-    "Medium onion, diced",
-    "Red bell pepper, diced",
-    "cloves, minced",
-    "crushed tomatoes",
-    "tomato paste",
-    "ground cumin",
-    "paprika",
-    "ground coriander",
-    "chili flakes (optional)",
-    "sea salt",
-    "black pepper",
-    "Large eggs",
-    "chopped fresh parsley",
-    "crumbled feta cheese (optional)",
-    "Warm pita bread for serving"
+    "زيت زيتون بكر ممتاز",
+    "بصلة متوسطة، مقطعة إلى مكعبات",
+    "فلفل أحمر حلو، مقطع إلى مكعبات",
+    "فصوص ثوم، مفرومة",
+    "طماطم مهروسة",
+    "معجون طماطم",
+    "كمون مطحون",
+    "بابريكا",
+    "كزبرة مطحونة",
+    "رقائق الفلفل الحار (اختياري)",
+    "ملح البحر",
+    "فلفل أسود",
+    "بيض كبير الحجم",
+    "بقدونس طازج مفروم",
+    "جبن فيتا مفتت (اختياري)",
+    "خبز بيتا دافئ للتقديم"
   ],
   "instructions": [
-    "Heat olive oil in a large skillet over medium heat.",
-    "Cook the onion for 4 minutes until softened.",
-    "Add the diced bell pepper and cook for another 5 minutes.",
-    "Stir in the garlic and cook for 1 minute.",
-    "Add crushed tomatoes, tomato paste, cumin, paprika, coriander, chili flakes, salt, and pepper.",
-    "Simmer the sauce for 15 minutes until slightly thickened.",
-    "Using a spoon, create four small wells in the sauce.",
-    "Carefully crack one egg into each well.",
-    "Cover the skillet and cook for 6–8 minutes until the egg whites are set and the yolks reach your preferred doneness.",
-    "Remove from heat and garnish with parsley and feta cheese if using.",
-    "Serve immediately with warm pita bread."
+    "سخن زيت الزيتون في مقلاة كبيرة على نار متوسطة.",
+    "اطبخ البصل لمدة 4 دقائق حتى يذبل.",
+    "أضف الفلفل الحلو المقطع واطبخه لمدة 5 دقائق أخرى.",
+    "قلّب الثوم واطبخه لمدة 1 دقيقة.",
+    "أضف الطماطم المهروسة، ومعجون الطماطم، والكمون، والبابريكا، والكزبرة، ورقائق الفلفل الحار، والملح، والفلفل الأسود.",
+    "اترك الصلصة تغلي على نار هادئة لمدة 15 دقيقة حتى تتكثف قليلاً.",
+    "باستخدام ملعقة، اصنع 4 فجوات صغيرة في الصلصة.",
+    "اكسر بيضة واحدة بحذر في كل فجوة.",
+    "غطّ المقلاة واطبخ لمدة 6–8 دقائق حتى ينضج بياض البيض ويصل الصفار إلى درجة النضج المفضلة لديك.",
+    "ارفع المقلاة عن النار وزين بالبقدونس وجبن الفيتا في حال استخدامه.",
+    "قدمها فوراً مع خبز البيتا الدافئ."
   ],
   "healthBenefits": [
-    "High-quality protein from eggs",
-    "Rich in vitamin C from peppers",
-    "Excellent source of lycopene from tomatoes",
-    "Contains heart-healthy olive oil",
-    "Packed with antioxidants",
-    "Mediterranean diet friendly",
-    "Naturally gluten-free without bread"
+    "بروتين عال الجودة من البيض",
+    "غني بفيتامين C من الفلفل",
+    "مصدر ممتاز للليكوبين من الطماطم",
+    "يحتوي على زيت الزيتون الصحي للقلب",
+    "غني بمضادات الأكسدة",
+    "مناسب للنظام الغذائي المتوسطي",
+    "خالٍ من الغلوتين طبيعياً بدون الخبز"
   ],
   "keywords": [
-    "Shakshuka",
-    "Mediterranean Breakfast",
-    "Healthy Egg Breakfast",
-    "Middle Eastern Breakfast",
-    "Tomato Egg Recipe"
+    "شكشوكة",
+    "فطور متوسطي",
+    "فطور بيض صحي",
+    "فطور شرقي",
+    "وصفة البيض بالطماطم"
   ],
   "tags": [
-    "breakfast",
-    "Mediterranean",
-    "Lebanese",
-    "eggs",
-    "healthy",
-    "tomatoes",
-    "high protein",
-    "vegetarian"
+    "فطور",
+    "متوسطي",
+    "لبناني",
+    "بيض",
+    "صحي",
+    "طماطم",
+    "عالي البروتين",
+    "نباتي"
   ]
 };
 

@@ -1,60 +1,60 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "7e91813b26d85dc75cb11e2ca95e6f7ccd6d3c5d6d1258eb0c5393ac0b6aac87";
 
 const translation: RecipeTranslation = {
-  "title": "Mediterranean Oatmeal with Dates & Pistachios",
-  "description": "Creamy rolled oats cooked with cinnamon and topped with naturally sweet Medjool dates, crunchy pistachios, walnuts, fresh fruit, and a drizzle of honey.",
-  "longDescription": "Mediterranean Oatmeal with Dates & Pistachios transforms a classic breakfast into a nourishing Mediterranean-inspired meal. Whole grain oats are simmered until creamy, then topped with naturally sweet Medjool dates, roasted pistachios, walnuts, fresh berries, banana slices, and a touch of honey. Rich in fiber, antioxidants, and healthy fats, this breakfast provides long-lasting energy and supports heart health.",
+  "title": "شوفان البحر الأبيض المتوسط بالتمر والفستق",
+  "description": "شوفان مطبوخ بالقرفة ذو قوام كريمي ومزين بتمر المجهول الحلو طبيعياً، والفستق المقرمش، والجوز، والفواكه الطازجة، وقطرات من العسل.",
+  "longDescription": "يحول شوفان البحر الأبيض المتوسط بالتمر والفستق وجبة الإفطار الكلاسيكية إلى وجبة مغذية مستوحاة من نمط البحر الأبيض المتوسط. يُطهى الشوفان الكامل الحبة على نار هادئة حتى يصبح كريمياً، ثم يُزين بتمر المجهول الحلو طبيعياً، والفستق المحمص، والجوز، والتوت الطازج، وشرائح الموز، ولمسة من العسل. بفضل غناه بالألياف، ومضادات الأكسدة، والدهون الصحية، يوفر هذا الإفطار طاقة تدوم طويلاً ويدعم صحة القلب.",
   "ingredients": [
-    "rolled oats",
-    "low-fat milk or unsweetened almond milk",
-    "ground cinnamon",
-    "vanilla extract",
-    "dates, chopped",
-    "chopped pistachios",
-    "chopped walnuts",
-    "Small banana, sliced",
-    "fresh blueberries",
-    "honey",
-    "chia seeds",
-    "Pinch of sea salt"
+    "رقائق الشوفان",
+    "حليب قليل الدسم أو حليب اللوز غير المحلى",
+    "قرفة مطحونة",
+    "خلاصة الفانيليا",
+    "تمر مفروم",
+    "فستق مفروم",
+    "جوز مفروم",
+    "موزة صغيرة، مقطعة إلى شرائح",
+    "توت أزرق طازج",
+    "عسل",
+    "بذور الشيا",
+    "رشة من ملح البحر"
   ],
   "instructions": [
-    "Combine the oats, milk, cinnamon, vanilla, and sea salt in a saucepan.",
-    "Bring to a gentle simmer over medium heat.",
-    "Cook for 8–10 minutes, stirring occasionally until creamy.",
-    "Divide the oatmeal between two serving bowls.",
-    "Top with chopped dates, pistachios, walnuts, banana slices, and blueberries.",
-    "Sprinkle with chia seeds.",
-    "Drizzle with honey.",
-    "Serve warm."
+    "اخلط الشوفان، الحليب، القرفة، الفانيليا، وملح البحر في قدر.",
+    "دعه يغلي على نار هادئة فوق حرارة متوسطة.",
+    "اطهوه لمدة 8–10 دقائق مع التحريك من حين لآخر حتى يصبح كريمياً.",
+    "وزع الشوفان على وعائين للتقديم.",
+    "زين الوجبة بالتمر المفروم، الفستق، الجوز، شرائح الموز، والتوت الأزرق.",
+    "رش بذور الشيا.",
+    "أضف قطرات من العسل.",
+    "قدمه دافئاً."
   ],
   "healthBenefits": [
-    "Excellent source of soluble fiber",
-    "Supports heart health",
-    "Provides long-lasting energy",
-    "Rich in antioxidants",
-    "Contains healthy fats from nuts",
-    "Naturally sweetened with dates",
-    "Mediterranean diet friendly"
+    "مصدر ممتاز للألياف القابلة للذوبان",
+    "يدعم صحة القلب",
+    "يوفر طاقة تدوم طويلاً",
+    "غني بمضادات الأكسدة",
+    "يحتوي على دهون صحية من المكسرات",
+    "محلى طبيعياً بالتمر",
+    "مناسب لحمية البحر الأبيض المتوسط"
   ],
   "keywords": [
-    "Mediterranean Oatmeal",
-    "Healthy Oatmeal",
-    "Dates Recipe",
-    "Pistachio Oatmeal",
-    "Healthy Breakfast"
+    "شوفان البحر الأبيض المتوسط",
+    "شوفان صحي",
+    "وصفة بالتمر",
+    "شوفان بالفستق",
+    "إفطار صحي"
   ],
   "tags": [
-    "breakfast",
-    "Mediterranean",
-    "oatmeal",
-    "dates",
-    "pistachios",
-    "healthy",
-    "vegetarian",
-    "high fiber"
+    "إفطار",
+    "البحر الأبيض المتوسط",
+    "شوفان",
+    "تمر",
+    "فستق",
+    "صحي",
+    "نباتي",
+    "غني بالألياف"
   ]
 };
 

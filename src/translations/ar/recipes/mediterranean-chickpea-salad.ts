@@ -1,57 +1,57 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "5ed4e96e33f0215b39a078b120ed3895a9b782b455cfc79e2ba3bdc4474bc7e0";
 
 const translation: RecipeTranslation = {
-  "title": "Mediterranean Chickpea Salad",
-  "description": "A colorful Mediterranean salad with chickpeas, fresh vegetables, herbs, feta cheese, and a light lemon dressing.",
-  "longDescription": "This Mediterranean Chickpea Salad is packed with plant-based protein, fiber, and fresh vegetables. Chickpeas are combined with crisp cucumbers, juicy tomatoes, parsley, red onion, and creamy feta cheese before being tossed in a simple lemon and olive oil dressing. Perfect as a healthy lunch, light dinner, or meal-prep recipe.",
+  "title": "سلطة الحمص المتوسطية",
+  "description": "سلطة متوسطية ملونة مع الحمص، الخضروات الطازجة، الأعشاب، جبنة الفيتا، وتتبيلة الليمون الخفيفة.",
+  "longDescription": "سلطة الحمص المتوسطية هذه غنية بالبروتين النباتي، والألياف، والخضروات الطازجة. يُخلط الحمص مع الخيار المقرمش، والطماطم العصيرية، والبقدونس، والبصل الأحمر، وجبنة الفيتا الكريمية، ثم تُقلب مع تتبيلة بسيطة من الليمون وزيت الزيتون. مثالية كوجبة غداء صحية، أو عشاء خفيف، أو وصفة للتحضير المسبق للوجبات.",
   "ingredients": [
-    "cooked chickpeas, drained",
-    "cucumber, diced",
-    "tomatoes, diced",
-    "¼ red onion, finely chopped",
-    "½ cup chopped parsley",
-    "¼ cup chopped fresh mint",
-    "½ cup crumbled feta cheese",
-    "extra virgin olive oil",
-    "fresh lemon juice",
-    "dried oregano",
-    "½ tsp salt",
-    "¼ tsp black pepper"
+    "حمص مطبوخ ومصفى",
+    "خيار مقطع إلى مكعبات",
+    "طماطم مقطعة إلى مكعبات",
+    "¼ بصلة حمراء مفرومة ناعماً",
+    "½ كوب بقدونس مفروم",
+    "¼ كوب نعناع طازج مفروم",
+    "½ كوب جبنة فيتا مفتتة",
+    "زيت زيتون بكر ممتاز",
+    "عصير ليمون طازج",
+    "أوريغانو مجفف",
+    "½ ملعقة صغيرة ملح",
+    "¼ ملعقة صغيرة فلفل أسود"
   ],
   "instructions": [
-    "Drain and rinse the chickpeas.",
-    "Dice the cucumber and tomatoes into bite-sized pieces.",
-    "Finely chop the red onion, parsley, and mint.",
-    "Combine the chickpeas, vegetables, herbs, and feta in a large bowl.",
-    "Whisk together the olive oil, lemon juice, oregano, salt, and pepper.",
-    "Pour the dressing over the salad.",
-    "Toss gently until evenly coated.",
-    "Serve immediately or chill for 20 minutes before serving."
+    "صفِّ الحمص واغسله.",
+    "قطّع الخيار والطماطم إلى مكعبات صغيرة بحجم اللقمة.",
+    "افرُم البصل الأحمر، والبقدونس، والنعناع فرماً ناعماً.",
+    "اخلط الحمص، والخضروات، والأعشاب، وجبنة الفيتا في وعاء كبير.",
+    "اخفق زيت الزيتون، وعصير الليمون، والأوريغانو، والملح، والفلفل الأسود معاً.",
+    "اسكب التتبيلة فوق السلطة.",
+    "قلّب المكونات برفق حتى تتغطى بالتتبيلة بالتساوي.",
+    "قدّمها فوراً أو برّدها لمدة 20 دقيقة قبل التقديم."
   ],
   "healthBenefits": [
-    "High in plant-based protein",
-    "Excellent source of dietary fiber",
-    "Supports heart health",
-    "Rich in vitamins and minerals",
-    "Helps maintain healthy digestion",
-    "Naturally satisfying and filling"
+    "غنية بالبروتين النباتي",
+    "مصدر ممتاز للألياف الغذائية",
+    "تدعم صحة القلب",
+    "غنية بالفيتامينات والمعادن",
+    "تساعد على تحسين عملية الهضم الصحي",
+    "مشبعة ومغذية بطبيعتها"
   ],
   "keywords": [
-    "Mediterranean Chickpea Salad",
-    "Healthy chickpea salad",
-    "Mediterranean salad recipe",
-    "High protein salad",
-    "Healthy lunch recipe"
+    "سلطة الحمص المتوسطية",
+    "سلطة حمص صحية",
+    "وصفة سلطة متوسطية",
+    "سلطة غنية بالبروتين",
+    "وصفة غداء صحية"
   ],
   "tags": [
-    "salad",
-    "Mediterranean",
-    "healthy",
-    "vegetarian",
-    "high-protein",
-    "meal prep"
+    "سلطة",
+    "متوسطي",
+    "صحي",
+    "نباتي",
+    "غني بالبروتين",
+    "تحضير الوجبات"
   ]
 };
 

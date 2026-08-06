@@ -1,63 +1,63 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "4e3168ac4ca89d1a92d528ec35cbb9522bf5a7e6f11ab972c826e92198278145";
 
 const translation: RecipeTranslation = {
-  "title": "Mediterranean Lentil Patties",
-  "description": "Healthy baked lentil patties made with oats, herbs, garlic, onion, and Mediterranean spices. Perfect as a main dish, burger alternative, or meal-prep recipe.",
-  "longDescription": "Mediterranean Lentil Patties are packed with plant-based protein, fiber, and aromatic herbs. Made from cooked lentils, oats, parsley, garlic, onion, cumin, coriander, and paprika, these patties are baked until golden and crisp on the outside while remaining tender inside. They pair wonderfully with tahini sauce, yogurt sauce, fresh salad, or tucked into pita bread.",
+  "title": "أقراص العدس المتوسطية",
+  "description": "أقراص عدس صحية ومخبوزة مصنوعة من الشوفان والأعشاب والثوم والبصل والتوابل المتوسطية. مثالية كطبق رئيسي، أو كبديل للبرغر، أو لوجبات التحضير المسبق.",
+  "longDescription": "أقراص العدس المتوسطية غنية بالبروتين النباتي والألياف والأعشاب العطرية. تُحضر من العدس المطبوخ، والشوفان، والبقدونس، والثوم، والبصل، والكمون، والكزبرة، والبابريكا، وتُخبز هذه الأقراص حتى تصبح ذهبية ومقرمشة من الخارج مع البقاء طرية من الداخل. وتتناسب بشكل رائع مع صلصة الطحينة، أو صلصة اللبن، أو السلطة الطازجة، أو داخل خبز البيتا.",
   "ingredients": [
-    "cooked brown lentils, drained well",
-    "rolled oats",
-    "Small onion, finely chopped",
-    "cloves, minced",
-    "chopped fresh parsley",
-    "chopped fresh cilantro",
-    "egg",
-    "ground cumin",
-    "ground coriander",
-    "paprika",
-    "black pepper",
-    "sea salt",
-    "olive oil"
+    "عدس بني مطبوخ ومصفى جيدا",
+    "رقائق الشوفان",
+    "بصلة صغيرة مفرومة ناعما",
+    "فصوص ثوم مفرومة",
+    "بقدونس طازج مفروم",
+    "كزبرة طازجة مفرومة",
+    "بيضة",
+    "كمون مطحون",
+    "كزبرة مطحونة",
+    "بابريكا",
+    "فلفل أسود",
+    "ملح البحر",
+    "زيت زيتون"
   ],
   "instructions": [
-    "Preheat the oven to 200°C (400°F).",
-    "Line a baking tray with parchment paper.",
-    "Pulse the lentils and oats in a food processor until mostly combined but still slightly chunky.",
-    "Transfer the mixture to a large bowl.",
-    "Add onion, garlic, parsley, cilantro, egg, cumin, coriander, paprika, salt, pepper, and olive oil.",
-    "Mix until well combined.",
-    "Shape into 8 equal patties.",
-    "Arrange on the prepared baking tray.",
-    "Bake for 20–25 minutes, flipping halfway through, until golden brown.",
-    "Serve warm with tahini sauce, yogurt sauce, salad, or inside pita bread."
+    "سخن الفرن مسبقاً على درجة حرارة 200 درجة مئوية (400 درجة فهرنهايت).",
+    "بطن صينية خبز بورق الزبدة.",
+    "اطحن العدس والشوفان في محضرة الطعام حتى يمتزجا تقريباً مع البقاء خشنين قليلاً.",
+    "انقل الخليط إلى وعاء كبير.",
+    "أضف البصل، والثوم، والبقدونس، والكزبرة، والبيضة، والكمون، والكزبرة، والبابريكا، والملح، والفلفل، وزيت الزيتون.",
+    "اخلط المكونات جيداً حتى تتجانس.",
+    "شكل الخليط إلى 8 أقراص متساوية.",
+    "رتب الأقراص في صينية الخبز المحضرة.",
+    "اخبز لمدة 20–25 دقيقة، مع تقليب الأقراص في منتصف المدة، حتى تصبح ذهبية اللون.",
+    "قدمها دافئة مع صلصة الطحينة، أو صلصة اللبن، أو السلطة، أو داخل خبز البيتا."
   ],
   "healthBenefits": [
-    "Excellent source of plant-based protein",
-    "High in dietary fiber",
-    "Supports heart health",
-    "Rich in iron and folate",
-    "Helps maintain healthy digestion",
-    "Provides long-lasting energy",
-    "Mediterranean diet friendly"
+    "مصدر ممتاز للبروتين النباتي",
+    "غني بالألياف الغذائية",
+    "يدعم صحة القلب",
+    "غني بالحديد وحمض الفوليك",
+    "يساعد على الحفاظ على صحة الجهاز الهضمي",
+    "يوفر طاقة طويلة الأمد",
+    "مناسب لنظام حمية البحر الأبيض المتوسط"
   ],
   "keywords": [
-    "Lentil Patties",
-    "Mediterranean Vegetarian",
-    "Healthy Lentil Recipe",
-    "Plant Based Protein",
-    "Vegetarian Burger"
+    "أقراص العدس",
+    "نباتي متوسطي",
+    "وصفة عدس صحية",
+    "بروتين نباتي",
+    "برغر نباتي"
   ],
   "tags": [
-    "vegetarian",
-    "Mediterranean",
-    "Lebanese",
-    "lentils",
-    "healthy",
-    "meal prep",
-    "protein",
-    "baked"
+    "نباتي",
+    "متوسطي",
+    "لبناني",
+    "عدس",
+    "صحي",
+    "تحضير الوجبات",
+    "بروتين",
+    "مخبوز"
   ]
 };
 

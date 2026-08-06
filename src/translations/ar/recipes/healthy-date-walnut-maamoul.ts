@@ -1,68 +1,68 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "39d3a5f9c39ee07457529eca7942faed7bf5683cce55cc85ed39659ef3815a4a";
 
 const translation: RecipeTranslation = {
-  "title": "Healthy Date & Walnut Ma'amoul",
-  "description": "Soft whole wheat Ma'amoul cookies filled with naturally sweet Medjool dates, walnuts, cinnamon, and lightly scented with orange blossom water.",
-  "longDescription": "Ma'amoul is a traditional Middle Eastern cookie enjoyed throughout Egypt and Lebanon during holidays and family gatherings. This healthier version replaces butter with extra virgin olive oil, uses whole wheat flour for extra fiber, and relies on naturally sweet Medjool dates instead of refined sugar. Chopped walnuts and warm spices create a rich, satisfying filling while keeping the cookies wholesome and delicious.",
+  "title": "معمول صحي بالتمر والجوز",
+  "description": "كعك المعمول الطري المصنوع من القمح الكامل، والمحشو بتمر المجهول الحلو طبيعياً، والجوز، والقرفة، والمعطر بنكهة خفيفة من ماء الزهر.",
+  "longDescription": "المعمول هو كعك تقليدي من الشرق الأوسط يُستمتع به في جميع أنحاء مصر ولبنان خلال الأعياد والتجمعات العائلية. تستبدل هذه النسخة الأصح الزبدة بزيت الزيتون البكر الممتاز، وتستخدم دقيق القمح الكامل للحصول على ألياف إضافية، وتعتمد على تمر المجهول الحلو طبيعياً بدلاً من السكر المكرر. يضفي الجوز المفروم والتوابل الدافئة حشوة غنية ومغذية مع الحفاظ على الكعك صحياً ولذيداً.",
   "ingredients": [
-    "whole wheat flour",
-    "fine semolina",
-    "baking powder",
-    "salt",
-    "extra virgin olive oil",
-    "plain Greek yogurt",
-    "milk",
-    "orange blossom water",
-    "vanilla extract",
-    "For the filling:",
-    "dates, pitted and finely chopped",
-    "finely chopped walnuts",
-    "ground cinnamon",
-    "ground cardamom",
-    "orange blossom water"
+    "دقيق القمح الكامل",
+    "سميد ناعم",
+    "مسحوق الخبز",
+    "ملح",
+    "زيت زيتون بكر ممتاز",
+    "لبن زبادي يوناني سادة",
+    "حليب",
+    "ماء الزهر",
+    "خلاصة الفانيليا",
+    "للحشوة:",
+    "تمر منزوع النوى ومفروم ناعماً",
+    "جوز مفروم ناعماً",
+    "قرفة مطحونة",
+    "هيل مطحون",
+    "ماء الزهر"
   ],
   "instructions": [
-    "Preheat the oven to 350°F (175°C).",
-    "Line a baking tray with parchment paper.",
-    "Combine the whole wheat flour, semolina, baking powder, and salt in a large bowl.",
-    "Mix in the olive oil until the mixture resembles coarse crumbs.",
-    "Add the Greek yogurt, milk, vanilla, and orange blossom water. Mix into a soft dough.",
-    "Cover and let the dough rest for 20 minutes.",
-    "Mix the chopped dates, walnuts, cinnamon, cardamom, and orange blossom water to prepare the filling.",
-    "Divide the dough into small balls.",
-    "Flatten each ball, place a spoonful of filling in the center, then seal and reshape into a ball.",
-    "Press gently into a Ma'amoul mold or decorate with a fork if desired.",
-    "Arrange on the prepared baking tray.",
-    "Bake for 15–18 minutes until lightly golden on the bottom.",
-    "Cool completely before serving."
+    "سخن الفرن مسبقاً إلى 350 درجة فهرنهايت (175 درجة مئوية).",
+    "بطن صينية خبز بورق الزبدة.",
+    "اخلط دقيق القمح الكامل والسميد ومسحوق الخبز والملح في وعاء كبير.",
+    "أضف زيت الزيتون واخلطه حتى يصبح المزيج شبيهاً بالفتات الخشن.",
+    "أضف الزبادي اليوناني والحليب والفانيليا وماء الزهر. اخلط المكونات حتى تتكون عجينة طرية.",
+    "غطّ العجينة واتركها ترتاح لمدة 20 دقيقة.",
+    "اخلط التمر المفروم والجوز والقرفة والهيل وماء الزهر لإعداد الحشوة.",
+    "قسّم العجينة إلى كرات صغيرة.",
+    "افرد كل كرة، وضغط ملعقة من الحشوة في المنتصف، ثم أغلقها وأعد تشكيلها على هيئة كرة.",
+    "اضغطها بلطف في قالب المعمول أو زيّنها بشوكة حسب الرغبة.",
+    "رتب الكرات في صينية الخبز المجهزة.",
+    "اخبز لمدة 15–18 دقيقة حتى تصبح ذهبية خفيفة من الأسفل.",
+    "اتركه يبرد تماماً قبل التقديم."
   ],
   "healthBenefits": [
-    "Whole wheat flour provides dietary fiber",
-    "Dates offer natural sweetness along with potassium and antioxidants",
-    "Walnuts supply heart-healthy omega-3 fats",
-    "Olive oil replaces butter, reducing saturated fat",
-    "Lower in refined sugar than traditional Ma'amoul",
-    "Contains beneficial minerals from nuts and whole grains",
-    "Suitable as a healthier holiday treat"
+    "يوفر دقيق القمح الكامل الألياف الغذائية",
+    "يقدم التمر حلاوة طبيعية بالإضافة إلى البوتاسيوم ومضادات الأكسدة",
+    "يمد الجوز الجسم بادهون أوميغا-3 المفيدة لصحة القلب",
+    "يستبدل زيت الزيتون الزبدة، مما يقلل من الدهون المشبعة",
+    "يحتوي على نسبة أقل من السكر المكرر مقارنة بالمعمول التقليدي",
+    "يحتوي على معادن مفيدة من المكسرات والحبوب الكاملة",
+    "مناسب كحلوى صحية للأعياد والمناسبات"
   ],
   "keywords": [
-    "Healthy Ma'amoul",
-    "Date Maamoul",
-    "Whole Wheat Maamoul",
-    "Lebanese Dessert",
-    "Healthy Middle Eastern Cookies"
+    "معمول صحي",
+    "معمول بالتمر",
+    "معمول بالقمح الكامل",
+    "حلوى لبنانية",
+    "كعك شرقي صحي"
   ],
   "tags": [
-    "dessert",
-    "Lebanese",
-    "maamoul",
-    "cookies",
-    "dates",
-    "whole wheat",
-    "healthy",
-    "vegetarian"
+    "حلوى",
+    "لبناني",
+    "معمول",
+    "كعك",
+    "تمر",
+    "قمح كامل",
+    "صحي",
+    "نباتي"
   ]
 };
 

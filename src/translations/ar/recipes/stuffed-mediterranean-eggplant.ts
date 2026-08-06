@@ -1,58 +1,58 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "3f259df1c5afdff78df77cd73e77d8e6d409b9f68a59e0016ca841073a81ed9d";
 
 const translation: RecipeTranslation = {
-  "title": "Stuffed Mediterranean Eggplant",
-  "description": "A wholesome Mediterranean dish featuring roasted eggplant stuffed with quinoa, colorful vegetables, aromatic herbs, and heart-healthy olive oil.",
+  "title": "باذنجان متوسطي محشي",
+  "description": "طبق متوسطي صحي يتميز بالباذنجان المشوي المحشو بالكينوا، والخضروات الملونة، والأعشاب العطرية، وزيت الزيتون المفيد لصحة القلب.",
   "longDescription": "",
   "ingredients": [
-    "Eggplant",
-    "Tomatoes",
-    "Onion",
-    "Garlic",
-    "Bell pepper",
-    "Cooked quinoa",
-    "Fresh parsley",
-    "Olive oil",
-    "Lemon juice",
-    "Mediterranean spices"
+    "باذنجان",
+    "طماطم",
+    "بصل",
+    "ثوم",
+    "فلفل رومي",
+    "كينوا مطبوخة",
+    "بقدونس طازج",
+    "زيت زيتون",
+    "عصير ليمون",
+    "بهارات متوسطية"
   ],
   "instructions": [
-    "Preheat the oven to 200°C (400°F).",
-    "Slice the eggplants in half lengthwise and score the flesh.",
-    "Brush the eggplants with olive oil and roast until tender.",
-    "Meanwhile, sauté the onion, garlic, and bell pepper until softened.",
-    "Add the tomatoes, cooked quinoa, Mediterranean spices, and lemon juice.",
-    "Cook for a few minutes until the filling is well combined.",
-    "Scoop a small amount of flesh from the roasted eggplants and mix it into the filling.",
-    "Fill each eggplant half generously with the vegetable mixture.",
-    "Return to the oven for another 10 minutes.",
-    "Garnish with fresh parsley and serve warm."
+    "سخن الفرن مسبقًا إلى 200 درجة مئوية (400 درجة فهرنهايت).",
+    "اقطع الباذنجان إلى نصفين بالطول واعمل حزوزًا في اللحم.",
+    "ادهن الباذنجان بزيت الزيتون واشوه حتى ينضج ويصبح طريًا.",
+    "في هذه الأثناء، شوّح البصل والثوم والفلفل الرومي حتى يذبلوا.",
+    "أضف الطماطم والكينوا المطبوخة والبهارات المتوسطية وعصير الليمون.",
+    "اطبخ لبضع دقائق حتى تتداخل الحشوة جيدًا.",
+    "احفر كمية صغيرة من لب الباذنجان المشوي واخلطها مع الحشوة.",
+    "املأ كل نصف باذنجانة بسخاء بمزيج الخضار.",
+    "أعدها إلى الفرن لمدة 10 دقائق أخرى.",
+    "زيّن بالبقدونس الطازج وقدّمه دافئًا."
   ],
   "healthBenefits": [
-    "Rich in dietary fiber",
-    "Supports digestive health",
-    "Contains heart-healthy olive oil",
-    "Excellent source of vitamins and antioxidants",
-    "Provides plant-based nutrients",
-    "Supports a balanced Mediterranean diet"
+    "غني بالألياف الغذائية",
+    "يدعم صحة الجهاز الهضمي",
+    "يحتوي على زيت الزيتون المفيد لصحة القلب",
+    "مصدر ممتاز للفيتامينات ومضادات الأكسدة",
+    "يوفر مغذيات نباتية المصدر",
+    "يدعم نظامًا غذائيًا متوسطيًا متوازنًا"
   ],
   "keywords": [
-    "Stuffed Mediterranean Eggplant",
-    "Healthy Stuffed Eggplant",
-    "Vegetarian Mediterranean Recipe",
-    "Roasted Eggplant",
-    "Quinoa Stuffed Eggplant",
-    "Healthy Mediterranean Dinner"
+    "باذنجان متوسطي محشي",
+    "باذنجان محشي صحي",
+    "وصفة متوسطية نباتية",
+    "باذنجان مشوي",
+    "باذنجان محشي بالكينوا",
+    "عشاء متوسطي صحي"
   ],
   "tags": [
-    "Vegetarian",
-    "Mediterranean",
-    "Eggplant",
-    "Healthy",
-    "Quinoa",
-    "Dinner"
+    "نباتي",
+    "متوسطي",
+    "باذنجان",
+    "صحي",
+    "كينوا",
+    "عشاء"
   ]
 };
 

@@ -1,64 +1,64 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "bfce64762f7a1aca0dabcdd3ca4d403c2c79a6526e790c8e4a5d3f292b6f6021";
 
 const translation: RecipeTranslation = {
-  "title": "Healthy Kanafeh with Ricotta & Pistachios",
-  "description": "A lighter version of the classic kanafeh made with crispy kataifi pastry, part-skim ricotta, a touch of mozzarella, olive oil, and a light honey-orange blossom syrup.",
-  "longDescription": "Kanafeh is one of the Middle East's most iconic desserts, enjoyed throughout Egypt and Lebanon. Traditional recipes use large amounts of butter and sugar syrup. This healthier version uses olive oil to crisp the kataifi pastry, combines part-skim ricotta with a small amount of mozzarella for a creamy filling, and finishes with a light honey-orange blossom syrup. The result is a beautifully crisp dessert with authentic flavor and a healthier nutritional profile.",
+  "title": "كنافة صحية بالريكوتا والفستق الحلبي",
+  "description": "نسخة أخف من الكنافة الكلاسيكية مصنوعة من عجينة الكنافة المقرمشة، وجبنة الريكوتا جزئية الدسم، ولمسة من الموزاريلا، وزيت الزيتون، وقطر خفيف من العسل وماء الزهر.",
+  "longDescription": "تعد الكنافة واحدة من أشهر الحلويات في الشرق الأوسط، ويستمتع بها الجميع في مصر ولبنان. تستخدم الوصفات التقليدية كميات كبيرة من الزبدة وقطر السكر. تستخدم هذه الوصفة الأكثر صحة زيت الزيتون لجعل عجينة الكنافة مقرمشة، وتجمع بين جبنة الريكوتا جزئية الدسم مع كمية صغيرة من الموزاريلا للحصول على حشوة كريمية، وتكتمل بقطر خفيف من العسل وماء الزهر. النتيجة هي حلوى مقرمشة بنكهة أصيلة وقيمة غذائية صحية.",
   "ingredients": [
-    "(340 g) kataifi pastry, thawed",
-    "extra virgin olive oil",
-    "1½ cups part-skim ricotta cheese",
-    "reduced-fat shredded mozzarella",
-    "vanilla extract",
-    "orange blossom water",
-    "chopped pistachios",
-    "For the syrup:",
-    "honey",
-    "water",
-    "fresh lemon juice",
-    "orange blossom water"
+    "(340 غرام) عجينة كنافة، مذابة",
+    "زيت زيتون بكر ممتاز",
+    "1½ كوب جبنة ريكوتا جزئية الدسم",
+    "جبنة موزاريلا مبشورة قليلة الدسم",
+    "مستخلص الفانيليا",
+    "ماء الزهر",
+    "فستق حلبي مفروم",
+    "للقطر:",
+    "عسل",
+    "ماء",
+    "عصير ليمون طازج",
+    "ماء الزهر"
   ],
   "instructions": [
-    "Preheat the oven to 350°F (175°C).",
-    "Separate the kataifi pastry strands with your hands.",
-    "Toss the pastry evenly with the olive oil.",
-    "Combine the ricotta, mozzarella, vanilla, and orange blossom water in a bowl.",
-    "Press half of the kataifi into a lightly greased baking dish.",
-    "Spread the cheese mixture evenly over the pastry.",
-    "Cover with the remaining kataifi and gently press down.",
-    "Bake for 30–35 minutes until deep golden and crisp.",
-    "Meanwhile, gently warm the honey, water, lemon juice, and orange blossom water until combined.",
-    "Pour the warm syrup evenly over the hot kanafeh.",
-    "Allow the dessert to rest for 10 minutes.",
-    "Sprinkle with chopped pistachios before serving warm."
+    "سخن الفرن مسبقاً إلى 350 درجة فهرنهايت (175 درجة مئوية).",
+    "افصل شعيرات عجينة الكنافة بيديك.",
+    "اقلب العجينة بالتساوي مع زيت الزيتون.",
+    "اخلط الريكوتا والموزاريلا والفانيليا وماء الزهر في وعاء.",
+    "اضغط نصف كمية الكنافة في صينية خبز مدهونة بخفة.",
+    "افرد خليط الجبن بالتساوي فوق العجينة.",
+    "غطِّ بالنصف المتبقي من الكنافة واضغط عليه بلطف.",
+    "اخبز لمدة 30–35 دقيقة حتى تصبح ذهبية اللون ومقرمشة.",
+    "في هذه الأثناء، سخن العسل والماء وعصير الليمون وماء الزهر ببطء حتى تتجانس المكونات.",
+    "اسكب القطر الدافئ بالتساوي فوق الكنافة الساخنة.",
+    "اترك الحلوى ترتاح لمدة 10 دقائق.",
+    "رش الفستق الحلبي المفروم قبل التقديم دافئة."
   ],
   "healthBenefits": [
-    "Uses olive oil instead of butter",
-    "Lower in refined sugar than traditional kanafeh",
-    "Ricotta provides calcium and protein",
-    "Reduced-fat mozzarella lowers saturated fat",
-    "Pistachios contribute healthy fats and antioxidants",
-    "Smaller portions make it easier to enjoy as part of a balanced diet",
-    "Mediterranean-inspired ingredients"
+    "تستخدم زيت الزيتون بدلاً من الزبدة",
+    "أقل في السكر المكرر مقارنة بالكنافة التقليدية",
+    "توفر الريكوتا الكالسيوم والبروتين",
+    "تقلل الموزاريلا قليلة الدسم من الدهون المشبعة",
+    "يساهم الفستق الحلبي بالدهون الصحية ومضادات الأكسدة",
+    "الحصص الأصغر تجعل من السهل الاستمتاع بها كجزء من نظام غذائي متوازن",
+    "مكونات مستوحاة من البحر الأبيض المتوسط"
   ],
   "keywords": [
-    "Healthy Kanafeh",
-    "Ricotta Kanafeh",
-    "Lebanese Dessert",
-    "Egyptian Dessert",
-    "Healthy Middle Eastern Dessert"
+    "كنافة صحية",
+    "كنافة بالريكوتا",
+    "حلوى لبنانية",
+    "حلوى مصرية",
+    "حلوى شرقية صحية"
   ],
   "tags": [
-    "dessert",
-    "Lebanese",
-    "kanafeh",
-    "ricotta",
-    "healthy",
-    "Mediterranean",
-    "vegetarian",
-    "kataifi"
+    "حلوى",
+    "لبناني",
+    "كنافة",
+    "ريكوتا",
+    "صحي",
+    "متوسطي",
+    "نباتي",
+    "عجينة الكنافة"
   ]
 };
 

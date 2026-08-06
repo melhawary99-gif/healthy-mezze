@@ -1,63 +1,63 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "72bcea16de18203668ee008983c934b79fc75beec8394954de9a24ea62678996";
 
 const translation: RecipeTranslation = {
-  "title": "Roasted Cauliflower with Tahini Sauce",
-  "description": "Tender roasted cauliflower florets topped with creamy tahini sauce, toasted pine nuts, fresh parsley, and a squeeze of lemon for a delicious Lebanese mezze.",
-  "longDescription": "Roasted Cauliflower with Tahini Sauce is a classic Lebanese appetizer that transforms simple ingredients into an elegant Mediterranean dish. Oven roasting caramelizes the cauliflower, bringing out its natural sweetness while keeping it tender. A silky tahini sauce flavored with garlic and lemon complements the roasted vegetables perfectly, while toasted pine nuts and parsley add texture and freshness.",
+  "title": "القرنابيط المشوي مع صلصة الطحينة",
+  "description": "زهرات قرنابيط مشوية وطرية تعلوها صلصة طحينة كريمية، وصنوبر محمص، وبقدونس طازج، وعصرة ليمون لإعداد مزة لبنانية شهية.",
+  "longDescription": "القرنابيط المشوي مع صلصة الطحينة هو طبق مقبلات لبناني كلاسيكي يحول المكونات البسيطة إلى طبق متوسطي أنيق. يعمل التحمير في الفرن على كرملة القرنابيط، مما يبرز حلاوته الطبيعية مع الحفاظ على طراوته. وتكمل صلصة الطحينة الناعمة المنكهة بالثوم والليمون الخضار المشوية بشكل مثالي، بينما يضيف الصنوبر المحمص والبقدونس قوامًا وانتعاشًا.",
   "ingredients": [
-    "Medium cauliflower, cut into florets",
-    "extra virgin olive oil",
-    "sea salt",
-    "black pepper",
-    "ground cumin",
-    "tahini",
-    "fresh lemon juice",
-    "clove, minced",
-    "water (or more as needed)",
-    "fresh parsley, chopped",
-    "toasted pine nuts",
-    "paprika",
-    "Lemon wedges for serving"
+    "رأس قرنابيط متوسط الحجم، مقطع إلى زهرات",
+    "زيت زيتون بكر ممتاز",
+    "ملح بحر",
+    "فلفل أسود",
+    "كمون مطحون",
+    "طحينة",
+    "عصير ليمون طازج",
+    "فص ثوم مفروم",
+    "ماء (أو أكثر حسب الحاجة)",
+    "بقدونس طازج مفروم",
+    "صنوبر محمص",
+    "بابريكا",
+    "شرائح ليمون للتقديم"
   ],
   "instructions": [
-    "Preheat the oven to 425°F (220°C).",
-    "Toss the cauliflower florets with olive oil, salt, pepper, and cumin.",
-    "Spread evenly on a baking tray.",
-    "Roast for 25–30 minutes, turning halfway through, until golden and tender.",
-    "Meanwhile, whisk together tahini, lemon juice, garlic, and water until smooth and creamy.",
-    "Add additional water if needed to reach a pourable consistency.",
-    "Transfer the roasted cauliflower to a serving platter.",
-    "Drizzle generously with the tahini sauce.",
-    "Sprinkle with parsley, toasted pine nuts, and paprika.",
-    "Serve immediately with fresh lemon wedges."
+    "سخن الفرن مسبقًا إلى 425 درجة فهرنهايت (220 درجة مئوية).",
+    "اقلب زهرات القرنابيط مع زيت الزيتون والملح والفلفل والكمون.",
+    "افردها بشكل متساوٍ على صينية خبز.",
+    "اشوها لمدة 25–30 دقيقة، مع التقليب في منتصف المدة، حتى تصبح ذهبية وطرية.",
+    "في هذه الأثناء، اخفق الطحينة وعصير الليمون والثوم والماء معًا حتى يصبح المزيج ناعمًا وكريميًا.",
+    "أضف المزيد من الماء إذا لزم الأمر للوصول إلى قوام قابل للسكب.",
+    "انقل القرنابيط المشوي إلى طبق التقديم.",
+    "اسكب صلصة الطحينة بسخاء فوقه.",
+    "رش البقدونس والصنوبر المحمص والبابريكا.",
+    "قدمه فورًا مع شرائح الليمون الطازجة."
   ],
   "healthBenefits": [
-    "Excellent source of vitamin C",
-    "Rich in dietary fiber",
-    "Contains antioxidant compounds",
-    "Tahini provides healthy unsaturated fats",
-    "Good source of calcium and magnesium",
-    "Supports heart health with olive oil",
-    "Naturally vegetarian and gluten-free"
+    "مصدر ممتاز لفيتامين C",
+    "غني بالألياف الغذائية",
+    "يحتوي على مركبات مضادة للأكسدة",
+    "توفر الطحينة دهونًا صحية غير مشبعة",
+    "مصدر جيد للكالسيوم والمغنيسيوم",
+    "يدعم صحة القلب بفضل زيت الزيتون",
+    "نباتي وخالٍ من الغلوتين طبيعيًا"
   ],
   "keywords": [
-    "Roasted Cauliflower",
-    "Tahini Sauce",
-    "Lebanese Cauliflower",
-    "Healthy Mezze",
-    "Mediterranean Appetizer"
+    "قرنابيط مشوي",
+    "صلصة الطحينة",
+    "قرنابيط لبناني",
+    "مزة صحية",
+    "مقبلات متوسطية"
   ],
   "tags": [
-    "mezze",
-    "Lebanese",
-    "cauliflower",
-    "tahini",
-    "vegetarian",
-    "gluten-free",
-    "healthy",
-    "Mediterranean"
+    "مزة",
+    "لبناني",
+    "قرنابيط",
+    "طحينة",
+    "نباتي",
+    "خالٍ من الغلوتين",
+    "صحي",
+    "متوسطي"
   ]
 };
 

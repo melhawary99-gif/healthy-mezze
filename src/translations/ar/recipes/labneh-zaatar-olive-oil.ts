@@ -1,57 +1,57 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "0e2b9d4048332dd4e3b5b371d725be1a36d6ecf5282ffa678a432eeb43d95b61";
 
 const translation: RecipeTranslation = {
-  "title": "Labneh with Za'atar & Olive Oil",
-  "description": "Creamy homemade labneh topped with extra virgin olive oil, fragrant za'atar, and fresh herbs. A classic Mediterranean breakfast served with warm pita and vegetables.",
-  "longDescription": "Labneh is a thick, creamy strained yogurt that has been enjoyed across the Mediterranean for centuries. Topped with extra virgin olive oil, aromatic za'atar, and fresh mint, this protein-rich breakfast is refreshing, nutritious, and incredibly easy to prepare. Serve it with warm pita bread, cucumbers, tomatoes, olives, and fresh herbs for an authentic Mediterranean breakfast.",
+  "title": "لبنة بالزعتر وزيت الزيتون",
+  "description": "لبنة منزلية كريمية مزينة بزيت الزيتون البكر الممتاز، والزعتر العطر، والأعشاب الطازجة. فطور متوسطي كلاسيكي يُقدم مع الخبز العربي الدافئ والخضروات.",
+  "longDescription": "اللبنة هي لبن مصفى كثيف وكريمي يُستمتع به في جميع أنحاء البحر الأبيض المتوسط منذ قرون. هذا الفطور الغني بالبروتين والمزين بزيت الزيتون البكر الممتاز والزعتر العطري والنعناع الطازج، منعش ومغَذٍّ وسهل التحضير للغاية. قَدِّمْها مع الخبز العربي الدافئ والخيار والطماطم والزيتون والأعشاب الطازجة للحصول على فطور متوسطي أصيل.",
   "ingredients": [
-    "labneh",
-    "extra virgin olive oil",
-    "za'atar seasoning",
-    "chopped fresh mint",
-    "chopped parsley",
-    "sumac (optional)",
-    "Fresh cucumber slices",
-    "Cherry tomatoes",
-    "Mixed olives",
-    "Warm whole wheat pita bread"
+    "لبنة",
+    "زيت زيتون بكر ممتاز",
+    "توابل الزعتر",
+    "نعناع طازج مفروم",
+    "بقدونس مفروم",
+    "سماق (اختياري)",
+    "شرائح خيار طازجة",
+    "طماطم كرزية",
+    "زيتون مشكل",
+    "خبز عربي دافئ من القمح الكامل"
   ],
   "instructions": [
-    "Spread the labneh evenly onto a large serving plate or shallow bowl.",
-    "Using the back of a spoon, create gentle swirls across the surface.",
-    "Drizzle generously with extra virgin olive oil.",
-    "Sprinkle the za'atar evenly over the labneh.",
-    "Add fresh mint, parsley, and optional sumac.",
-    "Arrange cucumber slices, cherry tomatoes, and olives around the labneh.",
-    "Serve immediately with warm pita bread."
+    "افرد اللبنة بالتساوي في طبق تقديم كبير أو وعاء ضحل.",
+    "باستخدام ظهر الملعقة، اصنع تموجات لطيفة على السطح.",
+    "اسكب زيت الزيتون البكر الممتاز بسخاء.",
+    "رش الزعتر بالتساوي فوق اللبنة.",
+    "أضف النعناع الطازج والبقدونس والسماق (حسب الرغبة).",
+    "رتب شرائح الخيار والطماطم الكرزية والزيتون حول اللبنة.",
+    "قَدِّمْها فوراً مع الخبز العربي الدافئ."
   ],
   "healthBenefits": [
-    "Excellent source of protein",
-    "Contains probiotics for gut health",
-    "Rich in calcium",
-    "Heart-healthy olive oil",
-    "Fresh herbs provide antioxidants",
-    "Mediterranean diet friendly",
-    "Quick and nutritious breakfast"
+    "مصدر ممتاز للبروتين",
+    "يحتوي على البروبيوتيك لصحة الأمعاء",
+    "غني بالكالسيوم",
+    "زيت الزيتون المفيد لصحة القلب",
+    "الأعشاب الطازجة توفر مضادات الأكسدة",
+    "مناسب لنظام البحر الأبيض المتوسط الغذائي",
+    "فطور سريع ومغذٍّ"
   ],
   "keywords": [
-    "Labneh",
-    "Mediterranean Breakfast",
-    "Za'atar",
-    "Healthy Breakfast",
-    "Lebanese Breakfast"
+    "لبنة",
+    "فطور متوسطي",
+    "زعتر",
+    "فطور صحي",
+    "فطور لبناني"
   ],
   "tags": [
-    "breakfast",
-    "Mediterranean",
-    "Lebanese",
-    "labneh",
-    "zaatar",
-    "high protein",
-    "healthy",
-    "vegetarian"
+    "إفطار",
+    "متوسطي",
+    "لبناني",
+    "لبنة",
+    "زعتر",
+    "عالي البروتين",
+    "صحي",
+    "نباتي"
   ]
 };
 

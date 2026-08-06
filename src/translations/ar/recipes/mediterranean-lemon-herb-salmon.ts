@@ -1,58 +1,58 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "303c851de32f04b25ec22010f33ae9293d0db346b392284a05c2c6b6a6ae443e";
 
 const translation: RecipeTranslation = {
-  "title": "Mediterranean Lemon Herb Salmon",
-  "description": "A healthy Mediterranean salmon recipe featuring tender oven-baked salmon with fresh lemon, aromatic herbs, olive oil, and roasted vegetables.",
-  "longDescription": "Mediterranean Lemon Herb Salmon is a nutritious and flavorful seafood dish inspired by the Mediterranean diet. Fresh salmon fillets are marinated with lemon juice, garlic, parsley, dill, and extra virgin olive oil before being baked or grilled to perfection. Served with roasted vegetables, this recipe is naturally high in protein and heart-healthy omega-3 fatty acids, making it an excellent choice for a balanced lunch or dinner.",
+  "title": "سلمون بالليمون والأعشاب على طريقة البحر الأبيض المتوسط",
+  "description": "وصفة سلمون صحية من البحر الأبيض المتوسط تتميز بسلمون طري مخبوز في الفرن مع الليمون الطازج والأعشاب العطرية وزيت الزيتون والخضار المشوية.",
+  "longDescription": "يعد سلمون البحر الأبيض المتوسط بالليمون والأعشاب طبقًا بحريًا مغذيًا وغنيًا بالنكهات ومستوحى من نظام البحر الأبيض المتوسط الغذائي. تُتبل شرائح السلمون الطازجة بعصير الليمون، والثوم، والبقدونس، والشبت، وزيت الزيتون البكر الممتاز قبل خبزها أو شوائها حتى تمام النضج. يُقدم هذا الطبق مع الخضار المشوية، وهو غني طبيعيًا بالبروتين وأحماض أوميغا 3 الدهنية المفيدة لصحة القلب، مما يجعله خيارًا ممتازًا لوجبة غداء أو عشاء متوازنة.",
   "ingredients": [
-    "Salmon fillet",
-    "Lemon juice",
-    "Lemon zest",
-    "Garlic",
-    "Olive oil",
-    "Fresh dill",
-    "Fresh parsley",
-    "Cherry tomatoes",
-    "Zucchini",
-    "Black pepper"
+    "شرائح سلمون",
+    "عصير ليمون",
+    "بشر الليمون",
+    "ثوم",
+    "زيت زيتون",
+    "شبت طازج",
+    "بقدونس طازج",
+    "طماطم كرزية",
+    "كوسة",
+    "فلفل أسود"
   ],
   "instructions": [
-    "Pat the salmon fillets dry with paper towels.",
-    "In a small bowl, whisk together olive oil, lemon juice, lemon zest, garlic, parsley, dill, salt, and black pepper.",
-    "Brush the salmon generously with the marinade.",
-    "Let the salmon marinate for 10–15 minutes.",
-    "Preheat the oven to 200°C (400°F) or prepare a grill over medium heat.",
-    "Arrange the salmon and zucchini on a baking tray with the cherry tomatoes.",
-    "Drizzle the vegetables with a little olive oil and season lightly.",
-    "Bake or grill the salmon for 15–20 minutes until it flakes easily with a fork.",
-    "Remove from the oven and allow the salmon to rest for 2 minutes.",
-    "Serve immediately with the roasted vegetables and an extra squeeze of fresh lemon."
+    "جفف شرائح السلمون برفق باستخدام مناشف ورقية.",
+    "في وعاء صغير، اخلط زيت الزيتون، وعصير الليمون، وبشر الليمون، والثوم، والبقدونس، والشبت، والملح، والفلفل الأسود جيدًا.",
+    "إدهن السلمون بسخاء بالتتبيلة.",
+    "اترك السلمون يتتبل لمدة 10–15 دقيقة.",
+    "سخن الفرن مسبقًا إلى 200 درجة مئوية (400 درجة فهرنهايت) أو جهز الشواية على نار متوسطة.",
+    "رتب السلمون والكوسة في صينية خبز مع الطماطم الكرزية.",
+    "رش الخضار بقليل من زيت الزيتون وتبلها خفيفًا.",
+    "اخبز أو اشوِ السلمون لمدة 15–20 دقيقة حتى يتفتت بسهولة باستخدام الشوكة.",
+    "أخرجه من الفرن واترك السلمون يرتاح لمدة 2 دقيقة.",
+    "قدمه فورًا مع الخضار المشوية وعصرة إضافية من الليمون الطازج."
   ],
   "healthBenefits": [
-    "Excellent source of omega-3 fatty acids",
-    "High in lean protein",
-    "Supports heart health",
-    "Rich in vitamin D and B vitamins",
-    "Contains powerful antioxidants",
-    "Supports brain function and overall wellness"
+    "مصدر ممتاز لأحماض أوميغا 3 الدهنية",
+    "غني بالبروتين الخالي من الدهون",
+    "يدعم صحة القلب",
+    "غني بفيتامين D وفيتامينات B",
+    "يحتوي على مضادات أكسدة قوية",
+    "يدعم وظائف المخ والصحة العامة"
   ],
   "keywords": [
-    "Mediterranean Salmon",
-    "Lemon Herb Salmon",
-    "Healthy Salmon Recipe",
-    "Mediterranean Fish",
-    "High Protein Dinner",
-    "Healthy Mediterranean Recipe"
+    "سلمون البحر الأبيض المتوسط",
+    "سلمون بالليمون والأعشاب",
+    "وصفة سلمون صحية",
+    "سمك البحر الأبيض المتوسط",
+    "عشاء غني بالبروتين",
+    "وصفة صحية من البحر الأبيض المتوسط"
   ],
   "tags": [
-    "Salmon",
-    "Seafood",
-    "Mediterranean",
-    "Healthy",
-    "High Protein",
-    "Dinner"
+    "سلمون",
+    "مأكولات بحرية",
+    "البحر الأبيض المتوسط",
+    "صحي",
+    "عالي البروتين",
+    "عشاء"
   ]
 };
 

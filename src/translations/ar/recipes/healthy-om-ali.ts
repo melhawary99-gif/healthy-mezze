@@ -1,64 +1,64 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "e380879dd3a477db784bffed86fd263acad479f4d808ace3ce138b94c399fc84";
 
 const translation: RecipeTranslation = {
-  "title": "Healthy Om Ali",
-  "description": "A lighter version of Egypt's famous bread pudding made with whole wheat puff pastry, low-fat milk, naturally sweet dates, raisins, and crunchy nuts.",
-  "longDescription": "Om Ali is Egypt's beloved national dessert, traditionally prepared with buttery pastry, cream, and plenty of sugar. This healthier version uses whole wheat puff pastry, low-fat milk, naturally sweet Medjool dates, raisins, and just a touch of honey for sweetness. Finished with almonds and pistachios, it delivers the same warm, comforting flavors with less saturated fat and refined sugar.",
+  "title": "أم علي الصحية",
+  "description": "نسخة أخف وزناً من بودينغ الخبز الشهير في مصر، مصنوعة من عجينة الباف باستري بالقمح الكامل، وحليب قليل الدسم، وتمر حلو طبيعياً، وزبيب، ومكسرات مقرمشة.",
+  "longDescription": "أم علي هي الحلوى الوطنية المحبوبة في مصر، وتُحضّر تقليدياً بعجينة غنية بالزبذة والكريمة والكثير من السكر. تستخدم هذه النسخة الأكثر صحة عجينة الباف باستري بالقمح الكامل، وحليب قليل الدسم، وتمر المجدول الحلو طبيعياً، والزبيب، ولمسة فقط من العسل للتحلية. وتكتمل باللوز والفستق الحلبي، لتقدم نفس النكهات الدافئة والمريحة مع نسبة أقل من الدهون المشبعة والسكر المكرر.",
   "ingredients": [
-    "whole wheat puff pastry, baked and broken into pieces",
-    "low-fat milk",
-    "honey",
-    "dates, chopped",
-    "raisins",
-    "chopped almonds",
-    "chopped pistachios",
-    "chopped walnuts",
-    "vanilla extract",
-    "ground cinnamon",
-    "ground cardamom",
-    "unsweetened shredded coconut (optional)"
+    "عجينة باف باستري بالقمح الكامل، مخبوزة ومقطعة إلى قطع",
+    "حليب قليل الدسم",
+    "عسل",
+    "تمر مفروم",
+    "زبيب",
+    "لوز مفروم",
+    "فستق حلبي مفروم",
+    "جوز مفروم",
+    "مستخلص الفانيليا",
+    "قرفة مطحونة",
+    "هيل مطحون",
+    "جوز هند مبشور غير محلى (اختياري)"
   ],
   "instructions": [
-    "Preheat the oven to 375°F (190°C).",
-    "Bake the puff pastry according to package directions until golden.",
-    "Break the baked pastry into bite-sized pieces and place them in a baking dish.",
-    "Scatter the chopped dates, raisins, almonds, pistachios, and walnuts over the pastry.",
-    "Warm the milk in a saucepan without boiling.",
-    "Stir in the honey, vanilla, cinnamon, and cardamom.",
-    "Pour the warm milk mixture evenly over the pastry.",
-    "Allow the mixture to rest for 10 minutes so the pastry absorbs the liquid.",
-    "Sprinkle with shredded coconut if using.",
-    "Bake for 25–30 minutes until the top is golden and the pudding is set.",
-    "Allow to cool slightly before serving.",
-    "Serve warm with extra chopped pistachios if desired."
+    "سخن الفرن مسبقاً إلى 375 درجة فهرنهايت (190 درجة مئوية).",
+    "اخبز عجينة الباف باستري وفقاً لتوجيهات العبوة حتى تصبح ذهبية اللون.",
+    "فتت العجينة المخبوزة إلى قطع بحجم اللقمة وضِعها في صينية خبز.",
+    "انثر التمر المفروم والزبيب واللوز والفستق الحلبي والجوز فوق العجينة.",
+    "سخن الحليب في قدر دون أن يغلي.",
+    "أضف العسل والفانيليا والقرفة والهيل وحرك المزيج.",
+    "اسكب مزيج الحليب الدافئ بالتساوي فوق العجينة.",
+    "اترك المزيج يرتاح لمدة 10 دقائق حتى تمتص العجينة السائل.",
+    "رش جوز الهند المبشور في حال استخدامه.",
+    "اخبز لمدة 25–30 دقيقة حتى يصبح الوجه ذهبياً ويتماسك البودينغ.",
+    "اتركه يبرد قليلاً قبل التقديم.",
+    "قدمه دافئاً مع المزيد من الفستق الحلبي المفروم حسب الرغبة."
   ],
   "healthBenefits": [
-    "Lower in saturated fat than traditional Om Ali",
-    "Whole wheat pastry provides extra fiber",
-    "Dates provide natural sweetness and potassium",
-    "Nuts contribute healthy unsaturated fats",
-    "Low-fat milk supplies calcium and protein",
-    "Reduced refined sugar",
-    "Mediterranean-inspired healthier dessert"
+    "أقل في الدهون المشبعة مقارنة بأم علي التقليدية",
+    "توفّر عجينة القمح الكامل أليافاً إضافية",
+    "يوفر التمر حلاوة طبيعية وبوتاسيوم",
+    "تساهم المكسرات بالدهون الصحية غير المشبعة",
+    "يمد الحليب قليل الدسم الجسم بالكالسيوم والبروتين",
+    "نسبة أقل من السكر المكرر",
+    "حلوى صحية مستوحاة من البحر الأبيض المتوسط"
   ],
   "keywords": [
-    "Healthy Om Ali",
-    "Egyptian Bread Pudding",
-    "Healthy Egyptian Dessert",
-    "Mediterranean Dessert",
-    "Traditional Om Ali"
+    "أم علي صحية",
+    "بودينغ الخبز المصري",
+    "حلوى مصرية صحية",
+    "حلوى البحر الأبيض المتوسط",
+    "أم علي التقليدية"
   ],
   "tags": [
-    "dessert",
-    "Egyptian",
-    "Om Ali",
-    "healthy",
-    "whole wheat",
-    "low-fat",
-    "Mediterranean",
-    "traditional"
+    "حلوى",
+    "مصرية",
+    "أم علي",
+    "صحي",
+    "قمح كامل",
+    "قليل الدسم",
+    "بحر أبيض متوسط",
+    "تقليدي"
   ]
 };
 

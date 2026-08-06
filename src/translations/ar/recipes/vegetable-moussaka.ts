@@ -1,72 +1,72 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "eacd13bf9244cae90d9bfc5ea411407df1c15b83e039dc8285c4622e468fecb2";
 
 const translation: RecipeTranslation = {
-  "title": "Vegetable Moussaka",
-  "description": "A hearty Mediterranean casserole made with roasted eggplant, zucchini, potatoes, rich tomato sauce, and a creamy béchamel topping baked until golden.",
-  "longDescription": "This vegetarian Mediterranean Moussaka layers roasted vegetables with a flavorful tomato sauce infused with garlic, onions, herbs, and warm spices. Finished with a light homemade béchamel and baked until beautifully golden, it's a comforting yet nutritious dish that's perfect for family dinners or meal prep.",
+  "title": "مسقعة الخضار",
+  "description": "طاجن متوسطي مشبع مصنوع من الباذنجان المشوي، والكوسة، والبطاطس، وصلصة الطماطم الغنية، وطبقة بشاميل كريمية مغطاة ومخبوزة حتى تكتسب لوناً ذهبياً.",
+  "longDescription": "تتكون هذه المسقعة المتوسطية النباتية من طبقات من الخضار المشوية مع صلصة طماطم غنية بالنكهات والمطعمة بالثوم، والبصل، والأعشاب، والبهارات الدافئة. وتكتمل بطبقة بشاميل خفيفة محضرة منزلياً ومخبوزة حتى تكتسب لوناً ذهبياً رائعاً، وهي وجبة مريحة ومغذية مثالية لعشاء العائلة أو للتحضير المسبق للوجبات.",
   "ingredients": [
-    "Medium eggplants, sliced",
-    "zucchini, sliced",
-    "potatoes, thinly sliced",
-    "olive oil",
-    "onion, diced",
-    "cloves, minced",
-    "crushed tomatoes",
-    "tomato paste",
-    "dried oregano",
-    "ground cinnamon",
-    "paprika",
-    "Salt and black pepper to taste",
-    "chopped parsley",
-    "butter",
-    "all-purpose flour",
-    "milk",
-    "grated Parmesan cheese",
-    "egg",
-    "Pinch of nutmeg"
+    "باذنجان متوسط الحجم، مقطع إلى شرائح",
+    "كوسة، مقطعة إلى شرائح",
+    "بطاطس، مقطعة إلى شرائح رفيعة",
+    "زيت زيتون",
+    "بصل، مقطع مكعبات",
+    "فصوص ثوم، مفرومة",
+    "طماطم مهروسة",
+    "معجون طماطم",
+    "أوريغانو مجفف",
+    "قرفة مطحونة",
+    "بابريكا",
+    "ملح وفلفل أسود حسب الرغبة",
+    "بقدونس مفروم",
+    "زبدة",
+    "دقيق لجميع الأغراض",
+    "حليب",
+    "جبن بارميزان مبشور",
+    "بيضة",
+    "رشة جوزة الطيب"
   ],
   "instructions": [
-    "Preheat oven to 200°C (400°F).",
-    "Arrange eggplant, zucchini, and potato slices on baking trays, brush lightly with olive oil, and roast for 20 minutes.",
-    "Meanwhile, heat olive oil in a skillet and sauté onion until soft.",
-    "Add garlic and cook for 1 minute.",
-    "Stir in crushed tomatoes, tomato paste, oregano, cinnamon, paprika, salt, and pepper.",
-    "Simmer the sauce for 15 minutes, then stir in chopped parsley.",
-    "For the béchamel, melt butter in a saucepan, whisk in flour, and cook for 1 minute.",
-    "Gradually whisk in milk until smooth and thickened.",
-    "Remove from heat and stir in Parmesan, nutmeg, and beaten egg.",
-    "In a baking dish, layer potatoes, tomato sauce, eggplant, more sauce, zucchini, and the remaining sauce.",
-    "Pour the béchamel evenly over the top.",
-    "Bake for 35 minutes until golden brown.",
-    "Allow to rest for 10 minutes before serving."
+    "سخن الفرن مسبقاً إلى 200 درجة مئوية (400 درجة فهرنهايت).",
+    "رتب شرائح الباذنجان والكوسة والبطاطس في صواني الخبز، وادهنها بقليل من زيت الزيتون، واشوها لمدة 20 دقيقة.",
+    "في هذه الأثناء، سخن زيت الزيتون في مقلاة وشوح البصل حتى يذبل.",
+    "أضف الثوم واطهه لمدة 1 دقيقة.",
+    "أضف الطماطم المهروسة، ومعجون الطماطم، والأوريغانو، والقرفة، والبابريكا، والملح، والفلفل الأسود مع التحريك.",
+    "اترك الصلصة تغلي على نار هادئة لمدة 15 دقيقة، ثم أضف البقدونس المفروم.",
+    "لإعداد البشاميل، أذب الزبدة في قدر، واخفق معها الدقيق، واطهه لمدة 1 دقيقة.",
+    "أضف الحليب تدريجياً مع الخفق حتى يصبح الخليط ناعماً وكثيفاً.",
+    "ارفع القدر عن النار وأضف جبن البارميزان، وجوزة الطيب، والبيضة المخفوقة مع التحريك.",
+    "في طبق خبز، ضع طبقات من البطاطس، وصلصة الطماطم، والباذنجان، والمزيد من الصلصة، والكوسة، وما تبقى من الصلصة.",
+    "اسكب البشاميل بالتساوي على الوجه.",
+    "اخبز لمدة 35 دقيقة حتى يتغير لونها إلى الذهبي.",
+    "اتركها لترتاح لمدة 10 دقائق قبل التقديم."
   ],
   "healthBenefits": [
-    "Rich in vegetables and antioxidants",
-    "Excellent source of dietary fiber",
-    "Provides calcium from the béchamel",
-    "Heart-healthy olive oil",
-    "Contains vitamins A and C",
-    "Mediterranean diet friendly",
-    "Perfect for meal prep"
+    "غنية بالخضار ومضادات الأكسدة",
+    "مصدر ممتاز للألياف الغذائية",
+    "توفر الكالسيوم من البشاميل",
+    "تحتوي على زيت زيتون صحي للقلب",
+    "تحتوي على فيتامينات A و C",
+    "مناسبة للنظام الغذائي المتوسطي",
+    "مثالية للتحضير المسبق للوجبات"
   ],
   "keywords": [
-    "Vegetarian Moussaka",
-    "Mediterranean Casserole",
-    "Eggplant Recipe",
-    "Healthy Dinner",
-    "Vegetable Bake"
+    "مسقعة نباتية",
+    "طاجن متوسطي",
+    "وصفة الباذنجان",
+    "عشاء صحي",
+    "خضار مخبوزة"
   ],
   "tags": [
-    "vegetarian",
-    "Mediterranean",
-    "Lebanese",
-    "eggplant",
-    "zucchini",
-    "casserole",
-    "healthy",
-    "comfort food"
+    "نباتي",
+    "متوسطي",
+    "لبناني",
+    "باذنجان",
+    "كوسة",
+    "طاجن",
+    "صحي",
+    "طعام مريح"
   ]
 };
 

@@ -1,62 +1,62 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "0752af3dcb0672e0a898258598cc70544e988db63fa7d86d05aa68ae805e3940";
 
 const translation: RecipeTranslation = {
-  "title": "Mediterranean Breakfast Wrap",
-  "description": "A wholesome whole wheat wrap filled with fluffy eggs, spinach, feta cheese, tomatoes, cucumbers, and creamy hummus for a portable Mediterranean breakfast.",
-  "longDescription": "This Mediterranean Breakfast Wrap is a delicious grab-and-go breakfast packed with protein, vegetables, and healthy fats. Fluffy scrambled eggs are layered with hummus, fresh spinach, juicy tomatoes, crisp cucumbers, and crumbled feta inside a warm whole wheat tortilla. It's a satisfying breakfast that's perfect for busy mornings while staying true to Mediterranean flavors.",
+  "title": "لفافة الفطور المتوسطية",
+  "description": "لفافة صحية من القمح الكامل محشوة بالبيض المخفوق الهش، والسبانخ، وجبن الفيتا، والطماطم، والخيار، والحمص الناعم لفطور متوسطي سهل الحمل.",
+  "longDescription": "تعتبر لفافة الفطور المتوسطية هذه وجبة فطور لذيذة وسريعة وغنية بالبروتين والخضار والدهون الصحية. تتكون من طبقات من البيض المخفوق الهش مع الحمص والسبانخ الطازجة والطماطم العصارية والخيار المقرمش وجبن الفيتا المفتت داخل خبز تورتيلا القمح الكامل الدافئ. إنها وجبة فطور مشبعة ومثالية للصباحات المزدحمة مع الحفاظ على نكهات البحر الأبيض المتوسط الأصيلة.",
   "ingredients": [
-    "wheat tortillas",
-    "Large eggs",
-    "milk",
-    "extra virgin olive oil",
-    "baby spinach",
-    "cherry tomatoes, halved",
-    "Small cucumber, diced",
-    "crumbled feta cheese",
-    "hummus",
-    "chopped parsley",
-    "dried oregano",
-    "sea salt",
-    "black pepper"
+    "خبز تورتيلا القمح",
+    "بيض كبير الحجم",
+    "حليب",
+    "زيت زيتون بكر ممتاز",
+    "سبانخ صغيرة",
+    "طماطم كرزية، مقطعة إلى أنصاف",
+    "خيارة صغيرة، مقطعة مكعبات",
+    "جبن فيتا مفتت",
+    "حمص",
+    "بقدونس مفروم",
+    "أوريغانو مجفف",
+    "ملح البحر",
+    "فلفل أسود"
   ],
   "instructions": [
-    "Whisk together the eggs, milk, salt, pepper, and oregano.",
-    "Heat the olive oil in a skillet over medium heat.",
-    "Cook the eggs gently, stirring until softly scrambled.",
-    "Warm the tortillas for about 30 seconds per side.",
-    "Spread 2 tablespoons of hummus over each tortilla.",
-    "Layer the spinach, scrambled eggs, tomatoes, cucumber, and feta cheese.",
-    "Sprinkle with fresh parsley.",
-    "Fold in the sides and roll tightly into a wrap.",
-    "Slice in half and serve immediately."
+    "اخفق البيض والحليب والملح والفلفل الأسود والأوريغانو معاً.",
+    "سخن زيت الزيتون في مقلاة على نار متوسطة.",
+    "اطبخ البيض بلطف مع التحريك حتى ينضج بشكل مخفوق وطري.",
+    "سخن خبز التورتيلا لمدة 30 ثانية تقريباً لكل جانب.",
+    "افرد ملعقتين كبيرتين من الحمص على كل رغيف تورتيلا.",
+    "ضع طبقات من السبانخ، والبيض المخفوق، والطماطم، والخيار، وجبن الفيتا.",
+    "رش البقدونس الطازج.",
+    "اطوِ الجوانب ولفها بإحكام على شكل لفافة.",
+    "اقطعها إلى نصفين وقدمها مباشرة."
   ],
   "healthBenefits": [
-    "High in complete protein",
-    "Rich in fiber from whole wheat and vegetables",
-    "Provides healthy fats from olive oil and hummus",
-    "Excellent source of calcium",
-    "Packed with vitamins A and C",
-    "Portable and meal-prep friendly",
-    "Mediterranean diet approved"
+    "غني بالبروتين الكامل",
+    "غني بالألياف من القمح الكامل والخضار",
+    "يوفر دهوناً صحية من زيت الزيتون والحمص",
+    "مصدر ممتاز للكالسيوم",
+    "غني بفيتامينات أ وج",
+    "سهل الحمل ومناسب للتحضير المسبق",
+    "معتمد في نظام حمية البحر الأبيض المتوسط"
   ],
   "keywords": [
-    "Mediterranean Breakfast Wrap",
-    "Healthy Breakfast Wrap",
-    "Egg Wrap",
-    "High Protein Breakfast",
-    "Mediterranean Breakfast"
+    "لفافة الفطور المتوسطية",
+    "لفافة فطور صحية",
+    "لفافة البيض",
+    "فطور غني بالبروتين",
+    "فطور متوسطي"
   ],
   "tags": [
-    "breakfast",
-    "Mediterranean",
-    "wrap",
-    "eggs",
-    "hummus",
-    "high protein",
-    "healthy",
-    "quick meal"
+    "فطور",
+    "متوسطي",
+    "لفافة",
+    "بيض",
+    "حمص",
+    "غني بالبروتين",
+    "صحي",
+    "وجبة سريعة"
   ]
 };
 

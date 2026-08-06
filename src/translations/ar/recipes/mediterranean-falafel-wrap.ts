@@ -1,58 +1,58 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "71afd19faf987d357843631868358db7eb2c1920b2185786369b8b13f29dc88e";
 
 const translation: RecipeTranslation = {
-  "title": "Mediterranean Falafel Wrap",
-  "description": "A satisfying Mediterranean wrap packed with crispy falafel, fresh vegetables, herbs, pickled vegetables, and creamy tahini sauce for a wholesome plant-based meal.",
+  "title": "لفافة الفلافل المتوسطية",
+  "description": "لفافة متوسطية مشبعة مليئة بالفلافل المقرمشة، والخضراوات الطازجة، والأعشاب، والمخللات، وصلصة الطحينة الكريمة لوجبة نباتية صحية ومغذية.",
   "longDescription": "",
   "ingredients": [
-    "Falafel",
-    "Flatbread",
-    "Lettuce",
-    "Tomatoes",
-    "Cucumber",
-    "Red onion",
-    "Fresh parsley",
-    "Tahini sauce",
-    "Lemon juice",
-    "Pickled vegetables"
+    "فلافل",
+    "خبز مسطح",
+    "خس",
+    "طماطم",
+    "خيار",
+    "بصل أحمر",
+    "بقدونس طازج",
+    "صلصة الطحينة",
+    "عصير ليمون",
+    "خضراوات مخللة"
   ],
   "instructions": [
-    "Prepare the falafel according to the recipe or package instructions.",
-    "Wash and slice the lettuce, tomatoes, cucumber, and red onion.",
-    "Warm the flatbread until soft and flexible.",
-    "Spread a thin layer of tahini sauce over the flatbread.",
-    "Arrange the lettuce and fresh vegetables evenly.",
-    "Place the warm falafel on top of the vegetables.",
-    "Add the pickled vegetables and chopped parsley.",
-    "Drizzle with fresh lemon juice and additional tahini sauce if desired.",
-    "Fold the sides of the flatbread and roll it tightly into a wrap.",
-    "Serve immediately while the falafel is warm."
+    "حضر الفلافل وفقًا للوصفة أو للتعليمات المدونة على العبوة.",
+    "اغسل الخس والطماطم والخيار والبصل الأحمر وقطعها إلى شرائح.",
+    "سخن الخبز حتى يصبح طريًا ومَرِنًا.",
+    "افرد طبقة رقيقة من صلصة الطحينة على الخبز.",
+    "وزع الخس والخضراوات الطازجة بالتساوي.",
+    "ضع الفلافل الدافئة فوق الخضراوات.",
+    "أضف الخضراوات المخللة والبقدونس المفروم.",
+    "رش القليل من عصير الليمون الطازج والمزيد من صلصة الطحينة حسب الرغبة.",
+    "اطوِ جوانب الخبز ولفه بإحكام.",
+    "قدمه فورًا بينما تكون الفلافل دافئة."
   ],
   "healthBenefits": [
-    "Excellent source of plant-based protein",
-    "High in dietary fiber",
-    "Supports digestive health",
-    "Rich in vitamins and minerals",
-    "Contains heart-healthy fats from tahini",
-    "Provides long-lasting energy"
+    "مصدر ممتاز للبروتين النباتي",
+    "غني بالألياف الغذائية",
+    "يدعم صحة الجهاز الهضمي",
+    "غني بالفيتامينات والمعادن",
+    "يحتوي على دهون صحية للقلب من الطحينة",
+    "يوفر طاقة تدوم طويلاً"
   ],
   "keywords": [
-    "Mediterranean Falafel Wrap",
-    "Healthy Falafel Wrap",
-    "Vegan Mediterranean Wrap",
-    "Plant Based Lunch",
-    "Easy Falafel Recipe",
-    "Healthy Mediterranean Food"
+    "لفافة الفلافل المتوسطية",
+    "لفافة فلافل صحية",
+    "لفافة متوسطية نباتية",
+    "غداء نباتي",
+    "وصفة فلافل سهلة",
+    "طعام متوسطي صحي"
   ],
   "tags": [
-    "Falafel",
-    "Wrap",
-    "Mediterranean",
-    "Vegan",
-    "Healthy",
-    "Lunch"
+    "فلافل",
+    "لفافة",
+    "متوسطي",
+    "نباتي",
+    "صحي",
+    "غداء"
   ]
 };
 

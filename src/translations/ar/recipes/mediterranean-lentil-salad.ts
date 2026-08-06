@@ -1,61 +1,61 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "2b98f9da9476c07d5b8cb38b60addb72e77ac9b88b57003dc1c774299d2dd5fb";
 
 const translation: RecipeTranslation = {
-  "title": "Mediterranean Lentil Salad",
-  "description": "A wholesome Mediterranean lentil salad with fresh vegetables, herbs, feta cheese, and a bright lemon vinaigrette.",
-  "longDescription": "This Mediterranean Lentil Salad combines tender green lentils with crisp vegetables, fresh parsley, mint, and creamy feta cheese. Dressed with extra virgin olive oil and fresh lemon juice, it's packed with plant-based protein, fiber, vitamins, and minerals. Perfect as a healthy lunch, side dish, or meal-prep recipe.",
+  "title": "سلطة العدس المتوسطية",
+  "description": "سلطة عدس متوسطية مغذية مع الخضار الطازجة، والأعشاب، وجبنة الفيتا، وتتبيلة الليمون الحامض المنعشة.",
+  "longDescription": "تجمع سلطة العدس المتوسطية هذه بين العدس الأخضر الطري والخضار المقرمشة، والبقدونس الطازج، والنعناع، وجبنة الفيتا الكريمية. وهي متبلة بزيت الزيتون البكر الممتاز وعصير الليمون الطازج، كما أنها مليئة بالبروتين النباتي، والألياف، والفيتامينات، والمعادن. مثالية كوجبة غداء صحية، أو طبق جانبي، أو وصفة للتحضير المسبق للوجبات.",
   "ingredients": [
-    "dried green lentils",
-    "cucumber, diced",
-    "tomatoes, diced",
-    "¼ red onion, finely chopped",
-    "½ cup chopped parsley",
-    "chopped fresh mint",
-    "½ cup crumbled feta cheese",
-    "extra virgin olive oil",
-    "fresh lemon juice",
-    "Dijon mustard",
-    "½ tsp ground cumin",
-    "Salt to taste",
-    "Black pepper to taste"
+    "عدس أخضر مجفف",
+    "خيار مقطع إلى مكعبات",
+    "طماطم مقطعة إلى مكعبات",
+    "¼ بصلة حمراء مفرومة ناعمًا",
+    "½ كوب بقدونس مفروم",
+    "نعناع طازج مفروم",
+    "½ كوب جبنة فيتا مفتتة",
+    "زيت زيتون بكر ممتاز",
+    "عصير ليمون طازج",
+    "خردل ديجون",
+    "½ ملعقة صغيرة كمون مطحون",
+    "ملح حسب الرغبة",
+    "فلفل أسود حسب الرغبة"
   ],
   "instructions": [
-    "Rinse the lentils thoroughly.",
-    "Cook the lentils in lightly salted water until tender but not mushy, about 20–25 minutes.",
-    "Drain the lentils and allow them to cool completely.",
-    "Dice the cucumber and tomatoes.",
-    "Finely chop the red onion, parsley, and mint.",
-    "Combine the cooled lentils and vegetables in a large bowl.",
-    "Whisk together olive oil, lemon juice, Dijon mustard, cumin, salt, and pepper.",
-    "Pour the dressing over the salad and toss gently.",
-    "Fold in the feta cheese.",
-    "Refrigerate for 20 minutes before serving for the best flavor."
+    "اغسل العدس جيدًا.",
+    "اطبخ العدس في ماء مملح خفيف حتى ينضج ولكن دون أن يتهرى، لمدة 20–25 دقيقة تقريبًا.",
+    "صفِّ العدس واتركه يبرد تمامًا.",
+    "قطع الخيار والطماطم إلى مكعبات.",
+    "افرم البصل الأحمر والبقدونس والنعناع فرماً ناعماً.",
+    "اخلط العدس البارد والخضار في وعاء كبير.",
+    "اخفق زيت الزيتون، وعصير الليمون، وخردل ديجون، والكمون، والملح، والفلفل الأسود معًا.",
+    "اسكب التتبيلة فوق السلطة واخلطها بلطف.",
+    "أضف جبنة الفيتا واخلطها برفق.",
+    "ضع السلطة في الثلاجة لمدة 20 دقيقة قبل التقديم للحصول على أفضل نكهة."
   ],
   "healthBenefits": [
-    "Excellent source of plant protein",
-    "High in dietary fiber",
-    "Supports heart health",
-    "Rich in iron and folate",
-    "Helps maintain stable blood sugar",
-    "Keeps you feeling full longer"
+    "مصدر ممتاز للبروتين النباتي",
+    "غني بالألياف الغذائية",
+    "يدعم صحة القلب",
+    "غني بالحديد وحمض الفوليك",
+    "يساعد في الحفاظ على استقرار مستوى السكر في الدم",
+    "يحافظ على الشعور بالشبع لفترة أطول"
   ],
   "keywords": [
-    "Mediterranean Lentil Salad",
-    "Healthy lentil salad",
-    "Lebanese lentil salad",
-    "Plant protein salad",
-    "Healthy Mediterranean recipe"
+    "سلطة العدس المتوسطية",
+    "سلطة عدس صحية",
+    "سلطة العدس اللبنانية",
+    "سلطة بروتين نباتي",
+    "وصفة متوسطية صحية"
   ],
   "tags": [
-    "salad",
-    "healthy",
-    "Mediterranean",
-    "lentils",
-    "vegetarian",
-    "meal prep",
-    "high fiber"
+    "سلطة",
+    "صحي",
+    "متوسطي",
+    "عدس",
+    "نباتي",
+    "تحضير الوجبات",
+    "غني بالألياف"
   ]
 };
 

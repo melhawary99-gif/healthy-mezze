@@ -1,61 +1,61 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "22d130c91e03d0c9fb0b1232ce5bab6ceb8c5ff77b2bcb4259b75cc083c65d21";
 
 const translation: RecipeTranslation = {
-  "title": "Mediterranean Avocado Toast",
-  "description": "Creamy avocado spread over toasted whole grain bread and topped with feta cheese, cherry tomatoes, cucumbers, herbs, and a drizzle of extra virgin olive oil.",
-  "longDescription": "Mediterranean Avocado Toast combines heart-healthy avocado with fresh vegetables, creamy feta cheese, fragrant herbs, and premium olive oil on crispy whole grain bread. This colorful breakfast is packed with healthy fats, fiber, vitamins, and protein, making it a balanced way to start the day while embracing Mediterranean flavors.",
+  "title": "توست الأفوكادو المتوسطي",
+  "description": "أفوكادو كريمي مدهون على خبز الحبوب الكاملة المحمص ومغطى بجبنة الفيتا والطماطم الكرزية والخيار والأعشاب ورشة من زيت الزيتون البكر الممتاز.",
+  "longDescription": "يجمع توست الأفوكادو المتوسطي بين الأفوكادو المفيد لصحة القلب والخضروات الطازجة وجبنة الفيتا الكريمية والأعشاب العطرية وزيت الزيتون الممتاز على خبز الحبوب الكاملة المقرمش. وجبة الفطور الملونة هذه مليئة بالدهون الصحية والألياف والفيتامينات والبروتين، مما يجعلها طريقة متوازنة لبدء اليوم واستمتاع بنكهات البحر الأبيض المتوسط.",
   "ingredients": [
-    "whole grain bread",
-    "avocado",
-    "fresh lemon juice",
-    "extra virgin olive oil",
-    "sea salt",
-    "black pepper",
-    "paprika",
-    "cherry tomatoes, halved",
-    "cucumber, diced",
-    "crumbled feta cheese",
-    "chopped parsley",
-    "za'atar seasoning",
-    "Microgreens (optional)"
+    "خبز الحبوب الكاملة",
+    "أفوكادو",
+    "عصير ليمون طازج",
+    "زيت زيتون بكر ممتاز",
+    "ملح البحر",
+    "فلفل أسود",
+    "بابريكا",
+    "طماطم كرزية، مقطعة إلى نصفين",
+    "خيار، مقطع إلى مكعبات",
+    "جبنة فيتا مفتتة",
+    "بقدونس مفروم",
+    "توابل الزعتر",
+    "براعم الخضراوات (اختياري)"
   ],
   "instructions": [
-    "Toast the whole grain bread until golden and crisp.",
-    "Mash the avocado in a bowl with lemon juice, salt, pepper, and paprika.",
-    "Spread the mashed avocado evenly over each slice of toast.",
-    "Top with cherry tomatoes and diced cucumber.",
-    "Sprinkle with crumbled feta cheese.",
-    "Drizzle with extra virgin olive oil.",
-    "Finish with parsley, za'atar, and optional microgreens.",
-    "Serve immediately."
+    "حمّص خبز الحبوب الكاملة حتى يصبح ذهبياً ومقرمشاً.",
+    "اهرس الأفوكادو في وعاء مع عصير الليمون والملح والفلفل والبابريكا.",
+    "افرد الأفوكادو المهروس بالتساوي على كل شريحة توست.",
+    "ضَع الطماطم الكرزية ومكعبات الخيار على الوجه.",
+    "رش جبنة الفيتا المفتتة.",
+    "اسكب القليل من زيت الزيتون البكر الممتاز.",
+    "زيّن بالبقدونس والزعتر وبراعم الخضراوات الاختيارية.",
+    "قدّمه فوراً."
   ],
   "healthBenefits": [
-    "Rich in heart-healthy monounsaturated fats",
-    "Excellent source of dietary fiber",
-    "High in potassium",
-    "Provides antioxidants from fresh vegetables",
-    "Contains calcium from feta cheese",
-    "Mediterranean diet friendly",
-    "Supports sustained energy throughout the morning"
+    "غني بالدهون الأحادية غير المشبعة المفيدة لصحة القلب",
+    "مصدر ممتاز للألياف الغذائية",
+    "غني بالبوتاسيوم",
+    "يوفر مضادات الأكسدة من الخضروات الطازجة",
+    "يحتوي على الكالسيوم من جبنة الفيتا",
+    "مناسب لحمية البحر الأبيض المتوسط",
+    "يدعم طاقة مستمرة طوال فترة الصباح"
   ],
   "keywords": [
-    "Mediterranean Avocado Toast",
-    "Healthy Breakfast",
-    "Avocado Recipe",
-    "Easy Breakfast",
-    "Mediterranean Diet"
+    "توست الأفوكادو المتوسطي",
+    "فطور صحي",
+    "وصفة الأفوكادو",
+    "فطور سهل",
+    "حمية البحر الأبيض المتوسط"
   ],
   "tags": [
-    "breakfast",
-    "Mediterranean",
-    "healthy",
-    "avocado",
-    "toast",
-    "vegetarian",
-    "high fiber",
-    "quick meal"
+    "فطور",
+    "متوسطي",
+    "صحي",
+    "أفوكادو",
+    "توست",
+    "نباتي",
+    "غني بالألياف",
+    "وجبة سريعة"
   ]
 };
 

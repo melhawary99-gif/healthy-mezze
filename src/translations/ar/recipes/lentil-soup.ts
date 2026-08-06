@@ -1,53 +1,53 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "a6ebb982a71de3053bf231068dea43eb780430cd519b353120cf5879a3548873";
 
 const translation: RecipeTranslation = {
-  "title": "Lentil Soup",
-  "description": "A hearty Mediterranean red lentil soup made with vegetables, aromatic spices, and wholesome ingredients for a comforting and nutritious meal.",
-  "longDescription": "This Mediterranean Lentil Soup is a comforting, protein-rich dish prepared with red lentils, carrots, onions, garlic, and aromatic spices. Naturally high in fiber and plant-based protein, it is a wholesome meal that supports heart health, digestion, and long-lasting energy. Perfect for lunch or dinner, it pairs beautifully with warm pita bread and a squeeze of fresh lemon.",
+  "title": "شوربة العدس",
+  "description": "شوربة عدس أحمر متوسطية غنية ومغذية مصنوعة من الخضراوات والتوابل العطرية والمكونات الصحية لوجبة مريحة ومغذية.",
+  "longDescription": "تعتبر شوربة العدس المتوسطية هذه طبقًا مريحًا وغنيًا بالبروتين، يُحضر من العدس الأحمر والجزر والبصل والثوم والتوابل العطرية. وهي وجبة صحية غنية بالألياف والبروتين النباتي بطبيعتها، تدعم صحة القلب والهضم وتمنح طاقة تدوم طويلاً. مثالية لوجبة الغداء أو العشاء، وتتناسب بشكل رائع مع خبز البيتا الدافئ وعصرة من الليمون الطازج.",
   "ingredients": [
-    "Red lentils",
-    "Carrots",
-    "Onion",
-    "Garlic",
-    "Mediterranean spices"
+    "عدس أحمر",
+    "جزر",
+    "بصل",
+    "ثوم",
+    "توابل متوسطية"
   ],
   "instructions": [
-    "Rinse the red lentils thoroughly under cold running water.",
-    "Peel and dice the onion, carrots, and garlic.",
-    "Heat olive oil in a large pot over medium heat.",
-    "Sauté the onion until soft and translucent.",
-    "Add the garlic and carrots, cooking for another 2–3 minutes.",
-    "Stir in the Mediterranean spices and cook until fragrant.",
-    "Add the lentils and vegetable broth, then bring to a boil.",
-    "Reduce the heat and simmer for about 30 minutes until the lentils are tender.",
-    "Blend the soup until smooth or leave it slightly chunky, according to your preference.",
-    "Serve hot with fresh lemon wedges and chopped parsley."
+    "اغسل العدس الأحمر جيدًا تحت الماء البارد الجاري.",
+    "قشّر البصل والجزر والثوم وقطعها إلى مكعبات صغيرة.",
+    "سخّن زيت الزيتون في قدر كبير على نار متوسطة.",
+    "قلّب البصل حتى يصبح طريًا وشفافًا.",
+    "أضف الثوم والجزر، واطهُ لمدة 2–3 دقائق أخرى.",
+    "أضف التوابل المتوسطية واطهُ حتى تخرج رائحتها العطرية.",
+    "أضف العدس مرق الخضار، ثم اترك المزيج يغلي.",
+    "خفف النار واتركه يطهى على نار هادئة لمدة 30 دقيقة تقريبًا حتى ينضج العدس.",
+    "اطحن الشوربة حتى تصبح ناعمة أو اتركها متماسكة قليلاً حسب رغبتك.",
+    "قدّمها ساخنة مع شرائح الليمون الطازج والبقدونس المفروم."
   ],
   "healthBenefits": [
-    "Excellent source of plant-based protein",
-    "High in dietary fiber",
-    "Supports digestive health",
-    "Rich in iron and essential minerals",
-    "Helps maintain steady energy levels",
-    "Supports heart health"
+    "مصدر ممتاز للبروتين النباتي",
+    "غنية بالألياف الغذائية",
+    "تدعم صحة الجهاز الهضمي",
+    "غنية بالحديد والمعادن الأساسية",
+    "تساعد في الحفاظ على مستويات طاقة مستقرة",
+    "تدعم صحة القلب"
   ],
   "keywords": [
-    "Lentil Soup",
-    "Mediterranean Lentil Soup",
-    "Healthy Lentil Soup",
-    "Easy Soup Recipe",
-    "Plant Based Soup",
-    "Healthy Mediterranean Recipe"
+    "شوربة العدس",
+    "شوربة العدس المتوسطية",
+    "شوربة العدس الصحية",
+    "وصفة شوربة سهلة",
+    "شوربة نباتية",
+    "وصفة متوسطية صحية"
   ],
   "tags": [
-    "Soup",
-    "Mediterranean",
-    "Healthy",
-    "Lentils",
-    "High Fiber",
-    "Vegetarian"
+    "شوربة",
+    "متوسطي",
+    "صحي",
+    "عدس",
+    "غني بالألياف",
+    "نباتي"
   ]
 };
 

@@ -1,62 +1,62 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "96f96968b7567c154c3e1f65d0afa5a8b1c7e0b9d64d87a847243d9b052680e1";
 
 const translation: RecipeTranslation = {
-  "title": "Mediterranean Energy Balls",
-  "description": "Naturally sweet no-bake energy balls made with Medjool dates, oats, almonds, walnuts, cocoa, chia seeds, and coconut for a wholesome Mediterranean-inspired snack.",
-  "longDescription": "Mediterranean Energy Balls are a convenient and nutritious snack made with simple whole-food ingredients. Sweet Medjool dates provide natural sweetness while rolled oats, almonds, walnuts, chia seeds, and unsweetened cocoa powder add fiber, healthy fats, and plant-based protein. These bite-sized treats require no baking, making them perfect for meal prep, lunchboxes, post-workout snacks, or healthy desserts.",
+  "title": "كرات الطاقة المتوسطية",
+  "description": "كرات طاقة حلوة المذاق طبيعياً بدون طهي، مصنوعة من تمر المجدول، الشوفان، اللوز، الجوز، الكاكاو، بذور الشيا، وجوز الهند لوجبة خفيفة وصحية مستوحاة من البحر الأبيض المتوسط.",
+  "longDescription": "كرات الطاقة المتوسطية هي وجبة خفيفة مريحة ومغذية مصنوعة من مكونات طبيعية بسيطة. يوفر تمر المجدول الحلو حلاوة طبيعية بينما يضيف الشوفان واللوز والجوز وبذور الشيا ومسحوق الكاكاو غير المحلى الألياف والدهون الصحية والبروتين النباتي. لا تتطلب هذه الحلوى الصغيرة الطهي، مما يجعلها مثالية للتحضير المسبق للوجبات، أو علب الغداء، أو الوجبات الخفيفة بعد التمرين، أو الحلويات الصحية.",
   "ingredients": [
-    "dates, pitted",
-    "rolled oats",
-    "raw almonds",
-    "walnuts",
-    "chia seeds",
-    "unsweetened cocoa powder",
-    "unsweetened shredded coconut, plus extra for coating",
-    "ground flaxseed",
-    "almond butter",
-    "vanilla extract",
-    "ground cinnamon",
-    "Pinch of sea salt"
+    "تمر منزوع النوى",
+    "شوفان رقائق كاملة",
+    "لوز خام",
+    "جوز (عين الجمل)",
+    "بذور الشيا",
+    "مسحوق كاكاو غير محلى",
+    "جوز هند مبشور غير محلى، مع كمية إضافية للتغطية",
+    "بذور الكتان المطحونة",
+    "زبدة اللوز",
+    "خلاصة الفانيليا",
+    "قرفة مطحونة",
+    "رشة من ملح البحر"
   ],
   "instructions": [
-    "Add the almonds and walnuts to a food processor and pulse until finely chopped.",
-    "Add the rolled oats, chia seeds, cocoa powder, shredded coconut, flaxseed, cinnamon, and sea salt.",
-    "Pulse several times until well combined.",
-    "Add the Medjool dates, almond butter, and vanilla extract.",
-    "Blend until the mixture becomes sticky and holds together when pressed.",
-    "If the mixture is too dry, add one or two teaspoons of water.",
-    "Scoop about one tablespoon of mixture and roll into a ball.",
-    "Roll each ball in additional shredded coconut if desired.",
-    "Place on a tray and refrigerate for at least 30 minutes before serving.",
-    "Store in an airtight container in the refrigerator for up to one week."
+    "أضف اللوز والجوز إلى محضرة الطعام واخلط حتى يفرما فرماً ناعماً.",
+    "أضف الشوفان، وبذور الشيا، ومسحوق الكاكاو، وجوز الهند المبشور، وبذور الكتان، والقرفة، وملح البحر.",
+    "اخلط عدة مرات حتى تتداخل المكونات جيداً.",
+    "أضف تمر المجدول، وزبدة اللوز، وخلاصة الفانيليا.",
+    "اخلط حتى يصبح المزيج لزجاً ويتماسك عند الضغط عليه.",
+    "إذا كان المزيج جافاً جداً، أضف ملعقة أو ملعقتين صغيرتين من الماء.",
+    "خذ حوالي ملعقة كبيرة من المزيج وشكلها على هيئة كرة.",
+    "دحرج كل كرة في جوز الهند المبشور الإضافي حسب الرغبة.",
+    "ضعه في صينية وضعه في الثلاجة لمدة 30 دقيقة على الأقل قبل التقديم.",
+    "يُحفظ في وعاء محكم الإغلاق في الثلاجة لمدة تصل إلى أسبوع واحد."
   ],
   "healthBenefits": [
-    "Naturally sweetened with dates",
-    "Excellent source of dietary fiber",
-    "Rich in healthy fats from nuts and seeds",
-    "Provides plant-based protein",
-    "Contains antioxidants from cocoa",
-    "Perfect for sustained energy",
-    "Mediterranean diet friendly"
+    "مُحلى طبيعياً بالتمر",
+    "مصدر ممتاز للألياف الغذائية",
+    "غني بالدهون الصحية من المكسرات والبذور",
+    "يوفر البروتين النباتي",
+    "يحتوي على مضادات الأكسدة من الكاكاو",
+    "مثالي لمصدر طاقة مستمر",
+    "مناسب لنظام حمية البحر الأبيض المتوسط"
   ],
   "keywords": [
-    "Energy Balls",
-    "Healthy Snack",
-    "No Bake Recipe",
-    "Mediterranean Snack",
-    "Protein Balls"
+    "كرات الطاقة",
+    "وجبة خفيفة صحية",
+    "وصفة بدون طهي",
+    "وجبة خفيفة متوسطية",
+    "كرات البروتين"
   ],
   "tags": [
-    "snack",
-    "Mediterranean",
-    "energy balls",
-    "no-bake",
-    "healthy",
-    "vegetarian",
-    "meal prep",
-    "high fiber"
+    "وجبة خفيفة",
+    "متوسطي",
+    "كرات الطاقة",
+    "بدون طهي",
+    "صحي",
+    "نباتي",
+    "تحضير الوجبات",
+    "غني بالألياف"
   ]
 };
 

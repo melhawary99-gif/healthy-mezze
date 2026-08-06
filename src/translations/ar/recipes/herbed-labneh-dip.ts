@@ -1,61 +1,61 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "eab3fab64461ecb15267cf1338325134dab2f8badabe6724612c730bdcdad977";
 
 const translation: RecipeTranslation = {
-  "title": "Herbed Labneh Dip",
-  "description": "Creamy labneh blended with fresh herbs, garlic, lemon zest, and extra virgin olive oil for a refreshing Mediterranean dip that's perfect with vegetables or warm pita.",
-  "longDescription": "Herbed Labneh Dip is a refreshing Mediterranean mezze made with thick, tangy labneh mixed with fragrant parsley, mint, dill, garlic, and fresh lemon zest. Finished with a drizzle of extra virgin olive oil, this protein-rich dip is ideal for serving with fresh vegetables, whole wheat pita, crackers, or as part of a traditional mezze platter. It's quick to prepare and full of bright, fresh flavors.",
+  "title": "غموس اللبنة بالأعشاب",
+  "description": "لبنة كريمية ممزوجة بالأعشاب الطازجة، الثوم، بشر الليمون، وزيت الزيتون البكر الممتاز لتحضير غموس متوسطي منعش مثالي مع الخضروات أو الخبز العربي الدافئ.",
+  "longDescription": "غموس اللبنة بالأعشاب هو طبق مقبلات متوسطي منعش مصنوع من اللبنة السميكة والحامضة الممزوجة مع البقدونس العطر، النعناع، الشبت، الثوم، وبشر الليمون الطازج. يُزين بلمسة من زيت الزيتون البكر الممتاز، ويُعد هذا الغموس الغني بالبروتين مثالياً للتقديم مع الخضروات الطازجة، خبز القمح الكامل، البسكويت المالح، أو كجزء من طبق المقبلات التقليدي. إنه سريع التحضير ومفعم بالنكهات الطازجة والزاهية.",
   "ingredients": [
-    "labneh",
-    "chopped fresh parsley",
-    "chopped fresh mint",
-    "chopped fresh dill",
-    "clove, finely minced",
-    "lemon zest",
-    "fresh lemon juice",
-    "extra virgin olive oil",
-    "sea salt",
-    "black pepper",
-    "za'atar seasoning",
-    "Fresh mint leaves for garnish"
+    "لبنة",
+    "بقدونس طازج مفروم",
+    "نعناع طازج مفروم",
+    "شبت طازج مفروم",
+    "فص ثوم مفروم ناعماً",
+    "بشر ليمون",
+    "عصير ليمون طازج",
+    "زيت زيتون بكر ممتاز",
+    "ملح البحر",
+    "فلفل أسود",
+    "توابل الزعتر",
+    "أوراق نعناع طازجة للتزيين"
   ],
   "instructions": [
-    "Place the labneh in a medium mixing bowl.",
-    "Add the parsley, mint, dill, garlic, lemon zest, lemon juice, salt, and black pepper.",
-    "Mix until well combined.",
-    "Transfer the mixture to a serving bowl.",
-    "Create a shallow swirl on top using the back of a spoon.",
-    "Drizzle with extra virgin olive oil.",
-    "Sprinkle with za'atar seasoning.",
-    "Garnish with fresh mint leaves.",
-    "Serve immediately with fresh vegetables, whole wheat pita, or crackers."
+    "ضع اللبنة في وعاء خلط متوسط.",
+    "أضف البقدونس، النعناع، الشبت، الثوم، بشر الليمون، عصير الليمون، الملح، والفلفل الأسود.",
+    "اخلط المكونات جيداً حتى تتجانس.",
+    "انقل الخليط إلى وعاء تقديم.",
+    "اصنع دوامة ضحلة على السطح باستخدام ظهر الملعقة.",
+    "اسكب خيطاً من زيت الزيتون البكر الممتاز.",
+    "رش توابل الزعتر.",
+    "زيّن بأوراق النعناع الطازجة.",
+    "قدمه فوراً مع الخضروات الطازجة، خبز القمح الكامل، أو البسكويت المالح."
   ],
   "healthBenefits": [
-    "Excellent source of protein",
-    "Contains probiotics that support gut health",
-    "Rich in calcium for bone health",
-    "Fresh herbs provide antioxidants",
-    "Heart-healthy olive oil",
-    "Low in carbohydrates",
-    "Mediterranean diet friendly"
+    "مصدر ممتاز للبروتين",
+    "يحتوي على البروبيوتيك التي تدعم صحة الأمعاء",
+    "غني بالكالسيوم لصحة العظام",
+    "توفّر الأعشاب الطازجة مضادات الأكسدة",
+    "زيت الزيتون المفيد لصحة القلب",
+    "منخفض الكربوهيدرات",
+    "مناسب لنظام حمية البحر الأبيض المتوسط"
   ],
   "keywords": [
-    "Labneh Dip",
-    "Herbed Labneh",
-    "Mediterranean Dip",
-    "Healthy Snack",
-    "Mezze Recipe"
+    "غموس اللبنة",
+    "لبنة بالأعشاب",
+    "غموس متوسطي",
+    "وجبة خفيفة صحية",
+    "وصفة مقبلات"
   ],
   "tags": [
-    "snack",
-    "Mediterranean",
-    "labneh",
-    "mezze",
-    "vegetarian",
-    "high protein",
-    "healthy",
-    "quick recipe"
+    "وجبة خفيفة",
+    "متوسطي",
+    "لبنة",
+    "مقبلات",
+    "نباتي",
+    "غني بالبروتين",
+    "صحي",
+    "وصفة سريعة"
   ]
 };
 

@@ -1,62 +1,62 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "918582a3996cf14b655dcafe46ee458a1b0f38a6a855e6523e70c2f613152f7b";
 
 const translation: RecipeTranslation = {
-  "title": "Za'atar Roasted Mixed Nuts",
-  "description": "A crunchy blend of roasted almonds, walnuts, pistachios, and cashews seasoned with fragrant za'atar, olive oil, sesame seeds, and Mediterranean spices.",
-  "longDescription": "Za'atar Roasted Mixed Nuts are an easy, protein-rich Mediterranean snack that's perfect for meal prep, entertaining, or enjoying on the go. A combination of heart-healthy nuts is lightly coated with extra virgin olive oil and seasoned with aromatic za'atar, smoked paprika, garlic powder, and toasted sesame seeds before roasting until golden and fragrant. This wholesome snack is naturally satisfying and packed with healthy fats, protein, vitamins, and minerals.",
+  "title": "مكسرات مشكلة محمصة بالزعتر",
+  "description": "مزيج مقرمش من اللوز، والجوز، والفستق الحلبي، والكاجو المحمص، والتوابل المعطرة بالزعتر، وزيت الزيتون، وبذور السمسم، وبهارات البحر الأبيض المتوسط.",
+  "longDescription": "تعد المكسرات المشكلة المحمصة بالزعتر وجبة خفيفة متوسطية سهلة وغنية بالبروتين، ومثالية للتحضير المسبق، أو للضيافة، أو لتناولها أثناء التنقل. تُغطى مجموعة من المكسرات المفيدة لصحة القلب بطبقة خفيفة من زيت الزيتون البكر الممتاز، وتُتبل بالزعتر العطري، والبابريكا المدخنة، وبودرة الثوم، وبذور السمسم المحمصة قبل تحميصها حتى تكتسب لوناً ذهبياً ورائحة ذكية. هذه الوجبة الخفيفة المغذية مشبعة بطبيعتها ومحملة بالدهون الصحية والبروتين والفيتامينات والمعادن.",
   "ingredients": [
-    "raw almonds",
-    "raw walnuts",
-    "raw pistachios",
-    "raw unsalted cashews",
-    "extra virgin olive oil",
-    "za'atar seasoning",
-    "smoked paprika",
-    "garlic powder",
-    "sesame seeds",
-    "sea salt",
-    "black pepper",
-    "chopped fresh thyme (optional)"
+    "لوز خام",
+    "جوز خام",
+    "فستق حلبي خام",
+    "كاجو خام غير مملح",
+    "زيت زيتون بكر ممتاز",
+    "توابل الزعتر",
+    "بابريكا مدخنة",
+    "بودرة الثوم",
+    "بذور السمسم",
+    "ملح البحر",
+    "فلفل أسود",
+    "زعتر طازج مفروم (اختياري)"
   ],
   "instructions": [
-    "Preheat the oven to 325°F (165°C).",
-    "Line a baking sheet with parchment paper.",
-    "Combine the almonds, walnuts, pistachios, and cashews in a large mixing bowl.",
-    "Drizzle with the olive oil and toss to coat evenly.",
-    "Add the za'atar, smoked paprika, garlic powder, sesame seeds, salt, and black pepper.",
-    "Mix until all the nuts are evenly coated.",
-    "Spread the mixture into a single layer on the prepared baking sheet.",
-    "Roast for 12–15 minutes, stirring halfway through, until lightly golden and fragrant.",
-    "Allow the nuts to cool completely before serving.",
-    "Store in an airtight container for up to two weeks."
+    "سخن الفرن مسبقاً إلى 325 درجة فهرنهايت (165 درجة مئوية).",
+    "بطن صينية خبز بورق الزبدة.",
+    "اخلط اللوز والجوز والفستق الحلبي والكاجو في وعاء خلط كبير.",
+    "رش زيت الزيتون وحرك المكونات لتتغطى بالتساوي.",
+    "أضف الزعتر والبابريكا المدخنة وبودرة الثوم وبذور السمسم والملح والفلفل الأسود.",
+    "اخلط المكونات حتى تتغطى جميع المكسرات بالتساوي.",
+    "افرد المزيج في طبقة واحدة على صينية الخبز المحضرة.",
+    "احمص لمدة 12–15 دقيقة، مع التقليب في منتصف المدة، حتى يصبح لونها ذهبياً خفيفاً وتفوح رائحتها.",
+    "اترك المكسرات تبرد تماماً قبل التقديم.",
+    "احفظها في حاوية محكمة الإغلاق لمدة تصل إلى أسبوعين."
   ],
   "healthBenefits": [
-    "Rich in heart-healthy unsaturated fats",
-    "Excellent source of plant-based protein",
-    "High in vitamin E and magnesium",
-    "Provides antioxidants from nuts and spices",
-    "Supports brain and heart health",
-    "Naturally gluten-free",
-    "Mediterranean diet friendly"
+    "غنية بالدهون غير المشبعة المفيدة لصحة القلب",
+    "مصدر ممتاز للبروتين النباتي",
+    "غنية بفيتامين E والمغنيسيوم",
+    "توفر مضادات الأكسدة من المكسرات والتوابل",
+    "تدعم صحة الدماغ والقلب",
+    "خالية من الجلوتين طبيعياً",
+    "مناسبة لنظام حمية البحر الأبيض المتوسط"
   ],
   "keywords": [
-    "Za'atar Nuts",
-    "Roasted Mixed Nuts",
-    "Healthy Snack",
-    "Mediterranean Snack",
-    "Protein Snack"
+    "مكسرات بالزعتر",
+    "مكسرات مشكلة محمصة",
+    "وجبة خفيفة صحية",
+    "وجبة خفيفة متوسطية",
+    "وجبة خفيفة غنية بالبروتين"
   ],
   "tags": [
-    "snack",
-    "Mediterranean",
-    "nuts",
-    "zaatar",
-    "healthy",
-    "vegetarian",
-    "gluten-free",
-    "meal prep"
+    "وجبة خفيفة",
+    "متوسطي",
+    "مكسرات",
+    "زعتر",
+    "صحي",
+    "نباتي",
+    "خالٍ من الجلوتين",
+    "تحضير الوجبات"
   ]
 };
 

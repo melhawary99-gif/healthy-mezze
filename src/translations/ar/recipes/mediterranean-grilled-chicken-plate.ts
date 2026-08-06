@@ -1,58 +1,58 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "061eedaa6a5c2dea5aedcd82349eee237d24c32163c1ef2bcae24f97674424ec";
 
 const translation: RecipeTranslation = {
-  "title": "Mediterranean Grilled Chicken Plate",
-  "description": "A balanced Mediterranean meal featuring juicy grilled chicken, wholesome brown rice, crisp vegetables, fresh herbs, and creamy yogurt sauce.",
+  "title": "طبق الدجاج المشوي المتوسطي",
+  "description": "وجبة متوسطية متوازنة تتميز بالدجاج المشوي العصاري، والأرز البني الصحي، والخضروات المقرمشة، والأعشاب الطازجة، وصلصة الزبادي الكريمة.",
   "longDescription": "",
   "ingredients": [
-    "Chicken breast",
-    "Olive oil",
-    "Garlic",
-    "Lemon juice",
-    "Oregano",
-    "Brown rice",
-    "Cucumber",
-    "Tomatoes",
-    "Fresh parsley",
-    "Yogurt sauce"
+    "صدور دجاج",
+    "زيت زيتون",
+    "ثوم",
+    "عصير ليمون",
+    "أوريغانو",
+    "أرز بني",
+    "خيار",
+    "طماطم",
+    "بقدونس طازج",
+    "صلصة الزبادي"
   ],
   "instructions": [
-    "Pat the chicken breasts dry with paper towels.",
-    "Mix olive oil, garlic, lemon juice, oregano, salt, and pepper in a bowl.",
-    "Coat the chicken evenly with the marinade and refrigerate for at least 20 minutes.",
-    "Preheat the grill or grill pan over medium-high heat.",
-    "Grill the chicken for 6–7 minutes per side until fully cooked.",
-    "Cook the brown rice according to the package instructions.",
-    "Slice the cucumber and tomatoes and chop the fresh parsley.",
-    "Arrange the rice, vegetables, and grilled chicken on serving plates.",
-    "Drizzle with yogurt sauce.",
-    "Garnish with fresh parsley and serve immediately."
+    "جفف صدور الدجاج باستخدام مناشف ورقية.",
+    "اخلط زيت الزيتون، والثوم، وعصير الليمون، والأوريغانو، والملح، والفلفل في وعاء.",
+    "غطِّ الدجاج بالتتبيلة بالتساوي وضعه في الثلاجة لمدة 20 دقيقة على الأقل.",
+    "سخّن الشواية أو مقلاة الشواء على نار متوسطة إلى عالية.",
+    "اشوِ الدجاج لمدة 6–7 دقائق لكل جانب حتى ينضج تماماً.",
+    "اطبخ الأرز البني وفقاً للتعليمات المدونة على العبوة.",
+    "قطع الخيار والطماطم إلى شرائح وافرم البقدونس الطازج.",
+    "رتب الأرز والخضروات والدجاج المشوي في أطباق التقديم.",
+    "اسكب صلصة الزبادي فوق الطبق.",
+    "زيّن بالبقدونس الطازج وقدّمه فوراً."
   ],
   "healthBenefits": [
-    "Excellent source of lean protein",
-    "Supports muscle growth and recovery",
-    "Rich in vitamins and minerals",
-    "Contains heart-healthy olive oil",
-    "Supports heart health",
-    "Provides long-lasting energy"
+    "مصدر ممتاز للبروتين الخالي من الدهون",
+    "يدعم نمو العضلات والتعافي",
+    "غني بالفيتامينات والمعادن",
+    "يحتوي على زيت الزيتون المفيد لصحة القلب",
+    "يدعم صحة القلب",
+    "يوفر طاقة طويلة الأمد"
   ],
   "keywords": [
-    "Mediterranean Grilled Chicken Plate",
-    "Healthy Chicken Dinner",
-    "Mediterranean Chicken Recipe",
-    "High Protein Meal",
-    "Healthy Mediterranean Food",
-    "Easy Grilled Chicken"
+    "طبق الدجاج المشوي المتوسطي",
+    "عشاء دجاج صحي",
+    "وصفة دجاج متوسطية",
+    "وجبة عالية البروتين",
+    "طعام متوسطي صحي",
+    "دجاج مشوي سهل"
   ],
   "tags": [
-    "Chicken",
-    "Mediterranean",
-    "Healthy",
-    "High Protein",
-    "Dinner",
-    "Grilled"
+    "دجاج",
+    "متوسطي",
+    "صحي",
+    "عالي البروتين",
+    "عشاء",
+    "مشوي"
   ]
 };
 

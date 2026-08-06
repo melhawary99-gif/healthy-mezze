@@ -48,14 +48,7 @@ ${JSON.stringify(recipe, null, 2)}
     if (!response.ok) {
       const errorText = await response.text();
 
-      // Retry once if we hit the rate limit
-      if (response.status === 429) {
-        console.log("⏳ Rate limit reached. Waiting 10 seconds...");
-
-        await new Promise((resolve) => setTimeout(resolve, 10000));
-
-        return this.translateRecipe(recipe);
-      }
+      console.log(errorText);
 
       throw new Error(errorText);
     }

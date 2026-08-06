@@ -1,66 +1,66 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "96c7437ceaad0bd1b7e6c12f1505aa4e038cf4b620688ed6a8eaae784fac8a92";
 
 const translation: RecipeTranslation = {
-  "title": "Healthy Pistachio Baklava Rolls",
-  "description": "Crispy whole wheat phyllo rolls filled with pistachios and walnuts, lightly brushed with olive oil and finished with a fragrant honey-orange blossom syrup.",
-  "longDescription": "Baklava is one of the Middle East's most celebrated desserts. This healthier version swaps butter for extra virgin olive oil, uses whole wheat phyllo pastry when available, and sweetens the rolls with a light honey-orange blossom syrup instead of a heavy sugar syrup. The result is a crisp, flavorful dessert with authentic Mediterranean character and less saturated fat.",
+  "title": "لفائف البقلاوة الصحية بالفستق الحلبي",
+  "description": "لفائف عجينة الفيلو المقرمشة المصنوعة من القمح الكامل والمحشوة بالفستق الحلبي والجوز، والمدهونة بخفة بزيت الزيتون والمغمورة بشراب العسل وزهر البرتقال العطر.",
+  "longDescription": "تعد البقلاوة واحدة من أشهر الحلويات في الشرق الأوسط. تستبدل هذه النسخة الأكثر صحة الزبدة بزيت الزيتون البكر الممتاز، وتستخدم عجينة الفيلو المصنوعة من القمح الكامل عند توفرها، وتحلّي اللفائف بشراب العسل وماء زهر البرتقال الخفيف بدلاً من شراب السكر الثقيل. والنتيجة هي حلوى مقرمشة وغنية بالنكهات ذات طابع متوسطي أصيل ودهون مشبعة أقل.",
   "ingredients": [
-    "whole wheat phyllo pastry",
-    "extra virgin olive oil",
-    "finely chopped pistachios",
-    "finely chopped walnuts",
-    "ground cinnamon",
-    "ground cardamom",
-    "For the syrup:",
-    "honey",
-    "water",
-    "fresh lemon juice",
-    "orange blossom water",
-    "Extra chopped pistachios for garnish"
+    "عجينة فيلو بالقمح الكامل",
+    "زيت زيتون بكر ممتاز",
+    "فستق حلبي مفروم ناعماً",
+    "جوز مفروم ناعماً",
+    "قرفة مطحونة",
+    "هال مطحون",
+    "للشراب:",
+    "عسل",
+    "ماء",
+    "عصير ليمون طازج",
+    "ماء زهر البرتقال",
+    "فستق حلبي مفروم إضافي للتزيين"
   ],
   "instructions": [
-    "Preheat the oven to 350°F (175°C).",
-    "Line a baking tray with parchment paper.",
-    "Mix the pistachios, walnuts, cinnamon, and cardamom in a bowl.",
-    "Lay one sheet of phyllo on a clean surface and lightly brush with olive oil.",
-    "Place another sheet on top and brush again.",
-    "Spread a thin line of the nut mixture along one long edge.",
-    "Roll tightly into a log and place seam-side down on the baking tray.",
-    "Repeat with the remaining pastry and filling.",
-    "Lightly brush the tops with the remaining olive oil.",
-    "Bake for 25–30 minutes until crisp and golden.",
-    "Meanwhile, combine the honey, water, lemon juice, and orange blossom water in a small saucepan and warm gently.",
-    "Pour the warm syrup over the hot baklava rolls immediately after baking.",
-    "Allow the rolls to cool for at least 30 minutes.",
-    "Garnish with chopped pistachios before serving."
+    "سخن الفرن مسبقاً إلى 350 درجة فهرنهايت (175 درجة مئوية).",
+    "غطّ صينية الخبيز بورق الزبدة.",
+    "اخلط الفستق الحلبي، والجوز، والقرفة، والهال في وعاء.",
+    "ضع ورقة واحدة من عجينة الفيلو على سطح نظيف وادهنها بخفة بزيت الزيتون.",
+    "ضع ورقة أخرى فوقها وادهنها مجدداً.",
+    "وزع خطاً رفيعاً من خليط المكسرات على طول إحدى الحواف الطويلة.",
+    "لفها بإحكام على شكل أسطوانة وضع الحافة المغلقة إلى الأسفل في صينية الخبيز.",
+    "كرر العملية مع باقي العجينة والحشوة.",
+    "ادهن الجزء العلوي بخفة بما تبقى من زيت الزيتون.",
+    "اخبز لمدة 25–30 دقيقة حتى تصبح مقرمشة وذهبية اللون.",
+    "في هذه الأثناء، اخلط العسل، والماء، وعصير الليمون، وماء زهر البرتقال في قدر صغير وسخنه على نار هادئة.",
+    "اسكب الشراب الدافئ فوق لفائف البقلاوة الساخنة فور إخراجها من الفرن.",
+    "اترك اللفائف تبرد لمدة 30 دقيقة على الأقل.",
+    "زيّن بالفستق الحلبي المفروم قبل التقديم."
   ],
   "healthBenefits": [
-    "Uses olive oil instead of butter",
-    "Lower in refined sugar than traditional baklava",
-    "Pistachios provide protein, fiber, and antioxidants",
-    "Walnuts supply heart-healthy omega-3 fats",
-    "Whole wheat phyllo adds extra fiber when available",
-    "Smaller portions make it easier to enjoy as a balanced treat",
-    "Mediterranean-inspired ingredients"
+    "تستخدم زيت الزيتون بدلاً من الزبدة",
+    "تحتوي على نسبة أقل من السكر المكرر مقارنة بالبقلاوة التقليدية",
+    "يوفر الفستق الحلبي البروتين والألياف ومضادات الأكسدة",
+    "يمد الجوز الجسم بـ أوميغا 3 الصحية للقلب",
+    "تضيف عجينة الفيلو بالقمح الكامل أليافاً إضافية عند توفرها",
+    "تجعل الحصص الأصغر من السهل الاستمتاع بها كحلوى متوازنة",
+    "مكونات مستوحاة من المطبخ المتوسطي"
   ],
   "keywords": [
-    "Healthy Baklava",
-    "Pistachio Baklava",
-    "Baklava Rolls",
-    "Lebanese Dessert",
-    "Healthy Mediterranean Dessert"
+    "بقلاوة صحية",
+    "بقلاوة بالفستق",
+    "لفائف البقلاوة",
+    "حلوى لبنانية",
+    "حلوى صحية من البحر الأبيض المتوسط"
   ],
   "tags": [
-    "dessert",
-    "Lebanese",
-    "baklava",
-    "pistachio",
-    "healthy",
-    "Mediterranean",
-    "vegetarian",
-    "phyllo"
+    "حلوى",
+    "لبناني",
+    "بقلاوة",
+    "فستق حلبي",
+    "صحي",
+    "متوسطي",
+    "نباتي",
+    "فيلو"
   ]
 };
 

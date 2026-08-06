@@ -1,62 +1,62 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "05e6b31178aa409870acb127e7cd2db884212efcfe2ad1748c136c39d415fce6";
 
 const translation: RecipeTranslation = {
-  "title": "Healthy Roz Bel Laban (Egyptian Rice Pudding)",
-  "description": "A lighter version of the classic Egyptian rice pudding made with low-fat milk, naturally sweetened with honey, and flavored with vanilla and cinnamon.",
-  "longDescription": "Roz Bel Laban is one of Egypt's most cherished desserts. This healthier version keeps its rich, creamy texture while using low-fat milk, less added sugar, and a touch of honey for natural sweetness. Finished with cinnamon and pistachios, it's a wholesome dessert that's satisfying without being overly sweet.",
+  "title": "أرز باللبن صحي (أرز باللبن على الطريقة المصرية)",
+  "description": "نسخة أخف من حلوى الأرز باللبن المصرية الكلاسيكية، مصنوعة من حليب قليل الدسم، ומحلاة طبيعياً بالعسل، ומُنكّهة بالفانيليا والقرفة.",
+  "longDescription": "يُعتبر الأرز باللبن أحد أكثر الحلويات المحبوبة في مصر. تحافظ هذه النسخة الأكثر صحة على قوامها الغني والكريمي مع استخدام حليب قليل الدسم، وسكر مضاف أقل، ولمسة من العسل للحلاوة الطبيعية. مع لمسة أخيرة من القرفة والفستق الحلبي، يُعد هذا الطبق حلوى مغذية ومشرِفة دون أن تكون شديدة الحلاوة.",
   "ingredients": [
-    "short-grain rice",
-    "low-fat milk",
-    "honey",
-    "maple syrup (optional)",
-    "vanilla extract",
-    "ground cinnamon",
-    "cornstarch",
-    "cold water",
-    "chopped pistachios",
-    "sliced almonds",
-    "Fresh mint leaves for garnish"
+    "أرز قصير الحبة",
+    "حليب قليل الدسم",
+    "عسل",
+    "شراب القيقب (اختياري)",
+    "خلاصة الفانيليا",
+    "قرفة مطحونة",
+    "نشا الذرة",
+    "ماء بارد",
+    "فستق حلبي مفروم",
+    "شرائح اللوز",
+    "أوراق نعناع طازجة للتزيين"
   ],
   "instructions": [
-    "Rinse the rice under cold water.",
-    "In a saucepan, combine the rice and milk.",
-    "Bring to a gentle simmer over medium heat.",
-    "Cook for 30–35 minutes, stirring frequently to prevent sticking.",
-    "Mix the cornstarch with the cold water until smooth.",
-    "Stir the slurry into the pudding.",
-    "Add the honey, vanilla, and cinnamon.",
-    "Cook for another 2–3 minutes until thickened.",
-    "Divide into serving bowls.",
-    "Serve warm or chilled.",
-    "Top with pistachios, almonds, and fresh mint before serving."
+    "اغسل الأرز تحت الماء البارد.",
+    "في قدر، اخلط الأرز والحليب.",
+    "اتركه يغلي غلياناً خفيفاً على نار متوسطة.",
+    "اطهك لمدة 30–35 دقيقة، مع التحريك باستمرار لمنع الالتصاق.",
+    "اخلط نشا الذرة مع الماء البارد حتى يصبح المزيج ناعماً.",
+    "اسكب خليط النشا والماء في الأرز باللبن مع التحريك.",
+    "أضف العسل، والفانيليا، والقرفة.",
+    "اطهك لمدة 2–3 دقائق أخرى حتى يثخن القوام.",
+    "وزع المزيج في أطباق التقديم.",
+    "قدمه دافئاً أو بارداً.",
+    "زيّن بالفستق الحلبي، واللوز، والنعناع الطازج قبل التقديم."
   ],
   "healthBenefits": [
-    "Excellent source of calcium",
-    "Provides high-quality protein",
-    "Uses less added sugar than traditional recipes",
-    "Honey offers natural sweetness",
-    "Pistachios provide healthy fats and antioxidants",
-    "Good source of vitamin B12",
-    "Lower in saturated fat with low-fat milk"
+    "مصدر ممتاز للكالسيوم",
+    "يوفر بروتيناً عالي الجودة",
+    "يستخدم سكراً مضافاً أقل من الوصفات التقليدية",
+    "يمنح العسل حلاوة طبيعية",
+    "يوفر الفستق الحلبي دهوناً صحية ومضادات أكسدة",
+    "مصدر جيد لفيتامين B12",
+    "يحتوي على نسبة أقل من الدهون المشبعة بفضل استخدام حليب قليل الدسم"
   ],
   "keywords": [
-    "Roz Bel Laban",
-    "Egyptian Rice Pudding",
-    "Healthy Rice Pudding",
-    "Mediterranean Dessert",
-    "Healthy Egyptian Dessert"
+    "أرز باللبن",
+    "أرز باللبن مصري",
+    "أرز باللبن صحي",
+    "حلوى متوسطية",
+    "حلوى مصرية صحية"
   ],
   "tags": [
-    "dessert",
-    "Egyptian",
-    "rice pudding",
-    "healthy",
-    "vegetarian",
-    "calcium",
-    "Mediterranean",
-    "low-fat"
+    "حلوى",
+    "مصري",
+    "أرز باللبن",
+    "صحي",
+    "نباتي",
+    "كالسيوم",
+    "بحر متوسطي",
+    "قليل الدسم"
   ]
 };
 

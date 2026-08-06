@@ -1,61 +1,61 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "fa7d05752824569251b77b07bfde123cb08021c54daddb12bd560fde7f0b7125";
 
 const translation: RecipeTranslation = {
-  "title": "Roasted Tomato Basil Soup",
-  "description": "A creamy Mediterranean tomato soup made with roasted tomatoes, garlic, fresh basil, and extra virgin olive oil.",
-  "longDescription": "This Roasted Tomato Basil Soup brings together sweet roasted tomatoes, garlic, onions, and fresh basil in a comforting Mediterranean-inspired dish. Roasting the vegetables enhances their natural sweetness, while blending them creates a silky texture without needing heavy cream. Rich in antioxidants and vitamins, it's an ideal light lunch or dinner served with crusty whole-grain bread.",
+  "title": "شوربة الطماطم المشوية بالريحان",
+  "description": "شوربة طماطم متوسطية كريمية مصنوعة من الطماطم المشوية، الثوم، الريحان الطازج، وزيت الزيتون البكر الممتاز.",
+  "longDescription": "تجمع شوربة الطماطم المشوية بالريحان بين الطماطم المشوية الحلوة، الثوم، البصل، والريحان الطازج في طبق دافئ مستوحى من البحر الأبيض المتوسط. يعزز شوى الخضار حلاوتها الطبيعية، بينما يمنحها الخفق قوامًا حريريًا دون الحاجة إلى الكريمة الثقيلة. غنية بمضادات الأكسدة والفيتامينات، وهي وجبة غداء أو عشاء خفيفة مثالية تُقدم مع خبز الحبوب الكاملة المقرمش.",
   "ingredients": [
-    "ripe tomatoes, halved",
-    "Medium onion, quartered",
-    "cloves",
-    "extra virgin olive oil",
-    "vegetable broth",
-    "fresh basil leaves",
-    "dried oregano",
-    "sea salt",
-    "freshly ground black pepper",
-    "balsamic vinegar (optional)",
-    "Fresh basil leaves for garnish"
+    "طماطم ناضجة، مقطعة إلى أنصاف",
+    "بصلة متوسطة، مقطعة إلى أرباع",
+    "فصوص ثوم",
+    "زيت زيتون بكر ممتاز",
+    "مرقة خضار",
+    "أوراق ريحان طازجة",
+    "أوريغانو مجفف",
+    "ملح البحر",
+    "فلفل أسود مطحون طازجًا",
+    "خل البلسمك (اختياري)",
+    "أوراق ريحان طازجة للتزيين"
   ],
   "instructions": [
-    "Preheat the oven to 200°C (400°F).",
-    "Arrange the tomatoes, onion, and garlic on a baking tray.",
-    "Drizzle with olive oil and season with salt and pepper.",
-    "Roast for 35–40 minutes until the tomatoes are caramelized.",
-    "Transfer the roasted vegetables to a large soup pot.",
-    "Add the vegetable broth and oregano.",
-    "Bring to a gentle simmer for 10 minutes.",
-    "Add the fresh basil leaves.",
-    "Blend the soup until completely smooth using an immersion blender or countertop blender.",
-    "Stir in the balsamic vinegar if using.",
-    "Taste and adjust seasoning.",
-    "Serve hot with fresh basil and a drizzle of olive oil."
+    "سخن الفرن مسبقًا إلى 200 درجة مئوية (400 درجة فهرنهايت).",
+    "رتب الطماطم، البصل، والثوم في صينية خبز.",
+    "رش زيت الزيتون وتبل بالملح والفلفل.",
+    "اخبز لمدة 35–40 دقيقة حتى تتكرمل الطماطم.",
+    "انقل الخضار المشوية إلى قدر شوربة كبير.",
+    "أضف مرقة الخضار والأوريغانو.",
+    "اترك الخليط يغلي على نار هادئة لمدة 10 دقائق.",
+    "أضف أوراق الريحان الطازجة.",
+    "اخفق الشوربة حتى تصبح ناعمة تمامًا باستخدام خلاط يدوي أو خلاط كهربائي.",
+    "أضف خل البلسمك وقلّب إذا كنت تستخدمه.",
+    "تذوق واضبط التوابل.",
+    "قدّمها ساخنة مع الريحان الطازج ورشة من زيت الزيتون."
   ],
   "healthBenefits": [
-    "Rich in lycopene antioxidants",
-    "Excellent source of vitamin C",
-    "Supports heart health",
-    "Naturally low in calories",
-    "Good source of dietary fiber",
-    "Contains anti-inflammatory herbs"
+    "غنية بمضادات الأكسدة (الليكوبين)",
+    "مصدر ممتاز لفيتامين C",
+    "تدعم صحة القلب",
+    "قليلة السعرات الحرارية طبيعيًا",
+    "مصدر جيد للألياف الغذائية",
+    "تحتوي على أعشاب مضادة للالتهابات"
   ],
   "keywords": [
-    "Tomato Basil Soup",
-    "Roasted Tomato Soup",
-    "Mediterranean Tomato Soup",
-    "Healthy Tomato Soup",
-    "Easy Tomato Soup"
+    "شوربة الطماطم بالريحان",
+    "شوربة الطماطم المشوية",
+    "شوربة طماطم متوسطية",
+    "شوربة طماطم صحية",
+    "شوربة طماطم سهلة"
   ],
   "tags": [
-    "soup",
-    "Mediterranean",
-    "vegetarian",
-    "healthy",
-    "roasted vegetables",
-    "meal prep",
-    "comfort food"
+    "شوربة",
+    "متوسطي",
+    "نباتي",
+    "صحي",
+    "خضار مشوية",
+    "تحضير الوجبات",
+    "طعام مريح"
   ]
 };
 

@@ -1,64 +1,64 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "d0372e456d268450de5208ef0602a6c726253e2402cca30127ab5c8d35e5dfbd";
 
 const translation: RecipeTranslation = {
-  "title": "Spinach Lentil Soup",
-  "description": "A hearty Mediterranean soup made with red lentils, fresh spinach, vegetables, garlic, cumin, and lemon.",
-  "longDescription": "This Spinach Lentil Soup is a wholesome Mediterranean dish combining protein-rich red lentils with fresh spinach, carrots, onions, celery, and aromatic spices. The lentils cook until tender, creating a naturally creamy texture, while fresh spinach adds vibrant color and essential nutrients. Finished with fresh lemon juice and parsley, this soup is satisfying, healthy, and perfect for meal prep.",
+  "title": "شوربة العدس بالسبانخ",
+  "description": "شوربة متوسطية مغذية مصنوعة من العدس الأحمر، والسبانخ الطازجة، والخضروات، والثوم، والكمون، والليمون.",
+  "longDescription": "تعتبر شوربة العدس بالسبانخ هذه طبقاً متوسطياً صحياً يجمع بين العدس الأحمر الغني بالبروتين والسبانخ الطازجة والجزر والبصل والكرفس والتوابل العطرية. يطهى العدس حتى ينضج، مما يمنحه قواماً كريمياً طبيعياً، بينما تضفي السبانخ الطازجة لوناً نابضاً بالحياة ومغذيات أساسية. مع إضافة عصير الليمون الطازج والبقدونس في النهاية، تعتبر هذه الشوربة مشبعة وصحية ومثالية لتحضير الوجبات مسبقاً.",
   "ingredients": [
-    "extra virgin olive oil",
-    "Medium onion, diced",
-    "carrots, diced",
-    "stalks, diced",
-    "cloves, minced",
-    "red lentils, rinsed",
-    "vegetable broth",
-    "fresh spinach, chopped",
-    "ground cumin",
-    "ground coriander",
-    "turmeric",
-    "sea salt",
-    "black pepper",
-    "fresh lemon juice",
-    "chopped fresh parsley"
+    "زيت زيتون بكر ممتاز",
+    "بصلة متوسطة الحجم، مقطعة إلى مكعبات",
+    "جزر، مقطع إلى مكعبات",
+    "سيقان كرفس، مقطعة إلى مكعبات",
+    "فصوص ثوم، مفرومة",
+    "عدس أحمر، مغسول",
+    "مرقة خضار",
+    "سبانخ طازجة، مفرومة",
+    "كمون مطحون",
+    "كزبرة مطحونة",
+    "كركم",
+    "ملح البحر",
+    "فلفل أسود",
+    "عصير ليمون طازج",
+    "بقدونس طازج مفروم"
   ],
   "instructions": [
-    "Heat the olive oil in a large soup pot over medium heat.",
-    "Cook the onion, carrots, and celery for 6–8 minutes until softened.",
-    "Add the garlic and cook for 1 minute.",
-    "Stir in the cumin, coriander, and turmeric until fragrant.",
-    "Add the rinsed lentils and vegetable broth.",
-    "Bring to a boil, then reduce the heat and simmer for 25 minutes until the lentils are tender.",
-    "Stir in the chopped spinach and cook for another 3–4 minutes until wilted.",
-    "Blend part of the soup if a creamier texture is desired.",
-    "Season with salt and black pepper.",
-    "Stir in the lemon juice and parsley before serving."
+    "سخن زيت الزيتون في قدر شوربة كبير على نار متوسطة.",
+    "اطبخ البصل والجزر والكرفس لمدة 6–8 دقائق حتى تطرى الخضروات.",
+    "أضف الثوم واطهه لمدة 1 دقيقة.",
+    "قلّب الكمون والكزبرة والكركم حتى تفوح رائحة التوابل.",
+    "أضف العدس المغسول ومرقة الخضار.",
+    "اترك الخليط يغلي، ثم خفف النار واتركه يغلي بهدوء لمدة 25 دقيقة حتى ينضج العدس.",
+    "قلّب السبانخ المفرومة واطهها لمدة 3–4 دقائق أخرى حتى تذبل.",
+    "اخلط جزءاً من الشوربة إذا كنت ترغب في قوام أكثر كريمية.",
+    "تبّل بالملح والفلفل الأسود.",
+    "قلّب عصير الليمون والبقدونس قبل التقديم."
   ],
   "healthBenefits": [
-    "Excellent source of plant protein",
-    "Rich in iron and folate",
-    "High in dietary fiber",
-    "Supports digestive health",
-    "Packed with vitamins A, C, and K",
-    "Heart-healthy Mediterranean ingredients"
+    "مصدر ممتاز للبروتين النباتي",
+    "غني بالحديد والفولات",
+    "غني بالألياف الغذائية",
+    "يدعم صحة الجهاز الهضمي",
+    "مليء بالفيتامينات A و C و K",
+    "مكونات متوسطية مفيدة لصحة القلب"
   ],
   "keywords": [
-    "Spinach Lentil Soup",
-    "Mediterranean Lentil Soup",
-    "Healthy Lentil Soup",
-    "Vegetarian Soup",
-    "Spinach Soup"
+    "شوربة العدس بالسبانخ",
+    "شوربة العدس المتوسطية",
+    "شوربة العدس الصحية",
+    "شوربة نباتية",
+    "شوربة السبانخ"
   ],
   "tags": [
-    "soup",
-    "Mediterranean",
-    "vegetarian",
-    "vegan",
-    "lentils",
-    "spinach",
-    "high fiber",
-    "healthy"
+    "شوربة",
+    "متوسطي",
+    "نباتي",
+    "نباتي صرف",
+    "عدس",
+    "سبانخ",
+    "غني بالألياف",
+    "صحي"
   ]
 };
 

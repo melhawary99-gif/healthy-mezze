@@ -1,68 +1,68 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "dc14d5ed76ab1d7b3bb9c2b2f04b41fb348e9f0026dfb375a9a83bb8ef498ab0";
 
 const translation: RecipeTranslation = {
-  "title": "Mediterranean Stuffed Bell Peppers",
-  "description": "Colorful bell peppers stuffed with lean ground beef, brown rice, tomatoes, herbs, and Mediterranean spices, then baked until tender.",
-  "longDescription": "Mediterranean Stuffed Bell Peppers are a wholesome and satisfying meal featuring vibrant bell peppers filled with a flavorful mixture of lean ground beef, brown rice, tomatoes, onions, garlic, parsley, and warm Mediterranean spices. Baked until the peppers are perfectly tender, this balanced dish is rich in protein, fiber, vitamins, and minerals, making it ideal for healthy family dinners or meal prep.",
+  "title": "فلفل حلو محشو على طريقة البحر الأبيض المتوسط",
+  "description": "فلفل حلو ملون محشو بلحم البقر المفروم الخالي من الدهون، والأرز البني، والطماطم، والأعشاب، وتوابل البحر الأبيض المتوسط، ثم يُخبز في الفرن حتى ينضج ويصبح طرياً.",
+  "longDescription": "يعتبر الفلفل الحلو المحشو على طريقة البحر الأبيض المتوسط وجبة صحية ومشبعة تتميز بألوان الفلفل الزاهية المحشوة بمزيج غني بالنكهات من لحم البقر المفروم الخالي من الدهون، والأرز البني، والطماطم، والبصل، والثوم، والبقدونس، وتوابل البحر الأبيض المتوسط الدافئة. يُخبز هذا الطبق المتوازن حتى يصبح الفلفل طرياً تماماً، وهو غني بالبروتين والألياف والفيتامينات والمعادن، مما يجعله مثالياً لوجبات العشاء العائلية الصحية أو للتحضير المسبق للوجبات.",
   "ingredients": [
-    "Large bell peppers (mixed colors)",
-    "lean ground beef",
-    "cooked brown rice",
-    "Medium onion, finely diced",
-    "cloves, minced",
-    "tomatoes, finely diced",
-    "tomato paste",
-    "extra virgin olive oil",
-    "ground cumin",
-    "paprika",
-    "dried oregano",
-    "ground cinnamon",
-    "sea salt",
-    "black pepper",
-    "chopped fresh parsley",
-    "chopped fresh mint (optional)",
-    "low-sodium vegetable or beef broth"
+    "فلفل حلو كبير (ألوان مختلفة)",
+    "لحم بقر مفروم خالي من الدهون",
+    "أرز بني مطبوخ",
+    "بصلة متوسطة، مقطعة مكعبات صغيرة",
+    "فصوص ثوم مفرومة",
+    "طماطم، مقطعة مكعبات صغيرة",
+    "معجون طماطم",
+    "زيت زيتون بكر ممتاز",
+    "كمون مطحون",
+    "بابريكا",
+    "أوريغانو مجفف",
+    "قرفة مطحونة",
+    "ملح بحري",
+    "فلفل أسود",
+    "بقدونس طازج مفروم",
+    "نعناع طازج مفروم (اختياري)",
+    "مرق خضار أو مرق لحم بقر قليل الصوديوم"
   ],
   "instructions": [
-    "Preheat the oven to 190°C (375°F).",
-    "Slice the tops off the peppers and remove the seeds and membranes.",
-    "Heat the olive oil in a large skillet over medium heat.",
-    "Cook the onion until softened, then add the garlic and cook for 30 seconds.",
-    "Add the ground beef and cook until browned.",
-    "Stir in the tomatoes, tomato paste, cumin, paprika, oregano, cinnamon, salt, and pepper.",
-    "Mix in the cooked brown rice, parsley, and mint. Cook for another 2 minutes.",
-    "Fill each bell pepper generously with the beef and rice mixture.",
-    "Arrange the peppers upright in a baking dish and pour the broth into the bottom of the dish.",
-    "Cover loosely with foil and bake for 30 minutes.",
-    "Remove the foil and bake for another 10 minutes until the peppers are tender and lightly browned.",
-    "Serve warm with yogurt, tahini sauce, or a fresh Mediterranean salad."
+    "سخن الفرن مسبقاً إلى 190 درجة مئوية (375 درجة فهرنهايت).",
+    "اقطع الجزء العلوي من الفلفل وأزل البذور والأغشية الداخلية.",
+    "سخن زيت الزيتون في مقلاة كبيرة على نار متوسطة.",
+    "اقلِ البصل حتى يذبل، ثم أضف الثوم واطبخه لمدة 30 ثانية.",
+    "أضف اللحم المفروم واطبخه حتى يتغير لونه إلى البني.",
+    "أضف الطماطم، ومعجون الطماطم، والكمون، والبابريكا، والأوريغانو، والقرفة، والملح، والفلفل الأسود وقلّب المكونات.",
+    "اخلط الأرز البني المطبوخ والبقدونس والنعناع. اطبخ المزيج لمدة 2 دقيقة أخرى.",
+    "املأ كل حبة فلفل بسخاء بمزيج اللحم والأرز.",
+    "رتب الفلفل بشكل قائم في صينية فرن وصب المرق في قاع الصينية.",
+    "غطّ الصينية بشكل خفيف بورق الألمنيوم واخبزها لمدة 30 دقيقة.",
+    "أزل ورق الألمنيوم واخبز لمدة 10 دقائق أخرى حتى يصبح الفلفل طرياً ويكتسب لوناً ذهبياً خفيفاً.",
+    "قدّم الطبق دافئاً مع اللبن (الزبادي)، أو صلصة الطحينة، أو سلطة طازجة على طريقة البحر الأبيض المتوسط."
   ],
   "healthBenefits": [
-    "Excellent source of lean protein",
-    "High in vitamin C from bell peppers",
-    "Provides fiber from vegetables and brown rice",
-    "Rich in antioxidants",
-    "Balanced source of protein, healthy fats, and complex carbohydrates",
-    "Mediterranean diet friendly"
+    "مصدر ممتاز للبروتين الخالي من الدهون",
+    "غني بفيتامين C من الفلفل الحلو",
+    "يوفر الألياف من الخضروات والأرز البني",
+    "غني بمضادات الأكسدة",
+    "مصدر متوازن للبروتين والدهون الصحية والكربوهيدرات المعقدة",
+    "مناسب لنظام حمية البحر الأبيض المتوسط الغذائي"
   ],
   "keywords": [
-    "Stuffed Bell Peppers",
-    "Mediterranean Stuffed Peppers",
-    "Healthy Stuffed Peppers",
-    "Ground Beef Peppers",
-    "Baked Bell Peppers"
+    "فلفل حلو محشو",
+    "فلفل محشو على طريقة البحر الأبيض المتوسط",
+    "فلفل محشو صحي",
+    "فلفل باللحم المفروم",
+    "فلفل حلو مخبوز"
   ],
   "tags": [
-    "main dish",
-    "Mediterranean",
-    "Lebanese",
-    "beef",
-    "bell peppers",
-    "healthy",
-    "high protein",
-    "meal prep"
+    "طبق رئيسي",
+    "متوسطي",
+    "لبناني",
+    "لحم بقر",
+    "فلفل حلو",
+    "صحي",
+    "غني بالبروتين",
+    "تحضير الوجبات"
   ]
 };
 

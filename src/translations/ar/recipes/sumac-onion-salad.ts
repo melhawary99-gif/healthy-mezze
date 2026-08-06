@@ -1,54 +1,54 @@
 import { RecipeTranslation } from "@/types/recipe-translation";
 
-
+export const sourceHash = "bba68d48b9eb0577e5d31c5c80c63ffd6de0d553f7e7e37d946d40c31f9fb5be";
 
 const translation: RecipeTranslation = {
-  "title": "Sumac Onion Salad",
-  "description": "A traditional Lebanese onion relish made with red onions, fresh parsley, sumac, lemon juice, and olive oil.",
-  "longDescription": "Sumac Onion Salad is a classic accompaniment served alongside shawarma, kebabs, grilled meats, kofta, and falafel throughout Lebanon and the Middle East. The sharpness of red onions is mellowed with lemon juice while earthy sumac provides its signature tangy flavor. Fresh parsley and extra virgin olive oil complete this simple yet flavorful condiment that adds freshness and brightness to many Mediterranean dishes.",
+  "title": "سلطة البصل بالسماق",
+  "description": "مقبلات بصل لبنانية تقليدية تُحضر من البصل الأحمر، والبقدونس الطازج، والسماق، وعصير الليمون، وزيت الزيتون.",
+  "longDescription": "تعد سلطة البصل بالسماق طبقًا جانبيًا كلاسيكيًا يُقدم إلى جانب الشاورما، والكباب، واللحوم المشوية، والكفتة، والفلافل في جميع أنحاء لبنان والشرق الأوسط. يتم تخفيف حدة البصل الأحمر بعصير الليمون بينما يمنحه السماق طعمه الحامض المميز. يكتمل هذا الطبق الجانبي البسيط والغني بالنكهة بالبقدونس الطازج وزيت الزيتون البكر الممتاز، مما يضفي الانتعاش والحيوية على العديد من أطباق البحر الأبيض المتوسط.",
   "ingredients": [
-    "Medium red onions, very thinly sliced",
-    "chopped fresh parsley",
-    "extra virgin olive oil",
-    "fresh lemon juice",
-    "ground sumac",
-    "sea salt",
-    "black pepper"
+    "بصل أحمر متوسط الحجم، مقطع إلى شرائح رفيعة جداً",
+    "بقدونس طازج مفروم",
+    "زيت زيتون بكر ممتاز",
+    "عصير ليمون طازج",
+    "سماق مطحون",
+    "ملح البحر",
+    "فلفل أسود"
   ],
   "instructions": [
-    "Place the sliced onions in a large bowl.",
-    "Add the lemon juice and salt.",
-    "Massage the onions gently for 2–3 minutes to soften them.",
-    "Add the parsley, sumac, olive oil, and black pepper.",
-    "Toss until evenly coated.",
-    "Let the salad rest for 10 minutes before serving.",
-    "Serve alongside grilled meats, shawarma, falafel, kebabs, or wraps."
+    "ضع شرائح البصل في وعاء كبير.",
+    "أضف عصير الليمون والملح.",
+    "افرك البصل بلطف لمدة 2–3 دقائق حتى يطرى.",
+    "أضف البقدونس، والسماق، وزيت الزيتون، والفلفل الأسود.",
+    "اخلط المكونات جيداً حتى تتداخل بشكل متساوٍ.",
+    "اترك السلطة ترتاح لمدة 10 دقائق قبل التقديم.",
+    "قَدّمها إلى جانب اللحوم المشوية، أو الشاورما، أو الفلافل، أو الكباب، أو الشطائر."
   ],
   "healthBenefits": [
-    "Rich in antioxidants from sumac",
-    "Provides vitamin C from fresh lemon juice",
-    "Contains heart-healthy olive oil",
-    "Naturally vegan",
-    "Adds flavor without processed ingredients",
-    "Pairs well with lean proteins",
-    "Fresh parsley provides vitamins A, C, and K"
+    "غنية بمضادات الأكسدة الموجودة في السماق",
+    "توفر فيتامين ج من عصير الليمون الطازج",
+    "تحتوي على زيت الزيتون المفيد لصحة القلب",
+    "نباتية بالكامل بشكل طبيعي",
+    "تضيف نكهة مميزة بدون مكونات مصنعة",
+    "تتناسب جيداً مع البروتينات الخالية من الدهون",
+    "البقدونس الطازج يوفر فيتامينات أ، وج، وك"
   ],
   "keywords": [
-    "Sumac Onion Salad",
-    "Lebanese Onion Relish",
-    "Shawarma Topping",
-    "Middle Eastern Condiment",
-    "Sumac Onions"
+    "سلطة البصل بالسماق",
+    "مقبلات البصل اللبنانية",
+    "إضافة للشاورما",
+    "مقبلات من الشرق الأوسط",
+    "بصل بالسماق"
   ],
   "tags": [
-    "dip",
-    "sauce",
-    "condiment",
-    "Lebanese",
-    "sumac",
-    "vegan",
-    "healthy",
-    "mezze"
+    "غموس",
+    "صلصة",
+    "مقبلات",
+    "لبناني",
+    "سماق",
+    "نباتي",
+    "صحي",
+    "مزة"
   ]
 };
 
