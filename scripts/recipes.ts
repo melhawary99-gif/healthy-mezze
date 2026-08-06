@@ -15,6 +15,7 @@ import { check } from "./commands/check";
 import { upgrade } from "./commands/upgrade";
 import { syncHashes } from "./commands/sync-hashes";
 import { cleanHashes } from "./commands/clean-hashes";
+import { generateTranslationIndex } from "./commands/generate-translation-index";
 
 const recipesDir = path.join(process.cwd(), "src/data/recipes");
 
@@ -93,6 +94,16 @@ async function main() {
       await cleanHashes(argument);
       break;
 
+    case "generate-index":
+      if (!argument) {
+        console.log("Usage:");
+        console.log("npm run recipes generate-index <language>");
+        process.exit(1);
+      }
+
+      generateTranslationIndex(argument);
+      break;
+
     default:
       console.log(`
 🥗 Healthy Mezze Recipe Toolkit
@@ -107,6 +118,9 @@ npm run recipes normalize
 npm run recipes migrate
 npm run recipes translate <language>
 npm run recipes export <language>
+npm run recipes generate-index <language>
+npm run recipes sync-hashes <language>
+npm run recipes clean-hashes <language>
 `);
   }
 }

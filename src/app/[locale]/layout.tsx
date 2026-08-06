@@ -1,8 +1,10 @@
 import { NextIntlClientProvider } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
+
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+
 import { routing } from "@/i18n/routing";
 
 type Props = {
@@ -26,16 +28,12 @@ export default async function LocaleLayout({ children, params }: Props) {
   const messages = (await import(`@/messages/${locale}.json`)).default;
 
   return (
-    <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
-      <body>
-        <NextIntlClientProvider locale={locale} messages={messages}>
-          <Header />
+    <NextIntlClientProvider locale={locale} messages={messages}>
+      <Header />
 
-          <main>{children}</main>
+      <main>{children}</main>
 
-          <Footer />
-        </NextIntlClientProvider>
-      </body>
-    </html>
+      <Footer />
+    </NextIntlClientProvider>
   );
 }
