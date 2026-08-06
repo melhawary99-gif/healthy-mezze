@@ -4,7 +4,7 @@ import { categories } from "@/data/categories";
 import { getRecipesByCategory } from "@/lib/categories";
 import Container from "@/components/ui/Container";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
 
 export default function CategoriesPage() {

@@ -47,6 +47,14 @@
     "viewRecipe": "View Recipe"
   },
 
+  "Recipes": {
+    "title": "Recipes",
+    "heading": "Browse healthy Mediterranean recipes",
+    "description": "Find nourishing recipes for salads, soups, wraps, main dishes, vegetarian meals and more.",
+    "noResults": "No recipes match your search",
+    "tryAgain": "Try another search or category."
+  },
+
   "Statistics": {
     "healthyRecipes": "Healthy Recipes",
     "recipeCategories": "Recipe Categories",

@@ -8,6 +8,10 @@ export async function getLocalizedRecipe(slug: string, locale: "en" | "ar") {
     return null;
   }
 
+  if (locale === "en") {
+    return recipe;
+  }
+
   const translation = await getRecipeTranslation(slug, locale);
 
   if (!translation) {
@@ -19,21 +23,24 @@ export async function getLocalizedRecipe(slug: string, locale: "en" | "ar") {
 
     title: translation.title,
     description: translation.description,
-    longDescription: translation.longDescription,
+    longDescription: translation.longDescription ?? recipe.longDescription,
+
+    imageAlt: translation.imageAlt ?? recipe.imageAlt,
 
     ingredients: recipe.ingredients.map((ingredient, index) => ({
       ...ingredient,
-      name: translation.ingredients[index] ?? ingredient.name,
+      name: (translation.ingredients[index] as unknown as string) ?? ingredient.name,
     })),
 
     instructions:
       translation.instructions.length > 0 ? translation.instructions : recipe.instructions,
 
-    healthBenefits:
-      translation.healthBenefits.length > 0 ? translation.healthBenefits : recipe.healthBenefits,
+    healthBenefits: translation.healthBenefits?.length
+      ? translation.healthBenefits
+      : recipe.healthBenefits,
 
-    keywords: translation.keywords.length > 0 ? translation.keywords : recipe.keywords,
+    keywords: translation.keywords?.length ? translation.keywords : recipe.keywords,
 
-    tags: translation.tags.length > 0 ? translation.tags : recipe.tags,
+    tags: translation.tags?.length ? translation.tags : recipe.tags,
   };
 }

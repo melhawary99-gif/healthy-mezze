@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { getRelatedRecipes } from "@/lib/recipes";
 import { getLocalizedRecipe } from "@/lib/localizedRecipes";
 import Container from "@/components/ui/Container";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 
 import RecipeHero from "@/components/recipes/RecipeHero";
 import RecipeQuickInfo from "@/components/recipes/RecipeQuickInfo";
