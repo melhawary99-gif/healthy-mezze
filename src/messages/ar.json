@@ -27,7 +27,75 @@
     "fiber": "الألياف",
     "sugar": "السكريات",
     "sodium": "الصوديوم",
-    "healthBenefits": "الفوائد الصحية"
+    "healthBenefits": "الفوائد الصحية",
+
+    "popularSearches": {
+      "chicken": "دجاج",
+      "salad": "سلطة",
+      "vegan": "نباتي",
+      "soup": "شوربة",
+      "wraps": "لفائف"
+    },
+
+    "prepTime": "وقت التحضير",
+    "cookTime": "وقت الطهي",
+    "totalTime": "الوقت الإجمالي",
+    "servings": "عدد الحصص",
+    "minutes": "دقيقة",
+
+    "ingredients": "المكونات",
+    "instructions": "طريقة التحضير",
+
+    "difficulty": {
+      "easy": "سهل",
+      "medium": "متوسط",
+      "hard": "صعب"
+    },
+    "categories": {
+      "breakfast": "الإفطار",
+      "salads": "السلطات",
+      "soups": "الشوربات",
+      "main-dishes": "الأطباق الرئيسية",
+      "vegetarian": "نباتي",
+      "vegan": "نباتي صرف",
+      "sandwiches-wraps": "السندويشات واللفائف",
+      "snack": "وجبات خفيفة",
+      "mezze": "المقبلات",
+      "drinks": "المشروبات",
+      "desserts": "الحلويات",
+      "dips-sauces": "الصلصات والتغميسات"
+    }
+  },
+
+  "RecipeCard": {
+    "viewRecipe": "عرض الوصفة",
+    "addToFavorites": "إضافة {recipe} إلى المفضلة"
+  },
+
+  "Favorites": {
+    "title": "وصفاتي المفضلة",
+    "description": "ستظهر الوصفات التي تحفظها هنا بعد إضافتها من صفحة الوصفة.",
+    "emptyTitle": "لا توجد وصفات مفضلة حتى الآن.",
+    "emptyDescription": "احفظ الوصفات التي تعجبك وستظهر هنا."
+  },
+
+  "RecipeFilters": {
+    "title": "البحث عن الوصفات",
+    "description": "ابحث حسب الاسم أو المكونات أو الوصف أو الفئة.",
+    "search": "ابحث عن وصفة",
+    "placeholder": "جرّب دجاج، سلطة، نباتي...",
+    "sort": "ترتيب الوصفات",
+    "categories": "الفئات",
+    "sortOptions": {
+      "az": "أ-ي",
+      "za": "ي-أ",
+      "prepTime": "وقت التحضير"
+    }
+  },
+
+  "RelatedRecipes": {
+    "title": "قد يعجبك أيضًا",
+    "description": "المزيد من الوصفات اللذيذة من قسم"
   },
 
   "Home": {
@@ -54,10 +122,6 @@
   "FeaturedRecipes": {
     "title": "الوصفات المميزة",
     "subtitle": "أشهر وصفات البحر الأبيض المتوسط الصحية."
-  },
-
-  "RecipeCard": {
-    "viewRecipe": "عرض الوصفة"
   },
 
   "Recipes": {

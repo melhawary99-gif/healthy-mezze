@@ -1,17 +1,15 @@
 import { Recipe } from "@/types/recipe";
+import { useTranslations } from "next-intl";
 
 interface InstructionsSectionProps {
   recipe: Recipe;
 }
 
-export default function InstructionsSection({
-  recipe,
-}: InstructionsSectionProps) {
+export default function InstructionsSection({ recipe }: InstructionsSectionProps) {
+  const t = useTranslations("Recipe");
   return (
     <section>
-      <h2 className="text-3xl font-bold">
-        Instructions
-      </h2>
+      <h2 className="text-3xl font-bold">{t("instructions")}</h2>
 
       <ol className="mt-8 space-y-5">
         {recipe.instructions.map((step, index) => (
@@ -23,9 +21,7 @@ export default function InstructionsSection({
               {index + 1}
             </div>
 
-            <p className="pt-2 leading-7 text-gray-700">
-              {step}
-            </p>
+            <p className="pt-2 leading-7 text-gray-700">{step}</p>
           </li>
         ))}
       </ol>

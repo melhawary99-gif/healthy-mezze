@@ -5,14 +5,15 @@ import PrintButton from "./PrintButton";
 
 import { Recipe } from "@/types/recipe";
 import ShareButton from "./ShareButton";
+import { useTranslations, useLocale } from "next-intl";
 
 interface RecipeHeroProps {
   recipe: Recipe;
 }
 
-export default function RecipeHero({
-  recipe,
-}: RecipeHeroProps) {
+export default function RecipeHero({ recipe }: RecipeHeroProps) {
+  const t = useTranslations("Recipe");
+  const locale = useLocale();
   return (
     <section className="overflow-hidden rounded-[2rem] bg-white shadow-lg">
       <div className="relative aspect-[4/3] lg:aspect-[16/9]">
@@ -30,41 +31,34 @@ export default function RecipeHero({
       <div className="p-8 lg:p-12">
         <div className="flex flex-wrap gap-3">
           <span className="rounded-full bg-green-100 px-4 py-2 text-sm font-semibold text-green-700">
-            🥗 {recipe.category}
+            🥗 {t(`categories.${recipe.category}`)}
           </span>
 
           <span className="rounded-full bg-yellow-100 px-4 py-2 text-sm font-semibold text-yellow-700">
-            ⭐ {recipe.difficulty}
+            ⭐ {t(`difficulty.${recipe.difficulty.toLowerCase()}`)}
           </span>
 
           <span className="rounded-full bg-blue-100 px-4 py-2 text-sm font-semibold text-blue-700">
-            ⏱ {recipe.prepTime} min
+            ⏱ {recipe.prepTime}
           </span>
 
           <span className="rounded-full bg-purple-100 px-4 py-2 text-sm font-semibold text-purple-700">
-            👥 {recipe.servings} Servings
+            👥 {recipe.servings} {t("servings")}
           </span>
         </div>
 
         <div className="mt-6 flex flex-col gap-6 lg:flex-row lg:justify-between">
           <div className="max-w-3xl">
-            <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">
-              {recipe.title}
-            </h1>
+            <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">{recipe.title}</h1>
 
-            <p className="mt-5 text-lg leading-8 text-gray-600">
-              {recipe.description}
-            </p>
+            <p className="mt-5 text-lg leading-8 text-gray-600">{recipe.description}</p>
           </div>
 
           <div className="flex flex-wrap gap-4">
-  <FavoriteButton slug={recipe.slug} />
-  <PrintButton />
-  <ShareButton
-  title={recipe.title}
-  description={recipe.description}
-/>
-</div>
+            <FavoriteButton slug={recipe.slug} />
+            <PrintButton />
+            <ShareButton title={recipe.title} description={recipe.description} />
+          </div>
         </div>
       </div>
     </section>

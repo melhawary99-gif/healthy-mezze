@@ -27,7 +27,50 @@
     "fiber": "Fiber",
     "sugar": "Sugar",
     "sodium": "Sodium",
-    "healthBenefits": "Health Benefits"
+    "healthBenefits": "Health Benefits",
+
+    "prepTime": "Prep Time",
+    "cookTime": "Cook Time",
+    "totalTime": "Total Time",
+    "servings": "Servings",
+    "minutes": "min",
+
+    "ingredients": "Ingredients",
+    "instructions": "Instructions",
+
+    "difficulty": {
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard"
+    },
+    "categories": {
+      "breakfast": "Breakfast",
+      "salads": "Salads",
+      "soups": "Soups",
+      "main-dishes": "Main Dishes",
+      "vegetarian": "Vegetarian",
+      "vegan": "Vegan",
+      "sandwiches-wraps": "Sandwiches & Wraps",
+      "snack": "Snack",
+      "mezze": "Mezze",
+      "drinks": "Drinks",
+      "desserts": "Desserts",
+      "dips-sauces": "Dips & Sauces"
+    }
+  },
+
+  "RecipeFilters": {
+    "title": "Search Recipes",
+    "description": "Search by name, ingredient, description, or category.",
+    "search": "Search recipes",
+    "placeholder": "Try chicken, salad, vegan...",
+    "sort": "Sort Recipes",
+    "categories": "Categories",
+    "sortOptions": {
+      "az": "A–Z",
+      "za": "Z–A",
+      "prepTime": "Prep Time"
+    }
   },
 
   "Home": {
@@ -44,6 +87,11 @@
     "mediterraneanCuisine": "Mediterranean Cuisine"
   },
 
+  "RelatedRecipes": {
+    "title": "You May Also Like",
+    "description": "More delicious recipes from the"
+  },
+
   "Categories": {
     "title": "Browse Recipe Categories",
     "subtitle": "Discover healthy Mediterranean recipes by category.",
@@ -57,7 +105,15 @@
   },
 
   "RecipeCard": {
-    "viewRecipe": "View Recipe"
+    "viewRecipe": "View Recipe",
+    "addToFavorites": "Add {recipe} to favorites"
+  },
+
+  "Favorites": {
+    "title": "My Favorite Recipes",
+    "description": "Your saved recipes will appear here when you add them from the recipe details page.",
+    "emptyTitle": "No favorite recipes yet.",
+    "emptyDescription": "Save recipes you love and they will appear here."
   },
 
   "Recipes": {
@@ -65,7 +121,15 @@
     "heading": "Browse healthy Mediterranean recipes",
     "description": "Find nourishing recipes for salads, soups, wraps, main dishes, vegetarian meals and more.",
     "noResults": "No recipes match your search",
-    "tryAgain": "Try another search or category."
+    "tryAgain": "Try another search or category.",
+
+    "popularSearches": {
+      "chicken": "Chicken",
+      "salad": "Salad",
+      "vegan": "Vegan",
+      "soup": "Soup",
+      "wraps": "Wraps"
+    }
   },
 
   "Statistics": {

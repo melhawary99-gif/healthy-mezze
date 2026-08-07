@@ -16,6 +16,13 @@ export default function RecipesPage() {
   const locale = useLocale() as "en" | "ar";
 
   const t = useTranslations("Recipes");
+  const popularSearches = [
+    t("popularSearches.chicken"),
+    t("popularSearches.salad"),
+    t("popularSearches.vegan"),
+    t("popularSearches.soup"),
+    t("popularSearches.wraps"),
+  ];
 
   const [recipes, setRecipes] = useState<Recipe[]>([]);
 

@@ -17,7 +17,7 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
     <article className="group relative flex h-full flex-col overflow-hidden rounded-3xl bg-white shadow-sm transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl">
       <button
         type="button"
-        aria-label={`Add ${recipe.title} to favorites`}
+        aria-label={t("addToFavorites", { recipe: recipe.title })}
         className="absolute right-4 top-4 z-10 cursor-pointer rounded-full bg-white/90 p-2 shadow-lg backdrop-blur transition hover:scale-110 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
       >
         <Heart className="h-5 w-5 text-gray-600" />
