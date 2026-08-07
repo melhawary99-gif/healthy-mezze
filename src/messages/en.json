@@ -220,230 +220,422 @@
     "dipsSauces": {
       "name": "Dips & Sauces",
       "description": "Classic Mediterranean dips and flavorful sauces."
+    }
+  },
+
+  "About": {
+    "badge": "About Healthy Mezze",
+    "title": "Mediterranean meals made simple, healthy, and unforgettable.",
+    "subtitle": "Healthy Mezze celebrates fresh ingredients, easy recipes, and balanced Mediterranean-inspired eating designed for every home cook.",
+
+    "ourStory": "Our story",
+    "ourStoryTitle": "Fresh inspiration from Mediterranean kitchens",
+    "ourStoryParagraph1": "Healthy Mezze was created to make healthy Mediterranean cooking simple, approachable, and enjoyable for everyone. Inspired by the rich culinary traditions of Egypt, Lebanon, Greece, Turkey, Syria, Jordan, and Palestine, our goal is to help home cooks prepare delicious meals using fresh ingredients and straightforward techniques.",
+    "ourStoryParagraph2": "Every recipe is designed with everyday home kitchens in mind. We focus on balanced nutrition, practical ingredients, clear step-by-step instructions, and authentic Mediterranean flavors that are easy to recreate at home.",
+
+    "mission": "Our mission",
+    "values": "Our values",
+    "valuesTitle": "Built on flavor, health, and tradition.",
+
+    "commitment": "Our commitment",
+    "commitmentTitle": "What you can expect from Healthy Mezze",
+    "commitmentDescription": "We strive to publish recipes that are carefully written, easy to follow, and inspired by authentic Mediterranean cooking traditions. Our nutrition information is intended for general guidance and should not replace professional medical or dietary advice.",
+
+    "whyChoose": "Why choose Healthy Mezze",
+    "whyChooseTitle": "Everyday cooking that feels special.",
+
+    "ctaTitle": "Ready to make Mediterranean cooking part of your routine?",
+    "ctaDescription": "Explore our recipe collection for fresh meals, simple preparation, and delicious results.",
+    "browseRecipes": "Browse Recipes",
+    "contactUs": "Contact Us",
+
+    "missionCards": {
+      "healthyEating": {
+        "title": "Healthy eating",
+        "description": "Nutritious meals that feel delicious and balanced."
+      },
+      "easyCooking": {
+        "title": "Easy home cooking",
+        "description": "Simple recipes for busy weeknights and relaxed weekends."
+      },
+      "seasonal": {
+        "title": "Seasonal ingredients",
+        "description": "Fresh produce, herbs, and pantry staples every season."
+      },
+      "balanced": {
+        "title": "Balanced lifestyle",
+        "description": "Meals that support energy, wellness, and joy."
+      }
     },
 
-    "About": {
-      "badge": "About Healthy Mezze",
-      "title": "Mediterranean meals made simple, healthy, and unforgettable.",
-      "subtitle": "Healthy Mezze celebrates fresh ingredients, easy recipes, and balanced Mediterranean-inspired eating designed for every home cook.",
-
-      "ourStory": "Our story",
-      "ourStoryTitle": "Fresh inspiration from Mediterranean kitchens",
-      "ourStoryParagraph1": "Healthy Mezze was created to make healthy Mediterranean cooking simple, approachable, and enjoyable for everyone. Inspired by the rich culinary traditions of Egypt, Lebanon, Greece, Turkey, Syria, Jordan, and Palestine, our goal is to help home cooks prepare delicious meals using fresh ingredients and straightforward techniques.",
-      "ourStoryParagraph2": "Every recipe is designed with everyday home kitchens in mind. We focus on balanced nutrition, practical ingredients, clear step-by-step instructions, and authentic Mediterranean flavors that are easy to recreate at home.",
-
-      "mission": "Our mission",
-      "values": "Our values",
-      "valuesTitle": "Built on flavor, health, and tradition.",
-
-      "commitment": "Our commitment",
-      "commitmentTitle": "What you can expect from Healthy Mezze",
-      "commitmentDescription": "We strive to publish recipes that are carefully written, easy to follow, and inspired by authentic Mediterranean cooking traditions. Our nutrition information is intended for general guidance and should not replace professional medical or dietary advice.",
-
-      "whyChoose": "Why choose Healthy Mezze",
-      "whyChooseTitle": "Everyday cooking that feels special.",
-
-      "ctaTitle": "Ready to make Mediterranean cooking part of your routine?",
-      "ctaDescription": "Explore our recipe collection for fresh meals, simple preparation, and delicious results.",
-      "browseRecipes": "Browse Recipes",
-      "contactUs": "Contact Us",
-
-      "missionCards": {
-        "healthyEating": {
-          "title": "Healthy eating",
-          "description": "Nutritious meals that feel delicious and balanced."
-        },
-        "easyCooking": {
-          "title": "Easy home cooking",
-          "description": "Simple recipes for busy weeknights and relaxed weekends."
-        },
-        "seasonal": {
-          "title": "Seasonal ingredients",
-          "description": "Fresh produce, herbs, and pantry staples every season."
-        },
-        "balanced": {
-          "title": "Balanced lifestyle",
-          "description": "Meals that support energy, wellness, and joy."
-        }
+    "valueCards": {
+      "fresh": {
+        "title": "Fresh Ingredients",
+        "description": "Seasonal vegetables, herbs, and wholesome pantry staples."
       },
-
-      "valueCards": {
-        "fresh": {
-          "title": "Fresh Ingredients",
-          "description": "Seasonal vegetables, herbs, and wholesome pantry staples."
-        },
-        "simple": {
-          "title": "Simple Recipes",
-          "description": "Clean steps that make cooking easy and stress-free."
-        },
-        "healthy": {
-          "title": "Healthy Living",
-          "description": "Meals that nourish your body and your routine."
-        },
-        "tradition": {
-          "title": "Mediterranean Tradition",
-          "description": "Inspired by timeless flavors from coastal kitchens."
-        }
+      "simple": {
+        "title": "Simple Recipes",
+        "description": "Clean steps that make cooking easy and stress-free."
       },
-
-      "featureCards": {
-        "beginner": {
-          "title": "Beginner friendly",
-          "description": "Step-by-step recipes for cooks of any experience level."
-        },
-        "quick": {
-          "title": "Quick recipes",
-          "description": "Balanced meals ready in under an hour."
-        },
-        "nutritious": {
-          "title": "Nutritious meals",
-          "description": "Flavorful dishes that support wellness."
-        },
-        "family": {
-          "title": "Family friendly",
-          "description": "Food everyone at the table can enjoy together."
-        },
-        "ingredients": {
-          "title": "Easy ingredients",
-          "description": "Accessible pantry staples with a Mediterranean twist."
-        },
-        "presentation": {
-          "title": "Beautiful presentation",
-          "description": "Dishes designed to delight every sense."
-        }
+      "healthy": {
+        "title": "Healthy Living",
+        "description": "Meals that nourish your body and your routine."
+      },
+      "tradition": {
+        "title": "Mediterranean Tradition",
+        "description": "Inspired by timeless flavors from coastal kitchens."
       }
+    },
+
+    "featureCards": {
+      "beginner": {
+        "title": "Beginner friendly",
+        "description": "Step-by-step recipes for cooks of any experience level."
+      },
+      "quick": {
+        "title": "Quick recipes",
+        "description": "Balanced meals ready in under an hour."
+      },
+      "nutritious": {
+        "title": "Nutritious meals",
+        "description": "Flavorful dishes that support wellness."
+      },
+      "family": {
+        "title": "Family friendly",
+        "description": "Food everyone at the table can enjoy together."
+      },
+      "ingredients": {
+        "title": "Easy ingredients",
+        "description": "Accessible pantry staples with a Mediterranean twist."
+      },
+      "presentation": {
+        "title": "Beautiful presentation",
+        "description": "Dishes designed to delight every sense."
+      }
+    }
+  },
+
+  "Contact": {
+    "hero": {
+      "badge": "Contact Healthy Mezze",
+      "title": "Say hello to fresh Mediterranean cooking.",
+      "description": "Have a question, feedback, or recipe idea? We're here to help and make your kitchen feel inspired."
+    },
+    "contactInfo": {
+      "title": "Contact Information",
+      "description": "Reach out for recipe support, ingredient questions, or just to say hi.",
+      "email": "Email",
+      "social": "Social Media"
+    },
+    "social": {
+      "instagram": "Instagram",
+      "pinterest": "Pinterest",
+      "tiktok": "TikTok"
+    },
+    "response": {
+      "title": "Response Time",
+      "description": "Our team typically replies within 1–2 business days."
+    },
+    "support": {
+      "title": "Friendly Support",
+      "description": "We're here to make your cooking journey easier, more delicious, and more joyful."
     },
 
     "Contact": {
-      "hero": {
-        "badge": "Contact Healthy Mezze",
-        "title": "Say hello to fresh Mediterranean cooking.",
-        "description": "Have a question, feedback, or recipe idea? We're here to help and make your kitchen feel inspired."
-      },
-      "contactInfo": {
-        "title": "Contact Information",
-        "description": "Reach out for recipe support, ingredient questions, or just to say hi.",
+      "form": {
+        "name": "Name",
+        "namePlaceholder": "Your name",
         "email": "Email",
-        "social": "Social Media"
+        "emailPlaceholder": "you@example.com",
+        "subject": "Subject",
+        "subjectPlaceholder": "What would you like to ask?",
+        "message": "Message",
+        "messagePlaceholder": "Tell us what's on your mind",
+        "send": "Send message"
       },
-      "social": {
-        "instagram": "Instagram",
-        "pinterest": "Pinterest",
-        "tiktok": "TikTok"
-      },
-      "response": {
-        "title": "Response Time",
-        "description": "Our team typically replies within 1–2 business days."
-      },
-      "support": {
-        "title": "Friendly Support",
-        "description": "We're here to make your cooking journey easier, more delicious, and more joyful."
-      },
-
-      "Contact": {
-        "form": {
-          "name": "Name",
-          "namePlaceholder": "Your name",
-          "email": "Email",
-          "emailPlaceholder": "you@example.com",
-          "subject": "Subject",
-          "subjectPlaceholder": "What would you like to ask?",
-          "message": "Message",
-          "messagePlaceholder": "Tell us what's on your mind",
-          "send": "Send message"
-        },
-        "faq": {
-          "preview": "FAQ Preview",
-          "title": "Answers to common questions",
-          "items": {
-            "1": {
-              "question": "Can I submit my own recipe?",
-              "answer": "We love hearing your ideas! Submit your recipe concept and we'll review it for inspiration."
-            },
-            "2": {
-              "question": "Are recipes beginner friendly?",
-              "answer": "Yes — our recipes are crafted for home cooks at every level with clear steps and approachable ingredients."
-            },
-            "3": {
-              "question": "How often are new recipes added?",
-              "answer": "We regularly add fresh Mediterranean recipes so you can keep your meal plan exciting."
-            }
+      "faq": {
+        "preview": "FAQ Preview",
+        "title": "Answers to common questions",
+        "items": {
+          "1": {
+            "question": "Can I submit my own recipe?",
+            "answer": "We love hearing your ideas! Submit your recipe concept and we'll review it for inspiration."
+          },
+          "2": {
+            "question": "Are recipes beginner friendly?",
+            "answer": "Yes — our recipes are crafted for home cooks at every level with clear steps and approachable ingredients."
+          },
+          "3": {
+            "question": "How often are new recipes added?",
+            "answer": "We regularly add fresh Mediterranean recipes so you can keep your meal plan exciting."
           }
-        }
-      },
-
-      "Cookies": {
-        "title": "Cookie Policy",
-        "lastUpdated": "Last updated",
-        "intro": "This Cookie Policy explains how Healthy Mezze uses cookies and similar technologies to improve your browsing experience, analyze website traffic, remember your preferences, and support essential website functionality.",
-
-        "whatAreCookies": {
-          "title": "What Are Cookies?",
-          "content": "Cookies are small text files that are stored on your device when you visit a website. They help websites recognize your browser, remember your preferences, and improve overall performance."
-        },
-
-        "whyWeUse": {
-          "title": "Why We Use Cookies",
-          "intro": "Healthy Mezze uses cookies for several purposes, including:",
-          "items": [
-            "Keeping the website secure and functioning correctly.",
-            "Remembering your language and display preferences.",
-            "Saving your favorite recipes and user settings.",
-            "Understanding how visitors use the website through analytics.",
-            "Improving website speed, performance, and user experience.",
-            "Supporting advertising and measuring ad performance."
-          ]
-        },
-
-        "types": {
-          "title": "Types of Cookies We Use",
-
-          "essential": {
-            "title": "Essential Cookies",
-            "description": "Required for the website to function properly. These cookies cannot be disabled because they enable core features such as navigation, security, and page functionality."
-          },
-
-          "preferences": {
-            "title": "Preference Cookies",
-            "description": "Remember settings such as your selected language, theme, and other personalized preferences."
-          },
-
-          "analytics": {
-            "title": "Analytics Cookies",
-            "description": "Help us understand how visitors interact with Healthy Mezze so we can improve content, navigation, and overall user experience."
-          },
-
-          "advertising": {
-            "title": "Advertising Cookies",
-            "description": "May be used by advertising partners, including Google AdSense, to display relevant advertisements and measure advertising effectiveness."
-          }
-        },
-
-        "thirdParty": {
-          "title": "Third-Party Cookies",
-          "content": "Some cookies are placed by trusted third-party services that help us operate Healthy Mezze. These may include analytics providers, embedded content providers, and advertising networks."
-        },
-
-        "managing": {
-          "title": "Managing Cookies",
-          "content": "Most web browsers allow you to control or delete cookies through your browser settings. You can block or remove cookies at any time, although some features of Healthy Mezze may not function correctly if essential cookies are disabled."
-        },
-
-        "consent": {
-          "title": "Cookie Consent",
-          "content": "Where required by law, we request your consent before placing non-essential cookies on your device. You can change your cookie preferences at any time."
-        },
-
-        "changes": {
-          "title": "Changes to This Cookie Policy",
-          "content": "We may update this Cookie Policy from time to time to reflect changes in legal requirements, technology, or our services. Any updates will be posted on this page together with the updated revision date."
-        },
-
-        "contact": {
-          "title": "Contact Us",
-          "content": "If you have any questions about our use of cookies or this Cookie Policy, please contact us through our Contact page."
         }
       }
+    }
+  },
+
+  "Cookies": {
+    "title": "Cookie Policy",
+    "lastUpdated": "Last updated",
+    "intro": "This Cookie Policy explains how Healthy Mezze uses cookies and similar technologies to improve your browsing experience, analyze website traffic, remember your preferences, and support essential website functionality.",
+
+    "whatAreCookies": {
+      "title": "What Are Cookies?",
+      "content": "Cookies are small text files that are stored on your device when you visit a website. They help websites recognize your browser, remember your preferences, and improve overall performance."
+    },
+
+    "whyWeUse": {
+      "title": "Why We Use Cookies",
+      "intro": "Healthy Mezze uses cookies for several purposes, including:",
+      "items": [
+        "Keeping the website secure and functioning correctly.",
+        "Remembering your language and display preferences.",
+        "Saving your favorite recipes and user settings.",
+        "Understanding how visitors use the website through analytics.",
+        "Improving website speed, performance, and user experience.",
+        "Supporting advertising and measuring ad performance."
+      ]
+    },
+
+    "types": {
+      "title": "Types of Cookies We Use",
+
+      "essential": {
+        "title": "Essential Cookies",
+        "description": "Required for the website to function properly. These cookies cannot be disabled because they enable core features such as navigation, security, and page functionality."
+      },
+
+      "preferences": {
+        "title": "Preference Cookies",
+        "description": "Remember settings such as your selected language, theme, and other personalized preferences."
+      },
+
+      "analytics": {
+        "title": "Analytics Cookies",
+        "description": "Help us understand how visitors interact with Healthy Mezze so we can improve content, navigation, and overall user experience."
+      },
+
+      "advertising": {
+        "title": "Advertising Cookies",
+        "description": "May be used by advertising partners, including Google AdSense, to display relevant advertisements and measure advertising effectiveness."
+      }
+    },
+
+    "thirdParty": {
+      "title": "Third-Party Cookies",
+      "content": "Some cookies are placed by trusted third-party services that help us operate Healthy Mezze. These may include analytics providers, embedded content providers, and advertising networks."
+    },
+
+    "managing": {
+      "title": "Managing Cookies",
+      "content": "Most web browsers allow you to control or delete cookies through your browser settings. You can block or remove cookies at any time, although some features of Healthy Mezze may not function correctly if essential cookies are disabled."
+    },
+
+    "consent": {
+      "title": "Cookie Consent",
+      "content": "Where required by law, we request your consent before placing non-essential cookies on your device. You can change your cookie preferences at any time."
+    },
+
+    "changes": {
+      "title": "Changes to This Cookie Policy",
+      "content": "We may update this Cookie Policy from time to time to reflect changes in legal requirements, technology, or our services. Any updates will be posted on this page together with the updated revision date."
+    },
+
+    "contact": {
+      "title": "Contact Us",
+      "content": "If you have any questions about our use of cookies or this Cookie Policy, please contact us through our Contact page."
+    }
+  },
+
+  "Privacy": {
+    "title": "Privacy Policy",
+    "metaDescription": "Learn how Healthy Mezze collects, uses, and protects your information.",
+    "lastUpdated": "Last Updated",
+    "intro": "Healthy Mezze respects your privacy and is committed to protecting your personal information. This Privacy Policy explains what information we collect, how we use it, and the choices you have regarding your data when you use our website.",
+
+    "sections": {
+      "introduction": {
+        "title": "Introduction",
+        "body": "By accessing Healthy Mezze, you agree to the practices described in this Privacy Policy. We encourage you to read this page carefully to understand how your information is handled."
+      },
+
+      "information": {
+        "title": "Information We Collect",
+        "body": "Depending on how you interact with Healthy Mezze, we may collect the following information:",
+        "items": {
+          "email": "Email address when you voluntarily subscribe to our newsletter.",
+          "browser": "Browser type and version.",
+          "device": "Device type.",
+          "os": "Operating system.",
+          "pages": "Pages you visit and how long you stay on them.",
+          "time": "Date and time of your visit.",
+          "referrals": "Referral websites and traffic sources.",
+          "analytics": "Anonymous analytics data collected through services such as Google Analytics."
+        }
+      },
+
+      "analytics": {
+        "title": "Analytics",
+        "body": "We use analytics tools to better understand how visitors use Healthy Mezze. These tools collect anonymous information that helps us improve the website, user experience, and our recipe content."
+      },
+
+      "newsletter": {
+        "title": "Newsletter",
+        "body": "If you choose to subscribe to our newsletter, we only use your email address to send recipes, cooking tips, updates, and occasional announcements.",
+        "unsubscribe": "You can unsubscribe at any time by clicking the unsubscribe link included in every email."
+      },
+
+      "rights": {
+        "title": "Your Rights",
+        "body": "Depending on your location, you may have the right to access, correct, update, or request deletion of your personal information. You may also object to certain processing activities where permitted by law."
+      },
+
+      "clarity": {
+        "title": "Our Commitment",
+        "body": "Healthy Mezze never sells your personal information. We collect only the information necessary to operate, improve, and secure our website."
+      },
+
+      "cookies": {
+        "title": "Cookies",
+        "body": "Healthy Mezze uses cookies to improve website functionality, remember your preferences, analyze traffic, and provide a better browsing experience.",
+        "preferences": "You can control or disable cookies through your browser settings at any time."
+      },
+
+      "adsense": {
+        "title": "Advertising",
+        "body": "Healthy Mezze may display advertisements through Google AdSense. Google and its partners may use cookies to serve personalized or non-personalized advertisements based on your browsing activity.",
+        "learnMore": "To learn more, please review"
+      },
+
+      "links": {
+        "title": "External Links",
+        "body": "Our website may contain links to third-party websites. We are not responsible for the privacy practices or content of external websites."
+      },
+
+      "security": {
+        "title": "Data Security",
+        "body": "We take reasonable technical and organizational measures to protect your information. However, no method of internet transmission or electronic storage is completely secure."
+      },
+
+      "changes": {
+        "title": "Changes to This Policy",
+        "body": "We may update this Privacy Policy from time to time. Any changes will be published on this page together with the updated revision date."
+      },
+
+      "contact": {
+        "title": "Contact Us",
+        "body": "If you have any questions about this Privacy Policy or how we handle your information, please contact us at:"
+      }
+    }
+  },
+
+  "Terms": {
+    "metaTitle": "Terms & Conditions",
+    "metaDescription": "Read the Terms and Conditions for using Healthy Mezze, including your rights, responsibilities, and important legal information.",
+
+    "title": "Terms & Conditions",
+    "lastUpdated": "Last Updated",
+    "intro": "These Terms & Conditions govern your use of Healthy Mezze. By accessing or using this website, you agree to comply with these terms. If you do not agree, please discontinue using the website.",
+
+    "acceptance": {
+      "title": "1. Acceptance of Terms",
+      "content": "By using Healthy Mezze, you acknowledge that you have read, understood, and agreed to these Terms & Conditions."
+    },
+
+    "websiteContent": {
+      "title": "2. Website Content",
+      "content": "All recipes, nutrition information, articles, and other content are provided for general informational purposes only. While we strive for accuracy, we cannot guarantee that all information is complete, current, or free from errors."
+    },
+
+    "userResponsibilities": {
+      "title": "3. User Responsibilities",
+      "content": "You agree to use this website lawfully and respectfully. You must not attempt to disrupt the website, misuse its services, or violate any applicable laws while using Healthy Mezze."
+    },
+
+    "liability": {
+      "title": "4. Limitation of Liability",
+      "content": "Healthy Mezze shall not be held liable for any direct, indirect, incidental, or consequential damages resulting from your use of this website or reliance on its content."
+    },
+
+    "termination": {
+      "title": "5. Termination",
+      "content": "We reserve the right to suspend or terminate access to Healthy Mezze at any time without prior notice if these Terms & Conditions are violated."
+    },
+
+    "health": {
+      "title": "6. Health & Nutrition Disclaimer",
+      "content": "Recipes and nutrition information are provided for educational purposes only and should not be considered medical advice. Always consult a qualified healthcare professional regarding dietary or health concerns."
+    },
+
+    "intellectual": {
+      "title": "7. Intellectual Property",
+      "content": "All content on Healthy Mezze, including recipes, text, graphics, branding, and images, is protected by copyright and other intellectual property laws. Unauthorized copying or redistribution is prohibited."
+    },
+
+    "law": {
+      "title": "8. Governing Law",
+      "content": "These Terms & Conditions shall be governed and interpreted in accordance with the applicable laws governing the operation of Healthy Mezze."
+    },
+
+    "externalLinks": {
+      "title": "9. External Links",
+      "content": "Our website may contain links to third-party websites for your convenience. Healthy Mezze is not responsible for the content, privacy practices, or availability of external websites."
+    },
+
+    "changes": {
+      "title": "10. Changes to These Terms",
+      "content": "We may update these Terms & Conditions from time to time. Any updates will be published on this page with the revised 'Last Updated' date."
+    },
+
+    "agreement": {
+      "title": "11. Entire Agreement",
+      "content": "These Terms & Conditions constitute the entire agreement between you and Healthy Mezze regarding your use of this website."
+    },
+
+    "contact": {
+      "title": "12. Contact Us",
+      "content": "If you have any questions regarding these Terms & Conditions, please contact us at:"
+    }
+  },
+
+  "Disclaimer": {
+    "metaTitle": "Disclaimer",
+    "metaDescription": "Read the Healthy Mezze disclaimer regarding recipe information, nutrition facts, and website content.",
+
+    "badge": "Healthy Mezze",
+    "title": "Disclaimer",
+
+    "lastUpdated": "Last Updated:",
+    "lastUpdatedDate": "July 2026",
+
+    "generalInformation": {
+      "title": "General Information",
+      "content": "The information provided on Healthy Mezze is for general informational and educational purposes only. While we strive to provide accurate and up-to-date content, we make no guarantees regarding the completeness, reliability, or accuracy of any information published on this website."
+    },
+
+    "recipes": {
+      "title": "Recipes",
+      "content": "Cooking results may vary depending on ingredients, equipment, cooking techniques, and individual experience. We encourage readers to use their own judgment and adjust recipes to meet their personal preferences and dietary needs."
+    },
+
+    "nutrition": {
+      "title": "Nutrition Information",
+      "content": "Nutrition values published on Healthy Mezze are estimates only. They are provided as a convenience and should not be considered medical or nutritional advice. If you have specific dietary or health concerns, please consult a qualified healthcare professional or registered dietitian."
+    },
+
+    "allergies": {
+      "title": "Allergies",
+      "content": "Recipes may contain common allergens such as nuts, dairy, eggs, wheat, sesame, or other ingredients. It is the responsibility of each reader to verify ingredients and ensure recipes are safe for their individual dietary requirements."
+    },
+
+    "externalLinks": {
+      "title": "External Links",
+      "content": "Our website may contain links to third-party websites for additional information or resources. Healthy Mezze is not responsible for the content, policies, or practices of external websites."
+    },
+
+    "contact": {
+      "title": "Contact Us",
+      "content": "If you have any questions regarding this disclaimer, please contact us at"
     }
   }
 }
