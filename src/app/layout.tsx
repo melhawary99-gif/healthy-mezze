@@ -1,15 +1,9 @@
 import type { Metadata, Viewport } from "next";
-export const viewport: Viewport = {
-  width: "device-width",
-  initialScale: 1,
-  themeColor: "#FAFAF7",
-};
 import { Cairo, Inter, Poppins } from "next/font/google";
 
-import "./globals.css";
-
 import { GoogleAnalytics } from "@next/third-parties/google";
-import Clarity from "@/components/analytics/Clarity";
+
+import "./globals.css";
 
 const cairo = Cairo({
   subsets: ["arabic"],
@@ -29,6 +23,12 @@ const poppins = Poppins({
   variable: "--font-poppins",
   display: "swap",
 });
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#FAFAF7",
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://healthymezze.com"),
@@ -68,14 +68,13 @@ export const metadata: Metadata = {
   ],
 
   creator: "Healthy Mezze",
-
   publisher: "Healthy Mezze",
-
   category: "Food",
 
   robots: {
     index: true,
     follow: true,
+
     googleBot: {
       index: true,
       follow: true,
@@ -168,19 +167,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning data-scroll-behavior="smooth">
+    <html lang="en" suppressHydrationWarning>
       <body
-        className={`
-${inter.variable}
-${poppins.variable}
-${cairo.variable}
-bg-[#FAFAF7]
-text-gray-900
-antialiased
-`}
+        className={`${inter.variable}
+          ${poppins.variable}
+          ${cairo.variable}
+          bg-[#FAFAF7]
+          text-gray-900
+          antialiased`}
       >
-        <Clarity />
-
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

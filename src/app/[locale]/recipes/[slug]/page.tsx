@@ -84,6 +84,7 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
       description: recipe.description,
       url: localizedUrl,
       type: "article",
+
       locale: locale === "ar" ? "ar_AR" : "en_US",
 
       alternateLocale: locale === "ar" ? ["en_US"] : ["ar_AR"],
@@ -256,7 +257,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
   };
 
   return (
-    <main>
+    <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -299,6 +300,6 @@ export default async function RecipePage({ params }: RecipePageProps) {
           </article>
         </div>
       </Container>
-    </main>
+    </>
   );
 }

@@ -26,35 +26,36 @@ export async function generateMetadata({ params }: RecipesLayoutProps): Promise<
 
   const url = `${SITE_URL}/${safeLocale}/recipes`;
 
+  const keywords =
+    safeLocale === "ar"
+      ? [
+          "وصفات صحية",
+          "وصفات البحر الأبيض المتوسط",
+          "أكلات متوسطية",
+          "سلطات صحية",
+          "شوربات صحية",
+          "وصفات نباتية",
+          "وصفات نباتية صرف",
+          "لفائف",
+          "أطباق متوسطية",
+        ]
+      : [
+          "healthy Mediterranean recipes",
+          "Mediterranean recipes",
+          "healthy recipes",
+          "Mediterranean food",
+          "healthy salads",
+          "healthy soups",
+          "vegetarian recipes",
+          "vegan recipes",
+          "Mediterranean meals",
+          "healthy wraps",
+        ];
+
   return {
     title,
     description,
-
-    keywords:
-      safeLocale === "ar"
-        ? [
-            "وصفات صحية",
-            "وصفات البحر الأبيض المتوسط",
-            "أكلات متوسطية",
-            "سلطات صحية",
-            "شوربات صحية",
-            "وصفات نباتية",
-            "وصفات نباتية صرف",
-            "لفائف",
-            "أطباق متوسطية",
-          ]
-        : [
-            "healthy Mediterranean recipes",
-            "Mediterranean recipes",
-            "healthy recipes",
-            "Mediterranean food",
-            "healthy salads",
-            "healthy soups",
-            "vegetarian recipes",
-            "vegan recipes",
-            "Mediterranean meals",
-            "healthy wraps",
-          ],
+    keywords,
 
     alternates: {
       canonical: url,
@@ -70,9 +71,18 @@ export async function generateMetadata({ params }: RecipesLayoutProps): Promise<
       follow: true,
     },
 
+    authors: [
+      {
+        name: "Healthy Mezze",
+      },
+    ],
+
+    creator: "Healthy Mezze",
+    publisher: "Healthy Mezze",
+
     openGraph: {
       type: "website",
-      locale: safeLocale === "ar" ? "ar_SA" : "en_US",
+      locale: safeLocale === "ar" ? "ar_AR" : "en_US",
       url,
       siteName: "Healthy Mezze",
       title,
@@ -93,15 +103,6 @@ export async function generateMetadata({ params }: RecipesLayoutProps): Promise<
       description,
       images: [`${SITE_URL}/logo.png`],
     },
-
-    authors: [
-      {
-        name: "Healthy Mezze",
-      },
-    ],
-
-    creator: "Healthy Mezze",
-    publisher: "Healthy Mezze",
   };
 }
 
