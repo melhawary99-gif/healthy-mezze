@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import { Heart } from "lucide-react";
 import MobileMenu from "@/components/MobileMenu";
 import { useTranslations, useLocale } from "next-intl";
@@ -39,22 +40,39 @@ export default function Header() {
 
   return (
     <header
-      className={`sticky top-0 z-50 border-b border-gray-200/70 bg-white/85 backdrop-blur-md transition-shadow duration-300 ${
+      className={`sticky top-0 z-50 border-b border-gray-200/70 bg-white/95 backdrop-blur-md transition-shadow duration-300 ${
         hasScrolled ? "shadow-lg shadow-gray-900/10" : "shadow-none"
       }`}
     >
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+      <div className="mx-auto flex h-[76px] max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo / Home */}
         <Link
           href="/"
           aria-label={t("homeAriaLabel")}
-          className="text-xl font-bold tracking-tight text-gray-900 transition hover:text-green-700"
+          className="flex shrink-0 items-center gap-2.5 transition-opacity hover:opacity-90"
         >
-          Healthy Mezze
+          <Image
+            src="/logo.png"
+            alt="Healthy Mezze"
+            width={52}
+            height={52}
+            priority
+            className="h-12 w-12 object-contain sm:h-14 sm:w-14"
+          />
+
+          <div className="flex flex-col justify-center leading-none">
+            <span className="text-[21px] font-bold tracking-tight text-green-800 sm:text-[23px]">
+              Healthy Mezze
+            </span>
+
+            <span className="mt-1 text-[9px] font-medium tracking-wide text-gray-500 sm:text-[10px]">
+              Healthy Mediterranean Recipes
+            </span>
+          </div>
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden items-center gap-8 md:flex" aria-label={t("primaryNavigation")}>
+        <nav className="hidden items-center gap-7 md:flex" aria-label={t("primaryNavigation")}>
           {navLinks.map((link) => {
             const isActive = link.href === "/" ? pathname === "/" : pathname.startsWith(link.href);
 
@@ -72,19 +90,19 @@ export default function Header() {
           })}
         </nav>
 
-        {/* Desktop Language Switcher */}
-        <div className="hidden items-center gap-2 md:flex">
+        {/* Language + Favorites + Mobile Menu */}
+        <div className="flex shrink-0 items-center gap-2.5">
+          {/* Desktop Language Switcher */}
           <Link
             href={pathname}
             locale={locale === "en" ? "ar" : "en"}
-            className="rounded-lg border border-gray-200 px-3 py-2 text-sm font-medium transition hover:bg-green-50"
+            aria-label={locale === "en" ? "Switch to Arabic" : "Switch to English"}
+            className="hidden h-11 items-center justify-center rounded-xl border border-gray-200 bg-white px-3.5 text-sm font-medium text-gray-700 shadow-sm transition hover:border-green-200 hover:bg-green-50 hover:text-green-700 md:inline-flex"
           >
             {locale === "en" ? "العربية" : "English"}
           </Link>
-        </div>
 
-        {/* Favorites + Mobile Menu */}
-        <div className="flex items-center gap-3">
+          {/* Favorites */}
           <Link
             href="/favorites"
             aria-label={t("favoritesAriaLabel")}
@@ -93,6 +111,7 @@ export default function Header() {
             <Heart className="h-5 w-5" />
           </Link>
 
+          {/* Mobile Menu */}
           <MobileMenu />
         </div>
       </div>
