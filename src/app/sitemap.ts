@@ -3,7 +3,7 @@ import type { MetadataRoute } from "next";
 import { recipes } from "@/data/recipes";
 import { categories } from "@/data/categories";
 
-const SITE_URL = "https://healthymezze.com";
+const SITE_URL = "https://www.healthymezze.com";
 
 const locales = ["en", "ar"] as const;
 

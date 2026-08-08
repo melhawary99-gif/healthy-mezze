@@ -31,7 +31,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://healthymezze.com"),
+  metadataBase: new URL("https://www.healthymezze.com"),
 
   title: {
     default: "Healthy Mezze | Fresh Mediterranean Recipes",
@@ -87,7 +87,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://healthymezze.com",
+    url: "https://www.healthymezze.com",
     siteName: "Healthy Mezze",
 
     title: "Healthy Mezze | Fresh Mediterranean Recipes",
@@ -131,9 +131,9 @@ const organizationSchema = {
 
   name: "Healthy Mezze",
 
-  url: "https://healthymezze.com",
+  url: "https://www.healthymezze.com",
 
-  logo: "https://healthymezze.com/logo.png",
+  logo: "https://www.healthymezze.com/logo.png",
 
   description:
     "Healthy Mediterranean recipes inspired by Egyptian, Lebanese, Greek, Turkish, Syrian, Jordanian, and Palestinian cuisines.",
@@ -151,7 +151,7 @@ const websiteSchema = {
 
   name: "Healthy Mezze",
 
-  url: "https://healthymezze.com",
+  url: "https://www.healthymezze.com",
 
   publisher: {
     "@type": "Organization",

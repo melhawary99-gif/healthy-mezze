@@ -15,7 +15,7 @@ type Props = {
   }>;
 };
 
-const SITE_URL = "https://healthymezze.com";
+const SITE_URL = "https://www.healthymezze.com";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({
