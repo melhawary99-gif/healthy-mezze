@@ -28,7 +28,8 @@
     "removeFromFavorites": "Remove from favorites",
     "saved": "Saved",
     "save": "Save",
-    "backToRecipes": "Back to Recipes"
+    "backToRecipes": "Back to Recipes",
+    "discoverMoreRecipes": "Discover More Recipes"
   },
 
   "Recipe": {
