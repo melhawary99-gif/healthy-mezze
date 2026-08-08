@@ -1,25 +1,45 @@
-import { Metadata } from "next";
+import type { Metadata } from "next";
 import Container from "@/components/ui/Container";
 import { Link } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
 
-export const metadata: Metadata = {
-  title: "About Us",
-  description:
-    "Learn about Healthy Mezze, our mission, and our passion for sharing healthy Mediterranean recipes inspired by Egyptian, Lebanese, Greek, Turkish, Syrian, Jordanian, and Palestinian cuisine.",
-  alternates: {
-    canonical: "/about",
-  },
+type AboutPageProps = {
+  params: Promise<{
+    locale: "en" | "ar";
+  }>;
 };
 
-export default async function AboutPage() {
-  const t = await getTranslations("About");
+export async function generateMetadata({ params }: AboutPageProps): Promise<Metadata> {
+  const { locale } = await params;
+
+  const t = await getTranslations({
+    locale,
+    namespace: "About",
+  });
+
+  return {
+    title: t("title"),
+    description: t("subtitle"),
+    alternates: {
+      canonical: `/${locale}/about`,
+    },
+  };
+}
+
+export default async function AboutPage({ params }: AboutPageProps) {
+  const { locale } = await params;
+
+  const t = await getTranslations({
+    locale,
+    namespace: "About",
+  });
 
   return (
-    <main className="bg-[#FAFAF7] text-gray-900">
+    <main>
       <Container>
-        <section className="pt-20 pb-10 sm:pt-24 sm:pb-16">
-          <div className="mx-auto max-w-3xl text-center">
+        {/* Hero */}
+        <section className="pb-16 pt-20">
+          <div className="mx-auto max-w-4xl text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-emerald-600">
               {t("badge")}
             </p>
@@ -32,7 +52,9 @@ export default async function AboutPage() {
           </div>
         </section>
 
+        {/* Story + Mission + Values */}
         <section className="mb-16 grid gap-8 lg:grid-cols-[1.2fr_0.8fr]">
+          {/* Our Story */}
           <div className="rounded-4xl border border-green-100 bg-white p-8 shadow-sm sm:p-10">
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-emerald-600">
               {t("ourStory")}
@@ -52,6 +74,7 @@ export default async function AboutPage() {
           </div>
 
           <div className="space-y-6">
+            {/* Mission */}
             <div className="rounded-4xl border border-green-100 bg-green-50 p-8 shadow-sm">
               <p className="text-sm font-semibold uppercase tracking-[0.24em] text-emerald-600">
                 {t("mission")}
@@ -60,20 +83,20 @@ export default async function AboutPage() {
               <div className="mt-6 grid gap-4 sm:grid-cols-2">
                 {[
                   {
-                    title: t("healthyEatingTitle"),
-                    description: t("healthyEatingDescription"),
+                    title: t("missionCards.healthyEating.title"),
+                    description: t("missionCards.healthyEating.description"),
                   },
                   {
-                    title: t("easyCookingTitle"),
-                    description: t("easyCookingDescription"),
+                    title: t("missionCards.easyCooking.title"),
+                    description: t("missionCards.easyCooking.description"),
                   },
                   {
-                    title: t("seasonalIngredientsTitle"),
-                    description: t("seasonalIngredientsDescription"),
+                    title: t("missionCards.seasonal.title"),
+                    description: t("missionCards.seasonal.description"),
                   },
                   {
-                    title: t("balancedLifestyleTitle"),
-                    description: t("balancedLifestyleDescription"),
+                    title: t("missionCards.balanced.title"),
+                    description: t("missionCards.balanced.description"),
                   },
                 ].map((item) => (
                   <div key={item.title} className="rounded-3xl bg-white p-5 shadow-sm">
@@ -85,6 +108,7 @@ export default async function AboutPage() {
               </div>
             </div>
 
+            {/* Values */}
             <div className="rounded-4xl border border-green-100 bg-white p-8 shadow-sm">
               <p className="text-sm font-semibold uppercase tracking-[0.24em] text-emerald-600">
                 {t("values")}
@@ -98,23 +122,23 @@ export default async function AboutPage() {
                 {[
                   {
                     icon: "🥬",
-                    title: t("freshIngredientsTitle"),
-                    description: t("freshIngredientsDescription"),
+                    title: t("valueCards.fresh.title"),
+                    description: t("valueCards.fresh.description"),
                   },
                   {
                     icon: "🍋",
-                    title: t("simpleRecipesTitle"),
-                    description: t("simpleRecipesDescription"),
+                    title: t("valueCards.simple.title"),
+                    description: t("valueCards.simple.description"),
                   },
                   {
                     icon: "💪",
-                    title: t("healthyLivingTitle"),
-                    description: t("healthyLivingDescription"),
+                    title: t("valueCards.healthy.title"),
+                    description: t("valueCards.healthy.description"),
                   },
                   {
                     icon: "🌊",
-                    title: t("mediterraneanTraditionTitle"),
-                    description: t("mediterraneanTraditionDescription"),
+                    title: t("valueCards.tradition.title"),
+                    description: t("valueCards.tradition.description"),
                   },
                 ].map((value) => (
                   <div
@@ -135,6 +159,7 @@ export default async function AboutPage() {
           </div>
         </section>
 
+        {/* Commitment */}
         <section className="mb-16">
           <div className="rounded-4xl border border-green-100 bg-white p-8 shadow-sm sm:p-10">
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-emerald-600">
@@ -147,6 +172,7 @@ export default async function AboutPage() {
           </div>
         </section>
 
+        {/* Why Choose Healthy Mezze */}
         <section className="mb-16">
           <div className="mx-auto max-w-6xl">
             <div className="mb-10 text-center">
@@ -162,28 +188,28 @@ export default async function AboutPage() {
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {[
                 {
-                  title: t("features.beginnerFriendly.title"),
-                  description: t("features.beginnerFriendly.description"),
+                  title: t("featureCards.beginner.title"),
+                  description: t("featureCards.beginner.description"),
                 },
                 {
-                  title: t("features.quickRecipes.title"),
-                  description: t("features.quickRecipes.description"),
+                  title: t("featureCards.quick.title"),
+                  description: t("featureCards.quick.description"),
                 },
                 {
-                  title: t("features.nutritiousMeals.title"),
-                  description: t("features.nutritiousMeals.description"),
+                  title: t("featureCards.nutritious.title"),
+                  description: t("featureCards.nutritious.description"),
                 },
                 {
-                  title: t("features.familyFriendly.title"),
-                  description: t("features.familyFriendly.description"),
+                  title: t("featureCards.family.title"),
+                  description: t("featureCards.family.description"),
                 },
                 {
-                  title: t("features.easyIngredients.title"),
-                  description: t("features.easyIngredients.description"),
+                  title: t("featureCards.ingredients.title"),
+                  description: t("featureCards.ingredients.description"),
                 },
                 {
-                  title: t("features.beautifulPresentation.title"),
-                  description: t("features.beautifulPresentation.description"),
+                  title: t("featureCards.presentation.title"),
+                  description: t("featureCards.presentation.description"),
                 },
               ].map((feature) => (
                 <div
@@ -199,6 +225,7 @@ export default async function AboutPage() {
           </div>
         </section>
 
+        {/* CTA */}
         <section className="rounded-4xl border border-green-100 bg-emerald-50 px-6 py-10 text-center shadow-sm sm:px-12 sm:py-14">
           <div className="mx-auto max-w-3xl">
             <h2 className="text-3xl font-semibold text-gray-900 sm:text-4xl">{t("ctaTitle")}</h2>

@@ -6,7 +6,11 @@
     "favorites": "Favorites",
     "about": "About",
     "contact": "Contact",
-    "backToRecipes": "Back to Recipes"
+    "backToRecipes": "Back to Recipes",
+    "homeAriaLabel": "Healthy Mezze Home",
+    "primaryNavigation": "Primary navigation",
+    "favoritesAriaLabel": "Favorites",
+    "breadcrumb": "Breadcrumb"
   },
 
   "Buttons": {
@@ -15,7 +19,16 @@
     "readMore": "Read More",
     "viewRecipe": "View Recipe",
     "subscribe": "Subscribe",
-    "learnMore": "Learn More"
+    "learnMore": "Learn More",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "printRecipe": "Print recipe",
+    "shareRecipe": "Share this recipe",
+    "addToFavorites": "Add to favorites",
+    "removeFromFavorites": "Remove from favorites",
+    "saved": "Saved",
+    "save": "Save",
+    "backToRecipes": "Back to Recipes"
   },
 
   "Recipe": {
@@ -29,6 +42,7 @@
     "sugar": "Sugar",
     "sodium": "Sodium",
     "healthBenefits": "Health Benefits",
+    "notFound": "Recipe Not Found",
 
     "prepTime": "Prep Time",
     "cookTime": "Cook Time",
@@ -85,7 +99,8 @@
     "freshIngredients": "Fresh Ingredients",
     "nutritionFacts": "Nutrition Facts",
     "easyRecipes": "Easy Recipes",
-    "mediterraneanCuisine": "Mediterranean Cuisine"
+    "mediterraneanCuisine": "Mediterranean Cuisine",
+    "heroImageAlt": "Healthy Mediterranean dishes with fresh vegetables, hummus, salads, and wraps"
   },
 
   "RelatedRecipes": {
@@ -130,6 +145,9 @@
       "vegan": "Vegan",
       "soup": "Soup",
       "wraps": "Wraps"
+    },
+    "sortOptions": {
+      "prepTime": "Prep Time"
     }
   },
 

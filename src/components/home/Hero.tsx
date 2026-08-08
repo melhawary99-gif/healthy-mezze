@@ -61,7 +61,7 @@ export default function Hero() {
         <div className="flex flex-1 justify-center">
           <Image
             src={heroFood}
-            alt="Healthy Mediterranean dishes with fresh vegetables, hummus, salads, and wraps"
+            alt={t("heroImageAlt")}
             width={700}
             height={700}
             priority

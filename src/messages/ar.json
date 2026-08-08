@@ -6,7 +6,11 @@
     "favorites": "المفضلة",
     "about": "من نحن",
     "contact": "اتصل بنا",
-    "backToRecipes": "العودة إلى الوصفات"
+    "backToRecipes": "العودة إلى الوصفات",
+    "homeAriaLabel": "الصفحة الرئيسية لـ Healthy Mezze",
+    "primaryNavigation": "التنقل الرئيسي",
+    "favoritesAriaLabel": "المفضلة",
+    "breadcrumb": "مسار التنقل"
   },
 
   "Buttons": {
@@ -15,7 +19,16 @@
     "readMore": "اقرأ المزيد",
     "viewRecipe": "عرض الوصفة",
     "subscribe": "اشترك",
-    "learnMore": "اعرف المزيد"
+    "learnMore": "اعرف المزيد",
+    "openMenu": "فتح القائمة",
+    "closeMenu": "إغلاق القائمة",
+    "printRecipe": "طباعة الوصفة",
+    "shareRecipe": "مشاركة الوصفة",
+    "addToFavorites": "إضافة إلى المفضلة",
+    "removeFromFavorites": "إزالة من المفضلة",
+    "saved": "تم الحفظ",
+    "save": "حفظ",
+    "backToRecipes": "العودة إلى الوصفات"
   },
 
   "Recipe": {
@@ -29,6 +42,7 @@
     "sugar": "السكريات",
     "sodium": "الصوديوم",
     "healthBenefits": "الفوائد الصحية",
+    "notFound": "الوصفة غير موجودة",
 
     "popularSearches": {
       "chicken": "دجاج",
@@ -110,7 +124,8 @@
     "freshIngredients": "مكونات طازجة",
     "nutritionFacts": "حقائق غذائية",
     "easyRecipes": "وصفات سهلة",
-    "mediterraneanCuisine": "مطبخ البحر الأبيض المتوسط"
+    "mediterraneanCuisine": "مطبخ البحر الأبيض المتوسط",
+    "heroImageAlt": "أطباق صحية من البحر الأبيض المتوسط مع الخضروات الطازجة والحمص والسلطات واللفائف"
   },
 
   "Categories": {
@@ -137,6 +152,9 @@
       "vegan": "نباتي",
       "soup": "شوربة",
       "wraps": "لفائف"
+    },
+    "sortOptions": {
+      "prepTime": "وقت التحضير"
     }
   },
 

@@ -1,56 +1,52 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 import Container from "@/components/ui/Container";
 
 export default function Newsletter() {
+  const t = useTranslations("Newsletter");
+
   const [email, setEmail] = useState("");
   const [subscribed, setSubscribed] = useState(false);
 
-  const handleSubmit = async (
-  e: React.FormEvent<HTMLFormElement>
-) => {
-  e.preventDefault();
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
 
-  if (!email.trim()) return;
+    if (!email.trim()) return;
 
-  try {
-    const response = await fetch("/api/subscribe", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ email }),
-    });
+    try {
+      const response = await fetch("/api/subscribe", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email }),
+      });
 
-    if (!response.ok) {
-      throw new Error("Subscription failed");
+      if (!response.ok) {
+        throw new Error("Subscription failed");
+      }
+
+      setSubscribed(true);
+      setEmail("");
+
+      setTimeout(() => {
+        setSubscribed(false);
+      }, 3000);
+    } catch (error) {
+      console.error(error);
+      alert(t("subscriptionFailed"));
     }
-
-    setSubscribed(true);
-    setEmail("");
-
-    setTimeout(() => {
-      setSubscribed(false);
-    }, 3000);
-  } catch (error) {
-    console.error(error);
-    alert("Sorry, something went wrong. Please try again.");
-  }
-};
+  };
 
   return (
-    <section className="py-20">
+    <section className="bg-green-700 py-16">
       <Container>
-        <div className="rounded-3xl bg-green-700 px-6 py-12 text-center text-white md:px-12">
-          <h2 className="text-3xl font-bold md:text-4xl">
-            Join Healthy Mezze
-          </h2>
+        <div className="text-center">
+          <h2 className="text-3xl font-bold text-white sm:text-4xl">{t("join")}</h2>
 
-          <p className="mx-auto mt-4 max-w-2xl text-green-100">
-            Get healthy Mediterranean recipes, cooking inspiration,
-            and wellness tips delivered to you.
-          </p>
+          <p className="mx-auto mt-4 max-w-2xl text-green-100">{t("heroDescription")}</p>
 
           <form
             onSubmit={handleSubmit}
@@ -58,10 +54,11 @@ export default function Newsletter() {
           >
             <input
               type="email"
-              placeholder="Enter your email"
+              placeholder={t("placeholder")}
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
+              aria-label={t("emailAddress")}
               className="flex-1 rounded-xl px-5 py-3 text-gray-900 outline-none"
             />
 
@@ -69,13 +66,13 @@ export default function Newsletter() {
               type="submit"
               className="rounded-xl bg-white px-6 py-3 font-medium text-green-700 transition hover:bg-green-50"
             >
-              Subscribe
+              {t("subscribe")}
             </button>
           </form>
 
           {subscribed && (
             <div className="mx-auto mt-6 max-w-xl rounded-xl border border-green-200 bg-green-50 px-4 py-3 text-sm font-medium text-green-700">
-              🎉 Thanks for subscribing! Healthy recipes and nutrition tips are on the way.
+              🎉 {t("success")}
             </div>
           )}
         </div>

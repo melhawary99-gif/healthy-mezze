@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useTranslations } from "next-intl";
 
 interface FavoriteButtonProps {
   slug: string;
@@ -8,16 +9,14 @@ interface FavoriteButtonProps {
 
 const STORAGE_KEY = "healthy-mezze-favorites";
 
-export default function FavoriteButton({
-  slug,
-}: FavoriteButtonProps) {
+export default function FavoriteButton({ slug }: FavoriteButtonProps) {
+  const t = useTranslations("Buttons");
+
   const [isFavorite, setIsFavorite] = useState(false);
 
   useEffect(() => {
     try {
-      const favorites = JSON.parse(
-        localStorage.getItem(STORAGE_KEY) ?? "[]"
-      ) as string[];
+      const favorites = JSON.parse(localStorage.getItem(STORAGE_KEY) ?? "[]") as string[];
 
       setIsFavorite(favorites.includes(slug));
     } catch {
@@ -27,18 +26,13 @@ export default function FavoriteButton({
 
   const toggleFavorite = () => {
     try {
-      const favorites = JSON.parse(
-        localStorage.getItem(STORAGE_KEY) ?? "[]"
-      ) as string[];
+      const favorites = JSON.parse(localStorage.getItem(STORAGE_KEY) ?? "[]") as string[];
 
       const updated = favorites.includes(slug)
         ? favorites.filter((item) => item !== slug)
         : [...favorites, slug];
 
-      localStorage.setItem(
-        STORAGE_KEY,
-        JSON.stringify(updated)
-      );
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
 
       setIsFavorite(updated.includes(slug));
     } catch (error) {
@@ -50,22 +44,16 @@ export default function FavoriteButton({
     <button
       type="button"
       onClick={toggleFavorite}
-      aria-label={
-        isFavorite
-          ? "Remove from favorites"
-          : "Add to favorites"
-      }
+      aria-label={isFavorite ? t("removeFromFavorites") : t("addToFavorites")}
       className={`inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-semibold transition-all duration-200 ${
         isFavorite
           ? "bg-red-500 text-white hover:bg-red-600"
           : "bg-gray-100 text-gray-700 hover:bg-gray-200"
       }`}
     >
-      <span className="text-lg">
-        {isFavorite ? "❤️" : "🤍"}
-      </span>
+      {isFavorite ? "❤️" : "🤍"}
 
-      {isFavorite ? "Saved" : "Save"}
+      {isFavorite ? t("saved") : t("save")}
     </button>
   );
 }

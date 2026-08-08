@@ -22,12 +22,19 @@ export default function Header() {
   const [hasScrolled, setHasScrolled] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => setHasScrolled(window.scrollY > 10);
+    const handleScroll = () => {
+      setHasScrolled(window.scrollY > 10);
+    };
 
     handleScroll();
-    window.addEventListener("scroll", handleScroll, { passive: true });
 
-    return () => window.removeEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll, {
+      passive: true,
+    });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
 
   return (
@@ -36,16 +43,18 @@ export default function Header() {
         hasScrolled ? "shadow-lg shadow-gray-900/10" : "shadow-none"
       }`}
     >
-      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+        {/* Logo / Home */}
         <Link
           href="/"
-          aria-label="Healthy Mezze Home"
-          className="text-2xl font-bold text-green-700"
+          aria-label={t("homeAriaLabel")}
+          className="text-xl font-bold tracking-tight text-gray-900 transition hover:text-green-700"
         >
           Healthy Mezze
         </Link>
 
-        <nav className="hidden items-center gap-8 md:flex" aria-label="Primary navigation">
+        {/* Desktop Navigation */}
+        <nav className="hidden items-center gap-8 md:flex" aria-label={t("primaryNavigation")}>
           {navLinks.map((link) => {
             const isActive = link.href === "/" ? pathname === "/" : pathname.startsWith(link.href);
 
@@ -63,20 +72,22 @@ export default function Header() {
           })}
         </nav>
 
+        {/* Desktop Language Switcher */}
         <div className="hidden items-center gap-2 md:flex">
           <Link
             href={pathname}
             locale={locale === "en" ? "ar" : "en"}
-            className="rounded-lg border px-3 py-2 text-sm font-medium transition hover:bg-green-50"
+            className="rounded-lg border border-gray-200 px-3 py-2 text-sm font-medium transition hover:bg-green-50"
           >
             {locale === "en" ? "العربية" : "English"}
           </Link>
         </div>
 
+        {/* Favorites + Mobile Menu */}
         <div className="flex items-center gap-3">
           <Link
             href="/favorites"
-            aria-label="Favorites"
+            aria-label={t("favoritesAriaLabel")}
             className="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-white text-green-700 shadow-sm transition hover:bg-green-50"
           >
             <Heart className="h-5 w-5" />

@@ -5,6 +5,7 @@ import { getLocalizedRecipe } from "@/lib/localizedRecipes";
 import Container from "@/components/ui/Container";
 import { Link } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
+
 import RecipeHero from "@/components/recipes/RecipeHero";
 import RecipeQuickInfo from "@/components/recipes/RecipeQuickInfo";
 import IngredientsSection from "@/components/recipes/IngredientsSection";
@@ -25,9 +26,14 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
 
   const recipe = await getLocalizedRecipe(slug, locale);
 
+  const t = await getTranslations({
+    locale,
+    namespace: "Recipe",
+  });
+
   if (!recipe) {
     return {
-      title: "Recipe Not Found",
+      title: t("notFound"),
     };
   }
 
@@ -39,7 +45,7 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
     keywords: recipe.keywords,
 
     alternates: {
-      canonical: `https://healthymezze.com/recipes/${recipe.slug}`,
+      canonical: `https://healthymezze.com/${locale}/recipes/${recipe.slug}`,
     },
 
     robots: {
@@ -60,7 +66,7 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
     openGraph: {
       title: `${recipe.title} | Healthy Mezze`,
       description: recipe.description,
-      url: `https://healthymezze.com/recipes/${recipe.slug}`,
+      url: `https://healthymezze.com/${locale}/recipes/${recipe.slug}`,
       type: "article",
 
       images: [
@@ -82,16 +88,17 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
 
 export default async function RecipePage({ params }: RecipePageProps) {
   const { slug, locale } = await params;
+
   const recipe = await getLocalizedRecipe(slug, locale);
+
+  if (!recipe) {
+    notFound();
+  }
 
   const nav = await getTranslations({
     locale,
     namespace: "Navigation",
   });
-
-  if (!recipe) {
-    notFound();
-  }
 
   const relatedRecipes = await Promise.all(
     getRelatedRecipes(recipe.id, recipe.category).map((relatedRecipe) =>
@@ -100,7 +107,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
   );
 
   const localizedRelatedRecipes = relatedRecipes.filter(
-    (recipe): recipe is NonNullable<typeof recipe> => recipe !== null
+    (relatedRecipe): relatedRecipe is NonNullable<typeof relatedRecipe> => relatedRecipe !== null
   );
 
   const recipeSchema = {
@@ -111,11 +118,11 @@ export default async function RecipePage({ params }: RecipePageProps) {
 
     description: recipe.description,
 
-    mainEntityOfPage: `https://healthymezze.com/recipes/${recipe.slug}`,
+    mainEntityOfPage: `https://healthymezze.com/${locale}/recipes/${recipe.slug}`,
 
-    url: `https://healthymezze.com/recipes/${recipe.slug}`,
+    url: `https://healthymezze.com/${locale}/recipes/${recipe.slug}`,
 
-    inLanguage: "en",
+    inLanguage: locale,
 
     isAccessibleForFree: true,
 
@@ -147,7 +154,9 @@ export default async function RecipePage({ params }: RecipePageProps) {
     recipeYield: `${recipe.servings} servings`,
 
     prepTime: toISODuration(recipe.prepTime),
+
     cookTime: toISODuration(recipe.cookTime),
+
     totalTime: recipe.totalTime ? toISODuration(recipe.totalTime) : undefined,
 
     keywords: recipe.keywords?.join(", "),
@@ -193,32 +202,32 @@ export default async function RecipePage({ params }: RecipePageProps) {
       {
         "@type": "ListItem",
         position: 1,
-        name: "Home",
-        item: "https://healthymezze.com",
+        name: nav("home"),
+        item: `https://healthymezze.com/${locale}`,
       },
       {
         "@type": "ListItem",
         position: 2,
-        name: "Recipes",
-        item: "https://healthymezze.com/recipes",
+        name: nav("recipes"),
+        item: `https://healthymezze.com/${locale}/recipes`,
       },
       {
         "@type": "ListItem",
         position: 3,
         name: recipe.category,
-        item: `https://healthymezze.com/categories/${categorySlug}`,
+        item: `https://healthymezze.com/${locale}/categories/${categorySlug}`,
       },
       {
         "@type": "ListItem",
         position: 4,
         name: recipe.title,
-        item: `https://healthymezze.com/recipes/${recipe.slug}`,
+        item: `https://healthymezze.com/${locale}/recipes/${recipe.slug}`,
       },
     ],
   };
 
   return (
-    <main className="bg-[#FAFAF7] text-gray-900">
+    <main>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
