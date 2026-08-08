@@ -5,8 +5,22 @@ import Container from "@/components/ui/Container";
 import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
 
+const tipTranslationKeys = [
+  "eatMoreLeafyGreens",
+  "cookWithOliveOil",
+  "choosePlantBasedProtein",
+  "eatMoreFreshVegetables",
+  "addMoreLentils",
+  "enjoyFermentedDairy",
+  "eatFishWeekly",
+  "addFreshHerbs",
+  "enjoyBalancedMeals",
+  "flavorWithLemon",
+] as const;
+
 export default function HealthyTip() {
   const t = useTranslations("HealthyTip");
+
   // Calculate current week of the year
   const now = new Date();
   const startOfYear = new Date(now.getFullYear(), 0, 1);
@@ -18,12 +32,14 @@ export default function HealthyTip() {
   const weekNumber = Math.floor(daysSinceStart / 7);
 
   // Rotate through tips automatically
-  const tip = tips[weekNumber % tips.length];
+  const tipIndex = weekNumber % tips.length;
+  const tip = tips[tipIndex];
+  const translationKey = tipTranslationKeys[tipIndex];
 
   return (
-    <section className="bg-green-50 py-20">
+    <section className="bg-green-50 py-20 sm:py-24">
       <Container>
-        <div className="mx-auto max-w-3xl rounded-3xl bg-white p-8 text-center shadow-sm transition-all duration-500 hover:shadow-lg md:p-12">
+        <div className="mx-auto max-w-4xl rounded-3xl bg-white px-6 py-12 text-center shadow-lg sm:px-10">
           <div className="text-5xl">{tip.icon}</div>
 
           <p className="mt-3 text-sm font-semibold uppercase tracking-widest text-green-600">
@@ -32,17 +48,19 @@ export default function HealthyTip() {
 
           <h2 className="mt-2 text-3xl font-bold text-gray-900">{t("title")}</h2>
 
-          <h3 className="mt-6 text-xl font-semibold text-green-700">{tip.title}</h3>
+          <h3 className="mt-6 text-xl font-semibold text-green-700">
+            {t(`tips.${translationKey}.title`)}
+          </h3>
 
           <p className="mx-auto mt-4 max-w-2xl text-lg leading-8 text-gray-600">
-            {tip.description}
+            {t(`tips.${translationKey}.description`)}
           </p>
 
           <Link
             href={`/recipes/${tip.recipeSlug}`}
             className="mt-8 inline-flex rounded-xl bg-green-700 px-6 py-3 font-medium text-white transition hover:bg-green-800"
           >
-            {tip.buttonText} →
+            {t(`tips.${translationKey}.button`)} →
           </Link>
         </div>
       </Container>

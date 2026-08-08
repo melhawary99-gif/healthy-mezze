@@ -2,10 +2,11 @@
 
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Heart, Clock3, Users } from "lucide-react";
 
 import { Recipe } from "@/types/recipe";
+import { getRecipeTranslation } from "@/data/recipe-translations";
 
 interface RecipeCardProps {
   recipe: Recipe;
@@ -13,11 +14,19 @@ interface RecipeCardProps {
 
 export default function RecipeCard({ recipe }: RecipeCardProps) {
   const t = useTranslations("RecipeCard");
+  const locale = useLocale() as "en" | "ar";
+
+  const translation = getRecipeTranslation(recipe.slug, locale);
+
+  const title = translation?.title ?? recipe.title;
+  const description = translation?.description ?? recipe.description;
+  const imageAlt = translation?.imageAlt ?? recipe.imageAlt ?? title;
+
   return (
-    <article className="group relative flex h-full flex-col overflow-hidden rounded-3xl bg-white shadow-sm transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl">
+    <article className="group relative flex h-full flex-col overflow-hidden rounded-3xl bg-white shadow-sm">
       <button
         type="button"
-        aria-label={t("addToFavorites", { recipe: recipe.title })}
+        aria-label={t("addToFavorites", { recipe: title })}
         className="absolute right-4 top-4 z-10 cursor-pointer rounded-full bg-white/90 p-2 shadow-lg backdrop-blur transition hover:scale-110 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
       >
         <Heart className="h-5 w-5 text-gray-600" />
@@ -29,7 +38,7 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
       >
         <Image
           src={recipe.image}
-          alt={recipe.imageAlt ?? recipe.title}
+          alt={imageAlt}
           fill
           loading="lazy"
           quality={65}
@@ -50,10 +59,10 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
         </div>
 
         <h3 className="mt-5 text-2xl font-bold leading-tight text-gray-900 transition-colors group-hover:text-green-700">
-          {recipe.title}
+          {title}
         </h3>
 
-        <p className="mt-3 line-clamp-3 flex-1 text-gray-600">{recipe.description}</p>
+        <p className="mt-3 line-clamp-3 flex-1 text-gray-600">{description}</p>
 
         <div className="mt-6 flex items-center gap-5 text-sm text-gray-500">
           <div className="flex items-center gap-2">

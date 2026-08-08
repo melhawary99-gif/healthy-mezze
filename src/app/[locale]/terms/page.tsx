@@ -1,8 +1,19 @@
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 
-export async function generateMetadata(): Promise<Metadata> {
-  const t = await getTranslations("Terms");
+type Props = {
+  params: Promise<{
+    locale: "en" | "ar";
+  }>;
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+
+  const t = await getTranslations({
+    locale,
+    namespace: "Terms",
+  });
 
   return {
     title: `${t("metaTitle")} | Healthy Mezze`,
@@ -13,8 +24,14 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default async function TermsPage() {
-  const t = await getTranslations("Terms");
+export default async function TermsPage({ params }: Props) {
+  const { locale } = await params;
+
+  const t = await getTranslations({
+    locale,
+    namespace: "Terms",
+  });
+
   return (
     <div className="mx-auto max-w-4xl px-6 py-20">
       <h1 className="mb-8 text-4xl font-bold">{t("title")}</h1>

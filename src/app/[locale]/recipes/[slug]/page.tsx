@@ -4,7 +4,7 @@ import { getRelatedRecipes } from "@/lib/recipes";
 import { getLocalizedRecipe } from "@/lib/localizedRecipes";
 import Container from "@/components/ui/Container";
 import { Link } from "@/i18n/navigation";
-
+import { getTranslations } from "next-intl/server";
 import RecipeHero from "@/components/recipes/RecipeHero";
 import RecipeQuickInfo from "@/components/recipes/RecipeQuickInfo";
 import IngredientsSection from "@/components/recipes/IngredientsSection";
@@ -84,11 +84,24 @@ export default async function RecipePage({ params }: RecipePageProps) {
   const { slug, locale } = await params;
   const recipe = await getLocalizedRecipe(slug, locale);
 
+  const nav = await getTranslations({
+    locale,
+    namespace: "Navigation",
+  });
+
   if (!recipe) {
     notFound();
   }
 
-  const relatedRecipes = getRelatedRecipes(recipe.id, recipe.category);
+  const relatedRecipes = await Promise.all(
+    getRelatedRecipes(recipe.id, recipe.category).map((relatedRecipe) =>
+      getLocalizedRecipe(relatedRecipe.slug, locale)
+    )
+  );
+
+  const localizedRelatedRecipes = relatedRecipes.filter(
+    (recipe): recipe is NonNullable<typeof recipe> => recipe !== null
+  );
 
   const recipeSchema = {
     "@context": "https://schema.org",
@@ -226,7 +239,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
             href="/recipes"
             className="inline-flex items-center text-sm font-semibold text-green-700 transition hover:text-green-900"
           >
-            ← Back to Recipes
+            ← {nav("backToRecipes")}
           </Link>
 
           <article className="mt-8 space-y-12">
@@ -244,7 +257,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
               <NutritionSidebar recipe={recipe} />
             </div>
 
-            <RelatedRecipesSection recipes={relatedRecipes} category={recipe.category} />
+            <RelatedRecipesSection recipes={localizedRelatedRecipes} category={recipe.category} />
           </article>
         </div>
       </Container>

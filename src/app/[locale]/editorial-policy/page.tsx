@@ -1,16 +1,40 @@
-import { Metadata } from "next";
+import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
+
 import Container from "@/components/ui/Container";
 
-export const metadata: Metadata = {
-  title: "Editorial Policy",
-  description:
-    "Learn how Healthy Mezze develops, reviews, and maintains its Mediterranean recipes and food content.",
-  alternates: {
-    canonical: "/editorial-policy",
-  },
+type Props = {
+  params: Promise<{
+    locale: "en" | "ar";
+  }>;
 };
 
-export default function EditorialPolicyPage() {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+
+  const t = await getTranslations({
+    locale,
+    namespace: "EditorialPolicy",
+  });
+
+  return {
+    title: `${t("title")} | Healthy Mezze`,
+    description:
+      "Learn how Healthy Mezze develops, reviews, and maintains its Mediterranean recipes and food content.",
+    alternates: {
+      canonical: "/editorial-policy",
+    },
+  };
+}
+
+export default async function EditorialPolicyPage({ params }: Props) {
+  const { locale } = await params;
+
+  const t = await getTranslations({
+    locale,
+    namespace: "EditorialPolicy",
+  });
+
   return (
     <main className="bg-[#FAFAF7] text-gray-900">
       <Container>
@@ -19,96 +43,59 @@ export default function EditorialPolicyPage() {
             Healthy Mezze
           </p>
 
-          <h1 className="mt-4 text-4xl font-bold tracking-tight sm:text-5xl">
-            Editorial Policy
-          </h1>
+          <h1 className="mt-4 text-4xl font-bold tracking-tight sm:text-5xl">{t("title")}</h1>
 
           <p className="mt-6 text-gray-600">
-            <strong>Last Updated:</strong> July 2026
+            <strong>{t("lastUpdatedLabel")}:</strong> {t("lastUpdated")}
           </p>
 
           <div className="mt-10 space-y-10 leading-8 text-gray-700">
-
             <section>
-              <h2 className="text-2xl font-semibold text-gray-900">
-                Our Mission
-              </h2>
+              <h2 className="text-2xl font-semibold text-gray-900">{t("mission.title")}</h2>
 
-              <p className="mt-4">
-                Healthy Mezze is dedicated to making healthy Mediterranean
-                cooking simple, enjoyable, and accessible. Our goal is to
-                publish recipes that are practical for everyday home cooks while
-                respecting the rich culinary traditions of Mediterranean
-                cuisine.
-              </p>
+              <p className="mt-4">{t("mission.text")}</p>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold text-gray-900">
-                Recipe Development
+                {t("recipeDevelopment.title")}
               </h2>
 
-              <p className="mt-4">
-                Every recipe is carefully written with clear ingredients,
-                step-by-step instructions, preparation times, and estimated
-                nutrition information. We focus on fresh ingredients, balanced
-                meals, and techniques that are easy to follow.
-              </p>
+              <p className="mt-4">{t("recipeDevelopment.text")}</p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-gray-900">
-                Accuracy
-              </h2>
+              <h2 className="text-2xl font-semibold text-gray-900">{t("accuracy.title")}</h2>
 
-              <p className="mt-4">
-                We review our content regularly to keep recipes accurate and
-                up to date. If we discover an error, we correct it as soon as
-                possible to maintain the quality of our content.
-              </p>
+              <p className="mt-4">{t("accuracy.text")}</p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-gray-900">
-                Nutrition Information
-              </h2>
+              <h2 className="text-2xl font-semibold text-gray-900">{t("nutrition.title")}</h2>
 
-              <p className="mt-4">
-                Nutrition values are provided as estimates only and should be
-                used as general guidance. They are not intended to replace
-                professional medical or dietary advice.
-              </p>
+              <p className="mt-4">{t("nutrition.text")}</p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-gray-900">
-                Independence
-              </h2>
+              <h2 className="text-2xl font-semibold text-gray-900">{t("independence.title")}</h2>
 
-              <p className="mt-4">
-                Our editorial decisions are based on quality, authenticity,
-                usefulness, and the needs of our readers. Sponsored content,
-                when present, will always be clearly identified.
-              </p>
+              <p className="mt-4">{t("independence.text")}</p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-gray-900">
-                Contact
-              </h2>
+              <h2 className="text-2xl font-semibold text-gray-900">{t("contact.title")}</h2>
 
               <p className="mt-4">
-                Questions or suggestions about our content are always welcome.
-                Contact us at{" "}
+                {t("contact.text")}{" "}
                 <a
                   href="mailto:contact@healthymezze.com"
                   className="font-semibold text-green-700 hover:underline"
                 >
                   contact@healthymezze.com
-                </a>.
+                </a>
+                .
               </p>
             </section>
-
           </div>
         </section>
       </Container>

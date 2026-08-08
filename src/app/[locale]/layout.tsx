@@ -28,12 +28,14 @@ export default async function LocaleLayout({ children, params }: Props) {
   const messages = (await import(`@/messages/${locale}.json`)).default;
 
   return (
-    <NextIntlClientProvider locale={locale} messages={messages}>
-      <Header />
+    <div dir={locale === "ar" ? "rtl" : "ltr"}>
+      <NextIntlClientProvider locale={locale} messages={messages}>
+        <Header />
 
-      <main>{children}</main>
+        <main>{children}</main>
 
-      <Footer />
-    </NextIntlClientProvider>
+        <Footer />
+      </NextIntlClientProvider>
+    </div>
   );
 }

@@ -1,14 +1,37 @@
 "use client";
 
-import { features } from "@/data/features";
 import Container from "@/components/ui/Container";
 import SectionTitle from "@/components/ui/SectionTitle";
 import { useTranslations } from "next-intl";
 
+const featureIcons = ["🥗", "🌿", "❤️"];
+
 export default function WhyHealthyMezze() {
   const t = useTranslations("WhyHealthyMezze");
+
+  const features = [
+    {
+      id: 1,
+      icon: featureIcons[0],
+      title: t("features.freshIngredients.title"),
+      description: t("features.freshIngredients.description"),
+    },
+    {
+      id: 2,
+      icon: featureIcons[1],
+      title: t("features.mediterraneanLifestyle.title"),
+      description: t("features.mediterraneanLifestyle.description"),
+    },
+    {
+      id: 3,
+      icon: featureIcons[2],
+      title: t("features.madeForEveryone.title"),
+      description: t("features.madeForEveryone.description"),
+    },
+  ];
+
   return (
-    <section className="py-20">
+    <section className="bg-[#FAFAF7] py-20 sm:py-24">
       <Container>
         <SectionTitle title={t("title")} subtitle={t("subtitle")} />
 

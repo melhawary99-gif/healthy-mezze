@@ -1,8 +1,19 @@
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 
-export async function generateMetadata(): Promise<Metadata> {
-  const t = await getTranslations("Cookies");
+type Props = {
+  params: Promise<{
+    locale: "en" | "ar";
+  }>;
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+
+  const t = await getTranslations({
+    locale,
+    namespace: "Cookies",
+  });
 
   return {
     title: `${t("title")} | Healthy Mezze`,
@@ -13,14 +24,20 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default async function CookiePolicyPage() {
-  const t = await getTranslations("Cookies");
+export default async function CookiePolicyPage({ params }: Props) {
+  const { locale } = await params;
+
+  const t = await getTranslations({
+    locale,
+    namespace: "Cookies",
+  });
+
   return (
     <div className="mx-auto max-w-4xl px-6 py-20">
       <h1 className="mb-8 text-4xl font-bold">{t("title")}</h1>
 
       <p className="mb-6 text-gray-700">
-        <strong>{t("lastUpdated")}:</strong> August 7, 2026
+        <strong>{t("lastUpdated")}:</strong> {t("date")}
       </p>
 
       <p className="mb-10 text-lg text-gray-600">{t("intro")}</p>

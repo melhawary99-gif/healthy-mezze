@@ -2,8 +2,19 @@ import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import Container from "@/components/ui/Container";
 
-export async function generateMetadata(): Promise<Metadata> {
-  const t = await getTranslations("Disclaimer");
+type Props = {
+  params: Promise<{
+    locale: "en" | "ar";
+  }>;
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+
+  const t = await getTranslations({
+    locale,
+    namespace: "Disclaimer",
+  });
 
   return {
     title: t("metaTitle"),
@@ -14,8 +25,14 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default async function DisclaimerPage() {
-  const t = await getTranslations("Disclaimer");
+export default async function DisclaimerPage({ params }: Props) {
+  const { locale } = await params;
+
+  const t = await getTranslations({
+    locale,
+    namespace: "Disclaimer",
+  });
+
   return (
     <main className="bg-[#FAFAF7] text-gray-900">
       <Container>
