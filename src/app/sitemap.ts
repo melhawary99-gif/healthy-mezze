@@ -5,49 +5,103 @@ import { categories } from "@/data/categories";
 
 const SITE_URL = "https://healthymezze.com";
 
+const locales = ["en", "ar"] as const;
+
 const now = new Date();
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const recipePages = recipes.map((recipe) => ({
-    url: `${SITE_URL}/recipes/${recipe.slug}`,
-    lastModified: recipe.dateModified
-      ? new Date(recipe.dateModified)
-      : now,
-    changeFrequency: "monthly" as const,
-    priority: 0.8,
-  }));
-
-  const categoryPages = categories.map((category) => ({
-    url: `${SITE_URL}/categories/${encodeURIComponent(category.slug)}`,
+  const localizedHomePages = locales.map((locale) => ({
+    url: `${SITE_URL}/${locale}`,
     lastModified: now,
     changeFrequency: "weekly" as const,
-    priority: 0.7,
+    priority: 1,
   }));
 
-  return [
+  const localizedStaticPages = locales.flatMap((locale) => [
     {
-      url: SITE_URL,
+      url: `${SITE_URL}/${locale}/recipes`,
       lastModified: now,
-      changeFrequency: "weekly",
-      priority: 1,
-    },
-
-    {
-      url: `${SITE_URL}/recipes`,
-      lastModified: now,
-      changeFrequency: "weekly",
+      changeFrequency: "weekly" as const,
       priority: 0.9,
     },
-
     {
-      url: `${SITE_URL}/categories`,
+      url: `${SITE_URL}/${locale}/categories`,
       lastModified: now,
-      changeFrequency: "weekly",
+      changeFrequency: "weekly" as const,
       priority: 0.8,
     },
+    {
+      url: `${SITE_URL}/${locale}/about`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    },
+    {
+      url: `${SITE_URL}/${locale}/contact`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.5,
+    },
+    {
+      url: `${SITE_URL}/${locale}/faq`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    },
+    {
+      url: `${SITE_URL}/${locale}/privacy`,
+      lastModified: now,
+      changeFrequency: "yearly" as const,
+      priority: 0.3,
+    },
+    {
+      url: `${SITE_URL}/${locale}/terms`,
+      lastModified: now,
+      changeFrequency: "yearly" as const,
+      priority: 0.3,
+    },
+    {
+      url: `${SITE_URL}/${locale}/cookies`,
+      lastModified: now,
+      changeFrequency: "yearly" as const,
+      priority: 0.2,
+    },
+    {
+      url: `${SITE_URL}/${locale}/disclaimer`,
+      lastModified: now,
+      changeFrequency: "yearly" as const,
+      priority: 0.3,
+    },
+    {
+      url: `${SITE_URL}/${locale}/editorial-policy`,
+      lastModified: now,
+      changeFrequency: "yearly" as const,
+      priority: 0.4,
+    },
+  ]);
 
-    ...categoryPages,
+  const localizedCategoryPages = locales.flatMap((locale) =>
+    categories.map((category) => ({
+      url: `${SITE_URL}/${locale}/categories/${encodeURIComponent(category.slug)}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    }))
+  );
 
-    ...recipePages,
+  const localizedRecipePages = locales.flatMap((locale) =>
+    recipes.map((recipe) => ({
+      url: `${SITE_URL}/${locale}/recipes/${recipe.slug}`,
+      lastModified: recipe.dateModified ? new Date(recipe.dateModified) : now,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    }))
+  );
+
+  return [
+    ...localizedHomePages,
+    ...localizedStaticPages,
+    ...localizedCategoryPages,
+    ...localizedRecipePages,
   ];
 }

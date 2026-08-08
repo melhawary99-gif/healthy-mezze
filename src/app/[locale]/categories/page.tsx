@@ -10,29 +10,31 @@ import { useTranslations } from "next-intl";
 export default function CategoriesPage() {
   const t = useTranslations("Categories");
   const categoryT = useTranslations();
+
   const categoryCards = categories.map((category) => ({
     ...category,
     recipeCount: getRecipesByCategory(category.slug).length,
   }));
 
   return (
-    <main className="bg-[#FAFAF7] text-gray-900">
+    <main>
       <Container>
-        <section className="pt-20 pb-10 sm:pt-24 sm:pb-16">
-          <div className="mx-auto max-w-3xl text-center">
-            <p className="text-sm font-semibold uppercase tracking-[0.32em] text-emerald-600">
-              Categories
+        {/* Hero */}
+        <section className="py-16 text-center sm:py-20">
+          <div className="mx-auto max-w-3xl">
+            <p className="text-sm font-semibold uppercase tracking-[0.24em] text-emerald-600">
+              {t("browse")}
             </p>
+
             <h1 className="mt-4 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-              Explore healthy recipe categories
+              {t("title")}
             </h1>
-            <p className="mt-6 text-base leading-8 text-gray-600 sm:text-lg">
-              Browse Mediterranean recipe categories and discover fresh ideas for salads, soups,
-              wraps, vegetarian meals, and more.
-            </p>
+
+            <p className="mt-6 text-base leading-8 text-gray-600 sm:text-lg">{t("subtitle")}</p>
           </div>
         </section>
 
+        {/* Categories */}
         <section className="pb-20">
           <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
             {categoryCards.map((category) => (
@@ -63,6 +65,7 @@ export default function CategoriesPage() {
                       <h2 className="text-2xl font-semibold text-gray-900">
                         {categoryT(category.nameKey)}
                       </h2>
+
                       <p className="mt-3 text-sm leading-6 text-gray-600">
                         {categoryT(category.descriptionKey)}
                       </p>
@@ -70,9 +73,12 @@ export default function CategoriesPage() {
 
                     <div className="mt-6 flex items-end justify-between gap-3">
                       <span className="text-sm font-medium text-green-700 transition group-hover:text-green-800">
-                        View recipes
+                        {t("browse")}
                       </span>
-                      <span className="text-2xl font-bold text-gray-900">→</span>
+
+                      <span aria-hidden="true" className="text-2xl font-bold text-gray-900">
+                        →
+                      </span>
                     </div>
                   </div>
                 </article>

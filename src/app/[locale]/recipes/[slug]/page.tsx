@@ -21,6 +21,8 @@ type RecipePageProps = {
   }>;
 };
 
+const SITE_URL = "https://healthymezze.com";
+
 export async function generateMetadata({ params }: RecipePageProps): Promise<Metadata> {
   const { slug, locale } = await params;
 
@@ -34,8 +36,16 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
   if (!recipe) {
     return {
       title: t("notFound"),
+      robots: {
+        index: false,
+        follow: false,
+      },
     };
   }
+
+  const localizedUrl = `${SITE_URL}/${locale}/recipes/${recipe.slug}`;
+  const englishUrl = `${SITE_URL}/en/recipes/${recipe.slug}`;
+  const arabicUrl = `${SITE_URL}/ar/recipes/${recipe.slug}`;
 
   return {
     title: `${recipe.title} | Healthy Mezze`,
@@ -45,7 +55,13 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
     keywords: recipe.keywords,
 
     alternates: {
-      canonical: `https://healthymezze.com/${locale}/recipes/${recipe.slug}`,
+      canonical: localizedUrl,
+
+      languages: {
+        en: englishUrl,
+        ar: arabicUrl,
+        "x-default": englishUrl,
+      },
     },
 
     robots: {
@@ -66,12 +82,15 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
     openGraph: {
       title: `${recipe.title} | Healthy Mezze`,
       description: recipe.description,
-      url: `https://healthymezze.com/${locale}/recipes/${recipe.slug}`,
+      url: localizedUrl,
       type: "article",
+      locale: locale === "ar" ? "ar_AR" : "en_US",
+
+      alternateLocale: locale === "ar" ? ["en_US"] : ["ar_AR"],
 
       images: [
         {
-          url: `https://healthymezze.com${recipe.image}`,
+          url: `${SITE_URL}${recipe.image}`,
           alt: recipe.imageAlt ?? recipe.title,
         },
       ],
@@ -81,7 +100,7 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
       card: "summary_large_image",
       title: `${recipe.title} | Healthy Mezze`,
       description: recipe.description,
-      images: [`https://healthymezze.com${recipe.image}`],
+      images: [`${SITE_URL}${recipe.image}`],
     },
   };
 }
@@ -110,6 +129,12 @@ export default async function RecipePage({ params }: RecipePageProps) {
     (relatedRecipe): relatedRecipe is NonNullable<typeof relatedRecipe> => relatedRecipe !== null
   );
 
+  const localizedUrl = `${SITE_URL}/${locale}/recipes/${recipe.slug}`;
+
+  const categorySlug = recipe.category.toLowerCase().replace(/&/g, "and").replace(/\s+/g, "-");
+
+  const categoryUrl = `${SITE_URL}/${locale}/categories/${categorySlug}`;
+
   const recipeSchema = {
     "@context": "https://schema.org",
     "@type": "Recipe",
@@ -118,9 +143,9 @@ export default async function RecipePage({ params }: RecipePageProps) {
 
     description: recipe.description,
 
-    mainEntityOfPage: `https://healthymezze.com/${locale}/recipes/${recipe.slug}`,
+    mainEntityOfPage: localizedUrl,
 
-    url: `https://healthymezze.com/${locale}/recipes/${recipe.slug}`,
+    url: localizedUrl,
 
     inLanguage: locale,
 
@@ -133,18 +158,24 @@ export default async function RecipePage({ params }: RecipePageProps) {
     image: [
       {
         "@type": "ImageObject",
-        url: `https://healthymezze.com${recipe.image}`,
+        url: `${SITE_URL}${recipe.image}`,
       },
     ],
 
     author: {
       "@type": "Organization",
       name: "Healthy Mezze",
+      url: SITE_URL,
     },
 
     publisher: {
       "@type": "Organization",
       name: "Healthy Mezze",
+      url: SITE_URL,
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE_URL}/logo.png`,
+      },
     },
 
     recipeCuisine: recipe.cuisine,
@@ -192,8 +223,6 @@ export default async function RecipePage({ params }: RecipePageProps) {
     })),
   };
 
-  const categorySlug = recipe.category.toLowerCase().replace(/&/g, "and").replace(/\s+/g, "-");
-
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -203,25 +232,25 @@ export default async function RecipePage({ params }: RecipePageProps) {
         "@type": "ListItem",
         position: 1,
         name: nav("home"),
-        item: `https://healthymezze.com/${locale}`,
+        item: `${SITE_URL}/${locale}`,
       },
       {
         "@type": "ListItem",
         position: 2,
         name: nav("recipes"),
-        item: `https://healthymezze.com/${locale}/recipes`,
+        item: `${SITE_URL}/${locale}/recipes`,
       },
       {
         "@type": "ListItem",
         position: 3,
         name: recipe.category,
-        item: `https://healthymezze.com/${locale}/categories/${categorySlug}`,
+        item: categoryUrl,
       },
       {
         "@type": "ListItem",
         position: 4,
         name: recipe.title,
-        item: `https://healthymezze.com/${locale}/recipes/${recipe.slug}`,
+        item: localizedUrl,
       },
     ],
   };
