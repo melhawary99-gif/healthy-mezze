@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+
 import { getRelatedRecipes } from "@/lib/recipes";
 import { getLocalizedRecipe } from "@/lib/localizedRecipes";
+import { toISODuration } from "@/lib/schema";
+
 import Container from "@/components/ui/Container";
 import { Link } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
@@ -12,7 +15,16 @@ import IngredientsSection from "@/components/recipes/IngredientsSection";
 import InstructionsSection from "@/components/recipes/InstructionsSection";
 import NutritionSidebar from "@/components/recipes/NutritionSidebar";
 import RelatedRecipesSection from "@/components/recipes/RelatedRecipesSection";
-import { toISODuration } from "@/lib/schema";
+
+import RecipeStorySection from "@/components/recipes/RecipeStorySection";
+import CookingGuideSection from "@/components/recipes/CookingGuideSection";
+import RecipeAdaptationsSection from "@/components/recipes/RecipeAdaptationsSection";
+import VisualStepsSection from "@/components/recipes/VisualStepsSection";
+import RecipeRescue from "@/components/recipes/RecipeRescue";
+import WhatIfEngine from "@/components/recipes/WhatIfEngine";
+import RecipeStorageSection from "@/components/recipes/RecipeStorageSection";
+import RecipeServingSection from "@/components/recipes/RecipeServingSection";
+import RecipeFAQSection from "@/components/recipes/RecipeFAQSection";
 
 type RecipePageProps = {
   params: Promise<{
@@ -173,6 +185,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
       "@type": "Organization",
       name: "Healthy Mezze",
       url: SITE_URL,
+
       logo: {
         "@type": "ImageObject",
         url: `${SITE_URL}/logo.png`,
@@ -218,10 +231,18 @@ export default async function RecipePage({ params }: RecipePageProps) {
         }`
     ),
 
-    recipeInstructions: recipe.instructions.map((step: string) => ({
-      "@type": "HowToStep",
-      text: step,
-    })),
+    recipeInstructions:
+      recipe.visualSteps && recipe.visualSteps.length > 0
+        ? recipe.visualSteps.map((step) => ({
+            "@type": "HowToStep",
+            name: step.title,
+            text: step.description,
+            image: step.image ? `${SITE_URL}${step.image}` : undefined,
+          }))
+        : recipe.instructions.map((step: string) => ({
+            "@type": "HowToStep",
+            text: step,
+          })),
   };
 
   const breadcrumbSchema = {
@@ -235,18 +256,21 @@ export default async function RecipePage({ params }: RecipePageProps) {
         name: nav("home"),
         item: `${SITE_URL}/${locale}`,
       },
+
       {
         "@type": "ListItem",
         position: 2,
         name: nav("recipes"),
         item: `${SITE_URL}/${locale}/recipes`,
       },
+
       {
         "@type": "ListItem",
         position: 3,
         name: recipe.category,
         item: categoryUrl,
       },
+
       {
         "@type": "ListItem",
         position: 4,
@@ -282,10 +306,16 @@ export default async function RecipePage({ params }: RecipePageProps) {
           </Link>
 
           <article className="mt-8 space-y-12">
+            {/* Recipe Hero */}
             <RecipeHero recipe={recipe} />
 
+            {/* Quick Information */}
             <RecipeQuickInfo recipe={recipe} />
 
+            {/* The Story Behind the Recipe */}
+            {recipe.story && <RecipeStorySection story={recipe.story} />}
+
+            {/* Ingredients + Instructions + Nutrition */}
             <div className="grid gap-10 lg:grid-cols-[1.3fr_0.8fr]">
               <div className="space-y-12">
                 <IngredientsSection recipe={recipe} />
@@ -296,6 +326,37 @@ export default async function RecipePage({ params }: RecipePageProps) {
               <NutritionSidebar recipe={recipe} />
             </div>
 
+            {/* Before You Cook / Cooking Guide */}
+            {recipe.cookingGuide && <CookingGuideSection cookingGuide={recipe.cookingGuide} />}
+
+            {/* Step-by-Step Visual Guide */}
+            {recipe.visualSteps && recipe.visualSteps.length > 0 && (
+              <VisualStepsSection visualSteps={recipe.visualSteps} />
+            )}
+
+            {/* Make This Recipe Work for You */}
+            {recipe.adaptations && <RecipeAdaptationsSection adaptations={recipe.adaptations} />}
+
+            {/* Interactive Recipe Rescue */}
+            {recipe.recipeRescue && recipe.recipeRescue.length > 0 && (
+              <RecipeRescue options={recipe.recipeRescue} />
+            )}
+
+            {/* What If? Engine */}
+            {recipe.whatIf && recipe.whatIf.length > 0 && (
+              <WhatIfEngine scenarios={recipe.whatIf} />
+            )}
+
+            {/* Storage & Leftovers */}
+            {recipe.storage && <RecipeStorageSection storage={recipe.storage} />}
+
+            {/* Serving & Pairing */}
+            {recipe.serving && <RecipeServingSection serving={recipe.serving} />}
+
+            {/* Recipe FAQ */}
+            {recipe.faq && recipe.faq.length > 0 && <RecipeFAQSection faq={recipe.faq} />}
+
+            {/* Related Recipes */}
             <RelatedRecipesSection recipes={localizedRelatedRecipes} category={recipe.category} />
           </article>
         </div>

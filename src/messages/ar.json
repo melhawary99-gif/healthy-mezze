@@ -80,7 +80,54 @@
       "drinks": "المشروبات",
       "desserts": "الحلويات",
       "dips-sauces": "الصلصات والتغميسات"
-    }
+    },
+    "storyLabel": "قصة الوصفة",
+    "storyTitle": "القصة وراء هذه الوصفة",
+    "culturalContext": "السياق الثقافي والطهي",
+    "mediterraneanConnection": "ما الذي يجعلها متوسطية؟",
+    "whatMakesItMediterranean": "ما الذي يجعل هذه الوصفة متوسطية؟",
+
+    "beforeYouCookLabel": "قبل أن تبدأ",
+    "beforeYouCook": "قبل أن تبدأ الطهي",
+    "beforeYouStart": "قبل أن تبدأ",
+    "tips": "نصائح مفيدة",
+    "howDoIKnowItsDone": "كيف تعرف أنها جاهزة؟",
+    "tip": "نصيحة",
+
+    "visualGuideLabel": "دليل الطهي المصور",
+    "visualGuide": "دليل مصور خطوة بخطوة",
+
+    "makeItWorkLabel": "اجعل الوصفة مناسبة لك",
+    "makeItWork": "اجعل هذه الوصفة مناسبة لك",
+    "makeItWorkDescription": "عدّل الوصفة بما يناسب المكونات المتوفرة لديك واحتياجاتك الغذائية وميزانيتك ووقتك وعدد الأشخاص وخطط تحضير الوجبات.",
+    "substitutions": "بدائل المكونات",
+    "dietaryAdjustments": "التعديلات الغذائية",
+    "budgetOptions": "خيارات اقتصادية",
+    "timeSaving": "خيارات لتوفير الوقت",
+    "servingAdjustments": "تعديل الكمية",
+    "mealPrep": "تحضير الوجبات مسبقًا",
+
+    "recipeRescueLabel": "إنقاذ الوصفة",
+    "recipeRescueTitle": "ما الذي تحتاج إلى مساعدة فيه؟",
+    "recipeRescueDescription": "اختر المشكلة التي تواجهها وسنقدم لك حلًا خاصًا بهذه الوصفة بدلًا من نصيحة عامة للطهي.",
+
+    "whatIfLabel": "ماذا لو؟",
+    "whatIfTitle": "ماذا لو...؟",
+    "whatIfDescription": "اختر وضعك وسنوضح لك طريقة عملية تجعل هذه الوصفة مناسبة لاحتياجاتك.",
+    "pathway": "خطتك المقترحة",
+    "expectedResult": "ما الذي تتوقعه؟",
+
+    "storageLabel": "التخزين والبقايا",
+    "storageTitle": "التخزين وحفظ البقايا",
+    "storageDuration": "أفضل مدة للحفظ",
+    "storageContainer": "طريقة التخزين",
+
+    "servingLabel": "التقديم والمرافقة",
+    "servingTitle": "التقديم وما يناسبها",
+    "pairings": "ما الذي يناسب هذه الوصفة؟",
+
+    "faqLabel": "الأسئلة الشائعة حول الوصفة",
+    "faqTitle": "الأسئلة الأكثر شيوعًا"
   },
 
   "RecipeCard": {
@@ -795,5 +842,47 @@
         "answer": "يمكنك التواصل معنا في أي وقت عبر البريد الإلكتروني contact@healthymezze.com أو من خلال صفحة اتصل بنا."
       }
     }
+  },
+  "RecipeEnhancements": {
+    "story": "قصة الوصفة",
+    "culturalContext": "السياق الثقافي",
+    "mediterraneanConnection": "علاقتها بالمطبخ المتوسطي",
+    "whatMakesItMediterranean": "ما الذي يجعلها متوسطية؟",
+
+    "beforeYouCook": "قبل أن تبدأ",
+    "tips": "نصائح مفيدة",
+    "visualCues": "ما الذي يجب أن تلاحظه؟",
+    "howDoIKnowItsDone": "كيف أعرف أنها أصبحت جاهزة؟",
+
+    "makeItWorkForYou": "اجعل الوصفة مناسبة لك",
+    "substitutions": "بدائل المكونات",
+    "dietary": "تعديلات غذائية",
+    "budget": "خيارات اقتصادية",
+    "timeSaving": "خيارات لتوفير الوقت",
+    "servings": "تعديل عدد الحصص",
+    "mealPrep": "تحضير الوجبات مسبقًا",
+
+    "visualGuide": "دليل مصور خطوة بخطوة",
+
+    "recipeRescue": "إنقاذ الوصفة",
+    "recipeRescueDescription": "حدث شيء غير متوقع؟ اكتشف الحل المناسب لهذه الوصفة.",
+    "whatDoYouNeedHelpWith": "ما الذي تحتاج إلى المساعدة فيه؟",
+
+    "whatIf": "ماذا لو؟",
+    "whatIfDescription": "اختر حالتك وسنعرض لك أفضل طريقة للتعامل مع هذه الوصفة.",
+
+    "storage": "التخزين والبقايا",
+    "serving": "التقديم والمرافقة",
+    "faq": "الأسئلة الشائعة",
+
+    "readMore": "اقرأ المزيد",
+    "showLess": "عرض أقل",
+    "viewSolution": "عرض الحل",
+    "hideSolution": "إخفاء الحل",
+    "viewPathway": "عرض المسار",
+    "hidePathway": "إخفاء المسار",
+
+    "result": "النتيجة",
+    "tip": "نصيحة"
   }
 }

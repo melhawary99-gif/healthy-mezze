@@ -1,48 +1,6 @@
-import { RecipeTranslation } from "./recipeTranslation";
+import { Ingredient, RecipeTranslation } from "./recipeTranslation";
 
-export interface Ingredient {
-  /**
-   * Amount for the default number of servings.
-   * Example:
-   * 2
-   * 0.5
-   * 250
-   */
-  amount: number | string;
-
-  /**
-   * Unit of measurement.
-   * Examples:
-   * pcs
-   * g
-   * kg
-   * ml
-   * l
-   * tsp
-   * tbsp
-   * cup
-   * pinch
-   */
-  unit: string;
-
-  /**
-   * Ingredient name.
-   * Example:
-   * Tomatoes
-   * Olive Oil
-   * Garlic
-   */
-  name: string;
-
-  /**
-   * Optional note.
-   * Example:
-   * chopped
-   * finely diced
-   * room temperature
-   */
-  note?: string;
-}
+export type { Ingredient } from "./recipeTranslation";
 
 export interface Nutrition {
   calories: number;

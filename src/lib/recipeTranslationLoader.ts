@@ -1,11 +1,5 @@
-export async function getRecipeTranslation(slug: string, locale: "en" | "ar") {
-  if (locale === "en") {
-    return null;
-  }
+import { getRecipeTranslation as getStoredRecipeTranslation } from "@/data/recipe-translations";
 
-  try {
-    return (await import(`@/translations/${locale}/recipes/${slug}`)).default;
-  } catch {
-    return null;
-  }
+export async function getRecipeTranslation(slug: string, locale: "en" | "ar") {
+  return getStoredRecipeTranslation(slug, locale);
 }

@@ -19,18 +19,18 @@ export async function getLocalizedRecipes(locale: "en" | "ar"): Promise<Recipe[]
         ...recipe,
 
         title: translation.title,
+
         description: translation.description,
+
         longDescription: translation.longDescription ?? recipe.longDescription,
 
         imageAlt: translation.imageAlt ?? recipe.imageAlt,
 
-        ingredients: recipe.ingredients.map((ingredient, index) => ({
-          ...ingredient,
-          name: translation.ingredients[index]?.name ?? ingredient.name,
-        })),
+        ingredients: translation.ingredients?.length ? translation.ingredients : recipe.ingredients,
 
-        instructions:
-          translation.instructions.length > 0 ? translation.instructions : recipe.instructions,
+        instructions: translation.instructions?.length
+          ? translation.instructions
+          : recipe.instructions,
 
         healthBenefits: translation.healthBenefits?.length
           ? translation.healthBenefits
@@ -39,6 +39,24 @@ export async function getLocalizedRecipes(locale: "en" | "ar"): Promise<Recipe[]
         keywords: translation.keywords?.length ? translation.keywords : recipe.keywords,
 
         tags: translation.tags?.length ? translation.tags : recipe.tags,
+
+        story: translation.story,
+
+        cookingGuide: translation.cookingGuide,
+
+        adaptations: translation.adaptations,
+
+        visualSteps: translation.visualSteps,
+
+        recipeRescue: translation.recipeRescue,
+
+        whatIf: translation.whatIf,
+
+        storage: translation.storage,
+
+        serving: translation.serving,
+
+        faq: translation.faq,
       };
     })
   );

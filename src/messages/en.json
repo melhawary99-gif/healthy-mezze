@@ -72,7 +72,54 @@
       "drinks": "Drinks",
       "desserts": "Desserts",
       "dips-sauces": "Dips & Sauces"
-    }
+    },
+    "storyLabel": "THE STORY BEHIND THE RECIPE",
+    "storyTitle": "The Story Behind This Recipe",
+    "culturalContext": "Cultural & Culinary Context",
+    "mediterraneanConnection": "What Makes It Mediterranean?",
+    "whatMakesItMediterranean": "What Makes This Recipe Mediterranean?",
+
+    "beforeYouCookLabel": "BEFORE YOU COOK",
+    "beforeYouCook": "Before You Cook",
+    "beforeYouStart": "Before You Start",
+    "tips": "Helpful Tips",
+    "howDoIKnowItsDone": "How Do I Know It's Done?",
+    "tip": "Tip",
+
+    "visualGuideLabel": "VISUAL COOKING GUIDE",
+    "visualGuide": "Step-by-Step Visual Guide",
+
+    "makeItWorkLabel": "MAKE THIS RECIPE WORK FOR YOU",
+    "makeItWork": "Make This Recipe Work for You",
+    "makeItWorkDescription": "Adapt the recipe to your ingredients, dietary needs, budget, time, serving size, or meal-prep plans.",
+    "substitutions": "Ingredient Substitutions",
+    "dietaryAdjustments": "Dietary Adjustments",
+    "budgetOptions": "Budget-Friendly Options",
+    "timeSaving": "Time-Saving Options",
+    "servingAdjustments": "Serving Adjustments",
+    "mealPrep": "Meal Prep",
+
+    "recipeRescueLabel": "RECIPE RESCUE",
+    "recipeRescueTitle": "What Do You Need Help With?",
+    "recipeRescueDescription": "Choose the problem you're facing and get a recipe-specific solution instead of a generic cooking tip.",
+
+    "whatIfLabel": "WHAT IF?",
+    "whatIfTitle": "What If...?",
+    "whatIfDescription": "Choose your situation and we'll show you a practical pathway for making this recipe work.",
+    "pathway": "Your Pathway",
+    "expectedResult": "What to Expect",
+
+    "storageLabel": "STORAGE & LEFTOVERS",
+    "storageTitle": "Storage & Leftovers",
+    "storageDuration": "Best Storage Time",
+    "storageContainer": "How to Store",
+
+    "servingLabel": "SERVING & PAIRING",
+    "servingTitle": "Serving & Pairing",
+    "pairings": "What Goes Well With It?",
+
+    "faqLabel": "RECIPE FAQ",
+    "faqTitle": "Frequently Asked Questions"
   },
 
   "RecipeFilters": {
@@ -784,5 +831,48 @@
         "answer": "You can reach us anytime at contact@healthymezze.com through our Contact page."
       }
     }
+  },
+
+  "RecipeEnhancements": {
+    "story": "The Story Behind the Recipe",
+    "culturalContext": "Cultural Context",
+    "mediterraneanConnection": "Its Mediterranean Connection",
+    "whatMakesItMediterranean": "What Makes It Mediterranean",
+
+    "beforeYouCook": "Before You Cook",
+    "tips": "Helpful Tips",
+    "visualCues": "What to Look For",
+    "howDoIKnowItsDone": "How Do I Know It's Done?",
+
+    "makeItWorkForYou": "Make This Recipe Work for You",
+    "substitutions": "Ingredient Substitutions",
+    "dietary": "Dietary Adjustments",
+    "budget": "Budget-Friendly Options",
+    "timeSaving": "Time-Saving Options",
+    "servings": "Adjust the Servings",
+    "mealPrep": "Meal Prep",
+
+    "visualGuide": "Step-by-Step Visual Guide",
+
+    "recipeRescue": "Recipe Rescue",
+    "recipeRescueDescription": "Something not going as planned? Find a recipe-specific solution.",
+    "whatDoYouNeedHelpWith": "What do you need help with?",
+
+    "whatIf": "What If?",
+    "whatIfDescription": "Choose your situation and we'll show you the best pathway for this recipe.",
+
+    "storage": "Storage & Leftovers",
+    "serving": "Serving & Pairing",
+    "faq": "Frequently Asked Questions",
+
+    "readMore": "Read More",
+    "showLess": "Show Less",
+    "viewSolution": "View Solution",
+    "hideSolution": "Hide Solution",
+    "viewPathway": "Show Pathway",
+    "hidePathway": "Hide Pathway",
+
+    "result": "Result",
+    "tip": "Tip"
   }
 }

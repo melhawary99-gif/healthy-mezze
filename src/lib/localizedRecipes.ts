@@ -1,15 +1,18 @@
 import { getRecipeBySlug } from "@/lib/recipes";
 import { getRecipeTranslation } from "@/lib/recipeTranslationLoader";
+import type { Recipe } from "@/types/recipe";
+import type { RecipeTranslation } from "@/types/recipeTranslation";
 
-export async function getLocalizedRecipe(slug: string, locale: "en" | "ar") {
+export type LocalizedRecipe = Recipe & Partial<RecipeTranslation>;
+
+export async function getLocalizedRecipe(
+  slug: string,
+  locale: "en" | "ar"
+): Promise<LocalizedRecipe | null> {
   const recipe = getRecipeBySlug(slug);
 
   if (!recipe) {
     return null;
-  }
-
-  if (locale === "en") {
-    return recipe;
   }
 
   const translation = await getRecipeTranslation(slug, locale);
@@ -22,15 +25,14 @@ export async function getLocalizedRecipe(slug: string, locale: "en" | "ar") {
     ...recipe,
 
     title: translation.title,
+
     description: translation.description,
+
     longDescription: translation.longDescription ?? recipe.longDescription,
 
     imageAlt: translation.imageAlt ?? recipe.imageAlt,
 
-    ingredients: recipe.ingredients.map((ingredient, index) => ({
-      ...ingredient,
-      name: (translation.ingredients[index] as unknown as string) ?? ingredient.name,
-    })),
+    ingredients: translation.ingredients.length > 0 ? translation.ingredients : recipe.ingredients,
 
     instructions:
       translation.instructions.length > 0 ? translation.instructions : recipe.instructions,
@@ -42,5 +44,23 @@ export async function getLocalizedRecipe(slug: string, locale: "en" | "ar") {
     keywords: translation.keywords?.length ? translation.keywords : recipe.keywords,
 
     tags: translation.tags?.length ? translation.tags : recipe.tags,
+
+    story: translation.story,
+
+    cookingGuide: translation.cookingGuide,
+
+    adaptations: translation.adaptations,
+
+    visualSteps: translation.visualSteps,
+
+    recipeRescue: translation.recipeRescue,
+
+    whatIf: translation.whatIf,
+
+    storage: translation.storage,
+
+    serving: translation.serving,
+
+    faq: translation.faq,
   };
 }

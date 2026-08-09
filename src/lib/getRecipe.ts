@@ -1,43 +1,66 @@
 import { recipes } from "@/data/recipes";
 import { Recipe } from "@/types/recipe";
+import { RecipeTranslation } from "@/types/recipeTranslation";
+import { getRecipeTranslation } from "@/lib/recipeTranslationLoader";
 
-export async function getRecipe(slug: string, locale: string = "en"): Promise<Recipe | null> {
+export type LocalizedRecipe = Recipe & Partial<RecipeTranslation>;
+
+export async function getRecipe(
+  slug: string,
+  locale: "en" | "ar" = "en"
+): Promise<LocalizedRecipe | null> {
   const recipe = recipes.find((r) => r.slug === slug);
 
   if (!recipe) {
     return null;
   }
 
-  if (locale === "en") {
+  const translation = await getRecipeTranslation(slug, locale);
+
+  if (!translation) {
     return recipe;
   }
 
-  try {
-    const translation = (await import(`@/translations/${locale}/recipes/${slug}`)).default;
+  return {
+    ...recipe,
 
-    return {
-      ...recipe,
+    title: translation.title,
 
-      title: translation.title,
-      description: translation.description,
-      longDescription: translation.longDescription,
+    description: translation.description,
 
-      ingredients: recipe.ingredients.map((ingredient, index) => ({
-        ...ingredient,
-        name: translation.ingredients[index] ?? ingredient.name,
-      })),
+    longDescription: translation.longDescription ?? recipe.longDescription,
 
-      instructions:
-        translation.instructions.length > 0 ? translation.instructions : recipe.instructions,
+    imageAlt: translation.imageAlt ?? recipe.imageAlt,
 
-      healthBenefits:
-        translation.healthBenefits.length > 0 ? translation.healthBenefits : recipe.healthBenefits,
+    ingredients: translation.ingredients.length > 0 ? translation.ingredients : recipe.ingredients,
 
-      keywords: translation.keywords.length > 0 ? translation.keywords : recipe.keywords,
+    instructions:
+      translation.instructions.length > 0 ? translation.instructions : recipe.instructions,
 
-      tags: translation.tags.length > 0 ? translation.tags : recipe.tags,
-    };
-  } catch {
-    return recipe;
-  }
+    healthBenefits: translation.healthBenefits?.length
+      ? translation.healthBenefits
+      : recipe.healthBenefits,
+
+    keywords: translation.keywords?.length ? translation.keywords : recipe.keywords,
+
+    tags: translation.tags?.length ? translation.tags : recipe.tags,
+
+    story: translation.story,
+
+    cookingGuide: translation.cookingGuide,
+
+    adaptations: translation.adaptations,
+
+    visualSteps: translation.visualSteps,
+
+    recipeRescue: translation.recipeRescue,
+
+    whatIf: translation.whatIf,
+
+    storage: translation.storage,
+
+    serving: translation.serving,
+
+    faq: translation.faq,
+  };
 }
