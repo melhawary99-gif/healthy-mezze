@@ -8,88 +8,96 @@ export const cucumberYogurtSalad: Recipe = {
   slug: "cucumber-yogurt-salad",
 
   description:
-    "A refreshing Mediterranean cucumber yogurt salad with fresh dill, mint, garlic, and creamy Greek yogurt.",
+    "A refreshing Mediterranean cucumber yogurt salad with creamy Greek yogurt, fresh dill, mint, garlic, and lemon.",
 
   longDescription:
-    "This cooling cucumber yogurt salad is inspired by traditional Lebanese and Eastern Mediterranean flavors. Crisp cucumbers are mixed with creamy Greek yogurt, fresh herbs, garlic, and lemon juice to create a light and healthy side dish that's perfect with grilled meats, wraps, or enjoyed on its own.",
+    "This cool cucumber yogurt salad brings together crisp cucumber, creamy Greek yogurt, fresh dill and mint, garlic, lemon juice, and extra virgin olive oil. Inspired by Lebanese and Eastern Mediterranean flavors, it makes a refreshing side dish for grilled meats, wraps, and mezze or a simple light dish on its own.",
 
   image: "/images/recipes/cucumber-yogurt-salad.webp",
 
   imageAlt:
-    "Creamy cucumber yogurt salad garnished with fresh dill and mint.",
+    "Creamy cucumber yogurt salad with diced cucumber, Greek yogurt, fresh dill, mint, and olive oil.",
 
   cuisine: "Lebanese",
 
   category: "salads",
 
+  vegetarian: true,
+
   prepTime: "15 mins",
 
   cookTime: "0 mins",
 
-  totalTime: "15 mins",
+  totalTime: "35 mins",
 
   servings: 4,
 
   difficulty: "Easy",
 
   ingredients: [
-{
-    amount: 2,
-    unit: "",
-    name: "Medium cucumbers, diced"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "1½ cups plain Greek yogurt"
-  },
-{
-    amount: 2,
-    unit: "cloves",
-    name: "garlic, minced"
-  },
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "chopped fresh dill"
-  },
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "chopped fresh mint"
-  },
-{
-    amount: 1,
-    unit: "tbsp",
-    name: "fresh lemon juice"
-  },
-{
-    amount: 1,
-    unit: "tbsp",
-    name: "extra virgin olive oil"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "½ tsp salt"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "¼ tsp black pepper"
-  }
-],
+    {
+      amount: 2,
+      unit: "medium",
+      name: "cucumbers",
+      note: "Diced into small bite-sized pieces.",
+    },
+    {
+      amount: 1.5,
+      unit: "cups",
+      name: "plain Greek yogurt",
+      note: "Use thick, unsweetened yogurt.",
+    },
+    {
+      amount: 2,
+      unit: "cloves",
+      name: "garlic",
+      note: "Finely minced.",
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "fresh dill",
+      note: "Finely chopped.",
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "fresh mint",
+      note: "Finely chopped.",
+    },
+    {
+      amount: 1,
+      unit: "tbsp",
+      name: "fresh lemon juice",
+    },
+    {
+      amount: 1,
+      unit: "tbsp",
+      name: "extra virgin olive oil",
+    },
+    {
+      amount: 0.5,
+      unit: "tsp",
+      name: "salt",
+    },
+    {
+      amount: 0.25,
+      unit: "tsp",
+      name: "black pepper",
+    },
+  ],
 
-instructions: [
-    "Dice the cucumbers into small bite-sized pieces.",
-    "Pat the cucumbers dry with paper towels to remove excess moisture.",
-    "In a large bowl, combine the Greek yogurt, garlic, lemon juice, olive oil, salt, and pepper.",
-    "Mix until smooth.",
-    "Fold in the cucumbers.",
+  instructions: [
+    "Wash and dice the cucumbers into small, bite-sized pieces.",
+    "Pat the diced cucumber dry with paper towels to remove excess moisture.",
+    "Combine the Greek yogurt, minced garlic, lemon juice, olive oil, salt, and black pepper in a large bowl.",
+    "Whisk until the yogurt mixture is smooth and evenly seasoned.",
+    "Fold the diced cucumber into the yogurt mixture.",
     "Add the chopped dill and mint.",
-    "Mix gently until well combined.",
-    "Refrigerate for at least 20 minutes before serving.",
-    "Garnish with extra dill and a drizzle of olive oil if desired."
+    "Mix gently until the herbs are evenly distributed without crushing the cucumber.",
+    "Cover and refrigerate for at least 20 minutes to allow the flavors to develop.",
+    "Taste before serving and adjust the salt, lemon, or herbs if needed.",
+    "Garnish with fresh dill and a light drizzle of extra virgin olive oil before serving.",
   ],
 
   nutrition: {
@@ -99,30 +107,25 @@ instructions: [
     fat: "9 g",
     fiber: "1 g",
     sugar: "6 g",
-    sodium: "270 mg"
-  
-  
-  
-  
-  
-  
+    sodium: "270 mg",
   },
 
   healthBenefits: [
-    "Excellent source of probiotics",
-    "High in protein",
-    "Supports digestive health",
-    "Hydrating and refreshing",
-    "Rich in calcium",
-    "Low in carbohydrates"
+    "Provides protein and calcium from Greek yogurt.",
+    "Cucumber contributes hydration and a refreshing vegetable component.",
+    "Fresh herbs provide flavor while adding minimal calories.",
+    "Extra virgin olive oil provides predominantly monounsaturated fat.",
+    "Naturally low in carbohydrates compared with many creamy side dishes.",
+    "A vegetable-forward side that fits well into a Mediterranean-style eating pattern.",
   ],
 
   keywords: [
     "Cucumber Yogurt Salad",
-    "Lebanese yogurt salad",
-    "Healthy cucumber salad",
-    "Mediterranean yogurt recipe",
-    "Greek yogurt salad"
+    "Lebanese Yogurt Salad",
+    "Healthy Cucumber Salad",
+    "Mediterranean Yogurt Recipe",
+    "Greek Yogurt Salad",
+    "Cucumber Mint Yogurt Salad",
   ],
 
   tags: [
@@ -130,10 +133,12 @@ instructions: [
     "healthy",
     "Lebanese",
     "vegetarian",
-    "low carb",
-    "high protein",
-    "Mediterranean"
+    "low-carb",
+    "high-protein",
+    "Mediterranean",
+    "cucumber",
+    "yogurt",
   ],
 
-  featured: true
+  featured: true,
 };
