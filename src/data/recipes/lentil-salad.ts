@@ -45,7 +45,7 @@ export const lentilSalad: Recipe = {
       amount: 1,
       unit: "medium",
       name: "cucumber",
-      note: "Diced into small pieces.",
+      note: "Diced into small bite-sized pieces.",
     },
     {
       amount: 1,
@@ -117,7 +117,7 @@ export const lentilSalad: Recipe = {
     "Drain the lentils thoroughly and spread them on a wide plate or tray to cool completely.",
     "Dice the cucumber and tomato, and finely chop the red onion, parsley, and mint.",
     "Combine the cooled lentils, cucumber, tomato, red onion, parsley, and mint in a large bowl.",
-    "Whisk together the olive oil, lemon juice, Dijon mustard, cumin, salt, and black pepper until emulsified.",
+    "Whisk together the olive oil, lemon juice, Dijon mustard, cumin, salt, and black pepper until well combined.",
     "Pour the dressing over the lentil and vegetable mixture.",
     "Toss gently until the dressing is evenly distributed without crushing the lentils.",
     "Fold in the crumbled feta cheese.",
@@ -136,11 +136,11 @@ export const lentilSalad: Recipe = {
 
   healthBenefits: [
     "Provides plant-based protein from lentils.",
-    "High in dietary fiber, which supports digestive health and satiety.",
+    "High in dietary fiber, which supports digestive health and helps with satiety.",
     "Lentils provide iron and folate along with other essential nutrients.",
     "Fresh vegetables and herbs contribute vitamins, minerals, and antioxidants.",
     "Extra virgin olive oil provides predominantly monounsaturated fat.",
-    "A satisfying combination of protein, fiber, vegetables, and healthy fats.",
+    "The combination of protein, fiber, vegetables, and healthy fats makes the salad satisfying and nutrient-dense.",
   ],
 
   keywords: [

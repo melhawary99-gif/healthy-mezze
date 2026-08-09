@@ -286,24 +286,20 @@ export const lentilSaladEn: RecipeTranslation = {
       title: "Rinse and prepare the lentils",
       description:
         "Rinse the dried green lentils thoroughly and check them for any debris before cooking.",
-      image:
-        "/images/recipes/lentil-salad/step-1-prepare-lentils.webp",
+      image: "/images/recipes/lentil-salad/step-1-prepare-lentils.webp",
       imageAlt:
         "Dried green lentils being rinsed and prepared for Mediterranean lentil salad.",
-      tip:
-        "Rinsing removes dust and helps ensure the lentils are clean before cooking.",
+      tip: "Rinsing removes dust and helps ensure the lentils are clean before cooking.",
     },
     {
       step: 2,
       title: "Cook the lentils",
       description:
         "Simmer the lentils until tender but still firm enough to hold their shape.",
-      image:
-        "/images/recipes/lentil-salad/step-2-cook-lentils.webp",
+      image: "/images/recipes/lentil-salad/step-2-cook-lentils.webp",
       imageAlt:
         "Green lentils simmering in a saucepan until tender for Mediterranean lentil salad.",
-      tip:
-        "Avoid overcooking; intact lentils give the salad its best texture.",
+      tip: "Avoid overcooking; intact lentils give the salad its best texture.",
     },
     {
       step: 3,
@@ -314,44 +310,37 @@ export const lentilSaladEn: RecipeTranslation = {
         "/images/recipes/lentil-salad/step-3-prepare-vegetables-herbs.webp",
       imageAlt:
         "Diced cucumber, tomato, red onion, parsley, and mint prepared for lentil salad.",
-      tip:
-        "Keep the vegetable pieces relatively uniform for balanced bites.",
+      tip: "Keep the vegetable pieces relatively uniform for balanced bites.",
     },
     {
       step: 4,
       title: "Make the lemon dressing",
       description:
         "Whisk together olive oil, lemon juice, Dijon mustard, cumin, salt, and black pepper.",
-      image:
-        "/images/recipes/lentil-salad/step-4-make-dressing.webp",
+      image: "/images/recipes/lentil-salad/step-4-make-dressing.webp",
       imageAlt:
         "Lemon vinaigrette being whisked with olive oil, Dijon mustard, cumin, salt, and pepper.",
-      tip:
-        "Whisk until the oil and lemon juice are well combined before dressing the salad.",
+      tip: "Whisk until the oil and lemon juice are well combined before dressing the salad.",
     },
     {
       step: 5,
       title: "Combine the salad",
       description:
         "Combine the cooled lentils, vegetables, herbs, and dressing, then toss gently.",
-      image:
-        "/images/recipes/lentil-salad/step-5-combine-salad.webp",
+      image: "/images/recipes/lentil-salad/step-5-combine-salad.webp",
       imageAlt:
         "Cooked lentils and fresh vegetables being gently combined with lemon dressing.",
-      tip:
-        "Use a gentle folding motion to keep the lentils intact.",
+      tip: "Use a gentle folding motion to keep the lentils intact.",
     },
     {
       step: 6,
       title: "Add feta and finish",
       description:
         "Fold in the feta, chill the salad, and finish with fresh herbs before serving.",
-      image:
-        "/images/recipes/lentil-salad/step-6-finish-salad.webp",
+      image: "/images/recipes/lentil-salad/step-6-finish-salad.webp",
       imageAlt:
         "Finished Mediterranean lentil salad with feta cheese, fresh herbs, and lemon dressing.",
-      tip:
-        "A short rest in the refrigerator helps the flavors develop before serving.",
+      tip: "A short rest in the refrigerator helps the flavors develop before serving.",
     },
   ],
 
@@ -473,7 +462,6 @@ export const lentilSaladEn: RecipeTranslation = {
   serving: {
     description:
       "Serve chilled or slightly cool as a satisfying lunch, a Mediterranean mezze side, or alongside grilled vegetables, chicken, fish, or warm pita.",
-
     pairings: [
       "Warm pita bread",
       "Grilled chicken",
