@@ -8,21 +8,21 @@ export const lentilSalad: Recipe = {
   slug: "mediterranean-lentil-salad",
 
   description:
-    "A wholesome Mediterranean lentil salad with fresh vegetables, herbs, feta cheese, and a bright lemon vinaigrette.",
+    "A wholesome Mediterranean lentil salad with tender lentils, fresh vegetables, herbs, feta cheese, and a bright lemon vinaigrette.",
 
   longDescription:
-    "This Mediterranean Lentil Salad combines tender green lentils with crisp vegetables, fresh parsley, mint, and creamy feta cheese. Dressed with extra virgin olive oil and fresh lemon juice, it's packed with plant-based protein, fiber, vitamins, and minerals. Perfect as a healthy lunch, side dish, or meal-prep recipe.",
+    "This Mediterranean Lentil Salad combines tender green lentils with crisp cucumber and tomatoes, red onion, fresh parsley, mint, and creamy feta cheese. A bright dressing made with extra virgin olive oil, fresh lemon juice, Dijon mustard, and cumin brings the ingredients together. It is satisfying, fiber-rich, and naturally high in plant-based protein, making it a practical lunch, side dish, or meal-prep option.",
 
   image: "/images/recipes/lentil-salad.webp",
 
   imageAlt:
-    "Mediterranean lentil salad with tomatoes, cucumbers, parsley, feta cheese and lemon dressing.",
+    "Mediterranean lentil salad with green lentils, tomatoes, cucumber, parsley, mint, feta cheese, and lemon dressing.",
 
   cuisine: "Lebanese",
 
   category: "salads",
-  vegan: true,
-vegetarian: true,
+
+  vegetarian: true,
 
   prepTime: "15 mins",
 
@@ -35,84 +35,93 @@ vegetarian: true,
   difficulty: "Easy",
 
   ingredients: [
-{
-    amount: 1,
-    unit: "cup",
-    name: "dried green lentils"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "cucumber, diced"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "tomatoes, diced"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "¼ red onion, finely chopped"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "½ cup chopped parsley"
-  },
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "chopped fresh mint"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "½ cup crumbled feta cheese"
-  },
-{
-    amount: 3,
-    unit: "tbsp",
-    name: "extra virgin olive oil"
-  },
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "fresh lemon juice"
-  },
-{
-    amount: 1,
-    unit: "tsp",
-    name: "Dijon mustard"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "½ tsp ground cumin"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "Salt to taste"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "Black pepper to taste"
-  }
-],
+    {
+      amount: 1,
+      unit: "cup",
+      name: "dried green lentils",
+      note: "Rinse thoroughly before cooking.",
+    },
+    {
+      amount: 1,
+      unit: "medium",
+      name: "cucumber",
+      note: "Diced into small pieces.",
+    },
+    {
+      amount: 1,
+      unit: "medium",
+      name: "tomato",
+      note: "Diced and drained if especially juicy.",
+    },
+    {
+      amount: 0.25,
+      unit: "small",
+      name: "red onion",
+      note: "Finely chopped.",
+    },
+    {
+      amount: 0.5,
+      unit: "cup",
+      name: "fresh parsley",
+      note: "Finely chopped.",
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "fresh mint",
+      note: "Finely chopped.",
+    },
+    {
+      amount: 0.5,
+      unit: "cup",
+      name: "crumbled feta cheese",
+    },
+    {
+      amount: 3,
+      unit: "tbsp",
+      name: "extra virgin olive oil",
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "fresh lemon juice",
+    },
+    {
+      amount: 1,
+      unit: "tsp",
+      name: "Dijon mustard",
+    },
+    {
+      amount: 0.5,
+      unit: "tsp",
+      name: "ground cumin",
+    },
+    {
+      amount: 0.5,
+      unit: "tsp",
+      name: "salt",
+      note: "Adjust to taste.",
+    },
+    {
+      amount: 0.25,
+      unit: "tsp",
+      name: "black pepper",
+      note: "Adjust to taste.",
+    },
+  ],
 
-instructions: [
-    "Rinse the lentils thoroughly.",
-    "Cook the lentils in lightly salted water until tender but not mushy, about 20–25 minutes.",
-    "Drain the lentils and allow them to cool completely.",
-    "Dice the cucumber and tomatoes.",
-    "Finely chop the red onion, parsley, and mint.",
-    "Combine the cooled lentils and vegetables in a large bowl.",
-    "Whisk together olive oil, lemon juice, Dijon mustard, cumin, salt, and pepper.",
-    "Pour the dressing over the salad and toss gently.",
-    "Fold in the feta cheese.",
-    "Refrigerate for 20 minutes before serving for the best flavor."
+  instructions: [
+    "Rinse the lentils thoroughly and remove any debris.",
+    "Place the lentils in a saucepan, cover generously with water, and bring to a gentle boil.",
+    "Reduce the heat and simmer for 20–25 minutes until the lentils are tender but still hold their shape.",
+    "Drain the lentils thoroughly and spread them on a wide plate or tray to cool completely.",
+    "Dice the cucumber and tomato, and finely chop the red onion, parsley, and mint.",
+    "Combine the cooled lentils, cucumber, tomato, red onion, parsley, and mint in a large bowl.",
+    "Whisk together the olive oil, lemon juice, Dijon mustard, cumin, salt, and black pepper until emulsified.",
+    "Pour the dressing over the lentil and vegetable mixture.",
+    "Toss gently until the dressing is evenly distributed without crushing the lentils.",
+    "Fold in the crumbled feta cheese.",
+    "Refrigerate for about 20 minutes before serving to allow the flavors to develop.",
   ],
 
   nutrition: {
@@ -122,41 +131,39 @@ instructions: [
     fat: "14 g",
     fiber: "11 g",
     sugar: "5 g",
-    sodium: "360 mg"
-  
-  
-  
-  
-  
-  
+    sodium: "360 mg",
   },
 
   healthBenefits: [
-    "Excellent source of plant protein",
-    "High in dietary fiber",
-    "Supports heart health",
-    "Rich in iron and folate",
-    "Helps maintain stable blood sugar",
-    "Keeps you feeling full longer"
+    "Provides plant-based protein from lentils.",
+    "High in dietary fiber, which supports digestive health and satiety.",
+    "Lentils provide iron and folate along with other essential nutrients.",
+    "Fresh vegetables and herbs contribute vitamins, minerals, and antioxidants.",
+    "Extra virgin olive oil provides predominantly monounsaturated fat.",
+    "A satisfying combination of protein, fiber, vegetables, and healthy fats.",
   ],
 
   keywords: [
     "Mediterranean Lentil Salad",
-    "Healthy lentil salad",
-    "Lebanese lentil salad",
-    "Plant protein salad",
-    "Healthy Mediterranean recipe"
+    "Healthy Lentil Salad",
+    "Lebanese Lentil Salad",
+    "Lentil Vegetable Salad",
+    "High Fiber Salad",
+    "Plant Protein Salad",
+    "Mediterranean Meal Prep",
   ],
 
   tags: [
     "salad",
     "healthy",
     "Mediterranean",
+    "Lebanese",
     "lentils",
     "vegetarian",
-    "meal prep",
-    "high fiber"
+    "high-fiber",
+    "plant-protein",
+    "meal-prep",
   ],
 
-  featured: true
+  featured: true,
 };
