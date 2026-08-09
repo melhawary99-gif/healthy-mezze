@@ -1,10 +1,12 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 import { greekSaladEn } from "./en/greek-salad";
+import { beetrootSaladEn } from "./en/beetroot-salad";
 import { tabboulehEn } from "./en/tabbouleh";
 import fattoushEn from "./en/fattoush";
 
 import { greekSaladAr } from "./ar/greek-salad";
+import { beetrootSaladAr } from "./ar/beetroot-salad";
 import { TabboulehAr } from "./ar/tabbouleh";
 import fattoushAr from "./ar/fattoush";
 import { FalafelBowlAr } from "./ar/falafel-bowl";
@@ -13,12 +15,14 @@ import { chickenShawarmaAr } from "./ar/chicken-shawarma";
 
 const enTranslations: Record<string, RecipeTranslation> = {
   "greek-salad": greekSaladEn,
+  "mediterranean-beetroot-salad": beetrootSaladEn,
   "tabbouleh": tabboulehEn,
   "fattoush": fattoushEn,
 };
 
 const arTranslations: Record<string, RecipeTranslation> = {
   "greek-salad": greekSaladAr,
+  "mediterranean-beetroot-salad": beetrootSaladAr,
   "tabbouleh": TabboulehAr,
   "fattoush": fattoushAr,
   "falafel-bowl": FalafelBowlAr,
