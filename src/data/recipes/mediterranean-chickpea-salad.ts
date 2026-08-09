@@ -8,19 +8,21 @@ export const mediterraneanChickpeaSalad: Recipe = {
   slug: "mediterranean-chickpea-salad",
 
   description:
-    "A colorful Mediterranean salad with chickpeas, fresh vegetables, herbs, feta cheese, and a light lemon dressing.",
+    "A colorful Mediterranean chickpea salad with crisp vegetables, fresh herbs, feta cheese, and a bright lemon-olive oil dressing.",
 
   longDescription:
-    "This Mediterranean Chickpea Salad is packed with plant-based protein, fiber, and fresh vegetables. Chickpeas are combined with crisp cucumbers, juicy tomatoes, parsley, red onion, and creamy feta cheese before being tossed in a simple lemon and olive oil dressing. Perfect as a healthy lunch, light dinner, or meal-prep recipe.",
+    "This Mediterranean Chickpea Salad combines creamy chickpeas with crisp cucumber, juicy tomatoes, red onion, fresh parsley, mint, and crumbled feta cheese. A simple dressing of extra virgin olive oil, fresh lemon juice, oregano, salt, and black pepper brings everything together. It is naturally rich in plant-based protein and fiber and makes a practical lunch, light dinner, mezze side, or meal-prep dish.",
 
   image: "/images/recipes/mediterranean-chickpea-salad.webp",
 
   imageAlt:
-    "Mediterranean chickpea salad with cucumbers, tomatoes, parsley, feta cheese, and lemon dressing.",
+    "Mediterranean chickpea salad with chickpeas, cucumber, tomatoes, red onion, parsley, mint, feta cheese, and lemon dressing.",
 
   cuisine: "Lebanese",
 
   category: "salads",
+
+  vegetarian: true,
 
   prepTime: "15 mins",
 
@@ -33,77 +35,86 @@ export const mediterraneanChickpeaSalad: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-{
-    amount: 2,
-    unit: "cups",
-    name: "cooked chickpeas, drained"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "cucumber, diced"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "tomatoes, diced"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "¼ red onion, finely chopped"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "½ cup chopped parsley"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "¼ cup chopped fresh mint"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "½ cup crumbled feta cheese"
-  },
-{
-    amount: 3,
-    unit: "tbsp",
-    name: "extra virgin olive oil"
-  },
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "fresh lemon juice"
-  },
-{
-    amount: 1,
-    unit: "tsp",
-    name: "dried oregano"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "½ tsp salt"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "¼ tsp black pepper"
-  }
-],
+    {
+      amount: 2,
+      unit: "cups",
+      name: "cooked chickpeas",
+      note: "Drain and rinse thoroughly.",
+    },
+    {
+      amount: 1,
+      unit: "medium",
+      name: "cucumber",
+      note: "Diced into bite-sized pieces.",
+    },
+    {
+      amount: 1,
+      unit: "medium",
+      name: "tomato",
+      note: "Diced; drain excess liquid if very juicy.",
+    },
+    {
+      amount: 0.25,
+      unit: "small",
+      name: "red onion",
+      note: "Finely chopped.",
+    },
+    {
+      amount: 0.5,
+      unit: "cup",
+      name: "fresh parsley",
+      note: "Finely chopped.",
+    },
+    {
+      amount: 0.25,
+      unit: "cup",
+      name: "fresh mint",
+      note: "Finely chopped.",
+    },
+    {
+      amount: 0.5,
+      unit: "cup",
+      name: "crumbled feta cheese",
+    },
+    {
+      amount: 3,
+      unit: "tbsp",
+      name: "extra virgin olive oil",
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "fresh lemon juice",
+    },
+    {
+      amount: 1,
+      unit: "tsp",
+      name: "dried oregano",
+    },
+    {
+      amount: 0.5,
+      unit: "tsp",
+      name: "salt",
+      note: "Adjust to taste.",
+    },
+    {
+      amount: 0.25,
+      unit: "tsp",
+      name: "black pepper",
+      note: "Adjust to taste.",
+    },
+  ],
 
-instructions: [
-    "Drain and rinse the chickpeas.",
-    "Dice the cucumber and tomatoes into bite-sized pieces.",
+  instructions: [
+    "Drain the chickpeas thoroughly and rinse them under cool running water.",
+    "Dice the cucumber and tomato into small, bite-sized pieces.",
     "Finely chop the red onion, parsley, and mint.",
-    "Combine the chickpeas, vegetables, herbs, and feta in a large bowl.",
-    "Whisk together the olive oil, lemon juice, oregano, salt, and pepper.",
-    "Pour the dressing over the salad.",
-    "Toss gently until evenly coated.",
-    "Serve immediately or chill for 20 minutes before serving."
+    "Combine the chickpeas, cucumber, tomato, red onion, parsley, mint, and feta in a large bowl.",
+    "Whisk together the olive oil, lemon juice, oregano, salt, and black pepper until the dressing is well combined.",
+    "Pour the dressing evenly over the chickpea and vegetable mixture.",
+    "Toss gently until the dressing coats the ingredients without crushing the chickpeas.",
+    "Taste and adjust the lemon juice, salt, or pepper if needed.",
+    "Serve immediately or refrigerate for about 20 minutes to allow the flavors to develop.",
   ],
 
   nutrition: {
@@ -113,40 +124,39 @@ instructions: [
     fat: "16 g",
     fiber: "8 g",
     sugar: "5 g",
-    sodium: "390 mg"
-  
-  
-  
-  
-  
-  
+    sodium: "390 mg",
   },
 
   healthBenefits: [
-    "High in plant-based protein",
-    "Excellent source of dietary fiber",
-    "Supports heart health",
-    "Rich in vitamins and minerals",
-    "Helps maintain healthy digestion",
-    "Naturally satisfying and filling"
+    "Provides plant-based protein from chickpeas.",
+    "High in dietary fiber, supporting digestive health and satiety.",
+    "Fresh vegetables and herbs provide a variety of vitamins, minerals, and antioxidants.",
+    "Extra virgin olive oil provides predominantly monounsaturated fat.",
+    "Chickpeas provide naturally occurring iron, folate, and other important nutrients.",
+    "The combination of legumes, vegetables, healthy fats, and herbs makes the salad satisfying and nutrient-dense.",
   ],
 
   keywords: [
     "Mediterranean Chickpea Salad",
-    "Healthy chickpea salad",
-    "Mediterranean salad recipe",
-    "High protein salad",
-    "Healthy lunch recipe"
+    "Healthy Chickpea Salad",
+    "Lebanese Chickpea Salad",
+    "Mediterranean Salad Recipe",
+    "High Protein Salad",
+    "Chickpea Vegetable Salad",
+    "Healthy Lunch Recipe",
   ],
 
   tags: [
     "salad",
     "Mediterranean",
+    "Lebanese",
     "healthy",
+    "chickpeas",
     "vegetarian",
     "high-protein",
-    "meal prep"
+    "high-fiber",
+    "meal-prep",
   ],
 
-  featured: true
+  featured: true,
 };
