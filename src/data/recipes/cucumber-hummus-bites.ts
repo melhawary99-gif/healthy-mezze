@@ -8,19 +8,21 @@ export const cucumberHummusBites: Recipe = {
   slug: "cucumber-hummus-bites",
 
   description:
-    "Fresh cucumber rounds topped with creamy hummus, cherry tomatoes, feta cheese, olives, and herbs for a refreshing Mediterranean snack or appetizer.",
+    "Fresh cucumber rounds topped with creamy hummus, cherry tomatoes, feta cheese, Kalamata olives, and herbs for a refreshing Mediterranean snack or appetizer.",
 
   longDescription:
-    "Cucumber Hummus Bites are a light, colorful, and nutritious Mediterranean snack that's perfect for parties, meal prep, or healthy afternoon cravings. Crisp cucumber slices replace crackers, creating a naturally low-carb base that's topped with smooth hummus, juicy cherry tomatoes, crumbled feta, Kalamata olives, and fresh parsley. Ready in minutes, these bite-sized appetizers are packed with flavor and wholesome ingredients.",
+    "Cucumber Hummus Bites are light, colorful Mediterranean appetizers built on crisp cucumber rounds instead of crackers. Each bite combines creamy hummus with juicy cherry tomatoes, salty feta, Kalamata olives, fresh parsley, and a light drizzle of extra virgin olive oil. They come together in minutes and work well for parties, mezze platters, or a simple healthy snack.",
 
   image: "/images/recipes/cucumber-hummus-bites.webp",
 
   imageAlt:
-    "Fresh cucumber slices topped with creamy hummus, cherry tomatoes, feta cheese, Kalamata olives, parsley, and paprika.",
+    "Cucumber rounds topped with creamy hummus, cherry tomatoes, feta cheese, Kalamata olives, parsley, and smoked paprika.",
 
   cuisine: "Lebanese",
 
   category: "snack",
+
+  vegetarian: true,
 
   prepTime: "15 mins",
 
@@ -33,64 +35,72 @@ export const cucumberHummusBites: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-{
-    amount: 2,
-    unit: "",
-    name: "Large cucumbers, sliced into 1/2-inch rounds"
-  },
-{
-    amount: 1,
-    unit: "cup",
-    name: "classic hummus"
-  },
-{
-    amount: 8,
-    unit: "cherry",
-    name: "tomatoes, quartered"
-  },
-{
-    amount: 0.25,
-    unit: "cup",
-    name: "crumbled feta cheese"
-  },
-{
-    amount: 8,
-    unit: "Kalamata",
-    name: "olives, sliced"
-  },
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "chopped fresh parsley"
-  },
-{
-    amount: 1,
-    unit: "tsp",
-    name: "extra virgin olive oil"
-  },
-{
-    amount: 0.25,
-    unit: "tsp",
-    name: "smoked paprika"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "Freshly ground black pepper to taste"
-  }
-],
+    {
+      amount: 2,
+      unit: "large",
+      name: "cucumbers",
+      note: "Cut into rounds about 1/2 inch thick.",
+    },
+    {
+      amount: 1,
+      unit: "cup",
+      name: "classic hummus",
+      note: "Use a thick hummus so it stays neatly on the cucumber slices.",
+    },
+    {
+      amount: 8,
+      unit: "cherry tomatoes",
+      name: "cherry tomatoes",
+      note: "Quartered.",
+    },
+    {
+      amount: 0.25,
+      unit: "cup",
+      name: "feta cheese",
+      note: "Crumbled.",
+    },
+    {
+      amount: 8,
+      unit: "Kalamata olives",
+      name: "Kalamata olives",
+      note: "Pitted and sliced.",
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "fresh parsley",
+      note: "Finely chopped.",
+    },
+    {
+      amount: 1,
+      unit: "tsp",
+      name: "extra virgin olive oil",
+    },
+    {
+      amount: 0.25,
+      unit: "tsp",
+      name: "smoked paprika",
+      note: "Use lightly so it complements rather than overwhelms the hummus.",
+    },
+    {
+      amount: "",
+      unit: "",
+      name: "freshly ground black pepper",
+      note: "To taste.",
+    },
+  ],
 
-instructions: [
-    "Wash and slice the cucumbers into thick rounds.",
-    "Arrange the cucumber slices on a serving platter.",
-    "Spoon about one teaspoon of hummus onto each cucumber slice.",
-    "Top each with a piece of cherry tomato.",
-    "Sprinkle with crumbled feta cheese.",
-    "Add sliced Kalamata olives.",
+  instructions: [
+    "Wash and thoroughly dry the cucumbers before slicing.",
+    "Slice the cucumbers into rounds about 1/2 inch thick so they are sturdy enough to hold the toppings.",
+    "Arrange the cucumber rounds in a single layer on a serving platter.",
+    "Spoon about one teaspoon of hummus onto each cucumber round and spread it gently without covering the entire edge.",
+    "Place a piece of quartered cherry tomato on each bite.",
+    "Sprinkle the bites with crumbled feta cheese.",
+    "Add a few slices of Kalamata olive to each cucumber bite.",
     "Drizzle lightly with extra virgin olive oil.",
-    "Garnish with chopped parsley and smoked paprika.",
-    "Season with freshly ground black pepper.",
-    "Serve immediately or chill for 15 minutes before serving."
+    "Finish with chopped parsley, a light sprinkle of smoked paprika, and freshly ground black pepper.",
+    "Serve immediately for the crispest texture, or chill briefly before serving.",
   ],
 
   nutrition: {
@@ -100,31 +110,25 @@ instructions: [
     fat: "8 g",
     fiber: "3 g",
     sugar: "3 g",
-    sodium: "220 mg"
-  
-  
-  
-  
-  
-  
+    sodium: "220 mg",
   },
 
   healthBenefits: [
-    "Low in carbohydrates",
-    "Rich in fiber",
-    "Good source of plant-based protein",
-    "Supports heart health",
-    "Provides vitamins A and C",
-    "Hydrating thanks to fresh cucumber",
-    "Mediterranean diet friendly"
+    "Provides dietary fiber from hummus, cucumber, and vegetables.",
+    "Hummus contributes plant-based protein and healthy fats.",
+    "Cucumber provides water and refreshing volume with relatively few calories.",
+    "Tomatoes and fresh herbs provide vitamin C and antioxidant compounds.",
+    "Extra virgin olive oil provides predominantly monounsaturated fat.",
+    "A vegetable-forward appetizer can add variety and nutrient density to a Mediterranean-style meal.",
   ],
 
   keywords: [
     "Cucumber Hummus Bites",
     "Healthy Appetizer",
     "Mediterranean Snack",
-    "Low Carb Snack",
-    "Easy Party Appetizer"
+    "Cucumber Hummus Appetizer",
+    "Easy Party Appetizer",
+    "Healthy Mezze",
   ],
 
   tags: [
@@ -135,8 +139,8 @@ instructions: [
     "hummus",
     "healthy",
     "vegetarian",
-    "low-carb"
+    "low-carb",
   ],
 
-  featured: true
+  featured: true,
 };
