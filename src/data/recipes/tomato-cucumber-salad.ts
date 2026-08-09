@@ -8,19 +8,23 @@ export const tomatoCucumberSalad: Recipe = {
   slug: "mediterranean-tomato-cucumber-salad",
 
   description:
-    "A fresh and colorful Mediterranean salad made with ripe tomatoes, crisp cucumbers, herbs, and a simple lemon olive oil dressing.",
+    "A fresh and colorful Mediterranean salad made with ripe tomatoes, crisp cucumbers, fresh herbs, and a bright lemon and olive oil dressing.",
 
   longDescription:
-    "This classic Mediterranean Tomato & Cucumber Salad is one of the simplest and healthiest dishes found throughout Lebanon and Egypt. Fresh vegetables are tossed with parsley, mint, extra virgin olive oil, and lemon juice for a refreshing salad that's naturally vegan, hydrating, and rich in vitamins. It's the perfect side dish for grilled meats, seafood, wraps, or any mezze platter.",
+    "This Mediterranean Tomato & Cucumber Salad combines juicy ripe tomatoes and crisp cucumbers with fresh parsley, mint, red onion, and a simple lemon and extra virgin olive oil dressing. A touch of sumac adds a pleasant tangy note while allowing the fresh vegetables to remain the focus. Naturally vegan and gluten-free, this quick salad works beautifully as a light side dish, mezze accompaniment, or refreshing addition to grilled meats, seafood, and wraps.",
 
   image: "/images/recipes/tomato-cucumber-salad.webp",
 
   imageAlt:
-    "Mediterranean tomato and cucumber salad with parsley, mint, olive oil, and lemon dressing.",
+    "Mediterranean tomato and cucumber salad with parsley, mint, red onion, olive oil, lemon, and sumac.",
 
   cuisine: "Lebanese",
 
   category: "salads",
+
+  vegan: true,
+
+  vegetarian: true,
 
   prepTime: "15 mins",
 
@@ -33,68 +37,78 @@ export const tomatoCucumberSalad: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-{
-    amount: 3,
-    unit: "ripe",
-    name: "tomatoes, diced"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "cucumbers, diced"
-  },
-{
-    amount: 0.25,
-    unit: "",
-    name: "Red onion, finely sliced"
-  },
-{
-    amount: 0.25,
-    unit: "cup",
-    name: "chopped fresh parsley"
-  },
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "chopped fresh mint"
-  },
-{
-    amount: 3,
-    unit: "tbsp",
-    name: "extra virgin olive oil"
-  },
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "fresh lemon juice"
-  },
-{
-    amount: 1,
-    unit: "tsp",
-    name: "sumac (optional)"
-  },
-{
-    amount: 0.5,
-    unit: "tsp",
-    name: "sea salt"
-  },
-{
-    amount: 0.25,
-    unit: "tsp",
-    name: "freshly ground black pepper"
-  }
-],
+    {
+      amount: 3,
+      unit: "medium",
+      name: "ripe tomatoes",
+      note: "Diced; drain excess liquid if very juicy.",
+    },
+    {
+      amount: 2,
+      unit: "medium",
+      name: "cucumbers",
+      note: "Diced into bite-sized pieces.",
+    },
+    {
+      amount: 0.25,
+      unit: "small",
+      name: "red onion",
+      note: "Thinly sliced.",
+    },
+    {
+      amount: 0.25,
+      unit: "cup",
+      name: "fresh parsley",
+      note: "Finely chopped.",
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "fresh mint",
+      note: "Finely chopped.",
+    },
+    {
+      amount: 3,
+      unit: "tbsp",
+      name: "extra virgin olive oil",
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "fresh lemon juice",
+    },
+    {
+      amount: 1,
+      unit: "tsp",
+      name: "sumac",
+      note: "Optional; adds a bright, tangy flavor.",
+    },
+    {
+      amount: 0.5,
+      unit: "tsp",
+      name: "sea salt",
+      note: "Adjust to taste.",
+    },
+    {
+      amount: 0.25,
+      unit: "tsp",
+      name: "freshly ground black pepper",
+      note: "Adjust to taste.",
+    },
+  ],
 
-instructions: [
-    "Wash and dice the tomatoes and cucumbers.",
-    "Thinly slice the red onion.",
-    "Chop the parsley and mint.",
-    "Place all vegetables and herbs into a large mixing bowl.",
-    "Whisk together the olive oil, lemon juice, salt, pepper, and sumac.",
-    "Pour the dressing over the vegetables.",
-    "Toss gently until everything is evenly coated.",
-    "Allow the salad to rest for 10 minutes before serving.",
-    "Serve chilled or at room temperature."
+  instructions: [
+    "Wash the tomatoes and cucumbers thoroughly and pat them dry.",
+    "Dice the tomatoes into bite-sized pieces. If they are especially juicy, drain some of the excess liquid.",
+    "Dice the cucumbers into bite-sized pieces, keeping the pieces fairly uniform.",
+    "Thinly slice the red onion and finely chop the parsley and mint.",
+    "Combine the tomatoes, cucumbers, red onion, parsley, and mint in a large mixing bowl.",
+    "Whisk together the extra virgin olive oil, lemon juice, sumac, sea salt, and black pepper until the dressing is well combined.",
+    "Pour the dressing over the vegetables and herbs.",
+    "Toss gently until the vegetables are evenly coated without crushing the tomatoes.",
+    "Let the salad rest for about 10 minutes so the vegetables can absorb the dressing and the flavors can develop.",
+    "Taste and adjust the lemon juice, salt, pepper, or sumac if needed.",
+    "Serve chilled or at room temperature.",
   ],
 
   nutrition: {
@@ -104,41 +118,41 @@ instructions: [
     fat: "11 g",
     fiber: "3 g",
     sugar: "5 g",
-    sodium: "220 mg"
-  
-  
-  
-  
-  
-  
+    sodium: "220 mg",
   },
 
   healthBenefits: [
-    "Rich in vitamin C",
-    "Excellent source of hydration",
-    "Supports heart health",
-    "Low in calories",
-    "High in antioxidants",
-    "Naturally vegan and gluten-free"
+    "Provides vitamin C and other nutrients from fresh tomatoes and herbs.",
+    "High water content from tomatoes and cucumbers helps make the salad naturally hydrating.",
+    "Provides dietary fiber from fresh vegetables and herbs.",
+    "Extra virgin olive oil provides predominantly heart-friendly monounsaturated fats.",
+    "Tomatoes provide lycopene and other antioxidant compounds.",
+    "Naturally vegan and gluten-free when all packaged ingredients are suitable for those diets.",
+    "A light vegetable-based side dish that adds freshness without being heavy.",
   ],
 
   keywords: [
+    "Mediterranean Tomato Cucumber Salad",
     "Tomato Cucumber Salad",
-    "Mediterranean Salad",
     "Lebanese Salad",
-    "Healthy Tomato Salad",
-    "Fresh Cucumber Salad"
+    "Healthy Mediterranean Salad",
+    "Fresh Cucumber Salad",
+    "Tomato Salad",
+    "Vegan Mediterranean Salad",
   ],
 
   tags: [
     "salad",
     "Mediterranean",
+    "Lebanese",
     "healthy",
     "vegan",
+    "vegetarian",
     "gluten-free",
     "summer",
-    "quick recipe"
+    "quick recipe",
+    "fresh",
   ],
 
-  featured: true
+  featured: true,
 };

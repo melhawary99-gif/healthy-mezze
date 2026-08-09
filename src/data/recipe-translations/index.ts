@@ -8,6 +8,7 @@ import { tabboulehEn } from "./en/tabbouleh";
 import fattoushEn from "./en/fattoush";
 import { lentilSaladEn } from "./en/lentil-salad";
 import { mediterraneanChickpeaSaladEn } from "./en/mediterranean-chickpea-salad";
+import { tomatoCucumberSaladEn } from "./en/tomato-cucumber-salad";
 
 import { greekSaladAr } from "./ar/greek-salad";
 import { beetrootSaladAr } from "./ar/beetroot-salad";
@@ -20,6 +21,7 @@ import { LentilSoupAr } from "./ar/lentil-soup";
 import { chickenShawarmaAr } from "./ar/chicken-shawarma";
 import { lentilSaladAr } from "./ar/lentil-salad";
 import { mediterraneanChickpeaSaladAr } from "./ar/mediterranean-chickpea-salad";
+import { tomatoCucumberSaladAr } from "./ar/tomato-cucumber-salad";
 
 const enTranslations: Record<string, RecipeTranslation> = {
   "greek-salad": greekSaladEn,
@@ -30,6 +32,7 @@ const enTranslations: Record<string, RecipeTranslation> = {
   "fattoush": fattoushEn,
   "mediterranean-lentil-salad": lentilSaladEn,
   "mediterranean-chickpea-salad": mediterraneanChickpeaSaladEn,
+  "mediterranean-tomato-cucumber-salad": tomatoCucumberSaladEn,
 };
 
 const arTranslations: Record<string, RecipeTranslation> = {
@@ -44,6 +47,7 @@ const arTranslations: Record<string, RecipeTranslation> = {
   "chicken-shawarma": chickenShawarmaAr,
   "mediterranean-lentil-salad": lentilSaladAr,
   "mediterranean-chickpea-salad": mediterraneanChickpeaSaladAr,
+  "mediterranean-tomato-cucumber-salad": tomatoCucumberSaladAr,
 };
 
 export function getRecipeTranslation(
