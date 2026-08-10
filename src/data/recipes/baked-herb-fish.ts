@@ -8,15 +8,15 @@ export const bakedHerbFish: Recipe = {
   slug: "baked-herb-fish",
 
   description:
-    "Tender white fish baked with fresh herbs, garlic, lemon, olive oil, and Mediterranean seasonings for a light and healthy meal.",
+    "Tender white fish baked with fresh herbs, garlic, lemon, olive oil, and Mediterranean seasonings for a light, flavorful meal.",
 
   longDescription:
-    "Baked Herb Fish is a simple yet elegant Mediterranean-inspired dish featuring flaky white fish seasoned with garlic, lemon juice, fresh parsley, dill, oregano, and extra virgin olive oil. Baking preserves the fish's natural moisture while creating a flavorful, heart-healthy meal that pairs beautifully with roasted vegetables, quinoa, or a fresh salad.",
+    "Baked Herb Fish is a simple Mediterranean-inspired dish built around flaky white fish, fresh parsley, dill, garlic, lemon, oregano, and extra virgin olive oil. The herb mixture is brushed generously over the fillets before baking, allowing the fish to absorb bright citrus and savory herb flavors while remaining tender and moist. It is an easy weeknight main dish that also feels elegant enough for a relaxed dinner, especially when served with roasted vegetables, quinoa, brown rice, or a crisp Mediterranean salad.",
 
   image: "/images/recipes/baked-herb-fish.webp",
 
   imageAlt:
-    "Baked white fish with lemon slices, parsley, dill, garlic, and roasted Mediterranean vegetables.",
+    "Baked white fish fillets with lemon slices, parsley, dill, garlic, and Mediterranean herbs.",
 
   cuisine: "Lebanese",
 
@@ -33,83 +33,89 @@ export const bakedHerbFish: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-{
-    amount: 4,
-    unit: "white",
-    name: "fish fillets (cod, haddock, sea bass, or halibut)"
-  },
-{
-    amount: 3,
-    unit: "tbsp",
-    name: "extra virgin olive oil"
-  },
-{
-    amount: 3,
-    unit: "garlic",
-    name: "cloves, minced"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "lemon, juiced"
-  },
-{
-    amount: 1,
-    unit: "tsp",
-    name: "lemon zest"
-  },
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "fresh parsley, chopped"
-  },
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "fresh dill, chopped"
-  },
-{
-    amount: 1,
-    unit: "tsp",
-    name: "dried oregano"
-  },
-{
-    amount: 0.5,
-    unit: "tsp",
-    name: "paprika"
-  },
-{
-    amount: 1,
-    unit: "tsp",
-    name: "sea salt"
-  },
-{
-    amount: 0.5,
-    unit: "tsp",
-    name: "black pepper"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "lemon, sliced"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "Fresh parsley for garnish"
-  }
-],
+    {
+      amount: 4,
+      unit: "",
+      name: "white fish fillets",
+      note: "Cod, haddock, sea bass, or halibut.",
+    },
+    {
+      amount: 3,
+      unit: "tbsp",
+      name: "extra virgin olive oil",
+    },
+    {
+      amount: 3,
+      unit: "cloves",
+      name: "garlic",
+      note: "Minced.",
+    },
+    {
+      amount: 1,
+      unit: "",
+      name: "lemon",
+      note: "Juiced and zested.",
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "fresh parsley",
+      note: "Finely chopped.",
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "fresh dill",
+      note: "Finely chopped.",
+    },
+    {
+      amount: 1,
+      unit: "tsp",
+      name: "dried oregano",
+    },
+    {
+      amount: 0.5,
+      unit: "tsp",
+      name: "paprika",
+    },
+    {
+      amount: 1,
+      unit: "tsp",
+      name: "sea salt",
+    },
+    {
+      amount: 0.5,
+      unit: "tsp",
+      name: "freshly ground black pepper",
+    },
+    {
+      amount: 1,
+      unit: "",
+      name: "lemon",
+      note: "Thinly sliced for topping.",
+    },
+    {
+      amount: 1,
+      unit: "",
+      name: "fresh parsley",
+      note: "For garnish.",
+    },
+  ],
 
-instructions: [
+  instructions: [
     "Preheat the oven to 200°C (400°F).",
-    "Lightly grease a baking dish with olive oil.",
-    "Pat the fish fillets dry with paper towels and place them in the dish.",
-    "In a small bowl, combine olive oil, garlic, lemon juice, lemon zest, parsley, dill, oregano, paprika, salt, and pepper.",
-    "Brush the herb mixture evenly over each fish fillet.",
-    "Arrange lemon slices on top of the fish.",
-    "Bake for 18–20 minutes or until the fish flakes easily with a fork.",
-    "Garnish with fresh parsley before serving.",
-    "Serve with roasted vegetables, quinoa, brown rice, or a fresh Mediterranean salad."
+    "Lightly brush a baking dish with a little olive oil.",
+    "Pat the fish fillets dry with paper towels. Removing excess surface moisture helps the herb mixture adhere and encourages even cooking.",
+    "Arrange the fillets in a single layer in the prepared baking dish, leaving a little space between them.",
+    "In a small bowl, whisk together the olive oil, minced garlic, lemon juice, lemon zest, chopped parsley, dill, oregano, paprika, salt, and black pepper.",
+    "Taste a small amount of the herb mixture and adjust the seasoning if needed.",
+    "Brush the mixture generously over the top of each fish fillet, making sure the herbs and garlic are evenly distributed.",
+    "Arrange thin lemon slices over the fillets.",
+    "Bake for about 15–20 minutes, depending on the thickness of the fish, until the flesh is opaque and flakes easily with a fork.",
+    "Check the thickest part of the fish rather than judging doneness only by the edges. For food safety, fish should reach 63°C (145°F) internally.",
+    "Remove the fish from the oven and let it rest for 2–3 minutes so the juices settle.",
+    "Garnish with fresh parsley and spoon some of the lemon-herb juices from the baking dish over the fish.",
+    "Serve immediately with roasted vegetables, quinoa, brown rice, potatoes, or a fresh Mediterranean salad.",
   ],
 
   nutrition: {
@@ -119,30 +125,27 @@ instructions: [
     fat: "15 g",
     fiber: "1 g",
     sugar: "1 g",
-    sodium: "390 mg"
-  
-  
-  
-  
-  
-  
+    sodium: "390 mg",
   },
 
   healthBenefits: [
-    "Excellent source of lean protein",
-    "Rich in heart-healthy omega-3 fatty acids",
-    "Low in saturated fat",
-    "High in vitamin D and selenium",
-    "Supports brain and cardiovascular health",
-    "Mediterranean diet friendly"
+    "Excellent source of high-quality protein",
+    "Generally low in saturated fat",
+    "Provides selenium and other essential micronutrients found in white fish",
+    "Extra virgin olive oil provides predominantly unsaturated fats",
+    "Fresh herbs, garlic, and lemon add flavor without relying on heavy sauces",
+    "Low in carbohydrates",
+    "Works well as a vegetable-forward Mediterranean-style main dish",
   ],
 
   keywords: [
     "Baked Fish",
     "Mediterranean Fish",
     "Healthy Fish Recipe",
-    "Herb Baked Cod",
-    "Healthy Seafood"
+    "Herb Baked Fish",
+    "Lemon Herb Fish",
+    "Healthy Seafood",
+    "Easy Fish Dinner",
   ],
 
   tags: [
@@ -153,8 +156,10 @@ instructions: [
     "healthy",
     "high protein",
     "low carb",
-    "oven baked"
+    "lemon",
+    "herbs",
+    "oven baked",
   ],
 
-  featured: true
+  featured: true,
 };
