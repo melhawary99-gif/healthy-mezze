@@ -8,15 +8,15 @@ export const bakedSpinachSambousek: Recipe = {
   slug: "baked-spinach-sambousek",
 
   description:
-    "Crispy baked Lebanese pastries filled with spinach, onions, parsley, lemon juice, and tangy sumac. A healthier version of the traditional fried sambousek.",
+    "Crispy oven-baked Lebanese pastries filled with spinach, onions, fresh herbs, lemon juice, and tangy sumac for a lighter take on traditional sambousek.",
 
   longDescription:
-    "Spinach Sambousek are popular throughout Lebanon and the Middle East. Traditionally fried, this healthier version is oven-baked until golden and crisp while maintaining the delicious savory filling. Fresh spinach is combined with onions, parsley, lemon juice, olive oil, and aromatic sumac, then wrapped in homemade whole wheat pastry and baked. They make an excellent appetizer, mezze, or light lunch.",
+    "Baked Spinach Sambousek are beloved Lebanese pastries filled with a bright, savory mixture of spinach, onion, parsley, mint, lemon juice, and tangy sumac. Traditionally fried until crisp, this lighter version is baked until golden and flaky, using a small amount of olive oil and an egg wash for beautiful color. The homemade whole wheat dough gives the pastries a hearty texture while the fresh spinach filling keeps the center flavorful and aromatic. They are perfect for a mezze table, appetizer platter, light lunch, or afternoon snack.",
 
   image: "/images/recipes/baked-spinach-sambousek.webp",
 
   imageAlt:
-    "Golden baked spinach sambousek arranged on a serving platter with lemon wedges and fresh parsley.",
+    "Golden baked Lebanese spinach sambousek arranged on a serving platter with lemon wedges and fresh parsley.",
 
   cuisine: "Lebanese",
 
@@ -26,109 +26,118 @@ export const bakedSpinachSambousek: Recipe = {
 
   cookTime: "22 mins",
 
-  totalTime: "57 mins",
+  totalTime: "1 hr 57 mins",
 
   servings: 12,
 
   difficulty: "Medium",
 
   ingredients: [
-{
-    amount: 2,
-    unit: "cups",
-    name: "whole wheat flour"
-  },
-{
-    amount: 1,
-    unit: "cup",
-    name: "all-purpose flour"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "2¼ tsp instant yeast"
-  },
-{
-    amount: 1,
-    unit: "tsp",
-    name: "sugar"
-  },
-{
-    amount: 1,
-    unit: "tsp",
-    name: "sea salt"
-  },
-{
-    amount: 1,
-    unit: "cup",
-    name: "warm water"
-  },
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "extra virgin olive oil"
-  },
-{
-    amount: 4,
-    unit: "cups",
-    name: "fresh spinach, chopped"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "Medium onion, finely diced"
-  },
-{
-    amount: 0.25,
-    unit: "cup",
-    name: "fresh parsley, chopped"
-  },
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "fresh mint, chopped"
-  },
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "fresh lemon juice"
-  },
-{
-    amount: 1,
-    unit: "tbsp",
-    name: "ground sumac"
-  },
-{
-    amount: 0.5,
-    unit: "tsp",
-    name: "ground allspice"
-  },
-{
-    amount: 0.5,
-    unit: "tsp",
-    name: "black pepper"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "egg, lightly beaten (for brushing)"
-  }
-],
+    {
+      amount: 2,
+      unit: "cups",
+      name: "whole wheat flour",
+    },
+    {
+      amount: 1,
+      unit: "cup",
+      name: "all-purpose flour",
+    },
+    {
+      amount: 2.25,
+      unit: "tsp",
+      name: "instant yeast",
+    },
+    {
+      amount: 1,
+      unit: "tsp",
+      name: "sugar",
+    },
+    {
+      amount: 1,
+      unit: "tsp",
+      name: "sea salt",
+    },
+    {
+      amount: 1,
+      unit: "cup",
+      name: "warm water",
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "extra virgin olive oil",
+    },
+    {
+      amount: 4,
+      unit: "cups",
+      name: "fresh spinach",
+      note: "Finely chopped.",
+    },
+    {
+      amount: 1,
+      unit: "",
+      name: "medium onion",
+      note: "Finely diced.",
+    },
+    {
+      amount: 0.25,
+      unit: "cup",
+      name: "fresh parsley",
+      note: "Chopped.",
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "fresh mint",
+      note: "Chopped.",
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "fresh lemon juice",
+    },
+    {
+      amount: 1,
+      unit: "tbsp",
+      name: "ground sumac",
+    },
+    {
+      amount: 0.5,
+      unit: "tsp",
+      name: "ground allspice",
+    },
+    {
+      amount: 0.5,
+      unit: "tsp",
+      name: "black pepper",
+    },
+    {
+      amount: 1,
+      unit: "",
+      name: "egg",
+      note: "Lightly beaten for brushing.",
+    },
+  ],
 
-instructions: [
-    "Mix the flours, yeast, sugar, and salt in a large bowl.",
-    "Add the warm water and olive oil and knead until smooth.",
-    "Cover and allow the dough to rise for 1 hour.",
-    "Meanwhile, combine the spinach, onion, parsley, mint, lemon juice, sumac, allspice, and black pepper.",
-    "Squeeze out any excess liquid from the spinach mixture.",
-    "Preheat the oven to 400°F (200°C).",
-    "Divide the dough into 12 equal portions.",
-    "Roll each portion into a small circle.",
-    "Place about 2 tablespoons of filling in the center.",
-    "Fold over to create a half-moon shape and firmly seal the edges.",
-    "Brush the tops lightly with beaten egg.",
-    "Bake for 20–22 minutes until golden brown.",
-    "Serve warm with lemon wedges."
+  instructions: [
+    "Combine the whole wheat flour, all-purpose flour, instant yeast, sugar, and salt in a large mixing bowl.",
+    "Add the warm water and olive oil gradually, mixing until a soft dough forms.",
+    "Knead the dough for about 7–10 minutes until smooth and elastic.",
+    "Cover the dough and let it rise in a warm place for about 1 hour, or until noticeably puffy.",
+    "Meanwhile, combine the chopped spinach, onion, parsley, mint, lemon juice, sumac, allspice, and black pepper in a large bowl.",
+    "Mix the filling thoroughly, then squeeze it firmly with your hands to remove excess moisture. The filling should be moist but not wet.",
+    "Preheat the oven to 200°C (400°F) and line a baking tray with parchment paper.",
+    "Divide the risen dough into 12 equal portions and roll each portion into a smooth ball.",
+    "Roll each dough ball into a thin circle on a lightly floured surface.",
+    "Place about 2 tablespoons of spinach filling in the center, leaving enough space around the edges to seal the pastry.",
+    "Fold the dough over the filling to form a half-moon shape.",
+    "Press the edges firmly together, then pinch or crimp them to create a secure seal.",
+    "Arrange the sambousek on the prepared baking tray with a little space between each piece.",
+    "Brush the tops lightly with beaten egg for a golden finish.",
+    "Bake for 20–22 minutes, or until the pastries are golden brown and crisp around the edges.",
+    "Allow them to cool for a few minutes before serving.",
+    "Serve warm with lemon wedges, fresh herbs, yogurt, or your favorite Mediterranean dips.",
   ],
 
   nutrition: {
@@ -138,31 +147,26 @@ instructions: [
     fat: "5 g",
     fiber: "4 g",
     sugar: "2 g",
-    sodium: "220 mg"
-  
-  
-  
-  
-  
-  
+    sodium: "220 mg",
   },
 
   healthBenefits: [
-    "Excellent source of vitamins A and K",
-    "Rich in antioxidants from spinach",
-    "Whole wheat pastry provides extra fiber",
-    "Baked instead of fried to reduce fat",
-    "Contains heart-healthy olive oil",
+    "Provides vitamins A and K from spinach",
+    "Spinach contributes antioxidants and plant-based micronutrients",
+    "Whole wheat flour provides more fiber than refined flour alone",
+    "Baking uses less oil than traditional deep-frying",
+    "Extra virgin olive oil provides heart-healthy unsaturated fats",
     "Naturally vegetarian",
-    "Mediterranean diet friendly"
+    "Works well as part of a balanced Mediterranean-style meal",
   ],
 
   keywords: [
     "Spinach Sambousek",
     "Lebanese Sambousek",
-    "Healthy Pastry",
+    "Baked Sambousek",
+    "Healthy Spinach Pastry",
     "Mediterranean Appetizer",
-    "Baked Sambousek"
+    "Lebanese Spinach Pastry",
   ],
 
   tags: [
@@ -173,8 +177,10 @@ instructions: [
     "baked",
     "healthy",
     "vegetarian",
-    "Mediterranean"
+    "Mediterranean",
+    "pastry",
+    "appetizer",
   ],
 
-  featured: true
+  featured: true,
 };
