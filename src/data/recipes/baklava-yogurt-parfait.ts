@@ -2,86 +2,104 @@ import { Recipe } from "@/types/recipe";
 
 export const baklavaYogurtParfait: Recipe = {
   id: 109,
+
   title: "Baklava-Inspired Yogurt Parfait",
+
   slug: "baklava-yogurt-parfait",
+
   description:
-    "A healthier twist on traditional baklava featuring creamy Greek yogurt layered with walnuts, pistachios, dates, honey, fresh berries, and warm cinnamon flavors.",
+    "A lighter Mediterranean-inspired dessert layered with creamy Greek yogurt, toasted walnuts and pistachios, naturally sweet Medjool dates, fresh berries, honey, and warm cinnamon.",
+
+  longDescription:
+    "Baklava-Inspired Yogurt Parfait captures the flavors of classic baklava in a fresh, no-bake dessert. Creamy Greek yogurt is layered with chopped walnuts, pistachios, almonds, naturally sweet Medjool dates, and fresh berries, then finished with a light drizzle of honey and a touch of cinnamon. The result is creamy, crunchy, fruity, and gently sweet without the heavy syrup and pastry of traditional baklava. It makes an easy breakfast-style dessert, afternoon treat, or elegant light finish to a Mediterranean meal.",
+
   image: "/images/recipes/baklava-yogurt-parfait.webp",
 
   imageAlt:
-    "Baklava-inspired Greek yogurt parfait layered with walnuts, pistachios, dates, honey, fresh berries, and cinnamon.",
+    "Baklava-inspired Greek yogurt parfait layered with creamy yogurt, pistachios, walnuts, dates, fresh berries, honey, and cinnamon.",
 
   cuisine: "Middle Eastern",
 
   category: "desserts",
+
   vegan: false,
+
   vegetarian: true,
 
   prepTime: "10 mins",
+
   cookTime: "0 mins",
-  totalTime: "10 mins",
+
+  totalTime: "25 mins",
+
   servings: 2,
+
   difficulty: "Easy",
 
   ingredients: [
     {
-      amount: 1,
-      unit: "",
+      amount: 2,
+      unit: "cups",
       name: "Greek yogurt",
     },
     {
-      amount: 1,
+      amount: 0.25,
+      unit: "cup",
+      name: "walnuts",
+      note: "Roughly chopped.",
+    },
+    {
+      amount: 0.25,
+      unit: "cup",
+      name: "pistachios",
+      note: "Roughly chopped.",
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "honey",
+    },
+    {
+      amount: 0.5,
+      unit: "tsp",
+      name: "ground cinnamon",
+    },
+    {
+      amount: 4,
       unit: "",
-      name: "Walnuts",
+      name: "Medjool dates",
+      note: "Pitted and chopped.",
     },
     {
       amount: 1,
-      unit: "",
-      name: "Pistachios",
+      unit: "cup",
+      name: "fresh berries",
+      note: "Strawberries, blueberries, raspberries, or a mixture.",
     },
     {
       amount: 1,
-      unit: "",
-      name: "Honey",
+      unit: "tsp",
+      name: "vanilla extract",
     },
     {
-      amount: 1,
-      unit: "",
-      name: "Cinnamon",
-    },
-    {
-      amount: 1,
-      unit: "",
-      name: "Dates",
-    },
-    {
-      amount: 1,
-      unit: "",
-      name: "Fresh berries",
-    },
-    {
-      amount: 1,
-      unit: "",
-      name: "Vanilla extract",
-    },
-    {
-      amount: 1,
-      unit: "",
-      name: "Crushed almonds",
+      amount: 2,
+      unit: "tbsp",
+      name: "crushed almonds",
     },
   ],
 
   instructions: [
-    "Mix the Greek yogurt with the vanilla extract until smooth.",
-    "Roughly chop the walnuts, pistachios, dates, and almonds.",
-    "Spoon a layer of Greek yogurt into each serving glass.",
-    "Add a layer of chopped dates and mixed nuts.",
-    "Top with a handful of fresh berries.",
-    "Drizzle lightly with honey.",
-    "Repeat the layers until the glasses are full.",
-    "Sprinkle with ground cinnamon.",
-    "Finish with extra pistachios and almonds on top.",
-    "Chill for 15 minutes before serving for the best flavor.",
+    "Prepare the fruit and nuts by pitting and chopping the dates, roughly chopping the walnuts and pistachios, and crushing the almonds.",
+    "In a bowl, gently mix the Greek yogurt with the vanilla extract until smooth and creamy.",
+    "Combine the chopped walnuts, pistachios, and crushed almonds in a small bowl.",
+    "Spoon a layer of Greek yogurt into the bottom of each serving glass.",
+    "Add a layer of chopped Medjool dates and the mixed nuts.",
+    "Add a layer of fresh berries.",
+    "Drizzle lightly with honey and sprinkle with a small pinch of cinnamon.",
+    "Repeat the yogurt, dates, nuts, and berry layers until the glasses are nearly full.",
+    "Finish with fresh berries, chopped pistachios, almonds, and a light drizzle of honey.",
+    "Sprinkle a small amount of cinnamon over the top.",
+    "Chill for about 15 minutes before serving so the flavors can come together.",
   ],
 
   nutrition: {
@@ -92,17 +110,16 @@ export const baklavaYogurtParfait: Recipe = {
     fiber: "5 g",
     sugar: "21 g",
     sodium: "90 mg",
-  
-  
   },
 
   healthBenefits: [
-    "Excellent source of protein",
-    "Rich in healthy fats from nuts",
-    "Contains calcium for strong bones",
-    "Provides antioxidants from berries",
-    "Supports heart health",
-    "Offers sustained energy",
+    "Provides high-quality protein from Greek yogurt",
+    "Greek yogurt provides calcium to support bone health",
+    "Walnuts, pistachios, and almonds provide unsaturated fats",
+    "Fresh berries contribute antioxidants and vitamin-rich plant compounds",
+    "Dates provide naturally occurring sweetness and dietary fiber",
+    "Uses a modest amount of honey instead of a heavy syrup",
+    "A lighter alternative to traditional syrup-soaked baklava",
   ],
 
   keywords: [
@@ -112,9 +129,22 @@ export const baklavaYogurtParfait: Recipe = {
     "Mediterranean Dessert",
     "Healthy Middle Eastern Dessert",
     "Easy Yogurt Parfait",
+    "Date and Pistachio Parfait",
   ],
 
-  tags: ["Dessert", "Greek Yogurt", "Mediterranean", "Healthy", "Baklava", "Parfait"],
+  tags: [
+    "dessert",
+    "Greek yogurt",
+    "Mediterranean",
+    "healthy",
+    "baklava",
+    "parfait",
+    "pistachios",
+    "walnuts",
+    "dates",
+    "berries",
+    "no bake",
+  ],
 
   featured: false,
 };
