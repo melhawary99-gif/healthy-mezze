@@ -8,15 +8,15 @@ export const bakedKibbeh: Recipe = {
   slug: "baked-kibbeh",
 
   description:
-    "A healthier oven-baked version of traditional Lebanese kibbeh made with lean ground beef, fine bulgur wheat, onions, herbs, and aromatic Mediterranean spices.",
+    "A lighter oven-baked version of traditional Lebanese kibbeh made with fine bulgur, lean ground beef, onions, fresh herbs, and warm Mediterranean spices.",
 
   longDescription:
-    "Baked Kibbeh is one of Lebanon's most treasured national dishes. Unlike the fried version, this healthier recipe is baked until beautifully golden, reducing fat while preserving its rich flavor. Layers of seasoned lean beef and fine bulgur wheat surround a savory filling with onions and toasted pine nuts, creating a hearty meal that's packed with protein and Mediterranean goodness.",
+    "Baked Kibbeh is a beloved Lebanese dish made from a delicately seasoned mixture of fine bulgur and lean ground beef, layered around a savory filling of browned beef, onions, and toasted pine nuts. Instead of deep-frying individual pieces, this version is assembled in a baking dish, scored into traditional diamond shapes, brushed lightly with olive oil, and baked until beautifully golden. The result is hearty and aromatic, with a tender bulgur-beef crust, a savory center, and the unmistakable warmth of Lebanese spices.",
 
   image: "/images/recipes/baked-kibbeh.webp",
 
   imageAlt:
-    "Golden baked Lebanese kibbeh cut into diamond shapes and garnished with toasted pine nuts and fresh parsley.",
+    "Golden Lebanese baked kibbeh cut into traditional diamond shapes with a savory beef and pine nut filling and fresh parsley garnish.",
 
   cuisine: "Lebanese",
 
@@ -33,94 +33,102 @@ export const bakedKibbeh: Recipe = {
   difficulty: "Medium",
 
   ingredients: [
-{
-    amount: 1,
-    unit: "cup",
-    name: "fine bulgur wheat"
-  },
-{
-    amount: 500,
-    unit: "g",
-    name: "lean ground beef (90% lean), divided"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "Large onion, finely chopped"
-  },
-{
-    amount: 0.25,
-    unit: "cup",
-    name: "fresh parsley, finely chopped"
-  },
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "fresh mint, chopped"
-  },
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "pine nuts, lightly toasted"
-  },
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "extra virgin olive oil"
-  },
-{
-    amount: 1,
-    unit: "tsp",
-    name: "ground allspice"
-  },
-{
-    amount: 1,
-    unit: "tsp",
-    name: "ground cumin"
-  },
-{
-    amount: 0.5,
-    unit: "tsp",
-    name: "ground cinnamon"
-  },
-{
-    amount: 0.5,
-    unit: "tsp",
-    name: "paprika"
-  },
-{
-    amount: 1,
-    unit: "tsp",
-    name: "sea salt"
-  },
-{
-    amount: 0.5,
-    unit: "tsp",
-    name: "black pepper"
-  },
-{
-    amount: 1,
-    unit: "tbsp",
-    name: "olive oil for brushing"
-  }
-],
+    {
+      amount: 1,
+      unit: "cup",
+      name: "fine bulgur wheat",
+      note: "Use fine bulgur rather than coarse bulgur.",
+    },
+    {
+      amount: 500,
+      unit: "g",
+      name: "lean ground beef",
+      note: "Divided between the kibbeh shell and filling.",
+    },
+    {
+      amount: 1,
+      unit: "",
+      name: "large onion",
+      note: "Finely chopped and divided.",
+    },
+    {
+      amount: 0.25,
+      unit: "cup",
+      name: "fresh parsley",
+      note: "Finely chopped.",
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "fresh mint",
+      note: "Finely chopped.",
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "pine nuts",
+      note: "Lightly toasted.",
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "extra virgin olive oil",
+    },
+    {
+      amount: 1,
+      unit: "tsp",
+      name: "ground allspice",
+    },
+    {
+      amount: 1,
+      unit: "tsp",
+      name: "ground cumin",
+    },
+    {
+      amount: 0.5,
+      unit: "tsp",
+      name: "ground cinnamon",
+    },
+    {
+      amount: 0.5,
+      unit: "tsp",
+      name: "paprika",
+    },
+    {
+      amount: 1,
+      unit: "tsp",
+      name: "sea salt",
+    },
+    {
+      amount: 0.5,
+      unit: "tsp",
+      name: "black pepper",
+    },
+    {
+      amount: 1,
+      unit: "tbsp",
+      name: "olive oil for brushing",
+    },
+  ],
 
-instructions: [
-    "Soak the bulgur wheat in warm water for 20 minutes, then drain and squeeze out excess moisture.",
-    "Mix half of the ground beef with the bulgur, half the onion, parsley, mint, allspice, cumin, cinnamon, paprika, salt, and pepper.",
-    "Process the mixture in a food processor until smooth.",
-    "Cook the remaining onion in olive oil until softened.",
-    "Add the remaining ground beef and cook until browned.",
-    "Stir in the toasted pine nuts and cook for another 2 minutes.",
-    "Preheat the oven to 375°F (190°C).",
-    "Lightly grease a baking dish.",
-    "Press half of the kibbeh mixture into the bottom of the dish.",
-    "Spread the beef filling evenly over the base.",
-    "Cover with the remaining kibbeh mixture and smooth the surface.",
-    "Score the top into traditional diamond shapes.",
-    "Brush lightly with olive oil.",
-    "Bake for 40–45 minutes until golden brown.",
-    "Allow to rest for 10 minutes before serving."
+  instructions: [
+    "Place the fine bulgur in a bowl and cover with warm water. Let it soak for about 20 minutes until softened.",
+    "Drain the bulgur very well, then squeeze it firmly in your hands or through a clean kitchen towel to remove as much excess water as possible.",
+    "Divide the ground beef into two portions. One portion will form the outer kibbeh mixture and the other will become the savory filling.",
+    "Combine the bulgur with half of the ground beef, half of the chopped onion, parsley, mint, allspice, cumin, cinnamon, paprika, salt, and black pepper.",
+    "Process the mixture in a food processor in batches if necessary until it becomes cohesive, smooth, and finely textured. Avoid over-processing into a paste.",
+    "Heat the olive oil in a skillet over medium heat and cook the remaining onion until soft and lightly golden.",
+    "Add the remaining ground beef and cook until browned and fully cooked, breaking it into small crumbles as it cooks.",
+    "Stir in the toasted pine nuts and cook for another 1–2 minutes. Remove the filling from the heat and allow it to cool slightly.",
+    "Preheat the oven to 190°C (375°F). Lightly grease a baking dish with olive oil.",
+    "Wet your hands lightly and press half of the kibbeh mixture evenly into the bottom of the dish, creating a compact layer of even thickness.",
+    "Spread the beef and pine nut filling evenly over the first layer, leaving a small border around the edges.",
+    "Cover with the remaining kibbeh mixture. Press and smooth it gently so the filling is completely enclosed.",
+    "Dip a knife in water and score the surface into traditional diamond shapes without cutting all the way through.",
+    "Brush the surface lightly with olive oil, paying particular attention to the scored lines.",
+    "Bake for 40–45 minutes, or until the surface is firm and golden brown and the edges are lightly browned.",
+    "Allow the kibbeh to rest for about 10 minutes before cutting. This helps the layers set and makes the diamond pieces easier to lift.",
+    "Serve warm with a fresh salad, cucumber, yogurt, tahini sauce, or other Mediterranean accompaniments.",
   ],
 
   nutrition: {
@@ -130,31 +138,27 @@ instructions: [
     fat: "15 g",
     fiber: "3 g",
     sugar: "2 g",
-    sodium: "330 mg"
-  
-  
-  
-  
-  
-  
+    sodium: "330 mg",
   },
 
   healthBenefits: [
-    "Excellent source of lean protein",
-    "Rich in iron and vitamin B12",
-    "Bulgur provides whole-grain fiber",
-    "Baked instead of fried for less fat",
-    "Contains heart-healthy olive oil",
-    "Provides essential minerals including zinc",
-    "Mediterranean diet friendly"
+    "Provides high-quality protein from lean ground beef",
+    "Bulgur contributes dietary fiber and complex carbohydrates",
+    "Provides iron and vitamin B12 from beef",
+    "Baking uses less oil than traditional deep-frying",
+    "Fresh parsley and mint add aromatic plant compounds and micronutrients",
+    "Pine nuts provide unsaturated fats and minerals",
+    "Works well as part of a balanced Mediterranean-style meal",
   ],
 
   keywords: [
     "Baked Kibbeh",
     "Healthy Kibbeh",
     "Lebanese Kibbeh",
+    "Kibbeh bil Sanieh",
+    "Kibbeh in a Tray",
     "Mediterranean Beef Recipe",
-    "Traditional Lebanese Food"
+    "Traditional Lebanese Food",
   ],
 
   tags: [
@@ -165,8 +169,10 @@ instructions: [
     "bulgur",
     "healthy",
     "baked",
-    "Mediterranean"
+    "Mediterranean",
+    "pine nuts",
+    "traditional",
   ],
 
-  featured: true
+  featured: true,
 };

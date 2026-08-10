@@ -10,6 +10,7 @@ import { babaGanoushEn } from "./en/baba-ganoush";
 import { bakedBeefKoftaEn } from "./en/baked-beef-kofta";
 import { bakedEggsSpinachTomatoesEn } from "./en/baked-eggs-spinach-tomatoes";
 import { bakedHerbFishEn } from "./en/baked-herb-fish";
+import { bakedKibbehEn } from "./en/baked-kibbeh";
 import { roastedEggplantSaladEn } from "./en/roasted-eggplant-salad";
 import { lentilSaladEn } from "./en/lentil-salad";
 import { mediterraneanChickpeaSaladEn } from "./en/mediterranean-chickpea-salad";
@@ -28,6 +29,7 @@ import { babaGanoushAr } from "./ar/baba-ganoush";
 import { bakedBeefKoftaAr } from "./ar/baked-beef-kofta";
 import { bakedEggsSpinachTomatoesAr } from "./ar/baked-eggs-spinach-tomatoes";
 import { bakedHerbFishAr } from "./ar/baked-herb-fish";
+import { bakedKibbehAr } from "./ar/baked-kibbeh";
 import { roastedEggplantSaladAr } from "./ar/roasted-eggplant-salad";
 import { lentilSaladAr } from "./ar/lentil-salad";
 import { mediterraneanChickpeaSaladAr } from "./ar/mediterranean-chickpea-salad";
@@ -44,6 +46,7 @@ const enTranslations: Record<string, RecipeTranslation> = {
   "baked-beef-kofta": bakedBeefKoftaEn,
   "baked-eggs-spinach-tomatoes": bakedEggsSpinachTomatoesEn,
   "baked-herb-fish": bakedHerbFishEn,
+  "baked-kibbeh": bakedKibbehEn,
   "roasted-eggplant-salad": roastedEggplantSaladEn,
   "mediterranean-lentil-salad": lentilSaladEn,
   "mediterranean-chickpea-salad": mediterraneanChickpeaSaladEn,
@@ -64,6 +67,7 @@ const arTranslations: Record<string, RecipeTranslation> = {
   "baked-beef-kofta": bakedBeefKoftaAr,
   "baked-eggs-spinach-tomatoes": bakedEggsSpinachTomatoesAr,
   "baked-herb-fish": bakedHerbFishAr,
+  "baked-kibbeh": bakedKibbehAr,
   "roasted-eggplant-salad": roastedEggplantSaladAr,
   "mediterranean-lentil-salad": lentilSaladAr,
   "mediterranean-chickpea-salad": mediterraneanChickpeaSaladAr,
