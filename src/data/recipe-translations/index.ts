@@ -2,6 +2,7 @@ import { RecipeTranslation } from "@/types/recipeTranslation";
 
 import { greekSaladEn } from "./en/greek-salad";
 import { beetrootSaladEn } from "./en/beetroot-salad";
+import { cheeseFatayerEn } from "./en/cheese-fatayer";
 import { cucumberHummusBitesEn } from "./en/cucumber-hummus-bites";
 import { cucumberYogurtSaladEn } from "./en/cucumber-yogurt-salad";
 import { tabboulehEn } from "./en/tabbouleh";
@@ -23,6 +24,7 @@ import { tomatoCucumberSaladEn } from "./en/tomato-cucumber-salad";
 
 import { greekSaladAr } from "./ar/greek-salad";
 import { beetrootSaladAr } from "./ar/beetroot-salad";
+import { CheeseFatayerAr as cheeseFatayerAr } from "./ar/cheese-fatayer";
 import { cucumberHummusBitesAr } from "./ar/cucumber-hummus-bites";
 import { cucumberYogurtSaladAr } from "./ar/cucumber-yogurt-salad";
 import { TabboulehAr } from "./ar/tabbouleh";
@@ -48,6 +50,7 @@ import { tomatoCucumberSaladAr } from "./ar/tomato-cucumber-salad";
 const enTranslations: Record<string, RecipeTranslation> = {
   "greek-salad": greekSaladEn,
   "mediterranean-beetroot-salad": beetrootSaladEn,
+  "cheese-fatayer": cheeseFatayerEn,
   "cucumber-hummus-bites": cucumberHummusBitesEn,
   "cucumber-yogurt-salad": cucumberYogurtSaladEn,
   "tabbouleh": tabboulehEn,
@@ -71,6 +74,7 @@ const enTranslations: Record<string, RecipeTranslation> = {
 const arTranslations: Record<string, RecipeTranslation> = {
   "greek-salad": greekSaladAr,
   "mediterranean-beetroot-salad": beetrootSaladAr,
+  "cheese-fatayer": cheeseFatayerAr,
   "cucumber-hummus-bites": cucumberHummusBitesAr,
   "cucumber-yogurt-salad": cucumberYogurtSaladAr,
   "tabbouleh": TabboulehAr,
