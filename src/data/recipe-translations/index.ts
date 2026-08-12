@@ -1,6 +1,7 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 import { greekSaladEn } from "./en/greek-salad";
+import { authenticAmbaSauceEn } from "./en/authentic-amba-sauce";
 import { beetrootSaladEn } from "./en/beetroot-salad";
 import { cheeseFatayerEn } from "./en/cheese-fatayer";
 import { cucumberHummusBitesEn } from "./en/cucumber-hummus-bites";
@@ -25,6 +26,7 @@ import { mediterraneanWhiteBeanSaladEn } from "./en/mediterranean-white-bean-sal
 import { MediterraneanChickenOrzoSoupEn } from "./en/mediterranean-chicken-orzo-soup";
 
 import { greekSaladAr } from "./ar/greek-salad";
+import { authenticAmbaSauceAr } from "./ar/authentic-amba-sauce";
 import { beetrootSaladAr } from "./ar/beetroot-salad";
 import { CheeseFatayerAr as cheeseFatayerAr } from "./ar/cheese-fatayer";
 import { cucumberHummusBitesAr } from "./ar/cucumber-hummus-bites";
@@ -73,11 +75,13 @@ const enTranslations: Record<string, RecipeTranslation> = {
   "mediterranean-lentil-salad": lentilSaladEn,
   "mediterranean-chickpea-salad": mediterraneanChickpeaSaladEn,
   "mediterranean-tomato-cucumber-salad": tomatoCucumberSaladEn,
+  "authentic-amba-sauce": authenticAmbaSauceEn,
   "mediterranean-white-bean-salad": mediterraneanWhiteBeanSaladEn,
   "mediterranean-chicken-orzo-soup": MediterraneanChickenOrzoSoupEn,
 };
 
 const arTranslations: Record<string, RecipeTranslation> = {
+  "authentic-amba-sauce": authenticAmbaSauceAr,
   "greek-salad": greekSaladAr,
   "mediterranean-beetroot-salad": beetrootSaladAr,
   "cheese-fatayer": cheeseFatayerAr,
