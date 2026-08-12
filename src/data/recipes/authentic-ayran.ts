@@ -8,15 +8,15 @@ export const authenticAyran: Recipe = {
   slug: "authentic-ayran",
 
   description:
-    "A refreshing traditional yogurt drink made with plain yogurt, cold water, sea salt, and fresh mint.",
+    "A refreshing traditional yogurt drink made with plain yogurt, ice-cold water, sea salt, and optional fresh mint.",
 
   longDescription:
-    "Ayran, known as Laban Ayran in Lebanon, is a traditional yogurt-based drink enjoyed throughout the Middle East. Served ice cold, it is commonly paired with grilled meats, shawarma, kebabs, falafel, and mezze. This authentic recipe combines creamy yogurt, chilled water, sea salt, and optional fresh mint to create a refreshing beverage that's naturally high in protein and probiotics.",
+    "Ayran, known as Laban Ayran in parts of the Levant, is a simple savory yogurt drink enjoyed across the Middle East and neighboring regions. Its appeal comes from a short list of ingredients: creamy plain yogurt, cold water, and a little salt blended until smooth and lightly frothy. Served well chilled, Ayran is especially refreshing alongside grilled meats, shawarma, kebabs, falafel, mezze, and other boldly seasoned foods. This Lebanese-style preparation keeps the drink simple and savory, with optional fresh mint for an extra cooling aroma. The yogurt provides protein and calcium, while the cold, lightly salted drink makes a refreshing accompaniment to a meal.",
 
   image: "/images/recipes/authentic-ayran.webp",
 
   imageAlt:
-    "A chilled glass of traditional Lebanese Ayran garnished with fresh mint and served with ice.",
+    "Chilled Lebanese-style Ayran yogurt drink in a clear glass with fresh mint and ice.",
 
   cuisine: "Lebanese",
 
@@ -33,46 +33,53 @@ export const authenticAyran: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-{
-    amount: 2,
-    unit: "cups",
-    name: "plain Greek yogurt"
-  },
-{
-    amount: 2,
-    unit: "cups",
-    name: "ice-cold water"
-  },
-{
-    amount: 0.5,
-    unit: "tsp",
-    name: "sea salt"
-  },
-{
-    amount: 0.5,
-    unit: "cup",
-    name: "ice cubes"
-  },
-{
-    amount: 1,
-    unit: "tbsp",
-    name: "finely chopped fresh mint (optional)"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "Fresh mint sprigs for garnish"
-  }
-],
+    {
+      amount: 2,
+      unit: "cups",
+      name: "plain Greek yogurt",
+      note: "Use unsweetened plain yogurt. A thick yogurt produces a creamy Ayran that can be adjusted with additional water.",
+    },
+    {
+      amount: 2,
+      unit: "cups",
+      name: "ice-cold water",
+      note: "Start with the listed amount and add a little more if you prefer a lighter, more pourable drink.",
+    },
+    {
+      amount: 0.5,
+      unit: "tsp",
+      name: "sea salt",
+      note: "Start with less if your yogurt is already slightly salty, then adjust to taste.",
+    },
+    {
+      amount: 0.5,
+      unit: "cup",
+      name: "ice cubes",
+      note: "Optional. Use for an especially cold serving.",
+    },
+    {
+      amount: 1,
+      unit: "tbsp",
+      name: "fresh mint",
+      note: "Finely chopped and optional. Add for a fresh herbal aroma.",
+    },
+    {
+      amount: 1,
+      unit: "",
+      name: "fresh mint sprig",
+      note: "Optional. Use as a simple garnish.",
+    },
+  ],
 
-instructions: [
-    "Add the yogurt, cold water, and sea salt to a blender.",
-    "Blend for 30–60 seconds until completely smooth and frothy.",
-    "Stir in the chopped mint if using.",
-    "Taste and adjust the salt if desired.",
-    "Pour into chilled serving glasses over ice.",
-    "Garnish with fresh mint sprigs.",
-    "Serve immediately."
+  instructions: [
+    "Add the plain Greek yogurt, ice-cold water, and sea salt to a blender.",
+    "Blend for about 30–60 seconds until the yogurt and water are completely combined and a light layer of foam forms on the surface.",
+    "Taste the Ayran and adjust the salt gradually. The finished drink should be pleasantly savory and refreshing rather than heavily salty.",
+    "If using chopped fresh mint, stir it into the finished drink after blending so small pieces of mint remain visible and aromatic.",
+    "Fill chilled serving glasses with ice if desired.",
+    "Pour the Ayran into the glasses and leave a little room at the top for the natural foam.",
+    "Garnish with a small fresh mint sprig if desired.",
+    "Serve immediately while thoroughly chilled. Gently stir or shake the drink before serving again if the yogurt begins to settle.",
   ],
 
   nutrition: {
@@ -82,43 +89,44 @@ instructions: [
     fat: "3 g",
     fiber: "0 g",
     sugar: "6 g",
-    sodium: "340 mg"
-  
-  
-  
-  
-  
-  
+    sodium: "340 mg",
   },
 
   healthBenefits: [
-    "Excellent source of protein",
-    "Rich in calcium for healthy bones",
-    "Contains beneficial probiotics from yogurt",
-    "Naturally hydrating",
-    "Supports digestion",
-    "Low in added sugar",
-    "A refreshing accompaniment to savory meals"
+    "Provides protein from plain yogurt.",
+    "Yogurt provides calcium and other nutrients important to a balanced diet.",
+    "When made with yogurt containing live cultures, Ayran can provide beneficial yogurt cultures.",
+    "Contains no added sugar in this savory preparation.",
+    "Provides fluid along with electrolytes such as sodium from the yogurt and added salt.",
+    "Naturally refreshing and well suited to serving alongside savory meals.",
+    "Its combination of yogurt, water, and salt makes it a simple alternative to heavily sweetened beverages.",
   ],
 
   keywords: [
     "Ayran",
+    "Authentic Ayran",
     "Laban Ayran",
+    "Lebanese Ayran",
     "Lebanese Yogurt Drink",
-    "Middle Eastern Drink",
-    "Healthy Yogurt Beverage"
+    "Middle Eastern Yogurt Drink",
+    "Savory Yogurt Drink",
+    "Salted Yogurt Drink",
+    "Healthy Yogurt Beverage",
   ],
 
   tags: [
     "drink",
     "Lebanese",
     "ayran",
+    "laban",
     "yogurt",
     "healthy",
     "traditional",
     "high-protein",
-    "vegetarian"
+    "vegetarian",
+    "savory",
+    "mint",
   ],
 
-  featured: true
+  featured: true,
 };
