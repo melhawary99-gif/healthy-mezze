@@ -49,6 +49,7 @@ export interface Recipe {
     | "Jordanian"
     | "Palestinian"
     | "Iraqi"
+    | "Moroccan"
     | "Mediterranean"
     | "Middle Eastern";
 
