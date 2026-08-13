@@ -29,6 +29,7 @@ import { authenticCarobJuiceEn } from "./en/authentic-carob-juice";
 import { authenticLebaneseMintTeaEn } from "./en/authentic-lebanese-mint-tea";
 import { authenticQamarAlDinEn } from "./en/authentic-qamar-al-din";
 import { authenticChermoulaSauceEn } from "./en/authentic-chermoula-sauce";
+import { authenticSahlabEn } from "./en/authentic-sahlab";
 import { MediterraneanChickenOrzoSoupEn } from "./en/mediterranean-chicken-orzo-soup";
 
 import { greekSaladAr } from "./ar/greek-salad";
@@ -63,6 +64,7 @@ import { authenticCarobJuiceAr } from "./ar/authentic-carob-juice";
 import { authenticLebaneseMintTeaAr } from "./ar/authentic-lebanese-mint-tea";
 import { authenticQamarAlDinAr } from "./ar/authentic-qamar-al-din";
 import { authenticChermoulaSauceAr } from "./ar/authentic-chermoula-sauce";
+import { authenticSahlabAr } from "./ar/authentic-sahlab";
 import { MediterraneanChickenOrzoSoupAr } from "./ar/mediterranean-chicken-orzo-soup";
 
 const enTranslations: Record<string, RecipeTranslation> = {
@@ -95,6 +97,7 @@ const enTranslations: Record<string, RecipeTranslation> = {
   "authentic-lebanese-mint-tea": authenticLebaneseMintTeaEn,
   "authentic-qamar-al-din": authenticQamarAlDinEn,
   "authentic-chermoula-sauce": authenticChermoulaSauceEn,
+  "authentic-sahlab": authenticSahlabEn,
   "mediterranean-chicken-orzo-soup": MediterraneanChickenOrzoSoupEn,
 };
 
@@ -131,6 +134,7 @@ const arTranslations: Record<string, RecipeTranslation> = {
   "authentic-lebanese-mint-tea": authenticLebaneseMintTeaAr,
   "authentic-qamar-al-din": authenticQamarAlDinAr,
   "authentic-chermoula-sauce": authenticChermoulaSauceAr,
+  "authentic-sahlab": authenticSahlabAr,
   "mediterranean-chicken-orzo-soup": MediterraneanChickenOrzoSoupAr,
 };
 
