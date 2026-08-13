@@ -3,22 +3,22 @@ import { Recipe } from "@/types/recipe";
 export const authenticCarobJuice: Recipe = {
   id: 92,
 
-  title: "Authentic Carob Juice (Kharoub)",
+  title: "Authentic Egyptian Carob Juice (Kharoub)",
 
   slug: "authentic-carob-juice",
 
   description:
-    "A traditional Middle Eastern drink made from roasted carob pods, naturally sweet with rich caramel-like flavor and served chilled.",
+    "A traditional Egyptian carob drink made by simmering roasted carob pods with water, then chilling the naturally sweet, deep caramel-like beverage.",
 
   longDescription:
-    "Kharoub, or Carob Juice, is a beloved beverage enjoyed across Egypt, Lebanon, and much of the Middle East, especially during Ramadan. Roasted carob pods create a naturally sweet, deep caramel-like flavor without caffeine. This healthier version relies primarily on the natural sweetness of carob while using only a small amount of honey if desired, making it a refreshing and wholesome traditional drink.",
+    "Kharoub, or Egyptian Carob Juice, is a traditional drink made from roasted carob pods and enjoyed especially during Ramadan and warm weather. The roasted pods give the drink a naturally sweet, deep caramel-like flavor with a distinctive toasted aroma, while the simple preparation keeps the character of the carob at the center. This version uses only a small amount of optional honey for additional sweetness and orange blossom water for a subtle floral note. Served thoroughly chilled over ice and finished with fresh mint and lemon, Kharoub makes a refreshing traditional Egyptian beverage for family meals, Ramadan gatherings, and everyday summer serving.",
 
   image: "/images/recipes/authentic-carob-juice.webp",
 
   imageAlt:
-    "A chilled glass of traditional carob juice with ice, roasted carob pods, fresh mint, and lemon slices.",
+    "Traditional Egyptian carob juice served chilled over ice with roasted carob pods, fresh mint, and lemon.",
 
-  cuisine: "Lebanese",
+  cuisine: "Egyptian",
 
   category: "drinks",
 
@@ -33,54 +33,63 @@ export const authenticCarobJuice: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-{
-    amount: 1,
-    unit: "cup",
-    name: "roasted carob pods, roughly broken into pieces"
-  },
-{
-    amount: 6,
-    unit: "cups",
-    name: "water"
-  },
-{
-    amount: 1,
-    unit: "tbsp",
-    name: "honey (optional)"
-  },
-{
-    amount: 1,
-    unit: "tsp",
-    name: "orange blossom water (optional)"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "Ice cubes"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "Fresh mint leaves for garnish"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "Lemon slices for garnish"
-  }
-],
+    {
+      amount: 1,
+      unit: "cup",
+      name: "roasted carob pods",
+      note: "Roughly broken into smaller pieces so their flavor can infuse into the water more easily.",
+    },
+    {
+      amount: 6,
+      unit: "cups",
+      name: "water",
+      note: "Use fresh drinking water. Keep a little extra available in case you want to adjust the concentration after straining.",
+    },
+    {
+      amount: 1,
+      unit: "tbsp",
+      name: "honey",
+      note: "Optional. Carob is naturally sweet, so taste the strained drink before adding honey.",
+    },
+    {
+      amount: 1,
+      unit: "tsp",
+      name: "orange blossom water",
+      note: "Optional. Add a small amount after straining for a subtle floral aroma.",
+    },
+    {
+      amount: 1,
+      unit: "",
+      name: "ice cubes",
+      note: "For serving. Chill the juice thoroughly before pouring it over ice.",
+    },
+    {
+      amount: 1,
+      unit: "",
+      name: "fresh mint leaves",
+      note: "For garnish. Add just before serving.",
+    },
+    {
+      amount: 1,
+      unit: "",
+      name: "lemon slices",
+      note: "For garnish. Thin slices add a fresh citrus aroma and attractive presentation.",
+    },
+  ],
 
-instructions: [
-    "Rinse the roasted carob pods thoroughly.",
-    "Place the carob pods and water into a saucepan.",
-    "Bring to a boil over medium-high heat.",
-    "Reduce the heat and simmer for 20–25 minutes.",
-    "Remove from the heat and allow the mixture to cool slightly.",
-    "Strain through a fine-mesh sieve, pressing gently on the pods.",
-    "Stir in the honey and orange blossom water if using.",
-    "Refrigerate until completely chilled.",
-    "Serve over ice.",
-    "Garnish with fresh mint leaves and lemon slices."
+  instructions: [
+    "Rinse the roasted carob pods thoroughly under cool running water to remove any loose dust or particles. Drain well.",
+    "Break the carob pods into smaller pieces if they are large. Smaller pieces expose more surface area to the water and help release their roasted flavor.",
+    "Place the broken carob pods and water in a medium saucepan.",
+    "Bring the mixture to a boil over medium-high heat, watching carefully as it comes up to temperature.",
+    "Once boiling, reduce the heat to low and simmer gently for 20–25 minutes. The liquid should become noticeably darker and develop a rich roasted aroma.",
+    "Remove the saucepan from the heat and allow the mixture to cool slightly before straining.",
+    "Pour the mixture through a fine-mesh sieve into a large heatproof container. Press the softened carob pieces gently with the back of a spoon to extract the remaining liquid without forcing excessive solids through the sieve.",
+    "Taste the strained carob juice while it is still slightly warm. If you want it sweeter, stir in the optional honey until completely dissolved.",
+    "Add the optional orange blossom water and stir gently. Start with the listed amount because too much can overpower the roasted carob flavor.",
+    "Allow the juice to cool to room temperature, then cover and refrigerate until thoroughly chilled.",
+    "Taste again once chilled. If the flavor is stronger than you prefer, add a little cold water; if it needs more sweetness, add a small amount of honey and stir well.",
+    "Serve over ice and garnish with fresh mint leaves and thin lemon slices. Serve immediately while cold.",
   ],
 
   nutrition: {
@@ -90,43 +99,43 @@ instructions: [
     fat: "0 g",
     fiber: "2 g",
     sugar: "8 g",
-    sodium: "12 mg"
-  
-  
-  
-  
-  
-  
+    sodium: "12 mg",
   },
 
   healthBenefits: [
-    "Naturally caffeine-free",
-    "Rich in antioxidants",
-    "Contains dietary fiber from carob",
-    "Naturally sweet with minimal added sweetener",
-    "Hydrating and refreshing",
-    "Lower in calories than many sweetened beverages",
-    "Traditionally enjoyed during Ramadan"
+    "Naturally caffeine-free, making it a useful alternative to caffeinated beverages.",
+    "Carob contains naturally occurring plant compounds with antioxidant activity.",
+    "Carob contributes dietary fiber and naturally occurring carbohydrates.",
+    "The recipe can rely largely on the natural sweetness of roasted carob, with honey kept optional.",
+    "Provides fluid and is naturally refreshing when served well chilled.",
+    "Using a small amount of optional honey can reduce the need for heavily sweetened preparation.",
+    "The traditional drink fits naturally into Ramadan meals and warm-weather family gatherings.",
   ],
 
   keywords: [
+    "Egyptian Carob Juice",
     "Carob Juice",
     "Kharoub",
-    "Lebanese Drink",
-    "Egyptian Drink",
-    "Traditional Middle Eastern Beverage"
+    "Kharob",
+    "Egyptian Kharoub",
+    "Traditional Egyptian Drink",
+    "Egyptian Ramadan Drink",
+    "Middle Eastern Carob Drink",
+    "Carob Beverage",
+    "Caffeine-Free Drink",
   ],
 
   tags: [
     "drink",
-    "Lebanese",
     "Egyptian",
     "carob",
+    "kharoub",
     "Ramadan",
     "traditional",
     "healthy",
-    "vegan"
+    "caffeine-free",
+    "Middle Eastern",
   ],
 
-  featured: true
+  featured: true,
 };
