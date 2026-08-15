@@ -37,6 +37,7 @@ import { bakedFalafelEn } from "./en/baked-falafel";
 import { warakEnabEn } from "./en/warak-enab";
 import { grilledHalloumiHerbsPomegranateEn } from "./en/grilled-halloumi-herbs-pomegranate";
 import { grilledChickenShawarmaEn } from "./en/grilled-chicken-shawarma";
+import { grilledShrimpGarlicLemonEn } from "./en/grilled-shrimp-garlic-lemon";
 import { zaatarRoastedMixedNutsEn } from "./en/zaatar-roasted-mixed-nuts";
 import { spinachFetaStuffedZucchiniBoatsEn } from "./en/spinach-feta-stuffed-zucchini-boats";
 import { stuffedBellPeppersEn } from "./en/stuffed-bell-peppers";
@@ -83,6 +84,7 @@ import { bakedFalafelAr } from "./ar/baked-falafel";
 import { WarakEnabAr } from "./ar/warak-enab";
 import { GrilledHalloumiHerbsPomegranateAr } from "./ar/grilled-halloumi-herbs-pomegranate";
 import { GrilledChickenShawarmaAr } from "./ar/grilled-chicken-shawarma";
+import { GrilledShrimpGarlicLemonAr } from "./ar/grilled-shrimp-garlic-lemon";
 import { ZaatarRoastedMixedNutsAr } from "./ar/zaatar-roasted-mixed-nuts";
 import { SpinachFetaStuffedZucchiniBoatsAr } from "./ar/spinach-feta-stuffed-zucchini-boats";
 import { stuffedBellPeppersAr } from "./ar/stuffed-bell-peppers";
@@ -127,6 +129,7 @@ const enTranslations: Record<string, RecipeTranslation> = {
   "warak-enab": warakEnabEn,
   "grilled-halloumi-herbs-pomegranate": grilledHalloumiHerbsPomegranateEn,
   "grilled-chicken-shawarma": grilledChickenShawarmaEn,
+  "grilled-shrimp-garlic-lemon": grilledShrimpGarlicLemonEn,
   "zaatar-roasted-mixed-nuts": zaatarRoastedMixedNutsEn,
   "spinach-feta-stuffed-zucchini-boats": spinachFetaStuffedZucchiniBoatsEn,
   "stuffed-bell-peppers": stuffedBellPeppersEn,
@@ -175,6 +178,7 @@ const arTranslations: Record<string, RecipeTranslation> = {
   "warak-enab": WarakEnabAr,
   "grilled-halloumi-herbs-pomegranate": GrilledHalloumiHerbsPomegranateAr,
   "grilled-chicken-shawarma": GrilledChickenShawarmaAr,
+  "grilled-shrimp-garlic-lemon": GrilledShrimpGarlicLemonAr,
   "zaatar-roasted-mixed-nuts": ZaatarRoastedMixedNutsAr,
   "spinach-feta-stuffed-zucchini-boats": SpinachFetaStuffedZucchiniBoatsAr,
   "stuffed-bell-peppers": stuffedBellPeppersAr,
