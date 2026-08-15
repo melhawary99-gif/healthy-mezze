@@ -34,6 +34,7 @@ import { authenticEgyptianKarkadeEn } from "./en/authentic-egyptian-karkade";
 import { authenticTamarHindiEn } from "./en/authentic-tamar-hindi";
 import { authenticWhiteCoffeeEn } from "./en/authentic-white-coffee";
 import { bakedFalafelEn } from "./en/baked-falafel";
+import { warakEnabEn } from "./en/warak-enab";
 import { zaatarRoastedMixedNutsEn } from "./en/zaatar-roasted-mixed-nuts";
 import { spinachFetaStuffedZucchiniBoatsEn } from "./en/spinach-feta-stuffed-zucchini-boats";
 import { stuffedBellPeppersEn } from "./en/stuffed-bell-peppers";
@@ -77,6 +78,7 @@ import { authenticEgyptianKarkadeAr } from "./ar/authentic-egyptian-karkade";
 import { authenticTamarHindiAr } from "./ar/authentic-tamar-hindi";
 import { authenticWhiteCoffeeAr } from "./ar/authentic-white-coffee";
 import { bakedFalafelAr } from "./ar/baked-falafel";
+import { WarakEnabAr } from "./ar/warak-enab";
 import { ZaatarRoastedMixedNutsAr } from "./ar/zaatar-roasted-mixed-nuts";
 import { SpinachFetaStuffedZucchiniBoatsAr } from "./ar/spinach-feta-stuffed-zucchini-boats";
 import { stuffedBellPeppersAr } from "./ar/stuffed-bell-peppers";
@@ -118,6 +120,7 @@ const enTranslations: Record<string, RecipeTranslation> = {
   "authentic-tamar-hindi": authenticTamarHindiEn,
   "authentic-white-coffee": authenticWhiteCoffeeEn,
   "baked-falafel": bakedFalafelEn,
+  "warak-enab": warakEnabEn,
   "zaatar-roasted-mixed-nuts": zaatarRoastedMixedNutsEn,
   "spinach-feta-stuffed-zucchini-boats": spinachFetaStuffedZucchiniBoatsEn,
   "stuffed-bell-peppers": stuffedBellPeppersEn,
@@ -163,6 +166,7 @@ const arTranslations: Record<string, RecipeTranslation> = {
   "authentic-tamar-hindi": authenticTamarHindiAr,
   "authentic-white-coffee": authenticWhiteCoffeeAr,
   "baked-falafel": bakedFalafelAr,
+  "warak-enab": WarakEnabAr,
   "zaatar-roasted-mixed-nuts": ZaatarRoastedMixedNutsAr,
   "spinach-feta-stuffed-zucchini-boats": SpinachFetaStuffedZucchiniBoatsAr,
   "stuffed-bell-peppers": stuffedBellPeppersAr,
