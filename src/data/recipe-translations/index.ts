@@ -37,6 +37,7 @@ import { bakedFalafelEn } from "./en/baked-falafel";
 import { spinachFetaStuffedZucchiniBoatsEn } from "./en/spinach-feta-stuffed-zucchini-boats";
 import { stuffedBellPeppersEn } from "./en/stuffed-bell-peppers";
 import { MediterraneanChickenOrzoSoupEn } from "./en/mediterranean-chicken-orzo-soup";
+import { spinachLentilSoupEn } from "./en/spinach-lentil-soup";
 
 import { greekSaladAr } from "./ar/greek-salad";
 import { authenticAmbaSauceAr } from "./ar/authentic-amba-sauce";
@@ -78,6 +79,7 @@ import { bakedFalafelAr } from "./ar/baked-falafel";
 import { SpinachFetaStuffedZucchiniBoatsAr } from "./ar/spinach-feta-stuffed-zucchini-boats";
 import { stuffedBellPeppersAr } from "./ar/stuffed-bell-peppers";
 import { MediterraneanChickenOrzoSoupAr } from "./ar/mediterranean-chicken-orzo-soup";
+import { SpinachLentilSoupAr } from "./ar/spinach-lentil-soup";
 
 const enTranslations: Record<string, RecipeTranslation> = {
   "greek-salad": greekSaladEn,
@@ -117,6 +119,7 @@ const enTranslations: Record<string, RecipeTranslation> = {
   "spinach-feta-stuffed-zucchini-boats": spinachFetaStuffedZucchiniBoatsEn,
   "stuffed-bell-peppers": stuffedBellPeppersEn,
   "mediterranean-chicken-orzo-soup": MediterraneanChickenOrzoSoupEn,
+  "spinach-lentil-soup": spinachLentilSoupEn,
 };
 
 const arTranslations: Record<string, RecipeTranslation> = {
@@ -160,6 +163,7 @@ const arTranslations: Record<string, RecipeTranslation> = {
   "spinach-feta-stuffed-zucchini-boats": SpinachFetaStuffedZucchiniBoatsAr,
   "stuffed-bell-peppers": stuffedBellPeppersAr,
   "mediterranean-chicken-orzo-soup": MediterraneanChickenOrzoSoupAr,
+  "spinach-lentil-soup": SpinachLentilSoupAr,
 };
 
 export function getRecipeTranslation(
