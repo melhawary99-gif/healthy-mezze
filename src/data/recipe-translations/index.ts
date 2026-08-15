@@ -34,6 +34,7 @@ import { authenticEgyptianKarkadeEn } from "./en/authentic-egyptian-karkade";
 import { authenticTamarHindiEn } from "./en/authentic-tamar-hindi";
 import { authenticWhiteCoffeeEn } from "./en/authentic-white-coffee";
 import { bakedFalafelEn } from "./en/baked-falafel";
+import { spinachFetaStuffedZucchiniBoatsEn } from "./en/spinach-feta-stuffed-zucchini-boats";
 import { stuffedBellPeppersEn } from "./en/stuffed-bell-peppers";
 import { MediterraneanChickenOrzoSoupEn } from "./en/mediterranean-chicken-orzo-soup";
 
@@ -74,6 +75,7 @@ import { authenticEgyptianKarkadeAr } from "./ar/authentic-egyptian-karkade";
 import { authenticTamarHindiAr } from "./ar/authentic-tamar-hindi";
 import { authenticWhiteCoffeeAr } from "./ar/authentic-white-coffee";
 import { bakedFalafelAr } from "./ar/baked-falafel";
+import { SpinachFetaStuffedZucchiniBoatsAr } from "./ar/spinach-feta-stuffed-zucchini-boats";
 import { stuffedBellPeppersAr } from "./ar/stuffed-bell-peppers";
 import { MediterraneanChickenOrzoSoupAr } from "./ar/mediterranean-chicken-orzo-soup";
 
@@ -112,6 +114,7 @@ const enTranslations: Record<string, RecipeTranslation> = {
   "authentic-tamar-hindi": authenticTamarHindiEn,
   "authentic-white-coffee": authenticWhiteCoffeeEn,
   "baked-falafel": bakedFalafelEn,
+  "spinach-feta-stuffed-zucchini-boats": spinachFetaStuffedZucchiniBoatsEn,
   "stuffed-bell-peppers": stuffedBellPeppersEn,
   "mediterranean-chicken-orzo-soup": MediterraneanChickenOrzoSoupEn,
 };
@@ -154,6 +157,7 @@ const arTranslations: Record<string, RecipeTranslation> = {
   "authentic-tamar-hindi": authenticTamarHindiAr,
   "authentic-white-coffee": authenticWhiteCoffeeAr,
   "baked-falafel": bakedFalafelAr,
+  "spinach-feta-stuffed-zucchini-boats": SpinachFetaStuffedZucchiniBoatsAr,
   "stuffed-bell-peppers": stuffedBellPeppersAr,
   "mediterranean-chicken-orzo-soup": MediterraneanChickenOrzoSoupAr,
 };
