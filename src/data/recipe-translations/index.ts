@@ -43,6 +43,7 @@ import { spinachFetaStuffedZucchiniBoatsEn } from "./en/spinach-feta-stuffed-zuc
 import { stuffedBellPeppersEn } from "./en/stuffed-bell-peppers";
 import { MediterraneanChickenOrzoSoupEn } from "./en/mediterranean-chicken-orzo-soup";
 import { spinachLentilSoupEn } from "./en/spinach-lentil-soup";
+import { stuffedEggplantEn } from "./en/stuffed-eggplant";
 import { mediterraneanChickenKabsaEn } from "./en/mediterranean-chicken-kabsa";
 import { lebaneseMujadaraEn } from "./en/lebanese-mujadara";
 import { mediterraneanShakshukaEn } from "./en/mediterranean-shakshuka";
@@ -94,6 +95,7 @@ import { SpinachFetaStuffedZucchiniBoatsAr } from "./ar/spinach-feta-stuffed-zuc
 import { stuffedBellPeppersAr } from "./ar/stuffed-bell-peppers";
 import { MediterraneanChickenOrzoSoupAr } from "./ar/mediterranean-chicken-orzo-soup";
 import { SpinachLentilSoupAr } from "./ar/spinach-lentil-soup";
+import { StuffedEggplantAr } from "./ar/stuffed-eggplant";
 import { MediterraneanChickenKabsaAr } from "./ar/mediterranean-chicken-kabsa";
 import { LebaneseMujadaraAr } from "./ar/lebanese-mujadara";
 import { MediterraneanShakshukaAr } from "./ar/mediterranean-shakshuka";
@@ -145,6 +147,7 @@ const enTranslations: Record<string, RecipeTranslation> = {
   "stuffed-bell-peppers": stuffedBellPeppersEn,
   "mediterranean-chicken-orzo-soup": MediterraneanChickenOrzoSoupEn,
   "spinach-lentil-soup": spinachLentilSoupEn,
+  "stuffed-eggplant": stuffedEggplantEn,
   "mediterranean-chicken-kabsa": mediterraneanChickenKabsaEn,
   "lebanese-mujadara": lebaneseMujadaraEn,
   "mediterranean-shakshuka": mediterraneanShakshukaEn,
@@ -200,6 +203,7 @@ const arTranslations: Record<string, RecipeTranslation> = {
   "stuffed-bell-peppers": stuffedBellPeppersAr,
   "mediterranean-chicken-orzo-soup": MediterraneanChickenOrzoSoupAr,
   "spinach-lentil-soup": SpinachLentilSoupAr,
+  "stuffed-eggplant": StuffedEggplantAr,
   "mediterranean-chicken-kabsa": MediterraneanChickenKabsaAr,
   "lebanese-mujadara": LebaneseMujadaraAr,
   "mediterranean-shakshuka": MediterraneanShakshukaAr,
