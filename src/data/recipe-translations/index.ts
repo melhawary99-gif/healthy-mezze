@@ -43,6 +43,7 @@ import { spinachFetaStuffedZucchiniBoatsEn } from "./en/spinach-feta-stuffed-zuc
 import { stuffedBellPeppersEn } from "./en/stuffed-bell-peppers";
 import { MediterraneanChickenOrzoSoupEn } from "./en/mediterranean-chicken-orzo-soup";
 import { spinachLentilSoupEn } from "./en/spinach-lentil-soup";
+import { spinachFetaOmeletteEn } from "./en/spinach-feta-omelette";
 
 import { greekSaladAr } from "./ar/greek-salad";
 import { authenticAmbaSauceAr } from "./ar/authentic-amba-sauce";
@@ -90,6 +91,7 @@ import { SpinachFetaStuffedZucchiniBoatsAr } from "./ar/spinach-feta-stuffed-zuc
 import { stuffedBellPeppersAr } from "./ar/stuffed-bell-peppers";
 import { MediterraneanChickenOrzoSoupAr } from "./ar/mediterranean-chicken-orzo-soup";
 import { SpinachLentilSoupAr } from "./ar/spinach-lentil-soup";
+import { SpinachFetaOmeletteAr } from "./ar/spinach-feta-omelette";
 
 const enTranslations: Record<string, RecipeTranslation> = {
   "greek-salad": greekSaladEn,
@@ -132,6 +134,7 @@ const enTranslations: Record<string, RecipeTranslation> = {
   "grilled-shrimp-garlic-lemon": grilledShrimpGarlicLemonEn,
   "zaatar-roasted-mixed-nuts": zaatarRoastedMixedNutsEn,
   "spinach-feta-stuffed-zucchini-boats": spinachFetaStuffedZucchiniBoatsEn,
+  "spinach-feta-omelette": spinachFetaOmeletteEn,
   "stuffed-bell-peppers": stuffedBellPeppersEn,
   "mediterranean-chicken-orzo-soup": MediterraneanChickenOrzoSoupEn,
   "spinach-lentil-soup": spinachLentilSoupEn,
@@ -181,6 +184,7 @@ const arTranslations: Record<string, RecipeTranslation> = {
   "grilled-shrimp-garlic-lemon": GrilledShrimpGarlicLemonAr,
   "zaatar-roasted-mixed-nuts": ZaatarRoastedMixedNutsAr,
   "spinach-feta-stuffed-zucchini-boats": SpinachFetaStuffedZucchiniBoatsAr,
+  "spinach-feta-omelette": SpinachFetaOmeletteAr,
   "stuffed-bell-peppers": stuffedBellPeppersAr,
   "mediterranean-chicken-orzo-soup": MediterraneanChickenOrzoSoupAr,
   "spinach-lentil-soup": SpinachLentilSoupAr,

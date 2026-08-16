@@ -8,21 +8,23 @@ export const spinachFetaOmelette: Recipe = {
   slug: "spinach-feta-omelette",
 
   description:
-    "A fluffy omelette filled with fresh spinach, creamy feta cheese, herbs, and cooked in extra virgin olive oil for a healthy Mediterranean breakfast.",
+    "A fluffy Mediterranean omelette filled with tender spinach, creamy feta, onion, garlic, and fresh herbs, cooked gently in extra virgin olive oil for a satisfying high-protein breakfast.",
 
   longDescription:
-    "This Mediterranean Spinach & Feta Omelette is a protein-rich breakfast that combines fluffy eggs with sautéed spinach, tangy feta cheese, onions, and fresh herbs. Ready in under 20 minutes, it's packed with vitamins, minerals, and healthy fats, making it an excellent choice for a nutritious start to the day.",
+    "This Mediterranean Spinach & Feta Omelette combines fluffy eggs with tender spinach, tangy feta cheese, lightly softened onion, garlic, parsley, and optional dill. The vegetables are cooked first so excess moisture is reduced before the eggs are added, helping the omelette stay tender rather than watery. It is ready in about 20 minutes and makes a protein-rich breakfast or light meal served with cherry tomatoes and whole grain toast.",
 
   image: "/images/recipes/spinach-feta-omelette.webp",
 
   imageAlt:
-    "Golden spinach and feta omelette garnished with parsley and served with tomatoes and whole grain toast.",
+    "Golden spinach and feta omelette filled with tender spinach and feta cheese, served with cherry tomatoes and whole grain toast.",
 
   cuisine: "Lebanese",
 
   category: "breakfast",
+
   vegan: false,
-vegetarian: true,
+
+  vegetarian: true,
 
   prepTime: "10 mins",
 
@@ -35,89 +37,102 @@ vegetarian: true,
   difficulty: "Easy",
 
   ingredients: [
-{
-    amount: 4,
-    unit: "",
-    name: "Large eggs"
-  },
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "milk"
-  },
-{
-    amount: 1,
-    unit: "tbsp",
-    name: "extra virgin olive oil"
-  },
-{
-    amount: 1,
-    unit: "cup",
-    name: "fresh spinach, chopped"
-  },
-{
-    amount: 0.25,
-    unit: "",
-    name: "Small onion, finely diced"
-  },
-{
-    amount: 1,
-    unit: "garlic",
-    name: "clove, minced"
-  },
-{
-    amount: 0.3333333333333333,
-    unit: "cup",
-    name: "crumbled feta cheese"
-  },
-{
-    amount: 1,
-    unit: "tbsp",
-    name: "chopped parsley"
-  },
-{
-    amount: 1,
-    unit: "tbsp",
-    name: "chopped dill (optional)"
-  },
-{
-    amount: 0.5,
-    unit: "tsp",
-    name: "sea salt"
-  },
-{
-    amount: 0.25,
-    unit: "tsp",
-    name: "black pepper"
-  },
-{
-    amount: 0.25,
-    unit: "tsp",
-    name: "dried oregano"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "Cherry tomatoes for serving"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "Whole grain toast for serving"
-  }
-],
+    {
+      amount: 4,
+      unit: "",
+      name: "large eggs",
+      note: "Crack into a bowl before whisking so the mixture is easy to season evenly.",
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "milk",
+      note: "Helps keep the egg mixture tender.",
+    },
+    {
+      amount: 1,
+      unit: "tbsp",
+      name: "extra virgin olive oil",
+      note: "Use enough to lightly coat the skillet.",
+    },
+    {
+      amount: 1,
+      unit: "cup",
+      name: "fresh spinach",
+      note: "Chopped and washed well. Drain thoroughly so excess water does not make the omelette watery.",
+    },
+    {
+      amount: 0.25,
+      unit: "small",
+      name: "onion",
+      note: "Finely diced.",
+    },
+    {
+      amount: 1,
+      unit: "clove",
+      name: "garlic",
+      note: "Minced.",
+    },
+    {
+      amount: 0.3333333333333333,
+      unit: "cup",
+      name: "crumbled feta cheese",
+      note: "Crumble into small pieces so it distributes evenly through the filling.",
+    },
+    {
+      amount: 1,
+      unit: "tbsp",
+      name: "fresh parsley",
+      note: "Chopped.",
+    },
+    {
+      amount: 1,
+      unit: "tbsp",
+      name: "fresh dill",
+      note: "Chopped. Optional, but adds a fresh herbal flavor.",
+    },
+    {
+      amount: 0.5,
+      unit: "tsp",
+      name: "sea salt",
+      note: "Use carefully because feta already contributes saltiness.",
+    },
+    {
+      amount: 0.25,
+      unit: "tsp",
+      name: "black pepper",
+    },
+    {
+      amount: 0.25,
+      unit: "tsp",
+      name: "dried oregano",
+    },
+    {
+      amount: 1,
+      unit: "",
+      name: "cherry tomatoes",
+      note: "For serving.",
+    },
+    {
+      amount: 1,
+      unit: "",
+      name: "whole grain toast",
+      note: "For serving.",
+    },
+  ],
 
-instructions: [
-    "Whisk together the eggs, milk, salt, pepper, and oregano until smooth.",
-    "Heat the olive oil in a non-stick skillet over medium heat.",
-    "Cook the onion for 2–3 minutes until softened.",
-    "Add the garlic and spinach, cooking until the spinach has wilted.",
-    "Pour the egg mixture evenly into the skillet.",
-    "Cook undisturbed for about 2 minutes until the edges begin to set.",
-    "Sprinkle the feta cheese, parsley, and optional dill over one half of the omelette.",
-    "Carefully fold the omelette in half.",
-    "Cook for another 2–3 minutes until the eggs are fully set.",
-    "Serve immediately with cherry tomatoes and whole grain toast."
+  instructions: [
+    "Whisk the eggs, milk, salt, black pepper, and dried oregano until the mixture is evenly combined and no large streaks of egg white remain.",
+    "Heat the extra virgin olive oil in a non-stick skillet over medium heat. The pan should be hot enough to cook the vegetables gently without smoking the oil.",
+    "Add the diced onion and cook for 2–3 minutes, stirring occasionally, until softened but not deeply browned.",
+    "Add the minced garlic and cook for about 30 seconds, just until fragrant.",
+    "Add the chopped spinach and cook until wilted and most of its visible moisture has evaporated. Spread it evenly across the pan.",
+    "Pour the egg mixture evenly over the cooked vegetables. Gently tilt the skillet if necessary so the eggs reach the edges.",
+    "Cook without stirring for about 2 minutes, or until the edges are set and the center is still slightly soft.",
+    "Scatter the feta, parsley, and optional dill over one half of the omelette, keeping the filling away from the very edge so it is easier to fold.",
+    "Carefully fold the empty half of the omelette over the filling using a wide spatula. If the center still looks very wet, continue cooking gently for another 1–2 minutes.",
+    "Cook until the eggs are fully set but still tender. Avoid prolonged high heat, which can make the eggs dry and rubbery.",
+    "Slide the omelette onto plates and serve immediately with cherry tomatoes and whole grain toast.",
   ],
 
   nutrition: {
@@ -127,43 +142,40 @@ instructions: [
     fat: "22 g",
     fiber: "2 g",
     sugar: "3 g",
-    sodium: "480 mg"
-  
-  
-  
-  
-  
-  
+    sodium: "480 mg",
   },
 
   healthBenefits: [
-    "Excellent source of complete protein",
-    "Rich in calcium from feta cheese",
-    "High in iron and vitamin K from spinach",
-    "Contains healthy fats from olive oil",
-    "Supports muscle maintenance",
-    "Mediterranean diet friendly",
-    "Low in carbohydrates"
+    "Provides complete protein from eggs and feta cheese.",
+    "Provides calcium from feta cheese.",
+    "Spinach contributes iron, vitamin K, folate, and other micronutrients.",
+    "Extra virgin olive oil provides predominantly unsaturated fat.",
+    "Provides a satisfying combination of protein, vegetables, and healthy fats for breakfast.",
+    "Naturally vegetarian.",
+    "Relatively low in carbohydrates when served without the optional toast.",
   ],
 
   keywords: [
     "Spinach Omelette",
     "Feta Omelette",
+    "Spinach and Feta Omelette",
     "Healthy Breakfast",
+    "Mediterranean Omelette",
     "Mediterranean Eggs",
-    "Protein Breakfast"
+    "High Protein Breakfast",
   ],
 
   tags: [
     "breakfast",
     "Mediterranean",
+    "Lebanese",
     "eggs",
     "spinach",
     "feta",
     "high protein",
     "healthy",
-    "vegetarian"
+    "vegetarian",
   ],
 
-  featured: true
+  featured: true,
 };
