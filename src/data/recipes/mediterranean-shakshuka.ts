@@ -8,21 +8,23 @@ export const mediterraneanShakshuka: Recipe = {
   slug: "mediterranean-shakshuka",
 
   description:
-    "Poached eggs simmered in a rich tomato sauce with peppers, onions, garlic, and Mediterranean spices. A healthy and flavorful breakfast enjoyed throughout the Middle East.",
+    "Eggs gently poached in a rich tomato and pepper sauce with onion, garlic, cumin, paprika, and coriander. A comforting Middle Eastern and Mediterranean-style breakfast built from simple pantry ingredients.",
 
   longDescription:
-    "Mediterranean Shakshuka is a classic breakfast made by gently poaching eggs in a fragrant tomato sauce seasoned with garlic, onions, bell peppers, cumin, paprika, and herbs. Served with warm pita or crusty bread, it's a protein-rich meal that's naturally gluten-free (without bread) and packed with vegetables.",
+    "Mediterranean Shakshuka brings eggs together with a slowly simmered tomato and pepper sauce flavored with onion, garlic, cumin, paprika, coriander, and olive oil. The sauce is reduced before the eggs are added so it becomes thick enough to cradle each egg instead of leaving the dish watery. The eggs are then gently poached directly in the sauce until the whites are set while the yolks can remain soft, jammy, or fully cooked according to preference. Served with warm pita or crusty bread, it makes a satisfying breakfast, brunch, or light vegetarian meal.",
 
   image: "/images/recipes/mediterranean-shakshuka.webp",
 
   imageAlt:
-    "Mediterranean shakshuka with poached eggs in a tomato and pepper sauce garnished with parsley.",
+    "Mediterranean shakshuka with eggs gently poached in a thick tomato and red pepper sauce, garnished with parsley.",
 
-  cuisine: "Lebanese",
+  cuisine: "Middle Eastern",
 
   category: "breakfast",
+
+  vegetarian: true,
+
   vegan: false,
-vegetarian: true,
 
   prepTime: "15 mins",
 
@@ -35,100 +37,133 @@ vegetarian: true,
   difficulty: "Easy",
 
   ingredients: [
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "extra virgin olive oil"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "Medium onion, diced"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "Red bell pepper, diced"
-  },
-{
-    amount: 3,
-    unit: "garlic",
-    name: "cloves, minced"
-  },
-{
-    amount: 800,
-    unit: "g",
-    name: "crushed tomatoes"
-  },
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "tomato paste"
-  },
-{
-    amount: 1,
-    unit: "tsp",
-    name: "ground cumin"
-  },
-{
-    amount: 1,
-    unit: "tsp",
-    name: "paprika"
-  },
-{
-    amount: 0.5,
-    unit: "tsp",
-    name: "ground coriander"
-  },
-{
-    amount: 0.25,
-    unit: "tsp",
-    name: "chili flakes (optional)"
-  },
-{
-    amount: 1,
-    unit: "tsp",
-    name: "sea salt"
-  },
-{
-    amount: 0.5,
-    unit: "tsp",
-    name: "black pepper"
-  },
-{
-    amount: 4,
-    unit: "",
-    name: "Large eggs"
-  },
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "chopped fresh parsley"
-  },
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "crumbled feta cheese (optional)"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "Warm pita bread for serving"
-  }
-],
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "extra virgin olive oil",
+      note:
+        "Use a good-quality olive oil because it forms part of the flavor base of the sauce.",
+    },
+    {
+      amount: 1,
+      unit: "medium",
+      name: "yellow onion",
+      note:
+        "Finely diced so it softens evenly without leaving large pieces in the sauce.",
+    },
+    {
+      amount: 1,
+      unit: "medium",
+      name: "red bell pepper",
+      note:
+        "Seeded and diced into small pieces.",
+    },
+    {
+      amount: 3,
+      unit: "cloves",
+      name: "garlic",
+      note:
+        "Finely minced and added after the onion and pepper have softened.",
+    },
+    {
+      amount: 800,
+      unit: "g",
+      name: "crushed tomatoes",
+      note:
+        "Canned crushed tomatoes work well. Choose tomatoes with good flavor and moderate acidity.",
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "tomato paste",
+      note:
+        "Helps deepen the tomato flavor and gives the sauce more body.",
+    },
+    {
+      amount: 1,
+      unit: "tsp",
+      name: "ground cumin",
+      note:
+        "Provides the warm earthy note characteristic of many Middle Eastern spice blends.",
+    },
+    {
+      amount: 1,
+      unit: "tsp",
+      name: "paprika",
+      note:
+        "Adds gentle sweetness and warm pepper flavor.",
+    },
+    {
+      amount: 0.5,
+      unit: "tsp",
+      name: "ground coriander",
+      note:
+        "Adds a light citrusy, earthy spice note.",
+    },
+    {
+      amount: 0.25,
+      unit: "tsp",
+      name: "chili flakes",
+      note:
+        "Optional. Increase or reduce according to your preferred level of heat.",
+    },
+    {
+      amount: 1,
+      unit: "tsp",
+      name: "sea salt",
+      note:
+        "Start with less if your tomatoes are already salted, then adjust after the sauce reduces.",
+    },
+    {
+      amount: 0.5,
+      unit: "tsp",
+      name: "black pepper",
+    },
+    {
+      amount: 4,
+      unit: "large",
+      name: "eggs",
+      note:
+        "Crack each egg into a small cup first if you want more control when placing them into the sauce.",
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "fresh parsley",
+      note:
+        "Finely chopped for finishing.",
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "crumbled feta cheese",
+      note:
+        "Optional. Add at the end for a salty, creamy contrast.",
+    },
+    {
+      amount: 1,
+      unit: "",
+      name: "warm pita bread",
+      note:
+        "For serving and scooping up the tomato sauce.",
+    },
+  ],
 
-instructions: [
-    "Heat olive oil in a large skillet over medium heat.",
-    "Cook the onion for 4 minutes until softened.",
-    "Add the diced bell pepper and cook for another 5 minutes.",
-    "Stir in the garlic and cook for 1 minute.",
-    "Add crushed tomatoes, tomato paste, cumin, paprika, coriander, chili flakes, salt, and pepper.",
-    "Simmer the sauce for 15 minutes until slightly thickened.",
-    "Using a spoon, create four small wells in the sauce.",
-    "Carefully crack one egg into each well.",
-    "Cover the skillet and cook for 6–8 minutes until the egg whites are set and the yolks reach your preferred doneness.",
-    "Remove from heat and garnish with parsley and feta cheese if using.",
-    "Serve immediately with warm pita bread."
+  instructions: [
+    "Heat the extra virgin olive oil in a large, deep skillet over medium heat. The oil should shimmer gently but should not smoke.",
+    "Add the diced onion and cook for about 4 minutes, stirring occasionally, until softened and translucent. Do not rush this stage because the softened onion forms part of the sauce's flavor foundation.",
+    "Add the diced red bell pepper and cook for another 4–5 minutes until noticeably softened. If the vegetables begin to brown too quickly, reduce the heat.",
+    "Add the minced garlic and cook for about 30–60 seconds, just until fragrant. Avoid letting the garlic become dark brown because it can turn bitter.",
+    "Stir in the crushed tomatoes, tomato paste, cumin, paprika, coriander, chili flakes, salt, and black pepper.",
+    "Bring the sauce to a gentle simmer, then reduce the heat to medium-low. Cook uncovered for about 12–15 minutes, stirring occasionally, until the sauce thickens and excess watery liquid has cooked away.",
+    "Taste the sauce before adding the eggs. Adjust salt, pepper, chili, or seasoning as needed. The sauce should taste flavorful on its own because the eggs will slightly soften its intensity.",
+    "Use the back of a spoon to make four deep wells in the thick sauce, spacing them apart so the eggs have room to cook without merging together.",
+    "Crack one egg into a small cup and gently slide it into each well. Repeat with the remaining eggs. Avoid dropping the eggs directly from high above the skillet.",
+    "Cover the skillet and cook gently for about 6–8 minutes. Check after 6 minutes: the whites should be mostly set while the yolks can remain soft, jammy, or become fully cooked depending on preference.",
+    "If the sauce is bubbling aggressively around the eggs, reduce the heat. The eggs should poach gently rather than fry against the bottom of the pan.",
+    "Remove the skillet from the heat when the eggs reach the desired doneness. Remember that residual heat will continue cooking the eggs for a short time.",
+    "Scatter the chopped parsley over the shakshuka and add crumbled feta if using.",
+    "Serve immediately with warm pita bread or crusty bread, using the bread to scoop up the eggs and thick tomato sauce.",
   ],
 
   nutrition: {
@@ -138,43 +173,43 @@ instructions: [
     fat: "17 g",
     fiber: "5 g",
     sugar: "9 g",
-    sodium: "470 mg"
-  
-  
-  
-  
-  
-  
+    sodium: "470 mg",
   },
 
   healthBenefits: [
-    "High-quality protein from eggs",
-    "Rich in vitamin C from peppers",
-    "Excellent source of lycopene from tomatoes",
-    "Contains heart-healthy olive oil",
-    "Packed with antioxidants",
-    "Mediterranean diet friendly",
-    "Naturally gluten-free without bread"
+    "Eggs provide complete, high-quality protein and several essential micronutrients.",
+    "Tomatoes provide lycopene and other antioxidant compounds.",
+    "Red bell pepper contributes vitamin C and additional carotenoids.",
+    "Onion, garlic, and spices add flavor while contributing plant compounds without requiring heavy sauces.",
+    "Extra virgin olive oil provides predominantly monounsaturated fat and fits naturally into Mediterranean-style eating patterns.",
+    "The tomato, pepper, and egg combination provides a satisfying balance of protein, vegetables, and carbohydrates when served with bread.",
+    "The dish is naturally vegetarian.",
+    "The shakshuka itself can be gluten-free when prepared with gluten-free ingredients and served without regular bread.",
   ],
 
   keywords: [
     "Shakshuka",
-    "Mediterranean Breakfast",
+    "Mediterranean Shakshuka",
+    "Middle Eastern Shakshuka",
     "Healthy Egg Breakfast",
+    "Tomato Egg Recipe",
     "Middle Eastern Breakfast",
-    "Tomato Egg Recipe"
+    "Vegetarian Breakfast",
+    "Eggs in Tomato Sauce",
   ],
 
   tags: [
     "breakfast",
+    "Middle Eastern",
     "Mediterranean",
-    "Lebanese",
     "eggs",
     "healthy",
     "tomatoes",
+    "peppers",
     "high protein",
-    "vegetarian"
+    "vegetarian",
+    "one-pan",
   ],
 
-  featured: true
+  featured: true,
 };
