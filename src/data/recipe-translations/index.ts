@@ -37,6 +37,7 @@ import { bakedFalafelEn } from "./en/baked-falafel";
 import { warakEnabEn } from "./en/warak-enab";
 import { grilledHalloumiHerbsPomegranateEn } from "./en/grilled-halloumi-herbs-pomegranate";
 import { grilledChickenShawarmaEn } from "./en/grilled-chicken-shawarma";
+import { chickenShawarmaEn } from "./en/chicken-shawarma";
 import { grilledShrimpGarlicLemonEn } from "./en/grilled-shrimp-garlic-lemon";
 import { zaatarRoastedMixedNutsEn } from "./en/zaatar-roasted-mixed-nuts";
 import { spinachFetaStuffedZucchiniBoatsEn } from "./en/spinach-feta-stuffed-zucchini-boats";
@@ -142,6 +143,7 @@ const enTranslations: Record<string, RecipeTranslation> = {
   "baked-falafel": bakedFalafelEn,
   "warak-enab": warakEnabEn,
   "grilled-halloumi-herbs-pomegranate": grilledHalloumiHerbsPomegranateEn,
+  "chicken-shawarma": chickenShawarmaEn,
   "grilled-chicken-shawarma": grilledChickenShawarmaEn,
   "grilled-shrimp-garlic-lemon": grilledShrimpGarlicLemonEn,
   "zaatar-roasted-mixed-nuts": zaatarRoastedMixedNutsEn,
