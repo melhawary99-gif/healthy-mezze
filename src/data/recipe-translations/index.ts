@@ -1,3 +1,5 @@
+import { EgyptianKoshariAr } from "./ar/egyptian-koshari";
+import { egyptianKoshariEn } from "./en/egyptian-koshari";
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 import { greekSaladEn } from "./en/greek-salad";
@@ -141,6 +143,7 @@ const enTranslations: Record<string, RecipeTranslation> = {
   "authentic-tamar-hindi": authenticTamarHindiEn,
   "authentic-white-coffee": authenticWhiteCoffeeEn,
   "baked-falafel": bakedFalafelEn,
+  "egyptian-koshari": egyptianKoshariEn,
   "warak-enab": warakEnabEn,
   "grilled-halloumi-herbs-pomegranate": grilledHalloumiHerbsPomegranateEn,
   "chicken-shawarma": chickenShawarmaEn,
@@ -204,6 +207,7 @@ const arTranslations: Record<string, RecipeTranslation> = {
   "authentic-tamar-hindi": authenticTamarHindiAr,
   "authentic-white-coffee": authenticWhiteCoffeeAr,
   "baked-falafel": bakedFalafelAr,
+  "egyptian-koshari": EgyptianKoshariAr,
   "warak-enab": WarakEnabAr,
   "grilled-halloumi-herbs-pomegranate": GrilledHalloumiHerbsPomegranateAr,
   "grilled-chicken-shawarma": GrilledChickenShawarmaAr,
