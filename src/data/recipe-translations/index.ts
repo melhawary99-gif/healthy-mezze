@@ -103,6 +103,7 @@ import { SpinachFetaOmeletteAr } from "./ar/spinach-feta-omelette";
 
 import { mediterraneanFalafelWrapEn } from "./en/mediterranean-falafel-wrap";
 import { mediterraneanVegetableBakeEn } from "./en/mediterranean-vegetable-bake";
+import { shishTawookEn } from "./en/shish-tawook";
 import { mediterraneanGrilledChickenPlateEn } from "./en/mediterranean-grilled-chicken-plate";
 const enTranslations: Record<string, RecipeTranslation> = {
   "greek-salad": greekSaladEn,
@@ -155,11 +156,13 @@ const enTranslations: Record<string, RecipeTranslation> = {
   "mediterranean-shakshuka": mediterraneanShakshukaEn,
   "mediterranean-falafel-wrap": mediterraneanFalafelWrapEn,
   "mediterranean-vegetable-bake": mediterraneanVegetableBakeEn,
+  "shish-tawook": shishTawookEn,
   "mediterranean-grilled-chicken-plate": mediterraneanGrilledChickenPlateEn,
 };
 
 import { MediterraneanFalafelWrapAr } from "./ar/mediterranean-falafel-wrap";
 import { MediterraneanVegetableBakeAr } from "./ar/mediterranean-vegetable-bake";
+import { ShishTawookAr } from "./ar/shish-tawook";
 import { MediterraneanGrilledChickenPlateAr } from "./ar/mediterranean-grilled-chicken-plate";
 const arTranslations: Record<string, RecipeTranslation> = {
   "authentic-amba-sauce": authenticAmbaSauceAr,
@@ -215,6 +218,7 @@ const arTranslations: Record<string, RecipeTranslation> = {
   "mediterranean-shakshuka": MediterraneanShakshukaAr,
   "mediterranean-falafel-wrap": MediterraneanFalafelWrapAr,
   "mediterranean-vegetable-bake": MediterraneanVegetableBakeAr,
+  "shish-tawook": ShishTawookAr,
   "mediterranean-grilled-chicken-plate": MediterraneanGrilledChickenPlateAr,
 };
 
