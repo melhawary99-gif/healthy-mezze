@@ -26,12 +26,13 @@ export default function VisualStepsSection({ visualSteps }: VisualStepsSectionPr
             className="overflow-hidden rounded-[2rem] border border-gray-100 bg-white shadow-sm"
           >
             {step.image && (
-              <div className="relative aspect-[3/2] overflow-hidden bg-gray-100">
+              <div className="w-full overflow-hidden bg-gray-100">
                 <Image
                   src={step.image}
                   alt={step.imageAlt ?? step.title}
-                  fill
-                  className="object-cover"
+                  width={1536}
+                  height={1152}
+                  className="h-auto w-full"
                   sizes="(max-width: 1024px) 100vw, 70vw"
                 />
               </div>

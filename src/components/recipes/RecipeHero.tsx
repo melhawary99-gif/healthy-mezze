@@ -16,13 +16,14 @@ export default function RecipeHero({ recipe }: RecipeHeroProps) {
   const locale = useLocale();
   return (
     <section className="overflow-hidden rounded-[2rem] bg-white shadow-lg">
-      <div className="relative aspect-[4/3] lg:aspect-[16/9]">
+      <div className="w-full overflow-hidden">
         <Image
           src={recipe.image}
           alt={recipe.imageAlt ?? recipe.title}
-          fill
+          width={1536}
+          height={1152}
           priority
-          className="object-cover"
+          className="h-auto w-full"
           quality={90}
           sizes="100vw"
         />
