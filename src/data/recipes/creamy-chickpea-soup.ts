@@ -8,19 +8,23 @@ export const creamyChickpeaSoup: Recipe = {
   slug: "creamy-chickpea-soup",
 
   description:
-    "A creamy Mediterranean chickpea soup with vegetables, garlic, cumin, and fresh lemon.",
+    "A creamy Lebanese-inspired chickpea soup with tender vegetables, garlic, cumin, and fresh lemon, blended until naturally silky without dairy.",
 
   longDescription:
-    "This Creamy Chickpea Soup is a nourishing Mediterranean favorite made with protein-rich chickpeas, onions, carrots, celery, garlic, and warming spices. Blending part of the soup creates a naturally creamy texture without using dairy. Finished with fresh lemon juice and parsley, it's a wholesome meal that's ideal for lunch or dinner.",
+    "This creamy chickpea soup draws on the flavors and ingredients of Lebanese and wider Levantine home cooking. Chickpeas, garlic, olive oil, cumin, fresh lemon, parsley, and vegetables come together in a comforting soup that becomes naturally creamy when part of the chickpeas and vegetables are blended into the broth. It is a simple, nourishing bowl with the bright lemony finish and aromatic seasoning associated with the eastern Mediterranean. Serve it with warm pita for a satisfying vegetarian meal.",
 
   image: "/images/recipes/creamy-chickpea-soup.webp",
 
   imageAlt:
-    "Creamy Mediterranean chickpea soup garnished with parsley, olive oil, and lemon wedges.",
+    "Creamy Lebanese-inspired chickpea soup with whole chickpeas, parsley, olive oil, and lemon.",
 
   cuisine: "Lebanese",
 
   category: "soups",
+
+  vegan: true,
+
+  vegetarian: true,
 
   prepTime: "15 mins",
 
@@ -33,99 +37,100 @@ export const creamyChickpeaSoup: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "extra virgin olive oil"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "Medium onion, diced"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "carrots, diced"
-  },
-{
-    amount: 2,
-    unit: "celery",
-    name: "stalks, diced"
-  },
-{
-    amount: 3,
-    unit: "cloves",
-    name: "garlic, minced"
-  },
-{
-    amount: 2,
-    unit: "cans",
-    name: "(400 g each) chickpeas, drained and rinsed"
-  },
-{
-    amount: 4,
-    unit: "cups",
-    name: "vegetable broth"
-  },
-{
-    amount: 1,
-    unit: "cup",
-    name: "water"
-  },
-{
-    amount: 1,
-    unit: "tsp",
-    name: "ground cumin"
-  },
-{
-    amount: 0.5,
-    unit: "tsp",
-    name: "ground coriander"
-  },
-{
-    amount: 0.5,
-    unit: "tsp",
-    name: "paprika"
-  },
-{
-    amount: 1,
-    unit: "tsp",
-    name: "sea salt"
-  },
-{
-    amount: 0.5,
-    unit: "tsp",
-    name: "black pepper"
-  },
-{
-    amount: 1,
-    unit: "tbsp",
-    name: "fresh lemon juice"
-  },
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "chopped fresh parsley"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "Extra virgin olive oil for serving"
-  }
-],
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "extra virgin olive oil",
+    },
+    {
+      amount: 1,
+      unit: "",
+      name: "medium onion, diced",
+    },
+    {
+      amount: 1,
+      unit: "",
+      name: "carrot, diced",
+    },
+    {
+      amount: 2,
+      unit: "",
+      name: "celery stalks, diced",
+    },
+    {
+      amount: 3,
+      unit: "cloves",
+      name: "garlic, minced",
+    },
+    {
+      amount: 2,
+      unit: "cans",
+      name: "chickpeas, 400 g each, drained and rinsed",
+    },
+    {
+      amount: 4,
+      unit: "cups",
+      name: "vegetable broth",
+    },
+    {
+      amount: 1,
+      unit: "cup",
+      name: "water",
+    },
+    {
+      amount: 1,
+      unit: "tsp",
+      name: "ground cumin",
+    },
+    {
+      amount: 0.5,
+      unit: "tsp",
+      name: "ground coriander",
+    },
+    {
+      amount: 0.5,
+      unit: "tsp",
+      name: "paprika",
+    },
+    {
+      amount: 1,
+      unit: "tsp",
+      name: "sea salt",
+    },
+    {
+      amount: 0.5,
+      unit: "tsp",
+      name: "black pepper",
+    },
+    {
+      amount: 1,
+      unit: "tbsp",
+      name: "fresh lemon juice",
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "fresh parsley, chopped",
+    },
+    {
+      amount: 1,
+      unit: "",
+      name: "extra virgin olive oil for serving",
+    },
+  ],
 
-instructions: [
-    "Heat the olive oil in a large soup pot over medium heat.",
-    "Cook the onion, carrots, and celery for 6–8 minutes until softened.",
-    "Add the garlic and cook for 1 minute.",
-    "Stir in the cumin, coriander, and paprika until fragrant.",
-    "Add the chickpeas, vegetable broth, and water.",
-    "Bring to a boil, then reduce to a gentle simmer for 20 minutes.",
-    "Blend about half of the soup using an immersion blender, leaving some chickpeas whole for texture.",
-    "Season with salt and black pepper.",
-    "Stir in the lemon juice and chopped parsley.",
-    "Serve warm with a drizzle of olive oil."
+  instructions: [
+    "Heat the olive oil in a large heavy-bottomed soup pot over medium heat.",
+    "Add the onion, carrot, and celery and cook for 6–8 minutes, stirring occasionally, until the vegetables soften but do not become deeply browned.",
+    "Add the minced garlic and cook for about 1 minute until fragrant. Do not let the garlic brown.",
+    "Stir in the cumin, ground coriander, and paprika and cook for about 30 seconds until the spices become fragrant.",
+    "Add the drained chickpeas, vegetable broth, and water. Stir well and scrape the bottom of the pot if any spices have settled there.",
+    "Bring the soup to a boil, then immediately reduce the heat to a gentle simmer. Cover partially and cook for about 20 minutes so the chickpeas and vegetables become very tender.",
+    "Remove the pot from the heat briefly. Using an immersion blender, blend about half of the soup while leaving some chickpeas and vegetable pieces whole for texture. If using a countertop blender, blend in small batches and never fill the blender more than halfway with hot soup.",
+    "Return the soup to low heat and check the consistency. Add a little warm water or broth if it is thicker than you prefer.",
+    "Season with salt and black pepper. Taste before adding more salt because vegetable broth can already contain sodium.",
+    "Stir in the fresh lemon juice and chopped parsley just before serving. Taste once more and adjust the lemon, salt, or pepper if needed.",
+    "Serve warm with a drizzle of extra virgin olive oil, additional parsley, and warm pita bread or crusty bread.",
   ],
 
   nutrition: {
@@ -135,41 +140,39 @@ instructions: [
     fat: "10 g",
     fiber: "10 g",
     sugar: "6 g",
-    sodium: "470 mg"
-  
-  
-  
-  
-  
-  
+    sodium: "470 mg",
   },
 
   healthBenefits: [
     "Excellent source of plant protein",
     "High in dietary fiber",
     "Supports digestive health",
-    "Rich in folate and iron",
-    "Naturally dairy-free",
-    "Heart-healthy Mediterranean ingredients"
+    "Provides folate and iron",
+    "Naturally dairy-free and plant-based",
+    "Uses olive oil and other ingredients common in Mediterranean-style eating",
   ],
 
   keywords: [
     "Creamy Chickpea Soup",
+    "Lebanese Chickpea Soup",
     "Mediterranean Chickpea Soup",
     "Healthy Chickpea Soup",
     "Vegetarian Chickpea Soup",
-    "Easy Chickpea Soup"
+    "Vegan Chickpea Soup",
+    "Easy Chickpea Soup",
   ],
 
   tags: [
     "soup",
+    "Lebanese",
     "Mediterranean",
     "vegetarian",
+    "vegan",
     "high protein",
     "high fiber",
     "meal prep",
-    "healthy"
+    "healthy",
   ],
 
-  featured: true
+  featured: true,
 };
