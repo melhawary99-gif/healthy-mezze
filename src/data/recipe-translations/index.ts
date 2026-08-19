@@ -151,6 +151,7 @@ const enTranslations: Record<string, RecipeTranslation> = {
   "red-lentil-soup": redLentilSoupEn,
   "creamy-chickpea-soup": creamyChickpeaSoupEn,
   "mediterranean-white-bean-soup": whiteBeanSoupEn,
+  "mediterranean-vegetable-soup": mediterraneanVegetableSoupEn,
   "roasted-pumpkin-soup": roastedPumpkinSoupEn,
   "roasted-tomato-basil-soup": RoastedTomatoBasilSoupEn,
   "egyptian-molokhia-soup": egyptianMolokhiaSoupEn,
@@ -186,10 +187,12 @@ import { egyptianMolokhiaSoupEn } from "./en/egyptian-molokhia-soup";
 import { EgyptianMolokhiaSoupAr } from "./ar/egyptian-molokhia-soup";
 import { creamyChickpeaSoupEn } from "./en/creamy-chickpea-soup";
 import { whiteBeanSoupEn } from "./en/white-bean-soup";
+import { mediterraneanVegetableSoupEn } from "./en/mediterranean-vegetable-soup";
 import { roastedPumpkinSoupEn } from "./en/roasted-pumpkin-soup";
 import { RoastedTomatoBasilSoupEn } from "./en/roasted-tomato-basil-soup";
 import { CreamyChickpeaSoupAr } from "./ar/creamy-chickpea-soup";
 import { whiteBeanSoupAr } from "./ar/white-bean-soup";
+import { MediterraneanVegetableSoupAr } from "./ar/mediterranean-vegetable-soup";
 import { RoastedPumpkinSoupAr } from "./ar/roasted-pumpkin-soup";
 import { RoastedTomatoBasilSoupAr } from "./ar/roasted-tomato-basil-soup";
 const arTranslations: Record<string, RecipeTranslation> = {
@@ -233,6 +236,7 @@ const arTranslations: Record<string, RecipeTranslation> = {
   "red-lentil-soup": RedLentilSoupAr,
   "creamy-chickpea-soup": CreamyChickpeaSoupAr,
   "mediterranean-white-bean-soup": whiteBeanSoupAr,
+  "mediterranean-vegetable-soup": MediterraneanVegetableSoupAr,
   "roasted-pumpkin-soup": RoastedPumpkinSoupAr,
   "roasted-tomato-basil-soup": RoastedTomatoBasilSoupAr,
   "egyptian-molokhia-soup": EgyptianMolokhiaSoupAr,
