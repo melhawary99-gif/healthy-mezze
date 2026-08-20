@@ -152,6 +152,7 @@ const enTranslations: Record<string, RecipeTranslation> = {
   "creamy-chickpea-soup": creamyChickpeaSoupEn,
   "mediterranean-white-bean-soup": whiteBeanSoupEn,
   "mediterranean-vegetable-barley-soup": mediterraneanVegetableBarleySoupEn,
+  "ful-medames": fulMedamesEn,
   "mediterranean-vegetable-soup": mediterraneanVegetableSoupEn,
   "roasted-pumpkin-soup": roastedPumpkinSoupEn,
   "roasted-tomato-basil-soup": RoastedTomatoBasilSoupEn,
@@ -189,12 +190,14 @@ import { EgyptianMolokhiaSoupAr } from "./ar/egyptian-molokhia-soup";
 import { creamyChickpeaSoupEn } from "./en/creamy-chickpea-soup";
 import { whiteBeanSoupEn } from "./en/white-bean-soup";
 import { mediterraneanVegetableBarleySoupEn } from "./en/mediterranean-vegetable-barley-soup";
+import { fulMedamesEn } from "./en/ful-medames";
 import { mediterraneanVegetableSoupEn } from "./en/mediterranean-vegetable-soup";
 import { roastedPumpkinSoupEn } from "./en/roasted-pumpkin-soup";
 import { RoastedTomatoBasilSoupEn } from "./en/roasted-tomato-basil-soup";
 import { CreamyChickpeaSoupAr } from "./ar/creamy-chickpea-soup";
 import { whiteBeanSoupAr } from "./ar/white-bean-soup";
 import { MediterraneanVegetableBarleySoupAr } from "./ar/mediterranean-vegetable-barley-soup";
+import { FulMedamesAr } from "./ar/ful-medames";
 import { MediterraneanVegetableSoupAr } from "./ar/mediterranean-vegetable-soup";
 import { RoastedPumpkinSoupAr } from "./ar/roasted-pumpkin-soup";
 import { RoastedTomatoBasilSoupAr } from "./ar/roasted-tomato-basil-soup";
@@ -240,6 +243,7 @@ const arTranslations: Record<string, RecipeTranslation> = {
   "creamy-chickpea-soup": CreamyChickpeaSoupAr,
   "mediterranean-white-bean-soup": whiteBeanSoupAr,
   "mediterranean-vegetable-barley-soup": MediterraneanVegetableBarleySoupAr,
+  "ful-medames": FulMedamesAr,
   "mediterranean-vegetable-soup": MediterraneanVegetableSoupAr,
   "roasted-pumpkin-soup": RoastedPumpkinSoupAr,
   "roasted-tomato-basil-soup": RoastedTomatoBasilSoupAr,
