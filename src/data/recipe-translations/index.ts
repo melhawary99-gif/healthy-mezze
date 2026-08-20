@@ -54,6 +54,7 @@ import { mediterraneanChickenKabsaEn } from "./en/mediterranean-chicken-kabsa";
 import { lebaneseMujadaraEn } from "./en/lebanese-mujadara";
 import { mediterraneanShakshukaEn } from "./en/mediterranean-shakshuka";
 import { spinachFetaOmeletteEn } from "./en/spinach-feta-omelette";
+import { greekYogurtBreakfastBowlEn } from "./en/greek-yogurt-breakfast-bowl";
 
 import { greekSaladAr } from "./ar/greek-salad";
 import { authenticAmbaSauceAr } from "./ar/authentic-amba-sauce";
@@ -106,6 +107,7 @@ import { MediterraneanChickenKabsaAr } from "./ar/mediterranean-chicken-kabsa";
 import { LebaneseMujadaraAr } from "./ar/lebanese-mujadara";
 import { MediterraneanShakshukaAr } from "./ar/mediterranean-shakshuka";
 import { SpinachFetaOmeletteAr } from "./ar/spinach-feta-omelette";
+import { GreekYogurtBreakfastBowlAr } from "./ar/greek-yogurt-breakfast-bowl";
 
 import { mediterraneanFalafelWrapEn } from "./en/mediterranean-falafel-wrap";
 import { mediterraneanVegetableBakeEn } from "./en/mediterranean-vegetable-bake";
@@ -178,6 +180,7 @@ const enTranslations: Record<string, RecipeTranslation> = {
   "mediterranean-vegetable-bake": mediterraneanVegetableBakeEn,
   "shish-tawook": shishTawookEn,
   "mediterranean-grilled-chicken-plate": mediterraneanGrilledChickenPlateEn,
+  "greek-yogurt-breakfast-bowl": greekYogurtBreakfastBowlEn,
 };
 
 import { MediterraneanFalafelWrapAr } from "./ar/mediterranean-falafel-wrap";
@@ -272,6 +275,7 @@ const arTranslations: Record<string, RecipeTranslation> = {
   "mediterranean-vegetable-bake": MediterraneanVegetableBakeAr,
   "shish-tawook": ShishTawookAr,
   "mediterranean-grilled-chicken-plate": MediterraneanGrilledChickenPlateAr,
+  "greek-yogurt-breakfast-bowl": GreekYogurtBreakfastBowlAr,
 };
 
 export function getRecipeTranslation(
