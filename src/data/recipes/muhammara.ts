@@ -8,21 +8,23 @@ export const muhammara: Recipe = {
   slug: "muhammara",
 
   description:
-    "A rich and smoky Mediterranean dip made with roasted red peppers, walnuts, olive oil, garlic, and pomegranate molasses. Perfect as a mezze, spread, or healthy snack.",
+    "A traditional Levantine roasted red pepper and walnut dip from Aleppo, Syria, made with pomegranate molasses, extra virgin olive oil, garlic, cumin, and whole wheat breadcrumbs for a smoky, tangy, richly textured mezze.",
 
   longDescription:
-    "Muhammara is a traditional Levantine dip that combines the sweetness of roasted red peppers with the earthy richness of walnuts and the tangy depth of pomegranate molasses. Blended with garlic, olive oil, breadcrumbs, and warm spices, this vibrant dip is packed with antioxidants and healthy fats. Serve it with warm pita bread, fresh vegetables, grilled meats, or as part of a Mediterranean mezze platter.",
+    "Muhammara is one of the most distinctive dips of the Levant, closely associated with Aleppo in northern Syria. Roasted red peppers provide a naturally sweet, smoky base, while walnuts add richness and texture and pomegranate molasses brings the characteristic sweet-tart depth. Garlic, cumin, olive oil, and a small amount of whole wheat breadcrumbs round out the mixture. The finished dip should be thick and spoonable rather than watery, with a little texture remaining from the walnuts. It is traditionally enjoyed as part of a mezze spread with bread and fresh vegetables, but it also works beautifully as a spread, sandwich filling, or accompaniment to grilled foods.",
 
   image: "/images/recipes/muhammara.webp",
 
   imageAlt:
-    "Creamy Muhammara topped with walnuts, parsley, olive oil, and pomegranate seeds, served with warm pita bread.",
+    "Traditional Muhammara roasted red pepper and walnut dip garnished with parsley, walnuts, olive oil, and pomegranate seeds, served with warm whole wheat pita.",
 
-  cuisine: "Lebanese",
+  cuisine: "Syrian",
 
-  category: "snack",
+  category: "mezze",
+
+  vegetarian: true,
+
   vegan: true,
-vegetarian: true,
 
   prepTime: "15 mins",
 
@@ -35,85 +37,95 @@ vegetarian: true,
   difficulty: "Easy",
 
   ingredients: [
-{
-    amount: 3,
-    unit: "",
-    name: "Large red bell peppers"
-  },
-{
-    amount: 1,
-    unit: "cup",
-    name: "walnuts"
-  },
-{
-    amount: 0.3333333333333333,
-    unit: "cup",
-    name: "whole wheat breadcrumbs"
-  },
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "pomegranate molasses"
-  },
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "extra virgin olive oil"
-  },
-{
-    amount: 2,
-    unit: "garlic",
-    name: "cloves"
-  },
-{
-    amount: 1,
-    unit: "tsp",
-    name: "ground cumin"
-  },
-{
-    amount: 0.5,
-    unit: "tsp",
-    name: "smoked paprika"
-  },
-{
-    amount: 0.25,
-    unit: "tsp",
-    name: "crushed red pepper flakes (optional)"
-  },
-{
-    amount: 0.5,
-    unit: "tsp",
-    name: "sea salt"
-  },
-{
-    amount: 0.25,
-    unit: "tsp",
-    name: "black pepper"
-  },
-{
-    amount: 1,
-    unit: "tbsp",
-    name: "chopped fresh parsley"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "Pomegranate seeds for garnish (optional)"
-  }
-],
+    {
+      amount: 3,
+      unit: "large",
+      name: "red bell peppers",
+      note: "Choose firm, ripe peppers with smooth skins for the sweetest roasted flavor.",
+    },
+    {
+      amount: 1,
+      unit: "cup",
+      name: "walnuts",
+      note: "Use fresh walnuts; lightly toasting them brings out their aroma without making them bitter.",
+    },
+    {
+      amount: 1 / 3,
+      unit: "cup",
+      name: "whole wheat breadcrumbs",
+      note: "Use fine breadcrumbs; they help absorb excess moisture and give the dip body.",
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "pomegranate molasses",
+      note: "Start with this amount and adjust after blending according to its sweetness and acidity.",
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "extra virgin olive oil",
+      note: "Use a good-quality olive oil because its flavor remains noticeable in the finished dip.",
+    },
+    {
+      amount: 2,
+      unit: "cloves",
+      name: "garlic",
+      note: "Use fresh garlic and adjust slightly if you prefer a milder flavor.",
+    },
+    {
+      amount: 1,
+      unit: "tsp",
+      name: "ground cumin",
+    },
+    {
+      amount: 1 / 2,
+      unit: "tsp",
+      name: "smoked paprika",
+      note: "This adds gentle smokiness; use a mild paprika if you prefer a more traditional spice profile.",
+    },
+    {
+      amount: 1 / 4,
+      unit: "tsp",
+      name: "crushed red pepper flakes",
+      note: "Optional; reduce or omit for a mild Muhammara.",
+    },
+    {
+      amount: 1 / 2,
+      unit: "tsp",
+      name: "sea salt",
+      note: "Adjust after blending because pomegranate molasses and breadcrumbs vary in seasoning.",
+    },
+    {
+      amount: 1 / 4,
+      unit: "tsp",
+      name: "black pepper",
+    },
+    {
+      amount: 1,
+      unit: "tbsp",
+      name: "fresh parsley, chopped",
+      note: "Reserve a little for finishing the dip.",
+    },
+    {
+      amount: 1,
+      unit: "tbsp",
+      name: "pomegranate seeds",
+      note: "Optional garnish for freshness, color, and a pleasant burst of acidity.",
+    },
+  ],
 
-instructions: [
-    "Preheat the oven to 450°F (230°C).",
-    "Place the red peppers on a baking tray and roast for 20–25 minutes, turning occasionally, until the skins are blackened.",
-    "Transfer the peppers to a covered bowl or sealed bag for 10 minutes to steam.",
-    "Peel off the skins, remove the seeds, and roughly chop the peppers.",
-    "Toast the walnuts in a dry skillet over medium heat for 3–4 minutes until fragrant.",
-    "Add the roasted peppers, walnuts, breadcrumbs, pomegranate molasses, olive oil, garlic, cumin, paprika, salt, pepper, and red pepper flakes to a food processor.",
-    "Blend until mostly smooth while leaving a little texture.",
-    "Taste and adjust seasoning if needed.",
-    "Transfer to a serving bowl.",
-    "Drizzle with olive oil and garnish with parsley, chopped walnuts, and pomegranate seeds.",
-    "Serve with whole wheat pita bread or fresh vegetables."
+  instructions: [
+    "Preheat the oven to 450°F (230°C). Position a rack near the upper-middle of the oven so the peppers can blister and char without sitting too close to the heating element.",
+    "Place the whole red peppers on a baking tray. Roast for 20–25 minutes, turning them every 7–8 minutes, until the skins are heavily blistered and blackened in several places and the peppers feel soft.",
+    "Immediately transfer the hot peppers to a heatproof bowl and cover tightly, or place them in a sealed heat-safe container. Let them steam for about 10 minutes. This loosens the skins and makes peeling much easier.",
+    "Peel away the blackened skins, remove the stems and seeds, and gently drain the roasted peppers. Do not rinse them under water because this can wash away their roasted flavor. If they release a lot of liquid, let them drain for a few minutes before blending.",
+    "While the peppers roast, toast the walnuts in a dry skillet over medium heat for 3–4 minutes, stirring frequently. Remove them as soon as they smell fragrant and allow them to cool. Do not let them become dark or bitter.",
+    "Add the roasted peppers, toasted walnuts, whole wheat breadcrumbs, pomegranate molasses, olive oil, garlic, cumin, smoked paprika, salt, black pepper, and optional red pepper flakes to a food processor.",
+    "Pulse several times, then blend until the mixture is cohesive and creamy but still slightly textured. Scrape down the sides as needed. Avoid prolonged blending because Muhammara is best with a little walnut texture rather than a completely smooth purée.",
+    "Taste and adjust the balance. Add a little more pomegranate molasses for acidity and sweetness, a small drizzle of olive oil for richness, or a pinch of salt if the flavors seem flat. If the dip is too loose, add a little more breadcrumbs and pulse again.",
+    "Transfer the Muhammara to a serving bowl and let it rest for a few minutes before serving. Resting allows the breadcrumbs to absorb moisture and gives the flavors time to come together.",
+    "Finish with a drizzle of extra virgin olive oil, chopped parsley, a few chopped walnuts, and optional pomegranate seeds. Serve with warm whole wheat pita, fresh vegetables, or as part of a Mediterranean mezze platter.",
   ],
 
   nutrition: {
@@ -123,43 +135,46 @@ instructions: [
     fat: "15 g",
     fiber: "3 g",
     sugar: "5 g",
-    sodium: "230 mg"
-  
-  
-  
-  
-  
-  
+    sodium: "230 mg",
   },
 
   healthBenefits: [
     "Rich in antioxidants from roasted red peppers",
-    "Excellent source of heart-healthy fats",
-    "Provides vitamin C and vitamin E",
-    "Contains omega-3 fatty acids from walnuts",
-    "Supports brain and heart health",
-    "Mediterranean diet friendly",
-    "Naturally vegetarian"
+    "Provides heart-healthy unsaturated fats from walnuts and extra virgin olive oil",
+    "Provides plant-based omega-3 fatty acids from walnuts",
+    "Contains vitamin C and other protective plant compounds from red peppers",
+    "Provides fiber from peppers, walnuts, and whole wheat breadcrumbs",
+    "Naturally vegetarian and vegan",
+    "A flavorful way to include vegetables, nuts, and olive oil in a Mediterranean-style meal",
   ],
 
   keywords: [
     "Muhammara",
+    "Syrian Muhammara",
+    "Aleppo Muhammara",
     "Roasted Red Pepper Dip",
-    "Mediterranean Dip",
+    "Levantine Dip",
     "Walnut Dip",
-    "Healthy Mezze"
+    "Pomegranate Molasses Dip",
+    "Mediterranean Mezze",
+    "Vegan Dip",
+    "Healthy Mezze",
   ],
 
   tags: [
-    "snack",
+    "mezze",
+    "Syrian",
+    "Levantine",
     "Mediterranean",
     "muhammara",
-    "red peppers",
+    "roasted red peppers",
     "walnuts",
-    "mezze",
+    "pomegranate molasses",
+    "vegan",
     "vegetarian",
-    "healthy"
+    "healthy",
+    "dip",
   ],
 
-  featured: true
+  featured: true,
 };
