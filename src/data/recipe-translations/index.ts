@@ -108,14 +108,17 @@ import { MediterraneanChickenKabsaAr } from "./ar/mediterranean-chicken-kabsa";
 import { LebaneseMujadaraAr } from "./ar/lebanese-mujadara";
 import { MediterraneanShakshukaAr } from "./ar/mediterranean-shakshuka";
 import { SpinachFetaOmeletteAr } from "./ar/spinach-feta-omelette";
+import { MediterraneanBreakfastWrapAr } from "./ar/mediterranean-breakfast-wrap";
 import { GreekYogurtBreakfastBowlAr } from "./ar/greek-yogurt-breakfast-bowl";
 import { MediterraneanAvocadoToastAr } from "./ar/mediterranean-avocado-toast";
 
+import { mediterraneanBreakfastWrapEn } from "./en/mediterranean-breakfast-wrap";
 import { mediterraneanFalafelWrapEn } from "./en/mediterranean-falafel-wrap";
 import { mediterraneanVegetableBakeEn } from "./en/mediterranean-vegetable-bake";
 import { shishTawookEn } from "./en/shish-tawook";
 import { mediterraneanGrilledChickenPlateEn } from "./en/mediterranean-grilled-chicken-plate";
 const enTranslations: Record<string, RecipeTranslation> = {
+  "mediterranean-breakfast-wrap": mediterraneanBreakfastWrapEn,
   "greek-salad": greekSaladEn,
   "mediterranean-beetroot-salad": beetrootSaladEn,
   "cheese-fatayer": cheeseFatayerEn,
@@ -279,6 +282,7 @@ const arTranslations: Record<string, RecipeTranslation> = {
   "shish-tawook": ShishTawookAr,
   "mediterranean-grilled-chicken-plate": MediterraneanGrilledChickenPlateAr,
   "greek-yogurt-breakfast-bowl": GreekYogurtBreakfastBowlAr,
+  "mediterranean-breakfast-wrap": MediterraneanBreakfastWrapAr,
   "mediterranean-avocado-toast": MediterraneanAvocadoToastAr,
 };
 
