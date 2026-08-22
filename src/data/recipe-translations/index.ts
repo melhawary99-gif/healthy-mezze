@@ -113,10 +113,12 @@ import { MediterraneanBreakfastWrapAr } from "./ar/mediterranean-breakfast-wrap"
 import { MediterraneanOatmealDatesPistachiosAr } from "./ar/mediterranean-oatmeal-dates-pistachios";
 import { GreekYogurtBreakfastBowlAr } from "./ar/greek-yogurt-breakfast-bowl";
 import { MediterraneanAvocadoToastAr } from "./ar/mediterranean-avocado-toast";
+import { herbedLabnehDipAr } from "./ar/herbed-labneh-dip";
 import { classicHummusAr } from "./ar/classic-hummus";
 import { MuhammaraAr } from "./ar/muhammara";
 
 import { mediterraneanBreakfastWrapEn } from "./en/mediterranean-breakfast-wrap";
+import { herbedLabnehDipEn } from "./en/herbed-labneh-dip";
 import { mediterraneanOatmealDatesPistachiosEn } from "./en/mediterranean-oatmeal-dates-pistachios";
 import { mediterraneanFalafelWrapEn } from "./en/mediterranean-falafel-wrap";
 import { classicHummusEn } from "./en/classic-hummus";
@@ -124,6 +126,7 @@ import { mediterraneanVegetableBakeEn } from "./en/mediterranean-vegetable-bake"
 import { shishTawookEn } from "./en/shish-tawook";
 import { mediterraneanGrilledChickenPlateEn } from "./en/mediterranean-grilled-chicken-plate";
 const enTranslations: Record<string, RecipeTranslation> = {
+  "herbed-labneh-dip": herbedLabnehDipEn,
   "classic-hummus": classicHummusEn,
   "mediterranean-breakfast-wrap": mediterraneanBreakfastWrapEn,
   "mediterranean-oatmeal-dates-pistachios": mediterraneanOatmealDatesPistachiosEn,
@@ -223,6 +226,7 @@ import { MediterraneanVegetableSoupAr } from "./ar/mediterranean-vegetable-soup"
 import { RoastedPumpkinSoupAr } from "./ar/roasted-pumpkin-soup";
 import { RoastedTomatoBasilSoupAr } from "./ar/roasted-tomato-basil-soup";
 const arTranslations: Record<string, RecipeTranslation> = {
+  "herbed-labneh-dip": herbedLabnehDipAr,
   "classic-hummus": classicHummusAr,
   "authentic-amba-sauce": authenticAmbaSauceAr,
   "greek-salad": greekSaladAr,

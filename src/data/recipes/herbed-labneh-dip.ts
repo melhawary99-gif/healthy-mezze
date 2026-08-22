@@ -8,21 +8,23 @@ export const herbedLabnehDip: Recipe = {
   slug: "herbed-labneh-dip",
 
   description:
-    "Creamy labneh blended with fresh herbs, garlic, lemon zest, and extra virgin olive oil for a refreshing Mediterranean dip that's perfect with vegetables or warm pita.",
+    "A creamy Lebanese mezze made with thick labneh, fresh parsley, mint, dill, garlic, lemon, extra virgin olive oil, and za'atar. The finished dip takes just 10 minutes to prepare when ready-made labneh is available.",
 
   longDescription:
-    "Herbed Labneh Dip is a refreshing Mediterranean mezze made with thick, tangy labneh mixed with fragrant parsley, mint, dill, garlic, and fresh lemon zest. Finished with a drizzle of extra virgin olive oil, this protein-rich dip is ideal for serving with fresh vegetables, whole wheat pita, crackers, or as part of a traditional mezze platter. It's quick to prepare and full of bright, fresh flavors.",
+    "Herbed Labneh Dip is a classic Lebanese-style mezze built around labneh, the thick, tangy strained yogurt enjoyed throughout the Levant. Ready-made labneh can be mixed with fresh parsley, mint, dill, garlic, lemon zest, lemon juice, and black pepper in about 10 minutes, then finished with extra virgin olive oil and za'atar. If labneh is not available where you live, you can easily make it at home by straining plain yogurt until thick and creamy. Homemade labneh requires several hours of mostly hands-off draining, so it should be prepared ahead; the 10-minute preparation time shown here refers only to making the finished herbed dip once the labneh is ready.",
 
   image: "/images/recipes/herbed-labneh-dip.webp",
 
   imageAlt:
-    "Creamy labneh dip topped with fresh parsley, mint, dill, olive oil, lemon zest, and served with vegetables and pita bread.",
+    "Creamy Lebanese herbed labneh topped with extra virgin olive oil, za'atar, fresh mint, and herbs, served with warm pita and fresh vegetables.",
 
   cuisine: "Lebanese",
 
-  category: "snack",
+  category: "mezze",
+
+  vegetarian: true,
+
   vegan: false,
-vegetarian: true,
 
   prepTime: "10 mins",
 
@@ -35,78 +37,109 @@ vegetarian: true,
   difficulty: "Easy",
 
   ingredients: [
-{
-    amount: 2,
-    unit: "cups",
-    name: "labneh"
-  },
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "chopped fresh parsley"
-  },
-{
-    amount: 1,
-    unit: "tbsp",
-    name: "chopped fresh mint"
-  },
-{
-    amount: 1,
-    unit: "tbsp",
-    name: "chopped fresh dill"
-  },
-{
-    amount: 1,
-    unit: "garlic",
-    name: "clove, finely minced"
-  },
-{
-    amount: 1,
-    unit: "tsp",
-    name: "lemon zest"
-  },
-{
-    amount: 1,
-    unit: "tbsp",
-    name: "fresh lemon juice"
-  },
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "extra virgin olive oil"
-  },
-{
-    amount: 0.5,
-    unit: "tsp",
-    name: "sea salt"
-  },
-{
-    amount: 0.25,
-    unit: "tsp",
-    name: "black pepper"
-  },
-{
-    amount: 1,
-    unit: "tsp",
-    name: "za'atar seasoning"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "Fresh mint leaves for garnish"
-  }
-],
+    {
+      amount: 2,
+      unit: "cups",
+      name: "plain full-fat yogurt",
+      note:
+        "For homemade labneh only — use thick, plain yogurt without added sugar or flavoring. Strain several hours ahead until thick and creamy."
+    },
+    {
+      amount: 0.5,
+      unit: "tsp",
+      name: "sea salt",
+      note:
+        "For homemade labneh only — mix into the yogurt before straining."
+    },
+    {
+      amount: 2,
+      unit: "cups",
+      name: "labneh",
+      note:
+        "For the finished dish — use ready-made labneh or the homemade labneh prepared from the ingredients above."
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "fresh parsley",
+      note: "For the finished dish; finely chopped."
+    },
+    {
+      amount: 1,
+      unit: "tbsp",
+      name: "fresh mint",
+      note:
+        "For the finished dish; finely chopped, with extra leaves for garnish."
+    },
+    {
+      amount: 1,
+      unit: "tbsp",
+      name: "fresh dill",
+      note: "For the finished dish; finely chopped."
+    },
+    {
+      amount: 1,
+      unit: "clove",
+      name: "garlic",
+      note: "For the finished dish; finely minced or grated."
+    },
+    {
+      amount: 1,
+      unit: "tsp",
+      name: "lemon zest",
+      note:
+        "For the finished dish; zest the lemon before squeezing it."
+    },
+    {
+      amount: 1,
+      unit: "tbsp",
+      name: "fresh lemon juice",
+      note:
+        "For the finished dish; add gradually because labneh varies in tanginess."
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "extra virgin olive oil",
+      note:
+        "For the finished dish; use for finishing and serving."
+    },
+    {
+      amount: 0.5,
+      unit: "tsp",
+      name: "sea salt",
+      note:
+        "For the finished dish; reduce or omit if the labneh is already salty."
+    },
+    {
+      amount: 0.25,
+      unit: "tsp",
+      name: "black pepper",
+      note: "For the finished dish."
+    },
+    {
+      amount: 1,
+      unit: "tsp",
+      name: "za'atar",
+      note: "For finishing the dish; adjust to taste."
+    },
+    {
+      amount: 1,
+      unit: "",
+      name: "fresh mint leaves",
+      note: "For garnish."
+    }
+  ],
 
-instructions: [
-    "Place the labneh in a medium mixing bowl.",
-    "Add the parsley, mint, dill, garlic, lemon zest, lemon juice, salt, and black pepper.",
-    "Mix until well combined.",
-    "Transfer the mixture to a serving bowl.",
-    "Create a shallow swirl on top using the back of a spoon.",
-    "Drizzle with extra virgin olive oil.",
-    "Sprinkle with za'atar seasoning.",
-    "Garnish with fresh mint leaves.",
-    "Serve immediately with fresh vegetables, whole wheat pita, or crackers."
+  instructions: [
+    "If using homemade labneh, prepare it several hours ahead: stir 2 cups of plain full-fat yogurt with 1/2 teaspoon sea salt, transfer it to a clean cheesecloth- or muslin-lined strainer set over a bowl, cover, and refrigerate while it drains until the yogurt becomes thick enough to hold its shape. The draining time is not included in the 10-minute preparation time shown above.",
+    "When the homemade labneh is ready, discard or save the strained whey, transfer the thick labneh to a clean bowl, and stir briefly until smooth. If using ready-made labneh, begin here.",
+    "Add the chopped parsley, mint, dill, garlic, and lemon zest to the labneh.",
+    "Add the lemon juice and black pepper, then mix gently until the herbs and seasonings are evenly distributed. Add the lemon juice gradually if your labneh is already quite tangy.",
+    "Taste before adding additional salt. Labneh can vary considerably in saltiness, especially if it was homemade or purchased ready-seasoned.",
+    "Transfer the finished labneh to a shallow serving bowl and spread it into an even layer with the back of a spoon.",
+    "Create a shallow swirl or well across the surface, then drizzle generously with extra virgin olive oil.",
+    "Sprinkle with za'atar and finish with fresh mint leaves. Serve immediately with warm pita, fresh vegetables, or as part of a Lebanese mezze platter."
   ],
 
   nutrition: {
@@ -117,41 +150,40 @@ instructions: [
     fiber: "0 g",
     sugar: "3 g",
     sodium: "220 mg"
-  
-  
-  
-  
-  
-  
   },
 
   healthBenefits: [
-    "Excellent source of protein",
-    "Contains probiotics that support gut health",
-    "Rich in calcium for bone health",
-    "Fresh herbs provide antioxidants",
-    "Heart-healthy olive oil",
-    "Low in carbohydrates",
-    "Mediterranean diet friendly"
+    "Provides protein from strained yogurt",
+    "Provides calcium from dairy",
+    "May provide beneficial live cultures when made with suitable cultured yogurt",
+    "Fresh herbs contribute antioxidants and flavor without requiring much added salt",
+    "Extra virgin olive oil provides predominantly unsaturated fats",
+    "Relatively low in carbohydrates",
+    "Naturally vegetarian and suitable for a Mediterranean-style eating pattern"
   ],
 
   keywords: [
-    "Labneh Dip",
     "Herbed Labneh",
+    "Labneh Dip",
+    "Lebanese Labneh",
+    "Lebanese Mezze",
+    "Homemade Labneh",
+    "Herb Labneh",
     "Mediterranean Dip",
-    "Healthy Snack",
-    "Mezze Recipe"
+    "Healthy Mezze"
   ],
 
   tags: [
-    "snack",
+    "mezze",
+    "Lebanese",
     "Mediterranean",
     "labneh",
-    "mezze",
+    "homemade labneh",
     "vegetarian",
     "high protein",
-    "healthy",
-    "quick recipe"
+    "quick recipe",
+    "dip",
+    "yogurt"
   ],
 
   featured: true
