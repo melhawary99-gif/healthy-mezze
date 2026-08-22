@@ -202,6 +202,7 @@ const enTranslations: Record<string, RecipeTranslation> = {
   "mediterranean-avocado-toast": mediterraneanAvocadoToastEn,
   "muhammara": muhammaraEn,
   "mediterranean-energy-balls": mediterraneanEnergyBallsEn,
+  "olive-tapenade": oliveTapenadeEn,
 };
 
 import { MediterraneanFalafelWrapAr } from "./ar/mediterranean-falafel-wrap";
@@ -228,6 +229,8 @@ import { FulMedamesAr } from "./ar/ful-medames";
 import { MediterraneanVegetableSoupAr } from "./ar/mediterranean-vegetable-soup";
 import { RoastedPumpkinSoupAr } from "./ar/roasted-pumpkin-soup";
 import { RoastedTomatoBasilSoupAr } from "./ar/roasted-tomato-basil-soup";
+import { oliveTapenadeEn } from "./en/olive-tapenade";
+import { oliveTapenadeAr } from "./ar/olive-tapenade";
 const arTranslations: Record<string, RecipeTranslation> = {
   "herbed-labneh-dip": herbedLabnehDipAr,
   "classic-hummus": classicHummusAr,
@@ -304,6 +307,7 @@ const arTranslations: Record<string, RecipeTranslation> = {
   "mediterranean-avocado-toast": MediterraneanAvocadoToastAr,
   "muhammara": MuhammaraAr,
   "mediterranean-energy-balls": mediterraneanEnergyBallsAr,
+  "olive-tapenade": oliveTapenadeAr,
 };
 
 export function getRecipeTranslation(
