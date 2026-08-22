@@ -201,6 +201,7 @@ const enTranslations: Record<string, RecipeTranslation> = {
   "greek-yogurt-breakfast-bowl": greekYogurtBreakfastBowlEn,
   "mediterranean-avocado-toast": mediterraneanAvocadoToastEn,
   "muhammara": muhammaraEn,
+  "mediterranean-energy-balls": mediterraneanEnergyBallsEn,
 };
 
 import { MediterraneanFalafelWrapAr } from "./ar/mediterranean-falafel-wrap";
