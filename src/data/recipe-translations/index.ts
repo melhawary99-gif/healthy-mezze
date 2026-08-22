@@ -1,3 +1,5 @@
+import { mediterraneanEnergyBallsAr } from "./ar/mediterranean-energy-balls";
+import { mediterraneanEnergyBallsEn } from "./en/mediterranean-energy-balls";
 import { lentilSoupEn } from "./en/lentil-soup";
 import { MediterraneanLemonHerbSalmonAr } from "./ar/mediterranean-lemon-herb-salmon";
 import { mediterraneanLemonHerbSalmonEn } from "./en/mediterranean-lemon-herb-salmon";
@@ -300,6 +302,7 @@ const arTranslations: Record<string, RecipeTranslation> = {
   "mediterranean-oatmeal-dates-pistachios": MediterraneanOatmealDatesPistachiosAr,
   "mediterranean-avocado-toast": MediterraneanAvocadoToastAr,
   "muhammara": MuhammaraAr,
+  "mediterranean-energy-balls": mediterraneanEnergyBallsAr,
 };
 
 export function getRecipeTranslation(
