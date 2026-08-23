@@ -8,21 +8,23 @@ export const creamyTzatzikiSauce: Recipe = {
   slug: "creamy-tzatziki-sauce",
 
   description:
-    "A refreshing Greek yogurt dip with cucumber, garlic, dill, lemon, and olive oil that pairs perfectly with grilled meats, vegetables, and pita.",
+    "A cool and creamy Lebanese-style yogurt sauce made with cucumber, garlic, fresh herbs, lemon, and extra virgin olive oil. Perfect with grilled meats, shawarma, falafel, vegetables, and warm pita.",
 
   longDescription:
-    "Tzatziki is one of the Mediterranean's most beloved sauces. Made with thick Greek yogurt, fresh cucumber, garlic, dill, lemon juice, and extra virgin olive oil, it offers a cool, creamy flavor that complements grilled chicken, kebabs, shawarma, falafel, fresh vegetables, and warm pita bread. This healthier version uses low-fat Greek yogurt while preserving the authentic taste and texture.",
+    "This Lebanese-style tzatziki is a refreshing yogurt-based sauce that brings together thick Greek yogurt, crisp cucumber, garlic, fresh dill, optional mint, lemon juice, and extra virgin olive oil. The cucumber is squeezed well to keep the sauce thick and creamy, while a short rest in the refrigerator allows the garlic, herbs, and lemon to blend into the yogurt. Serve it chilled as part of a mezze spread or alongside grilled meats, shawarma, falafel, vegetables, wraps, and warm pita bread.",
 
   image: "/images/recipes/creamy-tzatziki-sauce.webp",
 
   imageAlt:
-    "A bowl of creamy tzatziki topped with olive oil, fresh dill, cucumber slices, and served with warm pita bread.",
+    "A bowl of creamy Lebanese-style tzatziki topped with olive oil and fresh dill, served with cucumber slices and warm pita bread.",
 
   cuisine: "Lebanese",
 
   category: "dips-sauces",
+
+  vegetarian: true,
+
   vegan: false,
-vegetarian: true,
 
   prepTime: "15 mins",
 
@@ -35,61 +37,65 @@ vegetarian: true,
   difficulty: "Easy",
 
   ingredients: [
-{
-    amount: 2,
-    unit: "cups",
-    name: "low-fat Greek yogurt"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "Medium cucumber, grated and squeezed dry"
-  },
-{
-    amount: 2,
-    unit: "cloves",
-    name: "garlic, minced"
-  },
-{
-    amount: 1,
-    unit: "tbsp",
-    name: "fresh dill, finely chopped"
-  },
-{
-    amount: 1,
-    unit: "tbsp",
-    name: "fresh mint, finely chopped (optional)"
-  },
-{
-    amount: 1,
-    unit: "tbsp",
-    name: "extra virgin olive oil"
-  },
-{
-    amount: 1,
-    unit: "tbsp",
-    name: "fresh lemon juice"
-  },
-{
-    amount: 0.5,
-    unit: "tsp",
-    name: "sea salt"
-  },
-{
-    amount: 0.25,
-    unit: "tsp",
-    name: "black pepper"
-  }
-],
+    {
+      amount: 2,
+      unit: "cups",
+      name: "low-fat Greek yogurt",
+    },
+    {
+      amount: 1,
+      unit: "medium",
+      name: "cucumber",
+      note: "grated and squeezed very dry",
+    },
+    {
+      amount: 2,
+      unit: "cloves",
+      name: "garlic",
+      note: "minced",
+    },
+    {
+      amount: 1,
+      unit: "tbsp",
+      name: "fresh dill",
+      note: "finely chopped",
+    },
+    {
+      amount: 1,
+      unit: "tbsp",
+      name: "fresh mint",
+      note: "finely chopped; optional",
+    },
+    {
+      amount: 1,
+      unit: "tbsp",
+      name: "extra virgin olive oil",
+    },
+    {
+      amount: 1,
+      unit: "tbsp",
+      name: "fresh lemon juice",
+    },
+    {
+      amount: 0.5,
+      unit: "tsp",
+      name: "sea salt",
+    },
+    {
+      amount: 0.25,
+      unit: "tsp",
+      name: "black pepper",
+    },
+  ],
 
-instructions: [
-    "Grate the cucumber and squeeze out as much moisture as possible using a clean kitchen towel.",
-    "Place the yogurt in a mixing bowl.",
-    "Add the cucumber, garlic, dill, mint, olive oil, lemon juice, salt, and black pepper.",
-    "Mix until well combined.",
-    "Cover and refrigerate for at least 30 minutes to allow the flavors to develop.",
-    "Drizzle with a little extra virgin olive oil before serving.",
-    "Serve chilled with vegetables, grilled meats, wraps, or pita bread."
+  instructions: [
+    "Grate the cucumber using the large holes of a box grater.",
+    "Transfer the grated cucumber to a clean kitchen towel and squeeze firmly until as much excess liquid as possible has been removed.",
+    "Place the Greek yogurt in a mixing bowl and add the squeezed cucumber, minced garlic, chopped dill, optional mint, olive oil, lemon juice, salt, and black pepper.",
+    "Stir thoroughly until the ingredients are evenly distributed and the sauce is smooth and creamy.",
+    "Cover the bowl and refrigerate for at least 30 minutes so the garlic, herbs, lemon, and yogurt can develop a balanced flavor.",
+    "Taste before serving and adjust the salt, lemon juice, or herbs if needed.",
+    "Drizzle with a little extra virgin olive oil and serve chilled with warm pita, fresh vegetables, grilled meats, shawarma, falafel, or wraps.",
   ],
 
   nutrition: {
@@ -99,43 +105,40 @@ instructions: [
     fat: "3 g",
     fiber: "0 g",
     sugar: "3 g",
-    sodium: "180 mg"
-  
-  
-  
-  
-  
-  
+    sodium: "180 mg",
   },
 
   healthBenefits: [
-    "Rich in protein",
-    "Excellent source of calcium",
-    "Contains probiotics that support gut health",
-    "Low in calories",
-    "Fresh cucumber helps with hydration",
-    "Garlic provides beneficial antioxidants",
-    "A healthy alternative to mayonnaise-based dips"
+    "Provides protein from Greek yogurt",
+    "Provides calcium from yogurt",
+    "Contains live cultures when made with yogurt that contains active cultures",
+    "Provides fresh cucumber for additional water and nutrients",
+    "Uses extra virgin olive oil instead of mayonnaise as the primary added fat",
+    "Garlic and fresh herbs add flavor without requiring a large amount of added salt or fat",
+    "A lighter alternative to many creamy mayonnaise-based sauces",
   ],
 
   keywords: [
-    "Tzatziki",
-    "Greek Yogurt Sauce",
-    "Mediterranean Dip",
-    "Healthy Yogurt Dip",
-    "Garlic Cucumber Sauce"
+    "Lebanese Tzatziki",
+    "Creamy Tzatziki Sauce",
+    "Lebanese Yogurt Sauce",
+    "Cucumber Yogurt Dip",
+    "Garlic Yogurt Sauce",
+    "Mediterranean Yogurt Dip",
+    "Healthy Tzatziki",
   ],
 
   tags: [
     "dip",
     "sauce",
+    "Lebanese",
     "Mediterranean",
     "Greek yogurt",
-    "healthy",
     "vegetarian",
+    "healthy",
     "low-calorie",
-    "mezze"
+    "mezze",
   ],
 
-  featured: true
+  featured: true,
 };
