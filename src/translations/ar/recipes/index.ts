@@ -89,7 +89,6 @@ import recipe87 from "./red-lentil-soup";
 import recipe88 from "./roasted-cauliflower-tahini";
 import recipe89 from "./roasted-eggplant-salad";
 import recipe90 from "./roasted-pumpkin-soup";
-import recipe91 from "./roasted-red-pepper-muhammara-dip";
 import recipe92 from "./roasted-tomato-basil-soup";
 import recipe93 from "./roasted-vegetable-quinoa-bowl";
 import recipe94 from "./shish-tawook";
@@ -202,7 +201,6 @@ export const recipes = [
   recipe88,
   recipe89,
   recipe90,
-  recipe91,
   recipe92,
   recipe93,
   recipe94,

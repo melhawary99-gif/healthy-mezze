@@ -102,7 +102,6 @@ import { authenticCarobJuice } from "./authentic-carob-juice";
 import { creamyTzatzikiSauce } from "./creamy-tzatziki-sauce";
 import { classicToum } from "./classic-toum";
 import { classicTahiniSauce } from "./classic-tahini-sauce";
-import { roastedRedPepperMuhammaraDip } from "./roasted-red-pepper-muhammara-dip";
 import { greenZhougSauce } from "./green-zhoug-sauce";
 import { harissaYogurtSauce } from "./harissa-yogurt-sauce";
 import { sumacOnionSalad } from "./sumac-onion-salad";
@@ -208,7 +207,6 @@ export const recipes = [
   creamyTzatzikiSauce,
   classicToum,
   classicTahiniSauce,
-  roastedRedPepperMuhammaraDip,
   greenZhougSauce,
   harissaYogurtSauce,
   sumacOnionSalad,
