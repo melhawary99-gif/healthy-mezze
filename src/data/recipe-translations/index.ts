@@ -51,6 +51,7 @@ import { spinachFetaStuffedZucchiniBoatsEn } from "./en/spinach-feta-stuffed-zuc
 import { stuffedBellPeppersEn } from "./en/stuffed-bell-peppers";
 import { MediterraneanChickenOrzoSoupEn } from "./en/mediterranean-chicken-orzo-soup";
 import { spinachLentilSoupEn } from "./en/spinach-lentil-soup";
+import { herbRoastedCauliflowerEn } from "./en/herb-roasted-cauliflower";
 import { stuffedEggplantEn } from "./en/stuffed-eggplant";
 import { stuffedMediterraneanEggplantEn } from "./en/stuffed-mediterranean-eggplant";
 import { mediterraneanChickenKabsaEn } from "./en/mediterranean-chicken-kabsa";
@@ -107,6 +108,7 @@ import { SpinachFetaStuffedZucchiniBoatsAr } from "./ar/spinach-feta-stuffed-zuc
 import { stuffedBellPeppersAr } from "./ar/stuffed-bell-peppers";
 import { MediterraneanChickenOrzoSoupAr } from "./ar/mediterranean-chicken-orzo-soup";
 import { SpinachLentilSoupAr } from "./ar/spinach-lentil-soup";
+import { HerbRoastedCauliflowerAr } from "./ar/herb-roasted-cauliflower";
 import { StuffedEggplantAr } from "./ar/stuffed-eggplant";
 import { StuffedMediterraneanEggplantAr } from "./ar/stuffed-mediterranean-eggplant";
 import { MediterraneanChickenKabsaAr } from "./ar/mediterranean-chicken-kabsa";
@@ -192,6 +194,7 @@ const enTranslations: Record<string, RecipeTranslation> = {
   "stuffed-bell-peppers": stuffedBellPeppersEn,
   "mediterranean-chicken-orzo-soup": MediterraneanChickenOrzoSoupEn,
   "spinach-lentil-soup": spinachLentilSoupEn,
+  "herb-roasted-cauliflower": herbRoastedCauliflowerEn,
   "stuffed-eggplant": stuffedEggplantEn,
   "stuffed-mediterranean-eggplant": stuffedMediterraneanEggplantEn,
   "mediterranean-chicken-kabsa": mediterraneanChickenKabsaEn,
@@ -302,6 +305,7 @@ const arTranslations: Record<string, RecipeTranslation> = {
   "stuffed-bell-peppers": stuffedBellPeppersAr,
   "mediterranean-chicken-orzo-soup": MediterraneanChickenOrzoSoupAr,
   "spinach-lentil-soup": SpinachLentilSoupAr,
+  "herb-roasted-cauliflower": HerbRoastedCauliflowerAr,
   "stuffed-eggplant": StuffedEggplantAr,
   "stuffed-mediterranean-eggplant": StuffedMediterraneanEggplantAr,
   "mediterranean-chicken-kabsa": MediterraneanChickenKabsaAr,
