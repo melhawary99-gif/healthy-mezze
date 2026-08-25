@@ -10,6 +10,7 @@ import { RecipeTranslation } from "@/types/recipeTranslation";
 import { greekSaladEn } from "./en/greek-salad";
 import { authenticAmbaSauceEn } from "./en/authentic-amba-sauce";
 import { beetrootSaladEn } from "./en/beetroot-salad";
+import { spinachFatayerEn } from "./en/spinach-fatayer";
 import { stuffedDatesAlmondsPistachiosEn } from "./en/stuffed-dates-almonds-pistachios";
 import { mediterraneanRoastedChickpeasEn } from "./en/mediterranean-roasted-chickpeas";
 import { chickenPitaWrapEn } from "./en/chicken-pita-wrap";
@@ -68,6 +69,7 @@ import { muhammaraEn } from "./en/muhammara";
 import { greekSaladAr } from "./ar/greek-salad";
 import { authenticAmbaSauceAr } from "./ar/authentic-amba-sauce";
 import { beetrootSaladAr } from "./ar/beetroot-salad";
+import { SpinachFatayerAr } from "./ar/spinach-fatayer";
 import { StuffedDatesAlmondsPistachiosAr } from "./ar/stuffed-dates-almonds-pistachios";
 import { MediterraneanRoastedChickpeasAr } from "./ar/mediterranean-roasted-chickpeas";
 import { ChickenPitaWrapAr } from "./ar/chicken-pita-wrap";
@@ -144,6 +146,7 @@ const enTranslations: Record<string, RecipeTranslation> = {
   "mediterranean-oatmeal-dates-pistachios": mediterraneanOatmealDatesPistachiosEn,
   "greek-salad": greekSaladEn,
   "mediterranean-beetroot-salad": beetrootSaladEn,
+  "spinach-fatayer": spinachFatayerEn,
   "stuffed-dates-almonds-pistachios": stuffedDatesAlmondsPistachiosEn,
   "mediterranean-roasted-chickpeas": mediterraneanRoastedChickpeasEn,
   "chicken-pita-wrap": chickenPitaWrapEn,
@@ -258,6 +261,7 @@ const arTranslations: Record<string, RecipeTranslation> = {
   "authentic-amba-sauce": authenticAmbaSauceAr,
   "greek-salad": greekSaladAr,
   "mediterranean-beetroot-salad": beetrootSaladAr,
+  "spinach-fatayer": SpinachFatayerAr,
   "stuffed-dates-almonds-pistachios": StuffedDatesAlmondsPistachiosAr,
   "mediterranean-roasted-chickpeas": MediterraneanRoastedChickpeasAr,
   "chicken-pita-wrap": ChickenPitaWrapAr,
