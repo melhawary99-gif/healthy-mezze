@@ -141,6 +141,9 @@ import { classicHummusEn } from "./en/classic-hummus";
 import { mediterraneanVegetableBakeEn } from "./en/mediterranean-vegetable-bake";
 import { shishTawookEn } from "./en/shish-tawook";
 import { mediterraneanGrilledChickenPlateEn } from "./en/mediterranean-grilled-chicken-plate";
+import { makdousEn } from "./en/makdous";
+
+import { MakdousAr } from "./ar/makdous";
 const enTranslations: Record<string, RecipeTranslation> = {
   "healthy-chicken-makanek": healthyChickenMakanekEn,
   "herbed-labneh-dip": herbedLabnehDipEn,
@@ -226,6 +229,7 @@ const enTranslations: Record<string, RecipeTranslation> = {
   "olive-tapenade": oliveTapenadeEn,
   "hummus-power-bowl": hummusPowerBowlEn,
   "creamy-tzatziki-sauce": creamyTzatzikiSauceEn,
+  "makdous": makdousEn,
 };
 
 import { MediterraneanFalafelWrapAr } from "./ar/mediterranean-falafel-wrap";
@@ -344,6 +348,7 @@ const arTranslations: Record<string, RecipeTranslation> = {
   "olive-tapenade": oliveTapenadeAr,
   "hummus-power-bowl": HummusPowerBowlAr,
   "creamy-tzatziki-sauce": CreamyTzatzikiSauceAr,
+  "makdous": MakdousAr,
 };
 
 export function getRecipeTranslation(
