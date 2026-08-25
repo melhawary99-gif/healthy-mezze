@@ -66,7 +66,9 @@ import { greekYogurtBreakfastBowlEn } from "./en/greek-yogurt-breakfast-bowl";
 import { mediterraneanAvocadoToastEn } from "./en/mediterranean-avocado-toast";
 import { muhammaraEn } from "./en/muhammara";
 
+import { healthyChickenMakanekEn } from "./en/healthy-chicken-makanek";
 import { greekSaladAr } from "./ar/greek-salad";
+import { HealthyChickenMakanekAr } from "./ar/healthy-chicken-makanek";
 import { authenticAmbaSauceAr } from "./ar/authentic-amba-sauce";
 import { beetrootSaladAr } from "./ar/beetroot-salad";
 import { SpinachFatayerAr } from "./ar/spinach-fatayer";
@@ -140,6 +142,7 @@ import { mediterraneanVegetableBakeEn } from "./en/mediterranean-vegetable-bake"
 import { shishTawookEn } from "./en/shish-tawook";
 import { mediterraneanGrilledChickenPlateEn } from "./en/mediterranean-grilled-chicken-plate";
 const enTranslations: Record<string, RecipeTranslation> = {
+  "healthy-chicken-makanek": healthyChickenMakanekEn,
   "herbed-labneh-dip": herbedLabnehDipEn,
   "classic-hummus": classicHummusEn,
   "mediterranean-breakfast-wrap": mediterraneanBreakfastWrapEn,
@@ -256,6 +259,7 @@ import { oliveTapenadeAr } from "./ar/olive-tapenade";
 import { HummusPowerBowlAr } from "./ar/hummus-power-bowl";
 import { CreamyTzatzikiSauceAr } from "./ar/creamy-tzatziki-sauce";
 const arTranslations: Record<string, RecipeTranslation> = {
+  "healthy-chicken-makanek": HealthyChickenMakanekAr,
   "herbed-labneh-dip": herbedLabnehDipAr,
   "classic-hummus": classicHummusAr,
   "authentic-amba-sauce": authenticAmbaSauceAr,
