@@ -152,9 +152,12 @@ import { mediterraneanGrilledChickenPlateEn } from "./en/mediterranean-grilled-c
 import { makdousEn } from "./en/makdous";
 import { roastedCauliflowerTahiniEn } from "./en/roasted-cauliflower-tahini";
 
+import { healthyBasbousaEn } from "./en/healthy-basbousa";
+import { HealthyBasbousaAr } from "./ar/healthy-basbousa";
 import { MakdousAr } from "./ar/makdous";
 import { RoastedCauliflowerTahiniAr } from "./ar/roasted-cauliflower-tahini";
 const enTranslations: Record<string, RecipeTranslation> = {
+  "healthy-basbousa": healthyBasbousaEn,
   "healthy-chicken-makanek": healthyChickenMakanekEn,
   "herbed-labneh-dip": herbedLabnehDipEn,
   "classic-hummus": classicHummusEn,
@@ -284,6 +287,7 @@ import { CreamyTzatzikiSauceAr } from "./ar/creamy-tzatziki-sauce";
 import { HarissaYogurtSauceAr } from "./ar/harissa-yogurt-sauce";
 import { HealthyBakedAtayefAr } from "./ar/healthy-baked-atayef";
 const arTranslations: Record<string, RecipeTranslation> = {
+  "healthy-basbousa": HealthyBasbousaAr,
   "roasted-cauliflower-tahini": RoastedCauliflowerTahiniAr,
   "healthy-chicken-makanek": HealthyChickenMakanekAr,
   "herbed-labneh-dip": herbedLabnehDipAr,
