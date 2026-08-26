@@ -30,6 +30,7 @@ import { creamyCauliflowerSoupEn } from "./en/creamy-cauliflower-soup";
 import { cauliflowerSteaksTahiniEn } from "./en/cauliflower-steaks-tahini";
 import { baklavaYogurtParfaitEn } from "./en/baklava-yogurt-parfait";
 import { roastedEggplantSaladEn } from "./en/roasted-eggplant-salad";
+import { classicTahiniSauceEn } from "./en/classic-tahini-sauce";
 import { eggplantParmesanMediterraneanEn } from "./en/eggplant-parmesan-mediterranean";
 import { lentilSaladEn } from "./en/lentil-salad";
 import { mediterraneanChickpeaSaladEn } from "./en/mediterranean-chickpea-salad";
@@ -95,6 +96,7 @@ import { creamyCauliflowerSoupAr } from "./ar/creamy-cauliflower-soup";
 import { CauliflowerSteaksTahiniAr } from "./ar/cauliflower-steaks-tahini";
 import { baklavaYogurtParfaitAr } from "./ar/baklava-yogurt-parfait";
 import { roastedEggplantSaladAr } from "./ar/roasted-eggplant-salad";
+import { ClassicTahiniSauceAr } from "./ar/classic-tahini-sauce";
 import { EggplantParmesanMediterraneanAr } from "./ar/eggplant-parmesan-mediterranean";
 import { lentilSaladAr } from "./ar/lentil-salad";
 import { mediterraneanChickpeaSaladAr } from "./ar/mediterranean-chickpea-salad";
@@ -176,6 +178,7 @@ const enTranslations: Record<string, RecipeTranslation> = {
   "cauliflower-steaks-tahini": cauliflowerSteaksTahiniEn,
   "baklava-yogurt-parfait": baklavaYogurtParfaitEn,
   "roasted-eggplant-salad": roastedEggplantSaladEn,
+  "classic-tahini-sauce": classicTahiniSauceEn,
   "eggplant-parmesan-mediterranean": eggplantParmesanMediterraneanEn,
   "mediterranean-lentil-salad": lentilSaladEn,
   "mediterranean-chickpea-salad": mediterraneanChickpeaSaladEn,
@@ -298,6 +301,7 @@ const arTranslations: Record<string, RecipeTranslation> = {
   "cauliflower-steaks-tahini": CauliflowerSteaksTahiniAr,
   "baklava-yogurt-parfait": baklavaYogurtParfaitAr,
   "roasted-eggplant-salad": roastedEggplantSaladAr,
+  "classic-tahini-sauce": ClassicTahiniSauceAr,
   "eggplant-parmesan-mediterranean": EggplantParmesanMediterraneanAr,
   "mediterranean-lentil-salad": lentilSaladAr,
   "mediterranean-chickpea-salad": mediterraneanChickpeaSaladAr,
