@@ -1,0 +1,327 @@
+import { RecipeTranslation } from "@/types/recipeTranslation";
+
+export const roastedCauliflowerTahiniEn: RecipeTranslation = {
+  title: "Roasted Cauliflower with Tahini Sauce",
+
+  description:
+    "Golden roasted cauliflower finished with creamy lemon-garlic tahini, toasted pine nuts, fresh parsley, and paprika. A simple Lebanese mezze with deep roasted flavor, bright acidity, and a silky sesame sauce.",
+
+  longDescription:
+    "Roasted Cauliflower with Tahini Sauce is a simple Lebanese-style mezze that turns humble cauliflower into a deeply flavorful Mediterranean dish. The cauliflower is roasted at high heat until the edges become golden and caramelized while the centers remain tender. It is then finished with a creamy tahini sauce made with lemon, garlic, and water, followed by parsley, toasted pine nuts, and paprika. The combination of earthy roasted cauliflower, nutty sesame, bright lemon, and fresh herbs makes this dish especially satisfying as part of a Lebanese mezze table. It works equally well as a warm appetizer, vegetable side dish, or light vegetarian meal.",
+
+  imageAlt:
+    "Golden roasted cauliflower florets drizzled with creamy lemon-garlic tahini sauce and topped with parsley, toasted pine nuts, and paprika on a Lebanese mezze table.",
+
+  ingredients: [
+    {
+      amount: 1,
+      unit: "",
+      name: "medium cauliflower",
+      note: "Cut into evenly sized florets. Keep the florets relatively similar in size so they roast at the same rate.",
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "extra virgin olive oil",
+      note: "Use enough to lightly coat the cauliflower without making it greasy.",
+    },
+    {
+      amount: 0.5,
+      unit: "tsp",
+      name: "sea salt",
+      note: "Start with this amount and adjust after roasting and tasting the tahini sauce.",
+    },
+    {
+      amount: 0.5,
+      unit: "tsp",
+      name: "black pepper",
+    },
+    {
+      amount: 1,
+      unit: "tsp",
+      name: "ground cumin",
+      note: "Adds warm earthy flavor that complements both cauliflower and tahini.",
+    },
+    {
+      amount: 0.3333333333333333,
+      unit: "cup",
+      name: "tahini",
+      note: "Use a well-stirred sesame tahini. Natural separation is normal, so mix the tahini thoroughly before measuring.",
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "fresh lemon juice",
+      note: "Add gradually if you prefer a milder or sharper tahini sauce.",
+    },
+    {
+      amount: 1,
+      unit: "garlic",
+      name: "clove, minced",
+      note: "Use a fresh garlic clove for the best flavor. Reduce the amount if you prefer a gentler garlic taste.",
+    },
+    {
+      amount: 3,
+      unit: "tbsp",
+      name: "water",
+      note: "Add gradually. You may need more or less depending on the thickness of the tahini.",
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "fresh parsley",
+      note: "Chopped shortly before serving for the freshest flavor.",
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "toasted pine nuts",
+      note: "Toast gently until lightly golden. Watch closely because pine nuts can burn quickly.",
+    },
+    {
+      amount: 1,
+      unit: "tsp",
+      name: "paprika",
+      note: "Sprinkle lightly over the finished dish for color and mild warmth.",
+    },
+    {
+      amount: 1,
+      unit: "",
+      name: "lemon wedges",
+      note: "Serve alongside the cauliflower for an optional fresh squeeze at the table.",
+    },
+  ],
+
+  instructions: [
+    "Preheat the oven to 425°F (220°C) and position a rack in the center of the oven. Give the oven enough time to become fully hot before roasting.",
+    "Cut the cauliflower into medium, evenly sized florets. Try to keep the florets similar in size so smaller pieces do not burn before larger pieces become tender.",
+    "Place the cauliflower in a large bowl and toss thoroughly with the extra virgin olive oil, sea salt, black pepper, and ground cumin. Every floret should have a light coating of seasoning and oil.",
+    "Spread the cauliflower over a large baking tray in a single layer. Leave space between the florets rather than piling them together. Crowding causes steaming and makes browning more difficult.",
+    "Roast for 25–30 minutes, turning the florets with a spatula or tongs around the halfway point. Continue roasting until the edges are deeply golden and the thickest stems can be pierced easily with a fork.",
+    "While the cauliflower roasts, prepare the tahini sauce. Whisk the tahini, fresh lemon juice, and minced garlic together. The mixture may become very thick or briefly look curdled when the lemon is added; this is normal.",
+    "Gradually whisk in the water, one spoonful at a time, until the tahini becomes smooth, creamy, and pourable. Stop adding water once the sauce reaches a consistency that can easily drizzle over the cauliflower.",
+    "Taste the tahini sauce before serving. Adjust with a little more lemon juice for brightness, water for a thinner consistency, or a small amount of salt if needed. The sauce should taste nutty, creamy, fresh, and pleasantly tangy.",
+    "Transfer the roasted cauliflower to a serving platter while it is still warm. Drizzle the tahini sauce over the top rather than completely covering every piece so the roasted texture remains visible.",
+    "Finish with chopped fresh parsley, toasted pine nuts, and a light dusting of paprika. Serve immediately with lemon wedges and enjoy as a Lebanese mezze, side dish, or light vegetarian meal.",
+  ],
+
+  healthBenefits: [
+    "Cauliflower provides dietary fiber and vitamin C while remaining naturally low in calories.",
+    "Cauliflower contains antioxidant compounds and plant nutrients that contribute to a varied, vegetable-rich diet.",
+    "Tahini provides unsaturated fats along with minerals such as calcium and magnesium.",
+    "Extra virgin olive oil contributes predominantly monounsaturated fat and fits naturally into a Mediterranean-style eating pattern.",
+    "Pine nuts add healthy fats, plant protein, and additional minerals in a small but flavorful portion.",
+    "Fresh parsley and lemon add flavor and micronutrients without requiring a heavy sauce.",
+    "The recipe is naturally vegetarian and gluten-free when all packaged ingredients are suitable for those dietary needs.",
+  ],
+
+  keywords: [
+    "Roasted Cauliflower with Tahini",
+    "Lebanese Roasted Cauliflower",
+    "Cauliflower Tahini",
+    "Lebanese Mezze",
+    "Mediterranean Cauliflower",
+    "Tahini Sauce",
+    "Healthy Cauliflower Recipe",
+    "Vegetarian Lebanese Recipe",
+  ],
+
+  tags: [
+    "mezze",
+    "Lebanese",
+    "Mediterranean",
+    "cauliflower",
+    "tahini",
+    "vegetarian",
+    "gluten-free",
+    "healthy",
+    "side dish",
+    "appetizer",
+  ],
+
+  story: {
+    introduction:
+      "This dish shows how Lebanese cooking can turn an everyday vegetable into something worthy of the center of a mezze table. Roasting brings out the cauliflower's natural sweetness and creates browned, savory edges, while tahini, lemon, garlic, herbs, and olive oil provide the familiar combination of richness, acidity, freshness, and nuttiness found throughout Levantine cuisine.",
+
+    culturalContext:
+      "Tahini-based vegetable dishes have a strong place in Lebanese and wider Levantine food traditions, where vegetables are often served alongside dips, pickles, breads, grains, and other small plates. Cauliflower is particularly versatile in the region and can be fried, roasted, stewed, or combined with tahini. This roasted preparation is a modern, lighter approach that keeps the spirit of Lebanese mezze while avoiding deep-frying.",
+
+    mediterraneanConnection:
+      "The dish reflects the Mediterranean pantry through extra virgin olive oil, sesame tahini, fresh lemon, garlic, herbs, nuts, and abundant vegetables. Instead of relying on a heavy cream-based sauce, tahini creates richness from ground sesame seeds, while lemon keeps the finished dish bright and balanced. These ingredients are characteristic of the broader Eastern Mediterranean and Levantine culinary tradition.",
+
+    whatMakesItMediterranean: [
+      "Extra virgin olive oil provides the primary cooking fat.",
+      "Cauliflower is the main ingredient, making the dish vegetable-forward.",
+      "Tahini adds richness from ground sesame rather than dairy cream.",
+      "Fresh lemon provides acidity and brightness.",
+      "Garlic and cumin provide characteristic Levantine aromatic flavors.",
+      "Parsley contributes freshness and herbaceous flavor.",
+      "Pine nuts add a traditional Mediterranean and Levantine nutty element.",
+      "The dish works naturally as part of a shared mezze table.",
+    ],
+  },
+
+  cookingGuide: {
+    beforeYouCook: [
+      "Cut the cauliflower into evenly sized florets before seasoning so they cook at roughly the same speed.",
+      "Dry the cauliflower well after washing. Excess surface water can create steam and reduce browning.",
+      "Preheat the oven completely to 425°F (220°C) before putting the tray inside.",
+      "Stir the tahini thoroughly in its container before measuring because sesame oil naturally separates.",
+      "Have the tahini sauce ingredients ready while the cauliflower roasts so the finished dish can be assembled while the cauliflower is warm.",
+    ],
+
+    tips: [
+      "For better browning, avoid overcrowding the baking tray. Use a second tray if necessary.",
+      "Place the cauliflower cut-side down where possible; the greater contact with the hot tray encourages caramelization.",
+      "Do not keep opening the oven unnecessarily because temperature loss can slow browning.",
+      "If the cauliflower is browning too quickly before becoming tender, lower the oven temperature slightly and continue roasting.",
+      "Tahini thickness varies between brands. Add water gradually instead of following the water amount blindly.",
+      "If the tahini sauce tastes bitter or too intense, more lemon, a little water, and careful seasoning can help balance it.",
+      "Toast pine nuts over medium-low heat and stay nearby. They can change from golden to burnt very quickly.",
+    ],
+
+    visualCues: [
+      "Before roasting, the cauliflower should look lightly coated with oil and spices rather than wet or heavily covered.",
+      "During roasting, the edges should gradually become golden brown and slightly crisp.",
+      "The thickest cauliflower stems should be tender enough for a fork to enter without significant resistance.",
+      "The finished tahini sauce should be smooth and pourable, similar to a thick dressing rather than a paste.",
+      "The completed dish should show visible golden cauliflower, creamy tahini, green parsley, toasted pine nuts, and a light paprika finish.",
+    ],
+
+    howDoIKnowItsDone: [
+      "The cauliflower is ready when the thickest pieces are tender when pierced with a fork or small knife.",
+      "Look for browned, caramelized edges rather than relying only on the cooking time.",
+      "The centers should be tender while the smaller florets retain enough structure to avoid becoming mushy.",
+      "The tahini sauce is ready when it falls easily from a spoon in a smooth ribbon and does not remain as a stiff paste.",
+      "Taste both the cauliflower and tahini sauce before plating so salt, lemon, and seasoning can be adjusted while they are still easy to correct.",
+    ],
+  },
+
+  adaptations: {
+    substitutions: [
+      {
+        id: "pine-nut-alternative",
+        title: "Replace the Pine Nuts",
+        description:
+          "Use toasted walnuts or almonds if pine nuts are unavailable. Chop them into small pieces so they provide a similar crunchy contrast.",
+      },
+      {
+        id: "fresh-parsley-alternative",
+        title: "Replace the Parsley",
+        description:
+          "Fresh cilantro can be used for a different herbal profile, although parsley gives the dish a more classic fresh Levantine character.",
+      },
+      {
+        id: "lemon-adjustment",
+        title: "Adjust the Lemon",
+        description:
+          "Reduce the lemon juice slightly for a gentler sauce or add more at the end if you prefer a sharper, brighter tahini dressing.",
+      },
+    ],
+
+    dietary: [
+      {
+        id: "vegan-version",
+        title: "Keep It Vegan",
+        description:
+          "The recipe is naturally vegan as written because the sauce uses tahini, lemon, garlic, and water rather than dairy.",
+      },
+      {
+        id: "gluten-free-version",
+        title: "Keep It Gluten-Free",
+        description:
+          "The ingredients are naturally gluten-free. If serving guests who must strictly avoid gluten, check packaged tahini, spices, and pine nuts for appropriate labeling.",
+      },
+    ],
+
+    budget: [
+      {
+        id: "budget-nuts",
+        title: "Reduce the Cost of the Topping",
+        description:
+          "Pine nuts can be expensive. Use a smaller amount or replace them with toasted sunflower seeds or chopped walnuts while keeping the roasted cauliflower and tahini as the main components.",
+      },
+    ],
+
+    timeSaving: [
+      {
+        id: "prepared-cauliflower",
+        title: "Prepare the Cauliflower Ahead",
+        description:
+          "Cut the cauliflower into florets earlier in the day and refrigerate it in a covered container. Pat it dry before seasoning and roasting.",
+      },
+    ],
+
+    servings: [
+      {
+        id: "scale-servings",
+        title: "Adjust the Amount",
+        description:
+          "For a larger mezze gathering, scale the cauliflower and sauce proportionally. When increasing the quantity significantly, use multiple baking trays rather than crowding one tray.",
+      },
+    ],
+  },
+
+  visualSteps: [
+    {
+      step: 1,
+      title: "Prepare the Cauliflower",
+      description:
+        "Cut the cauliflower into medium, evenly sized florets and make sure the surface is dry before seasoning. Even pieces roast more consistently and dry cauliflower browns better.",
+      image:
+        "/images/recipes/roasted-cauliflower-tahini/step-1-prepare-cauliflower.webp",
+      imageAlt:
+        "Fresh cauliflower being cut into evenly sized florets on a natural work surface in a stylish Mediterranean kitchen.",
+      tip:
+        "Do not make the florets too small. Medium pieces give you tender centers while allowing the edges to become deeply golden.",
+    },
+    {
+      step: 2,
+      title: "Season the Cauliflower",
+      description:
+        "Toss the dry cauliflower florets with extra virgin olive oil, sea salt, black pepper, and cumin until they are lightly and evenly coated.",
+      image:
+        "/images/recipes/roasted-cauliflower-tahini/step-2-season-cauliflower.webp",
+      imageAlt:
+        "Cauliflower florets being seasoned with olive oil, cumin, salt, and black pepper in a natural stylish Mediterranean kitchen.",
+      tip:
+        "Use enough olive oil to coat the florets lightly. Too much oil can make the cauliflower greasy instead of allowing the edges to roast and caramelize.",
+    },
+    {
+      step: 3,
+      title: "Arrange for Roasting",
+      description:
+        "Spread the seasoned cauliflower over a large baking tray in a single layer with space between the florets. Place the tray in a fully preheated 425°F (220°C) oven.",
+      image:
+        "/images/recipes/roasted-cauliflower-tahini/step-3-arrange-for-roasting.webp",
+      imageAlt:
+        "Seasoned cauliflower florets naturally arranged with space between them on a baking tray in a stylish Mediterranean kitchen.",
+      tip:
+        "Avoid crowding the tray. If the florets touch too closely, they release steam and will not brown as effectively.",
+    },
+    {
+      step: 4,
+      title: "Roast Until Golden",
+      description:
+        "Roast the cauliflower for about 25–30 minutes, turning it halfway through, until the edges are golden brown and the thickest stems are tender.",
+      image:
+        "/images/recipes/roasted-cauliflower-tahini/step-4-roast-until-golden.webp",
+      imageAlt:
+        "Golden roasted cauliflower florets browning on a baking tray in a natural stylish Mediterranean kitchen.",
+      tip:
+        "Look at the color and texture rather than relying only on the clock. Deep golden edges and tender centers are the best signs that the cauliflower is ready.",
+    },
+    {
+      step: 5,
+      title: "Make the Tahini Sauce",
+      description:
+        "In a medium bowl, whisk together ⅓ cup tahini, 2 tbsp fresh lemon juice, and 1 minced garlic clove. Whisk until the lemon juice and garlic are fully incorporated. The tahini may suddenly become very thick, stiff, or slightly grainy after the lemon juice is added; this is a normal reaction and does not mean the sauce has gone wrong. Gradually whisk in 3 tbsp water, about 1 tbsp at a time, allowing each addition to blend in before adding more. Continue whisking until the sauce becomes smooth, creamy, pale, and easily pourable. If it is still too thick for drizzling, add another small splash of water and whisk again until you reach a silky consistency that flows easily from a spoon without becoming watery.",
+      image:
+        "/images/recipes/roasted-cauliflower-tahini/step-5-make-tahini-sauce.webp",
+      imageAlt:
+        "Creamy lemon-garlic tahini sauce being whisked in a bowl in a natural stylish Lebanese-inspired kitchen.",
+      tip:
+        "Add the water gradually rather than all at once. Start with the full 3 tbsp, adding it 1 tbsp at a time. Tahini often thickens dramatically when lemon juice is first added, so do not worry if it suddenly looks stiff or grainy. Keep whisking while adding the water gradually and the mixture will loosen into a smooth, creamy sauce. The finished sauce should be thick enough to coat a spoon lightly but loose enough to drizzle easily over the roasted cauliflower.",
+    },
+    {
+      step: 6,
