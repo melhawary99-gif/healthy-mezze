@@ -31,6 +31,7 @@ import { cauliflowerSteaksTahiniEn } from "./en/cauliflower-steaks-tahini";
 import { baklavaYogurtParfaitEn } from "./en/baklava-yogurt-parfait";
 import { roastedEggplantSaladEn } from "./en/roasted-eggplant-salad";
 import { classicTahiniSauceEn } from "./en/classic-tahini-sauce";
+import { classicToumEn } from "./en/classic-toum";
 import { eggplantParmesanMediterraneanEn } from "./en/eggplant-parmesan-mediterranean";
 import { lentilSaladEn } from "./en/lentil-salad";
 import { mediterraneanChickpeaSaladEn } from "./en/mediterranean-chickpea-salad";
@@ -97,6 +98,7 @@ import { CauliflowerSteaksTahiniAr } from "./ar/cauliflower-steaks-tahini";
 import { baklavaYogurtParfaitAr } from "./ar/baklava-yogurt-parfait";
 import { roastedEggplantSaladAr } from "./ar/roasted-eggplant-salad";
 import { ClassicTahiniSauceAr } from "./ar/classic-tahini-sauce";
+import { ClassicToumAr } from "./ar/classic-toum";
 import { EggplantParmesanMediterraneanAr } from "./ar/eggplant-parmesan-mediterranean";
 import { lentilSaladAr } from "./ar/lentil-salad";
 import { mediterraneanChickpeaSaladAr } from "./ar/mediterranean-chickpea-salad";
@@ -179,6 +181,7 @@ const enTranslations: Record<string, RecipeTranslation> = {
   "baklava-yogurt-parfait": baklavaYogurtParfaitEn,
   "roasted-eggplant-salad": roastedEggplantSaladEn,
   "classic-tahini-sauce": classicTahiniSauceEn,
+  "classic-toum": classicToumEn,
   "eggplant-parmesan-mediterranean": eggplantParmesanMediterraneanEn,
   "mediterranean-lentil-salad": lentilSaladEn,
   "mediterranean-chickpea-salad": mediterraneanChickpeaSaladEn,
@@ -302,6 +305,7 @@ const arTranslations: Record<string, RecipeTranslation> = {
   "baklava-yogurt-parfait": baklavaYogurtParfaitAr,
   "roasted-eggplant-salad": roastedEggplantSaladAr,
   "classic-tahini-sauce": ClassicTahiniSauceAr,
+  "classic-toum": ClassicToumAr,
   "eggplant-parmesan-mediterranean": EggplantParmesanMediterraneanAr,
   "mediterranean-lentil-salad": lentilSaladAr,
   "mediterranean-chickpea-salad": mediterraneanChickpeaSaladAr,
