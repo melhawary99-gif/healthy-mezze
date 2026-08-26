@@ -184,6 +184,7 @@ const enTranslations: Record<string, RecipeTranslation> = {
   "roasted-eggplant-salad": roastedEggplantSaladEn,
   "classic-tahini-sauce": classicTahiniSauceEn,
   "green-zhoug-sauce": greenZhougSauceEn,
+  "harissa-yogurt-sauce": harissaYogurtSauceEn,
   "classic-toum": classicToumEn,
   "eggplant-parmesan-mediterranean": eggplantParmesanMediterraneanEn,
   "mediterranean-lentil-salad": lentilSaladEn,
@@ -274,9 +275,11 @@ import { RoastedTomatoBasilSoupAr } from "./ar/roasted-tomato-basil-soup";
 import { oliveTapenadeEn } from "./en/olive-tapenade";
 import { hummusPowerBowlEn } from "./en/hummus-power-bowl";
 import { creamyTzatzikiSauceEn } from "./en/creamy-tzatziki-sauce";
+import { harissaYogurtSauceEn } from "./en/harissa-yogurt-sauce";
 import { oliveTapenadeAr } from "./ar/olive-tapenade";
 import { HummusPowerBowlAr } from "./ar/hummus-power-bowl";
 import { CreamyTzatzikiSauceAr } from "./ar/creamy-tzatziki-sauce";
+import { HarissaYogurtSauceAr } from "./ar/harissa-yogurt-sauce";
 const arTranslations: Record<string, RecipeTranslation> = {
   "roasted-cauliflower-tahini": RoastedCauliflowerTahiniAr,
   "healthy-chicken-makanek": HealthyChickenMakanekAr,
@@ -309,6 +312,7 @@ const arTranslations: Record<string, RecipeTranslation> = {
   "roasted-eggplant-salad": roastedEggplantSaladAr,
   "classic-tahini-sauce": ClassicTahiniSauceAr,
   "green-zhoug-sauce": GreenZhougSauceAr,
+  "harissa-yogurt-sauce": HarissaYogurtSauceAr,
   "classic-toum": ClassicToumAr,
   "eggplant-parmesan-mediterranean": EggplantParmesanMediterraneanAr,
   "mediterranean-lentil-salad": lentilSaladAr,

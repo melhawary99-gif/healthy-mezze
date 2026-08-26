@@ -8,17 +8,17 @@ export const harissaYogurtSauce: Recipe = {
   slug: "harissa-yogurt-sauce",
 
   description:
-    "A creamy Mediterranean yogurt sauce with harissa, garlic, lemon, and fresh herbs that adds a spicy kick to grilled meats, vegetables, and wraps.",
+    "A creamy, tangy yogurt sauce blended with Tunisian harissa, garlic, lemon, olive oil, and fresh herbs for a smoky, mildly spicy Mediterranean-style condiment.",
 
   longDescription:
-    "Harissa Yogurt Sauce combines creamy Greek yogurt with traditional North African harissa paste, fresh garlic, lemon juice, and herbs for a bold yet balanced sauce. Popular throughout North Africa and increasingly across the Mediterranean, this healthy version is high in protein while delivering smoky, mildly spicy flavors that pair wonderfully with grilled chicken, lamb, seafood, roasted vegetables, falafel, and grain bowls.",
+    "Harissa Yogurt Sauce brings together the cooling creaminess of Greek yogurt and the deep chili, garlic, and spice character of North African harissa. Harissa is especially associated with Tunisia, where the chili-based paste is a staple condiment and flavoring ingredient. This lighter yogurt-based sauce balances harissa's heat with lemon, fresh herbs, and extra virgin olive oil, making it an easy accompaniment for grilled chicken, lamb, fish, roasted vegetables, falafel, grain bowls, sandwiches, wraps, and Mediterranean mezze.",
 
   image: "/images/recipes/harissa-yogurt-sauce.webp",
 
   imageAlt:
-    "A bowl of creamy harissa yogurt sauce garnished with parsley, olive oil, chili flakes, and lemon wedges.",
+    "A bowl of creamy harissa yogurt sauce garnished with fresh parsley, a drizzle of extra virgin olive oil, chili flakes, and lemon wedges.",
 
-  cuisine: "Lebanese",
+  cuisine: "Tunisian",
 
   category: "dips-sauces",
 
@@ -26,127 +26,135 @@ export const harissaYogurtSauce: Recipe = {
 
   cookTime: "0 mins",
 
-  totalTime: "10 mins",
+  totalTime: "30 mins",
 
   servings: 8,
 
   difficulty: "Easy",
 
-  ingredients: [
-{
-    amount: 1,
-    unit: "",
-    name: "cups plain Greek yogurt"
-  },
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "harissa paste"
-  },
-{
-    amount: 1,
-    unit: "garlic",
-    name: "clove, finely minced"
-  },
-{
-    amount: 1,
-    unit: "tbsp",
-    name: "fresh lemon juice"
-  },
-{
-    amount: 1,
-    unit: "tbsp",
-    name: "extra virgin olive oil"
-  },
-{
-    amount: 1,
-    unit: "tbsp",
-    name: "chopped fresh parsley"
-  },
-{
-    amount: 1,
-    unit: "tsp",
-    name: "chopped fresh mint"
-  },
-{
-    amount: 0.25,
-    unit: "tsp",
-    name: "ground cumin"
-  },
-{
-    amount: 0.25,
-    unit: "tsp",
-    name: "smoked paprika"
-  },
-{
-    amount: 0.5,
-    unit: "tsp",
-    name: "sea salt"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "Fresh parsley for garnish"
-  },
-{
-    amount: 1,
-    unit: "",
-    name: "Extra olive oil for drizzling"
-  }
-],
+  vegetarian: true,
 
-instructions: [
-    "Place the Greek yogurt in a medium bowl.",
-    "Add the harissa paste, garlic, lemon juice, olive oil, parsley, mint, cumin, paprika, and salt.",
-    "Whisk until completely smooth and well combined.",
-    "Taste and adjust the harissa or lemon juice if desired.",
-    "Cover and refrigerate for at least 20 minutes to allow the flavors to develop.",
-    "Transfer to a serving bowl.",
-    "Drizzle with a little olive oil and garnish with fresh parsley before serving."
+  vegan: false,
+
+  ingredients: [
+    {
+      amount: 1,
+      unit: "cup",
+      name: "plain Greek yogurt",
+      note: "Use full-fat or low-fat Greek yogurt according to preference; thicker yogurt produces a thicker dip."
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "harissa paste",
+      note: "Adjust according to the heat and salt level of the harissa you are using."
+    },
+    {
+      amount: 1,
+      unit: "garlic",
+      name: "clove, finely minced",
+      note: "Finely mince or crush the garlic so it blends evenly into the yogurt."
+    },
+    {
+      amount: 1,
+      unit: "tbsp",
+      name: "fresh lemon juice",
+      note: "Add gradually if your harissa is already quite tangy."
+    },
+    {
+      amount: 1,
+      unit: "tbsp",
+      name: "extra virgin olive oil"
+    },
+    {
+      amount: 1,
+      unit: "tbsp",
+      name: "fresh parsley, finely chopped"
+    },
+    {
+      amount: 1,
+      unit: "tsp",
+      name: "fresh mint, finely chopped"
+    },
+    {
+      amount: 0.25,
+      unit: "tsp",
+      name: "ground cumin"
+    },
+    {
+      amount: 0.25,
+      unit: "tsp",
+      name: "smoked paprika"
+    },
+    {
+      amount: 0.5,
+      unit: "tsp",
+      name: "sea salt",
+      note: "Start with less if the harissa paste is already salty."
+    },
+    {
+      amount: 1,
+      unit: "tbsp",
+      name: "fresh parsley for garnish"
+    },
+    {
+      amount: 1,
+      unit: "tbsp",
+      name: "extra virgin olive oil for drizzling"
+    }
+  ],
+
+  instructions: [
+    "Place 1 cup Greek yogurt in a medium mixing bowl and whisk briefly until smooth. If the yogurt is very thick, loosen it with a small splash of water only if needed.",
+    "Add 2 tablespoons harissa paste, 1 finely minced garlic clove, 1 tablespoon fresh lemon juice, 1 tablespoon extra virgin olive oil, 1 tablespoon chopped parsley, 1 teaspoon chopped mint, 1/4 teaspoon ground cumin, 1/4 teaspoon smoked paprika, and 1/2 teaspoon sea salt.",
+    "Whisk thoroughly until the harissa, garlic, herbs, and spices are evenly distributed and the sauce has a uniform creamy color. Scrape the sides and bottom of the bowl so no concentrated harissa or seasoning remains unmixed.",
+    "Taste the sauce before adjusting it. Add a little more harissa for heat and deeper chili flavor, lemon juice for brightness, or a small pinch of salt if needed. If the sauce is too spicy, stir in additional Greek yogurt 1 tablespoon at a time.",
+    "Cover the bowl and refrigerate for at least 20 minutes. This resting time allows the garlic, harissa, herbs, and spices to blend into the yogurt and gives the sauce a more balanced flavor.",
+    "Stir the chilled sauce before serving. If it has become thicker than desired, loosen it with a small splash of cold water and stir until it reaches a smooth, spoonable consistency.",
+    "Transfer to a serving bowl, drizzle with a little extra virgin olive oil, and garnish with fresh parsley. Serve chilled or cool alongside grilled meats, fish, falafel, roasted vegetables, grain bowls, sandwiches, wraps, or mezze."
   ],
 
   nutrition: {
     calories: 65,
-    protein: "6 g",
+    protein: "5 g",
     carbs: "3 g",
-    fat: "3 g",
+    fat: "4 g",
     fiber: "0 g",
     sugar: "2 g",
     sodium: "180 mg"
-  
-  
-  
-  
-  
-  
   },
 
   healthBenefits: [
-    "High in protein from Greek yogurt",
-    "Contains probiotics that support gut health",
-    "Provides heart-healthy fats from olive oil",
-    "Harissa contains antioxidant-rich chili peppers",
-    "Lower in fat than cream-based sauces",
-    "Naturally gluten-free",
-    "Pairs well with lean proteins and vegetables"
+    "Provides protein from Greek yogurt",
+    "Contains live cultures when made with yogurt that lists active cultures",
+    "Provides heart-friendly unsaturated fats from extra virgin olive oil",
+    "Contains antioxidant-rich compounds from chili peppers, garlic, and herbs",
+    "Adds substantial flavor without relying on heavy cream or mayonnaise",
+    "Naturally gluten-free when all packaged ingredients are certified gluten-free",
+    "Vegetarian-friendly",
+    "Pairs well with vegetables and lean protein-rich foods"
   ],
 
   keywords: [
     "Harissa Yogurt Sauce",
+    "Tunisian Harissa Sauce",
     "Spicy Yogurt Sauce",
-    "Mediterranean Sauce",
-    "Healthy Yogurt Dip",
-    "Harissa Dip"
+    "Harissa Dip",
+    "Mediterranean Yogurt Sauce",
+    "North African Sauce",
+    "Healthy Harissa Sauce"
   ],
 
   tags: [
     "dip",
     "sauce",
     "harissa",
-    "Greek yogurt",
+    "Tunisian",
+    "North African",
     "Mediterranean",
-    "healthy",
+    "yogurt",
     "vegetarian",
+    "healthy",
     "gluten-free"
   ],
 

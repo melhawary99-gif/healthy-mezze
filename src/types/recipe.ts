@@ -43,6 +43,7 @@ export interface Recipe {
   cuisine:
     | "Egyptian"
     | "Lebanese"
+    | "Tunisian"
     | "Greek"
     | "Turkish"
     | "Syrian"
