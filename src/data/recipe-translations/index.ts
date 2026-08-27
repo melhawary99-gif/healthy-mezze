@@ -163,6 +163,7 @@ import { HealthyBasbousaAr } from "./ar/healthy-basbousa";
 import { MakdousAr } from "./ar/makdous";
 import { RoastedCauliflowerTahiniAr } from "./ar/roasted-cauliflower-tahini";
 const enTranslations: Record<string, RecipeTranslation> = {
+  "healthy-om-ali": healthyOmAliEn,
   "healthy-dark-chocolate-stuffed-dates": healthyDarkChocolateStuffedDatesEn,
   "healthy-date-walnut-maamoul": healthyDateWalnutMaamoulEn,
   "healthy-basbousa": healthyBasbousaEn,
@@ -291,12 +292,15 @@ import { hummusPowerBowlEn } from "./en/hummus-power-bowl";
 import { creamyTzatzikiSauceEn } from "./en/creamy-tzatziki-sauce";
 import { harissaYogurtSauceEn } from "./en/harissa-yogurt-sauce";
 import { healthyBakedAtayefEn } from "./en/healthy-baked-atayef";
+import { healthyOmAliEn } from "./en/healthy-om-ali";
 import { oliveTapenadeAr } from "./ar/olive-tapenade";
 import { HummusPowerBowlAr } from "./ar/hummus-power-bowl";
 import { CreamyTzatzikiSauceAr } from "./ar/creamy-tzatziki-sauce";
 import { HarissaYogurtSauceAr } from "./ar/harissa-yogurt-sauce";
 import { HealthyBakedAtayefAr } from "./ar/healthy-baked-atayef";
+import { HealthyOmAliAr } from "./ar/healthy-om-ali";
 const arTranslations: Record<string, RecipeTranslation> = {
+  "healthy-om-ali": HealthyOmAliAr,
   "healthy-mahalabia": HealthyMahalabiaAr,
   "healthy-dark-chocolate-stuffed-dates": healthyDarkChocolateStuffedDatesAr,
   "healthy-date-walnut-maamoul": healthyDateWalnutMaamoulAr,
