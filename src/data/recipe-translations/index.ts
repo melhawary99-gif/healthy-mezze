@@ -259,6 +259,7 @@ const enTranslations: Record<string, RecipeTranslation> = {
   "makdous": makdousEn,
   "roasted-cauliflower-tahini": roastedCauliflowerTahiniEn,
   "healthy-kanafeh-ricotta": healthyKanafehRicottaEn,
+  "healthy-mahalabia": healthyMahalabiaEn,
 };
 
 import { MediterraneanFalafelWrapAr } from "./ar/mediterranean-falafel-wrap";
@@ -296,6 +297,7 @@ import { CreamyTzatzikiSauceAr } from "./ar/creamy-tzatziki-sauce";
 import { HarissaYogurtSauceAr } from "./ar/harissa-yogurt-sauce";
 import { HealthyBakedAtayefAr } from "./ar/healthy-baked-atayef";
 const arTranslations: Record<string, RecipeTranslation> = {
+  "healthy-mahalabia": HealthyMahalabiaAr,
   "healthy-dark-chocolate-stuffed-dates": healthyDarkChocolateStuffedDatesAr,
   "healthy-date-walnut-maamoul": healthyDateWalnutMaamoulAr,
   "healthy-basbousa": HealthyBasbousaAr,
@@ -401,3 +403,6 @@ export function getRecipeTranslation(
 ): RecipeTranslation | undefined {
   return locale === "ar" ? arTranslations[slug] : enTranslations[slug];
 }
+
+import { healthyMahalabiaEn } from "./en/healthy-mahalabia";
+import { HealthyMahalabiaAr } from "./ar/healthy-mahalabia";
