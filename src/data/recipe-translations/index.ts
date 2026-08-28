@@ -265,6 +265,7 @@ const enTranslations: Record<string, RecipeTranslation> = {
   "healthy-kanafeh-ricotta": healthyKanafehRicottaEn,
   "healthy-roz-bel-laban": healthyRozBelLabanEn,
   "healthy-mahalabia": healthyMahalabiaEn,
+  "healthy-sesame-tahini-cookies": healthySesameTahiniCookiesEn,
 };
 
 import { MediterraneanFalafelWrapAr } from "./ar/mediterranean-falafel-wrap";
@@ -306,6 +307,7 @@ import { HealthyBakedAtayefAr } from "./ar/healthy-baked-atayef";
 import { HealthyOmAliAr } from "./ar/healthy-om-ali";
 import { HealthyPistachioBaklavaRollsAr } from "./ar/healthy-pistachio-baklava-rolls";
 const arTranslations: Record<string, RecipeTranslation> = {
+  "healthy-sesame-tahini-cookies": healthySesameTahiniCookiesAr,
   "healthy-om-ali": HealthyOmAliAr,
   "healthy-pistachio-baklava-rolls": HealthyPistachioBaklavaRollsAr,
   "healthy-mahalabia": HealthyMahalabiaAr,
@@ -417,4 +419,6 @@ export function getRecipeTranslation(
 }
 
 import { healthyMahalabiaEn } from "./en/healthy-mahalabia";
+import { healthySesameTahiniCookiesEn } from "./en/healthy-sesame-tahini-cookies";
 import { HealthyMahalabiaAr } from "./ar/healthy-mahalabia";
+import { healthySesameTahiniCookiesAr } from "./ar/healthy-sesame-tahini-cookies";
