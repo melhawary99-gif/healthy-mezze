@@ -43,8 +43,6 @@ import { mediterraneanVegetableBake } from "./mediterranean-vegetable-bake";
 import { spinachFetaStuffedZucchiniBoats } from "./spinach-feta-stuffed-zucchini-boats";
 import { cauliflowerSteaksTahini } from "./cauliflower-steaks-tahini";
 import { mediterraneanStuffedPortobelloMushrooms } from "./mediterranean-stuffed-portobello-mushrooms";
-import { roastedVegetableQuinoaBowl } from "./roasted-vegetable-quinoa-bowl";
-import { spinachChickpeaStew } from "./spinach-chickpea-stew";
 import { eggplantParmesanMediterranean } from "./eggplant-parmesan-mediterranean";
 import { herbRoastedCauliflower } from "./herb-roasted-cauliflower";
 import { mediterraneanLentilPatties } from "./mediterranean-lentil-patties";
@@ -105,7 +103,6 @@ import { classicTahiniSauce } from "./classic-tahini-sauce";
 import { greenZhougSauce } from "./green-zhoug-sauce";
 import { harissaYogurtSauce } from "./harissa-yogurt-sauce";
 import { sumacOnionSalad } from "./sumac-onion-salad";
-import { taratorSauce } from "./tarator-sauce";
 import { authenticAmbaSauce } from "./authentic-amba-sauce";
 import { authenticChermoulaSauce } from "./authentic-chermoula-sauce";
 
@@ -148,8 +145,6 @@ export const recipes = [
   spinachFetaStuffedZucchiniBoats,
   cauliflowerSteaksTahini,
   mediterraneanStuffedPortobelloMushrooms,
-  roastedVegetableQuinoaBowl,
-  spinachChickpeaStew,
   herbRoastedCauliflower,
   mediterraneanLentilPatties,
   vegetableMoussaka,
@@ -210,7 +205,6 @@ export const recipes = [
   greenZhougSauce,
   harissaYogurtSauce,
   sumacOnionSalad,
-  taratorSauce,
   authenticAmbaSauce,
   authenticChermoulaSauce,
 
