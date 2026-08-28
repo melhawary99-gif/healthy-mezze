@@ -161,6 +161,7 @@ import { makdousEn } from "./en/makdous";
 import { roastedCauliflowerTahiniEn } from "./en/roasted-cauliflower-tahini";
 import { healthyKanafehRicottaEn } from "./en/healthy-kanafeh-ricotta";
 import { healthyRozBelLabanEn } from "./en/healthy-roz-bel-laban";
+import { traditionalJallabEn } from "./en/traditional-jallab";
 
 import { healthyBasbousaEn } from "./en/healthy-basbousa";
 import { HealthyBasbousaAr } from "./ar/healthy-basbousa";
@@ -169,6 +170,7 @@ import { RoastedCauliflowerTahiniAr } from "./ar/roasted-cauliflower-tahini";
 import { mediterraneanLentilPattiesEn } from "./en/mediterranean-lentil-patties";
 import { mediterraneanStuffedPortobelloMushroomsEn } from "./en/mediterranean-stuffed-portobello-mushrooms";
 const enTranslations: Record<string, RecipeTranslation> = {
+  "traditional-jallab": traditionalJallabEn,
   "sumac-onion-salad": sumacOnionSaladEn,
   "healthy-om-ali": healthyOmAliEn,
   "healthy-pistachio-baklava-rolls": healthyPistachioBaklavaRollsEn,
@@ -315,7 +317,9 @@ import { HealthyOmAliAr } from "./ar/healthy-om-ali";
 import { HealthyPistachioBaklavaRollsAr } from "./ar/healthy-pistachio-baklava-rolls";
 import { mediterraneanLentilPattiesAr } from "./ar/mediterranean-lentil-patties";
 import { mediterraneanStuffedPortobelloMushroomsAr } from "./ar/mediterranean-stuffed-portobello-mushrooms";
+import { TraditionalJallabAr } from "./ar/traditional-jallab";
 const arTranslations: Record<string, RecipeTranslation> = {
+  "traditional-jallab": TraditionalJallabAr,
   "sumac-onion-salad": sumacOnionSaladAr,
   "healthy-sesame-tahini-cookies": healthySesameTahiniCookiesAr,
   "healthy-om-ali": HealthyOmAliAr,
