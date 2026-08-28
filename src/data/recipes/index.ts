@@ -147,7 +147,6 @@ export const recipes = [
   mediterraneanStuffedPortobelloMushrooms,
   herbRoastedCauliflower,
   mediterraneanLentilPatties,
-  vegetableMoussaka,
   bakedFalafel,
   mediterraneanShakshuka,
   labnehZaatarOliveOil,
