@@ -1,5 +1,6 @@
 import { mediterraneanEnergyBallsAr } from "./ar/mediterranean-energy-balls";
 import { healthyKanafehRicottaAr } from "./ar/healthy-kanafeh-ricotta";
+import { HealthyRozBelLabanAr } from "./ar/healthy-roz-bel-laban";
 import { mediterraneanEnergyBallsEn } from "./en/mediterranean-energy-balls";
 import { lentilSoupEn } from "./en/lentil-soup";
 import { MediterraneanLemonHerbSalmonAr } from "./ar/mediterranean-lemon-herb-salmon";
@@ -157,6 +158,7 @@ import { mediterraneanGrilledChickenPlateEn } from "./en/mediterranean-grilled-c
 import { makdousEn } from "./en/makdous";
 import { roastedCauliflowerTahiniEn } from "./en/roasted-cauliflower-tahini";
 import { healthyKanafehRicottaEn } from "./en/healthy-kanafeh-ricotta";
+import { healthyRozBelLabanEn } from "./en/healthy-roz-bel-laban";
 
 import { healthyBasbousaEn } from "./en/healthy-basbousa";
 import { HealthyBasbousaAr } from "./ar/healthy-basbousa";
@@ -261,6 +263,7 @@ const enTranslations: Record<string, RecipeTranslation> = {
   "makdous": makdousEn,
   "roasted-cauliflower-tahini": roastedCauliflowerTahiniEn,
   "healthy-kanafeh-ricotta": healthyKanafehRicottaEn,
+  "healthy-roz-bel-laban": healthyRozBelLabanEn,
   "healthy-mahalabia": healthyMahalabiaEn,
 };
 
@@ -311,6 +314,7 @@ const arTranslations: Record<string, RecipeTranslation> = {
   "healthy-basbousa": HealthyBasbousaAr,
   "roasted-cauliflower-tahini": RoastedCauliflowerTahiniAr,
   "healthy-kanafeh-ricotta": healthyKanafehRicottaAr,
+  "healthy-roz-bel-laban": HealthyRozBelLabanAr,
   "healthy-chicken-makanek": HealthyChickenMakanekAr,
   "herbed-labneh-dip": herbedLabnehDipAr,
   "classic-hummus": classicHummusAr,
