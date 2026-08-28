@@ -3,127 +3,145 @@ import { Recipe } from "@/types/recipe";
 export const sumacOnionSalad: Recipe = {
   id: 99,
 
-  title: "Sumac Onion Salad",
+  title: "Turkish Sumac Onion Salad",
 
   slug: "sumac-onion-salad",
 
   description:
-    "A traditional Lebanese onion relish made with red onions, fresh parsley, sumac, lemon juice, and olive oil.",
+    "A bright Turkish onion and parsley salad made with thinly sliced red onion, tangy sumac, fresh lemon juice, parsley, and extra virgin olive oil.",
 
   longDescription:
-    "Sumac Onion Salad is a classic accompaniment served alongside shawarma, kebabs, grilled meats, kofta, and falafel throughout Lebanon and the Middle East. The sharpness of red onions is mellowed with lemon juice while earthy sumac provides its signature tangy flavor. Fresh parsley and extra virgin olive oil complete this simple yet flavorful condiment that adds freshness and brightness to many Mediterranean dishes.",
+    "Turkish Sumac Onion Salad, known as soğan piyazı, is a simple and intensely flavorful accompaniment traditionally served with grilled meats and kebabs. Thinly sliced red onion is first massaged with salt to soften its sharp raw bite, then combined with lemon juice and generous ground sumac before being finished with fresh flat-leaf parsley, extra virgin olive oil, and black pepper. This preparation is especially effective because the salt massage and short resting period mellow the onion without removing its characteristic crunch. The result is crisp, tangy, herbaceous, and refreshing, making it an excellent contrast to rich grilled foods, kebabs, kofta, falafel, wraps, and other Mediterranean and Middle Eastern-style dishes.",
 
   image: "/images/recipes/sumac-onion-salad.webp",
 
   imageAlt:
-    "A bowl of Lebanese sumac onion salad made with sliced red onions, parsley, lemon, and sumac.",
+    "Turkish sumac onion salad made with thinly sliced red onion, fresh parsley, ground sumac, lemon juice, and olive oil.",
 
-  cuisine: "Lebanese",
+  cuisine: "Turkish",
 
-  category: "dips-sauces",
+  category: "salads",
 
-  prepTime: "10 mins",
+  prepTime: "15 mins",
 
   cookTime: "0 mins",
 
-  totalTime: "10 mins",
+  totalTime: "15 mins",
 
-  servings: 6,
+  servings: 4,
 
   difficulty: "Easy",
 
   ingredients: [
-{
-    amount: 2,
-    unit: "",
-    name: "Medium red onions, very thinly sliced"
-  },
-{
-    amount: 0.25,
-    unit: "cup",
-    name: "chopped fresh parsley"
-  },
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "extra virgin olive oil"
-  },
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "fresh lemon juice"
-  },
-{
-    amount: 1,
-    unit: "tbsp",
-    name: "ground sumac"
-  },
-{
-    amount: 0.5,
-    unit: "tsp",
-    name: "sea salt"
-  },
-{
-    amount: 0.25,
-    unit: "tsp",
-    name: "black pepper"
-  }
-],
+    {
+      amount: 1,
+      unit: "",
+      name: "medium red onion",
+      note:
+        "Halved and sliced very thinly into half-moons. Use a firm onion and a sharp knife for the cleanest slices.",
+    },
+    {
+      amount: 0.5,
+      unit: "tsp",
+      name: "kosher salt",
+      note:
+        "Used first to massage and soften the onion. Add more only after tasting the finished salad.",
+    },
+    {
+      amount: 0.25,
+      unit: "cup",
+      name: "fresh lemon juice",
+      note:
+        "Adds acidity and helps mellow the sharpness of the raw onion during the resting period.",
+    },
+    {
+      amount: 4,
+      unit: "tsp",
+      name: "ground sumac",
+      note:
+        "The defining spice of the salad. Use fresh, fragrant sumac for the brightest citrus-like flavor.",
+    },
+    {
+      amount: 1.5,
+      unit: "cups",
+      name: "fresh flat-leaf parsley",
+      note:
+        "Lightly packed leaves, roughly chopped. Parsley acts as a major part of the salad rather than merely a garnish.",
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "extra virgin olive oil",
+      note:
+        "Adds richness and helps carry the lemony sumac flavor through the salad.",
+    },
+    {
+      amount: 0.25,
+      unit: "tsp",
+      name: "freshly ground black pepper",
+      note:
+        "Add with the parsley and olive oil, then adjust to taste.",
+    },
+  ],
 
-instructions: [
-    "Place the sliced onions in a large bowl.",
-    "Add the lemon juice and salt.",
-    "Massage the onions gently for 2–3 minutes to soften them.",
-    "Add the parsley, sumac, olive oil, and black pepper.",
-    "Toss until evenly coated.",
-    "Let the salad rest for 10 minutes before serving.",
-    "Serve alongside grilled meats, shawarma, falafel, kebabs, or wraps."
+  instructions: [
+    "Halve the 1 medium red onion from root to tip. Peel it and slice it into very thin half-moon slices, aiming for approximately 2–3 mm thickness so the onion softens evenly while retaining some crunch.",
+    "Place the sliced onion in a medium mixing bowl and add 1/2 teaspoon kosher salt.",
+    "Using clean fingers, massage the salt into the onion for about 1 minute. Gently squeeze and rub the slices until they become slightly softer and begin releasing some moisture, but do not crush them into a paste.",
+    "Add the 1/4 cup fresh lemon juice and 4 teaspoons ground sumac to the massaged onion. Toss thoroughly so the acid and sumac coat the slices evenly.",
+    "Let the onion stand with the lemon juice and sumac for about 10 minutes. This resting period allows the onion to mellow further and gives the sumac time to infuse its citrusy, tangy flavor.",
+    "Add the 1 1/2 cups lightly packed chopped flat-leaf parsley, 2 tablespoons extra virgin olive oil, and 1/4 teaspoon freshly ground black pepper.",
+    "Toss gently until the parsley is evenly distributed and every onion slice is lightly coated. Avoid aggressively crushing the onion at this stage.",
+    "Taste before adding more salt. The onion has already been salted and sumac can intensify the savory impression, so adjust cautiously.",
+    "Serve immediately or shortly after resting, alongside grilled meats, kebabs, kofta, falafel, lahmacun, wraps, or as part of a larger Turkish-style mezze spread.",
   ],
 
   nutrition: {
-    calories: 55,
-    protein: "0 g",
-    carbs: "5 g",
-    fat: "4 g",
-    fiber: "1 g",
-    sugar: "2 g",
-    sodium: "180 mg"
-  
-  
-  
-  
-  
-  
+    calories: 75,
+    protein: "1 g",
+    carbs: "8 g",
+    fat: "5 g",
+    fiber: "2 g",
+    sugar: "3 g",
+    sodium: "300 mg",
   },
 
   healthBenefits: [
-    "Rich in antioxidants from sumac",
-    "Provides vitamin C from fresh lemon juice",
-    "Contains heart-healthy olive oil",
-    "Naturally vegan",
-    "Adds flavor without processed ingredients",
-    "Pairs well with lean proteins",
-    "Fresh parsley provides vitamins A, C, and K"
+    "Provides fiber from red onion and fresh parsley.",
+    "Fresh parsley contributes vitamin K and vitamin C.",
+    "Red onion provides naturally occurring antioxidant compounds.",
+    "Sumac contributes plant compounds and a naturally tart flavor without requiring added sugar.",
+    "Extra virgin olive oil provides predominantly unsaturated fat.",
+    "Fresh lemon juice adds acidity and vitamin C.",
+    "Naturally vegan.",
+    "Naturally dairy-free.",
+    "A vegetable-forward accompaniment that adds substantial flavor without requiring a heavy sauce.",
   ],
 
   keywords: [
+    "Turkish Sumac Onion Salad",
+    "Sogan Piyazi",
+    "Soğan Piyazı",
+    "Turkish Onion Salad",
     "Sumac Onion Salad",
-    "Lebanese Onion Relish",
-    "Shawarma Topping",
-    "Middle Eastern Condiment",
-    "Sumac Onions"
+    "Turkish Onion Parsley Salad",
+    "Kebab Onion Salad",
+    "Turkish Meze",
   ],
 
   tags: [
-    "dip",
-    "sauce",
-    "condiment",
-    "Lebanese",
+    "salad",
+    "Turkish",
+    "Mediterranean",
     "sumac",
+    "red onion",
+    "parsley",
     "vegan",
+    "dairy-free",
     "healthy",
-    "mezze"
+    "mezze",
+    "kebab",
   ],
 
-  featured: true
+  featured: true,
 };

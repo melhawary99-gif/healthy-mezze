@@ -8,6 +8,8 @@ import { mediterraneanLemonHerbSalmonEn } from "./en/mediterranean-lemon-herb-sa
 import { EgyptianKoshariAr } from "./ar/egyptian-koshari";
 import { egyptianKoshariEn } from "./en/egyptian-koshari";
 import { RecipeTranslation } from "@/types/recipeTranslation";
+import { sumacOnionSaladAr } from "./ar/sumac-onion-salad";
+import { sumacOnionSaladEn } from "./en/sumac-onion-salad";
 import { healthyDarkChocolateStuffedDatesEn } from "./en/healthy-dark-chocolate-stuffed-dates";
 import { healthyDateWalnutMaamoulEn } from "./en/healthy-date-walnut-maamoul";
 import { healthyDarkChocolateStuffedDatesAr } from "./ar/healthy-dark-chocolate-stuffed-dates";
@@ -167,6 +169,7 @@ import { RoastedCauliflowerTahiniAr } from "./ar/roasted-cauliflower-tahini";
 import { mediterraneanLentilPattiesEn } from "./en/mediterranean-lentil-patties";
 import { mediterraneanStuffedPortobelloMushroomsEn } from "./en/mediterranean-stuffed-portobello-mushrooms";
 const enTranslations: Record<string, RecipeTranslation> = {
+  "sumac-onion-salad": sumacOnionSaladEn,
   "healthy-om-ali": healthyOmAliEn,
   "healthy-pistachio-baklava-rolls": healthyPistachioBaklavaRollsEn,
   "healthy-dark-chocolate-stuffed-dates": healthyDarkChocolateStuffedDatesEn,
@@ -313,6 +316,7 @@ import { HealthyPistachioBaklavaRollsAr } from "./ar/healthy-pistachio-baklava-r
 import { mediterraneanLentilPattiesAr } from "./ar/mediterranean-lentil-patties";
 import { mediterraneanStuffedPortobelloMushroomsAr } from "./ar/mediterranean-stuffed-portobello-mushrooms";
 const arTranslations: Record<string, RecipeTranslation> = {
+  "sumac-onion-salad": sumacOnionSaladAr,
   "healthy-sesame-tahini-cookies": healthySesameTahiniCookiesAr,
   "healthy-om-ali": HealthyOmAliAr,
   "healthy-pistachio-baklava-rolls": HealthyPistachioBaklavaRollsAr,
