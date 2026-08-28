@@ -8,19 +8,24 @@ export const mediterraneanStuffedPortobelloMushrooms: Recipe = {
   slug: "mediterranean-stuffed-portobello-mushrooms",
 
   description:
-    "Large Portobello mushrooms stuffed with spinach, quinoa, feta cheese, sun-dried tomatoes, and Mediterranean herbs, then baked until golden.",
+    "Large Portobello mushrooms filled with quinoa, spinach, sun-dried tomatoes, feta, fresh herbs, and Parmesan, then baked until tender and lightly golden.",
 
   longDescription:
-    "Mediterranean Stuffed Portobello Mushrooms combine meaty Portobello mushroom caps with a wholesome filling of quinoa, spinach, feta cheese, sun-dried tomatoes, garlic, and fresh herbs. The mushrooms become tender while the filling develops a delicious golden crust, creating a satisfying vegetarian meal rich in nutrients and Mediterranean flavors.",
+    "These Mediterranean Stuffed Portobello Mushrooms turn large mushroom caps into a satisfying vegetarian main dish. The filling combines cooked quinoa with wilted spinach, sun-dried tomatoes, feta, garlic, basil, oregano, and Parmesan, bringing together ingredients commonly used in Mediterranean-style cooking. The mushroom caps are first roasted to soften them and release excess moisture, then filled and baked until tender with a lightly golden topping.",
 
-  image: "/images/recipes/mediterranean-stuffed-portobello-mushrooms.webp",
+  image:
+    "/images/recipes/mediterranean-stuffed-portobello-mushrooms.webp",
 
   imageAlt:
-    "Baked Portobello mushrooms stuffed with spinach, quinoa, feta cheese, sun-dried tomatoes, parsley, and herbs.",
+    "Baked Portobello mushrooms filled with quinoa, spinach, feta cheese, sun-dried tomatoes, basil, oregano, and Parmesan.",
 
-  cuisine: "Lebanese",
+  cuisine: "Mediterranean",
 
   category: "vegetarian",
+
+  vegetarian: true,
+
+  vegan: false,
 
   prepTime: "20 mins",
 
@@ -33,136 +38,148 @@ export const mediterraneanStuffedPortobelloMushrooms: Recipe = {
   difficulty: "Easy",
 
   ingredients: [
-{
-    amount: 4,
-    unit: "",
-    name: "Large Portobello mushrooms"
-  },
-{
-    amount: 1,
-    unit: "cup",
-    name: "cooked quinoa"
-  },
-{
-    amount: 2,
-    unit: "cups",
-    name: "fresh spinach, chopped"
-  },
-{
-    amount: 120,
-    unit: "g",
-    name: "feta cheese, crumbled"
-  },
-{
-    amount: 0.25,
-    unit: "cup",
-    name: "sun-dried tomatoes, finely chopped"
-  },
-{
-    amount: 2,
-    unit: "garlic",
-    name: "cloves, minced"
-  },
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "extra virgin olive oil"
-  },
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "chopped fresh parsley"
-  },
-{
-    amount: 1,
-    unit: "tbsp",
-    name: "chopped fresh basil"
-  },
-{
-    amount: 1,
-    unit: "tsp",
-    name: "dried oregano"
-  },
-{
-    amount: 2,
-    unit: "tbsp",
-    name: "grated Parmesan cheese"
-  },
-{
-    amount: 1,
-    unit: "tsp",
-    name: "lemon juice"
-  },
-{
-    amount: 0.5,
-    unit: "tsp",
-    name: "sea salt"
-  },
-{
-    amount: 0.25,
-    unit: "tsp",
-    name: "black pepper"
-  }
-],
+    {
+      amount: 4,
+      unit: "",
+      name: "large Portobello mushrooms",
+      note:
+        "Wipe clean, remove the stems, and gently scrape out the dark gills to create room for the filling.",
+    },
+    {
+      amount: 1,
+      unit: "cup",
+      name: "cooked quinoa",
+      note: "Cooked and cooled slightly before mixing with the filling.",
+    },
+    {
+      amount: 3,
+      unit: "cups",
+      name: "fresh baby spinach",
+      note: "Roughly chopped.",
+    },
+    {
+      amount: 120,
+      unit: "g",
+      name: "feta cheese",
+      note: "Crumbled.",
+    },
+    {
+      amount: 0.5,
+      unit: "cup",
+      name: "sun-dried tomatoes",
+      note:
+        "Finely chopped; drain and pat dry if packed in oil.",
+    },
+    {
+      amount: 2,
+      unit: "cloves",
+      name: "garlic",
+      note: "Minced.",
+    },
+    {
+      amount: 3,
+      unit: "tbsp",
+      name: "extra virgin olive oil",
+      note:
+        "Use about 2 tablespoons for the mushrooms and the remainder for the filling.",
+    },
+    {
+      amount: 2,
+      unit: "tbsp",
+      name: "fresh basil",
+      note: "Finely chopped.",
+    },
+    {
+      amount: 1,
+      unit: "tsp",
+      name: "dried oregano",
+    },
+    {
+      amount: 1,
+      unit: "tbsp",
+      name: "balsamic vinegar",
+      note: "Adds acidity and balances the savory filling.",
+    },
+    {
+      amount: 0.25,
+      unit: "cup",
+      name: "grated Parmesan cheese",
+      note: "Sprinkle over the filled mushrooms before the final bake.",
+    },
+    {
+      amount: 1,
+      unit: "tbsp",
+      name: "fresh lemon juice",
+      note: "Use to brighten the finished filling.",
+    },
+    {
+      amount: 0.5,
+      unit: "tsp",
+      name: "sea salt",
+      note:
+        "Adjust carefully because feta and Parmesan already contain salt.",
+    },
+    {
+      amount: 0.25,
+      unit: "tsp",
+      name: "freshly ground black pepper",
+    },
+  ],
 
-instructions: [
-    "Preheat the oven to 200°C (400°F).",
-    "Remove the mushroom stems and gently scrape out the dark gills if desired.",
-    "Brush both sides of the mushrooms with olive oil and place them on a baking tray.",
-    "Bake the mushroom caps for 8 minutes to release excess moisture.",
-    "Meanwhile, heat a small amount of olive oil in a skillet and sauté the garlic until fragrant.",
-    "Add the spinach and cook until wilted.",
-    "Stir in the cooked quinoa, sun-dried tomatoes, feta cheese, parsley, basil, oregano, lemon juice, salt, and pepper.",
-    "Remove from the heat and mix in the Parmesan cheese.",
-    "Fill each mushroom cap generously with the mixture.",
-    "Bake for another 15–18 minutes until the mushrooms are tender and the tops are lightly golden.",
-    "Serve warm with a fresh Mediterranean salad or roasted vegetables."
+  instructions: [
+    "Preheat the oven to 200°C (400°F) and line a baking tray with parchment paper if desired.",
+    "Wipe the Portobello mushrooms clean, remove the stems, and gently scrape out the dark gills. Keep the mushroom caps intact.",
+    "Brush the mushroom caps with about 2 tablespoons of olive oil and season lightly with salt and black pepper. Arrange them on the baking tray.",
+    "Roast the empty mushroom caps for about 8–10 minutes, until they begin to soften and release some moisture. Carefully pour or blot away excess liquid.",
+    "Meanwhile, heat the remaining olive oil in a skillet over medium heat. Add the minced garlic and cook for about 30 seconds, just until fragrant.",
+    "Add the chopped spinach and cook for about 1–2 minutes, stirring until just wilted. Remove from the heat.",
+    "In a large bowl, combine the cooked quinoa, wilted spinach and garlic, sun-dried tomatoes, crumbled feta, chopped basil, oregano, balsamic vinegar, lemon juice, salt, and black pepper. Mix gently until evenly combined.",
+    "Divide the quinoa mixture evenly among the partially roasted mushroom caps, gently mounding the filling without crushing the mushrooms.",
+    "Sprinkle the grated Parmesan evenly over the tops of the filled mushrooms.",
+    "Return the mushrooms to the oven and bake for about 15–17 minutes, until the mushroom caps are tender, the filling is heated through, and the Parmesan is lightly golden.",
+    "Allow the mushrooms to rest for a few minutes, then serve warm with a fresh green salad, roasted vegetables, or another light Mediterranean-style side.",
   ],
 
   nutrition: {
-    calories: 285,
-    protein: "16 g",
-    carbs: "21 g",
-    fat: "16 g",
+    calories: 320,
+    protein: "15 g",
+    carbs: "22 g",
+    fat: "20 g",
     fiber: "5 g",
     sugar: "4 g",
-    sodium: "510 mg"
-  
-  
-  
-  
-  
-  
+    sodium: "560 mg",
   },
 
   healthBenefits: [
-    "Excellent source of plant-based protein",
-    "Rich in antioxidants",
-    "High in B vitamins",
-    "Good source of dietary fiber",
-    "Provides calcium from feta cheese",
-    "Heart-healthy olive oil",
-    "Mediterranean diet friendly"
+    "Provides protein from quinoa, feta, Parmesan, and mushrooms.",
+    "Provides dietary fiber from quinoa, spinach, mushrooms, and sun-dried tomatoes.",
+    "Spinach contributes folate, vitamin K, and other micronutrients.",
+    "Quinoa provides plant-based protein and naturally occurring minerals.",
+    "Extra virgin olive oil provides predominantly unsaturated fat.",
+    "Mushrooms contribute B vitamins and other micronutrients.",
+    "A vegetable-forward vegetarian meal built around Mediterranean-style ingredients.",
   ],
 
   keywords: [
+    "Mediterranean Stuffed Portobello Mushrooms",
     "Stuffed Portobello Mushrooms",
-    "Mediterranean Mushrooms",
-    "Vegetarian Mushrooms",
-    "Healthy Mushroom Recipe",
-    "Baked Portobello"
+    "Quinoa Stuffed Mushrooms",
+    "Spinach Stuffed Mushrooms",
+    "Feta Stuffed Mushrooms",
+    "Vegetarian Mushroom Recipe",
+    "Healthy Portobello Mushrooms",
   ],
 
   tags: [
     "vegetarian",
     "Mediterranean",
-    "Lebanese",
     "mushrooms",
     "quinoa",
     "spinach",
+    "feta",
     "healthy",
-    "high protein"
+    "high protein",
   ],
 
-  featured: true
+  featured: true,
 };
