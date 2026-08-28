@@ -1,7 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const classicHummus: Recipe = {
-  id: 53,
+  id: 54,
 
   title: "Palestinian Hummus bi-Tahini",
 

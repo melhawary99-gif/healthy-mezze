@@ -164,6 +164,7 @@ import { healthyBasbousaEn } from "./en/healthy-basbousa";
 import { HealthyBasbousaAr } from "./ar/healthy-basbousa";
 import { MakdousAr } from "./ar/makdous";
 import { RoastedCauliflowerTahiniAr } from "./ar/roasted-cauliflower-tahini";
+import { mediterraneanLentilPattiesEn } from "./en/mediterranean-lentil-patties";
 const enTranslations: Record<string, RecipeTranslation> = {
   "healthy-om-ali": healthyOmAliEn,
   "healthy-pistachio-baklava-rolls": healthyPistachioBaklavaRollsEn,
@@ -266,6 +267,7 @@ const enTranslations: Record<string, RecipeTranslation> = {
   "healthy-roz-bel-laban": healthyRozBelLabanEn,
   "healthy-mahalabia": healthyMahalabiaEn,
   "healthy-sesame-tahini-cookies": healthySesameTahiniCookiesEn,
+  "mediterranean-lentil-patties": mediterraneanLentilPattiesEn,
 };
 
 import { MediterraneanFalafelWrapAr } from "./ar/mediterranean-falafel-wrap";
@@ -306,6 +308,7 @@ import { HarissaYogurtSauceAr } from "./ar/harissa-yogurt-sauce";
 import { HealthyBakedAtayefAr } from "./ar/healthy-baked-atayef";
 import { HealthyOmAliAr } from "./ar/healthy-om-ali";
 import { HealthyPistachioBaklavaRollsAr } from "./ar/healthy-pistachio-baklava-rolls";
+import { mediterraneanLentilPattiesAr } from "./ar/mediterranean-lentil-patties";
 const arTranslations: Record<string, RecipeTranslation> = {
   "healthy-sesame-tahini-cookies": healthySesameTahiniCookiesAr,
   "healthy-om-ali": HealthyOmAliAr,
@@ -409,6 +412,7 @@ const arTranslations: Record<string, RecipeTranslation> = {
   "hummus-power-bowl": HummusPowerBowlAr,
   "creamy-tzatziki-sauce": CreamyTzatzikiSauceAr,
   "makdous": MakdousAr,
+  "mediterranean-lentil-patties": mediterraneanLentilPattiesAr,
 };
 
 export function getRecipeTranslation(
