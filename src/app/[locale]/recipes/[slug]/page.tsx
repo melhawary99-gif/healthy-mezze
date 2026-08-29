@@ -26,14 +26,13 @@ import RecipeStorageSection from "@/components/recipes/RecipeStorageSection";
 import RecipeServingSection from "@/components/recipes/RecipeServingSection";
 import RecipeFAQSection from "@/components/recipes/RecipeFAQSection";
 
+import { SITE_URL } from "@/lib/seo";
 type RecipePageProps = {
   params: Promise<{
     locale: "en" | "ar";
     slug: string;
   }>;
 };
-
-const SITE_URL = "https://www.healthymezze.com";
 
 export async function generateMetadata({ params }: RecipePageProps): Promise<Metadata> {
   const { slug, locale } = await params;

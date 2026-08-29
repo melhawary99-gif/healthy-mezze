@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import Container from "@/components/ui/Container";
 import { getTranslations } from "next-intl/server";
+import { getLanguageAlternates } from "@/lib/seo";
 
 type FAQItem = {
   question: string;
@@ -25,6 +26,7 @@ export async function generateMetadata({
     description: t("metaDescription"),
     alternates: {
       canonical: `/${locale}/faq`,
+      languages: getLanguageAlternates("/faq"),
     },
   };
 }

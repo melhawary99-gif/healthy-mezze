@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import Container from "@/components/ui/Container";
+import { getLanguageAlternates } from "@/lib/seo";
 
 type Props = {
   params: Promise<{
@@ -21,6 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: t("metaDescription"),
     alternates: {
       canonical: `/${locale}/disclaimer`,
+      languages: getLanguageAlternates("/disclaimer"),
     },
   };
 }

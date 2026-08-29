@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Container from "@/components/ui/Container";
 import { Link } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
+import { getLanguageAlternates } from "@/lib/seo";
 
 type AboutPageProps = {
   params: Promise<{
@@ -22,6 +23,7 @@ export async function generateMetadata({ params }: AboutPageProps): Promise<Meta
     description: t("subtitle"),
     alternates: {
       canonical: `/${locale}/about`,
+      languages: getLanguageAlternates("/about"),
     },
   };
 }

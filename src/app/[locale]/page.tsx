@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { DEFAULT_OG_IMAGE, getLanguageAlternates, SITE_URL } from "@/lib/seo";
 import Hero from "@/components/home/Hero";
 import dynamic from "next/dynamic";
 
@@ -16,8 +17,6 @@ type HomePageProps = {
     locale: "en" | "ar";
   }>;
 };
-
-const SITE_URL = "https://www.healthymezze.com";
 
 export async function generateMetadata({
   params,
@@ -43,11 +42,7 @@ export async function generateMetadata({
     alternates: {
       canonical: localizedUrl,
 
-      languages: {
-        en: englishUrl,
-        ar: arabicUrl,
-        "x-default": englishUrl,
-      },
+      languages: getLanguageAlternates(),
     },
 
     openGraph: {
@@ -58,12 +53,14 @@ export async function generateMetadata({
       siteName: "Healthy Mezze",
       title,
       description,
+      images: [DEFAULT_OG_IMAGE],
     },
 
     twitter: {
       card: "summary_large_image",
       title,
       description,
+      images: [DEFAULT_OG_IMAGE.url],
     },
   };
 }

@@ -8,8 +8,7 @@ import { Link } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
 
 
-const SITE_URL = "https://www.healthymezze.com";
-
+import { SITE_URL } from "@/lib/seo";
 type CategoriesPageProps = {
   params: Promise<{
     locale: "en" | "ar";

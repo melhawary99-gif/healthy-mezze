@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
+import { getLanguageAlternates } from "@/lib/seo";
 
 type Props = {
   params: Promise<{
@@ -20,6 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: t("metaDescription"),
     alternates: {
       canonical: `/${locale}/cookies`,
+      languages: getLanguageAlternates("/cookies"),
     },
   };
 }

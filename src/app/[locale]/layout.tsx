@@ -7,6 +7,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
 import { routing } from "@/i18n/routing";
+import { SITE_URL, getLanguageAlternates } from "@/lib/seo";
 
 type Props = {
   children: React.ReactNode;
@@ -14,8 +15,6 @@ type Props = {
     locale: string;
   }>;
 };
-
-const SITE_URL = "https://www.healthymezze.com";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({
@@ -39,8 +38,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     : "Discover healthy and delicious Mediterranean recipes inspired by Egyptian, Lebanese, Greek, Turkish, Syrian, Jordanian, and Palestinian cuisine.";
 
   const localizedUrl = `${SITE_URL}/${safeLocale}`;
-  const englishUrl = `${SITE_URL}/en`;
-  const arabicUrl = `${SITE_URL}/ar`;
 
   const keywords = isArabic
     ? [
@@ -85,11 +82,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: {
       canonical: localizedUrl,
 
-      languages: {
-        en: englishUrl,
-        ar: arabicUrl,
-        "x-default": englishUrl,
-      },
+      languages: getLanguageAlternates(),
     },
 
     robots: {
@@ -124,9 +117,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
       images: [
         {
-          url: "/logo.png",
-          width: 512,
-          height: 512,
+          url: "/images/og-image.jpg",
+          width: 1200,
+          height: 630,
           alt: "Healthy Mezze",
         },
       ],
@@ -139,7 +132,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
       description,
 
-      images: ["/logo.png"],
+      images: ["/images/og-image.jpg"],
     },
 
     icons: {

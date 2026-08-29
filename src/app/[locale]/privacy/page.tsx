@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
+import { getLanguageAlternates } from "@/lib/seo";
 
 type Props = {
   params: Promise<{
@@ -21,6 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
     alternates: {
       canonical: `/${locale}/privacy`,
+      languages: getLanguageAlternates("/privacy"),
     },
   };
 }

@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { getLanguageAlternates } from "@/lib/seo";
 
 import Container from "@/components/ui/Container";
 import Newsletter from "@/components/Newsletter";
@@ -23,6 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: t("hero.description"),
     alternates: {
       canonical: `/${locale}/contact`,
+      languages: getLanguageAlternates("/contact"),
     },
   };
 }

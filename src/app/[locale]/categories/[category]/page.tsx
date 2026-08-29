@@ -9,14 +9,13 @@ import { categories } from "@/data/categories";
 import RecipeCard from "@/components/recipes/RecipeCard";
 import Container from "@/components/ui/Container";
 
+import { SITE_URL } from "@/lib/seo";
 type CategoryPageProps = {
   params: Promise<{
     locale: "en" | "ar";
     category: string;
   }>;
 };
-
-const SITE_URL = "https://www.healthymezze.com";
 
 export async function generateMetadata({ params }: CategoryPageProps): Promise<Metadata> {
   const { locale, category } = await params;

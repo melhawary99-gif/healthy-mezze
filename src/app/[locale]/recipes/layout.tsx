@@ -1,13 +1,12 @@
 import type { Metadata } from "next";
 
+import { SITE_URL } from "@/lib/seo";
 type RecipesLayoutProps = {
   children: React.ReactNode;
   params: Promise<{
     locale: string;
   }>;
 };
-
-const SITE_URL = "https://www.healthymezze.com";
 
 export async function generateMetadata({ params }: RecipesLayoutProps): Promise<Metadata> {
   const { locale } = await params;
@@ -89,9 +88,9 @@ export async function generateMetadata({ params }: RecipesLayoutProps): Promise<
       description,
       images: [
         {
-          url: `${SITE_URL}/logo.png`,
-          width: 512,
-          height: 512,
+          url: `${SITE_URL}/images/og-image.jpg`,
+          width: 1200,
+          height: 630,
           alt: "Healthy Mezze",
         },
       ],
@@ -101,7 +100,7 @@ export async function generateMetadata({ params }: RecipesLayoutProps): Promise<
       card: "summary_large_image",
       title,
       description,
-      images: [`${SITE_URL}/logo.png`],
+      images: [`${SITE_URL}/images/og-image.jpg`],
     },
   };
 }

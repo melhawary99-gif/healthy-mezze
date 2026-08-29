@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 
 import FavoritesClient from "@/components/recipes/FavoritesClient";
 
-const SITE_URL = "https://www.healthymezze.com";
-
+import { SITE_URL } from "@/lib/seo";
 type FavoritesPageProps = {
   params: Promise<{
     locale: "en" | "ar";

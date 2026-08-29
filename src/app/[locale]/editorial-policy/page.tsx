@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
+import { getLanguageAlternates } from "@/lib/seo";
 
 import Container from "@/components/ui/Container";
 
@@ -23,6 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       "Learn how Healthy Mezze develops, reviews, and maintains its Mediterranean recipes and food content.",
     alternates: {
       canonical: `/${locale}/editorial-policy`,
+      languages: getLanguageAlternates("/editorial-policy"),
     },
   };
 }

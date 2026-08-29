@@ -116,7 +116,7 @@ export const metadata: Metadata = {
   },
 
   alternates: {
-    canonical: "/",
+    // Canonical URLs are defined by the localized route metadata.
   },
 
   other: {
@@ -157,8 +157,6 @@ const websiteSchema = {
     "@type": "Organization",
     name: "Healthy Mezze",
   },
-
-  inLanguage: "en",
 };
 
 export default function RootLayout({
