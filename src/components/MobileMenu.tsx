@@ -11,11 +11,11 @@ export default function MobileMenu() {
   const nav = useTranslations("Navigation");
 
   return (
-    <div className="relative md:hidden">
+    <div className="relative shrink-0 md:hidden">
       <button
         type="button"
         onClick={() => setOpen((prev) => !prev)}
-        className="inline-flex h-11 w-11 items-center justify-center rounded-2xl border border-green-200 bg-white text-green-700 transition hover:border-green-300 hover:bg-green-50"
+        className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl border border-green-200 bg-white text-green-700 transition hover:border-green-300 hover:bg-green-50 sm:h-11 sm:w-11"
         aria-label={open ? t("closeMenu") : t("openMenu")}
         aria-expanded={open}
         aria-controls="mobile-navigation"
@@ -30,9 +30,12 @@ export default function MobileMenu() {
       {open && (
         <div
           id="mobile-navigation"
-          className="fixed inset-x-0 top-16 z-40 overflow-hidden rounded-b-3xl border-t border-green-100 bg-white shadow-xl transition duration-300 md:hidden"
+          className="fixed inset-x-0 top-[76px] z-40 overflow-hidden rounded-b-3xl border-t border-green-100 bg-white shadow-xl transition duration-300 md:hidden"
         >
-          <nav aria-label={nav("primaryNavigation")} className="flex flex-col gap-1 px-4 py-4">
+          <nav
+            aria-label={nav("primaryNavigation")}
+            className="flex flex-col gap-1 px-4 py-4"
+          >
             <Link
               href="/"
               onClick={() => setOpen(false)}

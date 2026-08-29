@@ -7,13 +7,24 @@ import { useTranslations } from "next-intl";
 import SectionTitle from "@/components/ui/SectionTitle";
 import RecipeCard from "@/components/recipes/RecipeCard";
 
-const featuredRecipeTitles = ["Greek Salad", "Falafel Bowl", "Lentil Soup", "Chicken Shawarma"];
+const featuredRecipeSlugs = [
+  "greek-salad",
+  "falafel-bowl",
+  "lentil-soup",
+  "chicken-shawarma",
+  "baba-ganoush",
+  "fattoush",
+  "ful-medames",
+  "egyptian-koshari",
+  "classic-hummus",
+  "tabbouleh-salad",
+];
 
 export default function FeaturedRecipes() {
   const t = useTranslations("FeaturedRecipes");
-  const buttons = useTranslations("Buttons");
-  const featuredRecipes = featuredRecipeTitles
-    .map((title) => recipes.find((recipe) => recipe.title === title))
+
+  const featuredRecipes = featuredRecipeSlugs
+    .map((slug) => recipes.find((recipe) => recipe.slug === slug))
     .filter((recipe): recipe is (typeof recipes)[number] => Boolean(recipe));
 
   return (

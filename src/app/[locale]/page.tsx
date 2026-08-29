@@ -1,6 +1,7 @@
 import Hero from "@/components/home/Hero";
 import dynamic from "next/dynamic";
 
+import MediterraneanStory from "@/components/home/MediterraneanStory";
 const Categories = dynamic(() => import("@/components/home/Categories"));
 const FeaturedRecipes = dynamic(() => import("@/components/home/FeaturedRecipes"));
 const Statistics = dynamic(() => import("@/components/home/Statistics"));
@@ -18,6 +19,8 @@ export default function Home() {
       <Categories />
 
       <FeaturedRecipes />
+
+        <MediterraneanStory />
 
       <Statistics />
 

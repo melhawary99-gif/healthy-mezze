@@ -12,7 +12,6 @@
     "favoritesAriaLabel": "Favorites",
     "breadcrumb": "Breadcrumb"
   },
-
   "Buttons": {
     "browseRecipes": "Browse Recipes",
     "exploreCategories": "Explore Categories",
@@ -31,7 +30,6 @@
     "backToRecipes": "Back to Recipes",
     "discoverMoreRecipes": "Discover More Recipes"
   },
-
   "Recipe": {
     "nutritionFacts": "Nutrition Facts",
     "nutritionDescription": "Approximate nutrition values per serving.",
@@ -44,16 +42,13 @@
     "sodium": "Sodium",
     "healthBenefits": "Health Benefits",
     "notFound": "Recipe Not Found",
-
     "prepTime": "Prep Time",
     "cookTime": "Cook Time",
     "totalTime": "Total Time",
     "servings": "Servings",
     "minutes": "min",
-
     "ingredients": "Ingredients",
     "instructions": "Instructions",
-
     "difficulty": {
       "easy": "Easy",
       "medium": "Medium",
@@ -78,17 +73,14 @@
     "culturalContext": "Cultural & Culinary Context",
     "mediterraneanConnection": "What Makes It Mediterranean?",
     "whatMakesItMediterranean": "Mediterranean Influences",
-
     "beforeYouCookLabel": "SET YOURSELF UP FOR SUCCESS",
     "beforeYouCook": "Before You Cook",
     "beforeYouStart": "Keep In Mind",
     "tips": "Helpful Tips",
     "howDoIKnowItsDone": "How Do I Know It's Done?",
     "tip": "Tip",
-
     "visualGuideLabel": "WANNA SEE IT IN ACTION ?",
     "visualGuide": "Step-by-Step Visual Guide",
-
     "makeItWorkLabel": "Tweak It",
     "makeItWork": "Make This Recipe Work for You",
     "makeItWorkDescription": "Adapt the recipe to your ingredients, dietary needs, budget, time, serving size, or meal-prep plans.",
@@ -98,30 +90,24 @@
     "timeSaving": "Time-Saving Options",
     "servingAdjustments": "Serving Adjustments",
     "mealPrep": "Meal Prep",
-
     "recipeRescueLabel": "RECIPE RESCUE",
     "recipeRescueTitle": "What Do You Need Help With?",
     "recipeRescueDescription": "Choose the problem you're facing and get a recipe-specific solution instead of a generic cooking tip.",
-
     "whatIfLabel": "WHAT IF?",
     "whatIfTitle": "What If...?",
     "whatIfDescription": "Choose your situation and we'll show you a practical pathway for making this recipe work.",
     "pathway": "Your Pathway",
     "expectedResult": "What to Expect",
-
     "storageLabel": "STORAGE & LEFTOVERS",
     "storageTitle": "Storage & Leftovers",
     "storageDuration": "Best Storage Time",
     "storageContainer": "How to Store",
-
     "servingLabel": "SERVING & PAIRING",
     "servingTitle": "Serving & Pairing",
     "pairings": "What Goes Well With It?",
-
     "faqLabel": "RECIPE FAQ",
     "faqTitle": "Frequently Asked Questions"
   },
-
   "RecipeFilters": {
     "title": "Search Recipes",
     "description": "Search by name, ingredient, description, or category.",
@@ -135,58 +121,47 @@
       "prepTime": "Prep Time"
     }
   },
-
   "Home": {
     "badge": "EAT WELL, LIVE WELL",
-
     "titleLine1": "Healthy Mediterranean",
     "titleLine2": "Recipes Made Easy",
-
     "description": "Discover nutritious Mediterranean recipes inspired by Egyptian, Lebanese, Greek, Turkish, Syrian, Jordanian and Palestinian cuisine.",
-
     "freshIngredients": "Fresh Ingredients",
     "nutritionFacts": "Nutrition Facts",
     "easyRecipes": "Easy Recipes",
     "mediterraneanCuisine": "Mediterranean Cuisine",
     "heroImageAlt": "Healthy Mediterranean dishes with fresh vegetables, hummus, salads, and wraps"
   },
-
   "RelatedRecipes": {
     "title": "You May Also Like",
     "description": "More delicious recipes from the"
   },
-
   "Categories": {
     "title": "Browse Recipe Categories",
     "subtitle": "Discover healthy Mediterranean recipes by category.",
     "browse": "Browse Recipes",
     "recipes": "Recipes"
   },
-
   "FeaturedRecipes": {
     "title": "Featured Recipes",
     "subtitle": "Our most popular healthy Mediterranean recipes."
   },
-
   "RecipeCard": {
     "viewRecipe": "View Recipe",
     "addToFavorites": "Add {recipe} to favorites"
   },
-
   "Favorites": {
     "title": "My Favorite Recipes",
     "description": "Your saved recipes will appear here when you add them from the recipe details page.",
     "emptyTitle": "No favorite recipes yet.",
     "emptyDescription": "Save recipes you love and they will appear here."
   },
-
   "Recipes": {
     "title": "Recipes",
     "heading": "Browse healthy Mediterranean recipes",
     "description": "Find nourishing recipes for salads, soups, wraps, main dishes, vegetarian meals and more.",
     "noResults": "No recipes match your search",
     "tryAgain": "Try another search or category.",
-
     "popularSearches": {
       "chicken": "Chicken",
       "salad": "Salad",
@@ -198,14 +173,12 @@
       "prepTime": "Prep Time"
     }
   },
-
   "Statistics": {
     "healthyRecipes": "Healthy Recipes",
     "recipeCategories": "Recipe Categories",
     "mediterraneanCuisines": "Mediterranean Cuisines",
     "freshInspiration": "Fresh Inspiration"
   },
-
   "WhyHealthyMezze": {
     "title": "Why Healthy Mezze?",
     "subtitle": "Simple, nourishing recipes inspired by Mediterranean traditions.",
@@ -224,7 +197,6 @@
       }
     }
   },
-
   "HealthyTip": {
     "week": "Week",
     "title": "Healthy Tip of the Week",
@@ -281,7 +253,6 @@
       }
     }
   },
-
   "Newsletter": {
     "emailAddress": "Email address",
     "placeholder": "Enter your email",
@@ -293,7 +264,6 @@
     "stayUpdated": "Stay Updated",
     "footerDescription": "Get our latest Mediterranean recipes."
   },
-
   "Footer": {
     "description": "Fresh Mediterranean recipes inspired by the authentic flavors of Egypt, Lebanon, Greece, Turkey, Syria, Jordan, and Palestine—designed for healthy everyday cooking.",
     "explore": "Explore",
@@ -309,7 +279,6 @@
     "disclaimer": "Disclaimer",
     "editorialPolicy": "Editorial Policy"
   },
-
   "CategoriesData": {
     "breakfast": {
       "name": "Breakfast",
@@ -360,33 +329,26 @@
       "description": "Classic Mediterranean dips and flavorful sauces."
     }
   },
-
   "About": {
     "badge": "About Healthy Mezze",
     "title": "Mediterranean meals made simple, healthy, and unforgettable.",
     "subtitle": "Healthy Mezze celebrates fresh ingredients, easy recipes, and balanced Mediterranean-inspired eating designed for every home cook.",
-
     "ourStory": "Our story",
     "ourStoryTitle": "Fresh inspiration from Mediterranean kitchens",
     "ourStoryParagraph1": "Healthy Mezze was created to make healthy Mediterranean cooking simple, approachable, and enjoyable for everyone. Inspired by the rich culinary traditions of Egypt, Lebanon, Greece, Turkey, Syria, Jordan, and Palestine, our goal is to help home cooks prepare delicious meals using fresh ingredients and straightforward techniques.",
     "ourStoryParagraph2": "Every recipe is designed with everyday home kitchens in mind. We focus on balanced nutrition, practical ingredients, clear step-by-step instructions, and authentic Mediterranean flavors that are easy to recreate at home.",
-
     "mission": "Our mission",
     "values": "Our values",
     "valuesTitle": "Built on flavor, health, and tradition.",
-
     "commitment": "Our commitment",
     "commitmentTitle": "What you can expect from Healthy Mezze",
     "commitmentDescription": "We strive to publish recipes that are carefully written, easy to follow, and inspired by authentic Mediterranean cooking traditions. Our nutrition information is intended for general guidance and should not replace professional medical or dietary advice.",
-
     "whyChoose": "Why choose Healthy Mezze",
     "whyChooseTitle": "Everyday cooking that feels special.",
-
     "ctaTitle": "Ready to make Mediterranean cooking part of your routine?",
     "ctaDescription": "Explore our recipe collection for fresh meals, simple preparation, and delicious results.",
     "browseRecipes": "Browse Recipes",
     "contactUs": "Contact Us",
-
     "missionCards": {
       "healthyEating": {
         "title": "Healthy eating",
@@ -405,7 +367,6 @@
         "description": "Meals that support energy, wellness, and joy."
       }
     },
-
     "valueCards": {
       "fresh": {
         "title": "Fresh Ingredients",
@@ -424,7 +385,6 @@
         "description": "Inspired by timeless flavors from coastal kitchens."
       }
     },
-
     "featureCards": {
       "beginner": {
         "title": "Beginner friendly",
@@ -452,7 +412,6 @@
       }
     }
   },
-
   "Contact": {
     "hero": {
       "badge": "Contact Healthy Mezze",
@@ -478,7 +437,6 @@
       "title": "Friendly Support",
       "description": "We're here to make your cooking journey easier, more delicious, and more joyful."
     },
-
     "form": {
       "name": "Name",
       "namePlaceholder": "Your name",
@@ -490,7 +448,6 @@
       "messagePlaceholder": "Tell us what's on your mind",
       "send": "Send message"
     },
-
     "faq": {
       "preview": "FAQ Preview",
       "title": "Answers to common questions",
@@ -510,19 +467,16 @@
       }
     }
   },
-
   "Cookies": {
     "title": "Cookie Policy",
     "metaDescription": "Learn how Healthy Mezze uses cookies, analytics, browser storage, and advertising technologies to improve your experience.",
     "lastUpdated": "Last Updated",
     "date": "August 8, 2026",
     "intro": "This Cookie Policy explains how Healthy Mezze uses cookies and similar technologies when you visit and use our website.",
-
     "whatAreCookies": {
       "title": "What Are Cookies?",
       "content": "Cookies are small text files stored on your device when you visit a website. They help websites remember information about your visit, improve functionality, and understand how visitors use the site."
     },
-
     "howWeUse": {
       "title": "How We Use Cookies",
       "intro": "Healthy Mezze may use cookies and similar technologies for the following purposes:",
@@ -535,55 +489,45 @@
         "security": "To help maintain website security and prevent abuse."
       }
     },
-
     "analytics": {
       "title": "Analytics",
       "content": "We may use analytics services to understand how visitors use Healthy Mezze, including information such as pages viewed, approximate usage patterns, and general website performance."
     },
-
     "clarity": {
       "title": "Microsoft Clarity",
       "content": "Healthy Mezze may use Microsoft Clarity to better understand how visitors interact with the website through usage analytics and session insights."
     },
-
     "adsense": {
       "title": "Advertising and Google AdSense",
       "content": "Healthy Mezze may use Google AdSense and related advertising technologies to display advertisements. These services may use cookies or similar technologies to provide, measure, and improve advertising."
     },
-
     "browserStorage": {
       "title": "Browser Storage",
       "content": "Some website features may use browser storage technologies, such as local storage, to remember information on your device. For example, your favorite recipes may be stored locally in your browser."
     },
-
     "managing": {
       "title": "Managing Cookies",
       "content": "You can manage or disable cookies through your browser settings. Disabling certain cookies may affect some website functionality."
     },
-
     "changes": {
       "title": "Changes to This Cookie Policy",
       "content": "We may update this Cookie Policy from time to time to reflect changes to our website, services, or legal requirements. Any updates will be posted on this page."
     },
-
     "contact": {
       "title": "Contact Us",
       "content": "If you have questions about this Cookie Policy, you can contact us at:"
     }
   },
-
   "Privacy": {
     "title": "Privacy Policy",
     "metaDescription": "Learn how Healthy Mezze collects, uses, and protects your information.",
     "lastUpdated": "Last Updated",
     "intro": "Healthy Mezze respects your privacy and is committed to protecting your personal information. This Privacy Policy explains what information we collect, how we use it, and the choices you have regarding your data when you use our website.",
-
     "sections": {
       "introduction": {
         "title": "Introduction",
         "body": "By accessing Healthy Mezze, you agree to the practices described in this Privacy Policy. We encourage you to read this page carefully to understand how your information is handled."
       },
-
       "information": {
         "title": "Information We Collect",
         "body": "Depending on how you interact with Healthy Mezze, we may collect the following information:",
@@ -598,208 +542,167 @@
           "analytics": "Anonymous analytics data collected through services such as Google Analytics."
         }
       },
-
       "analytics": {
         "title": "Analytics",
         "body": "We use analytics tools to better understand how visitors use Healthy Mezze. These tools collect anonymous information that helps us improve the website, user experience, and our recipe content."
       },
-
       "newsletter": {
         "title": "Newsletter",
         "body": "If you choose to subscribe to our newsletter, we only use your email address to send recipes, cooking tips, updates, and occasional announcements.",
         "unsubscribe": "You can unsubscribe at any time by clicking the unsubscribe link included in every email."
       },
-
       "rights": {
         "title": "Your Rights",
         "body": "Depending on your location, you may have the right to access, correct, update, or request deletion of your personal information. You may also object to certain processing activities where permitted by law."
       },
-
       "clarity": {
         "title": "Our Commitment",
         "body": "Healthy Mezze never sells your personal information. We collect only the information necessary to operate, improve, and secure our website."
       },
-
       "cookies": {
         "title": "Cookies",
         "body": "Healthy Mezze uses cookies to improve website functionality, remember your preferences, analyze traffic, and provide a better browsing experience.",
         "preferences": "You can control or disable cookies through your browser settings at any time."
       },
-
       "adsense": {
         "title": "Advertising",
         "body": "Healthy Mezze may display advertisements through Google AdSense. Google and its partners may use cookies to serve personalized or non-personalized advertisements based on your browsing activity.",
         "learnMore": "To learn more, please review"
       },
-
       "links": {
         "title": "External Links",
         "body": "Our website may contain links to third-party websites. We are not responsible for the privacy practices or content of external websites."
       },
-
       "security": {
         "title": "Data Security",
         "body": "We take reasonable technical and organizational measures to protect your information. However, no method of internet transmission or electronic storage is completely secure."
       },
-
       "changes": {
         "title": "Changes to This Policy",
         "body": "We may update this Privacy Policy from time to time. Any changes will be published on this page together with the updated revision date."
       },
-
       "contact": {
         "title": "Contact Us",
         "body": "If you have any questions about this Privacy Policy or how we handle your information, please contact us at:"
       }
     }
   },
-
   "Terms": {
     "metaTitle": "Terms & Conditions",
     "metaDescription": "Read the Terms and Conditions for using Healthy Mezze, including your rights, responsibilities, and important legal information.",
-
     "title": "Terms & Conditions",
     "lastUpdated": "Last Updated",
     "intro": "These Terms & Conditions govern your use of Healthy Mezze. By accessing or using this website, you agree to comply with these terms. If you do not agree, please discontinue using the website.",
-
     "acceptance": {
       "title": "1. Acceptance of Terms",
       "content": "By using Healthy Mezze, you acknowledge that you have read, understood, and agreed to these Terms & Conditions."
     },
-
     "websiteContent": {
       "title": "2. Website Content",
       "content": "All recipes, nutrition information, articles, and other content are provided for general informational purposes only. While we strive for accuracy, we cannot guarantee that all information is complete, current, or free from errors."
     },
-
     "userResponsibilities": {
       "title": "3. User Responsibilities",
       "content": "You agree to use this website lawfully and respectfully. You must not attempt to disrupt the website, misuse its services, or violate any applicable laws while using Healthy Mezze."
     },
-
     "liability": {
       "title": "4. Limitation of Liability",
       "content": "Healthy Mezze shall not be held liable for any direct, indirect, incidental, or consequential damages resulting from your use of this website or reliance on its content."
     },
-
     "termination": {
       "title": "5. Termination",
       "content": "We reserve the right to suspend or terminate access to Healthy Mezze at any time without prior notice if these Terms & Conditions are violated."
     },
-
     "health": {
       "title": "6. Health & Nutrition Disclaimer",
       "content": "Recipes and nutrition information are provided for educational purposes only and should not be considered medical advice. Always consult a qualified healthcare professional regarding dietary or health concerns."
     },
-
     "intellectual": {
       "title": "7. Intellectual Property",
       "content": "All content on Healthy Mezze, including recipes, text, graphics, branding, and images, is protected by copyright and other intellectual property laws. Unauthorized copying or redistribution is prohibited."
     },
-
     "law": {
       "title": "8. Governing Law",
       "content": "These Terms & Conditions shall be governed and interpreted in accordance with the applicable laws governing the operation of Healthy Mezze."
     },
-
     "externalLinks": {
       "title": "9. External Links",
       "content": "Our website may contain links to third-party websites for your convenience. Healthy Mezze is not responsible for the content, privacy practices, or availability of external websites."
     },
-
     "changes": {
       "title": "10. Changes to These Terms",
       "content": "We may update these Terms & Conditions from time to time. Any updates will be published on this page with the revised 'Last Updated' date."
     },
-
     "agreement": {
       "title": "11. Entire Agreement",
       "content": "These Terms & Conditions constitute the entire agreement between you and Healthy Mezze regarding your use of this website."
     },
-
     "contact": {
       "title": "12. Contact Us",
       "content": "If you have any questions regarding these Terms & Conditions, please contact us at:"
     }
   },
-
   "Disclaimer": {
     "metaTitle": "Disclaimer",
     "metaDescription": "Read the Healthy Mezze disclaimer regarding recipe information, nutrition facts, and website content.",
-
     "badge": "Healthy Mezze",
     "title": "Disclaimer",
-
     "lastUpdated": "Last Updated:",
     "lastUpdatedDate": "July 2026",
-
     "generalInformation": {
       "title": "General Information",
       "content": "The information provided on Healthy Mezze is for general informational and educational purposes only. While we strive to provide accurate and up-to-date content, we make no guarantees regarding the completeness, reliability, or accuracy of any information published on this website."
     },
-
     "recipes": {
       "title": "Recipes",
       "content": "Cooking results may vary depending on ingredients, equipment, cooking techniques, and individual experience. We encourage readers to use their own judgment and adjust recipes to meet their personal preferences and dietary needs."
     },
-
     "nutrition": {
       "title": "Nutrition Information",
       "content": "Nutrition values published on Healthy Mezze are estimates only. They are provided as a convenience and should not be considered medical or nutritional advice. If you have specific dietary or health concerns, please consult a qualified healthcare professional or registered dietitian."
     },
-
     "allergies": {
       "title": "Allergies",
       "content": "Recipes may contain common allergens such as nuts, dairy, eggs, wheat, sesame, or other ingredients. It is the responsibility of each reader to verify ingredients and ensure recipes are safe for their individual dietary requirements."
     },
-
     "externalLinks": {
       "title": "External Links",
       "content": "Our website may contain links to third-party websites for additional information or resources. Healthy Mezze is not responsible for the content, policies, or practices of external websites."
     },
-
     "contact": {
       "title": "Contact Us",
       "content": "If you have any questions regarding this disclaimer, please contact us at"
     }
   },
-
   "EditorialPolicy": {
     "title": "Editorial Policy",
     "lastUpdatedLabel": "Last Updated",
     "lastUpdated": "July 2026",
-
     "mission": {
       "title": "Our Mission",
       "text": "Healthy Mezze is dedicated to making healthy Mediterranean cooking simple, enjoyable, and accessible. Our goal is to publish recipes that are practical for everyday home cooks while respecting the rich culinary traditions of Mediterranean cuisine."
     },
-
     "recipeDevelopment": {
       "title": "Recipe Development",
       "text": "Every recipe is carefully written with clear ingredients, step-by-step instructions, preparation times, and estimated nutrition information. We focus on fresh ingredients, balanced meals, and techniques that are easy to follow."
     },
-
     "accuracy": {
       "title": "Accuracy",
       "text": "We review our content regularly to keep recipes accurate and up to date. If we discover an error, we correct it as soon as possible to maintain the quality of our content."
     },
-
     "nutrition": {
       "title": "Nutrition Information",
       "text": "Nutrition values are provided as estimates only and should be used as general guidance. They are not intended to replace professional medical or dietary advice."
     },
-
     "independence": {
       "title": "Independence",
       "text": "Our editorial decisions are based on quality, authenticity, usefulness, and the needs of our readers. Sponsored content, when present, will always be clearly identified."
     },
-
     "contact": {
       "title": "Contact",
       "text": "Questions or suggestions about our content are always welcome. Contact us at"
     }
   },
-
   "FAQ": {
     "metaTitle": "Frequently Asked Questions | Healthy Mezze",
     "metaDescription": "Find answers to common questions about Healthy Mezze, our Mediterranean recipes, ingredients, nutrition information, and cooking tips.",
@@ -832,18 +735,15 @@
       }
     }
   },
-
   "RecipeEnhancements": {
     "story": "The Story Behind the Recipe",
     "culturalContext": "Cultural Context",
     "mediterraneanConnection": "Its Mediterranean Connection",
     "whatMakesItMediterranean": "What Makes It Mediterranean",
-
     "beforeYouCook": "Before You Cook",
     "tips": "Helpful Tips",
     "visualCues": "What to Look For",
     "howDoIKnowItsDone": "How Do I Know It's Done?",
-
     "makeItWorkForYou": "Make This Recipe Work for You",
     "substitutions": "Ingredient Substitutions",
     "dietary": "Dietary Adjustments",
@@ -851,28 +751,106 @@
     "timeSaving": "Time-Saving Options",
     "servings": "Adjust the Servings",
     "mealPrep": "Meal Prep",
-
     "visualGuide": "Step-by-Step Visual Guide",
-
     "recipeRescue": "Recipe Rescue",
     "recipeRescueDescription": "Something not going as planned? Find a recipe-specific solution.",
     "whatDoYouNeedHelpWith": "What do you need help with?",
-
     "whatIf": "What If?",
     "whatIfDescription": "Choose your situation and we'll show you the best pathway for this recipe.",
-
     "storage": "Storage & Leftovers",
     "serving": "Serving & Pairing",
     "faq": "Frequently Asked Questions",
-
     "readMore": "Read More",
     "showLess": "Show Less",
     "viewSolution": "View Solution",
     "hideSolution": "Hide Solution",
     "viewPathway": "Show Pathway",
     "hidePathway": "Hide Pathway",
-
     "result": "Result",
     "tip": "Tip"
+  },
+  "MediterraneanStory": {
+    "badge": "The Mediterranean Table",
+    "title": "Why Mediterranean Food Matters",
+    "subtitle": "The delicious way to eat well, live well, and rediscover the pleasure of gathering around a table.",
+    "story": {
+      "intro": "Imagine a table somewhere along the Mediterranean. There are tomatoes, cucumbers and herbs on the table, warm bread nearby, olive oil ready for dipping, perhaps hummus, lentils, grilled vegetables or fish. Nobody is treating food as an afterthought. Someone is reaching for the olives. Someone is telling a story. The meal is being shared.",
+      "paragraph1": "This is an important part of what makes Mediterranean food special. It is not simply a list of ingredients. It is a broader pattern of eating, preparing and enjoying food.",
+      "paragraph2": "UNESCO describes the Mediterranean diet as a collection of knowledge, skills, traditions and practices that reaches from cultivation and harvesting to cooking and, particularly, the sharing and consumption of food. Communal meals are an important part of the cultural tradition.",
+      "paragraph3": "The word diet can therefore be a little misleading. The Mediterranean tradition is more than a list of foods to count. It is a way of living that connects food with seasonality, hospitality, community and enjoyment.",
+      "question": "What kind of food pattern can I enjoy often enough to become part of my life?",
+      "scienceTitle": "Why has science become so interested?",
+      "science1": "The Mediterranean dietary pattern has been studied for decades. Researchers have examined its relationship with cardiovascular disease, type 2 diabetes, mortality, metabolic health and other outcomes.",
+      "science2": "One of the most important pieces of evidence is the PREDIMED trial. In the corrected and republished analysis, 7,447 adults between 55 and 80 years old who were at high cardiovascular risk were assigned to a Mediterranean diet supplemented with extra-virgin olive oil, a Mediterranean diet supplemented with mixed nuts, or a control diet. The Mediterranean-diet groups experienced fewer major cardiovascular events than the control group.",
+      "science3": "That does not mean olive oil or Mediterranean food is a magic medicine. The more useful lesson is that a whole dietary pattern can matter. Foods interact with one another, and eating habits are built from what people consume repeatedly over time.",
+      "metabolicTitle": "It may also support metabolic health",
+      "metabolic1": "Research into type 2 diabetes is another important area. A 2025 updated systematic review and dose-response meta-analysis included 24 prospective cohort studies and one randomized trial, representing 991,878 participants and 68,325 cases of type 2 diabetes. Greater adherence to the Mediterranean diet was associated with a lower risk of developing type 2 diabetes, with moderate certainty of evidence.",
+      "metabolic2": "This should not be interpreted as a promise that Mediterranean food prevents diabetes. Genetics, physical activity, body composition, access to food, medications and many other factors influence health. The evidence instead supports the broader idea that a Mediterranean-style dietary pattern can be a useful part of a healthy lifestyle.",
+      "colorTitle": "The colorful plate is doing more than looking beautiful",
+      "color1": "Look at a Mediterranean-inspired table and you will often see an extraordinary range of colors: red tomatoes, green parsley, purple onions, golden olive oil, orange vegetables, dark leafy greens, creamy chickpeas and brown lentils.",
+      "color2": "That variety is meaningful. Vegetables, fruit, legumes, whole grains, nuts and seeds provide different nutrients and bioactive compounds. Rather than chasing a single superfood, Mediterranean cooking encourages variety and regular consumption of minimally processed foods.",
+      "togetherTitle": "Perhaps the most underrated ingredient is togetherness",
+      "together1": "This may be the part of the Mediterranean tradition that gets lost most easily when the conversation becomes purely nutritional.",
+      "together2": "UNESCO's recognition of the Mediterranean diet is not based only on what people eat. It includes hospitality, communal meals, social interaction, seasonal rhythms and the transmission of culinary knowledge from one generation to the next.",
+      "together3": "Think about that for a moment. A healthy meal can be a table. A conversation. A family recipe. A bowl placed in the middle for everyone to share. Someone showing the next generation how much garlic is enough.",
+      "together4": "That cultural side is difficult to measure in a laboratory, but it is part of what the Mediterranean tradition actually is.",
+      "lessonTitle": "The Mediterranean lesson isn't eat perfectly",
+      "lesson1": "You do not need to transform your entire kitchen overnight.",
+      "lesson2": "Add another vegetable to dinner. Try beans or lentils more often. Replace some highly processed foods with whole-food alternatives. Use herbs, garlic, lemon and spices to make simple ingredients exciting. Choose nuts or fruit more often when they fit your needs. Enjoy fish when it suits your diet.",
+      "lesson3": "And whenever possible, sit down and enjoy the food instead of treating eating as another task to complete.",
+      "researchTitle": "What the research really tells us",
+      "research1": "The evidence does not say that Mediterranean food is a miracle cure. It tells us something much more useful: Mediterranean dietary patterns are associated with favorable health outcomes across several important areas, while randomized trial evidence provides particularly strong support for cardiovascular benefits in certain high-risk populations.",
+      "research2": "The strongest evidence is not about one miraculous ingredient. It is about a pattern: more plant foods, healthy unsaturated fats, legumes, whole grains, nuts and seeds, alongside traditional foods and enjoyable meals.",
+      "healthyTitle": "And this is where Healthy Mezze comes in",
+      "healthy1": "At Healthy Mezze, we believe healthy food should not feel like punishment. It should be colorful, comforting, a little exciting, and—most importantly—something you actually want to eat again tomorrow.",
+      "healthy2": "That is why our recipes draw inspiration from the rich food traditions of the Mediterranean and Middle East while focusing on practical, nutritious cooking.",
+      "healthyQuote": "Healthy eating does not have to mean giving up the pleasure of food. Sometimes it simply means rediscovering it.",
+      "sourcesTitle": "Explore the research",
+      "sourcesIntro": "We encourage you to read the original sources and explore the evidence for yourself.",
+      "healthNote": "Health information note: This article is for general educational purposes and is not medical advice. The research discussed describes dietary patterns and population evidence; individual health outcomes vary. People with medical conditions or specific dietary requirements should discuss major dietary changes with an appropriately qualified healthcare professional."
+    },
+    "what": {
+      "title": "What actually makes it Mediterranean?",
+      "text": "There is no single Mediterranean menu. Food traditions differ across Lebanon, Egypt, Greece, Italy, Morocco, Spain and many other communities. But many versions share a foundation built around vegetables, fruit, legumes, grains, nuts, seeds, olive oil, herbs and spices, alongside foods such as fish, dairy and poultry in varying amounts."
+    },
+    "benefits": {
+      "sectionTitle": "Four reasons the pattern is so compelling",
+      "heart": {
+        "title": "Heart-Friendly Pattern",
+        "text": "Research, including randomized trial evidence, supports cardiovascular benefits from Mediterranean-style eating patterns in appropriate populations."
+      },
+      "plant": {
+        "title": "Plant-Rich by Nature",
+        "text": "Vegetables, fruit, legumes, whole grains, nuts, seeds and herbs form a large part of the pattern, bringing variety and nutritional richness to everyday meals."
+      },
+      "flavor": {
+        "title": "Flavor Without Complication",
+        "text": "Garlic, lemon, herbs, spices, olive oil and traditional ingredients can turn simple foods into deeply satisfying meals without relying on elaborate techniques."
+      },
+      "sharing": {
+        "title": "Food Is Meant to Be Shared",
+        "text": "The Mediterranean tradition includes hospitality, communal meals and the passing of culinary knowledge from one generation to another."
+      }
+    },
+    "research": {
+      "predimed": {
+        "title": "PREDIMED cardiovascular trial",
+        "description": "A corrected and republished randomized trial involving 7,447 adults at high cardiovascular risk found fewer major cardiovascular events among participants assigned to Mediterranean diets supplemented with extra-virgin olive oil or nuts than in the control group.",
+        "source": "PubMed",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/29897866/"
+      },
+      "diabetes": {
+        "title": "Mediterranean diet and type 2 diabetes",
+        "description": "An updated systematic review and dose-response meta-analysis covering 24 prospective cohort studies and one randomized trial found that greater adherence to a Mediterranean dietary pattern was associated with a lower risk of type 2 diabetes.",
+        "source": "PubMed",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/41241045/"
+      },
+      "unesco": {
+        "title": "The Mediterranean diet as cultural heritage",
+        "description": "UNESCO recognizes the Mediterranean diet as a collection of knowledge, skills, traditions and practices extending from cultivation and harvesting to preparation and shared meals.",
+        "source": "UNESCO",
+        "href": "https://ich.unesco.org/en/RL/mediterranean-diet-00884"
+      }
+    }
   }
 }
