@@ -102,6 +102,16 @@ export default function Header() {
             {locale === "en" ? "العربية" : "English"}
           </Link>
 
+          {/* Mobile Language Switcher */}
+          <Link
+            href={pathname}
+            locale={locale === "en" ? "ar" : "en"}
+            aria-label={locale === "en" ? "Switch to Arabic" : "Switch to English"}
+            className="inline-flex h-11 min-w-11 items-center justify-center rounded-2xl border border-green-100 bg-white px-2.5 text-xs font-bold tracking-wide text-green-700 shadow-sm transition hover:bg-green-50 md:hidden"
+          >
+            {locale === "en" ? "AR" : "EN"}
+          </Link>
+
           {/* Favorites */}
           <Link
             href="/favorites"
