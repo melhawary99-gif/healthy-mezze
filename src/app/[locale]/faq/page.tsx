@@ -24,7 +24,7 @@ export async function generateMetadata({
     title: t("metaTitle"),
     description: t("metaDescription"),
     alternates: {
-      canonical: `https://www.healthymezze.com/${locale}/faq`,
+      canonical: `/${locale}/faq`,
     },
   };
 }

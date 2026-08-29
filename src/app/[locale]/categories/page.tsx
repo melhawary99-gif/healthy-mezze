@@ -1,15 +1,81 @@
-"use client";
+import type { Metadata } from "next";
 
 import { categories } from "@/data/categories";
 import { getRecipesByCategory } from "@/lib/categories";
 import Container from "@/components/ui/Container";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
-export default function CategoriesPage() {
-  const t = useTranslations("Categories");
-  const categoryT = useTranslations();
+
+const SITE_URL = "https://www.healthymezze.com";
+
+type CategoriesPageProps = {
+  params: Promise<{
+    locale: "en" | "ar";
+  }>;
+};
+
+export async function generateMetadata({
+  params,
+}: CategoriesPageProps): Promise<Metadata> {
+  const { locale } = await params;
+
+  const safeLocale = locale === "ar" ? "ar" : "en";
+
+  const messages = (await import(`@/messages/${safeLocale}.json`)).default;
+  const categories = messages.Categories;
+
+  const title = categories.title;
+  const description = categories.subtitle;
+
+  const localizedUrl = `${SITE_URL}/${safeLocale}/categories`;
+  const englishUrl = `${SITE_URL}/en/categories`;
+  const arabicUrl = `${SITE_URL}/ar/categories`;
+
+  return {
+    title,
+    description,
+
+    alternates: {
+      canonical: localizedUrl,
+
+      languages: {
+        en: englishUrl,
+        ar: arabicUrl,
+        "x-default": englishUrl,
+      },
+    },
+
+    openGraph: {
+      type: "website",
+      locale: safeLocale === "ar" ? "ar_AR" : "en_US",
+      alternateLocale: safeLocale === "ar" ? ["en_US"] : ["ar_AR"],
+      url: localizedUrl,
+      siteName: "Healthy Mezze",
+      title,
+      description,
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
+  };
+}
+
+export default async function CategoriesPage({ params }: CategoriesPageProps) {
+  const { locale } = await params;
+
+  const t = await getTranslations({
+    locale,
+    namespace: "Categories",
+  });
+
+  const categoryT = await getTranslations({
+    locale,
+  });
 
   const categoryCards = categories.map((category) => ({
     ...category,

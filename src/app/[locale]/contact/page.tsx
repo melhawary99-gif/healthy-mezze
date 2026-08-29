@@ -4,14 +4,28 @@ import Container from "@/components/ui/Container";
 import Newsletter from "@/components/Newsletter";
 import { getTranslations } from "next-intl/server";
 
-export const metadata: Metadata = {
-  title: "Contact Us",
-  description:
-    "Get in touch with Healthy Mezze for recipe questions, feedback, collaboration opportunities, or general inquiries.",
-  alternates: {
-    canonical: "/contact",
-  },
+type Props = {
+  params: Promise<{
+    locale: "en" | "ar";
+  }>;
 };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+
+  const t = await getTranslations({
+    locale,
+    namespace: "Contact",
+  });
+
+  return {
+    title: t("hero.title"),
+    description: t("hero.description"),
+    alternates: {
+      canonical: `/${locale}/contact`,
+    },
+  };
+}
 
 export default async function ContactPage() {
   const t = await getTranslations("Contact");

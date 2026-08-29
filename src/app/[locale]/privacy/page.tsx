@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: t("metaDescription"),
 
     alternates: {
-      canonical: "/privacy",
+      canonical: `/${locale}/privacy`,
     },
   };
 }

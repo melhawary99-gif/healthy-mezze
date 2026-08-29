@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${t("title")} | Healthy Mezze`,
     description: t("metaDescription"),
     alternates: {
-      canonical: "/cookies",
+      canonical: `/${locale}/cookies`,
     },
   };
 }

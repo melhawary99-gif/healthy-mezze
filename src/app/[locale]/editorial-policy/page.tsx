@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description:
       "Learn how Healthy Mezze develops, reviews, and maintains its Mediterranean recipes and food content.",
     alternates: {
-      canonical: "/editorial-policy",
+      canonical: `/${locale}/editorial-policy`,
     },
   };
 }

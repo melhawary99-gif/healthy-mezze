@@ -10,7 +10,6 @@ import RecipeFilters from "@/components/recipes/RecipeFilters";
 import { Recipe } from "@/types/recipe";
 import { getLocalizedRecipes } from "@/lib/getLocalizedRecipes";
 
-const popularSearches = ["Chicken", "Salad", "Vegan", "Soup", "Wraps"];
 
 export default function RecipesPage() {
   const locale = useLocale() as "en" | "ar";

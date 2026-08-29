@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Hero from "@/components/home/Hero";
 import dynamic from "next/dynamic";
 
@@ -8,6 +9,64 @@ const Statistics = dynamic(() => import("@/components/home/Statistics"));
 const WhyHealthyMezze = dynamic(() => import("@/components/home/WhyHealthyMezze"));
 const HealthyTip = dynamic(() => import("@/components/home/HealthyTip"));
 const Newsletter = dynamic(() => import("@/components/Newsletter"));
+
+
+type HomePageProps = {
+  params: Promise<{
+    locale: "en" | "ar";
+  }>;
+};
+
+const SITE_URL = "https://www.healthymezze.com";
+
+export async function generateMetadata({
+  params,
+}: HomePageProps): Promise<Metadata> {
+  const { locale } = await params;
+
+  const safeLocale = locale === "ar" ? "ar" : "en";
+
+  const messages = (await import(`@/messages/${safeLocale}.json`)).default;
+  const home = messages.Home;
+
+  const title = `${home.titleLine1} ${home.titleLine2}`;
+  const description = home.description;
+
+  const localizedUrl = `${SITE_URL}/${safeLocale}`;
+  const englishUrl = `${SITE_URL}/en`;
+  const arabicUrl = `${SITE_URL}/ar`;
+
+  return {
+    title,
+    description,
+
+    alternates: {
+      canonical: localizedUrl,
+
+      languages: {
+        en: englishUrl,
+        ar: arabicUrl,
+        "x-default": englishUrl,
+      },
+    },
+
+    openGraph: {
+      type: "website",
+      locale: safeLocale === "ar" ? "ar_AR" : "en_US",
+      alternateLocale: safeLocale === "ar" ? ["en_US"] : ["ar_AR"],
+      url: localizedUrl,
+      siteName: "Healthy Mezze",
+      title,
+      description,
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
+  };
+}
 
 export default function Home() {
   console.log("✅ LOCALIZED HOMEPAGE");
