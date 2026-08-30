@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const bakedEggsSpinachTomatoesEn: RecipeTranslation = {
-  title: "Baked Eggs with Spinach & Tomatoes",
+  title: "Baked Eggs with Spinach & Tomatoes Recipe",
 
   description:
-    "Tender baked eggs nestled in a flavorful mixture of spinach, cherry tomatoes, garlic, and feta cheese. A simple Mediterranean breakfast that's nutritious, satisfying, and easy to prepare in one pan.",
+    "This baked eggs with spinach and tomatoes recipe features tender eggs nestled in spinach, cherry tomatoes, garlic, and feta cheese. A simple Mediterranean breakfast that's nutritious, satisfying, and easy to prepare in one pan.",
 
   longDescription:
     "Baked Eggs with Spinach & Tomatoes is a wholesome Mediterranean-inspired breakfast featuring eggs gently baked over sautéed spinach, sweet cherry tomatoes, garlic, onion, and crumbled feta cheese. The vegetables are cooked first so they become tender and flavorful before the eggs are added, allowing the whites to set while the yolks can remain beautifully soft. Finished with fresh parsley, optional basil, and extra virgin olive oil, this one-pan breakfast is rich in protein, vegetables, and satisfying Mediterranean flavors. It works equally well for a quick weekday breakfast, a relaxed weekend brunch, or a simple light dinner served with warm whole grain bread.",
@@ -118,13 +118,17 @@ export const bakedEggsSpinachTomatoesEn: RecipeTranslation = {
   ],
 
   keywords: [
-    "Baked Eggs",
-    "Mediterranean Breakfast",
-    "Spinach Eggs",
-    "Tomato Baked Eggs",
+    "Baked Eggs with Spinach and Tomatoes Recipe",
+    "Baked Eggs Recipe",
+    "How to Make Baked Eggs with Spinach and Tomatoes",
+    "Spinach and Tomato Baked Eggs",
+    "Mediterranean Baked Eggs",
+    "Baked Eggs with Feta",
     "Healthy Egg Recipe",
-    "Easy Brunch",
+    "Easy Baked Eggs",
     "One Pan Breakfast",
+    "Mediterranean Breakfast",
+    "Easy Brunch",
   ],
 
   tags: [
@@ -669,6 +673,11 @@ export const bakedEggsSpinachTomatoesEn: RecipeTranslation = {
       question: "Can I make these baked eggs without feta?",
       answer:
         "Yes. The feta can be omitted completely. Add extra fresh herbs, toasted seeds, avocado, or olives for additional flavor and texture.",
+    },
+    {
+      question: "How do you make baked eggs with spinach and tomatoes?",
+      answer:
+        "Baked eggs with spinach and tomatoes are made by first sautéing onion and garlic in extra virgin olive oil, then cooking spinach and cherry tomatoes with oregano, paprika, salt, and black pepper until the excess moisture evaporates. The vegetables are spread into an even layer, six wells are created, and an egg is cracked into each well. Feta is scattered around the eggs before the skillet is baked at 190°C (375°F) until the whites are set and the yolks reach your preferred doneness. Fresh parsley and basil are added before serving with warm whole grain bread.",
     },
     {
       question: "How do I keep the baked eggs from becoming watery?",

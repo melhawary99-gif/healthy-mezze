@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const bakedSpinachSambousekEn: RecipeTranslation = {
-  title: "Baked Spinach Sambousek",
+  title: "Baked Spinach Sambousek Recipe",
 
   description:
-    "Crispy oven-baked Lebanese pastries filled with spinach, onions, fresh herbs, lemon juice, and tangy sumac for a lighter take on traditional sambousek.",
+    "A healthy baked spinach sambousek recipe made with fresh spinach, onions, parsley, mint, lemon juice, and tangy sumac in a golden whole wheat pastry. These Lebanese spinach pastries are baked until crisp and golden for a lighter alternative to traditional fried sambousek.",
 
   longDescription:
     "Baked Spinach Sambousek are beloved Lebanese pastries filled with a bright, savory mixture of spinach, onion, parsley, mint, lemon juice, and tangy sumac. Traditionally fried until crisp, this lighter version is baked until golden and flaky, using a small amount of olive oil and an egg wash for beautiful color. The homemade whole wheat dough gives the pastries a hearty texture while the fresh spinach filling keeps the center flavorful and aromatic. They are perfect for a mezze table, appetizer platter, light lunch, or afternoon snack.",
@@ -131,12 +131,19 @@ export const bakedSpinachSambousekEn: RecipeTranslation = {
   ],
 
   keywords: [
-    "Spinach Sambousek",
-    "Lebanese Sambousek",
-    "Baked Sambousek",
+    "Baked Spinach Sambousek Recipe",
+    "Spinach Sambousek Recipe",
+    "How to Make Spinach Sambousek",
+    "Lebanese Spinach Sambousek",
+    "Baked Sambousek Recipe",
+    "Healthy Baked Sambousek",
     "Healthy Spinach Pastry",
-    "Mediterranean Appetizer",
     "Lebanese Spinach Pastry",
+    "Spinach Pastry Recipe",
+    "Vegetarian Sambousek",
+    "Baked Spinach Pastry",
+    "Mediterranean Appetizer",
+    "Lebanese Appetizer",
   ],
 
   tags: [
@@ -736,6 +743,11 @@ export const bakedSpinachSambousekEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make baked spinach sambousek?",
+      answer:
+        "Baked spinach sambousek are made by preparing a soft whole wheat and all-purpose flour dough with yeast, warm water, olive oil, sugar, and salt, then allowing it to rise until puffy. A spinach filling is prepared with finely chopped spinach, onion, parsley, mint, lemon juice, sumac, allspice, and black pepper, then squeezed thoroughly to remove excess moisture. The dough is divided into portions, rolled into thin circles, filled with the spinach mixture, folded into half-moons, and firmly sealed. The pastries are brushed lightly with beaten egg and baked at 200°C (400°F) for about 20–22 minutes until golden and crisp. Serve warm with lemon wedges, fresh herbs, yogurt, tahini, hummus, or other Mediterranean accompaniments.",
+    },
     {
       question: "What is sambousek?",
       answer:

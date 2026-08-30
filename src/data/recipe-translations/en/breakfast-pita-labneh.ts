@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const breakfastPitaLabnehEn: RecipeTranslation = {
-  title: "Breakfast Pita with Labneh & Fresh Vegetables",
+  title: "Breakfast Pita with Labneh & Fresh Vegetables Recipe",
 
   description:
-    "Warm whole wheat pita filled with creamy labneh, crisp cucumber, juicy tomato, Kalamata olives, fresh herbs, za'atar, and extra virgin olive oil for a refreshing Mediterranean breakfast.",
+    "A healthy breakfast pita with labneh recipe made with warm whole wheat pita, creamy labneh, crisp cucumber, juicy tomato, Kalamata olives, fresh herbs, za'atar, and extra virgin olive oil. This easy Lebanese-inspired Mediterranean breakfast is quick to prepare and makes a fresh, satisfying meal.",
 
   longDescription:
     "Breakfast Pita with Labneh & Fresh Vegetables is a simple Lebanese-inspired breakfast built around creamy strained labneh, warm whole wheat pita, and fresh Mediterranean vegetables. The cool, tangy labneh balances crisp cucumber and juicy tomato, while Kalamata olives, parsley, mint, and za'atar add salty, herbal, and aromatic notes. A final drizzle of extra virgin olive oil brings everything together. It comes together quickly, requires minimal cooking, and works equally well as breakfast, a light lunch, or a satisfying snack.",
@@ -107,13 +107,19 @@ export const breakfastPitaLabnehEn: RecipeTranslation = {
   ],
 
   keywords: [
-    "Breakfast Pita",
-    "Labneh Recipe",
-    "Mediterranean Breakfast",
-    "Lebanese Breakfast",
-    "Healthy Pita",
-    "Easy Breakfast",
-    "Labneh Pita",
+    "Breakfast Pita with Labneh Recipe",
+    "Labneh Pita Recipe",
+    "Breakfast Pita Recipe",
+    "How to Make Labneh Pita",
+    "Healthy Breakfast Pita",
+    "Mediterranean Breakfast Recipe",
+    "Lebanese Breakfast Recipe",
+    "Easy Labneh Breakfast",
+    "Healthy Pita Recipe",
+    "Labneh Breakfast Recipe",
+    "Pita with Fresh Vegetables",
+    "Vegetarian Breakfast Pita",
+    "Quick Mediterranean Breakfast",
   ],
 
   tags: [
@@ -722,6 +728,11 @@ export const breakfastPitaLabnehEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make a breakfast pita with labneh?",
+      answer:
+        "To make a breakfast pita with labneh, prepare thinly sliced cucumber and tomato along with Kalamata olives, parsley, and mint. Warm whole wheat pita gently in a dry skillet until soft and flexible, then carefully open the pocket and spread about 1/2 cup of labneh inside. Layer in the cucumber, tomato, olives, and optional mixed greens, then sprinkle with parsley, mint, za'atar, black pepper, and a little sea salt. Finish with a light drizzle of extra virgin olive oil, gently close the pita, and serve immediately while the bread is warm and the vegetables are crisp.",
+    },
     {
       question: "What is labneh?",
       answer:

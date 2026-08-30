@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const creamyChickpeaSoupEn: RecipeTranslation = {
-  title: "Creamy Chickpea Soup",
+  title: "Creamy Chickpea Soup Recipe",
 
   description:
-    "A creamy Lebanese-inspired chickpea soup with tender vegetables, garlic, cumin, and fresh lemon, blended until naturally silky without dairy.",
+    "A creamy Lebanese-inspired chickpea soup recipe made with tender chickpeas, vegetables, garlic, cumin, fresh lemon, parsley, and extra virgin olive oil. Naturally silky without dairy, this healthy Mediterranean soup is comforting, flavorful, and perfect for vegetarian and vegan meals.",
 
   longDescription:
     "This creamy chickpea soup draws on the flavors and ingredients of Lebanese and wider Levantine home cooking. Chickpeas, garlic, olive oil, cumin, fresh lemon, parsley, and vegetables come together in a comforting soup that becomes naturally creamy when part of the chickpeas and vegetables are blended into the broth. It is a simple, nourishing bowl with the bright lemony finish and aromatic seasoning associated with the eastern Mediterranean. Serve it with warm pita for a satisfying vegetarian meal.",
@@ -149,14 +149,21 @@ export const creamyChickpeaSoupEn: RecipeTranslation = {
   ],
 
   keywords: [
-    "Creamy Chickpea Soup",
-    "Lebanese Chickpea Soup",
-    "Mediterranean Chickpea Soup",
+    "Creamy Chickpea Soup Recipe",
+    "Chickpea Soup Recipe",
+    "How to Make Chickpea Soup",
+    "Lebanese Chickpea Soup Recipe",
+    "Mediterranean Chickpea Soup Recipe",
+    "Easy Chickpea Soup Recipe",
     "Healthy Chickpea Soup",
     "Vegetarian Chickpea Soup",
     "Vegan Chickpea Soup",
-    "Easy Chickpea Soup",
     "Levantine Chickpea Soup",
+    "Creamy Chickpea Soup Without Cream",
+    "Dairy Free Chickpea Soup",
+    "High Protein Chickpea Soup",
+    "High Fiber Chickpea Soup",
+    "Lebanese Style Chickpea Soup",
   ],
 
   tags: [
@@ -635,6 +642,11 @@ export const creamyChickpeaSoupEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make creamy chickpea soup?",
+      answer:
+        "To make creamy chickpea soup, first gently cook onion, carrot, celery, and garlic in extra virgin olive oil. Add cumin, coriander, and paprika, then stir in chickpeas, vegetable broth, and water. Simmer until the vegetables and chickpeas are very tender, then blend about half of the soup to create a naturally creamy base while leaving some chickpeas whole. Finish with fresh lemon juice and parsley, adjust the consistency and seasoning, and serve with olive oil and warm pita.",
+    },
     {
       question: "Is creamy chickpea soup traditionally Lebanese?",
       answer:

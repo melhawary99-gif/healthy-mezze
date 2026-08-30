@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const cheeseFatayerEn: RecipeTranslation = {
-  title: "Lebanese Cheese Fatayer",
+  title: "Lebanese Cheese Fatayer Recipe",
 
   description:
-    "Soft whole wheat Lebanese pastries filled with Akkawi cheese, reduced-fat mozzarella, feta, fresh parsley, oregano, and nigella seeds, then baked until golden and lightly crisp.",
+    "A healthy Lebanese cheese fatayer recipe made with soft whole wheat dough, Akkawi cheese, reduced-fat mozzarella, feta, fresh parsley, oregano, and nigella seeds. These traditional-style baked cheese pastries are golden, savory, and perfect for breakfast, mezze, snacks, or a light Mediterranean meal.",
 
   longDescription:
     "These Lebanese Cheese Fatayer combine a soft whole wheat dough with a savory filling of soaked Akkawi cheese, reduced-fat mozzarella, feta, fresh parsley, oregano, and nigella seeds. The Akkawi is soaked and drained first to reduce excess salt before being combined with milder cheeses and herbs. Each portion of dough is rolled into a circle, filled, and pinched into the traditional triangular fatayer shape before being lightly brushed with egg and baked until golden. The finished pastries have a tender, lightly chewy dough, a warm melted cheese filling, aromatic herbs, and the distinctive earthy character of nigella seeds. They are ideal for breakfast, mezze, gatherings, lunchboxes, snacks, or a light meal served with fresh vegetables and Mediterranean salads.",
@@ -145,16 +145,21 @@ export const cheeseFatayerEn: RecipeTranslation = {
   ],
 
   keywords: [
-    "Lebanese Cheese Fatayer",
-    "Cheese Fatayer",
-    "Akkawi Cheese Fatayer",
-    "Lebanese Cheese Pies",
-    "Healthy Fatayer",
-    "Whole Wheat Fatayer",
+    "Lebanese Cheese Fatayer Recipe",
+    "Cheese Fatayer Recipe",
+    "Akkawi Cheese Fatayer Recipe",
+    "How to Make Cheese Fatayer",
+    "Lebanese Fatayer Recipe",
+    "Lebanese Cheese Pie Recipe",
+    "Baked Cheese Fatayer",
+    "Healthy Cheese Fatayer",
+    "Whole Wheat Fatayer Recipe",
     "Lebanese Bakery Recipe",
     "Mediterranean Cheese Pastry",
     "Vegetarian Lebanese Recipe",
-    "Baked Cheese Fatayer",
+    "Cheese Fatayer with Akkawi",
+    "Lebanese Breakfast Recipe",
+    "Lebanese Mezze Recipe",
   ],
 
   tags: [
@@ -613,6 +618,11 @@ export const cheeseFatayerEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make Lebanese cheese fatayer?",
+      answer:
+        "To make Lebanese cheese fatayer, first prepare a soft dough with whole wheat flour, all-purpose flour, instant yeast, sugar, salt, warm water, and extra virgin olive oil. Let the dough rise until puffy, then divide it into 12 portions and roll each into a small circle. Fill the center with well-drained Akkawi cheese, mozzarella, feta, parsley, oregano, and nigella seeds. Bring three sections of dough toward the center and pinch the seams firmly to create the traditional triangular shape. Brush the exposed dough lightly with beaten egg and bake at 200°C (400°F) for about 20–22 minutes, until golden and the cheese is hot and melted.",
+    },
     {
       question: "What is Akkawi cheese?",
       answer:

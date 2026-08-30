@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const bakedFalafelEn: RecipeTranslation = {
-  title: "Baked Falafel",
+  title: "Baked Falafel Recipe",
 
   description:
-    "Crispy oven-baked falafel made with soaked chickpeas, fresh parsley, cilantro, garlic, onion, and warm Mediterranean spices. A lighter alternative to traditional deep-fried falafel with a crisp exterior and tender, flavorful center.",
+    "A healthy baked falafel recipe made with soaked chickpeas, fresh parsley, cilantro, garlic, onion, and warm Mediterranean spices. These oven-baked falafel have a crisp exterior and tender, flavorful center while using less oil than traditional deep-fried falafel.",
 
   longDescription:
     "These baked falafel capture the herbaceous flavor, earthy chickpeas, and warm spices of classic Mediterranean falafel while using the oven instead of deep frying. The mixture is made from soaked dried chickpeas rather than canned chickpeas, then combined with parsley, cilantro, onion, garlic, cumin, coriander, and paprika. The key to good baked falafel is texture: the chickpeas should be finely chopped but still slightly coarse, never blended into a smooth paste. After a short rest to firm the mixture, the falafel are shaped into small patties, lightly coated with olive oil, and baked until browned and crisp outside while remaining tender inside. Serve them warm with tahini sauce, hummus, chopped salad, pickles, or warm pita for a satisfying vegetarian meal.",
@@ -126,14 +126,19 @@ export const bakedFalafelEn: RecipeTranslation = {
   ],
 
   keywords: [
+    "Baked Falafel Recipe",
+    "Healthy Baked Falafel Recipe",
+    "How to Make Baked Falafel",
+    "Oven Baked Falafel Recipe",
     "Baked Falafel",
     "Healthy Falafel",
     "Oven Baked Falafel",
-    "Mediterranean Chickpeas",
     "Lebanese Falafel",
-    "Vegetarian Dinner",
-    "Plant Based Protein",
+    "Mediterranean Falafel",
     "Healthy Chickpea Recipe",
+    "Vegetarian Falafel",
+    "Vegan Falafel",
+    "Chickpea Falafel Recipe",
   ],
 
   tags: [
@@ -586,6 +591,11 @@ export const bakedFalafelEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make baked falafel?",
+      answer:
+        "Baked falafel are made by soaking dried chickpeas overnight, draining them thoroughly, and processing them with parsley, cilantro, onion, garlic, cumin, coriander, paprika, chickpea flour, olive oil, salt, and black pepper until finely chopped but still slightly coarse. The mixture is chilled for about 30 minutes, shaped into small patties, lightly coated with olive oil, and baked at 200°C (400°F) until golden and firm outside while remaining tender inside. Serve warm with tahini sauce, hummus, fresh vegetables, pickles, herbs, or pita bread.",
+    },
     {
       question: "Can I use canned chickpeas for baked falafel?",
       answer:

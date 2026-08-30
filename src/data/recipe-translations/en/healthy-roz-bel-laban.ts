@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const healthyRozBelLabanEn: RecipeTranslation = {
-  title: "Healthy Roz Bel Laban (Egyptian Rice Pudding)",
+  title: "Healthy Roz Bel Laban Recipe — Egyptian Rice Pudding with Pistachios & Almonds",
 
   description:
-    "A lighter Egyptian rice pudding made with tender short-grain rice, low-fat milk, a modest amount of honey, vanilla, and cinnamon, finished with pistachios and almonds.",
+    "This healthy Roz Bel Laban recipe is a lighter take on Egypt's beloved rice pudding, made with tender short-grain rice, low-fat milk, honey, vanilla, cinnamon, pistachios, and almonds. An easy Egyptian dessert with creamy milk-soaked rice, gentle sweetness, warm cinnamon, and a nutty finish, perfect for family meals, make-ahead desserts, and everyday or festive occasions.",
 
   longDescription:
     "Roz Bel Laban, literally rice with milk, is one of Egypt's most beloved comforting desserts. This lighter Healthy Mezze version keeps the soft rice, creamy milk base, warm cinnamon, and nutty finish while using low-fat milk and just 2 tablespoons of honey for the entire six-serving recipe. The rice is first cooked gently in water until very tender before the milk is added, making the final texture more reliable and reducing the risk of undercooked rice or scorched milk. A small cornstarch slurry gives the pudding additional body without requiring cream. The finished pudding should be creamy and spoonable rather than stiff, and it can be enjoyed warm or chilled.",
@@ -121,15 +121,62 @@ export const healthyRozBelLabanEn: RecipeTranslation = {
 
   keywords: [
     "Roz Bel Laban",
+    "Healthy Roz Bel Laban",
+    "Healthy Roz Bel Laban Recipe",
+    "Roz Bel Laban Recipe",
     "Roz Bil Laban",
+    "Roz Bil Laban Recipe",
+    "How to Make Roz Bel Laban",
+    "How to Make Healthy Roz Bel Laban",
+    "Easy Roz Bel Laban Recipe",
+    "Homemade Roz Bel Laban",
+    "Egyptian Roz Bel Laban",
+    "Traditional Roz Bel Laban",
     "Egyptian Rice Pudding",
-    "Egyptian Dessert",
+    "Egyptian Rice Pudding Recipe",
+    "Healthy Egyptian Rice Pudding",
     "Healthy Rice Pudding",
+    "Rice Pudding Recipe",
+    "Easy Rice Pudding Recipe",
     "Healthy Egyptian Dessert",
-    "Middle Eastern Rice Pudding",
-    "Rice Pudding with Honey",
+    "Egyptian Dessert",
+    "Egyptian Dessert Recipe",
     "Egyptian Milk Rice",
+    "Rice with Milk Dessert",
+    "Middle Eastern Rice Pudding",
+    "Middle Eastern Rice Pudding Recipe",
+    "Middle Eastern Dessert",
+    "Middle Eastern Dessert Recipe",
+    "Mediterranean Rice Pudding",
     "Mediterranean Dessert",
+    "Healthy Mediterranean Dessert",
+    "Rice Pudding with Honey",
+    "Rice Pudding with Cinnamon",
+    "Rice Pudding with Pistachios",
+    "Rice Pudding with Almonds",
+    "Egyptian Rice Pudding with Pistachios",
+    "Egyptian Rice Pudding with Almonds",
+    "Healthy Rice Pudding with Honey",
+    "Healthy Rice Pudding with Nuts",
+    "Rice Pudding with Nuts",
+    "Short Grain Rice Pudding",
+    "Low Fat Rice Pudding",
+    "Low Fat Milk Dessert",
+    "Healthy Milk Dessert",
+    "Creamy Rice Pudding",
+    "Creamy Egyptian Dessert",
+    "Honey Rice Pudding",
+    "Cinnamon Rice Pudding",
+    "Pistachio Rice Pudding",
+    "Almond Rice Pudding",
+    "Healthy Dessert with Pistachios",
+    "Healthy Dessert with Almonds",
+    "Vegetarian Egyptian Dessert",
+    "Make Ahead Rice Pudding",
+    "Warm Egyptian Dessert",
+    "Chilled Egyptian Dessert",
+    "Egyptian Family Dessert",
+    "Egyptian Festive Dessert",
   ],
 
   tags: [
@@ -666,6 +713,11 @@ export const healthyRozBelLabanEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make healthy Roz Bel Laban?",
+      answer:
+        "To make healthy Roz Bel Laban, first cook 3/4 cup short-grain white rice with 1 1/2 cups water until the rice is very tender. Gradually add 4 cups low-fat milk and simmer gently for 20–25 minutes while stirring frequently. Whisk 1 tablespoon cornstarch with 2 tablespoons cold water, then stir the slurry into the pudding and cook for 2–4 minutes until creamy and slightly thickened. Add 2 tablespoons honey, 1 teaspoon vanilla, and 1/2 teaspoon cinnamon, then cook gently for another 1–2 minutes. Portion into 6 servings and finish with chopped pistachios, sliced almonds, remaining cinnamon, and optional fresh mint. Serve warm or chill before serving.",
+    },
     {
       question: "What does Roz Bel Laban mean?",
       answer:

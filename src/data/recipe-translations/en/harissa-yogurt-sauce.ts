@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const harissaYogurtSauceEn: RecipeTranslation = {
-  title: "Harissa Yogurt Sauce",
+  title: "Harissa Yogurt Sauce Recipe — Spicy Tunisian-Inspired Yogurt Dip",
 
   description:
-    "A creamy, tangy yogurt sauce blended with Tunisian harissa, garlic, lemon, olive oil, and fresh herbs for a smoky, spicy, and refreshing Mediterranean-style condiment.",
+    "This harissa yogurt sauce recipe combines creamy Greek yogurt with Tunisian harissa, fresh garlic, lemon juice, extra virgin olive oil, parsley, mint, cumin, and smoked paprika for a smoky, spicy, tangy, and refreshing dip. A quick North African and Mediterranean-inspired yogurt sauce that is perfect with grilled chicken, lamb, fish, falafel, roasted vegetables, sandwiches, wraps, grain bowls, and mezze.",
 
   longDescription:
     "Harissa Yogurt Sauce combines the cooling creaminess of Greek yogurt with the deep chili, garlic, and spice character of North African harissa. Harissa is particularly associated with Tunisia, where chili-based harissa has long been an important condiment and flavoring paste. The yogurt softens the heat while lemon adds brightness, fresh herbs add freshness, and extra virgin olive oil rounds out the flavor. The result is an easy sauce that works beautifully with grilled chicken, lamb, fish, roasted vegetables, falafel, grain bowls, sandwiches, wraps, and Mediterranean mezze.",
@@ -109,12 +109,44 @@ export const harissaYogurtSauceEn: RecipeTranslation = {
 
   keywords: [
     "Harissa Yogurt Sauce",
-    "Tunisian Harissa Sauce",
-    "Spicy Yogurt Sauce",
+    "Harissa Yogurt Sauce Recipe",
+    "How to Make Harissa Yogurt Sauce",
+    "Homemade Harissa Yogurt Sauce",
+    "Easy Harissa Yogurt Sauce",
+    "Spicy Harissa Yogurt Sauce",
+    "Harissa Yogurt Dip",
     "Harissa Dip",
-    "Mediterranean Yogurt Sauce",
+    "Harissa Sauce Recipe",
+    "Harissa Dressing",
+    "Tunisian Harissa Sauce",
+    "Tunisian Harissa Recipe",
+    "Tunisian Inspired Sauce",
+    "Tunisian Yogurt Sauce",
     "North African Sauce",
-    "Healthy Harissa Sauce"
+    "North African Yogurt Sauce",
+    "North African Harissa Sauce",
+    "Mediterranean Yogurt Sauce",
+    "Mediterranean Dip",
+    "Spicy Yogurt Sauce",
+    "Greek Yogurt Harissa Sauce",
+    "Greek Yogurt Dip",
+    "Healthy Harissa Sauce",
+    "Healthy Yogurt Sauce",
+    "Healthy Yogurt Dip",
+    "Garlic Yogurt Sauce",
+    "Lemon Yogurt Sauce",
+    "Harissa Garlic Sauce",
+    "Harissa Sauce for Chicken",
+    "Harissa Sauce for Lamb",
+    "Harissa Sauce for Fish",
+    "Harissa Sauce for Falafel",
+    "Harissa Sauce for Vegetables",
+    "Harissa Sauce for Sandwiches",
+    "Harissa Sauce for Wraps",
+    "Harissa Sauce for Grain Bowls",
+    "Harissa Mezze Sauce",
+    "Mediterranean Mezze Sauce",
+    "Spicy Mediterranean Dip",
   ],
 
   tags: [
@@ -481,6 +513,11 @@ export const harissaYogurtSauceEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make harissa yogurt sauce?",
+      answer:
+        "To make harissa yogurt sauce, whisk 1 cup Greek yogurt with 2 tablespoons harissa paste, 1 finely minced garlic clove, 1 tablespoon fresh lemon juice, and 1 tablespoon extra virgin olive oil. Stir in parsley, mint, cumin, smoked paprika, and salt, then taste and adjust the heat and acidity. Refrigerate for at least 20 minutes so the flavors blend, then stir, garnish with fresh parsley and olive oil, and serve with grilled meats, fish, falafel, roasted vegetables, sandwiches, wraps, grain bowls, or mezze.",
+    },
     {
       question: "What is harissa?",
       answer:

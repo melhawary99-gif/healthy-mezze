@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const eggplantParmesanMediterraneanEn: RecipeTranslation = {
-  title: "Eggplant Parmesan (Mediterranean Style)",
+  title: "Eggplant Parmesan Recipe (Mediterranean Style)",
 
   description:
-    "Layers of oven-roasted eggplant, tomato sauce, mozzarella, Parmesan, and fresh herbs baked until bubbling and lightly golden.",
+    "This healthy eggplant Parmesan recipe layers oven-roasted eggplant with thick tomato sauce, mozzarella, Parmesan, garlic, and fresh herbs. Baked until bubbling and lightly golden, it is a comforting Mediterranean-style vegetarian dinner without deep-frying.",
 
   longDescription:
     "This Mediterranean-style Eggplant Parmesan keeps the comforting layered character of the classic dish while using oven-roasted eggplant instead of deep-frying. Tender eggplant is layered with tomato sauce, mozzarella, Parmesan, garlic, basil, parsley, and oregano, then baked until bubbling and lightly browned. It is a satisfying vegetarian main dish with the fresh, olive-oil-centered flavors that work so naturally across Mediterranean cooking.",
@@ -101,13 +101,25 @@ export const eggplantParmesanMediterraneanEn: RecipeTranslation = {
   ],
 
   keywords: [
+    "Eggplant Parmesan Recipe",
     "Eggplant Parmesan",
+    "How to Make Eggplant Parmesan",
     "Healthy Eggplant Parmesan",
     "Mediterranean Eggplant Parmesan",
+    "Mediterranean Eggplant Parmesan Recipe",
     "Baked Eggplant Parmesan",
-    "Vegetarian Mediterranean Dinner",
-    "Oven Roasted Eggplant",
+    "Oven Baked Eggplant Parmesan",
+    "Easy Eggplant Parmesan Recipe",
     "Healthy Eggplant Recipe",
+    "Oven Roasted Eggplant",
+    "Vegetarian Eggplant Parmesan",
+    "Vegetarian Mediterranean Dinner",
+    "Eggplant Parmesan Without Frying",
+    "Eggplant Parmesan with Tomato Sauce",
+    "Eggplant Parmesan with Mozzarella",
+    "Eggplant Parmesan with Parmesan Cheese",
+    "Italian Eggplant Parmesan",
+    "Mediterranean Vegetarian Dinner",
   ],
 
   tags: [
@@ -465,6 +477,11 @@ export const eggplantParmesanMediterraneanEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make eggplant Parmesan?",
+      answer:
+        "To make eggplant Parmesan, slice the eggplant into even rounds, brush them lightly with extra virgin olive oil, and roast until tender and lightly browned. Warm a thick tomato sauce with garlic and oregano, then layer the roasted eggplant with tomato sauce, mozzarella, Parmesan, basil, and parsley in a baking dish. Bake until the sauce is bubbling and the cheese is melted and lightly golden, then let the dish rest before serving.",
+    },
     {
       question: "Do I need to salt the eggplant before cooking?",
       answer:

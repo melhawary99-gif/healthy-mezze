@@ -1,16 +1,16 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const chickenPitaWrapEn: RecipeTranslation = {
-  title: "Palestinian Musakhan Chicken Pita Wrap",
+  title: "Palestinian Musakhan Chicken Pita Wrap Recipe",
 
   description:
-    "A Palestinian-inspired Musakhan chicken pita wrap made with sumac-seasoned chicken, deeply softened onions, extra virgin olive oil, toasted pine nuts, fresh herbs, and warm pita finished on the pan for a rustic taboon-style exterior.",
+    "A healthy Palestinian Musakhan chicken pita wrap recipe made with sumac-seasoned chicken, soft sumac onions, extra virgin olive oil, toasted pine nuts, fresh parsley, and warm pita finished on the pan for a rustic taboon-style exterior. This easy chicken wrap brings classic Musakhan flavors into a practical hand-held meal.",
 
   longDescription:
     "This Palestinian Musakhan Chicken Pita Wrap takes its inspiration from one of Palestine's most beloved traditional dishes, Musakhan. Classic Musakhan is built around tender chicken, onions slowly cooked with generous amounts of extra virgin olive oil and fragrant sumac, and traditionally served with taboon bread and toasted nuts. This Healthy Mezze version keeps those defining flavors while adapting the dish into a practical hand-held pita wrap. The assembled pita is given a final turn on a hot pan, gently rolling and pressing it so the outside develops toasted marks and a slightly crisp, cooked texture reminiscent of bread prepared against a hot taboon surface. The result is a satisfying Palestinian-inspired meal with juicy chicken, sweet-savory sumac onions, aromatic olive oil, crunchy pine nuts, fresh herbs, and a warm grilled exterior.",
 
   imageAlt:
-    "Palestinian Musakhan chicken pita wrap filled with sumac-seasoned chicken, caramelized onions, toasted pine nuts, parsley, and olive oil.",
+    "Palestinian Musakhan chicken pita wrap filled with sumac-seasoned chicken, softened sumac onions, toasted pine nuts, fresh parsley, and olive oil.",
 
   ingredients: [
     {
@@ -124,16 +124,21 @@ export const chickenPitaWrapEn: RecipeTranslation = {
   ],
 
   keywords: [
-    "Palestinian Musakhan",
-    "Musakhan Chicken",
-    "Palestinian Chicken Wrap",
-    "Palestinian Pita Wrap",
-    "Chicken Musakhan Wrap",
-    "Sumac Chicken Wrap",
-    "Palestinian Food",
-    "Palestinian Recipe",
-    "Taboon Style Pita",
-    "Middle Eastern Chicken Wrap",
+    "Palestinian Musakhan Chicken Wrap Recipe",
+    "Musakhan Chicken Recipe",
+    "Palestinian Chicken Wrap Recipe",
+    "Palestinian Pita Wrap Recipe",
+    "How to Make Musakhan Chicken",
+    "Musakhan Chicken Wrap",
+    "Sumac Chicken Wrap Recipe",
+    "Palestinian Chicken Recipe",
+    "Palestinian Food Recipe",
+    "Taboon Style Pita Wrap",
+    "Healthy Palestinian Chicken Recipe",
+    "Middle Eastern Chicken Wrap Recipe",
+    "Chicken Pita Wrap Recipe",
+    "Sumac Chicken Recipe",
+    "Easy Musakhan Recipe",
   ],
 
   tags: [
@@ -514,6 +519,11 @@ export const chickenPitaWrapEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make a Palestinian Musakhan chicken pita wrap?",
+      answer:
+        "To make a Palestinian Musakhan chicken pita wrap, first season thin strips of chicken with garlic, cumin, coriander, paprika, black pepper, salt, olive oil, and sumac. Cook the chicken until browned and fully cooked, then soften thinly sliced onions in olive oil in the same pan and finish them with sumac. Toast the pine nuts separately, warm the pita, and fill it with the chicken, sumac onions, pine nuts, and fresh parsley. Fold and roll the pita into a compact wrap, then pan-grill it seam-side down over medium heat, rotating and gently rolling it until the exterior develops toasted brown marks. Rest briefly and serve warm with extra sumac, parsley, and lemon.",
+    },
     {
       question: "What is Musakhan?",
       answer:

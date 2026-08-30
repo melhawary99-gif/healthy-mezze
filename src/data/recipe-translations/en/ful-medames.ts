@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const fulMedamesEn: RecipeTranslation = {
-  title: "Ful Medames (Egyptian Fava Beans)",
+  title: "Ful Medames Recipe — Traditional Egyptian Fava Beans",
 
   description:
-    "A traditional Egyptian ful medames made with tender fava beans, garlic, cumin, lemon, and extra virgin olive oil, finished with fresh tomato, red onion, and parsley.",
+    "This traditional Egyptian ful medames recipe combines tender fava beans with garlic, cumin, fresh lemon juice, and extra virgin olive oil, finished with tomato, red onion, parsley, and warm pita. Easy to prepare and naturally vegan without eggs, it makes a hearty, healthy Egyptian breakfast rich in plant-based protein and fiber.",
 
   longDescription:
     "Ful medames is one of Egypt's most beloved everyday dishes and a classic breakfast built around slow-cooked fava beans. This home-friendly version uses canned cooked beans for convenience while keeping the characteristic Egyptian combination of cumin, garlic, lemon, and olive oil. The beans are gently warmed and partly mashed, leaving plenty of whole beans for a thick, hearty texture. Fresh tomato, red onion, parsley, lemon, and warm pita provide contrast and brightness at the table.",
@@ -136,13 +136,27 @@ export const fulMedamesEn: RecipeTranslation = {
   ],
 
   keywords: [
+    "Ful Medames Recipe",
     "Ful Medames",
     "Egyptian Ful Medames",
-    "Egyptian Breakfast",
+    "Traditional Egyptian Ful Medames",
+    "How to Make Ful Medames",
     "Egyptian Fava Beans",
-    "Fava Bean Breakfast",
+    "Egyptian Fava Bean Recipe",
+    "Egyptian Breakfast Recipe",
+    "Traditional Egyptian Breakfast",
     "Healthy Egyptian Breakfast",
+    "Healthy Ful Medames",
+    "Vegan Ful Medames",
     "Vegan Egyptian Recipe",
+    "Fava Bean Breakfast",
+    "Fava Bean Recipe",
+    "Ful Medames with Cumin",
+    "Ful Medames with Garlic",
+    "Ful Medames with Lemon",
+    "Ful Medames with Olive Oil",
+    "Ful Medames with Pita",
+    "Egyptian Bean Breakfast",
   ],
 
   tags: [
@@ -503,6 +517,11 @@ export const fulMedamesEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make ful medames?",
+      answer:
+        "To make ful medames, gently cook minced garlic in olive oil, then add cooked fava beans, cumin, paprika, salt, and black pepper. Add a little water or reserved bean liquid and simmer until the beans are hot and tender. Partially mash the beans while leaving many whole, then remove from the heat and stir in fresh lemon juice. Finish with olive oil, diced tomato, red onion, parsley, and optional cilantro, and serve hot with warm pita and lemon wedges.",
+    },
     {
       question: "Is ful medames traditionally Egyptian?",
       answer:

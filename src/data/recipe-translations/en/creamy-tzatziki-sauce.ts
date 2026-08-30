@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const creamyTzatzikiSauceEn: RecipeTranslation = {
-  title: "Creamy Tzatziki Sauce",
+  title: "Creamy Tzatziki Sauce Recipe",
 
   description:
-    "A refreshing Lebanese-style yogurt sauce made with cucumber, garlic, fresh dill, optional mint, lemon, and extra virgin olive oil. Cool, creamy, and bright, it is perfect with grilled meats, shawarma, falafel, vegetables, wraps, and warm pita.",
+    "A creamy tzatziki sauce recipe made with thick Greek yogurt, cucumber, garlic, fresh dill, optional mint, lemon juice, and extra virgin olive oil. This Lebanese-style yogurt sauce is cool, tangy, refreshing, and perfect with grilled chicken, shawarma, falafel, vegetables, wraps, warm pita, and mezze.",
 
   longDescription:
     "This Lebanese-style tzatziki brings together thick Greek yogurt, crisp cucumber, garlic, fresh herbs, lemon juice, and extra virgin olive oil in a cool and creamy sauce that works beautifully as part of a mezze spread. The key to a thick, flavorful result is removing as much water as possible from the grated cucumber before mixing it with the yogurt. A short rest in the refrigerator then gives the garlic, herbs, lemon, and yogurt time to come together. Serve it chilled alongside grilled meats, shawarma, kebabs, falafel, fresh vegetables, wraps, or warm pita bread.",
@@ -90,14 +90,24 @@ export const creamyTzatzikiSauceEn: RecipeTranslation = {
   ],
 
   keywords: [
-    "Lebanese Tzatziki",
+    "Creamy Tzatziki Sauce Recipe",
+    "Tzatziki Sauce Recipe",
+    "How to Make Tzatziki Sauce",
+    "Lebanese Tzatziki Recipe",
     "Lebanese Yogurt Sauce",
-    "Creamy Tzatziki Sauce",
+    "Cucumber Yogurt Sauce",
     "Cucumber Yogurt Dip",
     "Garlic Yogurt Sauce",
     "Mediterranean Yogurt Dip",
-    "Healthy Tzatziki",
-    "Yogurt Cucumber Sauce",
+    "Healthy Tzatziki Recipe",
+    "Easy Tzatziki Sauce Recipe",
+    "Homemade Tzatziki Sauce",
+    "Tzatziki Sauce for Shawarma",
+    "Tzatziki Sauce for Falafel",
+    "Tzatziki Sauce for Grilled Chicken",
+    "Tzatziki Sauce for Vegetables",
+    "Tzatziki for Pita",
+    "Lebanese Mezze Sauce",
   ],
 
   tags: [
@@ -578,6 +588,11 @@ export const creamyTzatzikiSauceEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make creamy tzatziki sauce?",
+      answer:
+        "To make creamy tzatziki sauce, grate a fresh cucumber and squeeze it very firmly in a clean kitchen towel to remove as much excess water as possible. Mix the drained cucumber with thick Greek yogurt, finely minced garlic, fresh dill, optional mint, lemon juice, extra virgin olive oil, salt, and black pepper. Refrigerate the sauce for at least 30 minutes so the flavors can develop, then taste and adjust the seasoning before serving chilled.",
+    },
     {
       question: "Is this traditional Greek tzatziki?",
       answer:

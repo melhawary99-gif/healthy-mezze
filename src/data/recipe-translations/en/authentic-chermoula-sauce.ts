@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const authenticChermoulaSauceEn: RecipeTranslation = {
-  title: "Authentic Chermoula Sauce",
+  title: "Authentic Chermoula Sauce Recipe",
 
   description:
-    "A vibrant Moroccan herb sauce and marinade made with fresh cilantro, parsley, garlic, lemon, extra virgin olive oil, and warm spices.",
+    "An authentic Chermoula sauce recipe made with fresh cilantro, parsley, garlic, lemon, extra virgin olive oil, and warm spices for a vibrant Moroccan herb sauce and marinade.",
 
   longDescription:
     "Chermoula is a classic North African herb sauce and marinade especially associated with Moroccan cooking and also enjoyed across Algeria, Tunisia, and the wider region. Its character comes from the combination of fresh cilantro and parsley, garlic, cumin, coriander, paprika, lemon, and olive oil. Unlike a smooth herb purée, good chermoula retains a little texture, allowing the herbs and spices to remain clearly recognizable. It can be used to marinate fish and seafood before cooking, spooned over grilled chicken or vegetables, mixed with roasted potatoes, or served as a bright finishing sauce with bread and mezze. The sauce is quick to prepare, naturally vegan and dairy-free, and becomes even more flavorful after a short resting period.",
@@ -123,15 +123,21 @@ export const authenticChermoulaSauceEn: RecipeTranslation = {
   ],
 
   keywords: [
-    "Chermoula",
+    "Chermoula Sauce Recipe",
+    "Authentic Chermoula Recipe",
+    "Moroccan Chermoula Recipe",
+    "How to Make Chermoula",
     "Chermoula Sauce",
+    "Authentic Chermoula",
     "Moroccan Chermoula",
     "Moroccan Herb Sauce",
     "North African Herb Sauce",
-    "Fish Chermoula",
     "Chermoula Marinade",
+    "Chermoula Marinade Recipe",
+    "Fish Chermoula",
     "Moroccan Marinade",
     "Mediterranean Herb Sauce",
+    "Chermoula",
   ],
 
   tags: [
@@ -550,6 +556,11 @@ export const authenticChermoulaSauceEn: RecipeTranslation = {
       question: "What is Chermoula?",
       answer:
         "Chermoula is a North African herb sauce and marinade made from fresh herbs, garlic, lemon, olive oil, and spices. It is especially associated with Moroccan cooking and is commonly paired with fish and seafood.",
+    },
+    {
+      question: "How do you make Chermoula sauce?",
+      answer:
+        "Chermoula sauce is made by combining finely chopped cilantro and parsley with garlic, cumin, coriander, paprika, lemon, extra virgin olive oil, salt, and black pepper. The ingredients are pulsed or mixed until the sauce remains slightly textured, then rested briefly so the flavors can develop.",
     },
     {
       question: "Is Chermoula Moroccan?",

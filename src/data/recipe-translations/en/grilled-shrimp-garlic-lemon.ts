@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const grilledShrimpGarlicLemonEn: RecipeTranslation = {
-  title: "Grilled Shrimp with Garlic & Lemon",
+  title: "Grilled Shrimp with Garlic & Lemon Recipe — Mediterranean Shrimp",
 
   description:
-    "Juicy grilled shrimp marinated with garlic, fresh lemon, extra virgin olive oil, parsley, cumin, and paprika, then quickly grilled until tender and lightly charred. A bright, protein-rich Lebanese-inspired mezze.",
+    "This grilled shrimp with garlic and lemon recipe features juicy large shrimp marinated with fresh garlic, lemon juice, extra virgin olive oil, parsley, cumin, paprika, and black pepper, then quickly grilled until tender with lightly charred edges. An easy Mediterranean shrimp recipe that is high in protein and perfect for mezze, pita, salads, grilled vegetables, or a light main dish.",
 
   longDescription:
     "This grilled shrimp recipe brings together the fresh, bright flavors of the Eastern Mediterranean in a simple dish that cooks in minutes. Large shrimp are coated in extra virgin olive oil, garlic, lemon juice, parsley, cumin, paprika, and black pepper before being briefly marinated and grilled over high heat. The result is tender shrimp with lightly charred edges, a savory garlic aroma, warm spice, and fresh citrus flavor. The short marinade is intentional: shrimp are delicate and do not need hours of marinating, especially when lemon juice is involved. Serve the shrimp immediately with lemon wedges, warm pita, hummus, fresh salads, or grilled vegetables as part of a colorful Lebanese-inspired mezze table.",
@@ -120,13 +120,43 @@ export const grilledShrimpGarlicLemonEn: RecipeTranslation = {
 
   keywords: [
     "Grilled Shrimp",
-    "Garlic Shrimp",
-    "Lemon Shrimp",
-    "Lebanese Seafood",
+    "Grilled Shrimp Recipe",
+    "How to Make Grilled Shrimp",
+    "Grilled Garlic Shrimp",
+    "Garlic Shrimp Recipe",
+    "Garlic Lemon Shrimp",
+    "Garlic Lemon Shrimp Recipe",
+    "Lemon Garlic Shrimp",
+    "Lemon Shrimp Recipe",
     "Mediterranean Shrimp",
+    "Mediterranean Shrimp Recipe",
+    "Mediterranean Grilled Shrimp",
+    "Lebanese Shrimp",
+    "Lebanese Seafood",
+    "Lebanese Grilled Shrimp",
     "Healthy Shrimp Recipe",
+    "Healthy Grilled Shrimp",
+    "High Protein Shrimp Recipe",
     "Grilled Seafood",
+    "Grilled Seafood Recipe",
+    "Shrimp Marinade",
+    "Shrimp Marinade Recipe",
+    "Garlic Shrimp Marinade",
+    "Lemon Garlic Shrimp Marinade",
+    "Olive Oil Shrimp Marinade",
+    "Grilled Shrimp with Garlic",
+    "Grilled Shrimp with Lemon",
+    "Grilled Shrimp with Garlic and Lemon",
+    "Easy Grilled Shrimp",
+    "Quick Grilled Shrimp",
+    "Shrimp Mezze",
     "Mediterranean Mezze",
+    "Grilled Shrimp with Pita",
+    "Grilled Shrimp with Hummus",
+    "Grilled Shrimp Salad",
+    "Grilled Shrimp with Vegetables",
+    "Low Carb Grilled Shrimp",
+    "Middle Eastern Grilled Shrimp",
   ],
 
   tags: [
@@ -610,6 +640,11 @@ export const grilledShrimpGarlicLemonEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make grilled shrimp with garlic and lemon?",
+      answer:
+        "To make grilled shrimp with garlic and lemon, toss large peeled and deveined shrimp with extra virgin olive oil, minced garlic, fresh lemon juice, parsley, cumin, paprika, black pepper, salt, and optional red pepper flakes. Marinate for 15–20 minutes, then grill over medium-high heat for about 2–3 minutes per side until the shrimp are opaque, firm but tender, lightly browned, and cooked through. Finish with fresh parsley and lemon wedges and serve immediately with hummus, pita, salad, or grilled vegetables.",
+    },
     {
       question: "How long should I marinate the shrimp?",
       answer:

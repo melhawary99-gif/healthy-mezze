@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const authenticLebaneseMintTeaEn: RecipeTranslation = {
-  title: "Authentic Lebanese Mint Tea (Shai bil Nana)",
+  title: "Authentic Lebanese Mint Tea Recipe (Shai bil Nana)",
 
   description:
-    "A traditional Lebanese black tea infused with fresh mint leaves and lightly sweetened with optional honey, served hot and fragrant.",
+    "An authentic Lebanese mint tea recipe made with black tea, fresh mint leaves, and optional honey for a fragrant traditional drink served hot.",
 
   longDescription:
     "Shai bil Nana, or Lebanese Mint Tea, is a familiar hot beverage in Lebanon and across the Levant. Strong black tea is combined with fresh mint to create a fragrant, refreshing drink that is often served after meals or offered to guests. The key to a balanced cup is to avoid over-steeping the black tea: the tea should provide a warm, full-bodied base while the fresh mint contributes its bright aroma. This version keeps honey optional so the natural character of the tea and mint remains easy to taste. Serve it immediately while hot, preferably in heatproof glasses or small tea cups, with a fresh mint sprig for aroma.",
@@ -72,13 +72,19 @@ export const authenticLebaneseMintTeaEn: RecipeTranslation = {
   ],
 
   keywords: [
+    "Lebanese Mint Tea Recipe",
+    "Authentic Lebanese Mint Tea",
     "Lebanese Mint Tea",
+    "How to Make Lebanese Mint Tea",
+    "Shai bil Nana Recipe",
     "Shai bil Nana",
     "Shay bil Nana",
     "Lebanese Tea",
+    "Lebanese Tea Recipe",
     "Middle Eastern Mint Tea",
     "Traditional Lebanese Drink",
     "Fresh Mint Tea",
+    "Lebanese Mint Tea with Fresh Mint",
     "Lebanese Black Tea",
     "Mint Tea",
   ],
@@ -455,6 +461,16 @@ export const authenticLebaneseMintTeaEn: RecipeTranslation = {
       question: "What is Shai bil Nana?",
       answer:
         "Shai bil Nana means mint tea and refers to black tea infused with fresh mint. It is a familiar hot beverage in Lebanon and across the Levant.",
+    },
+    {
+      question: "How do I make Lebanese mint tea?",
+      answer:
+        "Bring the water to a boil, steep the black tea for about 3–4 minutes, add fresh mint and steep for another 2–3 minutes, then remove the tea and mint. Taste and add optional honey before serving hot with a fresh mint sprig.",
+    },
+    {
+      question: "What is Lebanese mint tea made of?",
+      answer:
+        "Lebanese mint tea is made with black tea, fresh mint leaves, and hot water, with optional honey for sweetness. It is traditionally served hot and fragrant.",
     },
     {
       question: "Should I add mint before or after the black tea?",

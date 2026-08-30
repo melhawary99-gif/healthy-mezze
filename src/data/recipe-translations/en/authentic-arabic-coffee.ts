@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const authenticArabicCoffeeEn: RecipeTranslation = {
-  title: "Authentic Arabic Coffee (Ahwa)",
+  title: "Authentic Arabic Coffee Recipe (Ahwa)",
 
   description:
-    "A fragrant traditional Arabic coffee made with lightly roasted coffee, aromatic cardamom, and water, served warm in small finjan cups.",
+    "An authentic Arabic coffee recipe made with lightly roasted coffee, aromatic cardamom, and water, then served warm in small finjan cups with traditional dates.",
 
   longDescription:
     "Arabic coffee, often called Ahwa in parts of the Middle East, is closely associated with hospitality, welcoming guests, and sharing conversation. This simple preparation uses lightly roasted, finely ground Arabic coffee and fragrant cardamom to create a delicate, aromatic drink traditionally served without milk. Unlike a large mug of strong brewed coffee, Arabic coffee is usually presented in small finjan cups, with the grounds allowed to settle before serving. Dates are a natural accompaniment and add a pleasant contrast to the coffee's roasted and aromatic character. Regional methods vary, so this recipe represents a Lebanese and broader Middle Eastern-inspired preparation rather than one single standardized method.",
@@ -67,15 +67,18 @@ export const authenticArabicCoffeeEn: RecipeTranslation = {
   ],
 
   keywords: [
-    "Arabic Coffee",
-    "Authentic Arabic Coffee",
-    "Ahwa",
-    "Lebanese Coffee",
-    "Middle Eastern Coffee",
-    "Cardamom Coffee",
-    "Traditional Arabic Coffee",
     "Arabic Coffee Recipe",
+    "Authentic Arabic Coffee",
+    "Traditional Arabic Coffee",
+    "Arabic Coffee with Cardamom",
+    "How to Make Arabic Coffee",
+    "Ahwa Recipe",
+    "Cardamom Coffee",
+    "Middle Eastern Coffee",
+    "Lebanese Coffee",
     "Coffee with Cardamom",
+    "Ahwa",
+    "Arabic Coffee",
   ],
 
   tags: [
@@ -427,6 +430,11 @@ export const authenticArabicCoffeeEn: RecipeTranslation = {
       question: "What is Arabic coffee?",
       answer:
         "Arabic coffee is a traditional Middle Eastern coffee preparation commonly made with lightly roasted, finely ground coffee and aromatic cardamom. Regional recipes and serving customs vary.",
+    },
+    {
+      question: "How do you make Arabic coffee?",
+      answer:
+        "Arabic coffee is made by gently simmering finely ground lightly roasted coffee with water, then adding cardamom toward the end of brewing. The coffee is rested briefly so the fine grounds settle before it is poured into small finjan cups.",
     },
     {
       question: "Why is Arabic coffee served in small cups?",

@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const greekSaladEn: RecipeTranslation = {
-  title: "Greek Salad — A Lebanese-Inspired Mediterranean Version",
+  title: "Greek Salad Recipe — Lebanese-Inspired Mediterranean Version",
 
   description:
-    "A fresh Greek-style village salad with tomatoes, cucumber, feta, Kalamata olives, oregano, and extra virgin olive oil, finished with Lebanese-inspired lemon, mint, and sumac for a brighter Mediterranean character.",
+    "This Greek salad recipe combines ripe tomatoes, crisp cucumber, feta, Kalamata olives, oregano, extra virgin olive oil, lemon, fresh mint, and sumac for a bright Lebanese-inspired Mediterranean salad. Easy to prepare, fresh, vegetarian, and full of classic Mediterranean flavors, it makes a refreshing side dish or light meal.",
 
   longDescription:
     "This Healthy Mezze version starts with the classic Greek village salad, known as choriatiki: ripe tomatoes, cucumber, onion, feta, olives, oregano, and olive oil. We keep that unmistakable Greek foundation while introducing a few carefully chosen Levantine touches — fresh mint, lemon juice, and a light dusting of sumac. The result is not presented as a traditional Greek or Lebanese dish, but as a Mediterranean interpretation that brings two neighboring food traditions together in one fresh, practical salad.",
@@ -119,16 +119,26 @@ export const greekSaladEn: RecipeTranslation = {
   ],
 
   keywords: [
+    "Greek Salad Recipe",
     "Greek Salad",
+    "Classic Greek Salad Recipe",
     "Greek Village Salad",
     "Choriatiki",
-    "Mediterranean Salad",
-    "Lebanese Inspired Greek Salad",
+    "How to Make Greek Salad",
+    "Easy Greek Salad Recipe",
     "Healthy Greek Salad",
-    "Healthy Mediterranean Salad",
-    "Feta Salad",
-    "Kalamata Olive Salad",
-    "Easy Mediterranean Salad",
+    "Healthy Greek Salad Recipe",
+    "Mediterranean Salad Recipe",
+    "Mediterranean Greek Salad",
+    "Lebanese Inspired Greek Salad",
+    "Lebanese-Inspired Mediterranean Salad",
+    "Feta Greek Salad",
+    "Greek Salad with Feta",
+    "Greek Salad with Kalamata Olives",
+    "Greek Salad with Sumac",
+    "Greek Salad with Lemon Dressing",
+    "Fresh Mediterranean Salad",
+    "Vegetarian Greek Salad",
   ],
 
   tags: [
@@ -577,6 +587,11 @@ export const greekSaladEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make Greek salad?",
+      answer:
+        "To make this Greek salad, wash and thoroughly dry the vegetables, then cut the tomatoes into large wedges or chunks, slice the cucumber and red onion, and add the Kalamata olives. Whisk together extra virgin olive oil, lemon juice, oregano, black pepper, and fresh mint. Gently toss the vegetables with the dressing, then fold in the feta and finish with a light sprinkle of sumac. Taste before adding extra salt because the feta and olives are already salty.",
+    },
     {
       question: "Is this an authentic Greek salad?",
       answer:

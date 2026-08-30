@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const bakedKibbehEn: RecipeTranslation = {
-  title: "Baked Kibbeh",
+  title: "Baked Kibbeh Recipe",
 
   description:
-    "A lighter oven-baked version of traditional Lebanese kibbeh made with fine bulgur, lean ground beef, fresh herbs, and warm Mediterranean spices.",
+    "A healthy baked kibbeh recipe made with fine bulgur, lean ground beef, fresh herbs, pine nuts, and warm Lebanese spices. This oven-baked kibbeh bil sanieh has a tender bulgur-beef crust, savory filling, and golden finish with less oil than fried kibbeh.",
 
   longDescription:
     "Baked Kibbeh is a beloved Lebanese dish made from a delicately seasoned mixture of fine bulgur and lean ground beef, layered around a savory filling of browned beef, onions, and toasted pine nuts. Instead of deep-frying individual pieces, this version is assembled in a baking dish, scored into traditional diamond shapes, brushed lightly with olive oil, and baked until beautifully golden. The result is hearty and aromatic, with a tender bulgur-beef crust, a savory center, and the unmistakable warmth of Lebanese spices.",
@@ -122,12 +122,18 @@ export const bakedKibbehEn: RecipeTranslation = {
   ],
 
   keywords: [
+    "Baked Kibbeh Recipe",
+    "Healthy Baked Kibbeh Recipe",
+    "How to Make Baked Kibbeh",
+    "Oven Baked Kibbeh Recipe",
     "Baked Kibbeh",
     "Healthy Kibbeh",
     "Lebanese Kibbeh",
     "Kibbeh bil Sanieh",
     "Kibbeh in a Tray",
-    "Mediterranean Beef Recipe",
+    "Lebanese Kibbeh Recipe",
+    "Mediterranean Kibbeh",
+    "Bulgur Beef Kibbeh",
     "Traditional Lebanese Food",
   ],
 
@@ -757,6 +763,11 @@ export const bakedKibbehEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make baked kibbeh?",
+      answer:
+        "Baked kibbeh is made by soaking fine bulgur, draining and squeezing it thoroughly, then combining it with lean ground beef, onion, parsley, mint, allspice, cumin, cinnamon, paprika, salt, and black pepper. The mixture is processed until finely textured and cohesive, then layered in a baking dish around a filling of browned beef, onions, and toasted pine nuts. The top is smoothed, scored into traditional diamond shapes, brushed lightly with olive oil, and baked at 190°C (375°F) until firm and golden. After resting for about 10 minutes, the kibbeh can be cut into clean diamond-shaped portions and served warm with salad, tahini, yogurt, hummus, or other Lebanese-style accompaniments.",
+    },
     {
       question: "What is baked kibbeh?",
       answer:

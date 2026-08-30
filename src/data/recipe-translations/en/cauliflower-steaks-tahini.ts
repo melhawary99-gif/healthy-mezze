@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const cauliflowerSteaksTahiniEn: RecipeTranslation = {
-  title: "Cauliflower Steaks with Lemon Tahini Sauce",
+  title: "Cauliflower Steaks with Lemon Tahini Sauce Recipe",
 
   description:
-    "Thick roasted cauliflower steaks seasoned with paprika, cumin, and garlic, then finished with creamy lemon tahini sauce, toasted pine nuts, fresh parsley, and smoked paprika.",
+    "A healthy cauliflower steaks with lemon tahini sauce recipe made with thick roasted cauliflower, paprika, cumin, garlic, creamy tahini, fresh lemon, toasted pine nuts, and parsley. This easy Mediterranean vegetarian dinner is roasted until golden and caramelized, then finished with a bright, creamy tahini sauce.",
 
   longDescription:
     "Cauliflower Steaks with Lemon Tahini Sauce turn a whole head of cauliflower into a satisfying Mediterranean-inspired vegetarian main dish. Thick cross-cut slices are coated with extra virgin olive oil and warm spices, then roasted at high heat until the edges are deeply golden and caramelized while the center becomes tender. The roasted cauliflower is finished with a smooth tahini sauce brightened with fresh lemon and garlic, then topped with toasted pine nuts, parsley, and a light dusting of smoked paprika. The combination of roasted cauliflower, nutty sesame tahini, citrus, herbs, and warm spices creates a balanced dish that is savory, creamy, bright, and satisfying.",
@@ -128,16 +128,21 @@ export const cauliflowerSteaksTahiniEn: RecipeTranslation = {
   ],
 
   keywords: [
-    "Cauliflower Steaks",
+    "Cauliflower Steaks with Lemon Tahini Sauce Recipe",
     "Cauliflower Steak Recipe",
-    "Lemon Tahini Sauce",
-    "Roasted Cauliflower",
-    "Tahini Cauliflower",
-    "Mediterranean Cauliflower",
-    "Healthy Vegetarian Dinner",
-    "Mediterranean Vegetarian Recipe",
+    "Cauliflower Steaks Recipe",
+    "How to Make Cauliflower Steaks",
+    "Lemon Tahini Sauce Recipe",
+    "Roasted Cauliflower Recipe",
     "Roasted Cauliflower with Tahini",
     "Cauliflower with Tahini Sauce",
+    "Tahini Cauliflower Recipe",
+    "Healthy Cauliflower Recipe",
+    "Mediterranean Cauliflower Recipe",
+    "Mediterranean Vegetarian Dinner",
+    "Healthy Vegetarian Dinner",
+    "Easy Cauliflower Dinner",
+    "Vegan Cauliflower Recipe",
   ],
 
   tags: [
@@ -571,6 +576,11 @@ export const cauliflowerSteaksTahiniEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make cauliflower steaks with lemon tahini sauce?",
+      answer:
+        "To make cauliflower steaks with lemon tahini sauce, remove the outer leaves from a large cauliflower while keeping the central stem intact. Cut the cauliflower into approximately 1-inch-thick center slices, brush both sides with extra virgin olive oil, and season with paprika, cumin, garlic powder, sea salt, and black pepper. Roast at 220°C (425°F) for about 20 minutes, carefully flip the steaks, and roast for another 15 minutes or until the edges are deeply golden and the center is tender. While the cauliflower roasts, whisk together tahini, fresh lemon juice, minced garlic, olive oil, and water until smooth and pourable. Transfer the roasted cauliflower to plates, drizzle generously with the lemon tahini sauce, and finish with toasted pine nuts, fresh parsley, and smoked paprika.",
+    },
     {
       question: "What are cauliflower steaks?",
       answer:

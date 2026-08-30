@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const babaGanoushEn: RecipeTranslation = {
-  title: "Classic Baba Ganoush",
+  title: "Classic Baba Ganoush Recipe",
 
   description:
-    "A smoky, creamy roasted eggplant dip blended with tahini, garlic, fresh lemon juice, and extra virgin olive oil. A classic Mediterranean mezze that's rich, flavorful, and naturally plant-based.",
+    "A classic Baba Ganoush recipe made with smoky roasted eggplant, tahini, garlic, fresh lemon juice, and extra virgin olive oil. This creamy Mediterranean mezze is rich, flavorful, and naturally plant-based.",
 
   longDescription:
     "Classic Baba Ganoush turns roasted eggplant into a silky Mediterranean mezze with a deep smoky character. The eggplant is roasted until the skin is charred and the flesh is completely tender, then drained to concentrate its flavor before being combined with creamy tahini, fresh lemon juice, garlic, cumin, and extra virgin olive oil. The finished dip is smooth but retains a little texture, with a balance of smoky eggplant, nutty tahini, bright lemon, and aromatic garlic. Serve it as part of a mezze spread with warm pita, fresh vegetables, olives, and other small plates.",
@@ -108,13 +108,19 @@ export const babaGanoushEn: RecipeTranslation = {
   ],
 
   keywords: [
+    "Baba Ganoush Recipe",
+    "Classic Baba Ganoush Recipe",
+    "How to Make Baba Ganoush",
+    "Baba Ganoush Dip Recipe",
     "Baba Ganoush",
-    "Classic Baba Ganoush",
     "Roasted Eggplant Dip",
     "Mediterranean Eggplant Dip",
+    "Lebanese Baba Ganoush",
     "Lebanese Mezze",
     "Healthy Eggplant Dip",
     "Tahini Eggplant Dip",
+    "Authentic Baba Ganoush",
+    "Eggplant Mezze",
   ],
 
   tags: [
@@ -590,6 +596,11 @@ export const babaGanoushEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make baba ganoush?",
+      answer:
+        "Baba ganoush is made by roasting eggplants until the skins are deeply charred and the flesh is completely tender. The roasted flesh is scooped out and drained, then combined with tahini, fresh lemon juice, garlic, extra virgin olive oil, cumin, salt, and black pepper. The mixture is blended or mashed until creamy while retaining a little texture, then finished with olive oil, parsley, smoked paprika, and optional pomegranate seeds before serving.",
+    },
     {
       question: "Why does baba ganoush need to be drained?",
       answer:

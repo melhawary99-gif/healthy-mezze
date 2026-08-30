@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const authenticTamarHindiEn: RecipeTranslation = {
-  title: "Authentic Tamar Hindi (Egyptian Tamarind Drink)",
+  title: "Authentic Tamar Hindi Recipe (Egyptian Tamarind Drink)",
 
   description:
-    "A refreshing traditional Egyptian tamarind drink made by gently simmering and steeping tamarind pulp, then balancing its naturally sweet-tart flavor with honey and optional lemon and orange blossom water. Serve thoroughly chilled over ice.",
+    "An authentic Tamar Hindi recipe for a refreshing traditional Egyptian tamarind drink made by gently simmering and steeping tamarind pulp, then balancing its naturally sweet-tart flavor with honey and optional lemon and orange blossom water. Serve thoroughly chilled over ice.",
 
   longDescription:
     "Tamar Hindi is one of Egypt's beloved traditional beverages and is especially familiar during Ramadan and warm-weather gatherings. Tamarind pulp gives the drink its distinctive deep amber-brown color and naturally sweet, tangy flavor. The pulp is gently simmered and then allowed to steep so its flavor can fully develop before the liquid is strained and adjusted with honey. This version uses a modest amount of honey instead of a large quantity of refined sugar, while keeping lemon and orange blossom water optional so the final balance can be adjusted to taste. The key to a successful Tamar Hindi is balance: the drink should be noticeably fruity and tangy without becoming harsh, excessively sweet, or watery. Proper straining is also important because tamarind pulp can contain fibers and small pieces that should be removed before serving.",
@@ -96,6 +96,10 @@ export const authenticTamarHindiEn: RecipeTranslation = {
   ],
 
   keywords: [
+    "Tamar Hindi Recipe",
+    "Authentic Tamar Hindi Recipe",
+    "How to Make Tamar Hindi",
+    "Tamarind Drink Recipe",
     "Tamar Hindi",
     "Tamarind Drink",
     "Egyptian Tamarind Drink",
@@ -104,6 +108,7 @@ export const authenticTamarHindiEn: RecipeTranslation = {
     "Ramadan Drink",
     "Healthy Tamarind Drink",
     "Tamarind Juice",
+    "Traditional Tamarind Drink",
   ],
 
   tags: [
@@ -606,6 +611,11 @@ export const authenticTamarHindiEn: RecipeTranslation = {
       question: "Why is my Tamar Hindi too sour?",
       answer:
         "Tamarind naturally varies in acidity. Dilute the drink slightly and add honey gradually until the sweet-tart balance suits your taste.",
+    },
+    {
+      question: "How do you make Tamar Hindi?",
+      answer:
+        "Tamar Hindi is made by gently simmering tamarind pulp in water, then allowing it to steep before straining out the fibers and solids. Honey is added while the strained drink is warm, with lemon juice and orange blossom water added gradually if desired. The finished drink is thoroughly chilled and served over ice with optional fresh mint and lemon slices.",
     },
     {
       question: "Can I make Tamar Hindi without lemon?",

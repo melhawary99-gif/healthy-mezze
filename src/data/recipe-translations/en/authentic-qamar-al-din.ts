@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const authenticQamarAlDinEn: RecipeTranslation = {
-  title: "Authentic Qamar al-Din (Egyptian Apricot Drink)",
+  title: "Authentic Qamar al-Din Recipe (Egyptian Apricot Drink)",
 
   description:
-    "A traditional Egyptian apricot drink made from softened Qamar al-Din dried apricot sheets, orange blossom water, lemon, and optional honey, served chilled over ice.",
+    "An authentic Qamar al-Din recipe made from softened dried apricot sheets, orange blossom water, lemon, and optional honey for a traditional Egyptian apricot drink served chilled over ice.",
 
   longDescription:
     "Qamar al-Din is a beloved traditional Egyptian drink strongly associated with Ramadan and family gatherings. Made from dried apricot leather known as Qamar al-Din sheets, the drink develops a naturally fruity, sweet, silky texture after the sheets are softened in water and blended until smooth. Orange blossom water adds a delicate floral aroma, while a small amount of lemon juice brightens the apricot flavor. Honey is optional because the apricot sheets are already naturally sweet. The drink is best served thoroughly chilled over ice and is especially refreshing when prepared ahead for an evening Ramadan meal or a warm-weather gathering.",
@@ -96,16 +96,21 @@ export const authenticQamarAlDinEn: RecipeTranslation = {
   ],
 
   keywords: [
-    "Qamar al-Din",
-    "Qamar El Din",
-    "Qamaruddin",
+    "Qamar al-Din Recipe",
+    "Authentic Qamar al-Din",
+    "Qamar El Din Recipe",
+    "Qamaruddin Recipe",
+    "How to Make Qamar al-Din",
     "Egyptian Apricot Drink",
-    "Apricot Juice",
+    "Egyptian Apricot Drink Recipe",
+    "Apricot Juice Recipe",
     "Egyptian Ramadan Drink",
-    "Ramadan Drink",
+    "Ramadan Drink Recipe",
+    "Traditional Egyptian Drink",
     "Traditional Egyptian Beverage",
     "Middle Eastern Apricot Drink",
     "Apricot Leather Drink",
+    "Qamar al-Din",
   ],
 
   tags: [
@@ -486,6 +491,11 @@ export const authenticQamarAlDinEn: RecipeTranslation = {
       question: "Is Qamar al-Din an Egyptian drink?",
       answer:
         "Qamar al-Din is strongly associated with Egyptian Ramadan traditions and is widely enjoyed in Egypt. Variations of the drink and the apricot sheets are also familiar throughout the Middle East and Levant.",
+    },
+    {
+      question: "How do you make Qamar al-Din?",
+      answer:
+        "Qamar al-Din is made by cutting dried apricot leather sheets into small pieces, soaking them in cold water until very soft, then blending the softened apricot with its soaking liquid until smooth. Orange blossom water and lemon juice are added for aroma and balance, with optional honey if needed. The finished Egyptian apricot drink is thoroughly chilled and served over ice.",
     },
     {
       question: "Does Qamar al-Din need honey?",

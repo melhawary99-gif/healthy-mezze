@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const creamyCauliflowerSoupEn: RecipeTranslation = {
-  title: "Creamy Cauliflower Soup",
+  title: "Creamy Cauliflower Soup Recipe",
 
   description:
-    "A silky Mediterranean cauliflower soup made with deeply roasted cauliflower, garlic, onion, thyme, cumin, lemon, and extra virgin olive oil—rich and creamy without dairy.",
+    "A creamy cauliflower soup recipe made with roasted cauliflower, garlic, onion, thyme, cumin, fresh lemon juice, and extra virgin olive oil. This silky Mediterranean-style soup is naturally vegan, dairy-free, comforting, healthy, and full of roasted vegetable flavor.",
 
   longDescription:
     "This Creamy Cauliflower Soup turns humble cauliflower into a silky, deeply flavorful Mediterranean-inspired soup. Roasting the cauliflower, onion, and garlic first develops gentle caramelized edges and brings out the cauliflower's natural sweetness before everything is simmered with vegetable broth, thyme, and cumin. The vegetables are blended until smooth, then finished with fresh lemon juice and extra virgin olive oil for brightness and richness. No cream is needed to achieve a velvety texture, making this soup naturally dairy-free and suitable for vegetarian and vegan meals. It is comforting enough for dinner, light enough for lunch, and practical for meal preparation.",
@@ -109,13 +109,21 @@ export const creamyCauliflowerSoupEn: RecipeTranslation = {
   ],
 
   keywords: [
-    "Cauliflower Soup",
+    "Creamy Cauliflower Soup Recipe",
+    "Cauliflower Soup Recipe",
+    "How to Make Cauliflower Soup",
     "Creamy Cauliflower Soup",
-    "Mediterranean Soup",
-    "Healthy Cauliflower Soup",
-    "Roasted Cauliflower Soup",
+    "Roasted Cauliflower Soup Recipe",
+    "Healthy Cauliflower Soup Recipe",
+    "Easy Cauliflower Soup Recipe",
+    "Homemade Cauliflower Soup",
+    "Mediterranean Cauliflower Soup",
+    "Vegan Cauliflower Soup Recipe",
     "Dairy Free Cauliflower Soup",
-    "Vegan Cauliflower Soup",
+    "Creamy Vegetable Soup Recipe",
+    "Roasted Vegetable Soup",
+    "Cauliflower Soup Without Cream",
+    "Cauliflower Soup Without Dairy",
   ],
 
   tags: [
@@ -720,6 +728,11 @@ export const creamyCauliflowerSoupEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make creamy cauliflower soup?",
+      answer:
+        "To make creamy cauliflower soup, roast cauliflower, onion, and garlic until tender and golden, then simmer them with vegetable broth, thyme, and cumin. Blend the vegetables and broth until silky smooth, then stir in fresh lemon juice and extra virgin olive oil. The blended cauliflower creates a creamy texture naturally, so no cream or butter is required.",
+    },
     {
       question: "How does cauliflower soup become creamy without cream?",
       answer:

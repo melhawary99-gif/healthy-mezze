@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const classicTahiniSauceEn: RecipeTranslation = {
-  title: "Classic Tahini Sauce",
+  title: "Classic Tahini Sauce Recipe",
 
   description:
-    "A creamy Lebanese tahini sauce made with sesame tahini, fresh lemon juice, garlic, parsley, and olive oil. Smooth, tangy, nutty, and naturally vegan.",
+    "A classic tahini sauce recipe made with sesame tahini, fresh lemon juice, garlic, parsley, olive oil, and cold water. This creamy Lebanese-style sauce is smooth, tangy, nutty, naturally vegan, and perfect for falafel, shawarma, grilled foods, vegetables, salads, and mezze.",
 
   longDescription:
     "Classic tahini sauce is a foundational Lebanese and Levantine sauce made by transforming sesame tahini into a silky, pourable cream with lemon juice, garlic, salt, and cold water. The characteristic technique is simple but important: lemon juice initially makes the tahini seize and become very thick, while gradual whisking of cold water loosens it into a smooth, pale sauce. Finished with olive oil, parsley, and optional cumin, it is bright enough for fresh vegetables yet rich enough to complement falafel, shawarma, grilled meats, fish, and roasted vegetables.",
@@ -85,13 +85,21 @@ export const classicTahiniSauceEn: RecipeTranslation = {
   ],
 
   keywords: [
-    "Classic Tahini Sauce",
-    "Lebanese Tahini Sauce",
-    "Middle Eastern Tahini",
-    "Vegan Tahini Sauce",
-    "Sesame Sauce",
+    "Classic Tahini Sauce Recipe",
+    "Tahini Sauce Recipe",
+    "How to Make Tahini Sauce",
+    "Lebanese Tahini Sauce Recipe",
+    "Middle Eastern Tahini Sauce",
+    "Easy Tahini Sauce Recipe",
+    "Homemade Tahini Sauce",
+    "Vegan Tahini Sauce Recipe",
     "Healthy Tahini Sauce",
-    "Tahini Dressing",
+    "Sesame Tahini Sauce",
+    "Tahini Dressing Recipe",
+    "Tahini Sauce for Falafel",
+    "Tahini Sauce for Shawarma",
+    "Tahini Sauce for Vegetables",
+    "Lebanese Mezze Sauce",
   ],
 
   tags: [
@@ -457,6 +465,11 @@ export const classicTahiniSauceEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make classic tahini sauce?",
+      answer:
+        "To make classic tahini sauce, first whisk sesame tahini with fresh lemon juice until the mixture becomes very thick. Add minced garlic and salt, then gradually whisk in cold water, about 1 tablespoon at a time, until the sauce becomes smooth, pale, and creamy. Finish with extra virgin olive oil, fresh parsley, and optional cumin. Keep the sauce thicker for dipping or add more water for a thinner consistency suitable for drizzling and salad dressing.",
+    },
     {
       question: "Why did my tahini become very thick after adding lemon juice?",
       answer:

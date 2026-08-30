@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const healthyBakedAtayefEn: RecipeTranslation = {
-  title: "Healthy Baked Atayef with Ricotta & Pistachios",
+  title: "Healthy Baked Atayef Recipe with Ricotta & Pistachios",
 
   description:
-    "Soft Middle Eastern atayef pancakes filled with creamy ricotta, Greek yogurt, pistachios, honey, and fragrant orange blossom water, then baked until lightly golden instead of deep-fried.",
+    "This healthy baked atayef recipe features soft Middle Eastern pancakes filled with creamy ricotta, Greek yogurt, pistachios, honey, orange blossom water, and rose water, then baked until lightly golden instead of deep-fried. A lighter Egyptian and Levantine Ramadan dessert that is perfect for anyone looking for an easy baked atayef recipe with a creamy pistachio filling and gentle honey sweetness.",
 
   longDescription:
     "These healthy baked atayef combine the soft, slightly chewy texture of traditional Middle Eastern stuffed pancakes with a lighter ricotta, Greek yogurt, and pistachio filling. Atayef are especially associated with Ramadan in Egypt and the Levant, where families prepare them in different shapes and fillings throughout the month. This version keeps the familiar flavors of honey, pistachio, orange blossom water, and rose water while replacing deep-frying and heavy syrup with a gentle bake and a light honey finish.",
@@ -125,13 +125,52 @@ export const healthyBakedAtayefEn: RecipeTranslation = {
 
   keywords: [
     "Healthy Baked Atayef",
-    "Baked Atayef",
-    "Egyptian Atayef",
-    "Ramadan Dessert",
-    "Middle Eastern Dessert",
+    "Healthy Baked Atayef Recipe",
+    "Baked Atayef Recipe",
+    "How to Make Baked Atayef",
+    "How to Make Atayef",
+    "Homemade Baked Atayef",
+    "Easy Baked Atayef",
+    "Healthy Atayef Recipe",
+    "Atayef Recipe",
+    "Atayef with Ricotta",
     "Ricotta Atayef",
+    "Atayef with Pistachios",
     "Pistachio Atayef",
+    "Ricotta Pistachio Atayef",
+    "Baked Atayef with Ricotta",
+    "Baked Atayef with Pistachios",
+    "Healthy Middle Eastern Dessert",
+    "Middle Eastern Dessert",
+    "Middle Eastern Atayef Recipe",
+    "Egyptian Atayef",
+    "Egyptian Atayef Recipe",
     "Healthy Egyptian Dessert",
+    "Egyptian Ramadan Dessert",
+    "Ramadan Dessert",
+    "Ramadan Atayef",
+    "Ramadan Atayef Recipe",
+    "Levantine Atayef",
+    "Levantine Dessert",
+    "Arab Dessert Recipe",
+    "Pistachio Dessert",
+    "Healthy Pistachio Dessert",
+    "Ricotta Dessert",
+    "Baked Ramadan Dessert",
+    "Light Ramadan Dessert",
+    "Healthy Ramadan Dessert",
+    "Orange Blossom Atayef",
+    "Rose Water Atayef",
+    "Honey Atayef",
+    "Baked Qatayef",
+    "Healthy Qatayef",
+    "Qatayef Recipe",
+    "Atayef Pancakes",
+    "Stuffed Atayef",
+    "Baked Stuffed Pancakes",
+    "Healthy Stuffed Pancakes",
+    "Atayef without Frying",
+    "Baked Atayef Instead of Fried",
   ],
 
   tags: [
@@ -478,6 +517,11 @@ export const healthyBakedAtayefEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make healthy baked atayef?",
+      answer:
+        "To make healthy baked atayef, prepare a yeast-based pancake batter with whole wheat and all-purpose flour, cook small pancakes on one side until bubbles cover the surface, and keep them covered so they remain flexible. Fill each pancake with a mixture of low-fat ricotta, Greek yogurt, honey, chopped pistachios, orange blossom water, and optional rose water. Fold and seal the atayef, lightly coat them with cooking spray or olive oil spray, then bake at 375°F (190°C) for about 15–18 minutes until lightly golden. Finish with a light honey drizzle and chopped pistachios.",
+    },
     {
       question: "What are atayef?",
       answer:

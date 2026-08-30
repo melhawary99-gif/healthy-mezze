@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const healthyKanafehRicottaEn: RecipeTranslation = {
-  title: "Healthy Kanafeh with Ricotta & Pistachios",
+  title: "Healthy Kanafeh Recipe with Ricotta & Pistachios — Light Lebanese Kunafa",
 
   description:
-    "A lighter take on classic Middle Eastern kanafeh with crisp golden kataifi pastry, creamy part-skim ricotta, a little mozzarella, pistachios, and a delicate honey-orange blossom syrup.",
+    "This healthy kanafeh recipe with ricotta and pistachios is a lighter Lebanese-inspired take on classic Middle Eastern kunafa, made with crisp golden kataifi pastry, creamy part-skim ricotta, reduced-fat mozzarella, pistachios, and a delicate honey-orange blossom syrup. A festive vegetarian dessert with less added sweetness and olive oil instead of a large amount of butter, while keeping the crisp pastry, creamy cheese filling, floral aroma, and pistachio finish that make kanafeh so special.",
 
   longDescription:
     "This Healthy Kanafeh with Ricotta & Pistachios keeps the elements that make kanafeh so irresistible: finely shredded kataifi pastry baked until deeply golden and crisp, a creamy cheese center, fragrant orange blossom, and a pistachio finish. The recipe is inspired by the long-standing kanafeh traditions of the Levant, where cheese-filled versions are especially associated with festive gatherings, celebrations, hospitality, and dessert tables. Instead of saturating the pastry with a large quantity of butter and finishing it with a heavy sugar syrup, this version uses extra virgin olive oil to coat the kataifi and a light honey-based syrup for sweetness. Part-skim ricotta forms the main filling, while a smaller amount of reduced-fat mozzarella adds the gentle cheese stretch associated with warm kanafeh. The goal is not to reproduce every regional style of kanafeh, but to create a lighter homemade interpretation that remains crisp, creamy, aromatic, and satisfying.",
@@ -126,15 +126,46 @@ export const healthyKanafehRicottaEn: RecipeTranslation = {
 
   keywords: [
     "Healthy Kanafeh",
+    "Healthy Kanafeh Recipe",
     "Healthy Kunafa",
+    "Healthy Kunafa Recipe",
+    "Kanafeh Recipe",
+    "Kunafa Recipe",
+    "How to Make Kanafeh",
+    "How to Make Kunafa",
+    "Easy Kanafeh Recipe",
+    "Easy Kunafa Recipe",
+    "Light Kanafeh Recipe",
+    "Light Kunafa Recipe",
     "Ricotta Kanafeh",
     "Ricotta Kunafa",
+    "Kanafeh with Ricotta",
+    "Kunafa with Ricotta",
+    "Kanafeh with Pistachios",
+    "Kunafa with Pistachios",
+    "Pistachio Kanafeh",
+    "Pistachio Kunafa",
     "Healthy Lebanese Dessert",
     "Lebanese Kanafeh",
+    "Lebanese Kunafa",
+    "Lebanese Dessert Recipe",
     "Middle Eastern Dessert",
+    "Middle Eastern Dessert Recipe",
     "Kataifi Cheese Dessert",
-    "Pistachio Kanafeh",
-    "Light Kanafeh Recipe",
+    "Kataifi Dessert",
+    "Cheese Kanafeh",
+    "Cheese Kunafa",
+    "Vegetarian Kanafeh",
+    "Vegetarian Kunafa",
+    "Honey Kanafeh",
+    "Honey Kunafa",
+    "Orange Blossom Kanafeh",
+    "Orange Blossom Kunafa",
+    "Olive Oil Kanafeh",
+    "Healthy Middle Eastern Dessert",
+    "Light Middle Eastern Dessert",
+    "Healthy Mediterranean Dessert",
+    "Festive Middle Eastern Dessert",
   ],
 
   tags: [
@@ -653,6 +684,11 @@ export const healthyKanafehRicottaEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make healthy kanafeh with ricotta?",
+      answer:
+        "To make this healthy kanafeh, gently separate 12 oz (340 g) thawed kataifi pastry and evenly coat it with 1/4 cup extra virgin olive oil. Mix 1 1/2 cups drained part-skim ricotta with 1/2 cup finely shredded reduced-fat mozzarella, vanilla, and orange blossom water. Layer half the kataifi in a baking dish, spread the cheese filling over it, and cover with the remaining kataifi. Bake at 350°F (175°C) for 30–35 minutes until deeply golden and crisp. Meanwhile, warm 3 tablespoons honey, 3 tablespoons water, lemon juice, and orange blossom water. Drizzle the warm syrup gradually over the hot kanafeh, rest for 10 minutes, garnish with pistachios, and serve warm.",
+    },
     {
       question: "What is kanafeh?",
       answer:

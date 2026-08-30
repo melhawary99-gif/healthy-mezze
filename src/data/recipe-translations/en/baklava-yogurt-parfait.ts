@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const baklavaYogurtParfaitEn: RecipeTranslation = {
-  title: "Baklava-Inspired Yogurt Parfait",
+  title: "Baklava Yogurt Parfait Recipe",
 
   description:
-    "A lighter Mediterranean-inspired dessert layered with creamy Greek yogurt, toasted walnuts and pistachios, naturally sweet Medjool dates, fresh berries, honey, and warm cinnamon.",
+    "A healthy baklava yogurt parfait recipe made with creamy Greek yogurt, toasted walnuts, pistachios, almonds, naturally sweet Medjool dates, fresh berries, honey, and warm cinnamon. This easy no-bake Mediterranean dessert brings together the flavors of traditional baklava in a lighter, refreshing parfait.",
 
   longDescription:
     "Baklava-Inspired Yogurt Parfait captures the beloved flavors of baklava in a fresh, no-bake dessert. Creamy Greek yogurt is layered with crunchy walnuts, pistachios, almonds, naturally sweet Medjool dates, and fresh berries, then finished with a light drizzle of honey and cinnamon. It delivers the familiar combination of nuts, fruit, warmth, and sweetness without the heavy pastry and syrup of traditional baklava. It is easy enough for a weekday treat yet attractive enough for a dinner party or festive table.",
@@ -90,13 +90,19 @@ export const baklavaYogurtParfaitEn: RecipeTranslation = {
   ],
 
   keywords: [
-    "Baklava Yogurt Parfait",
+    "Baklava Yogurt Parfait Recipe",
+    "Baklava Parfait Recipe",
+    "How to Make Baklava Yogurt Parfait",
     "Healthy Baklava Dessert",
+    "Healthy Baklava Recipe",
     "Greek Yogurt Parfait",
     "Mediterranean Dessert",
     "Healthy Middle Eastern Dessert",
     "Easy Yogurt Parfait",
+    "No Bake Baklava Dessert",
     "Date Pistachio Parfait",
+    "Pistachio Yogurt Parfait",
+    "Healthy Yogurt Dessert",
   ],
 
   tags: [
@@ -715,6 +721,11 @@ export const baklavaYogurtParfaitEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make a baklava yogurt parfait?",
+      answer:
+        "A baklava yogurt parfait is made by gently flavoring thick Greek yogurt with vanilla, then layering it with chopped Medjool dates, walnuts, pistachios, crushed almonds, and fresh berries in serving glasses. Light drizzles of honey and small amounts of cinnamon are added between the layers, and the parfait is finished with berries, pistachios, almonds, honey, and cinnamon. Chill for about 15 minutes before serving for a cool, creamy dessert with crunchy nuts and the familiar flavors of baklava.",
+    },
     {
       question: "Is this traditional baklava?",
       answer:

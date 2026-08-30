@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const healthyChickenMakanekEn: RecipeTranslation = {
-  title: "Healthy Chicken Makanek",
+  title: "Healthy Chicken Makanek Recipe — Lebanese-Style Chicken Sausage",
 
   description:
-    "A lighter homemade Lebanese-style makanek made with lean ground chicken, garlic, parsley, lemon, coriander, allspice, cinnamon, and paprika. The small sausages are gently pan-seared until deeply golden and fully cooked for a flavorful, protein-rich mezze.",
+    "This healthy chicken makanek recipe combines lean ground chicken with garlic, fresh parsley, lemon juice, coriander, allspice, cinnamon, paprika, and black pepper for flavorful Lebanese-style chicken sausages. The small sausages are gently pan-seared until golden and fully cooked, making an easy high-protein mezze that is perfect with hummus, whole wheat pita, fresh vegetables, salads, pickles, and other Mediterranean dishes.",
 
   longDescription:
     "Makanek are small spiced sausages traditionally associated with Lebanese and Levantine mezze. They are commonly made with meat such as lamb or beef and are valued for their aromatic seasoning and their place on a table filled with many small dishes. This healthier homemade interpretation uses lean ground chicken while keeping the warm Lebanese flavor profile of garlic, coriander, allspice, cinnamon, paprika, black pepper, and fresh lemon juice. The mixture is rested before shaping so the flavors have time to develop, then formed into small finger-length sausages and cooked gently in a skillet until browned on the outside and completely cooked inside. Served with lemon, parsley, hummus, vegetables, and warm whole wheat pita, chicken makanek turn a simple ground-chicken mixture into a satisfying Mediterranean-style mezze.",
@@ -107,12 +107,49 @@ export const healthyChickenMakanekEn: RecipeTranslation = {
 
   keywords: [
     "Healthy Chicken Makanek",
+    "Healthy Chicken Makanek Recipe",
+    "Chicken Makanek Recipe",
     "Lebanese Chicken Makanek",
+    "Lebanese Chicken Makanek Recipe",
+    "How to Make Chicken Makanek",
+    "Homemade Chicken Makanek",
+    "Easy Chicken Makanek",
+    "Healthy Lebanese Makanek",
     "Lebanese Chicken Sausage",
-    "Healthy Lebanese Mezze",
-    "Mediterranean Chicken",
-    "High Protein Mezze",
+    "Lebanese Chicken Sausage Recipe",
+    "Healthy Lebanese Chicken Sausage",
     "Chicken Sausage Recipe",
+    "Homemade Chicken Sausage",
+    "Healthy Chicken Sausage",
+    "Spiced Chicken Sausage",
+    "Lebanese Spiced Chicken",
+    "Lebanese Ground Chicken Recipe",
+    "Ground Chicken Makanek",
+    "Mediterranean Chicken Recipe",
+    "Mediterranean Chicken Sausage",
+    "Healthy Lebanese Mezze",
+    "Lebanese Mezze Recipe",
+    "Chicken Mezze",
+    "High Protein Mezze",
+    "High Protein Chicken Recipe",
+    "Healthy Chicken Appetizer",
+    "Healthy Chicken Appetizer Recipe",
+    "Healthy Chicken Recipe",
+    "Low Carb Chicken Recipe",
+    "Gluten Free Chicken Recipe",
+    "Chicken Makanek with Hummus",
+    "Chicken Makanek with Pita",
+    "Chicken Makanek with Vegetables",
+    "Chicken Makanek Mezze",
+    "Lebanese Mezze Platter",
+    "Mediterranean Mezze Platter",
+    "Lebanese Chicken with Garlic",
+    "Lebanese Chicken with Lemon",
+    "Lebanese Chicken with Coriander",
+    "Lebanese Chicken with Allspice",
+    "Lebanese Chicken with Cinnamon",
+    "Healthy Makanek",
+    "Makanek Recipe",
   ],
 
   tags: [
@@ -470,6 +507,11 @@ export const healthyChickenMakanekEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make healthy chicken makanek?",
+      answer:
+        "To make healthy chicken makanek, combine 500 g lean ground chicken with minced garlic, fresh parsley, lemon juice, olive oil, coriander, allspice, cinnamon, paprika, black pepper, salt, and optional cayenne. Mix gently, refrigerate the seasoned mixture for at least 30 minutes, then shape it into small finger-length sausages. Pan-sear the makanek over medium heat for about 12–15 minutes, turning regularly, until browned outside and fully cooked through. The thickest piece should reach 165°F (74°C). Serve warm with lemon, parsley, hummus, whole wheat pita, vegetables, or other Lebanese-style mezze.",
+    },
     {
       question: "What are makanek?",
       answer:

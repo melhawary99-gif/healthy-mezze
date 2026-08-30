@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const bakedHerbFishEn: RecipeTranslation = {
-  title: "Baked Herb Fish",
+  title: "Baked Herb Fish Recipe",
 
   description:
-    "Tender white fish baked with fresh herbs, garlic, lemon, olive oil, and Mediterranean seasonings for a light, flavorful meal.",
+    "A healthy baked herb fish recipe made with tender white fish, fresh parsley, dill, garlic, lemon, olive oil, and Mediterranean seasonings. This easy oven-baked fish is light, flavorful, and perfect for a healthy weeknight dinner.",
 
   longDescription:
     "Baked Herb Fish is a simple Mediterranean-inspired dish built around flaky white fish, fresh parsley, dill, garlic, lemon, oregano, and extra virgin olive oil. The herb mixture is brushed generously over the fillets before baking, allowing the fish to absorb bright citrus and savory herb flavors while remaining tender and moist. It is an easy weeknight main dish that also feels elegant enough for a relaxed dinner, especially when served with roasted vegetables, quinoa, brown rice, or a crisp Mediterranean salad.",
@@ -109,13 +109,20 @@ export const bakedHerbFishEn: RecipeTranslation = {
   ],
 
   keywords: [
+    "Baked Herb Fish Recipe",
+    "Healthy Baked Fish Recipe",
+    "How to Make Baked Herb Fish",
+    "Easy Baked Fish Recipe",
     "Baked Fish",
     "Mediterranean Fish",
     "Healthy Fish Recipe",
     "Herb Baked Fish",
     "Lemon Herb Fish",
-    "Healthy Seafood",
+    "Oven Baked Fish",
+    "Healthy Seafood Recipe",
     "Easy Fish Dinner",
+    "Mediterranean Baked Fish",
+    "Lemon Herb Fish Recipe",
   ],
 
   tags: [
@@ -654,6 +661,11 @@ export const bakedHerbFishEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make baked herb fish?",
+      answer:
+        "Baked herb fish is made by patting white fish fillets dry and arranging them in a lightly oiled baking dish. A lemon-herb mixture is prepared with olive oil, garlic, lemon juice, lemon zest, parsley, dill, oregano, paprika, salt, and black pepper, then brushed generously over the fish and topped with thin lemon slices. The fish is baked at 200°C (400°F) for about 15–20 minutes, depending on thickness, until opaque and flaky and reaches 63°C (145°F) internally for food safety. Finish with fresh parsley and spoon the lemon-herb juices over the fish before serving.",
+    },
     {
       question: "What fish works best for this recipe?",
       answer:

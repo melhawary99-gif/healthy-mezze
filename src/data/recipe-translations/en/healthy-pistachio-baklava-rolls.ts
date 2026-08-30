@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const healthyPistachioBaklavaRollsEn: RecipeTranslation = {
-  title: "Healthy Pistachio Baklava Rolls",
+  title: "Healthy Pistachio Baklava Rolls Recipe — Whole Wheat Phyllo with Honey & Nuts",
 
   description:
-    "Crisp whole wheat phyllo rolls filled with pistachios and walnuts, lightly brushed with extra virgin olive oil and finished with a delicate honey, lemon, and orange blossom syrup.",
+    "This healthy pistachio baklava rolls recipe is a lighter take on a beloved Middle Eastern dessert, made with crisp whole wheat phyllo, pistachios, walnuts, extra virgin olive oil, honey, lemon, cinnamon, cardamom, and orange blossom water. The rolled baklava is baked until golden and flaky, then finished with a light honey-orange blossom syrup for a fragrant, nut-filled dessert that is perfect for family meals, gatherings, and festive occasions.",
 
   longDescription:
     "These lighter baklava rolls keep the essential character of Middle Eastern baklava while using a restrained amount of added sweetness. Twelve sheets of whole wheat phyllo are layered in pairs, filled with finely chopped pistachios and walnuts seasoned with cinnamon and cardamom, rolled into logs, and baked until crisp and golden. Instead of a heavy sugar syrup, the finished rolls are lightly soaked with a small amount of honey, lemon, water, and orange blossom water. The result is flaky pastry, fragrant nuts, and floral citrus sweetness without making the dessert excessively heavy or syrupy.",
@@ -122,16 +122,61 @@ export const healthyPistachioBaklavaRollsEn: RecipeTranslation = {
   ],
 
   keywords: [
-    "Healthy Baklava",
+    "Healthy Pistachio Baklava Rolls",
+    "Healthy Pistachio Baklava Rolls Recipe",
+    "Healthy Baklava Recipe",
     "Healthy Pistachio Baklava",
+    "Pistachio Baklava Recipe",
+    "Baklava Rolls Recipe",
+    "How to Make Pistachio Baklava Rolls",
+    "How to Make Healthy Baklava",
+    "How to Make Healthy Pistachio Baklava",
+    "Easy Baklava Rolls Recipe",
+    "Homemade Baklava Rolls",
     "Pistachio Baklava Rolls",
     "Baklava Rolls",
-    "Lebanese Baklava",
-    "Lebanese Dessert",
-    "Healthy Mediterranean Dessert",
+    "Pistachio Baklava",
+    "Walnut Baklava",
+    "Pistachio and Walnut Baklava",
     "Whole Wheat Baklava",
+    "Whole Wheat Phyllo Baklava",
+    "Healthy Whole Wheat Baklava",
     "Honey Baklava",
+    "Honey Syrup Baklava",
     "Orange Blossom Baklava",
+    "Honey Orange Blossom Baklava",
+    "Lemon Honey Baklava",
+    "Healthy Mediterranean Dessert",
+    "Healthy Middle Eastern Dessert",
+    "Middle Eastern Dessert",
+    "Middle Eastern Dessert Recipe",
+    "Mediterranean Dessert",
+    "Mediterranean Dessert Recipe",
+    "Eastern Mediterranean Dessert",
+    "Lebanese Dessert",
+    "Lebanese Dessert Recipe",
+    "Egyptian Dessert",
+    "Healthy Dessert Recipe",
+    "Healthy Dessert with Pistachios",
+    "Healthy Dessert with Walnuts",
+    "Healthy Dessert with Nuts",
+    "Pistachio Dessert Recipe",
+    "Walnut Dessert Recipe",
+    "Phyllo Dessert Recipe",
+    "Whole Wheat Phyllo Dessert",
+    "Baked Baklava Rolls",
+    "Crispy Baklava Rolls",
+    "Flaky Baklava Rolls",
+    "Baklava with Pistachios and Walnuts",
+    "Baklava with Honey",
+    "Baklava with Orange Blossom Water",
+    "Cinnamon Cardamom Baklava",
+    "Honey Pistachio Dessert",
+    "Pistachio Walnut Dessert",
+    "Vegetarian Baklava",
+    "Healthy Holiday Dessert",
+    "Festive Middle Eastern Dessert",
+    "Middle Eastern Nut Dessert",
   ],
 
   tags: [
@@ -619,6 +664,11 @@ export const healthyPistachioBaklavaRollsEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make healthy pistachio baklava rolls?",
+      answer:
+        "To make healthy pistachio baklava rolls, layer 12 sheets of whole wheat phyllo in pairs, lightly brushing each sheet with extra virgin olive oil. Mix 1 cup finely chopped pistachios with 1/2 cup walnuts, 1 teaspoon cinnamon, and 1/4 teaspoon cardamom, then divide the filling between 6 rolls. Roll the filled phyllo into compact logs, place them seam-side down, brush lightly with olive oil, and cut into approximately 16 portions before baking at 350°F (175°C) for 25–30 minutes. While the baklava bakes, gently warm 3 tablespoons honey with 3 tablespoons water, then add 1 teaspoon lemon juice and 1 teaspoon orange blossom water after removing the syrup from the heat. Spoon the cooling syrup over the hot golden rolls, let them cool uncovered for at least 30 minutes, and finish with chopped pistachios if desired.",
+    },
     {
       question: "What makes these baklava rolls healthier?",
       answer:

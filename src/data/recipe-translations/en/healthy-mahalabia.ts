@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const healthyMahalabiaEn: RecipeTranslation = {
-  title: "Healthy Mahalabia (Egyptian Milk Pudding)",
+  title: "Healthy Mahalabia Recipe — Egyptian Milk Pudding with Rose Water & Pistachios",
 
   description:
-    "A light, silky Egyptian milk pudding made with low-fat milk, cornstarch, honey, vanilla, and rose water, finished with pistachios, cinnamon, and optional edible rose petals.",
+    "This healthy mahalabia recipe is a light, silky Egyptian milk pudding made with low-fat milk, cornstarch, honey, vanilla, and rose water, finished with chopped pistachios, cinnamon, and optional edible rose petals. An easy Middle Eastern dessert with delicate floral flavor, creamy texture, and a lighter sweetness.",
 
   longDescription:
     "This lighter Mahalabia keeps the delicate, silky texture and floral character of the traditional Egyptian dessert while using low-fat milk and a modest amount of honey. Cornstarch creates the smooth pudding consistency without heavy cream, while rose water and optional orange blossom water provide the characteristic Middle Eastern aroma. Chopped pistachios, cinnamon, and edible rose petals add texture, fragrance, and an elegant finish. It is simple enough for everyday cooking but beautiful enough to serve as a dinner-party dessert.",
@@ -99,13 +99,36 @@ export const healthyMahalabiaEn: RecipeTranslation = {
 
   keywords: [
     "Healthy Mahalabia",
-    "Egyptian Milk Pudding",
+    "Healthy Mahalabia Recipe",
     "Mahalabia Recipe",
-    "Healthy Egyptian Dessert",
+    "How to Make Mahalabia",
+    "Homemade Mahalabia",
+    "Easy Mahalabia Recipe",
+    "Egyptian Mahalabia",
+    "Egyptian Milk Pudding",
     "Egyptian Dessert",
-    "Rose Water Pudding",
+    "Healthy Egyptian Dessert",
     "Middle Eastern Milk Pudding",
+    "Middle Eastern Dessert",
+    "Rose Water Pudding",
+    "Rose Water Milk Pudding",
+    "Milk Pudding Recipe",
+    "Healthy Milk Pudding",
+    "Low Fat Milk Pudding",
+    "Honey Milk Pudding",
+    "Cornstarch Milk Pudding",
+    "Pistachio Mahalabia",
+    "Mahalabia with Pistachios",
+    "Rose Water Mahalabia",
+    "Orange Blossom Mahalabia",
+    "Healthy Middle Eastern Dessert",
     "Mediterranean Dessert",
+    "Mediterranean Milk Pudding",
+    "Lebanese Mahalabia",
+    "Arabic Milk Pudding",
+    "Floral Milk Pudding",
+    "Vegetarian Dessert",
+    "Gluten Free Dessert",
   ],
 
   tags: [
@@ -455,6 +478,11 @@ export const healthyMahalabiaEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make healthy mahalabia?",
+      answer:
+        "To make healthy mahalabia, whisk 1/4 cup cornstarch with 3 tablespoons cold water to form a smooth slurry. Warm 4 cups low-fat milk over medium heat, then slowly whisk in the slurry and continue stirring until the pudding thickens. Remove it from the heat and stir in 2 tablespoons honey, 1 teaspoon vanilla extract, 1 teaspoon rose water, and optional orange blossom water. Divide into 6 portions, chill for at least 2 hours, then garnish with pistachios, cinnamon, and optional edible rose petals.",
+    },
     {
       question: "What is mahalabia?",
       answer:

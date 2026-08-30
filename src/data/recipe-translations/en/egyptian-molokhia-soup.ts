@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const egyptianMolokhiaSoupEn: RecipeTranslation = {
-  title: "Egyptian Molokhia Soup",
+  title: "Egyptian Molokhia Soup Recipe",
 
   description:
-    "A traditional Egyptian molokhia soup made with finely chopped jute mallow leaves, fragrant garlic, ground coriander, and savory chicken broth.",
+    "This traditional Egyptian molokhia soup recipe combines finely chopped jute mallow leaves with savory chicken broth, fragrant garlic, ground coriander, and a rich ta'aliya. Gently cooked for its signature silky texture, it is served hot with Egyptian rice and fresh lemon for a comforting Egyptian family meal.",
 
   longDescription:
     "Egyptian Molokhia is one of Egypt's most recognizable comfort foods, loved for its distinctive silky texture and deeply aromatic garlic-and-coriander topping. Finely chopped molokhia leaves are gently cooked in seasoned chicken broth, then finished with a fragrant ta'aliya of garlic, ground coriander, and ghee or butter. The soup is traditionally served hot with Egyptian rice and lemon, often alongside chicken, rabbit, duck, or another savory protein. The key to a successful molokhia is gentle cooking: vigorous boiling can change its delicate texture and dull the fresh character of the leaves.",
@@ -113,14 +113,25 @@ export const egyptianMolokhiaSoupEn: RecipeTranslation = {
   ],
 
   keywords: [
+    "Egyptian Molokhia Soup Recipe",
     "Egyptian Molokhia",
     "Egyptian Molokhia Soup",
+    "How to Make Egyptian Molokhia",
     "Molokhia Recipe",
-    "Egyptian Jute Mallow",
-    "Traditional Egyptian Food",
-    "Egyptian Soup",
+    "Traditional Egyptian Molokhia Recipe",
+    "Authentic Egyptian Molokhia",
+    "Egyptian Jute Mallow Recipe",
     "Molokhiya Recipe",
+    "Egyptian Soup Recipe",
+    "Traditional Egyptian Food",
     "Egyptian Garlic Coriander Molokhia",
+    "Egyptian Molokhia with Rice",
+    "Molokhia with Chicken Broth",
+    "Egyptian Molokhia with Garlic",
+    "Egyptian Molokhia with Coriander",
+    "Fresh Molokhia Recipe",
+    "Frozen Molokhia Recipe",
+    "Healthy Egyptian Soup",
   ],
 
   tags: [
@@ -525,6 +536,11 @@ export const egyptianMolokhiaSoupEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make Egyptian molokhia?",
+      answer:
+        "To make Egyptian molokhia, gently heat finely chopped fresh or frozen molokhia in seasoned chicken broth without allowing it to boil vigorously. While it cooks, prepare the ta'aliya by gently sautéing minced garlic in ghee or butter, then adding ground coriander until fragrant. Stir the hot garlic-and-coriander mixture into the molokhia, season to taste, and heat briefly without returning it to a hard boil. Serve immediately with Egyptian-style white rice and lemon wedges.",
+    },
     {
       question: "What is molokhia?",
       answer:

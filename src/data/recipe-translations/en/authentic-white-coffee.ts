@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const authenticWhiteCoffeeEn: RecipeTranslation = {
-  title: "Authentic Lebanese White Coffee (Ahweh Baida)",
+  title: "Authentic Lebanese White Coffee Recipe (Ahweh Baida)",
 
   description:
-    "A delicate traditional Lebanese caffeine-free drink made with hot water and fragrant orange blossom water, lightly sweetened with honey and served warm.",
+    "An authentic Lebanese White Coffee recipe for a delicate caffeine-free drink made with hot water and fragrant orange blossom water, lightly sweetened with honey and served warm.",
 
   longDescription:
     "Ahweh Baida, commonly known as Lebanese White Coffee, is a traditional caffeine-free Lebanese beverage whose name can be surprising because it contains no coffee beans. Instead, hot water is delicately scented with orange blossom water and may be lightly sweetened with honey. It is traditionally offered after meals and to guests as a simple expression of Lebanese hospitality. The secret to a pleasant cup is restraint: orange blossom water is highly aromatic, so it should perfume the water rather than dominate it. This version keeps the preparation simple while providing practical guidance for adjusting the floral intensity and sweetness. Serve it immediately while hot, preferably in small heatproof cups or glasses, with optional edible orange blossom petals for an elegant presentation.",
@@ -65,11 +65,14 @@ export const authenticWhiteCoffeeEn: RecipeTranslation = {
   ],
 
   keywords: [
+    "Lebanese White Coffee Recipe",
+    "Authentic Lebanese White Coffee Recipe",
+    "How to Make Lebanese White Coffee",
+    "Lebanese White Coffee Drink Recipe",
     "White Coffee",
     "Ahweh Baida",
     "Ahweh Bayda",
     "Lebanese White Coffee",
-    "Lebanese White Coffee Drink",
     "Orange Blossom Drink",
     "Traditional Lebanese Beverage",
     "Caffeine-Free Drink",
@@ -513,6 +516,11 @@ export const authenticWhiteCoffeeEn: RecipeTranslation = {
       question: "Does Lebanese White Coffee contain caffeine?",
       answer:
         "No. The basic recipe contains no coffee or tea and is naturally caffeine-free.",
+    },
+    {
+      question: "How do you make Lebanese White Coffee?",
+      answer:
+        "Lebanese White Coffee is made by heating fresh water until hot, removing it from direct heat, and stirring in orange blossom water. Honey can be added for light sweetness if desired. The drink is then poured into small heatproof cups and served immediately while hot, with optional edible orange blossom petals for garnish.",
     },
     {
       question: "What does Ahweh Baida mean?",

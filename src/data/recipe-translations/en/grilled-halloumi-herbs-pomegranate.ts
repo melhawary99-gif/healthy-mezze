@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const grilledHalloumiHerbsPomegranateEn: RecipeTranslation = {
-  title: "Grilled Halloumi with Herbs & Pomegranate",
+  title: "Grilled Halloumi with Herbs & Pomegranate Recipe — Mediterranean Mezze",
 
   description:
-    "Golden grilled halloumi with a crisp, savory crust and soft center, finished with fresh parsley, mint, juicy pomegranate seeds, lemon, and extra virgin olive oil. An easy Mediterranean mezze that balances salty cheese with bright herbs and naturally sweet fruit.",
+    "This grilled halloumi with herbs and pomegranate recipe features golden halloumi with a crisp savory crust and soft center, finished with fresh parsley, mint, juicy pomegranate seeds, lemon, and extra virgin olive oil. An easy Mediterranean mezze recipe that balances salty grilled cheese with bright herbs, citrus, and naturally sweet-tart fruit.",
 
   longDescription:
     "Grilled Halloumi with Herbs & Pomegranate is a colorful Mediterranean mezze that comes together in minutes but delivers layers of texture and flavor. Halloumi is sliced into thick pieces and grilled until the outside develops golden-brown marks while the center remains pleasantly soft and springy. The warm cheese is finished with fresh parsley, mint, juicy pomegranate seeds, lemon juice, and extra virgin olive oil. The salty richness of halloumi is balanced by bright herbs, citrus, and the sweet-tart pop of pomegranate. Serve it immediately as part of a mezze spread, alongside warm pita and salads, or as a protein-rich vegetarian appetizer. Because halloumi is naturally salty, no additional salt is needed.",
@@ -107,14 +107,36 @@ export const grilledHalloumiHerbsPomegranateEn: RecipeTranslation = {
   keywords: [
     "Grilled Halloumi",
     "Grilled Halloumi Recipe",
+    "How to Make Grilled Halloumi",
+    "Halloumi Recipe",
+    "Halloumi Cheese Recipe",
+    "Grilled Halloumi with Pomegranate",
+    "Grilled Halloumi with Herbs",
     "Halloumi with Pomegranate",
     "Halloumi with Herbs",
+    "Halloumi and Pomegranate",
     "Mediterranean Halloumi",
-    "Lebanese Mezze",
+    "Mediterranean Halloumi Recipe",
     "Mediterranean Mezze",
-    "Vegetarian Appetizer",
-    "Healthy Halloumi",
+    "Mediterranean Mezze Recipe",
+    "Halloumi Mezze",
     "Grilled Cheese Mezze",
+    "Vegetarian Mezze",
+    "Vegetarian Appetizer",
+    "Healthy Halloumi Recipe",
+    "Halloumi Appetizer",
+    "Easy Halloumi Recipe",
+    "Easy Grilled Halloumi",
+    "Halloumi with Lemon",
+    "Halloumi with Fresh Herbs",
+    "Halloumi with Mint and Parsley",
+    "Halloumi with Pomegranate Seeds",
+    "Halloumi with Olive Oil",
+    "Grilled Halloumi Salad",
+    "Halloumi for Mezze",
+    "Eastern Mediterranean Halloumi",
+    "Halloumi Cheese Appetizer",
+    "Quick Mediterranean Appetizer",
   ],
 
   tags: [
@@ -619,6 +641,11 @@ export const grilledHalloumiHerbsPomegranateEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make grilled halloumi with herbs and pomegranate?",
+      answer:
+        "To make grilled halloumi with herbs and pomegranate, pat the halloumi dry and slice it into pieces about 1 cm thick. Lightly brush the slices with extra virgin olive oil and grill them over medium-high heat for about 2–3 minutes per side until golden-brown grill marks develop. Transfer the hot halloumi to a serving platter, then finish with fresh parsley, mint, pomegranate seeds, lemon juice, olive oil, black pepper, and optional sesame seeds. Serve immediately with warm pita, hummus, salads, or other Mediterranean mezze.",
+    },
     {
       question: "Why does halloumi not melt like other cheeses?",
       answer:

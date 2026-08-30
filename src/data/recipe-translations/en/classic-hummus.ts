@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const classicHummusEn: RecipeTranslation = {
-  title: "Palestinian Hummus bi-Tahini",
+  title: "Classic Hummus Recipe — Palestinian Hummus bi-Tahini",
 
   description:
-    "A silky Palestinian-style hummus bi-tahini made from exceptionally tender chickpeas, creamy sesame tahini, fresh lemon juice, garlic, cumin, and sea salt, finished with extra virgin olive oil and served with warm Arabic bread.",
+    "A classic hummus recipe for silky Palestinian hummus bi-tahini made with exceptionally tender chickpeas, creamy tahini, fresh lemon juice, garlic, cumin, and extra virgin olive oil, served with warm Arabic bread.",
 
   longDescription:
     "Palestinian Hummus bi-Tahini is a deceptively simple dish in which technique and ingredient quality make a major difference. Tender chickpeas are blended with creamy tahini, fresh lemon juice, garlic, cumin, and salt until exceptionally smooth and light, then loosened gradually with cold water to create the characteristic silky texture. Hummus has deep roots across the Levant, and hummus bi-tahini holds an important place in Palestinian food culture, where it is enjoyed as part of breakfast, mezze, and shared family meals. This recipe presents a Palestinian-style preparation without claiming that hummus has a single uncontested place of invention. The finished hummus should be soft enough to spread easily across a shallow plate, with a balanced flavor in which nutty tahini, bright lemon, chickpeas, and olive oil remain distinct rather than one overpowering the others.",
@@ -122,14 +122,16 @@ export const classicHummusEn: RecipeTranslation = {
   ],
 
   keywords: [
-    "Palestinian Hummus",
-    "Hummus bi-Tahini",
+    "Classic Hummus Recipe",
     "Palestinian Hummus Recipe",
-    "Traditional Palestinian Hummus",
-    "Classic Hummus",
-    "Palestinian Breakfast",
-    "Palestinian Mezze",
+    "Hummus bi-Tahini Recipe",
+    "Traditional Hummus Recipe",
+    "Homemade Hummus",
+    "Creamy Hummus",
+    "Smooth Hummus",
+    "How to Make Hummus",
     "Tahini Hummus",
+    "Palestinian Hummus",
     "Chickpea Dip",
   ],
 
@@ -629,6 +631,16 @@ export const classicHummusEn: RecipeTranslation = {
       question: "Is this hummus vegan?",
       answer:
         "Yes. The recipe contains chickpeas, tahini, lemon, garlic, cumin, salt, water, olive oil, and optional plant-based garnishes, so the hummus itself is naturally vegan.",
+    },
+    {
+      question: "How do I make classic hummus from dried chickpeas?",
+      answer:
+        "Soak the dried chickpeas, cook them until exceptionally tender, then blend them with tahini, fresh lemon juice, garlic, cumin, salt, and gradually added cold water until smooth and creamy.",
+    },
+    {
+      question: "What makes homemade hummus creamy and smooth?",
+      answer:
+        "The most important factors are exceptionally tender chickpeas, good-quality tahini, gradual addition of cold water, and thorough blending. Removing loose chickpea skins can further improve the texture.",
     },
   ],
 };

@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const authenticAyranEn: RecipeTranslation = {
-  title: "Authentic Ayran (Laban Ayran)",
+  title: "Authentic Ayran Recipe (Laban Ayran)",
 
   description:
-    "A refreshing traditional yogurt drink made with plain yogurt, ice-cold water, sea salt, and optional fresh mint.",
+    "An authentic Ayran recipe made with plain yogurt, ice-cold water, sea salt, and optional fresh mint for a refreshing traditional Middle Eastern yogurt drink.",
 
   longDescription:
     "Ayran, known as Laban Ayran in parts of the Levant, is a simple savory yogurt drink enjoyed across the Middle East and neighboring regions. Its character comes from the balance of creamy plain yogurt, cold water, and a small amount of salt, blended until smooth and lightly frothy. Unlike sweet yogurt drinks, Ayran is intentionally savory and is often served very cold alongside grilled meats, shawarma, kebabs, falafel, mezze, and other richly seasoned foods. This Lebanese-style preparation keeps the ingredient list simple while allowing the yogurt to provide creaminess, protein, and calcium. Fresh mint is optional but adds a cooling herbal note that works especially well on warm days.",
@@ -73,16 +73,20 @@ export const authenticAyranEn: RecipeTranslation = {
   ],
 
   keywords: [
-    "Ayran",
+    "Ayran Recipe",
     "Authentic Ayran",
+    "Traditional Ayran",
+    "How to Make Ayran",
     "Laban Ayran",
     "Lebanese Ayran",
     "Lebanese Yogurt Drink",
     "Middle Eastern Yogurt Drink",
     "Savory Yogurt Drink",
     "Salted Yogurt Drink",
+    "Yogurt Drink Recipe",
     "Healthy Yogurt Beverage",
     "Mint Ayran",
+    "Ayran",
   ],
 
   tags: [
@@ -439,6 +443,11 @@ export const authenticAyranEn: RecipeTranslation = {
       question: "What is Ayran?",
       answer:
         "Ayran is a savory yogurt drink traditionally made by mixing plain yogurt with cold water and salt. It is widely enjoyed across the Middle East, the Levant, Turkey, and surrounding regions.",
+    },
+    {
+      question: "How do you make Ayran?",
+      answer:
+        "Ayran is made by blending plain yogurt with ice-cold water and salt until completely smooth and lightly frothy. Optional fresh mint can be stirred in after blending, and the drink is served thoroughly chilled.",
     },
     {
       question: "Is Ayran sweet?",

@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const herbedLabnehDipEn: RecipeTranslation = {
-  title: "Herbed Lebanese Labneh Dip",
+  title: "Herbed Labneh Dip Recipe — Lebanese Labneh with Fresh Herbs & Za'atar",
 
   description:
-    "A creamy Lebanese mezze made with thick labneh, fresh parsley, mint, dill, garlic, lemon, extra virgin olive oil, and za'atar. The finished dip takes just 10 minutes when ready-made labneh is available.",
+    "This herbed labneh dip recipe is a creamy Lebanese mezze made with thick labneh, fresh parsley, mint, dill, garlic, lemon, extra virgin olive oil, and za'atar. An easy Mediterranean dip with a cool, tangy texture and fresh herb flavor, ready in about 10 minutes when using store-bought labneh, with simple instructions for making homemade labneh from plain yogurt.",
 
   longDescription:
     "Herbed Labneh Dip is a fresh and creamy Lebanese-style mezze centered around labneh, the thick strained yogurt traditionally enjoyed throughout the Levant. Fresh parsley, mint, dill, garlic, lemon zest, and lemon juice bring brightness to the tangy labneh, while extra virgin olive oil and za'atar provide the savory finish. If ready-made labneh is unavailable, this recipe also explains how to make it at home from plain yogurt by straining it until thick and creamy. The homemade labneh requires several hours of mostly hands-off draining, but once it is ready, the actual herbed dip takes only about 10 minutes to prepare.",
@@ -126,13 +126,65 @@ export const herbedLabnehDipEn: RecipeTranslation = {
 
   keywords: [
     "Herbed Labneh",
+    "Herbed Labneh Dip",
+    "Herbed Labneh Dip Recipe",
     "Labneh Dip",
+    "Labneh Dip Recipe",
     "Lebanese Labneh",
+    "Lebanese Labneh Recipe",
+    "Lebanese Labneh Dip",
     "Lebanese Mezze",
+    "Lebanese Mezze Recipe",
     "Homemade Labneh",
+    "Homemade Labneh Recipe",
+    "How to Make Labneh",
+    "How to Make Homemade Labneh",
+    "How to Make Herbed Labneh",
+    "Easy Labneh Recipe",
+    "Easy Labneh Dip",
+    "Easy Lebanese Dip",
     "Herb Labneh",
+    "Labneh with Fresh Herbs",
+    "Labneh with Parsley",
+    "Labneh with Mint",
+    "Labneh with Dill",
+    "Labneh with Garlic",
+    "Labneh with Lemon",
+    "Labneh with Za'atar",
+    "Labneh with Olive Oil",
     "Mediterranean Dip",
-    "Healthy Mezze"
+    "Mediterranean Labneh",
+    "Mediterranean Mezze",
+    "Healthy Labneh Dip",
+    "Healthy Lebanese Dip",
+    "Healthy Mediterranean Dip",
+    "Yogurt Dip",
+    "Greek Yogurt Dip",
+    "Strained Yogurt Dip",
+    "Creamy Yogurt Dip",
+    "High Protein Dip",
+    "Vegetarian Dip",
+    "Lebanese Yogurt Dip",
+    "Middle Eastern Yogurt Dip",
+    "Middle Eastern Dip",
+    "Middle Eastern Mezze",
+    "Quick Labneh Dip",
+    "10 Minute Labneh Dip",
+    "Quick Lebanese Mezze",
+    "Labneh for Mezze",
+    "Labneh with Pita",
+    "Labneh with Vegetables",
+    "Labneh Breakfast",
+    "Labneh Appetizer",
+    "Lebanese Breakfast",
+    "Fresh Herb Dip",
+    "Garlic Herb Dip",
+    "Lemon Herb Dip",
+    "Za'atar Labneh",
+    "Olive Oil Labneh",
+    "Traditional Lebanese Labneh",
+    "Creamy Lebanese Mezze",
+    "Easy Homemade Labneh",
   ],
 
   tags: [
@@ -525,6 +577,11 @@ export const herbedLabnehDipEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make herbed labneh dip?",
+      answer:
+        "To make herbed labneh dip, start with 2 cups thick labneh, either store-bought or homemade from strained plain full-fat yogurt. Mix the labneh gently with 2 tablespoons finely chopped parsley, 1 tablespoon chopped mint, 1 tablespoon chopped dill, 1 finely minced garlic clove, 1 teaspoon lemon zest, 1 tablespoon fresh lemon juice, and 1/4 teaspoon black pepper. Taste before adding the additional 1/2 teaspoon sea salt because labneh and za'atar can vary in saltiness. Spread the mixture into a shallow serving bowl, create a spoon swirl, drizzle with 2 tablespoons extra virgin olive oil, sprinkle with 1 teaspoon za'atar, and garnish with fresh mint leaves. Serve with warm pita, fresh vegetables, or as part of a Lebanese mezze platter.",
+    },
     {
       question: "Can I use store-bought labneh?",
       answer:

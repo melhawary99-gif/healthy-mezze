@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const classicToumEn: RecipeTranslation = {
-  title: "Classic Toum (Lebanese Garlic Sauce)",
+  title: "Classic Toum Recipe (Lebanese Garlic Sauce)",
 
   description:
-    "A creamy, fluffy Lebanese garlic sauce made with fresh garlic, lemon juice, avocado oil, and aquafaba for a lighter, healthier twist.",
+    "A classic toum recipe made with fresh garlic, lemon juice, avocado oil, aquafaba, and sea salt. This creamy Lebanese garlic sauce is smooth, fluffy, naturally vegan, and perfect for chicken shawarma, grilled meats, kebabs, potatoes, vegetables, sandwiches, and mezze.",
 
   longDescription:
     "Toum is one of Lebanon's most recognizable garlic sauces, prized for its intensely fresh garlic flavor, bright lemon acidity, and exceptionally light, fluffy texture. Traditionally served alongside chicken shawarma, grilled meats, kebabs, potatoes, and mezze, toum is an important part of Lebanese food culture and the wider Eastern Mediterranean table. This version uses aquafaba, the liquid from cooked chickpeas, to help create a stable creamy emulsion while reducing the amount of oil required. The most important technique is patience: the oil must be incorporated very slowly so the garlic mixture develops and maintains its emulsion.",
@@ -68,14 +68,21 @@ export const classicToumEn: RecipeTranslation = {
   ],
 
   keywords: [
-    "Toum",
-    "Lebanese Garlic Sauce",
-    "Lebanese Toum",
-    "Garlic Dip",
-    "Middle Eastern Sauce",
-    "Healthy Toum",
-    "Vegan Garlic Sauce",
-    "Lebanese Garlic Dip"
+    "Classic Toum Recipe",
+    "Toum Recipe",
+    "How to Make Toum",
+    "Lebanese Toum Recipe",
+    "Lebanese Garlic Sauce Recipe",
+    "Middle Eastern Garlic Sauce",
+    "Easy Toum Recipe",
+    "Homemade Toum Recipe",
+    "Vegan Toum Recipe",
+    "Healthy Toum Recipe",
+    "Garlic Sauce Recipe",
+    "Lebanese Garlic Dip",
+    "Toum for Shawarma",
+    "Toum for Grilled Chicken",
+    "Toum for Mezze",
   ],
 
   tags: [
@@ -395,9 +402,14 @@ export const classicToumEn: RecipeTranslation = {
 
   faq: [
     {
+      question: "How do you make classic toum?",
+      answer:
+        "To make classic toum, first process fresh garlic with sea salt until it becomes a very fine paste. Add aquafaba and blend until smooth, then slowly drizzle in avocado oil while the food processor is running. Gradually alternate the remaining oil with fresh lemon juice until the mixture becomes pale, thick, fluffy, and creamy. If needed, add ice water 1 teaspoon at a time to adjust the consistency, then refrigerate the toum for at least 1 hour before serving.",
+    },
+    {
       question: "Why is my toum bitter?",
       answer:
-        "The most common cause is strongly bitter or sprouted garlic. Remove any visible green center from older cloves before processing. Also avoid adding excessive garlic beyond the recipe quantity."
+        "The most common cause is strongly bitter or sprouted garlic. Remove any visible green center from older cloves before processing. Also avoid adding excessive garlic beyond the recipe quantity.",
     },
     {
       question: "Why did my toum separate?",

@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const authenticCarobJuiceEn: RecipeTranslation = {
-  title: "Authentic Egyptian Carob Juice (Kharoub)",
+  title: "Authentic Egyptian Carob Juice Recipe (Kharoub)",
 
   description:
-    "A traditional Egyptian carob drink made by simmering roasted carob pods with water, then chilling the naturally sweet, deep caramel-like beverage.",
+    "An authentic Egyptian carob juice recipe made by simmering roasted carob pods with water, then chilling the naturally sweet, deep caramel-like beverage.",
 
   longDescription:
     "Egyptian Kharoub, or carob juice, is a traditional drink made from roasted carob pods and especially associated with Ramadan and warm-weather gatherings. The roasted pods give the drink a naturally sweet, toasted flavor with deep caramel-like notes, while the preparation remains simple and approachable. This version keeps the natural character of the carob at the center and uses honey only if additional sweetness is needed. A small amount of orange blossom water can add a delicate floral aroma, while fresh mint and lemon provide a bright finishing touch. Served thoroughly chilled over ice, Kharoub is a refreshing Egyptian beverage for family meals, Ramadan iftar tables, and summer gatherings.",
@@ -83,16 +83,20 @@ export const authenticCarobJuiceEn: RecipeTranslation = {
   ],
 
   keywords: [
-    "Egyptian Carob Juice",
-    "Carob Juice",
-    "Kharoub",
-    "Kharob",
+    "Egyptian Carob Juice Recipe",
+    "Carob Juice Recipe",
+    "Authentic Carob Juice",
+    "How to Make Carob Juice",
+    "Kharoub Recipe",
+    "Kharob Recipe",
     "Egyptian Kharoub",
     "Traditional Egyptian Drink",
     "Egyptian Ramadan Drink",
     "Ramadan Kharoub",
     "Middle Eastern Carob Drink",
     "Caffeine-Free Carob Drink",
+    "Egyptian Carob Juice",
+    "Carob Juice",
   ],
 
   tags: [
@@ -487,6 +491,11 @@ export const authenticCarobJuiceEn: RecipeTranslation = {
       question: "What is Kharoub?",
       answer:
         "Kharoub is the Arabic name commonly used for carob, and Egyptian Kharoub refers to the traditional drink made by extracting the flavor of roasted carob pods in water and serving the resulting beverage chilled.",
+    },
+    {
+      question: "How do you make Egyptian carob juice?",
+      answer:
+        "Egyptian carob juice is made by rinsing and breaking roasted carob pods, simmering them in water for 20–25 minutes, straining the liquid, adjusting the sweetness if needed, and chilling it thoroughly before serving.",
     },
     {
       question: "Is Egyptian carob juice sweet?",

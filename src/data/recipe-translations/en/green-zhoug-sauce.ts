@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const greenZhougSauceEn: RecipeTranslation = {
-  title: "Green Zhoug (Zhug) Sauce",
+  title: "Green Zhoug Sauce Recipe — Authentic Yemeni Zhug (Schug)",
 
   description:
-    "A vibrant Yemeni green chili and herb sauce made with fresh cilantro, parsley, garlic, warm spices, lemon juice, and extra virgin olive oil.",
+    "This green zhoug sauce recipe, also known as zhug or schug, combines fresh cilantro, parsley, green chilies, garlic, cumin, coriander, cardamom, lemon juice, and extra virgin olive oil. A vibrant Yemeni hot sauce with fresh herbs and bold chili heat, it is quick to prepare and perfect with falafel, shawarma, grilled meats, eggs, roasted vegetables, sandwiches, wraps, and mezze.",
 
   longDescription:
     "Green zhoug, also spelled zhug or schug, is a traditional Yemeni hot sauce built around fresh green chilies, cilantro, garlic, and aromatic spices. It is traditionally prepared fresh rather than cooked, allowing the herbs, chilies, garlic, citrus, and spices to remain bright and intensely aromatic. Zhoug became especially well known outside Yemen through Yemeni Jewish communities and is now enjoyed across the Middle East and in Mediterranean-influenced kitchens. This version keeps the characteristic fresh heat and herbal flavor while using a measured amount of extra virgin olive oil. Serve it with falafel, shawarma, grilled meats, eggs, roasted vegetables, sandwiches, wraps, or a mezze spread.",
@@ -105,13 +105,39 @@ export const greenZhougSauceEn: RecipeTranslation = {
   ],
 
   keywords: [
-    "Green Zhoug",
-    "Green Zhug",
+    "Green Zhoug Sauce",
+    "Green Zhoug Sauce Recipe",
+    "Green Zhug Sauce",
+    "Green Zhug Recipe",
     "Schug Sauce",
+    "Schug Sauce Recipe",
+    "Zhoug Sauce Recipe",
+    "Zhoug Recipe",
+    "Zhug Sauce Recipe",
+    "How to Make Zhoug",
+    "How to Make Green Zhoug",
+    "Yemeni Zhoug",
+    "Yemeni Zhug",
     "Yemeni Hot Sauce",
+    "Yemeni Green Hot Sauce",
     "Yemeni Herb Sauce",
+    "Yemeni Green Chili Sauce",
     "Middle Eastern Green Sauce",
+    "Middle Eastern Hot Sauce",
+    "Fresh Herb Chili Sauce",
+    "Cilantro Chili Sauce",
+    "Green Chili Herb Sauce",
+    "Garlic Herb Chili Sauce",
     "Healthy Zhoug",
+    "Vegan Zhoug",
+    "Vegan Green Sauce",
+    "Dairy-Free Hot Sauce",
+    "Zhoug for Falafel",
+    "Zhoug for Shawarma",
+    "Zhoug for Grilled Meat",
+    "Zhoug for Roasted Vegetables",
+    "Zhoug for Sandwiches",
+    "Zhoug for Mezze",
   ],
 
   tags: [
@@ -451,6 +477,11 @@ export const greenZhougSauceEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make green zhoug sauce?",
+      answer:
+        "To make green zhoug sauce, combine fresh cilantro, parsley, green chilies, garlic, cumin, coriander, cardamom, lemon juice, olive oil, and salt in a food processor. Pulse until the herbs and chilies are finely chopped but still textured. Add cold water gradually only if needed, then taste and adjust the lemon, salt, and chili. Refrigerate for at least 30 minutes before serving.",
+    },
     {
       question: "What is zhoug?",
       answer:

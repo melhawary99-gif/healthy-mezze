@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const authenticAmbaSauceEn: RecipeTranslation = {
-  title: "Authentic Amba Sauce",
+  title: "Authentic Amba Sauce Recipe — Iraqi Mango Condiment",
 
   description:
-    "A bright, tangy Iraqi mango condiment made with pickled mango, turmeric, fenugreek, garlic, lemon juice, and warm spices.",
+    "An authentic amba sauce recipe for a bright, tangy Iraqi mango condiment made with pickled mango, turmeric, fenugreek, garlic, lemon juice, and warm spices.",
 
   longDescription:
     "Amba is a distinctive mango-based condiment with roots in Iraqi Jewish cuisine and a long culinary connection to the Middle East. Its characteristic flavor comes from the combination of tangy pickled mango, earthy turmeric and fenugreek, garlic, lemon, and gentle heat. This version is blended into a spoonable sauce and rested before serving so the spices can settle into the mango. Amba is especially delicious with shawarma, sabich, falafel, grilled meats, roasted vegetables, sandwiches, and other dishes that benefit from a sharp, savory, mildly spicy contrast.",
@@ -104,14 +104,20 @@ export const authenticAmbaSauceEn: RecipeTranslation = {
   ],
 
   keywords: [
-    "Amba Sauce",
-    "Authentic Amba",
+    "Amba Sauce Recipe",
+    "Authentic Amba Sauce",
     "Iraqi Amba Sauce",
+    "Amba Recipe",
     "Pickled Mango Sauce",
+    "Iraqi Mango Sauce",
+    "Middle Eastern Amba",
+    "Amba Condiment",
+    "Amba for Shawarma",
+    "Amba for Sabich",
     "Middle Eastern Mango Sauce",
     "Shawarma Amba",
     "Sabich Sauce",
-    "Middle Eastern Condiment",
+    "How to Make Amba Sauce",
   ],
 
   tags: [
@@ -467,6 +473,16 @@ export const authenticAmbaSauceEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do I make amba sauce?",
+      answer:
+        "To make amba sauce, blend pickled mango with garlic, lemon juice, olive oil, turmeric, fenugreek, cumin, cayenne, and salt until mostly smooth. Adjust the consistency and seasoning gradually, stir in fresh cilantro, then refrigerate the sauce for at least 30 minutes before serving.",
+    },
+    {
+      question: "What is amba sauce made of?",
+      answer:
+        "This amba sauce is made with pickled mango, garlic, lemon juice, extra virgin olive oil, turmeric, fenugreek, cumin, cayenne pepper, salt, water, and fresh cilantro. The combination creates its characteristic tangy, savory, aromatic flavor.",
+    },
     {
       question: "What is amba?",
       answer:

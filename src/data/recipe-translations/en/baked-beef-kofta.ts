@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const bakedBeefKoftaEn: RecipeTranslation = {
-  title: "Baked Beef Kofta",
+  title: "Baked Beef Kofta Recipe",
 
   description:
-    "Juicy Middle Eastern beef kofta made with fresh parsley, onion, garlic, and warm aromatic spices, baked until browned and tender.",
+    "A juicy Baked Beef Kofta recipe made with lean ground beef, fresh parsley, onion, garlic, and warm Middle Eastern spices. These tender oven-baked kofta are browned on the outside and easy to serve with tahini, pita, rice, salad, or roasted vegetables.",
 
   longDescription:
     "Baked Beef Kofta is a flavorful Middle Eastern main dish made by combining lean ground beef with finely grated onion, fresh parsley, garlic, cumin, coriander, paprika, allspice, and a touch of cinnamon. The mixture is shaped into small oval logs and baked until browned on the outside and tender inside. Baking provides an easy alternative to traditional grilling or pan-frying while keeping the preparation simple and using very little added oil. Serve the kofta with tahini sauce, warm pita, rice, roasted vegetables, salads, or a generous mezze spread.",
@@ -112,13 +112,20 @@ export const bakedBeefKoftaEn: RecipeTranslation = {
   ],
 
   keywords: [
-    "Baked Beef Kofta",
+    "Baked Beef Kofta Recipe",
+    "Beef Kofta Recipe",
+    "How to Make Beef Kofta",
+    "Oven Baked Beef Kofta",
+    "Baked Kofta Recipe",
     "Beef Kofta",
-    "Lebanese Kofta",
-    "Egyptian Kofta",
+    "Baked Beef Kofta",
+    "Lebanese Beef Kofta",
+    "Egyptian Beef Kofta",
+    "Middle Eastern Kofta",
     "Middle Eastern Meatballs",
     "Healthy Beef Kofta",
     "Oven Baked Kofta",
+    "Kofta Recipe",
   ],
 
   tags: [
@@ -603,6 +610,11 @@ export const bakedBeefKoftaEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make baked beef kofta?",
+      answer:
+        "Baked beef kofta is made by combining lean ground beef with finely grated onion, garlic, fresh parsley, cumin, coriander, paprika, allspice, cinnamon, salt, and black pepper. The mixture is gently combined, shaped into small oval or cylindrical pieces, arranged on a lined baking tray, lightly brushed with olive oil, and baked at 200°C (400°F) until browned and cooked through. The thickest piece should reach at least 71°C (160°F) internally. After a short rest, serve the kofta with tahini sauce, warm pita, rice, salad, roasted vegetables, or other Mediterranean accompaniments.",
+    },
     {
       question: "What is kofta?",
       answer:

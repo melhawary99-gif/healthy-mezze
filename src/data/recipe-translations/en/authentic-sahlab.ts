@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const authenticSahlabEn: RecipeTranslation = {
-  title: "Authentic Sahlab (Healthy-Inspired Version)",
+  title: "Authentic Sahlab Recipe (Healthy-Inspired Version)",
 
   description:
-    "A warm, creamy Middle Eastern milk drink thickened with sahlab powder and scented with orange blossom water, vanilla, and cinnamon, then finished with pistachios and coconut.",
+    "An authentic Sahlab recipe for a warm, creamy Middle Eastern milk drink thickened with sahlab powder and scented with orange blossom water, vanilla, and cinnamon, then topped with pistachios and coconut.",
 
   longDescription:
     "Sahlab is a beloved warm drink enjoyed across the Middle East and especially associated with cold-weather evenings, cafés, and street vendors. In Egypt and the Levant, it is commonly served hot with a thick, velvety texture and fragrant toppings such as cinnamon, pistachios, and coconut. Traditional sahlab was made with powdered orchid tuber, while modern home kitchens often use prepared sahlab powder or commercial mixes containing starch and other ingredients. This version uses low-fat milk and a modest amount of honey for a lighter everyday preparation while keeping the familiar creamy texture and Middle Eastern flavors. The most important technique is gentle heating with constant stirring: the mixture should become noticeably thick and silky without boiling aggressively or sticking to the bottom of the saucepan.",
@@ -94,12 +94,17 @@ export const authenticSahlabEn: RecipeTranslation = {
   ],
 
   keywords: [
+    "Sahlab Recipe",
+    "Authentic Sahlab Recipe",
+    "How to Make Sahlab",
+    "Sahlab Drink Recipe",
     "Sahlab",
-    "Salep",
+    "Salep Recipe",
     "Healthy Sahlab",
     "Egyptian Sahlab",
-    "Middle Eastern Milk Drink",
     "Lebanese Sahlab",
+    "Middle Eastern Milk Drink",
+    "Traditional Sahlab",
     "Winter Drink",
     "Orange Blossom Sahlab",
   ],
@@ -532,6 +537,11 @@ export const authenticSahlabEn: RecipeTranslation = {
       question: "Is sahlab Egyptian or Lebanese?",
       answer:
         "Sahlab is enjoyed across the Middle East rather than belonging exclusively to one country. It is particularly familiar in Egypt and the Levant, with regional and household variations.",
+    },
+    {
+      question: "How do you make sahlab?",
+      answer:
+        "Sahlab is made by whisking sahlab powder into cold milk, then gently heating the mixture while stirring constantly until it becomes thick and creamy. Honey and vanilla are added for sweetness and flavor, followed by orange blossom water off the heat. The hot drink is served in mugs and finished with pistachios, coconut, and cinnamon.",
     },
     {
       question: "Why is my sahlab not thickening?",

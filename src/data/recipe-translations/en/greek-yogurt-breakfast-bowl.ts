@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const greekYogurtBreakfastBowlEn: RecipeTranslation = {
-  title: "Lebanese-Style Greek Yogurt Breakfast Bowl",
+  title: "Greek Yogurt Breakfast Bowl Recipe — Lebanese-Style Mediterranean Bowl",
 
   description:
-    "A creamy Lebanese-style breakfast bowl made with thick Greek yogurt, fresh berries, banana, nuts, seeds, honey, cinnamon, and fresh mint for a nourishing Mediterranean-inspired start to the day.",
+    "This Greek yogurt breakfast bowl recipe combines thick Greek yogurt, fresh strawberries, blueberries, banana, walnuts, almonds, chia seeds, pumpkin seeds, honey, cinnamon, and fresh mint for a nourishing Lebanese-style Mediterranean breakfast. Quick to assemble, naturally protein-rich, and made without cooking, it is an easy healthy breakfast for busy mornings.",
 
   longDescription:
     "This Lebanese-Style Greek Yogurt Breakfast Bowl brings together the cool creaminess of thick Greek yogurt with fresh fruit, walnuts, almonds, chia seeds, pumpkin seeds, honey, cinnamon, and optional fresh mint. It is a modern breakfast inspired by the generous use of strained yogurt, nuts, seeds, fruit, herbs, and natural sweetness found across Lebanese and Levantine food culture. There is no cooking involved, making it especially useful for busy mornings while still offering contrasting textures, balanced sweetness, and satisfying protein and fiber.",
@@ -103,14 +103,33 @@ export const greekYogurtBreakfastBowlEn: RecipeTranslation = {
   ],
 
   keywords: [
+    "Greek Yogurt Breakfast Bowl",
+    "Greek Yogurt Breakfast Bowl Recipe",
+    "Healthy Greek Yogurt Breakfast Bowl",
+    "How to Make a Greek Yogurt Breakfast Bowl",
+    "Lebanese-Style Greek Yogurt Bowl",
     "Lebanese Breakfast Bowl",
     "Lebanese Style Yogurt Bowl",
-    "Greek Yogurt Breakfast Bowl",
     "Healthy Mediterranean Breakfast",
-    "High Protein Breakfast",
-    "Healthy Yogurt Bowl",
     "Mediterranean Breakfast Recipe",
+    "Healthy Breakfast Recipe",
+    "High Protein Breakfast",
+    "High Protein Yogurt Bowl",
+    "Healthy Yogurt Bowl",
+    "Greek Yogurt Fruit Bowl",
+    "Greek Yogurt Fruit Breakfast",
+    "Breakfast Bowl with Berries",
+    "Greek Yogurt with Berries",
+    "Greek Yogurt with Banana",
+    "Yogurt Bowl with Nuts and Seeds",
+    "Yogurt Bowl with Chia Seeds",
+    "Yogurt Bowl with Pumpkin Seeds",
+    "Healthy No-Cook Breakfast",
+    "Quick Healthy Breakfast",
+    "Easy Breakfast Bowl",
     "Lebanese Inspired Breakfast",
+    "Mediterranean Yogurt Bowl",
+    "Healthy Mediterranean Breakfast Bowl",
   ],
 
   tags: [
@@ -495,6 +514,11 @@ export const greekYogurtBreakfastBowlEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make a Greek yogurt breakfast bowl?",
+      answer:
+        "To make a Greek yogurt breakfast bowl, divide thick chilled Greek yogurt between serving bowls, then arrange sliced banana, strawberries, and blueberries on top. Add walnuts, almonds, chia seeds, and pumpkin seeds for crunch, then drizzle lightly with honey and finish with cinnamon and optional fresh mint. Serve immediately so the yogurt stays creamy and the nuts and seeds remain crisp.",
+    },
     {
       question: "Is this a traditional Lebanese recipe?",
       answer:

@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const fattoushEn: RecipeTranslation = {
-  title: "Fattoush — Classic Lebanese Bread Salad",
+  title: "Fattoush Salad Recipe — Classic Lebanese Bread Salad",
 
   description:
-    "A crisp Lebanese salad made with fresh vegetables, herbs, toasted pita, sumac, lemon, and pomegranate molasses for a bright sweet-tart dressing.",
+    "This classic Lebanese fattoush salad recipe combines crisp fresh vegetables, parsley, mint, toasted pita, sumac, lemon juice, olive oil, and pomegranate molasses for a bright sweet-tart dressing. Easy to prepare and naturally vegan, it makes a refreshing Mediterranean and Levantine salad with plenty of crunch and fresh flavor.",
 
   longDescription:
     "Fattoush is a beloved Levantine salad built around crisp seasonal vegetables, fresh herbs, and pieces of toasted pita bread. Its character comes from the contrast between crunchy vegetables, crisp pita, and a bright dressing combining lemon juice, sumac, extra virgin olive oil, and pomegranate molasses. This Healthy Mezze version keeps the recognizable Lebanese character while emphasizing balanced flavor, fresh ingredients, and a pita finish that stays crisp.",
@@ -137,14 +137,26 @@ export const fattoushEn: RecipeTranslation = {
   ],
 
   keywords: [
+    "Fattoush Salad Recipe",
     "Fattoush",
     "Lebanese Fattoush",
-    "Lebanese Salad",
-    "Fattoush Salad Recipe",
+    "Classic Lebanese Fattoush",
+    "How to Make Fattoush",
+    "Lebanese Fattoush Salad Recipe",
+    "Lebanese Salad Recipe",
     "Healthy Fattoush",
-    "Mediterranean Salad",
+    "Healthy Fattoush Salad Recipe",
+    "Mediterranean Fattoush",
+    "Mediterranean Salad Recipe",
     "Levantine Salad",
-    "Sumac Salad",
+    "Levantine Fattoush Salad",
+    "Fattoush with Crispy Pita",
+    "Fattoush with Sumac",
+    "Fattoush with Pomegranate Molasses",
+    "Fattoush with Lemon Dressing",
+    "Lebanese Bread Salad",
+    "Vegan Fattoush Salad",
+    "Fresh Lebanese Salad",
   ],
 
   tags: [
@@ -544,6 +556,11 @@ export const fattoushEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make Fattoush salad?",
+      answer:
+        "To make Fattoush, wash and thoroughly dry the vegetables and herbs, then cut them into generous bite-sized pieces. Toast pieces of pita until crisp and lightly golden. Whisk together olive oil, lemon juice, garlic, sumac, pomegranate molasses, dried mint, salt, and black pepper. Toss the vegetables and herbs with the dressing, then add the toasted pita immediately before serving so it stays crisp. Finish with an extra sprinkle of sumac.",
+    },
     {
       question: "What is Fattoush?",
       answer:

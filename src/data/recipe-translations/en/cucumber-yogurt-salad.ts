@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const cucumberYogurtSaladEn: RecipeTranslation = {
-  title: "Cucumber Yogurt Salad",
+  title: "Cucumber Yogurt Salad Recipe",
 
   description:
-    "A refreshing Mediterranean cucumber yogurt salad with creamy Greek yogurt, fresh dill, mint, garlic, and lemon.",
+    "A refreshing cucumber yogurt salad recipe made with crisp cucumber, creamy Greek yogurt, fresh dill, mint, garlic, lemon juice, and extra virgin olive oil. This healthy Mediterranean-style salad is cool, tangy, creamy, and perfect with grilled meats, shawarma, wraps, warm pita, and mezze.",
 
   longDescription:
     "This cool cucumber yogurt salad brings together crisp cucumber, creamy Greek yogurt, fresh dill and mint, garlic, lemon juice, and extra virgin olive oil. Inspired by Lebanese and Eastern Mediterranean flavors, it makes a refreshing side dish for grilled meats, wraps, and mezze or a simple light dish on its own.",
@@ -88,12 +88,32 @@ export const cucumberYogurtSaladEn: RecipeTranslation = {
   ],
 
   keywords: [
+    "Cucumber Yogurt Salad Recipe",
     "Cucumber Yogurt Salad",
-    "Lebanese Yogurt Salad",
+    "How to Make Cucumber Yogurt Salad",
+    "Easy Cucumber Yogurt Salad",
     "Healthy Cucumber Salad",
-    "Mediterranean Yogurt Recipe",
-    "Greek Yogurt Salad",
+    "Healthy Yogurt Salad Recipe",
+    "Mediterranean Cucumber Salad",
+    "Mediterranean Yogurt Salad",
+    "Lebanese Cucumber Yogurt Salad",
+    "Lebanese Yogurt Salad",
     "Cucumber Mint Yogurt Salad",
+    "Greek Yogurt Cucumber Salad",
+    "Cucumber and Yogurt Salad",
+    "Creamy Cucumber Salad",
+    "Cucumber Dill Yogurt Salad",
+    "Garlic Cucumber Yogurt Salad",
+    "Cold Cucumber Yogurt Salad",
+    "Low Carb Cucumber Salad",
+    "High Protein Cucumber Salad",
+    "Vegetarian Salad Recipe",
+    "Gluten Free Salad Recipe",
+    "Healthy Mezze Salad",
+    "Mediterranean Side Dish",
+    "Cucumber Salad for Grilled Chicken",
+    "Cucumber Salad for Shawarma",
+    "Cucumber Yogurt Salad with Mint",
   ],
 
   tags: [
@@ -401,6 +421,11 @@ export const cucumberYogurtSaladEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make cucumber yogurt salad?",
+      answer:
+        "To make cucumber yogurt salad, dice fresh cucumbers into small bite-sized pieces and pat them dry to remove excess moisture. Whisk thick Greek yogurt with finely minced garlic, lemon juice, extra virgin olive oil, salt, and black pepper. Fold in the cucumber, fresh dill, and mint, then refrigerate for at least 20 minutes so the flavors can develop. Taste and adjust the seasoning before garnishing with fresh dill and olive oil and serving chilled.",
+    },
     {
       question: "Can I make cucumber yogurt salad ahead of time?",
       answer:

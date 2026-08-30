@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const egyptianKoshariEn: RecipeTranslation = {
-  title: "Egyptian Koshari",
+  title: "Egyptian Koshari Recipe",
 
   description:
-    "Egypt's beloved comfort food combining seasoned rice, tender lentils, small pasta, chickpeas, crispy onions, and a bold garlic-vinegar tomato sauce.",
+    "This Egyptian koshari recipe combines seasoned rice, tender brown lentils, small pasta, chickpeas, crispy onions, and a bold garlic-vinegar tomato sauce. A hearty vegetarian and vegan Egyptian comfort food made from affordable pantry staples.",
 
   longDescription:
     "Egyptian Koshari is one of Egypt's most recognizable everyday dishes, bringing together rice, brown lentils, small pasta, chickpeas, crispy onions, and a boldly seasoned tomato sauce. Each component contributes a different texture and flavor: fluffy rice, tender but intact lentils, chewy pasta, creamy chickpeas, deeply golden onions, and a bright garlic-and-vinegar tomato sauce. Koshari is strongly associated with Egyptian street-food culture as well as home cooking, where its inexpensive pantry ingredients can be prepared in quantity to make a filling vegetarian meal. The key to successful koshari is keeping the individual components properly cooked and assembling them only at the end so the dish remains layered rather than becoming wet or mushy.",
@@ -161,14 +161,31 @@ export const egyptianKoshariEn: RecipeTranslation = {
   ],
 
   keywords: [
+    "Egyptian Koshari Recipe",
     "Egyptian Koshari",
     "Koshari Recipe",
+    "How to Make Egyptian Koshari",
     "Authentic Egyptian Koshari",
+    "Authentic Koshari Recipe",
     "Egyptian Rice and Lentils",
+    "Egyptian Rice Lentils and Pasta",
     "Egyptian Street Food",
+    "Egyptian Street Food Recipe",
+    "Traditional Egyptian Koshari",
     "Vegetarian Egyptian Food",
-    "Koshari with Crispy Onions",
+    "Vegan Egyptian Food",
+    "Vegetarian Koshari",
+    "Vegan Koshari",
     "Healthy Koshari",
+    "Koshari with Crispy Onions",
+    "Koshari with Tomato Sauce",
+    "Koshari with Chickpeas",
+    "Koshari with Lentils",
+    "Egyptian Lentil and Rice Recipe",
+    "Egyptian Comfort Food",
+    "Easy Koshari Recipe",
+    "Homemade Koshari",
+    "Egyptian Vegetarian Dinner",
   ],
 
   tags: [
@@ -667,6 +684,11 @@ export const egyptianKoshariEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make Egyptian koshari?",
+      answer:
+        "To make Egyptian koshari, cook the brown lentils, rice, small pasta, and chickpeas separately so each component keeps its texture. Prepare crispy golden onions and a garlic-vinegar tomato sauce with cumin and coriander, then layer the rice and lentils with pasta and chickpeas. Spoon the tomato sauce over the top and finish with crispy onions and fresh parsley just before serving.",
+    },
     {
       question: "What is koshari?",
       answer:

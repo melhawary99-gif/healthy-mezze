@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const healthyOmAliEn: RecipeTranslation = {
-  title: "Healthy Om Ali",
+  title: "Healthy Om Ali Recipe — Egyptian Bread Pudding with Dates & Nuts",
 
   description:
-    "A lighter take on Egypt's beloved Om Ali bread pudding, made with baked whole wheat puff pastry, low-fat milk, dates, raisins, almonds, pistachios, walnuts, honey, and warm aromatic spices.",
+    "This healthy Om Ali recipe is a lighter take on Egypt's beloved warm bread pudding, made with baked whole wheat puff pastry, low-fat milk, Medjool dates, raisins, almonds, pistachios, walnuts, honey, cinnamon, and cardamom. An easy Egyptian dessert with creamy milk-soaked pastry, naturally sweet dried fruit, crunchy nuts, and warm aromatic spices, perfect for family meals, gatherings, and festive occasions.",
 
   longDescription:
     "Om Ali is one of Egypt's most beloved warm desserts: crisp baked pastry is broken into pieces, layered with nuts and dried fruit, soaked with warm sweetened milk, and baked until the top becomes golden while the center turns soft and comforting. This healthier version keeps that satisfying contrast while using whole wheat puff pastry, low-fat milk, naturally sweet dates and raisins, and a modest amount of honey instead of relying heavily on refined sugar. Vanilla, cinnamon, and cardamom give the milk a warm aromatic character, while almonds, pistachios, and walnuts provide texture. It is an easy dessert for family meals and gatherings, especially when served warm from the oven.",
@@ -124,15 +124,50 @@ export const healthyOmAliEn: RecipeTranslation = {
 
   keywords: [
     "Healthy Om Ali",
+    "Healthy Om Ali Recipe",
     "Om Ali Recipe",
+    "How to Make Om Ali",
+    "How to Make Healthy Om Ali",
+    "Easy Om Ali Recipe",
+    "Homemade Om Ali",
     "Egyptian Om Ali",
+    "Traditional Om Ali",
     "Egyptian Bread Pudding",
     "Healthy Egyptian Dessert",
     "Egyptian Dessert",
+    "Egyptian Dessert Recipe",
     "Middle Eastern Bread Pudding",
     "Healthy Bread Pudding",
+    "Bread Pudding Recipe",
     "Om Ali with Dates",
+    "Om Ali with Nuts",
+    "Om Ali with Pistachios",
+    "Om Ali with Puff Pastry",
     "Whole Wheat Om Ali",
+    "Healthy Egyptian Bread Pudding",
+    "Egyptian Milk Bread Pudding",
+    "Egyptian Puff Pastry Dessert",
+    "Egyptian Pastry Dessert",
+    "Middle Eastern Dessert",
+    "Middle Eastern Dessert Recipe",
+    "Healthy Middle Eastern Dessert",
+    "Dates Bread Pudding",
+    "Date and Raisin Bread Pudding",
+    "Pistachio Bread Pudding",
+    "Almond Pistachio Dessert",
+    "Healthy Puff Pastry Dessert",
+    "Low Fat Milk Dessert",
+    "Healthy Dessert with Dates",
+    "Egyptian Dessert with Dates",
+    "Egyptian Dessert with Pistachios",
+    "Om Ali with Raisins",
+    "Om Ali with Almonds",
+    "Om Ali with Walnuts",
+    "Cinnamon Cardamom Dessert",
+    "Warm Egyptian Dessert",
+    "Healthy Holiday Dessert",
+    "Egyptian Festive Dessert",
+    "Egyptian Family Dessert",
   ],
 
   tags: [
@@ -529,6 +564,11 @@ export const healthyOmAliEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make healthy Om Ali?",
+      answer:
+        "To make healthy Om Ali, bake 5 sheets of whole wheat puff pastry until golden, break them into pieces, and layer them with chopped Medjool dates, raisins, almonds, pistachios, and walnuts. Warm 4 cups low-fat milk with honey, vanilla, cinnamon, and cardamom, then pour it evenly over the pastry and let it rest for 10 minutes. Bake at 375°F (190°C) for 25–30 minutes until the top is golden and the center is set. Serve warm with extra chopped pistachios if desired.",
+    },
     {
       question: "What is Om Ali?",
       answer:

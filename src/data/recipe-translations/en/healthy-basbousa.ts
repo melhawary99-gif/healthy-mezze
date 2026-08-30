@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const healthyBasbousaEn: RecipeTranslation = {
-  title: "Healthy Basbousa",
+  title: "Healthy Basbousa Recipe — Light Egyptian Semolina Cake with Honey & Almonds",
 
   description:
-    "A lighter Egyptian-style basbousa made with whole wheat semolina, Greek yogurt, extra virgin olive oil, and honey, then finished with a delicate honey-lemon syrup and toasted almonds.",
+    "This healthy basbousa recipe makes a lighter Egyptian-style semolina cake with whole wheat semolina, Greek yogurt, extra virgin olive oil, honey, orange blossom water, and almonds. Baked until golden and finished with a light honey-lemon syrup, this moist and fragrant Ramadan dessert offers the classic basbousa experience with less refined sugar and saturated fat. Perfect for Egyptian dessert tables, family gatherings, and anyone looking for a healthier Middle Eastern sweet.",
 
   longDescription:
     "This healthier basbousa keeps the tender, fragrant character of the classic Egyptian semolina dessert while reducing the amount of refined sugar and saturated fat normally found in traditional versions. Whole wheat semolina provides a more substantial texture, Greek yogurt keeps the cake moist, extra virgin olive oil replaces butter, and honey provides gentle sweetness. The finished cake is baked until golden, scored into diamonds, soaked while hot with a small amount of warm honey-lemon syrup, and decorated with almonds. The result is moist in the center, lightly crisp around the edges, aromatic from orange blossom water, and sweet without being overwhelmingly syrupy.",
@@ -124,15 +124,54 @@ export const healthyBasbousaEn: RecipeTranslation = {
 
   keywords: [
     "Healthy Basbousa",
+    "Healthy Basbousa Recipe",
+    "How to Make Healthy Basbousa",
+    "Healthy Basbousa Recipe Egyptian",
+    "Healthy Egyptian Basbousa",
     "Egyptian Basbousa",
-    "Healthy Egyptian Dessert",
-    "Egyptian Semolina Cake",
-    "Healthy Semolina Cake",
-    "Honey Basbousa",
-    "Greek Yogurt Basbousa",
+    "Egyptian Basbousa Recipe",
+    "Traditional Egyptian Basbousa",
+    "Easy Healthy Basbousa",
     "Baked Basbousa",
+    "Healthy Baked Basbousa",
+    "Light Basbousa Recipe",
+    "Healthy Semolina Cake",
+    "Egyptian Semolina Cake",
+    "Healthy Egyptian Dessert",
+    "Egyptian Dessert Recipe",
+    "Honey Basbousa",
+    "Honey Lemon Basbousa",
+    "Greek Yogurt Basbousa",
+    "Whole Wheat Basbousa",
+    "Whole Wheat Semolina Cake",
+    "Semolina Cake with Yogurt",
+    "Basbousa with Greek Yogurt",
+    "Basbousa with Almonds",
+    "Almond Basbousa",
+    "Orange Blossom Basbousa",
+    "Healthy Ramadan Dessert",
+    "Ramadan Basbousa",
+    "Ramadan Dessert",
+    "Middle Eastern Dessert",
+    "Middle Eastern Semolina Cake",
+    "Healthy Middle Eastern Dessert",
     "Mediterranean Dessert",
-    "Ramadan Dessert"
+    "Eastern Mediterranean Dessert",
+    "Low Sugar Basbousa",
+    "Reduced Sugar Basbousa",
+    "Healthy Semolina Dessert",
+    "Baked Egyptian Dessert",
+    "Honey Semolina Cake",
+    "Egyptian Honey Dessert",
+    "Basbousa without Butter",
+    "Basbousa with Olive Oil",
+    "Olive Oil Basbousa",
+    "Healthy Dessert with Greek Yogurt",
+    "Healthy Dessert with Almonds",
+    "Healthy Ramadan Sweets",
+    "Egyptian Ramadan Dessert",
+    "Easy Egyptian Dessert",
+    "Homemade Basbousa",
   ],
 
   tags: [
@@ -567,6 +606,11 @@ export const healthyBasbousaEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make healthy basbousa?",
+      answer:
+        "To make healthy basbousa, combine 2 cups whole wheat semolina with baking powder, then gently mix in Greek yogurt, extra virgin olive oil, honey, vanilla, and optional orange blossom water. Spread the mixture into an 8-inch square pan, score it into 12 portions, add one almond to each portion, and bake at 350°F (175°C) for about 30–35 minutes until golden and set. While it bakes, warm 2 tablespoons honey with 2 tablespoons fresh lemon juice and 2 tablespoons water. Pour the warm honey-lemon syrup over the hot basbousa, allow it to cool and absorb the syrup, then cut and serve.",
+    },
     {
       question: "What is basbousa?",
       answer:

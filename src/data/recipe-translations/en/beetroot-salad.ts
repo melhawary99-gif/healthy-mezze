@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const beetrootSaladEn: RecipeTranslation = {
-  title: "Mediterranean Beetroot Salad",
+  title: "Mediterranean Beetroot Salad Recipe",
 
   description:
-    "A vibrant Mediterranean beetroot salad with roasted beets, creamy feta, walnuts, fresh herbs, and a bright lemon vinaigrette.",
+    "A healthy Mediterranean beetroot salad recipe made with roasted beets, creamy feta, crunchy walnuts, fresh parsley and mint, and a bright lemon olive oil dressing. This easy roasted beet salad makes a colorful vegetarian appetizer, side dish, or light Mediterranean meal.",
 
   longDescription:
     "This Mediterranean Beetroot Salad combines naturally sweet roasted beets with creamy feta cheese, crunchy walnuts, fresh parsley, and mint. A simple lemon and olive oil dressing with a touch of honey balances the earthy sweetness of the beets. It makes a colorful appetizer, side dish, or light Mediterranean meal.",
@@ -97,12 +97,20 @@ export const beetrootSaladEn: RecipeTranslation = {
   ],
 
   keywords: [
-    "Beetroot Salad",
+    "Mediterranean Beetroot Salad Recipe",
+    "Beetroot Salad Recipe",
+    "How to Make Beetroot Salad",
+    "Healthy Beetroot Salad",
     "Mediterranean Beet Salad",
     "Healthy Beetroot Recipe",
     "Roasted Beet Salad",
+    "Roasted Beetroot Salad",
     "Feta Beet Salad",
     "Beetroot Feta Salad",
+    "Beet Salad with Feta",
+    "Healthy Mediterranean Salad",
+    "Vegetarian Beetroot Salad",
+    "Gluten-Free Beetroot Salad",
   ],
 
   tags: [
@@ -408,6 +416,11 @@ export const beetrootSaladEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make Mediterranean beetroot salad?",
+      answer:
+        "Mediterranean beetroot salad is made by roasting trimmed and scrubbed beetroots at 200°C (400°F) until tender, then allowing them to cool before peeling and cutting them into bite-sized cubes. The beetroot is combined with crumbled feta, chopped walnuts, fresh parsley, and mint. A simple dressing is made by whisking together extra virgin olive oil, fresh lemon juice, honey, sea salt, and black pepper. The dressing is poured over the salad and gently tossed so the beetroot and feta remain intact. Serve chilled or at room temperature as a colorful appetizer, side dish, or light Mediterranean meal.",
+    },
     {
       question: "Can I prepare the beetroots ahead of time?",
       answer:

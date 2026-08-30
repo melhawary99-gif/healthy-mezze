@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const healthySesameTahiniCookiesEn: RecipeTranslation = {
-  title: "Healthy Sesame Tahini Cookies",
+  title: "Healthy Sesame Tahini Cookies Recipe — Whole Wheat Tahini Cookies with Honey & Sesame",
 
   description:
-    "Soft, lightly crisp whole-wheat tahini cookies made with sesame-rich tahini, honey, olive oil, and toasted sesame seeds for a wholesome Mediterranean-inspired treat.",
+    "This healthy sesame tahini cookies recipe makes soft, lightly crisp whole-wheat cookies with sesame-rich tahini, honey, extra virgin olive oil, cinnamon, and toasted sesame seeds. An easy Mediterranean-inspired dessert with tender centers and lightly golden edges, perfect with Arabic coffee, black tea, or mint tea.",
 
   longDescription:
     "These Healthy Sesame Tahini Cookies combine the deep roasted flavor of sesame tahini with whole-wheat flour, honey, extra virgin olive oil, cinnamon, and toasted sesame seeds. The dough is intentionally formulated to produce tender cookies with lightly golden edges and soft centers rather than hard, dry biscuits. Because tahini varies considerably in thickness and oil separation from one brand to another, the dough should be judged by texture and adjusted only when necessary. The finished cookies are gently sweet, fragrant, and especially enjoyable with Arabic coffee, black tea, or mint tea.",
@@ -122,15 +122,68 @@ export const healthySesameTahiniCookiesEn: RecipeTranslation = {
 
   keywords: [
     "Healthy Tahini Cookies",
+    "Healthy Tahini Cookies Recipe",
+    "Tahini Cookies Recipe",
+    "Healthy Sesame Tahini Cookies",
     "Sesame Tahini Cookies",
+    "Sesame Tahini Cookies Recipe",
     "Healthy Sesame Cookies",
+    "Sesame Cookies Recipe",
+    "How to Make Tahini Cookies",
+    "How to Make Healthy Tahini Cookies",
+    "Easy Tahini Cookies",
+    "Easy Tahini Cookies Recipe",
+    "Homemade Tahini Cookies",
     "Whole Wheat Tahini Cookies",
+    "Whole Wheat Tahini Cookies Recipe",
+    "Healthy Whole Wheat Cookies",
     "Healthy Mediterranean Cookies",
-    "Lebanese Tahini Cookies",
-    "Egyptian Tahini Cookies",
-    "Tahini Cookies with Honey",
-    "Sesame Cookies",
+    "Mediterranean Tahini Cookies",
+    "Mediterranean Cookie Recipe",
     "Mediterranean Dessert",
+    "Healthy Mediterranean Dessert",
+    "Lebanese Tahini Cookies",
+    "Lebanese Tahini Cookie Recipe",
+    "Lebanese Sesame Cookies",
+    "Egyptian Tahini Cookies",
+    "Egyptian Sesame Cookies",
+    "Middle Eastern Tahini Cookies",
+    "Middle Eastern Cookie Recipe",
+    "Middle Eastern Dessert",
+    "Middle Eastern Dessert Recipe",
+    "Tahini Cookies with Honey",
+    "Tahini Cookies with Sesame Seeds",
+    "Tahini Cookies with Pistachios",
+    "Healthy Cookies with Tahini",
+    "Healthy Cookies with Sesame",
+    "Healthy Cookies with Honey",
+    "Honey Tahini Cookies",
+    "Honey Sesame Cookies",
+    "Whole Wheat Sesame Cookies",
+    "Whole Wheat Cookies with Tahini",
+    "Cookies with Olive Oil",
+    "Olive Oil Tahini Cookies",
+    "Healthy Cookies with Olive Oil",
+    "Butter Free Tahini Cookies",
+    "Butter Free Cookies",
+    "Dairy Free Tahini Cookies",
+    "Vegetarian Tahini Cookies",
+    "Healthy Homemade Cookies",
+    "Healthy Dessert Cookies",
+    "Healthy Sesame Dessert",
+    "Sesame Dessert Recipe",
+    "Tahini Dessert Recipe",
+    "Tahini and Sesame Cookies",
+    "Toasted Sesame Cookies",
+    "Soft Tahini Cookies",
+    "Soft Sesame Cookies",
+    "Tender Tahini Cookies",
+    "Arabic Coffee Cookies",
+    "Lebanese Dessert",
+    "Egyptian Dessert",
+    "Mediterranean Sweet Treat",
+    "Healthy Baking Recipe",
+    "Easy Healthy Dessert",
   ],
 
   tags: [
@@ -682,6 +735,11 @@ export const healthySesameTahiniCookiesEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make healthy sesame tahini cookies?",
+      answer:
+        "To make healthy sesame tahini cookies, first toast 2 tablespoons sesame seeds if needed and allow them to cool. Whisk together 1 1/2 cups whole wheat flour, 1 teaspoon baking powder, 1 teaspoon cinnamon, and 1/4 teaspoon sea salt. In a separate bowl, whisk 1/3 cup well-stirred tahini, 2 tablespoons extra virgin olive oil, 3 tablespoons honey, 1 large egg, and 1 teaspoon vanilla until smooth. Combine the wet and dry mixtures gently, fold in 1 tablespoon toasted sesame seeds, and let the dough stand for 2–3 minutes. Shape the dough into 18 portions, flatten them to about 1/2 inch (1–1.5 cm) thick, and top with the remaining sesame seeds and optional chopped pistachios. Bake at 350°F (175°C) for 12–15 minutes until the edges are lightly golden and set while the centers remain slightly soft. Rest the cookies on the tray for 5 minutes, then transfer them to a wire rack to cool completely.",
+    },
     {
       question: "What are tahini cookies?",
       answer:

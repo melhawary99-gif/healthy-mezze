@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const cucumberHummusBitesEn: RecipeTranslation = {
-  title: "Cucumber Hummus Bites",
+  title: "Cucumber Hummus Bites Recipe",
 
   description:
-    "Fresh cucumber rounds topped with creamy hummus, cherry tomatoes, feta cheese, Kalamata olives, and herbs for a refreshing Mediterranean snack or appetizer.",
+    "A cucumber hummus bites recipe made with crisp cucumber rounds, creamy hummus, cherry tomatoes, feta cheese, Kalamata olives, fresh parsley, and extra virgin olive oil. These easy Mediterranean appetizers are fresh, colorful, healthy, and perfect for parties, mezze platters, snacks, and light entertaining.",
 
   longDescription:
     "Cucumber Hummus Bites are light, colorful Mediterranean appetizers built on crisp cucumber rounds instead of crackers. Each bite combines creamy hummus with juicy cherry tomatoes, salty feta, Kalamata olives, fresh parsley, and a light drizzle of extra virgin olive oil. They come together in minutes and work well for parties, mezze platters, or a simple healthy snack.",
@@ -91,12 +91,28 @@ export const cucumberHummusBitesEn: RecipeTranslation = {
   ],
 
   keywords: [
-    "Cucumber Hummus Bites",
-    "Healthy Appetizer",
-    "Mediterranean Snack",
+    "Cucumber Hummus Bites Recipe",
     "Cucumber Hummus Appetizer",
+    "How to Make Cucumber Hummus Bites",
+    "Easy Cucumber Hummus Bites",
+    "Healthy Cucumber Appetizer",
+    "Healthy Appetizer Recipe",
+    "Mediterranean Appetizer",
+    "Mediterranean Snack",
+    "Easy Mediterranean Appetizer",
+    "Cucumber Appetizer Recipe",
+    "Hummus Appetizer Recipe",
+    "Cucumber and Hummus Recipe",
+    "Cucumber Hummus Cups",
+    "Cucumber Hummus Snack",
+    "Healthy Party Appetizer",
     "Easy Party Appetizer",
+    "Vegetarian Appetizer",
+    "Low Carb Appetizer",
+    "Gluten Free Appetizer",
     "Healthy Mezze",
+    "Mediterranean Mezze Appetizer",
+    "Hummus Party Appetizer",
   ],
 
   tags: [
@@ -403,6 +419,11 @@ export const cucumberHummusBitesEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make cucumber hummus bites?",
+      answer:
+        "To make cucumber hummus bites, wash and dry firm cucumbers, then cut them into sturdy rounds about 1/2 inch thick. Spoon thick hummus onto each cucumber round and top with cherry tomato, crumbled feta, Kalamata olive, fresh parsley, extra virgin olive oil, smoked paprika, and black pepper. Assemble the bites shortly before serving so the cucumber stays crisp and the toppings remain stable.",
+    },
     {
       question: "Can I prepare cucumber hummus bites ahead of time?",
       answer:

@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const grilledChickenShawarmaEn: RecipeTranslation = {
-  title: "Grilled Chicken Shawarma",
+  title: "Grilled Chicken Shawarma Recipe — Lebanese-Style Mediterranean Chicken",
 
   description:
-    "Juicy Mediterranean grilled chicken marinated in yogurt, lemon, garlic, olive oil, and warm shawarma spices, then grilled until tender with lightly charred edges.",
+    "This grilled chicken shawarma recipe features juicy boneless chicken thighs marinated in Greek yogurt, fresh lemon juice, garlic, extra virgin olive oil, cumin, paprika, coriander, turmeric, cinnamon, allspice, and black pepper, then grilled until tender with flavorful lightly charred edges. A Lebanese-style Mediterranean chicken recipe that is high in protein and perfect for pita wraps, shawarma bowls, salads, or mezze.",
 
   longDescription:
     "Grilled Chicken Shawarma is a flavorful Lebanese-inspired dish built around tender boneless chicken thighs marinated in Greek yogurt, fresh lemon juice, garlic, extra virgin olive oil, and a warm blend of cumin, paprika, coriander, turmeric, cinnamon, allspice, and black pepper. The yogurt helps create a tender texture while lemon and spices bring the bright, savory character associated with shawarma. After an overnight marinade, the chicken is grilled over medium-high heat until fully cooked and lightly charred, then rested before being sliced into thin strips. The result is juicy chicken with deeply seasoned edges and a fragrant interior. Serve it with warm pita, hummus, garlic sauce, pickled vegetables, rice, or a fresh Mediterranean salad for a complete meal.",
@@ -134,14 +134,38 @@ export const grilledChickenShawarmaEn: RecipeTranslation = {
   ],
 
   keywords: [
-    "Chicken Shawarma",
     "Grilled Chicken Shawarma",
-    "Lebanese Chicken",
-    "Healthy Shawarma",
-    "Mediterranean Chicken",
-    "Chicken Shawarma Marinade",
+    "Grilled Chicken Shawarma Recipe",
+    "How to Make Grilled Chicken Shawarma",
+    "Chicken Shawarma Recipe",
     "Homemade Chicken Shawarma",
+    "Homemade Grilled Chicken Shawarma",
+    "Lebanese Chicken Shawarma",
+    "Lebanese Style Chicken Shawarma",
+    "Lebanese Chicken",
+    "Healthy Chicken Shawarma",
+    "Healthy Shawarma Recipe",
+    "Mediterranean Chicken",
+    "Mediterranean Chicken Recipe",
+    "Grilled Mediterranean Chicken",
+    "Chicken Shawarma Marinade",
+    "Chicken Shawarma Marinade Recipe",
+    "Yogurt Marinated Chicken Shawarma",
+    "Greek Yogurt Chicken Marinade",
+    "Grilled Chicken Thighs",
+    "Grilled Chicken Thigh Recipe",
+    "High Protein Chicken Recipe",
     "High Protein Mediterranean Recipe",
+    "Easy Chicken Shawarma",
+    "Easy Grilled Chicken Recipe",
+    "Chicken Shawarma Wrap",
+    "Chicken Shawarma Bowl",
+    "Chicken Shawarma with Pita",
+    "Chicken Shawarma with Hummus",
+    "Chicken Shawarma with Garlic Sauce",
+    "Chicken Shawarma with Pickles",
+    "Middle Eastern Grilled Chicken",
+    "Mediterranean Shawarma Recipe",
   ],
 
   tags: [
@@ -635,6 +659,11 @@ export const grilledChickenShawarmaEn: RecipeTranslation = {
   },
 
   faq: [
+    {
+      question: "How do you make grilled chicken shawarma?",
+      answer:
+        "To make grilled chicken shawarma, marinate boneless chicken thighs in Greek yogurt, lemon juice, garlic, olive oil, cumin, paprika, coriander, turmeric, cinnamon, allspice, cayenne, salt, and black pepper. Refrigerate for at least 8 hours, preferably overnight. Grill the marinated chicken over medium-high heat until browned and lightly charred, then check that the thickest part reaches 74°C (165°F). Rest for about 5 minutes before slicing thinly across the grain and serving with pita, hummus, garlic sauce, pickles, or salad.",
+    },
     {
       question: "Can I marinate the chicken overnight?",
       answer:

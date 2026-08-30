@@ -1,10 +1,10 @@
 import { RecipeTranslation } from "@/types/recipeTranslation";
 
 export const authenticEgyptianKarkadeEn: RecipeTranslation = {
-  title: "Authentic Egyptian Karkade (Hibiscus Tea)",
+  title: "Authentic Egyptian Karkade Recipe (Hibiscus Tea)",
 
   description:
-    "A vibrant traditional Egyptian hibiscus drink made by steeping dried hibiscus flowers, then balancing their naturally tart flavor with honey and optional fresh lemon. Serve it hot or chilled over ice.",
+    "An authentic Egyptian Karkade recipe made with dried hibiscus flowers, honey, and optional fresh lemon for a vibrant ruby-red hibiscus drink that can be served hot or chilled over ice.",
 
   longDescription:
     "Karkade, also called hibiscus tea, is one of Egypt's best-known traditional beverages. Made from dried hibiscus calyces, it develops a deep ruby-red color and a naturally tart, fruity flavor. It is enjoyed both hot and cold, with chilled Karkade being especially refreshing in warm weather and a familiar choice at Ramadan gatherings and celebrations. The flowers are steeped in hot water to extract their color and flavor, then the drink is strained and sweetened according to taste. This version uses honey instead of refined sugar and keeps lemon optional so you can decide how much additional acidity you want. For the best result, avoid excessively long or aggressive cooking, which can make hibiscus taste harsh. The finished drink should be bright, fragrant, tart, and balanced rather than overwhelmingly sour.",
@@ -88,14 +88,21 @@ export const authenticEgyptianKarkadeEn: RecipeTranslation = {
   ],
 
   keywords: [
-    "Karkade",
+    "Egyptian Karkade Recipe",
+    "Authentic Egyptian Karkade",
+    "Karkade Recipe",
     "Karkady",
+    "How to Make Karkade",
     "Egyptian Hibiscus Tea",
     "Egyptian Hibiscus Drink",
-    "Healthy Hibiscus Drink",
+    "Hibiscus Tea Recipe",
+    "Hibiscus Drink Recipe",
+    "Traditional Egyptian Drink",
     "Traditional Egyptian Beverage",
+    "Healthy Hibiscus Drink",
     "Ramadan Drink",
     "Hibiscus Tea",
+    "Karkade",
   ],
 
   tags: [
@@ -533,6 +540,11 @@ export const authenticEgyptianKarkadeEn: RecipeTranslation = {
       question: "What is Karkade?",
       answer:
         "Karkade is an Egyptian hibiscus drink made by steeping dried hibiscus calyces in hot water. It has a vivid ruby-red color and a naturally tart, fruity flavor.",
+    },
+    {
+      question: "How do you make Egyptian Karkade?",
+      answer:
+        "Egyptian Karkade is made by steeping dried hibiscus flowers in hot water for about 10 minutes, then straining the flowers and sweetening the ruby-red drink with honey or sugar according to taste. Optional fresh lemon can be added for extra brightness, and the finished Karkade can be served hot or thoroughly chilled over ice.",
     },
     {
       question: "Is Egyptian Karkade served hot or cold?",
