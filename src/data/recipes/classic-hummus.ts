@@ -3,12 +3,12 @@ import { Recipe } from "@/types/recipe";
 export const classicHummus: Recipe = {
   id: 54,
 
-  title: "Palestinian Hummus bi-Tahini",
+  title: "Classic Palestinian Hummus bi-Tahini",
 
   slug: "classic-hummus",
 
   description:
-    "A silky Palestinian-style hummus bi-tahini made from tender chickpeas, creamy tahini, fresh lemon juice, garlic, cumin, and sea salt, finished with extra virgin olive oil and served with warm Arabic bread.",
+    "A classic Palestinian-style hummus bi-tahini made from tender chickpeas, creamy tahini, fresh lemon juice, garlic, cumin, and sea salt, finished with extra virgin olive oil and served with warm Arabic bread.",
 
   longDescription:
     "Palestinian Hummus bi-Tahini is a simple but highly technique-driven dish built around exceptionally tender chickpeas, good tahini, fresh lemon, garlic, and olive oil. Hummus is deeply established in Palestinian food culture and is commonly enjoyed at breakfast and as part of a shared mezze table. The best version is not simply thick chickpea paste: it should be light, smooth, creamy, balanced between nutty tahini and bright lemon, and soft enough to spread easily across a shallow serving plate. For the most luxurious texture, dried chickpeas are soaked and cooked until very tender before being blended while still warm. Removing loose skins and adding cold water gradually helps create the characteristic silky consistency. The finished hummus is spread with the back of a spoon, surrounded by a shallow well, generously dressed with extra virgin olive oil, and served with warm Arabic bread.",
@@ -142,11 +142,13 @@ export const classicHummus: Recipe = {
   ],
 
   keywords: [
-    "Palestinian Hummus",
+    "Classic Palestinian Hummus",
+    "Palestinian Hummus Recipe",
     "Hummus bi-Tahini",
+    "Classic Hummus Recipe",
     "Traditional Palestinian Hummus",
-    "Classic Hummus",
-    "Palestinian Breakfast",
+    "How to Make Hummus",
+    "Palestinian Breakfast Hummus",
     "Palestinian Mezze",
     "Tahini Hummus",
     "Chickpea Dip",
