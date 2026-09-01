@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const sumacOnionSalad: Recipe = {
+  datePublished: "2026-07-17",
   id: 99,
 
   title: "Turkish Sumac Onion Salad",

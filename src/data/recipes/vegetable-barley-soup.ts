@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const vegetableBarleySoup: Recipe = {
+  datePublished: "2026-07-17",
   id: 22,
 
   title: "Mediterranean Vegetable Barley Soup",

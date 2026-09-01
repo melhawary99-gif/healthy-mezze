@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const mediterraneanStuffedPortobelloMushrooms: Recipe = {
+  datePublished: "2026-07-17",
   id: 36,
 
   title: "Mediterranean Stuffed Portobello Mushrooms",

@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const stuffedBellPeppers: Recipe = {
+  datePublished: "2026-07-17",
   id: 29,
 
   title: "Mediterranean Stuffed Bell Peppers",

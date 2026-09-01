@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const authenticAyran: Recipe = {
+  datePublished: "2026-07-17",
   id: 88,
 
   title: "Authentic Ayran (Laban Ayran)",

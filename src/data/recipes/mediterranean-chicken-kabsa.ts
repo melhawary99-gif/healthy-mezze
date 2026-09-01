@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const mediterraneanChickenKabsa: Recipe = {
+  datePublished: "2026-07-17",
   id: 30,
 
   title: "Mediterranean Chicken Kabsa",

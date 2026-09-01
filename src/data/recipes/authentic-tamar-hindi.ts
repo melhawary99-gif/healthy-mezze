@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const authenticTamarHindi: Recipe = {
+  datePublished: "2026-07-17",
   id: 86,
 
   title: "Authentic Tamar Hindi (Egyptian Tamarind Drink)",

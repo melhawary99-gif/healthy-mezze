@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const grilledShrimpGarlicLemon: Recipe = {
+  datePublished: "2026-07-17",
   id: 71,
 
   title: "Grilled Shrimp with Garlic & Lemon",

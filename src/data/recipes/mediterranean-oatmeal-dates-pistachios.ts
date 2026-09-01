@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const mediterraneanOatmealDatesPistachios: Recipe = {
+  datePublished: "2026-07-17",
   id: 52,
 
   title: "Mediterranean Oatmeal with Dates & Pistachios",

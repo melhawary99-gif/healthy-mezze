@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const falafelBowl: Recipe = {
+  datePublished: "2026-07-16",
   id: 3,
   title: "Falafel Bowl",
   slug: "falafel-bowl",

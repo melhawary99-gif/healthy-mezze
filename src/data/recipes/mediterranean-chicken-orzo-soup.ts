@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const mediterraneanChickenOrzoSoup: Recipe = {
+  datePublished: "2026-08-12",
   id: 16,
   title: "Mediterranean Chicken Orzo Soup",
   slug: "mediterranean-chicken-orzo-soup",

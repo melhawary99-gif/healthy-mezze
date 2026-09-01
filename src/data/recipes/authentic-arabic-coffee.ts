@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const authenticArabicCoffee: Recipe = {
+  datePublished: "2026-07-17",
   id: 89,
 
   title: "Authentic Arabic Coffee (Ahwa)",

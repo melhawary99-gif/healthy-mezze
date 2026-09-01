@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const eggplantParmesanMediterranean: Recipe = {
+  datePublished: "2026-07-17",
   id: 103,
 
   title: "Eggplant Parmesan (Mediterranean Style)",

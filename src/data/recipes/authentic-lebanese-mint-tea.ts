@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const authenticLebaneseMintTea: Recipe = {
+  datePublished: "2026-07-17",
   id: 90,
 
   title: "Authentic Lebanese Mint Tea (Shai bil Nana)",

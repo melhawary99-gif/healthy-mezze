@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const greenZhougSauce: Recipe = {
+  datePublished: "2026-07-17",
   id: 97,
 
   title: "Green Zhoug (Zhug) Sauce",

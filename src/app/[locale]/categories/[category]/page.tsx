@@ -62,7 +62,10 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
           "easy healthy recipes",
         ];
 
-  const title = `${categoryName} Recipes | Healthy Mezze`;
+  const title =
+    locale === "ar"
+      ? `وصفات ${categoryName} | Healthy Mezze`
+      : `${categoryName} Recipes | Healthy Mezze`;
 
   return {
     title,

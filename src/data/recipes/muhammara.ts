@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const muhammara: Recipe = {
+  datePublished: "2026-07-17",
   id: 56,
 
   title: "Muhammara (Roasted Red Pepper & Walnut Dip)",

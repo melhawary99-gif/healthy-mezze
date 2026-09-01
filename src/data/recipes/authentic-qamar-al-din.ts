@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const authenticQamarAlDin: Recipe = {
+  datePublished: "2026-07-17",
   id: 87,
 
   title: "Authentic Qamar al-Din (Egyptian Apricot Drink)",

@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const hummusPowerBowl: Recipe = {
+  datePublished: "2026-07-16",
   id: 105,
 
   title: "Hummus Power Bowl",

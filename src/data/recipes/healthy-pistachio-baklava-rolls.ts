@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const healthyPistachioBaklavaRolls: Recipe = {
+  datePublished: "2026-07-17",
   id: 79,
 
   title: "Healthy Pistachio Baklava Rolls",

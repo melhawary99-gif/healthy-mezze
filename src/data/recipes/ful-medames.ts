@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const fulMedames: Recipe = {
+  datePublished: "2026-07-17",
   id: 45,
 
   title: "Ful Medames (Egyptian Fava Beans)",

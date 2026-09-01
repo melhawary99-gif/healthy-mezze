@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const cauliflowerSteaksTahini: Recipe = {
+  datePublished: "2026-07-17",
   id: 35,
 
   title: "Cauliflower Steaks with Lemon Tahini Sauce",

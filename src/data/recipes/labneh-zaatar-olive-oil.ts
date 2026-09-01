@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const labnehZaatarOliveOil: Recipe = {
+  datePublished: "2026-07-17",
   id: 44,
 
   title: "Labneh with Za'atar & Olive Oil",

@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const herbRoastedCauliflower: Recipe = {
+  datePublished: "2026-07-17",
   id: 39,
 
   title: "Herb-Roasted Cauliflower",

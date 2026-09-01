@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const bakedBeefKofta: Recipe = {
+  datePublished: "2026-07-17",
   id: 26,
 
   title: "Baked Beef Kofta",

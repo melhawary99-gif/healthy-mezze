@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const healthyRozBelLaban: Recipe = {
+  datePublished: "2026-07-17",
   id: 73,
 
   title: "Healthy Roz Bel Laban (Egyptian Rice Pudding)",

@@ -163,9 +163,13 @@ export default async function RecipePage({ params }: RecipePageProps) {
 
     isAccessibleForFree: true,
 
-    datePublished: recipe.datePublished ?? "2026-01-01",
+    ...(recipe.datePublished ? { datePublished: recipe.datePublished } : {}),
 
-    dateModified: recipe.dateModified ?? recipe.datePublished ?? "2026-01-01",
+    ...(recipe.dateModified
+      ? { dateModified: recipe.dateModified }
+      : recipe.datePublished
+        ? { dateModified: recipe.datePublished }
+        : {}),
 
     image: [
       {

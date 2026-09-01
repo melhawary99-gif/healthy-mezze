@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const bakedEggsSpinachTomatoes: Recipe = {
+  datePublished: "2026-07-17",
   id: 50,
 
   title: "Baked Eggs with Spinach & Tomatoes",

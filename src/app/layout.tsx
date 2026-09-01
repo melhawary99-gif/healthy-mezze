@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { SITE_URL } from "@/lib/seo";
 import { Cairo, Inter, Poppins } from "next/font/google";
 
 import { GoogleAnalytics } from "@next/third-parties/google";
@@ -31,7 +32,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.healthymezze.com"),
+  metadataBase: new URL(SITE_URL),
 
   title: {
     default: "Healthy Mezze | Fresh Mediterranean Recipes",
@@ -87,7 +88,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://www.healthymezze.com",
+    url: SITE_URL,
     siteName: "Healthy Mezze",
 
     title: "Healthy Mezze | Fresh Mediterranean Recipes",
@@ -115,10 +116,6 @@ export const metadata: Metadata = {
     images: ["/images/og-image.jpg"],
   },
 
-  alternates: {
-    // Canonical URLs are defined by the localized route metadata.
-  },
-
   other: {
     "p:domain_verify": "9c5313b6f5c1e891bac29d42d647f84e",
     "google-adsense-account": "ca-pub-2945001903757081",
@@ -131,9 +128,9 @@ const organizationSchema = {
 
   name: "Healthy Mezze",
 
-  url: "https://www.healthymezze.com",
+  url: SITE_URL,
 
-  logo: "https://www.healthymezze.com/logo.png",
+  logo: `${SITE_URL}/logo.png`,
 
   description:
     "Healthy Mediterranean recipes inspired by Egyptian, Lebanese, Greek, Turkish, Syrian, Jordanian, and Palestinian cuisines.",
@@ -151,7 +148,7 @@ const websiteSchema = {
 
   name: "Healthy Mezze",
 
-  url: "https://www.healthymezze.com",
+  url: SITE_URL,
 
   publisher: {
     "@type": "Organization",

@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const authenticSahlab: Recipe = {
+  datePublished: "2026-07-17",
   id: 85,
 
   title: "Authentic Sahlab (Healthy-Inspired Version)",

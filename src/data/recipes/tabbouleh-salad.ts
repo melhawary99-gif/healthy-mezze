@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const tabboulehSalad: Recipe = {
+  datePublished: "2026-07-16",
   id: 6,
 
   title: "Tabbouleh",

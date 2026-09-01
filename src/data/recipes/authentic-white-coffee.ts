@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const authenticWhiteCoffee: Recipe = {
+  datePublished: "2026-07-17",
   id: 91,
 
   title: "Authentic Lebanese White Coffee (Ahweh Baida)",

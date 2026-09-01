@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const zaatarRoastedMixedNuts: Recipe = {
+  datePublished: "2026-07-17",
   id: 59,
 
   title: "Za'atar Roasted Mixed Nuts",

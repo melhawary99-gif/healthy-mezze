@@ -3,6 +3,7 @@ import Container from "@/components/ui/Container";
 import { Link } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
 import { getLanguageAlternates } from "@/lib/seo";
+import { SITE_URL } from "@/lib/seo";
 
 type AboutPageProps = {
   params: Promise<{
@@ -18,12 +19,43 @@ export async function generateMetadata({ params }: AboutPageProps): Promise<Meta
     namespace: "About",
   });
 
+  const title = t("title");
+  const description = t("subtitle");
+  const canonical = `/${locale}/about`;
+  const absoluteUrl = `${SITE_URL}${canonical}`;
+
   return {
-    title: t("title"),
-    description: t("subtitle"),
+    title,
+    description,
+
     alternates: {
-      canonical: `/${locale}/about`,
+      canonical,
       languages: getLanguageAlternates("/about"),
+    },
+
+    openGraph: {
+      type: "website",
+      url: absoluteUrl,
+      siteName: "Healthy Mezze",
+      title,
+      description,
+      locale: locale === "ar" ? "ar_AR" : "en_US",
+      alternateLocale: locale === "ar" ? ["en_US"] : ["ar_AR"],
+      images: [
+        {
+          url: "/images/og-image.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Healthy Mezze",
+        },
+      ],
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: ["/images/og-image.jpg"],
     },
   };
 }

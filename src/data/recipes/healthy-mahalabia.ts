@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const healthyMahalabia: Recipe = {
+  datePublished: "2026-07-17",
   id: 76,
 
   title: "Healthy Mahalabia (Egyptian Milk Pudding)",

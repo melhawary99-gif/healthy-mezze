@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const healthyBakedAtayef: Recipe = {
+  datePublished: "2026-07-17",
   id: 77,
 
   title: "Healthy Baked Atayef with Ricotta & Pistachios",

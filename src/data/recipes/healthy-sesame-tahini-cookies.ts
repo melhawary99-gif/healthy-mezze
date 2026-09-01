@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const healthySesameTahiniCookies: Recipe = {
+  datePublished: "2026-07-17",
   id: 81,
 
   title: "Healthy Sesame Tahini Cookies",

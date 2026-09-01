@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const classicTahiniSauce: Recipe = {
+  datePublished: "2026-07-17",
   id: 95,
 
   title: "Classic Tahini Sauce",

@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const shishTawook: Recipe = {
+  datePublished: "2026-07-17",
   id: 25,
 
   title: "Shish Tawook (Lebanese Chicken Kabobs)",

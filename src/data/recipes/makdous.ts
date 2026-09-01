@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const makdous: Recipe = {
+  datePublished: "2026-07-17",
   id: 72,
 
   title: "Makdous (Stuffed Baby Eggplants)",

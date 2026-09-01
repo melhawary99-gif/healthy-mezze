@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const classicToum: Recipe = {
+  datePublished: "2026-07-17",
   id: 94,
 
   title: "Classic Toum (Lebanese Garlic Sauce)",

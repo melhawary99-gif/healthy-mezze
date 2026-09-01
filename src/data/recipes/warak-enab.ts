@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const warakEnab: Recipe = {
+  datePublished: "2026-07-17",
   id: 63,
 
   title: "Warak Enab (Stuffed Grape Leaves)",

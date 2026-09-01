@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const grilledHalloumiHerbsPomegranate: Recipe = {
+  datePublished: "2026-07-17",
   id: 68,
 
   title: "Grilled Halloumi with Herbs & Pomegranate",

@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const authenticEgyptianKarkade: Recipe = {
+  datePublished: "2026-07-17",
   id: 84,
 
   title: "Authentic Egyptian Karkade (Hibiscus Tea)",

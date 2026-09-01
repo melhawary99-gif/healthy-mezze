@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const mediterraneanFalafelWrap: Recipe = {
+  datePublished: "2026-07-16",
   id: 110,
 
   title: "Mediterranean Falafel Wrap",

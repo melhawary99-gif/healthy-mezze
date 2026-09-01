@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const chickenPitaWrap: Recipe = {
+  datePublished: "2026-07-16",
   id: 106,
 
   title: "Palestinian Chicken Musakhan Pita Wrap",

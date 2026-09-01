@@ -1,6 +1,7 @@
 import { Recipe } from "@/types/recipe";
 
 export const oliveTapenade: Recipe = {
+  datePublished: "2026-07-17",
   id: 62,
 
   title: "Olive Tapenade with Whole Grain Crackers",
