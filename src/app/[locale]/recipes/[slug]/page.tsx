@@ -10,6 +10,7 @@ import { Link } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
 
 import RecipeHero from "@/components/recipes/RecipeHero";
+import JumpToRecipeButton from "@/components/recipes/JumpToRecipeButton";
 import RecipeQuickInfo from "@/components/recipes/RecipeQuickInfo";
 import IngredientsSection from "@/components/recipes/IngredientsSection";
 import InstructionsSection from "@/components/recipes/InstructionsSection";
@@ -312,6 +313,9 @@ export default async function RecipePage({ params }: RecipePageProps) {
             {/* Recipe Hero */}
             <RecipeHero recipe={recipe} />
 
+            {/* Jump to Recipe */}
+            <JumpToRecipeButton />
+
             {/* Quick Information */}
             <RecipeQuickInfo recipe={recipe} />
 
@@ -319,7 +323,10 @@ export default async function RecipePage({ params }: RecipePageProps) {
             {recipe.story && <RecipeStorySection story={recipe.story} />}
 
             {/* Ingredients + Instructions + Nutrition */}
-            <div className="grid gap-10 lg:grid-cols-[1.3fr_0.8fr]">
+            <div
+              id="recipe-card"
+              className="scroll-mt-24 grid gap-10 lg:grid-cols-[1.3fr_0.8fr]"
+            >
               <div className="space-y-12">
                 <IngredientsSection recipe={recipe} />
 

@@ -859,5 +859,8 @@
         "href": "https://ich.unesco.org/en/RL/mediterranean-diet-00884"
       }
     }
+  },
+  "JumpToRecipe": {
+    "button": "انتقل إلى الوصفة"
   }
 }
