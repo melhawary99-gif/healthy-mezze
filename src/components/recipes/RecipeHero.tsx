@@ -24,8 +24,8 @@ export default function RecipeHero({ recipe }: RecipeHeroProps) {
           height={1152}
           priority
           className="h-auto w-full"
-          quality={90}
-          sizes="100vw"
+          quality={75}
+          sizes="(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1200px"
         />
       </div>
 
