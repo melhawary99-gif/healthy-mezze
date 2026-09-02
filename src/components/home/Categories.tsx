@@ -40,7 +40,7 @@ export default function Categories() {
                     alt={categoryT(category.nameKey)}
                     fill
                     quality={65}
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 540px"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 432px"
                     className="object-cover transition-transform duration-700 group-hover:scale-110"
                   />
 

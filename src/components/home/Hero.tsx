@@ -67,7 +67,7 @@ export default function Hero() {
             fetchPriority="high"
             quality={70}
             placeholder="blur"
-            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 90vw, 50vw"
+            sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 50vw"
             className="rounded-3xl shadow-2xl"
           />
         </div>
