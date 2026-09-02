@@ -1,4 +1,3 @@
-"use client";
 
 import { recipes } from "@/data/recipes";
 import Container from "@/components/ui/Container";

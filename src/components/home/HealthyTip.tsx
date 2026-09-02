@@ -1,4 +1,3 @@
-"use client";
 
 import { tips } from "@/data/tips";
 import Container from "@/components/ui/Container";

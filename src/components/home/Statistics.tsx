@@ -1,4 +1,3 @@
-"use client";
 
 import Container from "@/components/ui/Container";
 import { useTranslations } from "next-intl";
