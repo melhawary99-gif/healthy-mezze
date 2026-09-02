@@ -127,6 +127,7 @@ export default function Header() {
           {/* Favorites */}
           <Link
             href="/favorites"
+            prefetch={false}
             aria-label={t("favoritesAriaLabel")}
             className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-white text-green-700 shadow-sm transition hover:bg-green-50 sm:h-11 sm:w-11"
           >

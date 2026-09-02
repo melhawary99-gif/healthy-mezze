@@ -92,7 +92,11 @@ export default function Footer() {
             <ul className="mt-5 space-y-3 text-sm text-gray-600">
               {navLinks.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="transition hover:text-green-700">
+                  <Link
+                    href={link.href}
+                    prefetch={link.href === "/favorites" ? false : undefined}
+                    className="transition hover:text-green-700"
+                  >
                     {link.label}
                   </Link>
                 </li>
