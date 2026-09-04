@@ -61,6 +61,14 @@ export default function MobileMenu() {
             </Link>
 
             <Link
+              href="/drink-vlog"
+              onClick={() => setOpen(false)}
+              className="rounded-2xl px-4 py-3 text-sm font-medium text-green-800 transition hover:bg-green-50"
+            >
+              {nav("drinkVlog")}
+            </Link>
+
+            <Link
               href="/favorites"
               prefetch={false}
               onClick={() => setOpen(false)}

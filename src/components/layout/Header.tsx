@@ -16,6 +16,7 @@ export default function Header() {
     { label: t("home"), href: "/" },
     { label: t("recipes"), href: "/recipes" },
     { label: t("categories"), href: "/categories" },
+    { label: t("drinkVlog"), href: "/drink-vlog" },
     { label: t("favorites"), href: "/favorites" },
     { label: t("about"), href: "/about" },
   ];

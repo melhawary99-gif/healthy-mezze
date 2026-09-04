@@ -1,4 +1,4 @@
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
 import RecipeCard from "@/components/recipes/RecipeCard";
 import Container from "@/components/ui/Container";
@@ -24,7 +24,10 @@ export default async function RecipesPage({
   const { locale } = await params;
   const { q, category, sort } = await searchParams;
 
-  const t = useTranslations("Recipes");
+  const t = await getTranslations({
+    locale,
+    namespace: "Recipes",
+  });
   const recipes = await getLocalizedRecipes(locale);
 
   const query = q?.trim() ?? "";
