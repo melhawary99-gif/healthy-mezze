@@ -279,8 +279,8 @@ export default async function DrinkVlogRecipePage({
 
               {/* YOUTUBE VIDEO */}
               <VideoPlayer
-                image={drink.image}
-                isArabic={isArabic}
+                videoId="ARaeeUyUfs8"
+                title={isArabic ? "لاتيه الماتشا بالفراولة والثلج" : drink.title}
               />
 
 
