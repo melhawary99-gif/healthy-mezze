@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import AuthSessionProvider from "@/components/auth/AuthSessionProvider";
 
 import { routing } from "@/i18n/routing";
 import { SITE_URL, getLanguageAlternates } from "@/lib/seo";
@@ -154,14 +155,16 @@ export default async function LocaleLayout({ children, params }: Props) {
   const messages = (await import(`@/messages/${safeLocale}.json`)).default;
 
   return (
-    <NextIntlClientProvider locale={safeLocale} messages={messages}>
-      <div dir={safeLocale === "ar" ? "rtl" : "ltr"}>
-        <Header />
+    <AuthSessionProvider>
+      <NextIntlClientProvider locale={safeLocale} messages={messages}>
+        <div dir={safeLocale === "ar" ? "rtl" : "ltr"}>
+          <Header />
 
-        <main>{children}</main>
+          <main>{children}</main>
 
-        <Footer />
-      </div>
-    </NextIntlClientProvider>
+          <Footer />
+        </div>
+      </NextIntlClientProvider>
+    </AuthSessionProvider>
   );
 }

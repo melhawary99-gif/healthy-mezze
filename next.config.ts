@@ -20,7 +20,8 @@ script-src
   https://googleads.g.doubleclick.net
   https://fundingchoicesmessages.google.com
   https://www.clarity.ms
-  https://scripts.clarity.ms;
+  https://scripts.clarity.ms
+  https://challenges.cloudflare.com;
 
 style-src
   'self'
@@ -50,13 +51,15 @@ connect-src
   https://z.clarity.ms
   https://t.clarity.ms
   https://n.clarity.ms
-  https://pagead2.googlesyndication.com;
+  https://pagead2.googlesyndication.com
+  https://challenges.cloudflare.com;
 
 frame-src
   'self'
   https://googleads.g.doubleclick.net
   https://*.googlesyndication.com
-  https://fundingchoicesmessages.google.com;
+  https://fundingchoicesmessages.google.com
+  https://challenges.cloudflare.com;
 
 worker-src
   'self'

@@ -5,6 +5,7 @@ import { getTranslations } from "next-intl/server";
 import Container from "@/components/ui/Container";
 import { Link } from "@/i18n/navigation";
 import { getLatestDrinkVlog, drinkVlogs } from "@/data/drink-vlogs";
+import { getDrinkVlogTranslation } from "@/lib/drinkVlogTranslationLoader";
 import { getLanguageAlternates, SITE_URL } from "@/lib/seo";
 
 type DrinkVlogPageProps = {
@@ -76,6 +77,19 @@ export default async function DrinkVlogPage({
   });
 
   const latestDrink = getLatestDrinkVlog();
+
+  if (!latestDrink) {
+    return null;
+  }
+
+  const latestDrinkTranslation = getDrinkVlogTranslation(
+    latestDrink.slug,
+    locale,
+  );
+
+  if (!latestDrinkTranslation) {
+    return null;
+  }
 
   return (
     <main className="overflow-hidden bg-[#f6f0e8] text-[#183b3f]">
@@ -194,7 +208,7 @@ export default async function DrinkVlogPage({
                 <div className="relative z-10 aspect-[2/3] overflow-hidden bg-[#f3e9dc]">
                   <Image
                     src={latestDrink.image}
-                    alt={isArabic ? "لاتيه الماتشا بالفراولة والثلج" : latestDrink.title}
+                    alt={isArabic ? "لاتيه الماتشا بالفراولة والثلج" : latestDrinkTranslation.title}
                     fill
                     priority
                     sizes="(max-width: 1024px) 90vw, 52vw"
@@ -215,7 +229,7 @@ export default async function DrinkVlogPage({
                       {t("latest")}
                     </p>
                     <h2 className="mt-2 text-3xl font-black tracking-tight text-white sm:text-4xl">
-                      {isArabic ? "لاتيه الماتشا بالفراولة والثلج" : latestDrink.title}
+                      {isArabic ? "لاتيه الماتشا بالفراولة والثلج" : latestDrinkTranslation.title}
                     </h2>
                   </div>
                 </div>
@@ -248,13 +262,13 @@ export default async function DrinkVlogPage({
               </p>
 
               <h2 className="mt-4 max-w-sm text-4xl font-black leading-[0.95] tracking-[-0.04em] text-[#183b3f] sm:text-5xl">
-                {isArabic ? "لاتيه الماتشا بالفراولة والثلج" : latestDrink.title}
+                {isArabic ? "لاتيه الماتشا بالفراولة والثلج" : latestDrinkTranslation.title}
               </h2>
 
               <div className="mt-6 h-1 w-16 bg-[#ff7043]" />
 
               <p className="mt-7 max-w-md text-base leading-8 text-[#49666a]">
-                {isArabic ? "لاتيه ماتشا مثلج وكريمي بطبقات من نكهة الفراولة الحلوة، والماتشا الغني، والكثير من الثلج لمشروب منعش يجمع بين الطعم والجمال." : latestDrink.description}
+                {isArabic ? "لاتيه ماتشا مثلج وكريمي بطبقات من نكهة الفراولة الحلوة، والماتشا الغني، والكثير من الثلج لمشروب منعش يجمع بين الطعم والجمال." : latestDrinkTranslation.description}
               </p>
 
               <div className="mt-7 flex flex-col items-start gap-3">
@@ -283,7 +297,7 @@ export default async function DrinkVlogPage({
                 <div className="relative aspect-video overflow-hidden rounded-[1.5rem] bg-[#183b3f]">
                   <Image
                     src={latestDrink.image}
-                    alt={latestDrink.title}
+                    alt={latestDrinkTranslation.title}
                     fill
                     sizes="(max-width: 1024px) 100vw, 65vw"
                     className="object-cover"
@@ -295,7 +309,7 @@ export default async function DrinkVlogPage({
                     href={latestDrink.youtubeUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label={`${t("watch")}: ${latestDrink.title}`}
+                    aria-label={`${t("watch")}: ${latestDrinkTranslation.title}`}
                     className="absolute left-1/2 top-1/2 flex h-20 w-20 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-[#ff7043] text-2xl text-white shadow-2xl transition duration-300 hover:scale-110 hover:bg-[#ffd166] hover:text-[#183b3f]"
                   >
                     ▶
@@ -366,7 +380,7 @@ export default async function DrinkVlogPage({
                     <div className="relative aspect-[4/5] overflow-hidden rounded-[1.75rem] bg-[#2d9caf]">
                       <Image
                         src={drink.image}
-                        alt={drink.title}
+                        alt={getDrinkVlogTranslation(drink.slug, locale)?.title ?? "Drink Vlog"}
                         fill
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                         className="object-cover transition duration-700 group-hover:scale-105"
@@ -381,7 +395,7 @@ export default async function DrinkVlogPage({
 
                       <div className="absolute bottom-5 left-5 right-5">
                         <h3 className="text-2xl font-black tracking-tight text-white transition group-hover:text-[#ffd166]">
-                          {drink.title}
+                          {getDrinkVlogTranslation(drink.slug, locale)?.title}
                         </h3>
 
                       </div>

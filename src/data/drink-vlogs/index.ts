@@ -1,6 +1,7 @@
+import type { DrinkVlog } from "@/types/drinkVlog";
 import { strawberryIceMatchaLatte } from "./strawberry-ice-matcha-latte";
 
-export const drinkVlogs = [
+export const drinkVlogs: DrinkVlog[] = [
   strawberryIceMatchaLatte,
 ];
 

@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "healthy-mezze-reviews-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-05",
+  "workers_dev": true,
+
+  "d1_databases": [
+    {
+      "binding": "healthy_mezze_reviews",
+      "database_name": "healthy-mezze-reviews",
+      "database_id": "06119556-6f94-4faa-afb0-d637e6e5bb9d"
+    }
+  ]
+}

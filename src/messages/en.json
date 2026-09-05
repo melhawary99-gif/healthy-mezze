@@ -856,19 +856,50 @@
   },
   "JumpToRecipe": {
     "button": "Jump to Recipe"
+  },
+  "DrinkVlog": {
+    "label": "DRINK VLOG",
+    "headline": "Fresh pours. New flavors. Every day.",
+    "intro": "Learn how to build refreshing drinks, delicious flavors, and simple pours worth making.",
+    "latest": "LATEST POUR",
+    "episode": "EPISODE",
+    "watch": "WATCH ON YOUTUBE",
+    "explore": "DISCOVER TODAY'S POUR",
+    "archive": "THE POUR ARCHIVE",
+    "archiveDescription": "Browse the latest drinks from the Healthy Mezze Drink Vlog.",
+    "comingSoon": "More pours are coming every day."
+  },
+  "DrinkReviews": {
+    "title": "Reviews",
+    "averageRating": "{rating} out of 5",
+    "reviewCount": "{count, plural, =0 {No reviews} =1 {1 review} other {# reviews}}",
+    "writeReview": "Write a Review",
+    "yourName": "Your name",
+    "namePlaceholder": "Enter your name",
+    "rating": "Rating",
+    "review": "Your review",
+    "reviewPlaceholder": "Tell us what you thought about this drink...",
+    "submit": "Submit Review",
+    "submitting": "Submitting...",
+    "required": "Required",
+    "nameTooShort": "Name must be at least 2 characters.",
+    "reviewTooShort": "Review must be at least 5 characters.",
+    "ratingRequired": "Please select a rating.",
+    "successTitle": "Thank you for your review!",
+    "successMessage": "Your review has been submitted and is awaiting moderation.",
+    "error": "Something went wrong. Please try again.",
+    "noReviews": "Be the first to review this drink.",
+    "stars": "{count} stars",
+    "verified": "Approved review",
+    "signInToReview": "Sign in with Google to share your experience.",
+    "signInWithGoogle": "Sign in with Google",
+    "signedInAs": "Signed in as {name}",
+    "signOut": "Sign out",
+    "signInRequired": "You must be signed in with Google to submit a review.",
+    "googleNameUnavailable": "Google profile name unavailable.",
+    "signInError": "Unable to sign in. Please try again.",
+    "connectingToGoogle": "Connecting to Google...",
+    "alreadyReviewed": "You have already submitted a review for this drink.",
+    "turnstileRequired": "Please complete the security check before submitting your review."
   }
-,
-
-    "DrinkVlog": {
-      "label": "DRINK VLOG",
-      "headline": "Fresh pours. New flavors. Every day.",
-      "intro": "Learn how to build refreshing drinks, delicious flavors, and simple pours worth making.",
-      "latest": "LATEST POUR",
-      "episode": "EPISODE",
-      "watch": "WATCH ON YOUTUBE",
-      "explore": "DISCOVER TODAY'S POUR",
-      "archive": "THE POUR ARCHIVE",
-      "archiveDescription": "Browse the latest drinks from the Healthy Mezze Drink Vlog.",
-      "comingSoon": "More pours are coming every day."
-    }
 }

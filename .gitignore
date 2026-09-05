@@ -43,3 +43,6 @@ next-env.d.ts
 # Local recipe image source/optimization files
 image-sources/
 image-optimized/
+
+# Cloudflare Wrangler local state
+cloudflare/reviews-api/.wrangler/
