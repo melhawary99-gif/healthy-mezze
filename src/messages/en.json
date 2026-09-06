@@ -901,5 +901,18 @@
     "connectingToGoogle": "Connecting to Google...",
     "alreadyReviewed": "You have already submitted a review for this drink.",
     "turnstileRequired": "Please complete the security check before submitting your review."
+  },
+  "AdminReviews": {
+    "eyebrow": "Administration",
+    "title": "Review Moderation",
+    "description": "Review visitor submissions before they appear publicly on Healthy Mezze.",
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "approve": "Approve",
+    "reject": "Reject",
+    "noReviews": "No reviews in this category.",
+    "loadError": "Unable to load reviews. Please try again.",
+    "updateError": "Unable to update the review. Please try again."
   }
 }

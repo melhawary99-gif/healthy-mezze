@@ -25,7 +25,7 @@ function getCorsHeaders(request: Request): Headers {
     headers.set("Vary", "Origin");
   }
 
-  headers.set("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
+  headers.set("Access-Control-Allow-Methods", "GET, POST, PATCH, OPTIONS");
   headers.set("Access-Control-Allow-Headers", "Content-Type, X-Review-API-Key");
   headers.set("Content-Type", "application/json");
   headers.set("X-Content-Type-Options", "nosniff");
@@ -274,6 +274,133 @@ async function handleCreateReview(
   }
 }
 
+
+async function handleAdminGetReviews(
+  request: Request,
+  env: Env,
+): Promise<Response> {
+  const apiKey = request.headers.get("X-Review-API-Key");
+
+  if (!apiKey || apiKey !== env.REVIEWS_API_SECRET) {
+    return json(request, {
+      error: "Unauthorized.",
+    }, 401);
+  }
+
+  const url = new URL(request.url);
+  const status = url.searchParams.get("status") ?? "pending";
+
+  if (!["pending", "approved", "rejected"].includes(status)) {
+    return json(request, {
+      error: "Invalid review status.",
+    }, 400);
+  }
+
+  const result = await env.healthy_mezze_reviews
+    .prepare(
+      `SELECT
+        id,
+        drink_slug,
+        name,
+        rating,
+        review_text,
+        status,
+        created_at,
+        updated_at
+       FROM reviews
+       WHERE status = ?1
+       ORDER BY created_at DESC`,
+    )
+    .bind(status)
+    .all();
+
+  return json(request, {
+    reviews: result.results,
+  });
+}
+
+async function handleAdminUpdateReview(
+  request: Request,
+  env: Env,
+  idValue: string,
+): Promise<Response> {
+  const apiKey = request.headers.get("X-Review-API-Key");
+
+  if (!apiKey || apiKey !== env.REVIEWS_API_SECRET) {
+    return json(request, {
+      error: "Unauthorized.",
+    }, 401);
+  }
+
+  if (!/^\d+$/.test(idValue)) {
+    return json(request, {
+      error: "Invalid review ID.",
+    }, 400);
+  }
+
+  const id = Number(idValue);
+
+  if (!Number.isSafeInteger(id) || id <= 0) {
+    return json(request, {
+      error: "Invalid review ID.",
+    }, 400);
+  }
+
+  const contentType = request.headers.get("Content-Type") ?? "";
+
+  if (!contentType.toLowerCase().includes("application/json")) {
+    return json(request, {
+      error: "Content-Type must be application/json.",
+    }, 415);
+  }
+
+  let body: unknown;
+
+  try {
+    body = await request.json();
+  } catch {
+    return json(request, {
+      error: "Invalid JSON.",
+    }, 400);
+  }
+
+  if (!body || typeof body !== "object") {
+    return json(request, {
+      error: "Invalid request body.",
+    }, 400);
+  }
+
+  const status = (body as Record<string, unknown>).status;
+
+  if (status !== "approved" && status !== "rejected") {
+    return json(request, {
+      error: "Status must be approved or rejected.",
+    }, 400);
+  }
+
+  const result = await env.healthy_mezze_reviews
+    .prepare(
+      `UPDATE reviews
+       SET status = ?1,
+           updated_at = datetime('now')
+       WHERE id = ?2`,
+    )
+    .bind(status, id)
+    .run();
+
+  if (!result.meta.changes) {
+    return json(request, {
+      error: "Review not found.",
+    }, 404);
+  }
+
+  return json(request, {
+    success: true,
+    reviewId: id,
+    status,
+  });
+}
+
 export default {
   async fetch(
     request: Request,
@@ -305,6 +432,24 @@ export default {
         url.pathname === "/reviews"
       ) {
         return handleCreateReview(request, env);
+      }
+
+      if (
+        request.method === "GET" &&
+        url.pathname === "/admin/reviews"
+      ) {
+        return handleAdminGetReviews(request, env);
+      }
+
+      if (
+        request.method === "PATCH" &&
+        url.pathname.startsWith("/admin/reviews/")
+      ) {
+        const id = decodeURIComponent(
+          url.pathname.slice("/admin/reviews/".length),
+        );
+
+        return handleAdminUpdateReview(request, env, id);
       }
 
       if (
