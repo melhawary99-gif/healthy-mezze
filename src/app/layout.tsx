@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
 import { SITE_URL } from "@/lib/seo";
 import { Cairo, Inter, Poppins } from "next/font/google";
 
@@ -183,6 +184,12 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(websiteSchema),
           }}
+        />
+
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2945001903757081"
+          crossOrigin="anonymous"
         />
 
         {children}
