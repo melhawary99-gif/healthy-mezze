@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Container from "@/components/ui/Container";
+import { getLocalizedRecipe } from "@/lib/localizedRecipes";
+import { guideRecipeLinks } from "@/data/guideRecipeLinks";
 import { SITE_URL, getLanguageAlternates } from "@/lib/seo";
 
 type Props = {
@@ -1174,6 +1176,13 @@ export default async function GuidePage({ params }: Props) {
 
   if (!guide) notFound();
 
+  const recipeSlugs = guideRecipeLinks[slug] ?? [];
+  const guideRecipes = (
+    await Promise.all(
+      recipeSlugs.map((recipeSlug) => getLocalizedRecipe(recipeSlug, locale))
+    )
+  ).filter((recipe): recipe is NonNullable<typeof recipe> => recipe !== null);
+
   const content = locale === "ar" ? guide.ar : guide.en;
   const pageUrl = `${SITE_URL}/${locale}/guides/${slug}`;
   const homeUrl = `${SITE_URL}/${locale}`;
@@ -1270,24 +1279,66 @@ export default async function GuidePage({ params }: Props) {
             ))}
           </div>
 
-          <div className="mt-14 rounded-3xl bg-emerald-50 p-8">
-            <h2 className="text-2xl font-bold text-gray-900">
-              {locale === "ar" ? "استكشف الوصفات" : "Explore the recipes"}
-            </h2>
+          {guideRecipes.length > 0 && (
+            <section className="mt-14">
+              <div className="mb-6">
+                <h2 className="text-2xl font-bold text-gray-900">
+                  {locale === "ar"
+                    ? "وصفات مرتبطة بهذا الدليل"
+                    : "Recipes from this guide"}
+                </h2>
 
-            <p className="mt-3 leading-7 text-gray-700">
-              {locale === "ar"
-                ? "حوّل ما تعلمته إلى وجبة حقيقية مع وصفات Healthy Mezze."
-                : "Turn what you learned into a real meal with Healthy Mezze recipes."}
-            </p>
+                <p className="mt-2 leading-7 text-gray-600">
+                  {locale === "ar"
+                    ? "جرّب هذه الوصفات لتطبيق الأفكار والمكونات التي تناولها هذا الدليل."
+                    : "Try these recipes to put the ideas and ingredients from this guide into practice."}
+                </p>
+              </div>
 
-            <Link
-              href={`/${locale}/recipes`}
-              className="mt-5 inline-flex font-semibold text-emerald-700 hover:text-emerald-900"
-            >
-              {locale === "ar" ? "تصفح الوصفات ←" : "Browse recipes →"}
-            </Link>
-          </div>
+              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                {guideRecipes.map((recipe) => (
+                  <Link
+                    key={recipe.slug}
+                    href={`/recipes/${recipe.slug}`}
+                    className="group overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-md"
+                  >
+                    {recipe.image && (
+                      <img
+                        src={recipe.image}
+                        alt={recipe.imageAlt || recipe.title}
+                        className="aspect-[4/3] w-full object-cover"
+                      />
+                    )}
+
+                    <div className="p-5">
+                      <h3 className="text-lg font-bold text-gray-900 transition group-hover:text-emerald-700">
+                        {recipe.title}
+                      </h3>
+
+                      {recipe.description && (
+                        <p className="mt-2 line-clamp-3 text-sm leading-6 text-gray-600">
+                          {recipe.description}
+                        </p>
+                      )}
+
+                      <span className="mt-4 inline-flex font-semibold text-emerald-700">
+                        {locale === "ar" ? "عرض الوصفة ←" : "View recipe →"}
+                      </span>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+
+              <Link
+                href="/recipes"
+                className="mt-6 inline-flex font-semibold text-emerald-700 hover:text-emerald-900"
+              >
+                {locale === "ar"
+                  ? "تصفح جميع الوصفات →"
+                  : "Browse all recipes →"}
+              </Link>
+            </section>
+          )}
         </article>
       </Container>
     </main>
