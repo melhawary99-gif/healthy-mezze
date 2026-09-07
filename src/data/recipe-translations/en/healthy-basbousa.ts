@@ -4,10 +4,10 @@ export const healthyBasbousaEn: RecipeTranslation = {
   title: "Healthy Basbousa Recipe — Light Egyptian Semolina Cake with Honey & Almonds",
 
   description:
-    "This healthy basbousa recipe makes a lighter Egyptian-style semolina cake with whole wheat semolina, Greek yogurt, extra virgin olive oil, honey, orange blossom water, and almonds. Baked until golden and finished with a light honey-lemon syrup, this moist and fragrant Ramadan dessert offers the classic basbousa experience with less refined sugar and saturated fat. Perfect for Egyptian dessert tables, family gatherings, and anyone looking for a healthier Middle Eastern sweet.",
+    "A lighter Egyptian basbousa made with semolina, yogurt, coconut, almonds, and a measured syrup. The cake bakes until golden and tender, then absorbs just enough syrup to give it the characteristic moist texture without becoming overly sweet.",
 
   longDescription:
-    "This healthier basbousa keeps the tender, fragrant character of the classic Egyptian semolina dessert while reducing the amount of refined sugar and saturated fat normally found in traditional versions. Whole wheat semolina provides a more substantial texture, Greek yogurt keeps the cake moist, extra virgin olive oil replaces butter, and honey provides gentle sweetness. The finished cake is baked until golden, scored into diamonds, soaked while hot with a small amount of warm honey-lemon syrup, and decorated with almonds. The result is moist in the center, lightly crisp around the edges, aromatic from orange blossom water, and sweet without being overwhelmingly syrupy.",
+    "Basbousa is a familiar semolina cake across Egypt and the wider Middle East, with regional variations in ingredients, texture, and finishing syrup. This Egyptian-style version combines semolina with yogurt and coconut for a tender crumb, while almonds provide a simple toasted finish. The syrup is added after baking so it can soak into the warm cake. Using a measured amount keeps the dessert moist and fragrant while allowing the semolina and coconut flavors to remain noticeable.",
 
   imageAlt:
     "Golden Egyptian healthy basbousa cut into diamond pieces, each topped with an almond and finished with a light honey-lemon syrup.",

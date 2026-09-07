@@ -4,10 +4,10 @@ export const spinachFatayerEn: RecipeTranslation = {
   title: "Spinach Fatayer Recipe — Lebanese Spinach Pies with Sumac & Lemon",
 
   description:
-    "This spinach fatayer recipe makes large Lebanese-style spinach pies with soft whole-wheat dough and a bright filling of spinach, onion, parsley, mint, fresh lemon juice, and tangy sumac. These traditional open boat-shaped fatayer are baked until golden and are perfect for a healthy vegetarian or vegan mezze, breakfast, snack, light lunch, or Mediterranean meal.",
+    "Lebanese spinach fatayer made with soft dough and a savory filling of spinach, onion, lemon, herbs, and sumac. The pastries are shaped into open boat-like forms and baked until the dough is lightly golden and the filling is tender.",
 
   longDescription:
-    "Spinach fatayer, known in Arabic as fatayer sabanekh, are a beloved part of the Levantine pastry tradition. This version uses a soft whole-wheat dough and a generously seasoned spinach filling balanced with fresh lemon juice and earthy sumac. The pastries are shaped as large open boats rather than small closed pies, allowing the colorful filling to remain visible while the dough develops a lightly crisp golden edge. The key to successful fatayer is controlling moisture: spinach releases a surprising amount of liquid, so squeezing the filling thoroughly helps prevent soggy pastry and makes the dough much easier to shape. They are traditionally enjoyed as part of a spread of Levantine foods and are equally good warm from the oven or at room temperature.",
+    "Spinach fatayer are a familiar Lebanese pastry often served as part of mezze, breakfast, or a light meal. The filling combines chopped spinach with onion, herbs, lemon, and sumac, creating a savory mixture with a characteristic tangy flavor. Shaping the dough into an open boat allows the filling to cook directly in the pastry while the edges become lightly crisp. These fatayer are best served warm or at room temperature and pair naturally with other mezze dishes.",
 
   imageAlt:
     "Large open boat-shaped Lebanese spinach fatayer with visible spinach filling and golden baked edges arranged naturally on a serving platter.",

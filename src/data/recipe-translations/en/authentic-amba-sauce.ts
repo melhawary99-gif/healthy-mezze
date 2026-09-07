@@ -454,7 +454,7 @@ export const authenticAmbaSauceEn: RecipeTranslation = {
     duration:
       "For best quality, use within about 1 week when refrigerated in a clean airtight container.",
     container:
-      "A clean glass jar or airtight food-safe container is ideal for refrigerated storage.",
+      "Store the sauce in a clean glass jar or another airtight, food-safe container in the refrigerator.",
   },
 
   serving: {

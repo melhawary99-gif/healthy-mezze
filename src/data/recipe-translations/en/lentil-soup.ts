@@ -4,10 +4,10 @@ export const lentilSoupEn: RecipeTranslation = {
   title: "Syrian Lentil Soup (Shorbat Adas) Recipe — Easy Red Lentil Soup",
 
   description:
-    "This Syrian lentil soup recipe, known as Shorbat Adas, combines red lentils, onion, garlic, cumin, coriander, olive oil, and fresh lemon into a naturally creamy and comforting Levantine soup. An easy, healthy, protein-rich and high-fiber vegan soup that is perfect for family meals, Ramadan, lunch, or a warming everyday dinner.",
+    "A simple lentil soup made with red lentils, vegetables, garlic, cumin, lemon, and olive oil. The lentils soften quickly as they simmer, creating a naturally thick soup with a bright citrus finish.",
 
   longDescription:
-    "Syrian Lentil Soup, known as Shorbat Adas (شوربة عدس), is a beloved Levantine comfort food built around humble ingredients and warm, familiar flavors. Red lentils are simmered with onion, garlic, cumin, coriander, and olive oil until they soften into a naturally creamy soup, then finished with fresh lemon and parsley. The result is hearty without being heavy, naturally vegan, rich in plant protein and fiber, and economical enough for everyday family cooking. In Syrian homes, lentil soup is also strongly associated with Ramadan and comforting evening meals, where a hot bowl is often accompanied by lemon and warm bread.",
+    "This lentil soup is built around red lentils, which cook relatively quickly and naturally thicken the broth as they soften. Onion, carrot, garlic, cumin, and olive oil give the soup its savory base, while fresh lemon added toward the end keeps the flavor lively. It is straightforward enough for a weeknight meal and holds up well for leftovers. Serve it with warm pita, a simple salad, or other vegetable dishes for a filling plant-based meal.",
 
   imageAlt:
     "Syrian red lentil soup served warm with a drizzle of olive oil, chopped parsley, cumin, and fresh lemon wedges.",

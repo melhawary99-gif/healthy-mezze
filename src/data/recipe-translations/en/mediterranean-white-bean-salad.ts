@@ -4,10 +4,10 @@ export const mediterraneanWhiteBeanSaladEn: RecipeTranslation = {
   title: "Mediterranean White Bean Salad Recipe — Healthy Cannellini Bean Salad with Feta",
 
   description:
-    "This Mediterranean white bean salad recipe combines creamy cannellini beans, crisp cucumber, juicy tomatoes, red onion, fresh parsley, mint, feta cheese, and a bright lemon-olive oil dressing. An easy healthy Mediterranean salad that is vegetarian, high in fiber, rich in plant-based protein, and ideal for lunch, mezze, side dishes, or meal prep.",
+    "A Mediterranean white bean salad made with tender white beans, fresh vegetables, herbs, lemon, and extra virgin olive oil. It has a fresh, satisfying texture and works well as a lunch, side dish, or mezze component.",
 
   longDescription:
-    "This Mediterranean White Bean Salad combines creamy cannellini beans with crisp cucumber, juicy tomatoes, red onion, fresh parsley, mint, and crumbled feta. A simple dressing of extra virgin olive oil, fresh lemon juice, oregano, salt, and black pepper brings the ingredients together without overpowering their natural flavors. The beans make the salad filling and rich in plant-based protein and fiber, while the fresh vegetables and herbs keep it bright and refreshing. It is an excellent choice for a light lunch, Mediterranean mezze spread, side dish, or make-ahead meal-prep option.",
+    "This white bean salad combines creamy beans with crisp vegetables, fresh herbs, lemon, and olive oil for a simple Mediterranean-style dish. The beans provide a substantial base while the vegetables and dressing keep the salad fresh rather than heavy. Canned beans make preparation especially quick, although freshly cooked beans can also be used. Allowing the salad to rest briefly after dressing gives the flavors time to come together before serving.",
 
   imageAlt:
     "Mediterranean white bean salad with cannellini beans, cucumber, tomatoes, red onion, parsley, mint, and feta cheese.",

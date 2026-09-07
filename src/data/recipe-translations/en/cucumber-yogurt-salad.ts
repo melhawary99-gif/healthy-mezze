@@ -4,10 +4,10 @@ export const cucumberYogurtSaladEn: RecipeTranslation = {
   title: "Cucumber Yogurt Salad Recipe",
 
   description:
-    "A refreshing cucumber yogurt salad recipe made with crisp cucumber, creamy Greek yogurt, fresh dill, mint, garlic, lemon juice, and extra virgin olive oil. This healthy Mediterranean-style salad is cool, tangy, creamy, and perfect with grilled meats, shawarma, wraps, warm pita, and mezze.",
+    "A refreshing cucumber yogurt salad made with crisp cucumber, Greek yogurt, fresh dill, mint, garlic, lemon juice, and extra virgin olive oil. Cool and tangy with fresh herbs, it makes a refreshing accompaniment to grilled meats, shawarma, warm pita, and mezze.",
 
   longDescription:
-    "This cool cucumber yogurt salad brings together crisp cucumber, creamy Greek yogurt, fresh dill and mint, garlic, lemon juice, and extra virgin olive oil. Inspired by Lebanese and Eastern Mediterranean flavors, it makes a refreshing side dish for grilled meats, wraps, and mezze or a simple light dish on its own.",
+    "This cucumber yogurt salad combines crisp cucumber with creamy Greek yogurt, dill, mint, garlic, lemon juice, and extra virgin olive oil. Inspired by Lebanese and Eastern Mediterranean flavors, it balances the coolness of cucumber and yogurt with fresh herbs and a sharp lemon finish. It works especially well beside grilled meats and shawarma, where the cool yogurt helps offset richer or more strongly seasoned foods. It can also be served with warm pita as part of a simple mezze spread.",
 
   imageAlt:
     "Creamy cucumber yogurt salad with diced cucumber, Greek yogurt, fresh dill, mint, and olive oil.",

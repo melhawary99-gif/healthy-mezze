@@ -4,10 +4,10 @@ export const spinachFetaStuffedZucchiniBoatsEn: RecipeTranslation = {
   title: "Spinach & Feta Stuffed Zucchini Boats Recipe — Healthy Mediterranean Vegetarian Dinner",
 
   description:
-    "This Spinach & Feta Stuffed Zucchini Boats recipe features tender zucchini filled with garlicky spinach, fluffy quinoa, creamy feta, fresh herbs, lemon, and Parmesan, then baked until hot and lightly golden. This healthy Mediterranean-inspired vegetarian dinner is satisfying, protein-rich, vegetable-forward, and perfect for lunch, dinner, meal prep, or light entertaining.",
+    "Baked zucchini boats filled with spinach, feta, herbs, and Mediterranean seasonings. The zucchini becomes tender in the oven while the savory filling develops a lightly browned top.",
 
   longDescription:
-    "Spinach & Feta Stuffed Zucchini Boats are a flavorful Mediterranean-inspired vegetarian meal built around tender roasted zucchini and a savory filling of spinach, quinoa, feta, fresh herbs, garlic, lemon, and Parmesan. The zucchini is briefly pre-baked so it begins to soften without becoming watery, while the spinach is cooked until most of its excess moisture has evaporated. Quinoa adds substance and plant-based protein, feta brings a creamy salty contrast, and lemon and fresh herbs keep the filling bright. A final bake brings everything together and lightly browns the top, making these zucchini boats suitable for lunch, dinner, light entertaining, or meal preparation.",
+    "These stuffed zucchini boats turn fresh zucchini into an easy vegetarian main dish by filling the halves with spinach, feta, herbs, and Mediterranean seasonings. The zucchini roasts until tender while the filling becomes warm and savory with a lightly browned surface. They can be prepared ahead and baked when needed, making them useful for weekday dinners or meal prep. Serve them with a simple salad, grains, or warm pita for a complete meal.",
 
   imageAlt:
     "Golden baked zucchini boats filled with spinach, quinoa, feta cheese, fresh herbs, garlic, and Parmesan.",

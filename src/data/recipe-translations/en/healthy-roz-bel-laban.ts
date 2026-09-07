@@ -4,10 +4,10 @@ export const healthyRozBelLabanEn: RecipeTranslation = {
   title: "Healthy Roz Bel Laban Recipe — Egyptian Rice Pudding with Pistachios & Almonds",
 
   description:
-    "This healthy Roz Bel Laban recipe is a lighter take on Egypt's beloved rice pudding, made with tender short-grain rice, low-fat milk, honey, vanilla, cinnamon, pistachios, and almonds. An easy Egyptian dessert with creamy milk-soaked rice, gentle sweetness, warm cinnamon, and a nutty finish, perfect for family meals, make-ahead desserts, and everyday or festive occasions.",
+    "An Egyptian rice pudding made with milk, rice, gentle sweetness, cinnamon, and a nutty finish. Slow cooking gives the rice a creamy texture while keeping the dessert simple enough for everyday serving or make-ahead preparation.",
 
   longDescription:
-    "Roz Bel Laban, literally rice with milk, is one of Egypt's most beloved comforting desserts. This lighter Healthy Mezze version keeps the soft rice, creamy milk base, warm cinnamon, and nutty finish while using low-fat milk and just 2 tablespoons of honey for the entire six-serving recipe. The rice is first cooked gently in water until very tender before the milk is added, making the final texture more reliable and reducing the risk of undercooked rice or scorched milk. A small cornstarch slurry gives the pudding additional body without requiring cream. The finished pudding should be creamy and spoonable rather than stiff, and it can be enjoyed warm or chilled.",
+    "Roz bel laban is a familiar Egyptian rice pudding made by slowly cooking rice with milk and sugar until the mixture becomes thick and creamy. It is commonly served chilled or at room temperature and can be finished with cinnamon, nuts, or other simple toppings. The preparation follows that basic Egyptian approach, with measured sweetness and a creamy texture that stays light rather than heavy. It works well as a make-ahead dessert because the pudding continues to thicken as it cools.",
 
   imageAlt:
     "Creamy Egyptian rice pudding served in a glass bowl and topped with ground cinnamon, chopped pistachios, sliced almonds, and fresh mint.",
@@ -195,7 +195,7 @@ export const healthyRozBelLabanEn: RecipeTranslation = {
 
   story: {
     introduction:
-      "Roz Bel Laban, commonly written as Roz Bil Laban or Roz Bel Laban, means essentially 'rice with milk' in Arabic. It is a familiar Egyptian comfort dessert built from simple pantry ingredients: rice, milk, sweetener, and aromatic flavorings. Its appeal comes from transformation rather than complexity—the rice slowly softens and releases starch into the milk, creating a creamy pudding that can be served warm for comfort or chilled for a refreshing dessert. This Healthy Mezze version follows that same basic idea while reducing the richness and sweetness for a lighter everyday interpretation.",
+      "Roz Bel Laban, commonly written as Roz Bil Laban or Roz Bel Laban, means essentially 'rice with milk' in Arabic. It is a familiar Egyptian comfort dessert built from simple pantry ingredients: rice, milk, sweetener, and aromatic flavorings. Its appeal comes from transformation rather than complexity—the rice slowly softens and releases starch into the milk, creating a creamy pudding that can be served warm for comfort or chilled for a refreshing dessert. The same basic idea is kept here, with less richness and sweetness for a lighter dessert that works well for everyday serving.",
 
     culturalContext:
       "Rice pudding belongs to a much wider family of milk-and-grain desserts found across the Middle East, Mediterranean, North Africa, and beyond. In Egypt, Roz Bel Laban has become a particularly recognizable dessert and is commonly associated with home cooking, family meals, bakeries, and dessert shops. The dish is valued for its simplicity and comforting texture, and Egyptian versions may vary in sweetness, thickness, flavorings, toppings, and presentation. Some preparations are enriched more heavily, while others keep the ingredient list very simple. Because rice pudding has ancient and widespread culinary relatives, it is more accurate to view Roz Bel Laban as part of a long regional tradition of cooking grains with milk rather than assigning the dish to a single isolated invention or origin story.",

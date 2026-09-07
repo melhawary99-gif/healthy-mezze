@@ -4,10 +4,10 @@ export const MediterraneanChickenOrzoSoupEn: RecipeTranslation = {
   title: "Mediterranean Chicken Orzo Soup Recipe — Healthy Lemon Chicken Orzo Soup",
 
   description:
-    "This Mediterranean chicken orzo soup recipe combines tender shredded chicken, delicate orzo pasta, carrots, celery, onion, garlic, oregano, thyme, fresh parsley, and bright lemon in a light, flavorful broth. An easy, healthy one-pot chicken soup that is comforting, protein-rich, and practical for family dinners, meal prep, and cozy weeknight meals.",
+    "A one-pot chicken orzo soup made with tender chicken, vegetables, orzo, herbs, lemon, and a savory broth. The orzo cooks directly in the soup, giving the broth a little body while keeping the meal simple and comforting.",
 
   longDescription:
-    "This Mediterranean Chicken Orzo Soup is a nourishing one-pot meal built around tender shredded chicken, aromatic vegetables, delicate orzo pasta, and a light lemon-herb finish. The chicken is gently poached in the broth so it stays moist and easy to shred, while onion, carrot, celery, garlic, oregano, thyme, and bay leaf create a deeply savory base. Orzo adds a satisfying pasta texture without making the soup feel heavy, and fresh lemon juice and parsley brighten the broth just before serving. It is designed as an approachable everyday soup that is comforting, balanced, and practical enough for family dinners or meal preparation.",
+    "This chicken orzo soup is a straightforward one-pot meal built around chicken, vegetables, small orzo pasta, herbs, and a bright lemon finish. Cooking the orzo in the broth allows it to absorb the savory flavors while adding enough starch to give the soup a fuller texture. Lemon added toward the end keeps the bowl fresh rather than heavy. It is well suited to family dinners, leftovers, and cooler evenings when a warm bowl of soup is especially welcome.",
 
   imageAlt:
     "Mediterranean chicken orzo soup with tender shredded chicken, carrots, celery, herbs, and lemon.",

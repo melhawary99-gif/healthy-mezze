@@ -4,10 +4,10 @@ export const mediterraneanBreakfastWrapEn: RecipeTranslation = {
   title: "Mediterranean Breakfast Wrap Recipe — Healthy Lebanese-Style Egg & Hummus Breakfast Wrap",
 
   description:
-    "This Mediterranean breakfast wrap recipe combines soft scrambled eggs, creamy hummus, whole-wheat tortillas, fresh spinach, cherry tomatoes, cucumber, crumbled feta, parsley, and Mediterranean herbs. An easy, healthy Lebanese-style breakfast wrap that is high in protein, packed with fresh vegetables, and quick to prepare for busy mornings.",
+    "A Lebanese-style breakfast wrap filled with eggs, fresh vegetables, herbs, and Mediterranean flavors in warm flatbread. It is quick to assemble, satisfying without being heavy, and practical for busy mornings.",
 
   longDescription:
-    "This Mediterranean Breakfast Wrap is a modern, Lebanese-inspired breakfast built around familiar Eastern Mediterranean ingredients. Soft scrambled eggs provide protein while hummus brings creamy chickpea and sesame richness. Fresh spinach, cherry tomatoes, cucumber, parsley, feta, olive oil, and oregano add freshness and savory depth. The wrap is designed for real busy mornings: the vegetables are kept fresh rather than cooked down, the eggs remain soft instead of dry, and the tortilla is warmed only until flexible. These small details make the difference between a wrap that rolls neatly and one that cracks, leaks, or becomes soggy.",
+    "This Mediterranean breakfast wrap brings familiar Lebanese and Eastern Mediterranean breakfast ingredients together in a portable format. Warm flatbread holds a savory egg filling along with fresh vegetables and herbs, creating a balanced combination of soft, crisp, and fresh textures. The wrap is best assembled shortly before serving so the bread stays flexible and the vegetables retain their crunch. It also works well as a quick lunch when a simple hand-held meal is more convenient.",
 
   imageAlt:
     "Whole-wheat Mediterranean breakfast wrap filled with soft scrambled eggs, hummus, spinach, cherry tomatoes, cucumber, feta, parsley, and herbs.",

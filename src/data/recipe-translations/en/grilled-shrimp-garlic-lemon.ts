@@ -4,10 +4,10 @@ export const grilledShrimpGarlicLemonEn: RecipeTranslation = {
   title: "Grilled Shrimp with Garlic & Lemon Recipe — Mediterranean Shrimp",
 
   description:
-    "This grilled shrimp with garlic and lemon recipe features juicy large shrimp marinated with fresh garlic, lemon juice, extra virgin olive oil, parsley, cumin, paprika, and black pepper, then quickly grilled until tender with lightly charred edges. An easy Mediterranean shrimp recipe that is high in protein and perfect for mezze, pita, salads, grilled vegetables, or a light main dish.",
+    "Grilled shrimp marinated with garlic, fresh lemon juice, extra virgin olive oil, parsley, and Mediterranean herbs. The shrimp cook quickly over high heat, developing lightly charred edges while keeping their bright, savory flavor.",
 
   longDescription:
-    "This grilled shrimp recipe brings together the fresh, bright flavors of the Eastern Mediterranean in a simple dish that cooks in minutes. Large shrimp are coated in extra virgin olive oil, garlic, lemon juice, parsley, cumin, paprika, and black pepper before being briefly marinated and grilled over high heat. The result is tender shrimp with lightly charred edges, a savory garlic aroma, warm spice, and fresh citrus flavor. The short marinade is intentional: shrimp are delicate and do not need hours of marinating, especially when lemon juice is involved. Serve the shrimp immediately with lemon wedges, warm pita, hummus, fresh salads, or grilled vegetables as part of a colorful Lebanese-inspired mezze table.",
+    "This garlic lemon shrimp recipe relies on a short marinade and high heat rather than a long list of ingredients. Fresh lemon, garlic, olive oil, parsley, and Mediterranean herbs give the shrimp a bright, savory character, while grilling adds a lightly smoky surface. Shrimp cook quickly, so the main challenge is avoiding overcooking. Serve them hot with warm pita, a grain salad, grilled vegetables, or other mezze dishes for a simple Mediterranean-style meal.",
 
   imageAlt:
     "Juicy grilled shrimp with lightly charred edges, fresh parsley, lemon wedges, and extra virgin olive oil on a Mediterranean serving platter.",

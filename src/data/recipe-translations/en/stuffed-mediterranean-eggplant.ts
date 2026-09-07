@@ -4,10 +4,10 @@ export const stuffedMediterraneanEggplantEn: RecipeTranslation = {
   title: "Egyptian Stuffed Eggplant with Herbed Rice Recipe — Healthy Eggplant Mahshi",
 
   description:
-    "This Egyptian Stuffed Eggplant with Herbed Rice recipe features tender eggplants filled with raw short-grain rice, ripe tomatoes, onion, garlic, parsley, dill, cilantro, olive oil, and warm Egyptian-style spices. The eggplants are gently baked with hot vegetable stock or water until the rice is tender and the eggplant becomes silky and flavorful. A comforting vegetarian and vegan Egyptian mahshi-inspired main dish that is naturally plant-forward, aromatic, and perfect for a family meal.",
+    "An Egyptian mahshi-inspired stuffed eggplant filled with seasoned rice, vegetables, herbs, and aromatic spices. The eggplant cooks until tender while the filling absorbs the savory flavors of the surrounding vegetables and broth.",
 
   longDescription:
-    "This Egyptian-style stuffed eggplant is inspired by the family of rice-stuffed vegetables known throughout Egypt and the wider Eastern Mediterranean. Medium eggplants are carefully hollowed and filled with a fragrant mixture of raw short-grain rice, tomato, onion, garlic, parsley, dill, cilantro, tomato paste, olive oil, coriander, cumin, paprika, and black pepper. The stuffed eggplants are arranged snugly in a baking dish and cooked gently with hot stock or water. As they bake, the rice absorbs the seasoned tomato juices and cooking liquid while the eggplant becomes exceptionally tender. The result is a comforting, aromatic dish with a naturally rich vegetable flavor, herby rice filling, and a beautifully soft texture.",
+    "Stuffed vegetables, or mahshi, are an important part of Egyptian home cooking, with different vegetables and fillings used depending on the season and household. This eggplant version draws on that tradition by pairing tender eggplant with a seasoned rice and vegetable filling. The rice cooks inside the vegetable while absorbing the herbs, spices, and cooking liquid. It makes a comforting plant-forward main dish that can be served warm as part of a family meal.",
 
   imageAlt:
     "Egyptian stuffed eggplant filled with herbed tomato rice and baked until tender, served with fresh herbs.",

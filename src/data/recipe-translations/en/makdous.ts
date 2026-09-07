@@ -4,10 +4,10 @@ export const makdousEn: RecipeTranslation = {
   title: "Makdous Recipe — Lebanese Stuffed Baby Eggplants with Walnuts & Garlic",
 
   description:
-    "This Makdous recipe features tender baby eggplants stuffed with finely chopped walnuts, garlic, parsley, Aleppo pepper, cumin, pomegranate molasses, and extra virgin olive oil. A flavorful Lebanese and Levantine mezze that is savory, nutty, tangy, gently spicy, naturally vegan, and served cool or chilled.",
+    "A traditional-style Lebanese makdous made with small eggplants, walnuts, garlic, red pepper, and extra virgin olive oil. The eggplants are softened, filled with a savory nut mixture, and left to mature until the flavors become rich and tangy.",
 
   longDescription:
-    "Makdous is a classic Levantine stuffed eggplant preparation and a beloved part of the traditional mezze table, particularly in Syria, Lebanon, Jordan, and Palestine. It is especially associated with home-style preserving traditions, where small eggplants are prepared in season and combined with a savory walnut, garlic, and chili filling. This Healthy Mezze version keeps the character of the dish while using a modest amount of extra virgin olive oil. The result is tender eggplant with a rich walnut filling, bright pomegranate molasses, fragrant garlic, and gentle warmth from Aleppo pepper. Makdous is traditionally enjoyed cool or chilled alongside bread, hummus, olives, fresh vegetables, and other mezze dishes.",
+    "Makdous is a distinctive Levantine preserve made from small eggplants that are cooked until tender, stuffed with a mixture of walnuts, garlic, and red pepper, and covered with olive oil. It is especially associated with Syrian and Lebanese food traditions and is commonly served as part of breakfast or mezze. The preparation keeps the character of the dish while using a measured amount of olive oil. The finished eggplants develop a rich, tangy flavor as they rest, making makdous a good make-ahead addition to a shared table.",
 
   imageAlt:
     "Lebanese makdous made from tender baby eggplants stuffed with walnuts, garlic, parsley, Aleppo pepper, and pomegranate molasses, garnished with fresh parsley and walnuts.",

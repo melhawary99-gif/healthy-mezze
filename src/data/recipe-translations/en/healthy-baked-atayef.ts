@@ -4,10 +4,10 @@ export const healthyBakedAtayefEn: RecipeTranslation = {
   title: "Healthy Baked Atayef Recipe with Ricotta & Pistachios",
 
   description:
-    "This healthy baked atayef recipe features soft Middle Eastern pancakes filled with creamy ricotta, Greek yogurt, pistachios, honey, orange blossom water, and rose water, then baked until lightly golden instead of deep-fried. A lighter Egyptian and Levantine Ramadan dessert that is perfect for anyone looking for an easy baked atayef recipe with a creamy pistachio filling and gentle honey sweetness.",
+    "A baked atayef filled with creamy pistachio mixture and finished with a light honey syrup. Inspired by Egyptian and Levantine Ramadan desserts, this version uses the oven instead of deep-frying while keeping the soft pastry, nutty filling, and fragrant sweetness associated with atayef.",
 
   longDescription:
-    "These healthy baked atayef combine the soft, slightly chewy texture of traditional Middle Eastern stuffed pancakes with a lighter ricotta, Greek yogurt, and pistachio filling. Atayef are especially associated with Ramadan in Egypt and the Levant, where families prepare them in different shapes and fillings throughout the month. This version keeps the familiar flavors of honey, pistachio, orange blossom water, and rose water while replacing deep-frying and heavy syrup with a gentle bake and a light honey finish.",
+    "Atayef are small filled pancakes traditionally enjoyed across the Levant and Egypt, especially during Ramadan. The pastries are usually filled with nuts, cheese, or cream and then either baked or fried before being finished with syrup. This version uses a pistachio filling and an oven-baked method, giving the pastry a lightly crisp exterior while keeping the center tender. A restrained honey syrup adds sweetness without overwhelming the pistachios or the delicate pastry.",
 
   imageAlt:
     "Golden baked atayef filled with ricotta, Greek yogurt, pistachios, and honey, garnished with crushed pistachios and rose petals.",

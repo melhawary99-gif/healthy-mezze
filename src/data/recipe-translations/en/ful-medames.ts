@@ -4,10 +4,10 @@ export const fulMedamesEn: RecipeTranslation = {
   title: "Ful Medames Recipe — Traditional Egyptian Fava Beans",
 
   description:
-    "This traditional Egyptian ful medames recipe combines tender fava beans with garlic, cumin, fresh lemon juice, and extra virgin olive oil, finished with tomato, red onion, parsley, and warm pita. Easy to prepare and naturally vegan without eggs, it makes a hearty, healthy Egyptian breakfast rich in plant-based protein and fiber.",
+    "A traditional Egyptian ful medames made with tender fava beans, garlic, cumin, fresh lemon juice, and extra virgin olive oil, finished with tomato, red onion, parsley, and warm pita. The beans are partly mashed for a thick texture while plenty remain whole.",
 
   longDescription:
-    "Ful medames is one of Egypt's most beloved everyday dishes and a classic breakfast built around slow-cooked fava beans. This home-friendly version uses canned cooked beans for convenience while keeping the characteristic Egyptian combination of cumin, garlic, lemon, and olive oil. The beans are gently warmed and partly mashed, leaving plenty of whole beans for a thick, hearty texture. Fresh tomato, red onion, parsley, lemon, and warm pita provide contrast and brightness at the table.",
+    "Ful medames is one of Egypt's best-known everyday dishes and a longstanding breakfast staple built around slow-cooked fava beans. This home-friendly version uses canned cooked beans for convenience while keeping the familiar Egyptian combination of cumin, garlic, lemon, and olive oil. The beans are gently warmed and partly mashed rather than puréed completely, giving the dish a thick texture with plenty of whole beans. Tomato, red onion, parsley, lemon, and warm pita add freshness and contrast at the table, while boiled eggs can be added when desired.",
 
   imageAlt:
     "Egyptian ful medames with tender whole and gently mashed fava beans, tomato, red onion, parsley, olive oil, lemon wedges, and warm pita bread.",
@@ -505,7 +505,7 @@ export const fulMedamesEn: RecipeTranslation = {
 
   serving: {
     description:
-      "Serve ful medames hot in a shallow bowl with a generous drizzle of extra virgin olive oil and fresh tomato, red onion, parsley, and lemon. Warm pita is ideal for scooping up the thick beans, while boiled eggs can be added when desired.",
+      "Serve ful medames hot in a shallow bowl with a generous drizzle of extra virgin olive oil and fresh tomato, red onion, parsley, and lemon. Warm pita makes it easy to scoop up the thick beans, and boiled eggs can be added at the table if you like.",
     pairings: [
       "Warm whole-wheat pita",
       "Fresh tomato and cucumber",
@@ -530,7 +530,7 @@ export const fulMedamesEn: RecipeTranslation = {
     {
       question: "Should ful medames be completely smooth?",
       answer:
-        "No. A rustic texture with some mashed beans and plenty of whole beans is ideal for this version. Avoid blending it into a smooth purée.",
+        "No. For a rustic texture, mash some of the beans while leaving plenty of them whole. Avoid blending the dish into a smooth purée.",
     },
     {
       question: "Can I make ful medames vegan?",

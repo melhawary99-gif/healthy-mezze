@@ -4,10 +4,10 @@ export const healthyPistachioBaklavaRollsEn: RecipeTranslation = {
   title: "Healthy Pistachio Baklava Rolls Recipe — Whole Wheat Phyllo with Honey & Nuts",
 
   description:
-    "This healthy pistachio baklava rolls recipe is a lighter take on a beloved Middle Eastern dessert, made with crisp whole wheat phyllo, pistachios, walnuts, extra virgin olive oil, honey, lemon, cinnamon, cardamom, and orange blossom water. The rolled baklava is baked until golden and flaky, then finished with a light honey-orange blossom syrup for a fragrant, nut-filled dessert that is perfect for family meals, gatherings, and festive occasions.",
+    "Crisp pistachio baklava rolls made with thin pastry, a generous nut filling, and a light honey-orange blossom syrup. The rolls bake until golden and flaky, giving the dessert a delicate crunch with fragrant citrus notes.",
 
   longDescription:
-    "These lighter baklava rolls keep the essential character of Middle Eastern baklava while using a restrained amount of added sweetness. Twelve sheets of whole wheat phyllo are layered in pairs, filled with finely chopped pistachios and walnuts seasoned with cinnamon and cardamom, rolled into logs, and baked until crisp and golden. Instead of a heavy sugar syrup, the finished rolls are lightly soaked with a small amount of honey, lemon, water, and orange blossom water. The result is flaky pastry, fragrant nuts, and floral citrus sweetness without making the dessert excessively heavy or syrupy.",
+    "Baklava appears in many forms across the Levant and the wider Eastern Mediterranean, and rolled versions are especially practical for portioning and serving. These pistachio rolls use thin pastry wrapped around a nut filling before being baked until crisp and golden. A light syrup scented with honey and orange blossom is added after baking, allowing the pastry to stay flaky while taking on a subtle sweetness and floral aroma. This is an interpretation inspired by the broader baklava tradition, rather than a claim that one exact shape or ingredient balance is definitive.",
 
   imageAlt:
     "Golden pistachio and walnut baklava rolls made with whole wheat phyllo, finished with a light honey-orange blossom syrup and chopped pistachios.",
@@ -677,7 +677,7 @@ export const healthyPistachioBaklavaRollsEn: RecipeTranslation = {
     {
       question: "Is this traditional Lebanese baklava?",
       answer:
-        "Baklava is shared across many Eastern Mediterranean and Middle Eastern cuisines, and there are many traditional regional versions. This recipe is a lighter Healthy Mezze interpretation inspired by that broader tradition rather than a claim that this exact roll shape and ingredient balance represents one definitive traditional Lebanese recipe.",
+        "Baklava is shared across many Eastern Mediterranean and Middle Eastern cuisines, and there are many traditional regional versions. This version takes inspiration from that broader tradition, using the rolled pastry format and pistachio filling as a lighter interpretation rather than presenting them as the only traditional Lebanese combination.",
     },
     {
       question: "Why are the phyllo sheets layered in pairs?",

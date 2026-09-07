@@ -4,10 +4,10 @@ export const mediterraneanRoastedChickpeasEn: RecipeTranslation = {
   title: "Mediterranean Roasted Chickpeas Recipe — Crispy Healthy High-Protein Chickpea Snack",
 
   description:
-    "This Mediterranean roasted chickpeas recipe makes crispy oven-roasted chickpeas with extra virgin olive oil, smoked paprika, garlic, oregano, cumin, onion powder, and a gentle touch of cayenne. An easy, healthy vegan chickpea snack that is high in fiber and plant-based protein, perfect for snacking, salads, soups, grain bowls, and mezze.",
+    "Crispy roasted chickpeas seasoned with olive oil and Mediterranean spices. The chickpeas are roasted until browned and crunchy, making them a simple snack or a savory topping for salads, soups, grain bowls, and mezze.",
 
   longDescription:
-    "Mediterranean Roasted Chickpeas turn humble chickpeas into a crisp, savory snack with very little effort. The chickpeas are thoroughly dried before roasting, coated with extra virgin olive oil and warm Mediterranean-inspired spices, then baked until golden and crunchy. They are excellent on their own, but also work beautifully as a topping for salads, soups, grain bowls, hummus, and mezze platters. This recipe is especially useful for anyone looking for a satisfying plant-based snack that can be prepared ahead of time.",
+    "Roasted chickpeas are an easy way to turn cooked chickpeas into a crunchy snack or topping. The key is removing as much surface moisture as possible before coating them lightly with olive oil and spices, since excess moisture can keep them from crisping properly. A hot oven helps the chickpeas develop browned edges while the centers remain firm. Let them cool before storing so trapped steam does not soften the crust.",
 
   imageAlt:
     "Golden roasted chickpeas seasoned with smoked paprika, garlic, oregano, cumin, parsley, and Mediterranean spices in a stylish kitchen.",

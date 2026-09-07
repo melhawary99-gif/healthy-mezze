@@ -4,7 +4,7 @@ export const chickenShawarmaEn: RecipeTranslation = {
   title: "Palestinian Chicken Shawarma Recipe",
 
   description:
-    "A healthy Palestinian chicken shawarma recipe made with thinly sliced chicken, yogurt, lemon, extra virgin olive oil, garlic, and warm Levantine spices. This homemade skillet shawarma is juicy, deeply browned, and perfect for wraps, pita, shawarma bowls, or a healthy Mediterranean-style meal.",
+    "A Palestinian chicken shawarma recipe made with thinly sliced chicken, yogurt, lemon, extra virgin olive oil, garlic, and warm Levantine spices. This homemade skillet version develops deeply browned edges while keeping the chicken tender and well seasoned. Serve it in warm pita, wraps, or a shawarma bowl with your favorite toppings.",
 
   longDescription:
     "This Palestinian-style Chicken Shawarma is a home-kitchen interpretation of the beloved Levantine street-food classic. Instead of using a vertical shawarma spit, thinly sliced chicken is marinated in yogurt, lemon, olive oil, garlic, onion, ginger, cinnamon, clove, and black pepper, then cooked in a very hot skillet until the edges become deeply browned and lightly crisp. The cooked chicken is sliced even thinner to recreate the characteristic shaved texture of shawarma. Inspired by home-style preparations associated with Ramallah, this version is designed for an ordinary kitchen while preserving the warm spice profile and bright, tangy flavors that make shawarma so distinctive. Serve it wrapped in warm flatbread with tahini sauce, pickled turnips, cucumbers, cabbage, sumac onions, and fresh herbs, or build a complete shawarma bowl with rice, greens, and vegetables.",

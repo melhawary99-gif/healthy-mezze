@@ -4,10 +4,10 @@ export const zaatarRoastedMixedNutsEn: RecipeTranslation = {
   title: "Za'atar Roasted Mixed Nuts Recipe — Lebanese Spiced Nuts",
 
   description:
-    "This Za'atar Roasted Mixed Nuts recipe is an easy Lebanese-inspired snack made with crunchy almonds, walnuts, pistachios, and cashews tossed with extra virgin olive oil, za'atar, sesame seeds, smoked paprika, and garlic. Roasted until lightly golden and fragrant, these savory Mediterranean spiced nuts are naturally vegan, vegetarian, and gluten-free when packaged seasonings are verified, making them ideal for healthy snacking, mezze platters, entertaining, lunch boxes, and meal prep.",
+    "Mixed nuts roasted with zaatar, olive oil, and Mediterranean seasonings until lightly golden and fragrant. The nuts make a savory snack with a crisp texture that also works well on mezze platters or alongside drinks.",
 
   longDescription:
-    "Za'atar Roasted Mixed Nuts are an easy Lebanese-inspired snack made with almonds, walnuts, pistachios, and unsalted cashews. The nuts are lightly coated with extra virgin olive oil and seasoned with za'atar, smoked paprika, garlic powder, sesame seeds, sea salt, black pepper, and optional fresh thyme. Roasting at a moderate temperature brings out the natural flavor of the nuts while keeping them crisp and fragrant. The most important part is watching them closely near the end of roasting because nuts can go from golden to burnt quickly. After cooling completely, they become crunchy and make a convenient snack for meal prep, entertaining, lunch boxes, or serving alongside Mediterranean dishes.",
+    "These roasted mixed nuts combine the richness of nuts with the herbal, savory character of zaatar. A light coating of olive oil helps the seasoning adhere while the nuts toast in the oven and develop a deeper flavor. Keep a close eye on them near the end because nuts can move from lightly golden to overbrowned quickly. Allow the finished nuts to cool before serving so their texture becomes crisp. They are useful for everyday snacking, entertaining, mezze platters, or lunchboxes.",
 
   imageAlt:
     "Golden roasted almonds, walnuts, pistachios, and cashews coated with za'atar, sesame seeds, and Mediterranean spices in a serving bowl.",

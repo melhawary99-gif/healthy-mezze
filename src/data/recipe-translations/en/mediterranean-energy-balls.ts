@@ -4,10 +4,10 @@ export const mediterraneanEnergyBallsEn: RecipeTranslation = {
   title: "Mediterranean Energy Balls Recipe — Healthy No-Bake Date Energy Balls",
 
   description:
-    "This Mediterranean energy balls recipe combines soft Medjool dates, rolled oats, almonds, walnuts, chia seeds, cocoa, flaxseed, coconut, and almond butter into naturally sweet no-bake snack bites. Easy to prepare without baking, these healthy date energy balls are rich in fiber, plant-based protein, and unsaturated fats and are ideal for meal prep, breakfast, lunchboxes, and convenient everyday snacks.",
+    "No-bake date energy balls made with dates, nuts, seeds, and Mediterranean-inspired flavors. The mixture is processed until it holds together, then rolled into small portions that are easy to store and take on the go.",
 
   longDescription:
-    "These Mediterranean-inspired energy balls turn simple pantry ingredients into a satisfying no-bake snack. Soft Medjool dates provide the natural sweetness and sticky texture that brings the mixture together, while almonds, walnuts, oats, chia seeds, and flaxseed add texture, fiber, and plant-based nourishment. Unsweetened cocoa and cinnamon give the balls a warm, lightly chocolatey flavor without relying on refined sugar. The mixture comes together in a food processor, is rolled by hand, coated with coconut if desired, and chilled until firm. The recipe is especially useful for meal preparation because the finished balls can be prepared ahead and kept refrigerated for quick snacks throughout the week.",
+    "These date energy balls rely on naturally sticky dried fruit to bind a mixture of nuts, seeds, and other simple ingredients without baking. The dates provide sweetness and a soft texture, while the nuts and seeds add richness and crunch. Once blended, the mixture should be moist enough to hold together when pressed but not so wet that it becomes difficult to shape. They are convenient for breakfast, lunchboxes, meal prep, or a small snack between meals.",
 
   imageAlt:
     "No-bake Mediterranean-inspired energy balls coated with shredded coconut and arranged on a wooden serving plate.",

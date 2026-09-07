@@ -4,10 +4,10 @@ export const stuffedDatesAlmondsPistachiosEn: RecipeTranslation = {
   title: "Stuffed Dates with Almonds & Pistachios Recipe — Healthy Mediterranean Date Snack",
 
   description:
-    "This Stuffed Dates with Almonds & Pistachios recipe turns soft Medjool dates into an easy no-bake Mediterranean-inspired snack or dessert. Each date is filled with a roasted almond, chopped pistachios, and optional creamy goat cheese, then finished with a light drizzle of honey, toasted sesame seeds, cinnamon, and fresh mint. Naturally sweet, simple to assemble, and perfect for snacks, coffee, entertaining, Ramadan, or a Mediterranean-inspired sweets platter.",
+    "Medjool dates filled with roasted almonds and pistachios, with optional goat cheese, honey, sesame, cinnamon, and mint. These small bites combine soft fruit with crunchy nuts and can be assembled without baking.",
 
   longDescription:
-    "These Stuffed Dates with Almonds & Pistachios turn a naturally sweet Medjool date into an elegant little bite with almost no preparation. Each date is opened carefully, filled with a whole roasted almond and a touch of chopped pistachio, then finished with optional goat cheese, honey, toasted sesame seeds, cinnamon, and fresh mint. The result is soft, chewy, creamy, crunchy, and aromatic all at once. This recipe is inspired by the long-standing Levantine and wider Middle Eastern tradition of pairing dates with nuts and other rich ingredients. In Lebanese food culture, dates, almonds, pistachios, sesame, honey, and fragrant spices appear across sweets and festive foods, including date- and nut-filled ma'amoul. This particular no-bake combination should be understood as a simple Mediterranean-inspired preparation rather than a claim that this exact recipe is a single traditional Lebanese dish.",
+    "Dates and nuts are a familiar combination across Middle Eastern and Mediterranean food traditions, often appearing alongside coffee, tea, and festive spreads. This recipe turns that pairing into a simple bite by opening soft Medjool dates and filling them with roasted almonds and pistachios. Optional goat cheese, honey, sesame, cinnamon, and mint can add contrasting flavors and textures. The dates are easy to assemble ahead of time and work well for snacks, entertaining, Ramadan, or a sweets-and-coffee platter.",
 
   imageAlt:
     "Soft Medjool dates opened and stuffed with whole roasted almonds, chopped pistachios, creamy goat cheese, honey, toasted sesame seeds, cinnamon, and fresh mint.",
@@ -455,7 +455,7 @@ export const stuffedDatesAlmondsPistachiosEn: RecipeTranslation = {
 
   story: {
     introduction:
-      "Dates have a special place in the food traditions of the Middle East and the Mediterranean, where they have long been valued as both everyday food and a welcoming ingredient for special occasions. This recipe takes that familiar pairing of dates and nuts and turns it into an easy modern bite: a soft Medjool date opened by hand, filled with a roasted almond and pistachios, and finished with optional goat cheese, honey, sesame, cinnamon, and mint.",
+      "Dates have a special place in the food traditions of the Middle East and the Mediterranean, where they have long been valued as both everyday food and a welcoming ingredient for special occasions. The familiar pairing of dates and nuts becomes a simple modern bite here: soft Medjool dates filled with roasted almonds and pistachios, then finished with optional goat cheese, honey, sesame, cinnamon, and mint.",
 
     culturalContext:
       "The exact combination presented here is a Healthy Mezze interpretation rather than a claim to one specific traditional Lebanese recipe. However, the ingredients belong to a broader Levantine culinary vocabulary. Lebanese sweets and festive foods frequently combine dates, pistachios, almonds, sesame, honey, and aromatic spices. Ma'amoul, for example, is a well-established Levantine filled pastry with fillings that include dates, pistachios, almonds, and walnuts. Traditional Lebanese food documentation also records preparations of dates stuffed with roasted almonds. These connections make the recipe culturally grounded while allowing it to remain a simple no-bake preparation.",

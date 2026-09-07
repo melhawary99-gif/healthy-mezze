@@ -4,10 +4,10 @@ export const warakEnabEn: RecipeTranslation = {
   title: "Warak Enab Recipe — Lebanese Stuffed Grape Leaves",
 
   description:
-    "This Warak Enab recipe is a traditional Lebanese and Levantine dish of tender grape leaves filled with uncooked short-grain rice, tomatoes, fresh parsley, mint, dill, lemon, olive oil, and warm spices. The grape leaves are carefully rolled, arranged snugly in a pot, weighted with a heatproof plate, and gently simmered until the rice is tender and the leaves are soft. Naturally vegan and vegetarian, these Lebanese stuffed grape leaves are perfect for mezze, family gatherings, and Mediterranean-style meals.",
+    "Lebanese stuffed grape leaves filled with seasoned rice, herbs, vegetables, and aromatic spices. The rolls simmer gently until the grape leaves are tender and the rice is fully cooked, making them a natural addition to a mezze table.",
 
   longDescription:
-    "Warak Enab, or stuffed grape leaves, is a beloved Lebanese and Levantine dish made by wrapping seasoned rice and fresh herbs inside tender grape leaves. The filling combines uncooked short-grain rice with tomatoes, onion, parsley, mint, dill, olive oil, lemon juice, allspice, cinnamon, salt, and pepper. Each leaf is rolled into a small cylinder and arranged snugly in a pot before being gently simmered in vegetable broth. The rice gradually absorbs the flavorful cooking liquid while the grape leaves become tender and aromatic. The most important techniques are rinsing the leaves well, using only a small amount of filling, rolling without over-tightening, keeping the rolls snug in the pot, and cooking them gently until the rice is fully tender. Served warm or at room temperature with fresh lemon, Warak Enab makes a beautiful mezze, side dish, or light plant-based meal.",
+    "Warak enab, or stuffed grape leaves, is a familiar dish across the Levant and appears in many family and regional variations. This Lebanese-style version uses a seasoned rice and herb filling wrapped inside grape leaves before being cooked slowly until tender. The rolls benefit from gentle simmering so the leaves soften without breaking apart and the rice has enough time to cook through. They can be served warm or at room temperature alongside other mezze dishes.",
 
   imageAlt:
     "Traditional Lebanese stuffed grape leaves arranged on a serving plate with lemon wedges and fresh parsley.",

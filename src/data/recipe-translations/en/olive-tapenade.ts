@@ -4,10 +4,10 @@ export const oliveTapenadeEn: RecipeTranslation = {
   title: "Olive Tapenade Recipe — Mediterranean Olive Spread with Kalamata Olives",
 
   description:
-    "This olive tapenade recipe is a savory Mediterranean olive spread made with Kalamata olives, capers, garlic, fresh lemon juice, extra virgin olive oil, parsley, and thyme. Rustic, tangy, briny, and intensely flavorful, it is an easy no-cook appetizer, mezze spread, sandwich condiment, or accompaniment for bread and fresh vegetables.",
+    "A Mediterranean olive tapenade made with olives, capers, garlic, herbs, lemon, and extra virgin olive oil. The ingredients are finely chopped or blended into a savory spread with a bold, briny flavor.",
 
   longDescription:
-    "This Olive Tapenade is a bold, savory Mediterranean spread built around the deep flavor of olives, balanced with capers, garlic, lemon, extra virgin olive oil, and fresh herbs. The ingredients are finely chopped together until they form a rustic, spoonable paste while retaining enough texture to keep the olives recognizable. The key to a good tapenade is balance: salty olives and capers should be lifted by bright lemon and softened by olive oil rather than becoming overwhelmingly salty or acidic. It requires no cooking and can be prepared ahead, making it an especially useful addition to mezze platters, sandwiches, toast, vegetable plates, and simple Mediterranean-style meals.",
+    "Olive tapenade is a Mediterranean-style spread built around the strong flavor of olives, balanced with capers, garlic, herbs, lemon, and olive oil. The texture can range from finely chopped and rustic to more finely blended, depending on how it will be served. This version keeps the preparation practical for everyday meals and makes a useful accompaniment to toasted bread, vegetables, grilled foods, or a mezze platter. Because the olives and capers already bring plenty of salt, taste before adding additional seasoning.",
 
   imageAlt:
     "Rustic olive tapenade made with chopped olives, capers, garlic, lemon, herbs, and extra virgin olive oil served in a small bowl.",
@@ -259,7 +259,7 @@ export const oliveTapenadeEn: RecipeTranslation = {
 
   story: {
     introduction:
-      "Olive Tapenade is a celebration of one of the Mediterranean's most enduring ingredients: the olive. The modern tapenade is particularly associated with Provence in southern France, where the name refers to a preparation centered on olives and traditionally combined with ingredients such as capers, olive oil, and seasonings. This Healthy Mezze version keeps that recognizable Mediterranean character while presenting it as an easy, practical spread for everyday meals.",
+      "Olive Tapenade is a celebration of one of the Mediterranean's most enduring ingredients: the olive. The modern tapenade is particularly associated with Provence in southern France, where the name refers to a preparation centered on olives and traditionally combined with ingredients such as capers, olive oil, and seasonings. The familiar Mediterranean character remains, but the preparation is kept simple enough for everyday meals.",
 
     culturalContext:
       "Olives have been cultivated around the Mediterranean for thousands of years and have played an important role in regional food traditions, agriculture, and trade. Olive-based pastes, chopped olive preparations, and seasoned olive mixtures appear in different forms across Mediterranean cuisines. Tapenade itself is closely linked to Provençal cooking, while the broader idea of combining olives with herbs, oil, and other strongly flavored ingredients reflects a much wider Mediterranean approach to food: simple ingredients are brought together to create something intensely flavorful.",
@@ -352,7 +352,7 @@ export const oliveTapenadeEn: RecipeTranslation = {
         id: "vegetarian",
         title: "Vegetarian",
         description:
-          "This recipe is naturally vegetarian and works well as a flavorful plant-based component of a mezze platter."
+          "It also works well as a savory plant-based component of a mezze platter."
       }
     ],
 

@@ -4,10 +4,10 @@ export const spinachLentilSoupEn: RecipeTranslation = {
   title: "Spinach Lentil Soup Recipe — Healthy Mediterranean Red Lentil Soup",
 
   description:
-    "This Spinach Lentil Soup recipe makes a hearty, naturally creamy Mediterranean soup with protein-rich red lentils, fresh spinach, onion, carrot, celery, garlic, cumin, coriander, turmeric, and lemon. This healthy vegan and vegetarian lentil soup is easy to make in one pot, budget-friendly, high in fiber, and perfect for lunch, dinner, or meal prep.",
+    "A one-pot spinach and lentil soup made with lentils, fresh spinach, vegetables, herbs, and warm spices. The lentils create a hearty base while spinach adds color and a fresh vegetable flavor.",
 
   longDescription:
-    "Spinach Lentil Soup is a nourishing Mediterranean-inspired soup that combines protein-rich red lentils with onion, carrots, celery, fresh spinach, garlic, and warming spices. The vegetables are gently sautéed first to build a flavorful base before the lentils and broth are added. As the red lentils simmer, they soften and naturally thicken the soup, creating a creamy texture without cream. Fresh spinach is added near the end to preserve its color and delicate flavor, while lemon juice and parsley brighten the finished soup. It is an easy, budget-friendly meal that works well for lunch, dinner, or make-ahead meal prep.",
+    "This spinach lentil soup combines everyday pantry ingredients into a filling one-pot meal. Lentils provide the main body of the soup, while onion, vegetables, garlic, herbs, and spices build its savory base. Fresh spinach is added toward the end so it stays green and retains more of its delicate flavor. The soup keeps well for leftovers and is practical for lunch, dinner, or meal preparation.",
 
   imageAlt:
     "Mediterranean spinach lentil soup with tender red lentils, vegetables, fresh spinach, parsley, lemon wedges, and olive oil.",

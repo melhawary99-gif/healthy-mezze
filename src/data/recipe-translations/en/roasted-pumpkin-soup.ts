@@ -4,10 +4,10 @@ export const roastedPumpkinSoupEn: RecipeTranslation = {
   title: "Roasted Pumpkin Soup Recipe — Mediterranean Vegan Pumpkin Soup with Carrots & Cumin",
 
   description:
-    "This roasted pumpkin soup recipe is a silky Mediterranean-inspired soup made with roasted pumpkin, carrots, onion, garlic, cumin, cinnamon, paprika, extra virgin olive oil, and fresh lemon. Naturally vegan, vegetarian, and dairy-free, it is an easy healthy pumpkin soup with deep roasted flavor and a bright herb finish.",
+    "A roasted pumpkin soup made with pumpkin, onion, garlic, herbs, spices, and olive oil. Roasting the pumpkin first deepens its natural sweetness before the vegetables are blended into a smooth, warming soup.",
 
   longDescription:
-    "This Roasted Pumpkin Soup turns naturally sweet pumpkin, carrots, onion, and garlic into a silky, comforting bowl with a distinctly Mediterranean-inspired character. Roasting concentrates the vegetables' flavor and creates gentle caramelized notes, while cumin, cinnamon, and paprika add warmth without overpowering the pumpkin. The soup is blended without cream, making it naturally vegetarian, vegan, and dairy-free. Finished with lemon, fresh parsley, pumpkin seeds, and extra virgin olive oil, it is an easy autumn and winter meal that also works beautifully for make-ahead lunches.",
+    "Roasting pumpkin before making soup gives it a more concentrated flavor and gentle caramelization that boiling alone does not provide. The roasted pumpkin is combined with onion, garlic, herbs, spices, and broth before being blended until smooth. Olive oil adds richness without the need for cream, while fresh herbs provide a brighter finish. The soup is easy to prepare ahead and can be reheated gently when needed.",
 
   imageAlt:
     "Silky roasted pumpkin soup garnished with fresh parsley, roasted pumpkin seeds, and extra virgin olive oil.",

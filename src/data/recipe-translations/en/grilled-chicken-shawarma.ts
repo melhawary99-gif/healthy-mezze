@@ -4,10 +4,10 @@ export const grilledChickenShawarmaEn: RecipeTranslation = {
   title: "Grilled Chicken Shawarma Recipe — Lebanese-Style Mediterranean Chicken",
 
   description:
-    "This grilled chicken shawarma recipe features juicy boneless chicken thighs marinated in Greek yogurt, fresh lemon juice, garlic, extra virgin olive oil, cumin, paprika, coriander, turmeric, cinnamon, allspice, and black pepper, then grilled until tender with flavorful lightly charred edges. A Lebanese-style Mediterranean chicken recipe that is high in protein and perfect for pita wraps, shawarma bowls, salads, or mezze.",
+    "A Lebanese-style grilled chicken shawarma made with thinly sliced chicken, yogurt, lemon, garlic, olive oil, and warm Levantine spices. The chicken develops lightly charred edges while staying tender, making it easy to serve in pita, wraps, bowls, salads, or as part of a mezze spread.",
 
   longDescription:
-    "Grilled Chicken Shawarma is a flavorful Lebanese-inspired dish built around tender boneless chicken thighs marinated in Greek yogurt, fresh lemon juice, garlic, extra virgin olive oil, and a warm blend of cumin, paprika, coriander, turmeric, cinnamon, allspice, and black pepper. The yogurt helps create a tender texture while lemon and spices bring the bright, savory character associated with shawarma. After an overnight marinade, the chicken is grilled over medium-high heat until fully cooked and lightly charred, then rested before being sliced into thin strips. The result is juicy chicken with deeply seasoned edges and a fragrant interior. Serve it with warm pita, hummus, garlic sauce, pickled vegetables, rice, or a fresh Mediterranean salad for a complete meal.",
+    "This grilled chicken shawarma takes the familiar Lebanese-style combination of garlic, lemon, yogurt, olive oil, and warm spices to the grill. Marinating the chicken helps keep the pieces tender while the high heat creates browned, lightly charred edges. The finished chicken can be sliced for warm pita wraps, arranged over rice or salad, or served alongside hummus, tahini, pickles, and fresh vegetables. It is a practical way to bring shawarma-style flavor to the home kitchen without needing a vertical spit.",
 
   imageAlt:
     "Juicy grilled chicken shawarma sliced into thin strips with warm pita, garlic sauce, pickles, parsley, and fresh Mediterranean salad.",

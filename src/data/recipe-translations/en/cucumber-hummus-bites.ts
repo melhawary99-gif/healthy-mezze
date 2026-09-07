@@ -4,10 +4,10 @@ export const cucumberHummusBitesEn: RecipeTranslation = {
   title: "Cucumber Hummus Bites Recipe",
 
   description:
-    "A cucumber hummus bites recipe made with crisp cucumber rounds, creamy hummus, cherry tomatoes, feta cheese, Kalamata olives, fresh parsley, and extra virgin olive oil. These easy Mediterranean appetizers are fresh, colorful, healthy, and perfect for parties, mezze platters, snacks, and light entertaining.",
+    "Crisp cucumber rounds topped with creamy hummus, cherry tomatoes, feta, Kalamata olives, parsley, and extra virgin olive oil. These small Mediterranean bites bring fresh vegetables, creamy hummus, and salty toppings together without the need for crackers or bread.",
 
   longDescription:
-    "Cucumber Hummus Bites are light, colorful Mediterranean appetizers built on crisp cucumber rounds instead of crackers. Each bite combines creamy hummus with juicy cherry tomatoes, salty feta, Kalamata olives, fresh parsley, and a light drizzle of extra virgin olive oil. They come together in minutes and work well for parties, mezze platters, or a simple healthy snack.",
+    "Cucumber Hummus Bites turn simple ingredients into a colorful finger food by using crisp cucumber rounds as the base. Each piece is topped with hummus, juicy cherry tomato, feta, Kalamata olive, fresh parsley, and a light drizzle of extra virgin olive oil. The combination gives each bite a mix of cool crunch, creamy chickpeas, salty cheese and olives, and fresh herbs. They take only a few minutes to assemble and fit naturally onto a mezze spread, appetizer table, or casual snack plate.",
 
   imageAlt:
     "Cucumber rounds topped with creamy hummus, cherry tomatoes, feta cheese, Kalamata olives, parsley, and smoked paprika.",

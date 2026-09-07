@@ -4,10 +4,10 @@ export const mediterraneanLentilPattiesEn: RecipeTranslation = {
   title: "Mediterranean Lentil Patties Recipe — Healthy Baked Lentil Patties",
 
   description:
-    "This Mediterranean lentil patties recipe combines cooked brown lentils, rolled oats, fresh parsley and cilantro, garlic, onion, cumin, coriander, paprika, egg, and extra virgin olive oil into healthy baked lentil patties. They bake until lightly golden outside while staying tender inside, making them ideal for a wholesome vegetarian meal, pita filling, mezze plate, or practical meal prep.",
+    "Baked Mediterranean lentil patties made with lentils, vegetables, herbs, and warm spices. They develop a lightly browned exterior in the oven while staying tender inside, making them useful for pita fillings, mezze plates, or a simple vegetarian meal.",
 
   longDescription:
-    "These Mediterranean Lentil Patties turn simple cooked lentils into a flavorful, satisfying vegetarian meal. Brown lentils are combined with rolled oats, fresh herbs, onion, garlic, cumin, coriander, paprika, egg, and extra virgin olive oil, then shaped into eight evenly sized patties and baked until lightly golden. The key to a good texture is keeping the lentil mixture slightly coarse rather than turning it into a smooth paste, while making sure the cooked lentils are very well drained before mixing. Serve the patties warm with tahini sauce, yogurt sauce, a fresh salad, or tucked into warm pita bread.",
+    "These lentil patties turn cooked lentils and vegetables into a practical baked dish that can be served in several ways. Herbs and warm spices give the mixture its Mediterranean character, while baking creates a lightly browned surface without the need for deep-frying. The mixture should be moist enough to hold together but firm enough to shape before baking. Serve the patties with tahini sauce, salad, warm pita, or other mezze dishes, or prepare them ahead for easy meals during the week.",
 
   imageAlt:
     "Golden baked Mediterranean lentil patties served with tahini sauce, fresh parsley, and salad.",

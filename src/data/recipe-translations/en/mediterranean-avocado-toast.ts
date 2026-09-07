@@ -4,10 +4,10 @@ export const mediterraneanAvocadoToastEn: RecipeTranslation = {
   title: "Mediterranean Avocado Toast Recipe — Healthy Lebanese-Style Avocado Toast with Feta & Za'atar",
 
   description:
-    "This Mediterranean avocado toast recipe combines creamy avocado mashed with fresh lemon, crisp whole-grain toast, juicy cherry tomatoes, black olives, crumbled feta, fresh parsley, za'atar, and extra virgin olive oil. An easy, healthy Lebanese-style Mediterranean breakfast that is quick to prepare and full of fresh, savory, creamy, and herbaceous flavors.",
+    "A Lebanese-style Mediterranean avocado toast topped with creamy avocado, fresh vegetables, herbs, and savory seasonings. It comes together quickly and makes a simple breakfast when you want something fresh and filling without much cooking.",
 
   longDescription:
-    "This Lebanese-style Mediterranean Avocado Toast brings together creamy avocado, bright lemon, salty feta, juicy cherry tomatoes, black olives, fragrant parsley, and za'atar over crisp whole-grain bread. It is a simple modern breakfast inspired by the fresh flavors of Lebanon and the wider Eastern Mediterranean. The avocado provides richness while lemon, tomatoes, herbs, olives, and extra virgin olive oil keep every bite fresh and balanced.",
+    "This Mediterranean avocado toast combines creamy avocado with the fresh, savory flavors commonly found around the Eastern Mediterranean table. Toasted bread provides the base, while herbs, vegetables, lemon, and seasonings add brightness and contrast to the rich avocado. It is quick enough for a weekday breakfast and flexible enough to adapt to what is already in the kitchen. Serve it on its own or alongside yogurt, olives, tomatoes, or other breakfast dishes.",
 
   imageAlt:
     "Lebanese-style Mediterranean avocado toast with cherry tomatoes, black olives, feta, parsley, za'atar, and olive oil on crisp whole-grain bread.",
@@ -548,7 +548,7 @@ export const mediterraneanAvocadoToastEn: RecipeTranslation = {
 
   storage: {
     instructions: [
-      "This toast is best eaten immediately and is not ideal for storing fully assembled.",
+      "For the best texture, eat the toast soon after assembling it rather than storing it fully assembled.",
       "Store any prepared toppings separately in airtight containers in the refrigerator.",
       "Keep mashed avocado covered directly against its surface to reduce exposure to air and browning.",
       "Toast fresh bread when ready to serve and assemble the toppings at the last moment.",

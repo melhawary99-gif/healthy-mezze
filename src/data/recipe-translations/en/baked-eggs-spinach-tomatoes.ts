@@ -575,7 +575,7 @@ export const bakedEggsSpinachTomatoesEn: RecipeTranslation = {
         "Serve immediately.",
       ],
       result:
-        "The yolks remain creamy and ideal for dipping warm bread.",
+        "The yolks stay creamy enough to scoop up with warm bread.",
     },
     {
       id: "what-if-firm-eggs",

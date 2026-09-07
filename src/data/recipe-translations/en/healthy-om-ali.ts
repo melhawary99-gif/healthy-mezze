@@ -4,10 +4,10 @@ export const healthyOmAliEn: RecipeTranslation = {
   title: "Healthy Om Ali Recipe — Egyptian Bread Pudding with Dates & Nuts",
 
   description:
-    "This healthy Om Ali recipe is a lighter take on Egypt's beloved warm bread pudding, made with baked whole wheat puff pastry, low-fat milk, Medjool dates, raisins, almonds, pistachios, walnuts, honey, cinnamon, and cardamom. An easy Egyptian dessert with creamy milk-soaked pastry, naturally sweet dried fruit, crunchy nuts, and warm aromatic spices, perfect for family meals, gatherings, and festive occasions.",
+    "An Egyptian Om Ali made with baked pastry, milk, dried fruit, nuts, and warm spices. The pastry absorbs the sweetened milk as it bakes, creating a soft center with toasted edges and a nutty finish.",
 
   longDescription:
-    "Om Ali is one of Egypt's most beloved warm desserts: crisp baked pastry is broken into pieces, layered with nuts and dried fruit, soaked with warm sweetened milk, and baked until the top becomes golden while the center turns soft and comforting. This healthier version keeps that satisfying contrast while using whole wheat puff pastry, low-fat milk, naturally sweet dates and raisins, and a modest amount of honey instead of relying heavily on refined sugar. Vanilla, cinnamon, and cardamom give the milk a warm aromatic character, while almonds, pistachios, and walnuts provide texture. It is an easy dessert for family meals and gatherings, especially when served warm from the oven.",
+    "Om Ali is a classic Egyptian baked dessert made by layering pastry with milk, sugar, nuts, and dried fruit before baking until the top becomes golden and crisp. Its appeal comes from the contrast between the toasted pastry on top and the soft, milk-soaked layers underneath. The basic structure stays intact, while the sweetness and richness are kept moderate enough for an everyday dessert. Cinnamon and aromatic spices add warmth, while pistachios and other nuts provide texture.",
 
   imageAlt:
     "Golden Egyptian Om Ali bread pudding made with whole wheat puff pastry, low-fat milk, dates, raisins, almonds, pistachios, walnuts, cinnamon, and cardamom.",

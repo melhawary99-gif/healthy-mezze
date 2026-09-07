@@ -4,7 +4,7 @@ export const bakedHerbFishEn: RecipeTranslation = {
   title: "Baked Herb Fish Recipe",
 
   description:
-    "A healthy baked herb fish recipe made with tender white fish, fresh parsley, dill, garlic, lemon, olive oil, and Mediterranean seasonings. This easy oven-baked fish is light, flavorful, and perfect for a healthy weeknight dinner.",
+    "A baked herb fish recipe made with tender white fish, fresh parsley, dill, garlic, lemon, olive oil, and Mediterranean seasonings. The fillets stay tender as they bake, while the herbs and lemon give the fish a bright, savory finish.",
 
   longDescription:
     "Baked Herb Fish is a simple Mediterranean-inspired dish built around flaky white fish, fresh parsley, dill, garlic, lemon, oregano, and extra virgin olive oil. The herb mixture is brushed generously over the fillets before baking, allowing the fish to absorb bright citrus and savory herb flavors while remaining tender and moist. It is an easy weeknight main dish that also feels elegant enough for a relaxed dinner, especially when served with roasted vegetables, quinoa, brown rice, or a crisp Mediterranean salad.",

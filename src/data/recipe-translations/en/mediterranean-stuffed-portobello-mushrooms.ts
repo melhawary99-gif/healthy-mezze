@@ -4,10 +4,10 @@ export const mediterraneanStuffedPortobelloMushroomsEn: RecipeTranslation = {
   title: "Mediterranean Stuffed Portobello Mushrooms Recipe — Healthy Vegetarian",
 
   description:
-    "This Mediterranean stuffed Portobello mushrooms recipe features tender baked mushroom caps filled with quinoa, spinach, sun-dried tomatoes, feta, garlic, basil, oregano, lemon, and balsamic vinegar, finished with Parmesan. A healthy vegetarian mushroom recipe packed with vegetables, fiber, plant-based protein, and Mediterranean flavor.",
+    "Large Portobello mushrooms filled with quinoa, spinach, sun-dried tomatoes, feta, herbs, lemon, and Parmesan. The mushrooms roast until tender while the filling develops a savory, herb-rich flavor.",
 
   longDescription:
-    "These Mediterranean Stuffed Portobello Mushrooms turn large mushroom caps into a satisfying vegetarian main dish. The filling combines 1 cup of cooked quinoa with wilted spinach, sun-dried tomatoes, feta, garlic, basil, oregano, balsamic vinegar, and lemon, then finishes with a light Parmesan crust. The mushrooms are briefly roasted before stuffing to soften the caps and release excess moisture, helping the finished dish stay flavorful rather than watery. The result is earthy, savory, bright, and filling without relying on meat.",
+    "These stuffed Portobello mushrooms use the mushroom caps as individual vessels for a savory quinoa and spinach filling. Sun-dried tomatoes, feta, basil, oregano, lemon, and Parmesan add layers of salty, tangy, and herbal flavor without making the filling overly complicated. Roasting the mushrooms and filling together allows the caps to become tender while the topping develops a lightly browned surface. They work well as a vegetarian main dish or alongside a simple salad and other Mediterranean-style sides.",
 
   imageAlt:
     "Four baked Portobello mushrooms filled with quinoa, spinach, sun-dried tomatoes, feta, basil, oregano, and Parmesan on a Mediterranean-style plate.",
@@ -406,7 +406,7 @@ export const mediterraneanStuffedPortobelloMushroomsEn: RecipeTranslation = {
 
   story: {
     introduction:
-      "Stuffed mushrooms are a natural meeting point between earthy vegetables, grains, herbs, cheese, and olive oil. This Healthy Mezze version uses large Portobello caps as the vessel for a savory quinoa and spinach filling, with sun-dried tomatoes, feta, basil, oregano, lemon, and Parmesan providing layers of Mediterranean-style flavor.",
+      "Stuffed mushrooms are a natural meeting point between earthy vegetables, grains, herbs, cheese, and olive oil. Large Portobello caps hold a savory quinoa and spinach filling, while sun-dried tomatoes, feta, basil, oregano, lemon, and Parmesan build layers of Mediterranean-style flavor.",
 
     culturalContext:
       "This recipe is best understood as a modern Mediterranean-style adaptation rather than a traditional dish belonging to one specific country. Published recipes show several closely related traditions: Portobello mushrooms are commonly filled with spinach, sun-dried tomatoes, and cheese in Italian- and Tuscan-inspired cooking, while quinoa-based stuffed mushrooms have become a popular modern vegetarian preparation. Feta, olive oil, fresh herbs, lemon, and vegetables also fit naturally into the wider Mediterranean flavor profile.",

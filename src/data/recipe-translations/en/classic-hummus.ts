@@ -4,10 +4,10 @@ export const classicHummusEn: RecipeTranslation = {
   title: "Classic Hummus Recipe — Palestinian Hummus bi-Tahini",
 
   description:
-    "A classic hummus recipe for silky Palestinian hummus bi-tahini made with exceptionally tender chickpeas, creamy tahini, fresh lemon juice, garlic, cumin, and extra virgin olive oil, served with warm Arabic bread.",
+    "A classic Palestinian hummus bi-tahini made with exceptionally tender chickpeas, creamy tahini, fresh lemon juice, garlic, cumin, and extra virgin olive oil. The finished hummus is smooth, light, and balanced, with warm Arabic bread for serving.",
 
   longDescription:
-    "Palestinian Hummus bi-Tahini is a deceptively simple dish in which technique and ingredient quality make a major difference. Tender chickpeas are blended with creamy tahini, fresh lemon juice, garlic, cumin, and salt until exceptionally smooth and light, then loosened gradually with cold water to create the characteristic silky texture. Hummus has deep roots across the Levant, and hummus bi-tahini holds an important place in Palestinian food culture, where it is enjoyed as part of breakfast, mezze, and shared family meals. This recipe presents a Palestinian-style preparation without claiming that hummus has a single uncontested place of invention. The finished hummus should be soft enough to spread easily across a shallow plate, with a balanced flavor in which nutty tahini, bright lemon, chickpeas, and olive oil remain distinct rather than one overpowering the others.",
+    "Palestinian hummus bi-tahini is a deceptively simple dish where technique matters as much as the ingredients. Very tender chickpeas are blended with tahini, fresh lemon juice, garlic, cumin, and salt, then loosened gradually with cold water until the mixture becomes exceptionally smooth. Hummus has deep roots across the Levant and holds an important place in Palestinian food culture, where it is enjoyed at breakfast, as part of mezze, and alongside shared family meals. This recipe presents a Palestinian-style preparation without suggesting that hummus has one uncontested place of invention. For the best texture, the finished hummus should spread easily across a shallow plate while keeping the nutty tahini, bright lemon, chickpeas, and olive oil in balance.",
 
   imageAlt:
     "Silky Palestinian hummus bi-tahini spread in a shallow serving bowl with extra virgin olive oil, paprika, parsley, whole chickpeas, and warm Arabic bread.",
@@ -595,7 +595,7 @@ export const classicHummusEn: RecipeTranslation = {
     {
       question: "Why should the chickpeas be cooked so much?",
       answer:
-        "Extremely tender chickpeas are one of the most important factors in smooth hummus. Chickpeas that are perfect for a salad can still be too firm for a silky purée. They should crush completely between two fingers.",
+        "Extremely tender chickpeas are one of the most important factors in smooth hummus. Chickpeas can be tender enough for a salad yet still too firm to produce a silky hummus. They should crush completely between two fingers.",
     },
     {
       question: "Do I have to remove the chickpea skins?",

@@ -4,10 +4,10 @@ export const roastedEggplantSaladEn: RecipeTranslation = {
   title: "Roasted Eggplant Salad Recipe — Lebanese Eggplant Salad with Lemon, Garlic & Herbs",
 
   description:
-    "This roasted eggplant salad recipe is a smoky, flavorful Mediterranean and Lebanese-style salad made with tender roasted eggplant, ripe tomatoes, red onion, fresh parsley, mint, garlic, cumin, extra virgin olive oil, and fresh lemon juice. Naturally vegan, vegetarian, gluten-free, and rich in fiber, it is an easy Lebanese eggplant salad that works beautifully as a mezze, healthy side dish, or light meal with warm pita.",
+    "A roasted eggplant salad made with tender roasted eggplant, fresh vegetables, herbs, lemon, and olive oil. Roasting concentrates the eggplant's flavor and gives the salad a soft, smoky character balanced by bright herbs and citrus.",
 
   longDescription:
-    "This Roasted Eggplant Salad transforms simple eggplants into a deeply flavorful Mediterranean dish. The eggplants are roasted until their flesh becomes soft and silky, then combined with ripe tomatoes, red onion, parsley, mint, and fresh garlic. A bright dressing of extra virgin olive oil, lemon juice, and cumin balances the smoky richness of the eggplant. Naturally vegan and rich in fiber, it is equally at home on a mezze table, beside grilled foods, or with warm pita as a simple light meal.",
+    "This roasted eggplant salad starts with high-heat roasting to soften the eggplant and concentrate its natural flavor. Once tender, the eggplant is combined with fresh vegetables, herbs, lemon, and olive oil to create a contrast between the soft roasted pieces and brighter ingredients. The salad can be served warm, at room temperature, or chilled depending on the rest of the meal. It fits naturally alongside grilled foods, warm pita, and other mezze dishes.",
 
   imageAlt:
     "Roasted eggplant salad with tender eggplant, tomatoes, red onion, parsley, mint, garlic, lemon, and cumin.",

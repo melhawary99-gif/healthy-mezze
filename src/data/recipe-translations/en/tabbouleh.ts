@@ -4,10 +4,10 @@ export const tabboulehEn: RecipeTranslation = {
   title: "Lebanese Tabbouleh Recipe — Classic Parsley Salad",
 
   description:
-    "This Lebanese Tabbouleh recipe is a classic herb-forward parsley salad made with finely chopped fresh parsley, mint, ripe tomatoes, green onions, fine bulgur wheat, fresh lemon juice, and extra virgin olive oil. The traditional-style salad is bright, fresh, lemony, and naturally vegan, with parsley as the main ingredient and just enough fine bulgur to add texture without overpowering the herbs. Perfect as a healthy Lebanese mezze, Mediterranean side dish, or refreshing accompaniment to grilled foods.",
+    "A classic Lebanese tabbouleh made with parsley, fresh tomatoes, bulgur, mint, lemon juice, and extra virgin olive oil. The salad is herb-forward and bright, with finely chopped vegetables and a tangy dressing.",
 
   longDescription:
-    "Tabbouleh is a classic Lebanese salad where fresh parsley takes center stage. Fine bulgur, ripe tomatoes, green onions, fresh mint, lemon juice, and extra virgin olive oil create a bright, herbaceous salad with a delicate balance of acidity and freshness. This Healthy Mezze version keeps the traditional character of tabbouleh while giving clear preparation guidance for crisp vegetables, tender bulgur, and a balanced dressing.",
+    "Tabbouleh is a classic Lebanese salad in which fresh parsley plays the leading role, supported by tomato, mint, a small amount of bulgur, lemon juice, and olive oil. Careful chopping is important because the ingredients are meant to combine into a fine, cohesive salad rather than large vegetable pieces. The bulgur should be tender without becoming the dominant ingredient. This version keeps the traditional character while giving clear preparation guidance for maintaining crisp vegetables and a bright, balanced dressing.",
 
   imageAlt:
     "Classic Lebanese tabbouleh salad with finely chopped parsley, fresh mint, tomatoes, green onions, fine bulgur, and lemon dressing.",

@@ -4,10 +4,10 @@ export const mediterraneanChickpeaSaladEn: RecipeTranslation = {
   title: "Mediterranean Chickpea Salad Recipe — Healthy Chickpea Salad with Lemon & Feta",
 
   description:
-    "This Mediterranean chickpea salad recipe combines creamy chickpeas, crisp cucumber, juicy tomatoes, red onion, fresh parsley, mint, crumbled feta, and a bright lemon-olive oil dressing. An easy, healthy, high-fiber and plant-protein-rich salad that works perfectly for lunch, light dinners, mezze, meal prep, and Mediterranean-style meals.",
+    "A Mediterranean chickpea salad combining tender chickpeas with fresh vegetables, herbs, lemon, and extra virgin olive oil. The salad is substantial enough for lunch but also works as a side dish, mezze component, or make-ahead meal.",
 
   longDescription:
-    "This Mediterranean Chickpea Salad combines creamy chickpeas with crisp cucumber, juicy tomatoes, red onion, fresh parsley, mint, and crumbled feta cheese. A simple dressing of extra virgin olive oil, fresh lemon juice, oregano, salt, and black pepper brings everything together. It is naturally rich in plant-based protein and fiber and makes a practical lunch, light dinner, mezze side, or meal-prep dish.",
+    "This chickpea salad uses simple Mediterranean ingredients to create a filling dish without complicated preparation. Chickpeas provide the base, while fresh vegetables, herbs, lemon, and olive oil add contrast and brightness. The salad can be served immediately, but a short rest in the refrigerator allows the dressing to work its way through the chickpeas and vegetables. Canned chickpeas make it especially convenient when you need a quick lunch or a side for grilled foods.",
 
   imageAlt:
     "Mediterranean chickpea salad with chickpeas, cucumber, tomatoes, red onion, parsley, mint, feta cheese, and lemon dressing.",
@@ -675,7 +675,7 @@ export const mediterraneanChickpeaSaladEn: RecipeTranslation = {
     {
       question: "Can I use canned chickpeas?",
       answer:
-        "Yes. Canned chickpeas are ideal for a quick version. Drain and rinse them thoroughly before using.",
+        "Yes. Canned chickpeas make this salad especially convenient when time is short. Drain and rinse them thoroughly before using.",
     },
     {
       question: "How do I stop chickpea salad from becoming watery?",

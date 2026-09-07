@@ -4,10 +4,10 @@ export const RoastedTomatoBasilSoupEn: RecipeTranslation = {
   title: "Roasted Tomato Basil Soup Recipe — Easy Mediterranean Soup Without Cream",
 
   description:
-    "This roasted tomato basil soup recipe is a silky Mediterranean-inspired soup made with sweet roasted tomatoes, garlic, fresh basil, oregano, extra virgin olive oil, and vegetable broth. Roasting concentrates the tomatoes' natural sweetness and creates a rich flavor without cream, making this an easy vegetarian, vegan, and dairy-free tomato soup for a comforting meal.",
+    "A roasted tomato basil soup made with ripe tomatoes, onion, garlic, basil, oregano, and extra virgin olive oil. Roasting the tomatoes brings out their sweetness and gives the finished soup a deeper, more concentrated flavor.",
 
   longDescription:
-    "This Roasted Tomato Basil Soup brings ripe tomatoes, onion, garlic, basil, oregano, and extra virgin olive oil together in a deeply flavorful but naturally light soup. Roasting concentrates the tomatoes' natural sweetness and gently caramelizes their edges, while fresh basil brightens the finished dish. The vegetables are blended with vegetable broth to create a smooth texture without heavy cream. Its flavor profile is closely connected to the simple tomato-and-basil tradition of Mediterranean cooking, particularly Italian preparations that celebrate ripe tomatoes, olive oil, garlic, basil, and bread or broth.",
+    "This tomato soup begins with roasting the tomatoes, onion, and garlic until their edges become lightly caramelized. The roasted vegetables are then blended with broth, basil, oregano, and olive oil to create a smooth soup with a naturally rich tomato flavor. Fresh basil added toward the end keeps the herb character noticeable, while a small amount of acidity can help balance very sweet tomatoes. Serve it warm with toasted bread or alongside a simple salad.",
 
   imageAlt:
     "Silky roasted tomato basil soup garnished with fresh basil leaves and a drizzle of extra virgin olive oil.",

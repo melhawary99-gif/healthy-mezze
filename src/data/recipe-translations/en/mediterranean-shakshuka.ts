@@ -4,10 +4,10 @@ export const mediterraneanShakshukaEn: RecipeTranslation = {
   title: "Mediterranean Shakshuka Recipe — Healthy Eggs in Tomato and Red Pepper Sauce",
 
   description:
-    "This Mediterranean shakshuka recipe features eggs gently poached in a rich tomato and red pepper sauce with onion, garlic, cumin, paprika, coriander, and extra virgin olive oil. An easy, healthy vegetarian breakfast or brunch inspired by Mediterranean and Middle Eastern cooking, served with warm pita for scooping up the flavorful sauce.",
+    "A Mediterranean-style shakshuka made with eggs gently cooked in a spiced tomato and pepper sauce with garlic, onion, and herbs. Serve it straight from the pan with warm pita for scooping up the rich tomato sauce.",
 
   longDescription:
-    "This Mediterranean Shakshuka combines gently poached eggs with a deeply flavored tomato and pepper sauce. Onion and red pepper are slowly softened in extra virgin olive oil before garlic and warm spices are added. Crushed tomatoes and tomato paste are then simmered until the sauce becomes thick enough to hold the eggs in place. The eggs cook directly in the sauce so their whites set while the yolks can remain soft, jammy, or fully cooked according to preference. Finished with parsley and optional feta and served with warm pita, it makes a satisfying breakfast, brunch, or light vegetarian meal.",
+    "Shakshuka is a familiar breakfast and brunch dish across North Africa and the Middle East, with many regional variations. This Mediterranean-style version starts with onion, garlic, peppers, and tomatoes cooked into a warmly seasoned sauce before the eggs are nestled into the pan and cooked until the whites are set while the yolks remain soft. The dish is best served directly from the pan with warm pita or flatbread. A little fresh parsley or other herbs added at the end keeps the rich tomato base bright.",
 
   imageAlt:
     "Mediterranean shakshuka with eggs gently poached in thick tomato and red pepper sauce, garnished with fresh parsley and feta.",

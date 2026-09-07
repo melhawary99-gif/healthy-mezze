@@ -4,10 +4,10 @@ export const whiteBeanSoupEn: RecipeTranslation = {
   title: "Lebanese White Bean Soup Recipe — Creamy Vegan Mediterranean Bean Soup",
 
   description:
-    "This Lebanese White Bean Soup recipe is a comforting vegan and vegetarian Mediterranean soup made with tender white beans, onion, carrot, celery, garlic, rosemary, thyme, extra virgin olive oil, and fresh lemon. Part of the beans are blended to create a naturally creamy broth without cream, making this hearty plant-based soup an easy, nourishing meal for lunch, dinner, meal prep, and cozy family gatherings.",
+    "A hearty white bean soup made with tender beans, vegetables, herbs, garlic, and Mediterranean seasonings. Part of the beans are blended into the broth to create a naturally creamy texture while the remaining beans provide substance.",
 
   longDescription:
-    "This Lebanese-style White Bean Soup is a comforting Mediterranean bowl built around creamy white beans, gently cooked vegetables, garlic, herbs, extra virgin olive oil, and a bright finish of fresh lemon. Inspired by the Lebanese tradition of turning humble legumes and vegetables into satisfying family meals, it develops a naturally creamy texture by blending part of the beans while leaving the rest whole. It is completely plant-based, making it both vegetarian and vegan, and is especially satisfying with warm pita or crusty bread.",
+    "This white bean soup uses a simple technique to create a creamy texture without adding cream: blend part of the cooked beans and return them to the pot while keeping the rest whole. The beans provide a substantial base, while vegetables, garlic, herbs, and Mediterranean seasonings build the flavor of the broth. The result is a filling plant-based soup that works well for lunch, dinner, or meal preparation. A little fresh lemon or herbs at the end can brighten the finished bowl.",
 
   imageAlt:
     "Lebanese-style white bean soup with creamy white beans, parsley, olive oil, and lemon.",

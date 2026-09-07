@@ -4,10 +4,10 @@ export const mediterraneanVegetableSoupEn: RecipeTranslation = {
   title: "Syrian Mediterranean Vegetable Soup Recipe — Healthy Vegan Mediterranean Vegetable Soup",
 
   description:
-    "This Syrian Mediterranean vegetable soup recipe is a hearty, healthy vegan soup made with potatoes, carrots, zucchini, tomatoes, green beans, chickpeas, garlic, cumin, coriander, olive oil, parsley, and fresh lemon. A rustic Syrian-style Mediterranean vegetable soup for an easy wholesome family meal.",
+    "A rustic Mediterranean vegetable soup made with seasonal vegetables, herbs, and a savory broth. The vegetables simmer until tender, creating a simple soup with a comforting homemade character.",
 
   longDescription:
-    "This Syrian Mediterranean Vegetable Soup is a rustic, nourishing bowl inspired by the everyday cooking traditions of Syria and the wider Levant. Tender potatoes, carrots, zucchini, tomatoes, green beans, and chickpeas simmer gently in a fragrant broth with garlic, cumin, coriander, and extra virgin olive oil. The vegetables are deliberately left in bite-sized pieces rather than blended, giving every spoonful a satisfying variety of textures. A final squeeze of fresh lemon and a handful of parsley brighten the broth and balance the natural sweetness of the vegetables. It is a simple, plant-based soup designed for a wholesome family meal.",
+    "This vegetable soup takes a straightforward approach to everyday Mediterranean-style cooking, using vegetables, herbs, and broth rather than a heavy cream base. The vegetables are cooked gently so they become tender while retaining some texture, and the herbs add aroma without overpowering the broth. Inspired by the simple soups found across the Eastern Mediterranean, it is easy to adapt to the vegetables available in the kitchen. Serve it with warm bread or pita for a simple family meal.",
 
   imageAlt:
     "Syrian-style Mediterranean vegetable soup with colorful vegetables, chickpeas, parsley, and lemon.",

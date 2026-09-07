@@ -4,10 +4,10 @@ export const eggplantParmesanMediterraneanEn: RecipeTranslation = {
   title: "Eggplant Parmesan Recipe (Mediterranean Style)",
 
   description:
-    "This healthy eggplant Parmesan recipe layers oven-roasted eggplant with thick tomato sauce, mozzarella, Parmesan, garlic, and fresh herbs. Baked until bubbling and lightly golden, it is a comforting Mediterranean-style vegetarian dinner without deep-frying.",
+    "A Mediterranean-style eggplant Parmesan made with oven-roasted eggplant, thick tomato sauce, mozzarella, Parmesan, garlic, basil, parsley, and oregano. The eggplant is roasted rather than deep-fried before the layers are baked together until bubbling and lightly golden.",
 
   longDescription:
-    "This Mediterranean-style Eggplant Parmesan keeps the comforting layered character of the classic dish while using oven-roasted eggplant instead of deep-frying. Tender eggplant is layered with tomato sauce, mozzarella, Parmesan, garlic, basil, parsley, and oregano, then baked until bubbling and lightly browned. It is a satisfying vegetarian main dish with the fresh, olive-oil-centered flavors that work so naturally across Mediterranean cooking.",
+    "This Mediterranean-style Eggplant Parmesan keeps the comforting layered character of the familiar dish while taking a simpler oven-based approach. The eggplant is roasted until tender, then layered with tomato sauce, mozzarella, Parmesan, garlic, basil, parsley, and oregano before going back into the oven. Roasting gives the eggplant a concentrated flavor without deep-frying, while the tomato and herbs keep the finished dish bright. It makes a substantial vegetarian main dish with flavors that sit comfortably within a Mediterranean-style meal.",
 
   imageAlt:
     "Mediterranean-style eggplant Parmesan layered with roasted eggplant, tomato sauce, melted mozzarella, Parmesan cheese, and fresh basil.",
@@ -135,7 +135,7 @@ export const eggplantParmesanMediterraneanEn: RecipeTranslation = {
 
   story: {
     introduction:
-      "Eggplant Parmesan is a layered baked dish built around a simple combination of eggplant, tomato sauce, cheese, and herbs. Although the dish is strongly associated with Italian cooking, its ingredients belong to a much wider Mediterranean pantry. This Healthy Mezze version brings those familiar Mediterranean flavors together with oven-roasted eggplant and extra virgin olive oil rather than deep-frying.",
+      "Eggplant Parmesan is a layered baked dish built around a simple combination of eggplant, tomato sauce, cheese, and herbs. Although the dish is strongly associated with Italian cooking, its ingredients belong to a much wider Mediterranean pantry. The familiar Mediterranean flavors come together here with oven-roasted eggplant and extra virgin olive oil rather than deep-frying.",
 
     culturalContext:
       "The dish is commonly known as Parmigiana di melanzane in Italy, where regional versions developed around eggplant, tomato, cheese, and aromatic herbs. Its exact origins and the history of its name are debated, but the modern dish is firmly established within Italian culinary tradition. It later became especially familiar in Italian-American cooking, where generous layers of tomato sauce and cheese became a beloved comfort-food combination.",

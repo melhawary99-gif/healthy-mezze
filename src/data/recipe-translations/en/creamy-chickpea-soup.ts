@@ -4,10 +4,10 @@ export const creamyChickpeaSoupEn: RecipeTranslation = {
   title: "Creamy Chickpea Soup Recipe",
 
   description:
-    "A creamy Lebanese-inspired chickpea soup recipe made with tender chickpeas, vegetables, garlic, cumin, fresh lemon, parsley, and extra virgin olive oil. Naturally silky without dairy, this healthy Mediterranean soup is comforting, flavorful, and perfect for vegetarian and vegan meals.",
+    "A creamy Lebanese-inspired chickpea soup made with tender chickpeas, vegetables, garlic, cumin, fresh lemon, parsley, and extra virgin olive oil. Part of the chickpeas and vegetables are blended into the broth, giving the soup its creamy texture without dairy.",
 
   longDescription:
-    "This creamy chickpea soup draws on the flavors and ingredients of Lebanese and wider Levantine home cooking. Chickpeas, garlic, olive oil, cumin, fresh lemon, parsley, and vegetables come together in a comforting soup that becomes naturally creamy when part of the chickpeas and vegetables are blended into the broth. It is a simple, nourishing bowl with the bright lemony finish and aromatic seasoning associated with the eastern Mediterranean. Serve it with warm pita for a satisfying vegetarian meal.",
+    "This chickpea soup draws on the flavors and ingredients of Lebanese and wider Levantine home cooking. Chickpeas, garlic, olive oil, cumin, lemon, parsley, and vegetables come together in a simple broth that becomes naturally creamy when part of the chickpeas and vegetables are blended. Keeping some of the chickpeas whole gives the soup more texture, while the lemon added at the end keeps the flavors bright rather than heavy. Serve it with warm pita for a satisfying vegetarian meal.",
 
   imageAlt:
     "Creamy Lebanese-inspired chickpea soup with whole chickpeas, parsley, olive oil, and lemon.",

@@ -4,10 +4,10 @@ export const redLentilSoupEn: RecipeTranslation = {
   title: "Lebanese Red Lentil Soup Recipe — Shorbat Adas with Lemon & Cumin",
 
   description:
-    "This Lebanese red lentil soup recipe, known as Shorbat Adas, is a comforting and naturally creamy soup made with red lentils, vegetables, cumin, turmeric, coriander, extra virgin olive oil, and fresh lemon. A nourishing vegan and vegetarian Lebanese soup that is easy to prepare and perfect for a warming meal.",
+    "A Lebanese-style red lentil soup made with red lentils, vegetables, garlic, cumin, lemon, and olive oil. The lentils break down as they simmer, creating a naturally thick soup with a warm, earthy flavor and bright citrus finish.",
 
   longDescription:
-    "Lebanese Shorbat Adas is a simple, deeply comforting soup built around red lentils, softened vegetables, warm spices, and fresh lemon. The lentils break down as they simmer, creating a naturally creamy texture without dairy. Cumin provides earthy warmth, turmeric adds color and gentle spice, and lemon stirred in at the end gives the soup the bright finish that makes it especially satisfying. Serve it hot with parsley, lemon wedges, warm pita, and a drizzle of olive oil.",
+    "Red lentil soup is a familiar comfort food across the Levant, where simple lentil dishes have long been part of everyday home cooking. Red lentils soften quickly during simmering and help thicken the soup without needing cream or flour. Onion, garlic, cumin, and olive oil build the savory base, while lemon added near the end gives the bowl a fresh finish. Serve it with warm pita, fresh herbs, or a simple salad for a satisfying meal.",
 
   imageAlt:
     "Lebanese red lentil soup with a smooth golden texture, fresh parsley, olive oil, and lemon wedges.",

@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "eslint",
     "optimize-images": "node scripts/optimize-images.mjs",
-    "recipes": "tsx --tsconfig tsconfig.scripts.json scripts/recipes.ts"
+    "recipes": "tsx --tsconfig tsconfig.scripts.json scripts/recipes.ts",
+    "humanize:audit": "node scripts/humanize-audit.mjs",
+    "humanize:report": "node scripts/humanize-report.mjs"
   },
   "dependencies": {
     "@google/genai": "^2.15.0",

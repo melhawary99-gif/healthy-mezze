@@ -4,10 +4,10 @@ export const herbedLabnehDipEn: RecipeTranslation = {
   title: "Herbed Labneh Dip Recipe — Lebanese Labneh with Fresh Herbs & Za'atar",
 
   description:
-    "This herbed labneh dip recipe is a creamy Lebanese mezze made with thick labneh, fresh parsley, mint, dill, garlic, lemon, extra virgin olive oil, and za'atar. An easy Mediterranean dip with a cool, tangy texture and fresh herb flavor, ready in about 10 minutes when using store-bought labneh, with simple instructions for making homemade labneh from plain yogurt.",
+    "A creamy labneh dip seasoned with fresh herbs, olive oil, garlic, and Mediterranean spices. Strained yogurt gives labneh its thick texture and tangy flavor, making it easy to spread across warm pita or serve as part of a mezze table.",
 
   longDescription:
-    "Herbed Labneh Dip is a fresh and creamy Lebanese-style mezze centered around labneh, the thick strained yogurt traditionally enjoyed throughout the Levant. Fresh parsley, mint, dill, garlic, lemon zest, and lemon juice bring brightness to the tangy labneh, while extra virgin olive oil and za'atar provide the savory finish. If ready-made labneh is unavailable, this recipe also explains how to make it at home from plain yogurt by straining it until thick and creamy. The homemade labneh requires several hours of mostly hands-off draining, but once it is ready, the actual herbed dip takes only about 10 minutes to prepare.",
+    "Labneh is made by straining yogurt until much of the whey drains away, leaving a thick, tangy dairy spread used throughout Levantine cooking. Its firm texture makes it especially suited to dipping and spreading, and it can be finished with olive oil, herbs, garlic, zaatar, or other seasonings. This herbed version keeps the base simple so the fresh herbs and olive oil remain noticeable. Serve it with warm pita, fresh vegetables, olives, or alongside other mezze dishes.",
 
   imageAlt:
     "Creamy Lebanese herbed labneh spread in a shallow bowl with a spoon swirl, olive oil, za'atar, fresh mint, and herbs, served with warm pita and fresh vegetables.",
@@ -202,7 +202,7 @@ export const herbedLabnehDipEn: RecipeTranslation = {
 
   story: {
     introduction:
-      "Labneh is one of the most recognizable foods of the Levant, and in Lebanon it is a familiar part of the everyday table as well as a beloved mezze. Made by straining yogurt until it becomes thick and creamy, labneh has a pleasantly tangy flavor and a texture that makes it ideal for spreading, dipping, and seasoning with olive oil and herbs. This herbed version keeps that simple Lebanese spirit while adding parsley, mint, dill, garlic, and lemon for a fresh, aromatic finish.",
+      "Labneh is one of the most recognizable foods of the Levant, and in Lebanon it is a familiar part of the everyday table as well as a beloved mezze. Straining yogurt gives labneh its thick, creamy texture and pleasantly tangy flavor, making it well suited to spreading, dipping, and finishing with olive oil and herbs. This herbed version keeps that simple Lebanese spirit while adding parsley, mint, dill, garlic, and lemon for a fresh, aromatic finish.",
 
     culturalContext:
       "In Lebanese food culture, labneh is commonly enjoyed at breakfast and as part of mezze alongside bread, olives, vegetables, and other small dishes. Its preparation is rooted in the practical tradition of straining yogurt to preserve it in a thicker, more concentrated form. Homemade labneh is especially useful for cooks who cannot find it in local markets because it requires only plain yogurt, salt, and time to strain. The finished herbed dip reflects the Lebanese preference for balancing creamy dairy with fresh herbs, citrus, olive oil, and savory seasonings.",

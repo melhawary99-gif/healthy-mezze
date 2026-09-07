@@ -4,10 +4,10 @@ export const classicTahiniSauceEn: RecipeTranslation = {
   title: "Classic Tahini Sauce Recipe",
 
   description:
-    "A classic tahini sauce recipe made with sesame tahini, fresh lemon juice, garlic, parsley, olive oil, and cold water. This creamy Lebanese-style sauce is smooth, tangy, nutty, naturally vegan, and perfect for falafel, shawarma, grilled foods, vegetables, salads, and mezze.",
+    "A classic tahini sauce made with sesame tahini, fresh lemon juice, garlic, parsley, olive oil, and cold water. This Lebanese-style sauce becomes smooth and pourable as the tahini is gradually loosened, making it a natural companion to falafel, shawarma, grilled foods, vegetables, and mezze.",
 
   longDescription:
-    "Classic tahini sauce is a foundational Lebanese and Levantine sauce made by transforming sesame tahini into a silky, pourable cream with lemon juice, garlic, salt, and cold water. The characteristic technique is simple but important: lemon juice initially makes the tahini seize and become very thick, while gradual whisking of cold water loosens it into a smooth, pale sauce. Finished with olive oil, parsley, and optional cumin, it is bright enough for fresh vegetables yet rich enough to complement falafel, shawarma, grilled meats, fish, and roasted vegetables.",
+    "Classic tahini sauce is a staple of Lebanese and wider Levantine cooking. Sesame tahini is transformed into a silky, pourable sauce with lemon juice, garlic, salt, and cold water. The important part of the process happens when the lemon first thickens the tahini before gradual whisking with cold water brings it back to a smooth consistency. A little olive oil and parsley finish the sauce, while optional cumin adds another layer of warmth. Its rich sesame flavor works especially well alongside falafel, shawarma, grilled meats, fish, roasted vegetables, and fresh salads.",
 
   imageAlt:
     "Creamy Lebanese tahini sauce in a bowl, garnished with parsley and olive oil with lemon and garlic nearby.",

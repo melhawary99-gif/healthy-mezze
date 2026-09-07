@@ -4,10 +4,10 @@ export const cheeseFatayerEn: RecipeTranslation = {
   title: "Lebanese Cheese Fatayer Recipe",
 
   description:
-    "A healthy Lebanese cheese fatayer recipe made with soft whole wheat dough, Akkawi cheese, reduced-fat mozzarella, feta, fresh parsley, oregano, and nigella seeds. These traditional-style baked cheese pastries are golden, savory, and perfect for breakfast, mezze, snacks, or a light Mediterranean meal.",
+    "A Lebanese cheese fatayer recipe made with soft whole wheat dough, Akkawi cheese, reduced-fat mozzarella, feta, fresh parsley, oregano, and nigella seeds. The pastries bake into a golden crust around a warm, savory cheese filling and can be served for breakfast, mezze, snacks, or a light meal.",
 
   longDescription:
-    "These Lebanese Cheese Fatayer combine a soft whole wheat dough with a savory filling of soaked Akkawi cheese, reduced-fat mozzarella, feta, fresh parsley, oregano, and nigella seeds. The Akkawi is soaked and drained first to reduce excess salt before being combined with milder cheeses and herbs. Each portion of dough is rolled into a circle, filled, and pinched into the traditional triangular fatayer shape before being lightly brushed with egg and baked until golden. The finished pastries have a tender, lightly chewy dough, a warm melted cheese filling, aromatic herbs, and the distinctive earthy character of nigella seeds. They are ideal for breakfast, mezze, gatherings, lunchboxes, snacks, or a light meal served with fresh vegetables and Mediterranean salads.",
+    "These Lebanese Cheese Fatayer combine a soft whole wheat dough with a savory filling of soaked Akkawi cheese, reduced-fat mozzarella, feta, fresh parsley, oregano, and nigella seeds. The Akkawi is soaked and drained first to reduce excess salt before being combined with milder cheeses and herbs. Each portion of dough is rolled into a circle, filled, and pinched into the traditional triangular fatayer shape before being lightly brushed with egg and baked until golden. The finished pastries have a tender, lightly chewy dough, a warm melted cheese filling, aromatic herbs, and the distinctive earthy character of nigella seeds. They work well for breakfast, mezze, gatherings, lunchboxes, or a light meal with fresh vegetables and Mediterranean salads.",
 
   imageAlt:
     "Golden Lebanese cheese fatayer filled with melted Akkawi, mozzarella, and feta cheese, served with parsley and nigella seeds.",

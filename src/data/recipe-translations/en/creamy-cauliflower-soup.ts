@@ -4,10 +4,10 @@ export const creamyCauliflowerSoupEn: RecipeTranslation = {
   title: "Creamy Cauliflower Soup Recipe",
 
   description:
-    "A creamy cauliflower soup recipe made with roasted cauliflower, garlic, onion, thyme, cumin, fresh lemon juice, and extra virgin olive oil. This silky Mediterranean-style soup is naturally vegan, dairy-free, comforting, healthy, and full of roasted vegetable flavor.",
+    "A creamy cauliflower soup made with roasted cauliflower, garlic, onion, thyme, cumin, fresh lemon juice, and extra virgin olive oil. Roasting the vegetables first gives the soup a deeper flavor, while blending creates a velvety texture without cream.",
 
   longDescription:
-    "This Creamy Cauliflower Soup turns humble cauliflower into a silky, deeply flavorful Mediterranean-inspired soup. Roasting the cauliflower, onion, and garlic first develops gentle caramelized edges and brings out the cauliflower's natural sweetness before everything is simmered with vegetable broth, thyme, and cumin. The vegetables are blended until smooth, then finished with fresh lemon juice and extra virgin olive oil for brightness and richness. No cream is needed to achieve a velvety texture, making this soup naturally dairy-free and suitable for vegetarian and vegan meals. It is comforting enough for dinner, light enough for lunch, and practical for meal preparation.",
+    "Start by roasting the cauliflower, onion, and garlic until the edges are lightly browned. This gives the vegetables a deeper flavor before they go into the soup. They are then simmered with vegetable broth, thyme, and cumin before being blended into a smooth soup. Fresh lemon juice adds brightness at the end, while extra virgin olive oil gives the finished bowl a rounded richness without relying on dairy. The result is a straightforward Mediterranean-inspired soup that works equally well as a light lunch or a comforting evening meal.",
 
   imageAlt:
     "Silky roasted cauliflower soup in a bowl, garnished with parsley, cracked black pepper, roasted cauliflower florets, and extra virgin olive oil.",

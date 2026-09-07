@@ -4,10 +4,10 @@ export const classicToumEn: RecipeTranslation = {
   title: "Classic Toum Recipe (Lebanese Garlic Sauce)",
 
   description:
-    "A classic toum recipe made with fresh garlic, lemon juice, avocado oil, aquafaba, and sea salt. This creamy Lebanese garlic sauce is smooth, fluffy, naturally vegan, and perfect for chicken shawarma, grilled meats, kebabs, potatoes, vegetables, sandwiches, and mezze.",
+    "A Lebanese toum made with fresh garlic, lemon juice, avocado oil, aquafaba, and sea salt. The sauce is intensely garlicky, bright with lemon, and remarkably light and fluffy, making it a classic accompaniment to shawarma, grilled meats, potatoes, sandwiches, and mezze.",
 
   longDescription:
-    "Toum is one of Lebanon's most recognizable garlic sauces, prized for its intensely fresh garlic flavor, bright lemon acidity, and exceptionally light, fluffy texture. Traditionally served alongside chicken shawarma, grilled meats, kebabs, potatoes, and mezze, toum is an important part of Lebanese food culture and the wider Eastern Mediterranean table. This version uses aquafaba, the liquid from cooked chickpeas, to help create a stable creamy emulsion while reducing the amount of oil required. The most important technique is patience: the oil must be incorporated very slowly so the garlic mixture develops and maintains its emulsion.",
+    "Toum is one of Lebanon's most recognizable garlic sauces, known for its strong fresh garlic flavor, sharp lemon acidity, and airy texture. It is traditionally served with chicken shawarma, grilled meats, kebabs, potatoes, and mezze, and has become an essential part of the wider Eastern Mediterranean table. This version uses aquafaba, the liquid from cooked chickpeas, to help create a stable creamy emulsion while keeping the amount of oil more moderate. The key technique is patience: adding the oil slowly gives the garlic mixture time to form and hold its emulsion.",
 
   imageAlt:
     "A bowl of fluffy Lebanese toum garlic sauce served with pita bread, lemon wedges, parsley, and fresh garlic in a stylish Mediterranean kitchen.",
@@ -157,13 +157,13 @@ export const classicToumEn: RecipeTranslation = {
         id: "oil-substitution",
         title: "Use Another Neutral Oil",
         description:
-          "A mild neutral oil can be used instead of avocado oil if preferred. Choose an oil with a clean flavor so it does not overpower the garlic and lemon."
+          "A mild neutral oil can be used instead of avocado oil if preferred. Choose an oil with a clean flavor so it does not overpower the garlic and lemon.",
       },
       {
         id: "aquafaba-source",
         title: "Use Homemade Aquafaba",
         description:
-          "Aquafaba from properly cooked chickpeas can be used instead of canned chickpea liquid. Strain it well before measuring the required 1/4 cup."
+          "Aquafaba from properly cooked chickpeas can be used instead of canned chickpea liquid. Strain it well before measuring the required 1/4 cup.",
       }
     ],
     dietary: [
@@ -171,13 +171,13 @@ export const classicToumEn: RecipeTranslation = {
         id: "vegan",
         title: "Naturally Vegan",
         description:
-          "This toum contains no dairy, eggs, or animal-derived ingredients and is suitable for a vegan diet."
+          "This toum contains no dairy, eggs, or animal-derived ingredients and is suitable for a vegan diet.",
       },
       {
         id: "dairy-free",
         title: "Naturally Dairy-Free",
         description:
-          "No milk, yogurt, butter, or other dairy ingredients are used."
+          "No milk, yogurt, butter, or other dairy ingredients are used.",
       }
     ],
     timeSaving: [
@@ -185,7 +185,7 @@ export const classicToumEn: RecipeTranslation = {
         id: "prep-ahead",
         title: "Prepare Ahead",
         description:
-          "Make the toum at least 1 hour before serving so it has time to chill and stabilize. It can also be prepared in advance for meals throughout the week."
+          "Make the toum at least 1 hour before serving so it has time to chill and stabilize. It can also be prepared in advance for meals throughout the week.",
       }
     ],
     mealPrep: [
@@ -193,7 +193,7 @@ export const classicToumEn: RecipeTranslation = {
         id: "weekly-toum",
         title: "Make a Batch for the Week",
         description:
-          "Prepare the full batch and store it in a clean airtight container in the refrigerator. Use it throughout the week with shawarma, grilled vegetables, sandwiches, potatoes, and mezze."
+          "Prepare the full batch and store it in a clean airtight container in the refrigerator. Use it throughout the week with shawarma, grilled vegetables, sandwiches, potatoes, and mezze.",
       }
     ]
   },
@@ -324,7 +324,7 @@ export const classicToumEn: RecipeTranslation = {
           id: "rest-before-adjusting",
           title: "Let It Rest",
           description:
-            "Refrigerate the toum for at least 1 hour before making major flavor adjustments. Resting allows the raw garlic flavor to become more rounded."
+            "Refrigerate the toum for at least 1 hour before making major flavor adjustments. Resting allows the raw garlic flavor to become more rounded.",
         }
       ]
     }

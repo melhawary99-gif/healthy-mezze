@@ -4,10 +4,10 @@ export const herbRoastedCauliflowerEn: RecipeTranslation = {
   title: "Herb-Roasted Cauliflower Recipe — Healthy Mediterranean Garlic & Herb Cauliflower",
 
   description:
-    "This healthy herb-roasted cauliflower recipe transforms tender cauliflower florets into deeply golden, caramelized bites with extra virgin olive oil, garlic, paprika, oregano, thyme, cumin, lemon, and fresh parsley. An easy Mediterranean and Lebanese-inspired vegetable dish that is naturally vegan and vegetarian, perfect as a healthy side dish, mezze component, or light meal served with hummus, tahini, grains, or warm pita.",
+    "Oven-roasted cauliflower tossed with olive oil, fresh herbs, garlic, lemon, and Mediterranean seasonings. High-heat roasting brings out the cauliflower's natural sweetness and gives the florets browned edges while keeping the center tender.",
 
   longDescription:
-    "Herb-Roasted Cauliflower is a simple Mediterranean-style vegetable dish that transforms an everyday cauliflower into deeply savory, golden, caramelized florets. The cauliflower is coated with extra virgin olive oil, garlic, paprika, oregano, thyme, cumin, sea salt, and black pepper before being roasted at high heat. The final touch of fresh lemon juice and parsley brings brightness to the roasted spices and balances the richness of the olive oil. It works beautifully as a healthy vegetarian or vegan side dish, part of a Lebanese-inspired mezze table, or a light meal when paired with hummus, tahini, grains, or warm pita.",
+    "Roasting cauliflower at high heat is a simple way to develop more flavor than steaming or boiling alone. The florets are coated lightly with olive oil, garlic, herbs, and Mediterranean seasonings before going into a hot oven, where their edges brown and caramelize. Fresh lemon added at the end keeps the dish bright. For the best browning, spread the cauliflower in a single layer with space between the pieces rather than crowding the pan.",
 
   imageAlt:
     "Golden herb-roasted cauliflower florets garnished with fresh parsley and served with lemon wedges.",
@@ -718,7 +718,7 @@ export const herbRoastedCauliflowerEn: RecipeTranslation = {
     {
       question: "Can I season the cauliflower the night before?",
       answer:
-        "It is possible, but it is not ideal for maximum browning. Salt and moisture can draw water from the cauliflower during storage. For the best roasted texture, prepare the dry cauliflower ahead and season it shortly before cooking.",
+        "You can roast it this way, but the florets will brown less evenly. Salt and moisture can draw water from the cauliflower during storage. For the best roasted texture, prepare the dry cauliflower ahead and season it shortly before cooking.",
     },
 
     {

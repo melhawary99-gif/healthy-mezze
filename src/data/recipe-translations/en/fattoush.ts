@@ -4,10 +4,10 @@ export const fattoushEn: RecipeTranslation = {
   title: "Fattoush Salad Recipe — Classic Lebanese Bread Salad",
 
   description:
-    "This classic Lebanese fattoush salad recipe combines crisp fresh vegetables, parsley, mint, toasted pita, sumac, lemon juice, olive oil, and pomegranate molasses for a bright sweet-tart dressing. Easy to prepare and naturally vegan, it makes a refreshing Mediterranean and Levantine salad with plenty of crunch and fresh flavor.",
+    "A classic Lebanese fattoush made with crisp vegetables, parsley, mint, toasted pita, sumac, lemon juice, olive oil, and pomegranate molasses. Its appeal comes from the contrast between crunchy vegetables, crisp pita, fresh herbs, and a bright sweet-tart dressing.",
 
   longDescription:
-    "Fattoush is a beloved Levantine salad built around crisp seasonal vegetables, fresh herbs, and pieces of toasted pita bread. Its character comes from the contrast between crunchy vegetables, crisp pita, and a bright dressing combining lemon juice, sumac, extra virgin olive oil, and pomegranate molasses. This Healthy Mezze version keeps the recognizable Lebanese character while emphasizing balanced flavor, fresh ingredients, and a pita finish that stays crisp.",
+    "Fattoush is a beloved Levantine salad built around seasonal vegetables, fresh herbs, and pieces of toasted pita. The defining contrast is between crisp vegetables and pita with a dressing that combines lemon juice, sumac, extra virgin olive oil, and pomegranate molasses. Sumac gives the salad its characteristic tang, while the herbs and fresh vegetables keep it lively. This version stays close to the recognizable Lebanese character of fattoush, with the pita added toward the end so it retains as much crunch as possible.",
 
   imageAlt:
     "Lebanese Fattoush salad with romaine lettuce, tomatoes, cucumber, radishes, green pepper, parsley, mint, toasted pita, sumac, and pomegranate molasses dressing.",
@@ -584,7 +584,7 @@ export const fattoushEn: RecipeTranslation = {
     {
       question: "Is Fattoush vegan?",
       answer:
-        "Yes. This Healthy Mezze version is vegan as written because all of the ingredients are plant-based.",
+        "Yes. As written, the recipe is vegan, with all of the ingredients coming from plant-based sources.",
     },
     {
       question: "Why does my Fattoush become watery?",

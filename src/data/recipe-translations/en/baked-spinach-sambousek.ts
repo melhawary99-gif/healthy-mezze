@@ -4,10 +4,10 @@ export const bakedSpinachSambousekEn: RecipeTranslation = {
   title: "Baked Spinach Sambousek Recipe",
 
   description:
-    "A healthy baked spinach sambousek recipe made with fresh spinach, onions, parsley, mint, lemon juice, and tangy sumac in a golden whole wheat pastry. These Lebanese spinach pastries are baked until crisp and golden for a lighter alternative to traditional fried sambousek.",
+    "A baked spinach sambousek recipe made with fresh spinach, onions, parsley, mint, lemon juice, and tangy sumac in a golden whole wheat pastry. These Lebanese spinach pastries are baked until crisp and golden, offering a lighter alternative to traditional fried sambousek.",
 
   longDescription:
-    "Baked Spinach Sambousek are beloved Lebanese pastries filled with a bright, savory mixture of spinach, onion, parsley, mint, lemon juice, and tangy sumac. Traditionally fried until crisp, this lighter version is baked until golden and flaky, using a small amount of olive oil and an egg wash for beautiful color. The homemade whole wheat dough gives the pastries a hearty texture while the fresh spinach filling keeps the center flavorful and aromatic. They are perfect for a mezze table, appetizer platter, light lunch, or afternoon snack.",
+    "Baked Spinach Sambousek are beloved Lebanese pastries filled with a bright, savory mixture of spinach, onion, parsley, mint, lemon juice, and tangy sumac. Traditionally fried until crisp, this lighter version is baked until golden and flaky, using a small amount of olive oil and an egg wash for beautiful color. The homemade whole wheat dough gives the pastries a hearty texture while the fresh spinach filling keeps the center flavorful and aromatic. Serve them as part of a mezze table, on an appetizer platter, or as a light lunch or snack.",
 
   imageAlt:
     "Golden baked Lebanese spinach sambousek arranged on a serving platter with lemon wedges and fresh parsley.",
@@ -636,7 +636,7 @@ export const bakedSpinachSambousekEn: RecipeTranslation = {
       id: "what-if-mini",
       title: "What if I want mini sambousek?",
       description:
-        "Smaller pastries are ideal for parties and mezze platters.",
+        "For parties and mezze platters, shaping the pastries a little smaller makes them easier to serve as individual bites.",
       steps: [
         "Divide the dough into smaller portions.",
         "Roll each piece into a smaller circle.",
