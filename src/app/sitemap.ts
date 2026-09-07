@@ -4,6 +4,7 @@ import { SITE_URL } from "@/lib/seo";
 
 import { recipes } from "@/data/recipes";
 import { categories } from "@/data/categories";
+import { drinkVlogs } from "@/data/drink-vlogs";
 
 const locales = ["en", "ar"] as const;
 
@@ -104,6 +105,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
+  const localizedDrinkVlogPages = locales.flatMap((locale) =>
+    drinkVlogs.map((drink) => ({
+      url: `${SITE_URL}/${locale}/drink-vlog/${drink.slug}`,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    }))
+  );
+
   const localizedRecipePages = locales.flatMap((locale) =>
     recipes.map((recipe) => ({
       url: `${SITE_URL}/${locale}/recipes/${recipe.slug}`,
@@ -118,6 +127,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...localizedStaticPages,
     ...localizedCategoryPages,
     ...localizedGuidePages,
+    ...localizedDrinkVlogPages,
     ...localizedRecipePages,
   ];
 }

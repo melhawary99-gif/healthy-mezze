@@ -157,7 +157,10 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <AuthSessionProvider>
       <NextIntlClientProvider locale={safeLocale} messages={messages}>
-        <div dir={safeLocale === "ar" ? "rtl" : "ltr"}>
+        <div
+          lang={safeLocale}
+          dir={safeLocale === "ar" ? "rtl" : "ltr"}
+        >
           <Header />
 
           <main>{children}</main>

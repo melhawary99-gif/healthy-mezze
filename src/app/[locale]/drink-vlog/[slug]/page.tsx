@@ -6,12 +6,26 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getDrinkVlogBySlug } from "@/data/drink-vlogs";
 import { getDrinkVlogTranslation } from "@/lib/drinkVlogTranslationLoader";
+import { getLanguageAlternates, SITE_URL } from "@/lib/seo";
 
 interface DrinkVlogRecipePageProps {
   params: Promise<{
     locale: "en" | "ar";
     slug: string;
   }>;
+}
+
+export function generateStaticParams() {
+  return [
+    {
+      locale: "en",
+      slug: "strawberry-ice-matcha-latte",
+    },
+    {
+      locale: "ar",
+      slug: "strawberry-ice-matcha-latte",
+    },
+  ];
 }
 
 export async function generateMetadata({
@@ -31,14 +45,28 @@ export async function generateMetadata({
   }
 
   const isArabic = locale === "ar";
+  const canonical = `/${locale}/drink-vlog/${slug}`;
+  const absoluteUrl = `${SITE_URL}${canonical}`;
 
   return {
     title: `${translation.title} | Healthy Mezze`,
     description: translation.description,
+
+    alternates: {
+      canonical,
+      languages: getLanguageAlternates(`/drink-vlog/${slug}`),
+    },
+
+    robots: {
+      index: true,
+      follow: true,
+    },
+
     openGraph: {
       title: `${translation.title} | Healthy Mezze`,
       description: translation.description,
       type: "article",
+      url: absoluteUrl,
       images: [
         {
           url: drink.image,
