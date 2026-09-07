@@ -94,7 +94,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "eastern-mediterranean-food-guide",
     "egyptian-breakfast-guide",
     "lebanese-mezze-guide",
-    "mediterranean-ingredients-guide",
     "egyptian-pantry-essentials",
     "lebanese-pantry-essentials",
     "mediterranean-herbs-spices-guide",
