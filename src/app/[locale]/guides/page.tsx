@@ -12,66 +12,195 @@ const guides = [
     slug: "egyptian-cuisine-guide",
     en: {
       title: "Egyptian Cuisine Guide",
-      description: "Explore the ingredients, dishes, cooking traditions, and everyday food culture that shape Egyptian cuisine.",
+      description:
+        "Explore the history, ingredients, everyday dishes, cooking traditions, and food culture that shape Egyptian cuisine.",
     },
     ar: {
       title: "دليل المطبخ المصري",
-      description: "اكتشف المكونات والأطباق والتقاليد وأساليب الطبخ التي تشكل المطبخ المصري.",
+      description:
+        "اكتشف تاريخ المطبخ المصري ومكوناته وأطباقه اليومية وتقاليده وثقافة الطعام التي تميزه.",
     },
   },
   {
     slug: "lebanese-cuisine-guide",
     en: {
       title: "Lebanese Cuisine Guide",
-      description: "A practical introduction to Lebanese cooking, from mezze and herbs to grains, legumes, grilled dishes, and family tables.",
+      description:
+        "Understand Lebanese cooking through its herbs, grains, legumes, vegetables, mezze, grilled dishes, and shared-table traditions.",
     },
     ar: {
       title: "دليل المطبخ اللبناني",
-      description: "دليل عملي للمطبخ اللبناني، من المازة والأعشاب إلى الحبوب والبقوليات والمشاوي ومائدة العائلة.",
+      description:
+        "تعرّف على المطبخ اللبناني من خلال الأعشاب والحبوب والبقوليات والخضروات والمازة والمشاوي وتقاليد المائدة المشتركة.",
+    },
+  },
+  {
+    slug: "eastern-mediterranean-food-guide",
+    en: {
+      title: "Eastern Mediterranean Food Guide",
+      description:
+        "Discover the ingredients, cooking habits, flavors, and shared food traditions connecting Egyptian, Lebanese, and neighboring Eastern Mediterranean cuisines.",
+    },
+    ar: {
+      title: "دليل طعام شرق المتوسط",
+      description:
+        "اكتشف المكونات وأساليب الطبخ والنكهات والتقاليد الغذائية المشتركة بين مصر ولبنان ومطابخ شرق المتوسط.",
     },
   },
   {
     slug: "egyptian-breakfast-guide",
     en: {
       title: "Egyptian Breakfast Guide",
-      description: "Learn how ful, eggs, bread, vegetables, cheese, and simple accompaniments come together in Egyptian breakfast culture.",
+      description:
+        "Learn how ful, eggs, bread, vegetables, cheese, pickles, and fresh herbs come together in Egyptian breakfast culture.",
     },
     ar: {
       title: "دليل الفطور المصري",
-      description: "تعرّف على الفول والبيض والخبز والخضروات والجبن والمرافِقات التي تشكل مائدة الفطور المصري.",
+      description:
+        "تعرّف على الفول والبيض والخبز والخضروات والجبن والمخللات والأعشاب التي تشكل مائدة الفطور المصري.",
     },
   },
   {
     slug: "lebanese-mezze-guide",
     en: {
       title: "Lebanese Mezze Guide",
-      description: "Understand the Lebanese mezze table, its balance of dips, salads, vegetables, breads, and shared dishes.",
+      description:
+        "Learn how dips, salads, vegetables, grains, breads, pickles, and grilled foods work together on a Lebanese mezze table.",
     },
     ar: {
       title: "دليل المازة اللبنانية",
-      description: "تعرّف على مائدة المازة اللبنانية وتوازنها بين المقبلات والسلطات والخضروات والخبز والأطباق المشتركة.",
+      description:
+        "تعلّم كيف تتكامل المقبلات والسلطات والخضروات والحبوب والخبز والمخللات والمشاوي على مائدة المازة اللبنانية.",
     },
   },
   {
-    slug: "mediterranean-ingredients-guide",
+    slug: "egyptian-pantry-essentials",
     en: {
-      title: "Mediterranean Ingredients Guide",
-      description: "A practical guide to olive oil, tahini, sumac, za'atar, legumes, grains, herbs, citrus, and other Mediterranean staples.",
+      title: "Egyptian Pantry Essentials",
+      description:
+        "A practical introduction to the beans, grains, spices, herbs, vegetables, oils, and everyday staples found in Egyptian cooking.",
     },
     ar: {
-      title: "دليل مكونات المطبخ المتوسطي",
-      description: "دليل عملي لزيت الزيتون والطحينة والسماق والزعتر والبقوليات والحبوب والأعشاب والحمضيات وغيرها.",
+      title: "أساسيات المطبخ المصري",
+      description:
+        "دليل عملي للفول والحبوب والتوابل والأعشاب والخضروات والزيوت والمكونات الأساسية في المطبخ المصري.",
+    },
+  },
+  {
+    slug: "lebanese-pantry-essentials",
+    en: {
+      title: "Lebanese Pantry Essentials",
+      description:
+        "Learn which everyday ingredients make Lebanese cooking easier, from tahini and bulgur to herbs, spices, legumes, and pantry staples.",
+    },
+    ar: {
+      title: "أساسيات المطبخ اللبناني",
+      description:
+        "تعرّف على المكونات اليومية التي تجعل الطبخ اللبناني أسهل، من الطحينة والبرغل إلى الأعشاب والتوابل والبقوليات.",
+    },
+  },
+  {
+    slug: "mediterranean-herbs-spices-guide",
+    en: {
+      title: "Mediterranean Herbs & Spices Guide",
+      description:
+        "Understand how parsley, mint, cumin, coriander, sumac, za'atar, cinnamon, and other seasonings shape Mediterranean dishes.",
+    },
+    ar: {
+      title: "دليل أعشاب وتوابل البحر المتوسط",
+      description:
+        "افهم دور البقدونس والنعناع والكمون والكزبرة والسماق والزعتر والقرفة وغيرها من التوابل في أطباق البحر المتوسط.",
+    },
+  },
+  {
+    slug: "tahini-guide",
+    en: {
+      title: "Tahini Guide",
+      description:
+        "Learn what tahini is, how to choose it, how it behaves when mixed with lemon and water, and how it is used in Mediterranean cooking.",
+    },
+    ar: {
+      title: "دليل الطحينة",
+      description:
+        "تعرّف على الطحينة وكيفية اختيارها وطريقة تفاعلها مع الليمون والماء واستخداماتها في الطبخ المتوسطي.",
+    },
+  },
+  {
+    slug: "zaatar-guide",
+    en: {
+      title: "Za'atar Guide",
+      description:
+        "Explore za'atar, its common components, flavor profile, traditional uses, storage, and practical ways to use it at home.",
+    },
+    ar: {
+      title: "دليل الزعتر",
+      description:
+        "اكتشف الزعتر ومكوناته الشائعة ونكهته واستخداماته التقليدية وطرق حفظه واستعماله في المنزل.",
+    },
+  },
+  {
+    slug: "sumac-guide",
+    en: {
+      title: "Sumac Guide",
+      description:
+        "Learn how sumac adds bright acidity to salads, grilled foods, dips, grains, and other Eastern Mediterranean dishes.",
+    },
+    ar: {
+      title: "دليل السماق",
+      description:
+        "تعرّف على السماق وكيف يضيف الحموضة والنكهة المنعشة إلى السلطات والمشاوي والمقبلات والحبوب.",
     },
   },
   {
     slug: "healthy-mezze-table-guide",
     en: {
       title: "How to Build a Healthy Mezze Table",
-      description: "Learn how to combine vegetables, legumes, whole grains, dips, proteins, breads, and fresh flavors into a balanced shared meal.",
+      description:
+        "Learn how to combine vegetables, legumes, whole grains, dips, proteins, breads, herbs, and fresh flavors into a balanced shared meal.",
     },
     ar: {
       title: "كيف تبني مائدة مازة صحية",
-      description: "تعلّم كيفية جمع الخضروات والبقوليات والحبوب الكاملة والمقبلات والبروتين والخبز في وجبة متوازنة.",
+      description:
+        "تعلّم كيفية جمع الخضروات والبقوليات والحبوب الكاملة والمقبلات والبروتين والخبز والأعشاب في وجبة متوازنة.",
+    },
+  },
+  {
+    slug: "healthy-mediterranean-meal-planning",
+    en: {
+      title: "Healthy Mediterranean Meal Planning",
+      description:
+        "Build practical weekly meals around vegetables, legumes, grains, proteins, fresh herbs, and simple Mediterranean pantry staples.",
+    },
+    ar: {
+      title: "تخطيط الوجبات المتوسطية الصحية",
+      description:
+        "خطط لوجبات أسبوعية عملية تعتمد على الخضروات والبقوليات والحبوب والبروتين والأعشاب ومكونات البحر المتوسط الأساسية.",
+    },
+  },
+  {
+    slug: "mediterranean-cooking-techniques",
+    en: {
+      title: "Mediterranean Cooking Techniques",
+      description:
+        "Learn practical techniques including roasting, grilling, simmering, marinating, seasoning, emulsifying, and preparing grains and legumes.",
+    },
+    ar: {
+      title: "تقنيات الطبخ المتوسطي",
+      description:
+        "تعلّم تقنيات عملية مثل التحميص والشوي والطهي الهادئ والتتبيل وتحضير الحبوب والبقوليات وخلط الصلصات.",
+    },
+  },
+  {
+    slug: "healthier-mediterranean-recipes-guide",
+    en: {
+      title: "Making Mediterranean Recipes Healthier Without Losing Flavor",
+      description:
+        "Practical ways to improve everyday Mediterranean recipes through better balance, portions, cooking methods, vegetables, and flavor-building techniques.",
+    },
+    ar: {
+      title: "كيف تجعل الوصفات المتوسطية أكثر توازنًا دون فقدان النكهة",
+      description:
+        "طرق عملية لتحسين الوصفات المتوسطية اليومية من خلال التوازن وحجم الحصص وطرق الطهي والخضروات وبناء النكهة.",
     },
   },
 ];
@@ -85,8 +214,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     : "Healthy Mezze Cooking Guides";
 
   const description = isArabic
-    ? "أدلة عملية عن المطبخ المصري واللبناني ومكونات البحر المتوسط والمازة والطبخ الصحي."
-    : "Practical guides to Egyptian and Lebanese cuisine, Mediterranean ingredients, mezze, breakfast traditions, and healthy everyday cooking.";
+    ? "أدلة عملية عن المطبخ المصري واللبناني وشرق المتوسط والمكونات والمازة والطبخ الصحي."
+    : "Practical editorial guides to Egyptian and Lebanese cuisine, Eastern Mediterranean ingredients, mezze, breakfast traditions, and healthy cooking.";
 
   return {
     title,
@@ -116,8 +245,8 @@ export default async function GuidesPage({ params }: Props) {
 
           <p className="mt-6 text-lg leading-8 text-gray-600">
             {isArabic
-              ? "أدلة عملية تساعدك على فهم المطبخ المصري واللبناني وتقاليد المائدة ومكونات البحر المتوسط والطبخ الصحي."
-              : "Go beyond recipes. Learn about Egyptian and Lebanese food traditions, Mediterranean ingredients, mezze culture, breakfast, and practical healthy cooking."}
+              ? "أدلة عملية تساعدك على فهم المطبخ المصري واللبناني وشرق المتوسط والمكونات وتقاليد المائدة والطبخ الصحي."
+              : "Go beyond recipes. Learn about Egyptian and Lebanese food traditions, Eastern Mediterranean ingredients, mezze culture, breakfast, pantry staples, and practical healthy cooking."}
           </p>
         </header>
 

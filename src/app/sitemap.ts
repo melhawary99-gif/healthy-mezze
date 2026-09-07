@@ -91,10 +91,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const guideSlugs = [
     "egyptian-cuisine-guide",
     "lebanese-cuisine-guide",
+    "eastern-mediterranean-food-guide",
     "egyptian-breakfast-guide",
     "lebanese-mezze-guide",
     "mediterranean-ingredients-guide",
+    "egyptian-pantry-essentials",
+    "lebanese-pantry-essentials",
+    "mediterranean-herbs-spices-guide",
+    "tahini-guide",
+    "zaatar-guide",
+    "sumac-guide",
     "healthy-mezze-table-guide",
+    "healthy-mediterranean-meal-planning",
+    "mediterranean-cooking-techniques",
+    "healthier-mediterranean-recipes-guide",
   ];
 
   const localizedGuidePages = locales.flatMap((locale) =>
