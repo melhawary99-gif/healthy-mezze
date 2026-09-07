@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import Container from "@/components/ui/Container";
 import { getLocalizedRecipe } from "@/lib/localizedRecipes";
 import { guideRecipeLinks } from "@/data/guideRecipeLinks";
+import { guideCategoryLinks } from "@/data/guideCategoryLinks";
+import { categories } from "@/data/categories";
 import { SITE_URL, getLanguageAlternates } from "@/lib/seo";
 
 type Props = {
@@ -1159,6 +1162,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!guide) return {};
 
   const content = locale === "ar" ? guide.ar : guide.en;
+  const t = await getTranslations({ locale });
 
   return {
     title: `${content.title} | Healthy Mezze`,
@@ -1172,6 +1176,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function GuidePage({ params }: Props) {
   const { locale, slug } = await params;
+  const t = await getTranslations({ locale });
   const guide = guides[slug];
 
   if (!guide) notFound();
@@ -1184,6 +1189,18 @@ export default async function GuidePage({ params }: Props) {
   ).filter((recipe): recipe is NonNullable<typeof recipe> => recipe !== null);
 
   const content = locale === "ar" ? guide.ar : guide.en;
+
+  const categorySlugs = guideCategoryLinks[slug] ?? [];
+
+  const guideCategories = categorySlugs
+    .map((categorySlug) =>
+      categories.find((category) => category.slug === categorySlug)
+    )
+    .filter(
+      (category): category is NonNullable<typeof category> =>
+        category !== undefined
+    );
+
   const pageUrl = `${SITE_URL}/${locale}/guides/${slug}`;
   const homeUrl = `${SITE_URL}/${locale}`;
   const guidesUrl = `${SITE_URL}/${locale}/guides`;
@@ -1337,6 +1354,29 @@ export default async function GuidePage({ params }: Props) {
                   ? "تصفح جميع الوصفات →"
                   : "Browse all recipes →"}
               </Link>
+
+
+              {guideCategories.length > 0 && (
+                <div className="mt-12 border-t border-gray-200 pt-8">
+                  <h3 className="text-xl font-bold text-gray-900">
+                    {locale === "ar"
+                      ? "استكشف حسب الفئة"
+                      : "Explore by category"}
+                  </h3>
+
+                  <div className="mt-5 flex flex-wrap gap-3">
+                    {guideCategories.map((category) => (
+                      <Link
+                        key={category.slug}
+                        href={`/categories/${category.slug}`}
+                        className="rounded-full border border-emerald-200 bg-emerald-50 px-4 py-2 text-sm font-semibold text-emerald-800 transition hover:border-emerald-300 hover:bg-emerald-100"
+                      >
+                        {t(category.nameKey)}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
             </section>
           )}
         </article>
