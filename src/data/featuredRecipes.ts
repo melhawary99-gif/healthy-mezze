@@ -17,9 +17,9 @@ export const featuredRecipes: FeaturedRecipe[] = [
   {
     id: 2,
     title: "Falafel Bowl",
-    description: "Crispy falafel served with fresh vegetables.",
+    description: "Crispy falafel with fresh vegetables and creamy tahini.",
     image: "/images/falafel-bowl.jpg",
-    prepTime: "25 min",
+    prepTime: "30 min",
   },
   {
     id: 3,
