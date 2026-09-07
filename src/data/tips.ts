@@ -20,7 +20,6 @@ export const tips = [
     title: "Choose Plant-Based Protein",
     description:
       "Chickpeas provide protein and fiber to help keep you full longer.",
-    recipeSlug: "falafel-bowl",
     buttonText: "Make Falafel Bowl",
   },
   {

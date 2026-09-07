@@ -92,7 +92,6 @@ import { cucumberHummusBitesAr } from "./ar/cucumber-hummus-bites";
 import { cucumberYogurtSaladAr } from "./ar/cucumber-yogurt-salad";
 import { TabboulehAr } from "./ar/tabbouleh";
 import fattoushAr from "./ar/fattoush";
-import { FalafelBowlAr } from "./ar/falafel-bowl";
 import { LentilSoupAr } from "./ar/lentil-soup";
 import { chickenShawarmaAr } from "./ar/chicken-shawarma";
 import { babaGanoushAr } from "./ar/baba-ganoush";
@@ -346,7 +345,6 @@ const arTranslations: Record<string, RecipeTranslation> = {
   "cucumber-yogurt-salad": cucumberYogurtSaladAr,
   "tabbouleh": TabboulehAr,
   "fattoush": fattoushAr,
-  "falafel-bowl": FalafelBowlAr,
   "chicken-shawarma": chickenShawarmaAr,
   "classic-baba-ganoush": babaGanoushAr,
   "baked-beef-kofta": bakedBeefKoftaAr,

@@ -1,5 +1,4 @@
 import { greekSalad } from "./greek-salad";
-import { falafelBowl } from "./falafel-bowl";
 import { chickenShawarma } from "./chicken-shawarma";
 import { lentilSoup } from "./lentil-soup";
 import { tabboulehSalad } from "./tabbouleh-salad";
@@ -111,7 +110,6 @@ import { authenticChermoulaSauce } from "./authentic-chermoula-sauce";
 export const recipes = [
   greekSalad,
   fattoush,
-  falafelBowl,
   chickenShawarma,
   lentilSoup,
   tabboulehSalad,

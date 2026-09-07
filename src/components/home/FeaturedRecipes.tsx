@@ -8,7 +8,6 @@ import RecipeCard from "@/components/recipes/RecipeCard";
 
 const featuredRecipeSlugs = [
   "greek-salad",
-  "falafel-bowl",
   "lentil-soup",
   "chicken-shawarma",
   "baba-ganoush",
