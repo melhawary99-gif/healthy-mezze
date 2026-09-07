@@ -16,6 +16,7 @@ import IngredientsSection from "@/components/recipes/IngredientsSection";
 import InstructionsSection from "@/components/recipes/InstructionsSection";
 import NutritionSidebar from "@/components/recipes/NutritionSidebar";
 import RelatedRecipesSection from "@/components/recipes/RelatedRecipesSection";
+import RecipeGuideLinks from "@/components/recipes/RecipeGuideLinks";
 
 import RecipeStorySection from "@/components/recipes/RecipeStorySection";
 import CookingGuideSection from "@/components/recipes/CookingGuideSection";
@@ -365,6 +366,9 @@ export default async function RecipePage({ params }: RecipePageProps) {
 
             {/* Recipe FAQ */}
             {recipe.faq && recipe.faq.length > 0 && <RecipeFAQSection faq={recipe.faq} />}
+
+            {/* Editorial Guide Links */}
+            <RecipeGuideLinks category={recipe.category} locale={locale} />
 
             {/* Related Recipes */}
             <RelatedRecipesSection recipes={localizedRelatedRecipes} category={recipe.category} />
