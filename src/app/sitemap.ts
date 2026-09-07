@@ -66,6 +66,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: "yearly" as const,
       priority: 0.4,
     },
+    {
+      url: `${SITE_URL}/${locale}/guides`,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    },
+    {
+      url: `${SITE_URL}/${locale}/drink-vlog`,
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    },
   ]);
 
   const localizedCategoryPages = locales.flatMap((locale) =>
@@ -73,6 +83,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${SITE_URL}/${locale}/categories/${encodeURIComponent(category.slug)}`,
         changeFrequency: "weekly" as const,
       priority: 0.7,
+    }))
+  );
+
+
+  const guideSlugs = [
+    "egyptian-cuisine-guide",
+    "lebanese-cuisine-guide",
+    "egyptian-breakfast-guide",
+    "lebanese-mezze-guide",
+    "mediterranean-ingredients-guide",
+    "healthy-mezze-table-guide",
+  ];
+
+  const localizedGuidePages = locales.flatMap((locale) =>
+    guideSlugs.map((slug) => ({
+      url: `${SITE_URL}/${locale}/guides/${slug}`,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
     }))
   );
 
@@ -89,6 +117,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...localizedHomePages,
     ...localizedStaticPages,
     ...localizedCategoryPages,
+    ...localizedGuidePages,
     ...localizedRecipePages,
   ];
 }
