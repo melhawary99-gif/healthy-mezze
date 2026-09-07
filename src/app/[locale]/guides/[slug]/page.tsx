@@ -1175,9 +1175,74 @@ export default async function GuidePage({ params }: Props) {
   if (!guide) notFound();
 
   const content = locale === "ar" ? guide.ar : guide.en;
+  const pageUrl = `${SITE_URL}/${locale}/guides/${slug}`;
+  const homeUrl = `${SITE_URL}/${locale}`;
+  const guidesUrl = `${SITE_URL}/${locale}/guides`;
+
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: content.title,
+    description: content.intro,
+    url: pageUrl,
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": pageUrl,
+    },
+    inLanguage: locale,
+    author: {
+      "@type": "Organization",
+      name: "Healthy Mezze",
+      url: SITE_URL,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Healthy Mezze",
+      url: SITE_URL,
+    },
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: locale === "ar" ? "الرئيسية" : "Home",
+        item: homeUrl,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: locale === "ar" ? "الأدلة" : "Guides",
+        item: guidesUrl,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: content.title,
+        item: pageUrl,
+      },
+    ],
+  };
 
   return (
     <main className="bg-[#FAFAF7] py-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(articleSchema),
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumbSchema),
+        }}
+      />
+
       <Container>
         <article className="mx-auto max-w-4xl">
           <p className="text-sm font-semibold uppercase tracking-[0.24em] text-emerald-600">
