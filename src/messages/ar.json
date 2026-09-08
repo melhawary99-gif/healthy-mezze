@@ -29,7 +29,9 @@
     "saved": "تم الحفظ",
     "save": "حفظ",
     "backToRecipes": "العودة إلى الوصفات",
-    "discoverMoreRecipes": "اكتشف المزيد من الوصفات"
+    "discoverMoreRecipes": "اكتشف المزيد من الوصفات",
+    "shareCopied": "تم نسخ تفاصيل الوصفة!",
+    "shareInstructions": "يمكنك الآن لصق الوصفة ومشاركة الوصفة في أي مكان."
   },
   "Recipe": {
     "nutritionFacts": "القيم الغذائية",

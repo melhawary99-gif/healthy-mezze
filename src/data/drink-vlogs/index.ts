@@ -1,8 +1,10 @@
 import type { DrinkVlog } from "@/types/drinkVlog";
 import { strawberryIceMatchaLatte } from "./strawberry-ice-matcha-latte";
+import { oreoIcedLatte } from "./oreo-iced-latte";
 
 export const drinkVlogs: DrinkVlog[] = [
   strawberryIceMatchaLatte,
+  oreoIcedLatte,
 ];
 
 export function getDrinkVlogBySlug(slug: string) {

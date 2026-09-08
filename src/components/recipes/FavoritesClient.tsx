@@ -8,6 +8,8 @@ import Container from "@/components/ui/Container";
 
 import { Recipe } from "@/types/recipe";
 import { getLocalizedRecipes } from "@/lib/getLocalizedRecipes";
+import { drinkVlogs } from "@/data/drink-vlogs";
+import { getDrinkVlogTranslation } from "@/lib/drinkVlogTranslationLoader";
 
 const STORAGE_KEY = "healthy-mezze-favorites";
 
@@ -30,7 +32,9 @@ export default function FavoritesClient() {
       const parsed = JSON.parse(raw);
 
       return Array.isArray(parsed)
-        ? parsed.filter((item): item is string => typeof item === "string")
+        ? parsed.filter(
+            (item): item is string => typeof item === "string"
+          )
         : [];
     } catch {
       return [];
@@ -57,20 +61,100 @@ export default function FavoritesClient() {
     favoriteSlugs.includes(recipe.slug)
   );
 
+  const favoriteDrinks = drinkVlogs.filter((drink) =>
+    favoriteSlugs.includes(drink.slug)
+  );
+
+  const hasFavorites =
+    favoriteRecipes.length > 0 || favoriteDrinks.length > 0;
+
   return (
     <main className="bg-white py-20">
       <Container>
         <section className="rounded-3xl bg-green-50 p-8 shadow-sm">
-          <h1 className="text-4xl font-bold text-gray-900">{t("title")}</h1>
+          <h1 className="text-4xl font-bold text-gray-900">
+            {t("title")}
+          </h1>
 
-          <p className="mt-3 max-w-2xl text-gray-600">{t("description")}</p>
+          <p className="mt-3 max-w-2xl text-gray-600">
+            {t("description")}
+          </p>
         </section>
 
-        {favoriteRecipes.length > 0 ? (
-          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {favoriteRecipes.map((recipe) => (
-              <RecipeCard key={recipe.slug} recipe={recipe} />
-            ))}
+        {hasFavorites ? (
+          <div className="mt-10 space-y-12">
+
+            {/* FAVORITE RECIPES */}
+            {favoriteRecipes.length > 0 && (
+              <section>
+                <h2 className="mb-6 text-2xl font-bold text-gray-900">
+                  {locale === "ar" ? "الوصفات المفضلة" : "Favorite Recipes"}
+                </h2>
+
+                <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                  {favoriteRecipes.map((recipe) => (
+                    <RecipeCard
+                      key={recipe.slug}
+                      recipe={recipe}
+                    />
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {/* FAVORITE DRINKS */}
+            {favoriteDrinks.length > 0 && (
+              <section>
+                <h2 className="mb-6 text-2xl font-bold text-gray-900">
+                  {locale === "ar" ? "المشروبات المفضلة" : "Favorite Drinks"}
+                </h2>
+
+                <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                  {favoriteDrinks.map((drink) => {
+                    const translation = getDrinkVlogTranslation(
+                      drink.slug,
+                      locale
+                    );
+
+                    if (!translation) {
+                      return null;
+                    }
+
+                    return (
+                      <a
+                        key={drink.slug}
+                        href={`/${locale}/drink-vlog/${drink.slug}`}
+                        className="group overflow-hidden rounded-3xl bg-white shadow-sm ring-1 ring-gray-100 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+                      >
+                        <div className="aspect-[4/3] overflow-hidden">
+                          <img
+                            src={drink.image}
+                            alt={translation.title}
+                            className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                          />
+                        </div>
+
+                        <div className="p-5">
+                          <p className="text-sm font-semibold uppercase tracking-wider text-green-700">
+                            {locale === "ar"
+                              ? `الحلقة ${drink.episode}`
+                              : `Episode ${drink.episode}`}
+                          </p>
+
+                          <h3 className="mt-2 text-xl font-bold text-gray-900">
+                            {translation.title}
+                          </h3>
+
+                          <p className="mt-2 line-clamp-3 text-sm leading-6 text-gray-600">
+                            {translation.description}
+                          </p>
+                        </div>
+                      </a>
+                    );
+                  })}
+                </div>
+              </section>
+            )}
           </div>
         ) : (
           <div className="mt-10 rounded-3xl border border-dashed border-green-200 bg-white p-10 text-center text-gray-700 shadow-sm">
@@ -78,7 +162,9 @@ export default function FavoritesClient() {
               {t("emptyTitle")}
             </p>
 
-            <p className="mt-3 text-gray-600">{t("emptyDescription")}</p>
+            <p className="mt-3 text-gray-600">
+              {t("emptyDescription")}
+            </p>
           </div>
         )}
       </Container>

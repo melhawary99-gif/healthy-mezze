@@ -29,7 +29,9 @@
     "saved": "Saved",
     "save": "Save",
     "backToRecipes": "Back to Recipes",
-    "discoverMoreRecipes": "Discover More Recipes"
+    "discoverMoreRecipes": "Discover More Recipes",
+    "shareCopied": "Recipe details copied!",
+    "shareInstructions": "You can now paste and share the recipe anywhere."
   },
   "Recipe": {
     "nutritionFacts": "Nutrition Facts",

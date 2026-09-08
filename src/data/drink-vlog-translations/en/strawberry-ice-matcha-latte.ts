@@ -6,6 +6,8 @@ export const strawberryIceMatchaLatteEn: DrinkVlogTranslation = {
   description:
     "A creamy iced matcha latte layered with sweet strawberry flavor, vibrant matcha, and plenty of ice for a refreshing drink that is as beautiful as it is delicious.",
 
+  intro: "Hello and welcome to my drink vlog. we appreciate you coming here to learn about our signature drinks. we believe everyone should have the right skills and recipes to make those popular drinks that you see everywhere in the market without any secrets hidden. Today's drink is Strawberry ice matcha latte. a very healthy drink with an earthy taste and a flavor of your choice. the strawberry part can be replaced with caramel or honey as you wish. we will be making a future episode about those as well. for now enjoy our recipe and make sure to add it to your drinks menu at home. Matcha benefits are plenty and the taste never gets boring.",
+
   ingredients: [
     "2 gram of matcha",
     "Strawberry syrup",

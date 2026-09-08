@@ -1,10 +1,15 @@
+import FavoriteButton from "@/components/recipes/FavoriteButton";
+import PrintButton from "@/components/recipes/PrintButton";
+import ShareButton from "@/components/recipes/ShareButton";
+
 import type { Metadata } from "next";
 import Image from "next/image";
 import VideoPlayer from "./VideoPlayer";
 import DrinkReviews from "@/components/drink-vlog/DrinkReviews";
+import BackToTopButton from "@/components/drink-vlog/BackToTopButton";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getDrinkVlogBySlug } from "@/data/drink-vlogs";
+import { drinkVlogs, getDrinkVlogBySlug } from "@/data/drink-vlogs";
 import { getDrinkVlogTranslation } from "@/lib/drinkVlogTranslationLoader";
 import { getLanguageAlternates, SITE_URL } from "@/lib/seo";
 
@@ -24,6 +29,14 @@ export function generateStaticParams() {
     {
       locale: "ar",
       slug: "strawberry-ice-matcha-latte",
+    },
+    {
+      locale: "en",
+      slug: "oreo-iced-latte",
+    },
+    {
+      locale: "ar",
+      slug: "oreo-iced-latte",
     },
   ];
 }
@@ -99,6 +112,20 @@ export default async function DrinkVlogRecipePage({
   const equipment = translation.equipment;
   const steps = translation.instructions;
 
+  const currentEpisodeIndex = drinkVlogs.findIndex(
+    (item) => item.slug === drink.slug
+  );
+
+  const previousDrink =
+    currentEpisodeIndex > 0
+      ? drinkVlogs[currentEpisodeIndex - 1]
+      : undefined;
+
+  const nextDrink =
+    currentEpisodeIndex >= 0 && currentEpisodeIndex < drinkVlogs.length - 1
+      ? drinkVlogs[currentEpisodeIndex + 1]
+      : undefined;
+
   const labels = isArabic
     ? {
         episode: "الحلقة",
@@ -111,9 +138,13 @@ export default async function DrinkVlogRecipePage({
         watch: "شاهد الفيديو",
         back: "العودة إلى مدونة المشروبات",
         faq: "الأسئلة الشائعة",
-        benefits: "فوائد الماتشا",
-        benefitsTitle: "لماذا الماتشا خيار رائع؟",
+        benefits: translation.benefitsLabel ?? (isArabic ? "فوائد المشروب" : "DRINK BENEFITS"),
+        benefitsTitle: translation.benefitsTitle ?? (isArabic ? "لماذا هذا المشروب مميز؟" : "Why This Drink Stands Out"),
         benefitsNote: "ملاحظة: ",
+        previousEpisode: "الحلقة السابقة",
+        nextEpisode: "الحلقة التالية",
+        episodeVlog: "حلقات المشروبات",
+        backToTop: "العودة إلى الأعلى",
       }
     : {
         episode: "EPISODE",
@@ -126,16 +157,51 @@ export default async function DrinkVlogRecipePage({
         watch: "WATCH THE VIDEO",
         back: "BACK TO DRINK VLOG",
         faq: "Frequently asked questions",
-        benefits: "MATCHA BENEFITS",
-        benefitsTitle: "Why Matcha Is a Great Choice",
+        benefits: translation.benefitsLabel ?? (isArabic ? "فوائد المشروب" : "DRINK BENEFITS"),
+        benefitsTitle: translation.benefitsTitle ?? (isArabic ? "لماذا هذا المشروب مميز؟" : "Why This Drink Stands Out"),
         benefitsNote: "A note on health claims: ",
+        previousEpisode: "PREVIOUS EPISODE",
+        nextEpisode: "NEXT EPISODE",
+        episodeVlog: "DRINK VLOG EPISODES",
+        backToTop: "BACK TO TOP",
       };
+
+  const localizedUrl = `${SITE_URL}/${locale}/drink-vlog/${slug}`;
+  const drinkVlogUrl = `${SITE_URL}/${locale}/drink-vlog`;
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: isArabic ? "الرئيسية" : "Home",
+        item: `${SITE_URL}/${locale}`,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: isArabic ? "مدونة المشروبات" : "Drink Vlog",
+        item: drinkVlogUrl,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: translation.title,
+        item: localizedUrl,
+      },
+    ],
+  };
 
   return (
     <main
       dir={isArabic ? "rtl" : "ltr"}
       className="bg-[#f6f0e8] text-[#183b3f]"
     >
+
+
+
       {/* HERO */}
       <section className="relative overflow-hidden bg-[#2d9caf] py-12 sm:py-16 lg:py-20">
         <div
@@ -235,7 +301,11 @@ export default async function DrinkVlogRecipePage({
 
               {/* YOUTUBE VIDEO */}
               <VideoPlayer
-                videoId="ARaeeUyUfs8"
+                videoId={
+            drink.youtubeUrl.match(
+              /(?:shorts\/|youtu\.be\/|v=)([^?&/]+)/
+            )?.[1] ?? ""
+          }
                 title={translation.title}
               />
 
@@ -244,6 +314,37 @@ export default async function DrinkVlogRecipePage({
 
             {/* MAIN CONTENT */}
             <div className="space-y-14">
+              {/* DRINK INTRO */}
+      {/* RECIPE ACTIONS */}
+      <div className="print-hide flex flex-wrap gap-3">
+        <FavoriteButton slug={drink.slug} />
+
+        <PrintButton />
+
+        <ShareButton
+          title={translation.title}
+          description={translation.description}
+        />
+      </div>
+
+              {translation.intro && (
+                <section className="rounded-[2rem] bg-white p-7 shadow-sm sm:p-10">
+                  <p className="text-xs font-black uppercase tracking-[0.25em] text-[#2d9caf]">
+                    {isArabic ? "عن هذا المشروب" : "ABOUT THIS DRINK"}
+                  </p>
+
+                  <h2 className="mt-3 text-3xl font-black tracking-tight sm:text-4xl">
+                    {translation.title}
+                  </h2>
+
+                  <div className="mt-5 h-1 w-16 bg-[#ff7043]" />
+
+                  <p className="mt-6 whitespace-pre-line text-base leading-8 text-[#49666a] sm:text-lg">
+                    {translation.intro}
+                  </p>
+                </section>
+              )}
+
               {/* INGREDIENTS */}
               <section>
                 <h2 className="text-3xl font-black tracking-tight sm:text-4xl">
@@ -455,7 +556,172 @@ export default async function DrinkVlogRecipePage({
         }}
       />
 
-          <DrinkReviews slug={slug} />
+          {/* REVIEWS FRAME */}
+<section className="mt-14">
+  <div className="relative rounded-[2rem] border border-[#d8cdbd] bg-[#f8f5ef] p-2 shadow-[0_18px_50px_rgba(24,59,63,0.10)]">
+    <div className="rounded-[1.65rem] border border-[#e5ddd1] bg-white p-5 sm:p-7 lg:p-9">
+
+      {/* Decorative top frame detail */}
+      <div className="mb-7 flex items-center gap-4">
+        <div className="h-px flex-1 bg-gradient-to-r from-transparent via-[#d8cdbd] to-[#d8cdbd]" />
+
+        <div className="flex h-10 w-10 items-center justify-center rounded-full border border-[#d8cdbd] bg-[#f8f5ef] text-lg shadow-sm">
+          ★
+        </div>
+
+        <div className="h-px flex-1 bg-gradient-to-l from-transparent via-[#d8cdbd] to-[#d8cdbd]" />
+      </div>
+
+      <DrinkReviews slug={slug} />
+
+      {/* Decorative bottom frame detail */}
+      <div className="mt-7 flex items-center gap-4">
+        <div className="h-px flex-1 bg-gradient-to-r from-transparent via-[#d8cdbd] to-[#d8cdbd]" />
+
+        <div className="h-2 w-2 rounded-full bg-[#d8cdbd]" />
+
+        <div className="h-px flex-1 bg-gradient-to-l from-transparent via-[#d8cdbd] to-[#d8cdbd]" />
+      </div>
+
+    </div>
+  </div>
+</section>
+
+          {/* EPISODE NAVIGATION */}
+          <section className="mx-auto mt-16 max-w-6xl border-t border-[#183b3f]/10 pt-12 sm:mt-20">
+            <div className="mb-9 text-center">
+              <p className="text-xs font-black uppercase tracking-[0.3em] text-[#ff7043]">
+                {labels.episodeVlog}
+              </p>
+
+              <div className="mx-auto mt-3 h-1 w-12 rounded-full bg-[#ffd166]" />
+            </div>
+
+            <div className="grid gap-6 lg:grid-cols-2">
+              {previousDrink ? (
+                <Link
+                  href={`/${locale}/drink-vlog/${previousDrink.slug}`}
+                  className="group overflow-hidden rounded-[2rem] border border-[#183b3f]/10 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl"
+                >
+                  <div className="relative aspect-[16/8] overflow-hidden">
+                    <Image
+                      src={previousDrink.image}
+                      alt={
+                        getDrinkVlogTranslation(
+                          previousDrink.slug,
+                          locale
+                        )?.title ?? ""
+                      }
+                      fill
+                      className="object-cover transition duration-500 group-hover:scale-105"
+                    />
+
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
+
+                    <div className="absolute bottom-5 left-5 right-5 text-white">
+                      <p className="text-xs font-black uppercase tracking-[0.2em] text-[#ffd166]">
+                        ← {labels.previousEpisode}
+                      </p>
+
+                      <p className="mt-2 text-xs font-bold uppercase tracking-[0.15em] text-white/80">
+                        {labels.episode} {previousDrink.episode}
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="p-7">
+                    <h3 className="text-2xl font-black tracking-tight text-[#183b3f] sm:text-3xl">
+                      {
+                        getDrinkVlogTranslation(
+                          previousDrink.slug,
+                          locale
+                        )?.title
+                      }
+                    </h3>
+
+                    <p className="mt-4 leading-7 text-[#49666a]">
+                      {
+                        getDrinkVlogTranslation(
+                          previousDrink.slug,
+                          locale
+                        )?.description
+                      }
+                    </p>
+
+                    <p className="mt-5 text-sm font-black uppercase tracking-[0.12em] text-[#ff7043]">
+                      {labels.previousEpisode} ←
+                    </p>
+                  </div>
+                </Link>
+              ) : (
+                <div className="hidden lg:block" />
+              )}
+
+              {nextDrink ? (
+                <Link
+                  href={`/${locale}/drink-vlog/${nextDrink.slug}`}
+                  className="group overflow-hidden rounded-[2rem] border border-[#183b3f]/10 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl"
+                >
+                  <div className="relative aspect-[5/4] overflow-hidden">
+                    <Image
+                      src={nextDrink.image}
+                      alt={
+                        getDrinkVlogTranslation(
+                          nextDrink.slug,
+                          locale
+                        )?.title ?? ""
+                      }
+                      fill
+                      className="object-cover object-[center_25%] transition duration-500 group-hover:scale-105"
+                    />
+
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
+
+                    <div className="absolute bottom-5 left-5 right-5 text-white">
+                      <p className="text-xs font-black uppercase tracking-[0.2em] text-[#ffd166]">
+                        {labels.nextEpisode} →
+                      </p>
+
+                      <p className="mt-2 text-xs font-bold uppercase tracking-[0.15em] text-white/80">
+                        {labels.episode} {nextDrink.episode}
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="p-7">
+                    <h3 className="text-2xl font-black tracking-tight text-[#183b3f] sm:text-3xl">
+                      {
+                        getDrinkVlogTranslation(
+                          nextDrink.slug,
+                          locale
+                        )?.title
+                      }
+                    </h3>
+
+                    <p className="mt-4 leading-7 text-[#49666a]">
+                      {
+                        getDrinkVlogTranslation(
+                          nextDrink.slug,
+                          locale
+                        )?.description
+                      }
+                    </p>
+
+                    <p className="mt-5 text-sm font-black uppercase tracking-[0.12em] text-[#ff7043]">
+                      → {labels.nextEpisode}
+                    </p>
+                  </div>
+                </Link>
+              ) : (
+                <div className="hidden lg:block" />
+              )}
+            </div>
+          </section>
+
+          <div className="mt-8 flex justify-center">
+            <BackToTopButton label={labels.backToTop} />
+          </div>
+
     </main>
   );
 }

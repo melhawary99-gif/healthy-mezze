@@ -12,6 +12,7 @@ export interface DrinkVlogHealthBenefit {
 export interface DrinkVlogTranslation {
   title: string;
   description: string;
+  intro?: string;
 
   ingredients: string[];
   equipment: string[];
@@ -19,6 +20,9 @@ export interface DrinkVlogTranslation {
 
   story?: string;
   culturalContext?: string;
+
+  benefitsLabel?: string;
+  benefitsTitle?: string;
 
   healthBenefits: DrinkVlogHealthBenefit[];
   healthBenefitsIntro: string;
