@@ -21,24 +21,12 @@ interface DrinkVlogRecipePageProps {
 }
 
 export function generateStaticParams() {
-  return [
-    {
-      locale: "en",
-      slug: "strawberry-ice-matcha-latte",
-    },
-    {
-      locale: "ar",
-      slug: "strawberry-ice-matcha-latte",
-    },
-    {
-      locale: "en",
-      slug: "oreo-iced-latte",
-    },
-    {
-      locale: "ar",
-      slug: "oreo-iced-latte",
-    },
-  ];
+  return ["en", "ar"].flatMap((locale) =>
+    drinkVlogs.map((drink) => ({
+      locale,
+      slug: drink.slug,
+    }))
+  );
 }
 
 export async function generateMetadata({
@@ -663,6 +651,7 @@ export default async function DrinkVlogRecipePage({
                   className="group overflow-hidden rounded-[2rem] border border-[#183b3f]/10 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl"
                 >
                   <div className="relative aspect-[5/4] overflow-hidden">
+                  <div className="relative aspect-[5/4] overflow-hidden">
                     <Image
                       src={nextDrink.image}
                       alt={
@@ -672,21 +661,23 @@ export default async function DrinkVlogRecipePage({
                         )?.title ?? ""
                       }
                       fill
-                      className="object-cover object-[center_25%] transition duration-500 group-hover:scale-105"
+                      className="object-cover object-center transition duration-500 group-hover:scale-105"
                     />
 
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
+
+                    <div className="absolute left-5 top-5 z-10 rounded-full bg-white/90 px-4 py-2 text-[10px] font-black uppercase tracking-[0.18em] text-[#183b3f] shadow-sm">
+                      {labels.episode} {String(nextDrink.episode).padStart(2, "0")}
+                    </div>
 
                     <div className="absolute bottom-5 left-5 right-5 text-white">
                       <p className="text-xs font-black uppercase tracking-[0.2em] text-[#ffd166]">
                         {labels.nextEpisode} →
                       </p>
-
-                      <p className="mt-2 text-xs font-bold uppercase tracking-[0.15em] text-white/80">
-                        {labels.episode} {nextDrink.episode}
-                      </p>
                     </div>
                   </div>
+
+</div>
 
                   <div className="p-7">
                     <h3 className="text-2xl font-black tracking-tight text-[#183b3f] sm:text-3xl">
