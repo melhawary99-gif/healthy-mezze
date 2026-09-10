@@ -3,7 +3,8 @@ import Script from "next/script";
 import { SITE_URL } from "@/lib/seo";
 import { Cairo, Inter, Poppins } from "next/font/google";
 
-import { GoogleAnalytics } from "@next/third-parties/google";
+import CookieConsent from "@/components/privacy/CookieConsent";
+import AnalyticsConsent from "@/components/privacy/AnalyticsConsent";
 
 import "./globals.css";
 
@@ -194,7 +195,8 @@ export default function RootLayout({
 
         {children}
 
-        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID!} />
+        <CookieConsent />
+        <AnalyticsConsent />
       </body>
     </html>
   );
