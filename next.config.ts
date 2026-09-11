@@ -61,6 +61,8 @@ frame-src
   https://googleads.g.doubleclick.net
   https://*.googlesyndication.com
   https://fundingchoicesmessages.google.com
+  https://ep2.adtrafficquality.google
+  https://www.google.com
   https://challenges.cloudflare.com;
 
 worker-src
