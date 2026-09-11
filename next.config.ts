@@ -21,6 +21,7 @@ script-src
   https://fundingchoicesmessages.google.com
   https://www.clarity.ms
   https://scripts.clarity.ms
+  https://ep2.adtrafficquality.google
   https://challenges.cloudflare.com;
 
 style-src
