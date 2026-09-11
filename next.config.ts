@@ -52,6 +52,7 @@ connect-src
   https://t.clarity.ms
   https://n.clarity.ms
   https://pagead2.googlesyndication.com
+  https://ep1.adtrafficquality.google
   https://challenges.cloudflare.com;
 
 frame-src
