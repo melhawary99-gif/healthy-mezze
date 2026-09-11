@@ -67,6 +67,7 @@ function NewsletterForm({ idSuffix, compact }: { idSuffix: string; compact?: boo
           id={inputId}
           type="email"
           name="email"
+          autoComplete="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           placeholder={t("placeholder")}

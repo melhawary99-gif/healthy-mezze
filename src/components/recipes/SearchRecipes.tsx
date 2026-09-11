@@ -77,6 +77,7 @@ export default function SearchRecipes() {
           <input
             id="recipe-search"
             type="search"
+            autoComplete="off"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder={t("searchPlaceholder")}

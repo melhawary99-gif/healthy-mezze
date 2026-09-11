@@ -107,6 +107,7 @@ export default function RecipeFilters({
             <input
               id="recipe-search"
               type="search"
+              autoComplete="off"
               value={searchValue}
               onChange={(e) => setSearchValue(e.target.value)}
               placeholder={t("placeholder")}
@@ -138,6 +139,7 @@ export default function RecipeFilters({
 
           <select
             id="sort"
+            autoComplete="off"
             value={sortBy}
             onChange={(e) => handleSortChange(e.target.value)}
             className="w-full rounded-xl border border-gray-200 bg-white px-4 py-3 shadow-sm focus:border-green-500 focus:outline-none"

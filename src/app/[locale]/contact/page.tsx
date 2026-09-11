@@ -114,6 +114,7 @@ export default async function ContactPage() {
                   id="name"
                   name="name"
                   type="text"
+                  autoComplete="name"
                   placeholder={t("form.namePlaceholder")}
                   className="mt-3 w-full rounded-3xl border border-green-100 bg-green-50 px-4 py-3 text-gray-900 outline-none transition focus:border-emerald-500 focus:ring-2 focus:ring-emerald-100"
                 />
@@ -128,6 +129,7 @@ export default async function ContactPage() {
                   id="email"
                   name="email"
                   type="email"
+                  autoComplete="email"
                   placeholder={t("form.emailPlaceholder")}
                   className="mt-3 w-full rounded-3xl border border-green-100 bg-green-50 px-4 py-3 text-gray-900 outline-none transition focus:border-emerald-500 focus:ring-2 focus:ring-emerald-100"
                 />
@@ -142,6 +144,7 @@ export default async function ContactPage() {
                   id="subject"
                   name="subject"
                   type="text"
+                  autoComplete="off"
                   placeholder={t("form.subjectPlaceholder")}
                   className="mt-3 w-full rounded-3xl border border-green-100 bg-green-50 px-4 py-3 text-gray-900 outline-none transition focus:border-emerald-500 focus:ring-2 focus:ring-emerald-100"
                 />
@@ -156,6 +159,7 @@ export default async function ContactPage() {
                   id="message"
                   name="message"
                   rows={6}
+                  autoComplete="off"
                   placeholder={t("form.messagePlaceholder")}
                   className="mt-3 w-full rounded-3xl border border-green-100 bg-green-50 px-4 py-3 text-gray-900 outline-none transition focus:border-emerald-500 focus:ring-2 focus:ring-emerald-100"
                 />

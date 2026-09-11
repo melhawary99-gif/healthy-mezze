@@ -382,6 +382,7 @@ export default function DrinkReviews({
 
         <textarea
                     id={`review-text-${slug}`}
+                    autoComplete="off"
                     value={reviewText}
                     onChange={(event) =>
                       setReviewText(event.target.value)
