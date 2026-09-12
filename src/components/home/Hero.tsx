@@ -61,13 +61,13 @@ export default function Hero() {
           <Image
             src={heroFood}
             alt={t("heroImageAlt")}
-            width={700}
-            height={700}
+            width={600}
+            height={400}
             priority
             fetchPriority="high"
             quality={70}
             placeholder="blur"
-            sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 50vw"
+            sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 455px"
             className="rounded-3xl shadow-2xl"
           />
         </div>
