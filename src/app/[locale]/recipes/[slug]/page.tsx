@@ -14,6 +14,7 @@ import JumpToRecipeButton from "@/components/recipes/JumpToRecipeButton";
 import RecipeQuickInfo from "@/components/recipes/RecipeQuickInfo";
 import IngredientsSection from "@/components/recipes/IngredientsSection";
 import InstructionsSection from "@/components/recipes/InstructionsSection";
+import CookingMode from "@/components/recipes/CookingMode";
 import NutritionSidebar from "@/components/recipes/NutritionSidebar";
 import RelatedRecipesSection from "@/components/recipes/RelatedRecipesSection";
 import RecipeGuideLinks from "@/components/recipes/RecipeGuideLinks";
@@ -332,6 +333,12 @@ export default async function RecipePage({ params }: RecipePageProps) {
                 <IngredientsSection recipe={recipe} />
 
                 <InstructionsSection recipe={recipe} />
+
+                <CookingMode
+                  title={recipe.title}
+                  instructions={recipe.instructions}
+                  locale={locale}
+                />
               </div>
 
               <NutritionSidebar recipe={recipe} />
