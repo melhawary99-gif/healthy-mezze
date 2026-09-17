@@ -47,6 +47,8 @@ export default function CookingMode({
   const [isListening, setIsListening] = useState(false);
   const [voiceSupported, setVoiceSupported] = useState(false);
   const [voiceMessage, setVoiceMessage] = useState("");
+  const [speechRate, setSpeechRate] = useState(1);
+  const [speechVoices, setSpeechVoices] = useState<SpeechSynthesisVoice[]>([]);
   const recognitionRef = useRef<SpeechRecognitionLike | null>(null);
   const shouldListenRef = useRef(false);
 
@@ -67,6 +69,7 @@ export default function CookingMode({
             startVoice: "تشغيل التحكم الصوتي",
             stopVoice: "إيقاف التحكم الصوتي",
             unsupported: "التحكم الصوتي غير متاح في هذا المتصفح",
+            stopped: "تم إيقاف القراءة",
           }
         : {
             open: "Hands-Free Cooking Mode",
@@ -80,16 +83,30 @@ export default function CookingMode({
             startVoice: "Start Voice Control",
             stopVoice: "Stop Voice Control",
             unsupported: "Voice control is not available in this browser",
+            stopped: "Reading stopped",
           },
     [isArabic]
   );
 
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      setVoiceSupported(
-        Boolean(window.SpeechRecognition || window.webkitSpeechRecognition)
-      );
-    }
+    if (typeof window === "undefined") return;
+
+    setVoiceSupported(
+      Boolean(window.SpeechRecognition || window.webkitSpeechRecognition)
+    );
+
+    if (!("speechSynthesis" in window)) return;
+
+    const loadVoices = () => {
+      setSpeechVoices(window.speechSynthesis.getVoices());
+    };
+
+    loadVoices();
+    window.speechSynthesis.addEventListener("voiceschanged", loadVoices);
+
+    return () => {
+      window.speechSynthesis.removeEventListener("voiceschanged", loadVoices);
+    };
   }, []);
 
   useEffect(() => {
@@ -118,8 +135,65 @@ export default function CookingMode({
     setCurrentStep((step) => Math.max(step - 1, 0));
   }, []);
 
+  const selectBestVoice = useCallback(
+    (voices: SpeechSynthesisVoice[]) => {
+      const languagePrefix = isArabic ? "ar" : "en";
+
+      const languageVoices = voices.filter((voice) =>
+        voice.lang.toLowerCase().startsWith(languagePrefix)
+      );
+
+      if (!languageVoices.length) return undefined;
+
+      const preferredNames = isArabic
+        ? [
+            "female",
+            "zira",
+            "sahar",
+            "laila",
+            "hoda",
+            "maged",
+            "google arabic",
+          ]
+        : [
+            "female",
+            "samantha",
+            "aria",
+            "jenny",
+            "sara",
+            "zira",
+            "google us english",
+            "google uk english",
+          ];
+
+      const scored = languageVoices.map((voice) => {
+        const name = voice.name.toLowerCase();
+        let score = 0;
+
+        if (voice.default) score += 10;
+        if (voice.localService) score += 3;
+
+        preferredNames.forEach((preferredName, index) => {
+          if (name.includes(preferredName)) {
+            score += 30 - index;
+          }
+        });
+
+        if (name.includes("male")) score -= 20;
+        if (name.includes("compact")) score -= 2;
+
+        return { voice, score };
+      });
+
+      scored.sort((a, b) => b.score - a.score);
+
+      return scored[0]?.voice;
+    },
+    [isArabic]
+  );
+
   const speak = useCallback(
-    (text: string, rate = 1) => {
+    (text: string, rate = speechRate) => {
       if (typeof window === "undefined" || !("speechSynthesis" in window)) {
         return;
       }
@@ -129,11 +203,34 @@ export default function CookingMode({
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = isArabic ? "ar-SA" : "en-US";
       utterance.rate = rate;
+      utterance.pitch = isArabic ? 1.08 : 1.12;
+
+      const voice = selectBestVoice(speechVoices);
+
+      if (voice) {
+        utterance.voice = voice;
+      }
 
       window.speechSynthesis.speak(utterance);
     },
-    [isArabic]
+    [isArabic, selectBestVoice, speechRate, speechVoices]
   );
+
+  const speakCurrentStep = useCallback(() => {
+    speak(instructions[currentStep]);
+  }, [currentStep, instructions, speak]);
+
+  useEffect(() => {
+    if (!isOpen) return;
+
+    speakCurrentStep();
+
+    return () => {
+      if (typeof window !== "undefined" && "speechSynthesis" in window) {
+        window.speechSynthesis.cancel();
+      }
+    };
+  }, [isOpen, currentStep, speakCurrentStep]);
 
   const handleVoiceCommand = useCallback(
     (rawCommand: string) => {
@@ -160,7 +257,34 @@ export default function CookingMode({
         command.includes("slower") ||
         /اقرأ ببطء|ببطء/.test(command)
       ) {
-        speak(instructions[currentStep], 0.7);
+        const newRate = Math.max(speechRate - 0.15, 0.55);
+        setSpeechRate(newRate);
+        speak(instructions[currentStep], newRate);
+        return;
+      }
+
+      if (
+        command.includes("read faster") ||
+        command.includes("faster") ||
+        /اقرأ أسرع|بسرعة|أسرع/.test(command)
+      ) {
+        const newRate = Math.min(speechRate + 0.15, 1.5);
+        setSpeechRate(newRate);
+        speak(instructions[currentStep], newRate);
+        return;
+      }
+
+      if (
+        command.includes("stop reading") ||
+        command.includes("stop speaking") ||
+        command === "stop" ||
+        /أوقف القراءة|توقف عن القراءة|أوقف الكلام|توقف/.test(command)
+      ) {
+        if (typeof window !== "undefined" && "speechSynthesis" in window) {
+          window.speechSynthesis.cancel();
+        }
+
+        setVoiceMessage(labels.stopped);
         return;
       }
 
@@ -254,7 +378,7 @@ export default function CookingMode({
         setVoiceMessage("I didn't understand that command");
       }
     },
-    [currentStep, instructions, isArabic, speak]
+    [currentStep, instructions, isArabic, labels.stopped, speak, speechRate]
   );
 
   const startVoiceControl = useCallback(() => {
