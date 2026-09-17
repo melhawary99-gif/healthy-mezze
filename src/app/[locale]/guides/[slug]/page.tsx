@@ -36,74 +36,94 @@ const guides: Record<string, Guide> = {
     en: {
       title: "Egyptian Cuisine Guide",
       intro:
-        "Egyptian cuisine is shaped by the Nile, agriculture, grains, legumes, vegetables, aromatic spices, and a strong tradition of shared meals. Its everyday cooking shows how simple, affordable ingredients can become deeply satisfying food.",
+        "Egyptian home cooking is built around familiar ingredients, generous shared meals, and practical ways of turning beans, lentils, grains, vegetables, herbs, and spices into satisfying food. At Healthy Mezze, we approach these dishes as food we can actually make at home or in our café, while respecting the traditions behind them and making practical adjustments when needed.",
       sections: [
         {
-          title: "The foundation of Egyptian cooking",
+          title: "The foundation of Egyptian home cooking",
           body:
-            "Beans, lentils, rice, wheat, vegetables, herbs, garlic, onions, cumin, coriander, lemon, and cooking oils appear across many everyday dishes. Ful medames is a classic example: humble fava beans are seasoned with ingredients such as cumin, garlic, lemon, and oil and served with fresh vegetables and bread.",
+            "Beans, lentils, rice, wheat, vegetables, herbs, garlic, onions, cumin, coriander, lemon, vinegar, and cooking oils appear throughout Egyptian cooking. These ingredients are not complicated, but the way they are combined creates layers of flavor. Ful medames is a good example: humble fava beans become a complete-feeling meal when seasoned with cumin, garlic, lemon, and oil and served with vegetables and bread.",
         },
         {
-          title: "The Nile and agricultural traditions",
+          title: "Food for the everyday table",
           body:
-            "Egypt's long agricultural history and dependence on the Nile have strongly influenced what people cook and eat. Grains, legumes, vegetables, herbs, and seasonal produce have remained important because they are practical ingredients that can feed families while adapting to local availability.",
+            "Egyptian food is not limited to famous dishes such as koshari. Everyday meals can include beans and legumes, rice dishes, vegetable preparations, soups, grilled foods, breads, pickles, desserts, and drinks. What is placed on the table often depends on what is available, what the family enjoys, and how much time there is to prepare the meal.",
         },
         {
-          title: "Beyond koshari",
+          title: "How Egyptian flavors are built",
           body:
-            "Koshari is internationally recognizable, but Egyptian food is much broader. Breakfasts, vegetable dishes, soups, rice preparations, grilled foods, breads, pickles, desserts, and drinks all contribute to the cuisine. Many meals combine starches or legumes with vegetables, herbs, acidity, and spices.",
+            "Garlic, onion, cumin, coriander, lemon, vinegar, fresh herbs, and chili are useful flavor builders. Browning onions can add depth, gently cooking garlic and other aromatics can soften their sharpness, and adding lemon or vinegar at the right stage can bring a dish into balance. We find that tasting as we cook is one of the simplest ways to understand whether the flavors are working together.",
         },
         {
-          title: "Common Egyptian flavor builders",
+          title: "A practical way to balance a dish",
           body:
-            "Garlic, onion, cumin, coriander, lemon, vinegar, fresh herbs, and chili can change the character of a dish without requiring complicated techniques. Browning onions, gently cooking aromatics, and adding acidity at the right stage are useful habits in Egyptian home cooking.",
+            "When we cook, we do not rely only on a fixed amount of seasoning. We taste along the way and adjust according to the ingredients and the final balance we want. A little extra lemon may brighten a dish, more spice can add heat, and a small adjustment of salt can bring other flavors forward. The same idea works with salad dressings: mix them, taste them, and then decide whether they need more salt, acidity, or another adjustment.",
         },
         {
-          title: "A practical healthy approach",
+          title: "Traditional cooking and practical adaptations",
           body:
-            "Making Egyptian food more balanced does not require removing its identity. Useful choices include increasing vegetables and legumes, using sensible amounts of oil, balancing rice or bread with protein and vegetables, and keeping fried toppings or rich sauces portion-aware.",
+            "Traditional recipes naturally change as families move between regions and generations, especially when certain ingredients or preparation methods are not available. We treat healthier and more practical adaptations as part of our cooking approach rather than pretending that every version is identical to an older preparation. Depending on the dish, this can mean using the oven instead of frying, increasing vegetables or legumes, adjusting the amount of oil, or offering a practical ingredient substitute.",
         },
         {
-          title: "Recipes worth exploring",
+          title: "Cooking with what you have",
           body:
-            "Start with ful medames, Egyptian koshari, lentil soup, vegetable dishes, grilled foods, and traditional Egyptian drinks. Pay attention to how each recipe uses legumes, grains, herbs, acidity, and spices so you learn techniques rather than memorizing isolated recipes.",
+            "One of the useful lessons from home cooking is that a missing ingredient does not always mean the recipe has to stop. Some substitutions work well, while others change the character of the dish. We encourage checking the individual recipe for suggested alternatives and using the What If and Recipe Rescue sections when available. The goal is to help you understand the role of an ingredient before deciding how to change it.",
+        },
+        {
+          title: "How we approach cooking proteins",
+          body:
+            "For chicken and other proteins, flavor is only part of the process. We also pay attention to whether the food is fully cooked. When preparing something in the oven, for example, we may remove the tray and cut into a small piece to check the doneness rather than relying on time alone. Cooking times can vary with the size of the pieces, the equipment, and the starting temperature of the ingredients.",
+        },
+        {
+          title: "Where to start exploring Egyptian food",
+          body:
+            "A useful starting point is ful medames, Egyptian koshari, lentil soup, vegetable dishes, grilled foods, and Egyptian drinks. As you cook, pay attention to how legumes, grains, vegetables, herbs, acidity, and spices work together. Learning those combinations makes it easier to understand Egyptian food and to adapt individual dishes to your own kitchen.",
         },
       ],
     },
     ar: {
       title: "دليل المطبخ المصري",
       intro:
-        "يتشكل المطبخ المصري بتأثير النيل والزراعة والحبوب والبقوليات والخضروات والتوابل العطرية وثقافة مشاركة الطعام. ويُظهر الطبخ اليومي كيف يمكن للمكونات البسيطة والمتاحة أن تتحول إلى أطعمة مشبعة وغنية بالنكهة.",
+        "يقوم الطبخ المصري المنزلي على مكونات مألوفة ووجبات تُشارك حول المائدة وطرق عملية لتحويل الفول والعدس والحبوب والخضروات والأعشاب والتوابل إلى أطعمة مشبعة وغنية بالنكهة. في Healthy Mezze نتعامل مع هذه الأطباق كطعام يمكننا تحضيره فعلًا في المنزل أو في مقهانا، مع احترام التقاليد التي تقف وراءها وإجراء تعديلات عملية عند الحاجة.",
       sections: [
         {
-          title: "أساسيات الطبخ المصري",
+          title: "أساسيات الطبخ المصري المنزلي",
           body:
-            "تظهر الفول والعدس والأرز والقمح والخضروات والأعشاب والثوم والبصل والكمون والكزبرة والليمون والزيوت في الكثير من الأطباق اليومية. ويُعد الفول المدمس مثالاً واضحًا، حيث تتبل حبوب الفول بالكمون والثوم والليمون والزيت وتقدم مع الخضروات والخبز.",
+            "يظهر الفول والعدس والأرز والقمح والخضروات والأعشاب والثوم والبصل والكمون والكزبرة والليمون والخل وزيوت الطهي في الكثير من الأطباق المصرية. هذه المكونات بسيطة في حد ذاتها، لكن طريقة جمعها تمنح الطعام طبقات من النكهة. ويُعد الفول المدمس مثالًا واضحًا؛ فحبوب الفول البسيطة تصبح وجبة مشبعة عند تتبيلها بالكمون والثوم والليمون والزيت وتقديمها مع الخضروات والخبز.",
         },
         {
-          title: "النيل والتقاليد الزراعية",
+          title: "طعام المائدة اليومية",
           body:
-            "أثر تاريخ الزراعة الطويل واعتماد مصر على النيل في نوعية الطعام الذي يُحضّر يوميًا. وظلت الحبوب والبقوليات والخضروات والأعشاب والمحاصيل الموسمية مكونات مهمة لأنها عملية ومتاحة ويمكنها إطعام العائلة مع اختلاف ما يتوفر من موسم إلى آخر.",
+            "لا يقتصر المطبخ المصري على الأطباق المعروفة مثل الكشري. يمكن أن تشمل الوجبات اليومية الفول والبقوليات وأطباق الأرز والخضروات والشوربات والمشاوي والخبز والمخللات والحلويات والمشروبات. وما يوضع على المائدة يعتمد في كثير من الأحيان على المكونات المتوفرة وما تحبه العائلة والوقت المتاح لتحضير الطعام.",
         },
         {
-          title: "المطبخ المصري أكبر من الكشري",
+          title: "كيف نبني النكهة المصرية",
           body:
-            "الكشري معروف عالميًا، لكن المطبخ المصري أوسع بكثير. هناك أطباق الفطور والخضروات والشوربات وأطباق الأرز والمشاوي والخبز والمخللات والحلويات والمشروبات. وغالبًا ما تجمع الوجبة بين الحبوب أو البقوليات والخضروات والأعشاب والحموضة والتوابل.",
+            "يُعد الثوم والبصل والكمون والكزبرة والليمون والخل والأعشاب الطازجة والفلفل الحار من أهم العناصر التي تساعد على بناء النكهة. يمكن لتحمير البصل أن يضيف عمقًا، كما أن طهي الثوم والمكونات العطرية بهدوء يساعد على تخفيف حدتها، بينما يمكن لإضافة الليمون أو الخل في الوقت المناسب أن تحقق توازنًا أفضل. ونجد أن تذوق الطعام أثناء الطبخ من أبسط الطرق لمعرفة ما إذا كانت النكهات منسجمة.",
         },
         {
-          title: "مكونات بناء النكهة",
+          title: "طريقة عملية لموازنة النكهة",
           body:
-            "يمكن للثوم والبصل والكمون والكزبرة والليمون والخل والأعشاب الطازجة والفلفل الحار أن تغير شخصية الطبق دون الحاجة إلى تقنيات معقدة. كما أن تحمير البصل وطهي المكونات العطرية بهدوء وإضافة الحموضة في الوقت المناسب من المهارات المفيدة.",
+            "عندما نطبخ، لا نعتمد دائمًا على كمية ثابتة من التوابل دون تذوق. نتذوق الطعام أثناء التحضير ونعدّل النكهة حسب المكونات والتوازن الذي نريده في النهاية. قد تضيف كمية إضافية من الليمون إشراقًا للطبق، بينما يمكن للمزيد من التوابل أن يضيف حرارة، وقد تساعد زيادة بسيطة في الملح على إبراز النكهات الأخرى. وينطبق الأمر نفسه على تتبيلات السلطة: نخلطها ونتذوقها ثم نقرر ما إذا كانت تحتاج إلى مزيد من الملح أو الحموضة أو أي تعديل آخر.",
         },
         {
-          title: "كيف نجعل الطبخ المصري أكثر توازنًا",
+          title: "الطبخ التقليدي والتعديلات العملية",
           body:
-            "لا يحتاج الطبخ المصري المتوازن إلى فقدان شخصيته. يمكن زيادة الخضروات والبقوليات، واستخدام الزيت بكمية مناسبة، وموازنة الأرز أو الخبز مع البروتين والخضروات، والانتباه إلى كميات الإضافات المقلية والصلصات الغنية.",
+            "تتغير الوصفات التقليدية طبيعيًا مع انتقال العائلات بين المناطق ومع مرور الأجيال، خاصة عندما لا تتوفر بعض المكونات أو طرق التحضير. نحن نتعامل مع التعديلات الصحية والعملية باعتبارها جزءًا من أسلوب الطبخ، من دون الادعاء بأن كل نسخة مطابقة لوصفة أقدم. وبحسب الطبق، قد يعني ذلك استخدام الفرن بدلًا من القلي، أو زيادة الخضروات والبقوليات، أو تعديل كمية الزيت، أو تقديم بديل عملي لأحد المكونات.",
         },
         {
-          title: "وصفات تستحق الاستكشاف",
+          title: "الطبخ بالمكونات المتوفرة لديك",
           body:
-            "ابدأ بالفول المدمس والكشري وشوربة العدس وأطباق الخضروات والمشاوي والمشروبات المصرية التقليدية. وحاول ملاحظة طريقة استخدام البقوليات والحبوب والأعشاب والحموضة والتوابل حتى تتعلم الأسلوب وليس مجرد حفظ الوصفات.",
+            "من الدروس المفيدة في الطبخ المنزلي أن عدم توفر أحد المكونات لا يعني دائمًا توقف الوصفة. بعض البدائل تعمل بشكل جيد، بينما قد تغيّر بدائل أخرى شخصية الطبق. لذلك نشجعك على مراجعة البدائل المقترحة في كل وصفة واستخدام أقسام What If وRecipe Rescue عندما تكون متاحة. الهدف هو مساعدتك على فهم دور المكون قبل أن تقرر كيفية تغييره.",
+        },
+        {
+          title: "كيف نتعامل مع طهي البروتينات",
+          body:
+            "عند تحضير الدجاج والبروتينات الأخرى، لا نهتم بالنكهة فقط، بل ننتبه أيضًا إلى اكتمال النضج. عند تحضير الطعام في الفرن مثلًا، قد نخرج الصينية ونقطع جزءًا صغيرًا للتحقق من النضج بدلًا من الاعتماد على الوقت وحده. فقد تختلف مدة الطهي حسب حجم القطع والمعدات ودرجة حرارة المكونات عند بدء التحضير.",
+        },
+        {
+          title: "من أين تبدأ استكشاف الطعام المصري؟",
+          body:
+            "يمكنك البدء بالفول المدمس والكشري وشوربة العدس وأطباق الخضروات والمشاوي والمشروبات المصرية. وأثناء الطبخ، حاول ملاحظة طريقة اجتماع البقوليات والحبوب والخضروات والأعشاب والحموضة والتوابل. فهم هذه التركيبات يجعل من السهل التعرف على أسلوب الطبخ المصري وتكييف الأطباق المختلفة مع مطبخك الخاص.",
         },
       ],
     },
