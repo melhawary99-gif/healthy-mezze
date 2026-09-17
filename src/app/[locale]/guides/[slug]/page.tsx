@@ -133,79 +133,98 @@ const guides: Record<string, Guide> = {
     en: {
       title: "Lebanese Cuisine Guide",
       intro:
-        "Lebanese cuisine is built around freshness, herbs, grains, legumes, vegetables, olive oil, lemon, garlic, sesame, and a tradition of sharing many dishes around one table.",
+        "Lebanese home cooking brings together fresh vegetables, legumes, grains, herbs, spices, olive oil, tahini, yogurt, and bright citrus flavors. At Healthy Mezze, we approach Lebanese food as something meant to be shared, enjoyed at home, and adapted thoughtfully when ingredients, time, or personal preferences require a change.",
       sections: [
         {
-          title: "Freshness is central",
+          title: "The foundation of Lebanese home cooking",
           body:
-            "Parsley, mint, tomatoes, cucumber, lemon, garlic, olive oil, and seasonal vegetables appear repeatedly. These ingredients provide brightness and contrast, helping Lebanese meals feel generous without depending entirely on heavy sauces.",
+            "Vegetables, legumes, grains, herbs, olive oil, garlic, lemon, tahini, yogurt, and warm spices form an important part of Lebanese cooking. Many dishes begin with simple ingredients and become distinctive through seasoning, texture, and balance. Hummus, tabbouleh, fattoush, and mujaddara each show a different way of combining familiar ingredients into a satisfying dish.",
         },
         {
-          title: "The role of mezze",
+          title: "The Lebanese table is built for sharing",
           body:
-            "Mezze is a style of eating as much as a collection of dishes. Hummus, baba ghanoush, tabbouleh, fattoush, labneh, pickles, vegetables, bread, and other small plates can be served together so diners can build different combinations throughout the meal.",
+            "Lebanese meals often bring several dishes together rather than relying on one large centerpiece. Mezze can include salads, dips, vegetables, grains, breads, and other small dishes that people can share. This style of eating makes it easy to build a meal around what is available and what everyone at the table enjoys.",
         },
         {
-          title: "Staples worth knowing",
+          title: "Freshness and acidity matter",
           body:
-            "Tahini, bulgur, chickpeas, lentils, parsley, mint, sumac, za'atar, pomegranate molasses, garlic, lemon, and olive oil form a useful Lebanese pantry. Learning these ingredients makes many recipes easier to understand and adapt.",
+            "Lemon, fresh herbs, garlic, olive oil, and vegetables help give Lebanese dishes their recognizable freshness. Acidity can brighten rich ingredients such as tahini or yogurt, while fresh herbs can add a lighter contrast to grains and legumes. We like to taste as we cook because the amount of lemon, salt, garlic, or herbs that works best can depend on the ingredients themselves.",
         },
         {
-          title: "How flavor is layered",
+          title: "How we balance Lebanese flavors",
           body:
-            "Lebanese cooking often builds contrast rather than relying on one dominant seasoning. Creamy tahini or yogurt can be balanced with lemon, herbs add freshness, sumac adds acidity, and toasted spices can add warmth. Learning to combine these roles is more useful than memorizing spice amounts.",
+            "When preparing a dressing, dip, or cooked dish, we do not treat the written measurements as the only possible final answer. We taste the mixture and adjust it according to the balance we want. A little more lemon can add brightness, additional salt can bring other flavors forward, and extra herbs or spice can change the character of the dish. The goal is a balanced plate rather than one ingredient overpowering everything else.",
         },
         {
-          title: "Healthy without losing character",
+          title: "Tahini, yogurt, and olive oil",
           body:
-            "A balanced Lebanese table can naturally include vegetables, legumes, herbs, whole grains, fermented dairy, and healthy fats. The goal is not to turn traditional dishes into diet food, but to preserve their defining flavors while building a varied meal.",
+            "Tahini and yogurt are useful foundations for many Lebanese-style preparations because they provide creamy texture and pair well with lemon, garlic, herbs, and spices. Olive oil adds richness and is often used both during preparation and as a finishing ingredient. When working with tahini, adding liquid gradually and tasting as you go can help you reach the texture and acidity you prefer.",
         },
         {
-          title: "Where to begin",
+          title: "Traditional recipes and modern adaptations",
           body:
-            "A useful starting set includes hummus, tabbouleh, fattoush, lentil dishes, grilled vegetables, chicken or fish, and simple tahini sauces. These dishes introduce many of the ingredients and techniques that appear throughout Lebanese cooking.",
+            "Lebanese recipes have been prepared across generations and naturally vary between families and regions. Ingredients, proportions, cooking methods, and serving styles can change depending on what is available and how a family cooks. At Healthy Mezze, we distinguish traditional preparations from healthier or more practical adaptations, such as using the oven instead of frying, adjusting oil, increasing vegetables or legumes, or offering ingredient substitutions.",
+        },
+        {
+          title: "Making Lebanese food practical at home",
+          body:
+            "A missing ingredient does not always mean you have to abandon a recipe. Some substitutions preserve the main character of a dish, while others can noticeably change its flavor or texture. We recommend checking the individual recipe for suggested alternatives and using the What If and Recipe Rescue sections when available. Understanding what an ingredient contributes makes it easier to decide whether a substitution will work for your meal.",
+        },
+        {
+          title: "Where to start exploring Lebanese food",
+          body:
+            "Start with familiar dishes such as hummus, tabbouleh, fattoush, baba ganoush, mujaddara, and grilled dishes. Pay attention to the relationship between fresh herbs, lemon, garlic, olive oil, tahini, yogurt, grains, and legumes. Once you understand those combinations, it becomes easier to explore more Lebanese dishes and adjust recipes confidently in your own kitchen.",
         },
       ],
     },
     ar: {
       title: "دليل المطبخ اللبناني",
       intro:
-        "يقوم المطبخ اللبناني على الطزاجة والأعشاب والحبوب والبقوليات والخضروات وزيت الزيتون والليمون والثوم والسمسم، وعلى تقليد مشاركة العديد من الأطباق حول مائدة واحدة.",
+        "يجمع الطبخ اللبناني المنزلي بين الخضروات الطازجة والبقوليات والحبوب والأعشاب والتوابل وزيت الزيتون والطحينة والزبادي والنكهات الحمضية المنعشة. في Healthy Mezze نتعامل مع الطعام اللبناني كطعام يُحضّر للمشاركة والاستمتاع به في المنزل، مع إجراء تعديلات مدروسة عندما تتطلب المكونات المتاحة أو الوقت أو التفضيلات الشخصية ذلك.",
       sections: [
         {
-          title: "الطزاجة عنصر أساسي",
+          title: "أساسيات الطبخ اللبناني المنزلي",
           body:
-            "يتكرر استخدام البقدونس والنعناع والطماطم والخيار والليمون والثوم وزيت الزيتون والخضروات الموسمية. تمنح هذه المكونات الطعام حيوية وتوازنًا من دون الاعتماد دائمًا على الصلصات الثقيلة.",
+            "تشكّل الخضروات والبقوليات والحبوب والأعشاب وزيت الزيتون والثوم والليمون والطحينة والزبادي والتوابل الدافئة جزءًا مهمًا من الطبخ اللبناني. تبدأ الكثير من الأطباق بمكونات بسيطة ثم تتميز من خلال التتبيل والقوام والتوازن. ويُظهر الحمص والتبولة والفتوش والمجدرة طرقًا مختلفة لجمع مكونات مألوفة في أطباق مشبعة وغنية بالنكهة.",
         },
         {
-          title: "دور المازة",
+          title: "المائدة اللبنانية مصممة للمشاركة",
           body:
-            "المازة ليست مجرد مجموعة أطباق صغيرة، بل أسلوب في تناول الطعام. يمكن تقديم الحمص والمتبل والتبولة والفتوش واللبنة والمخللات والخضروات والخبز معًا، ليصنع كل شخص تركيبته الخاصة أثناء الوجبة.",
+            "تجمع الوجبات اللبنانية في كثير من الأحيان عدة أطباق معًا بدلًا من الاعتماد على طبق رئيسي واحد كبير. ويمكن أن تشمل المازات السلطات والغموس والخضروات والحبوب والخبز وأطباقًا صغيرة أخرى يتشاركها الجميع. هذا الأسلوب يجعل من السهل بناء وجبة حسب المكونات المتوفرة وما يستمتع به أفراد المائدة.",
         },
         {
-          title: "مكونات أساسية تستحق المعرفة",
+          title: "أهمية الطزاجة والحموضة",
           body:
-            "الطحينة والبرغل والحمص والعدس والبقدونس والنعناع والسماق والزعتر ودبس الرمان والثوم والليمون وزيت الزيتون تشكل أساسًا مهمًا في المطبخ اللبناني. معرفة هذه المكونات تجعل فهم الوصفات وتعديلها أسهل.",
+            "يساعد الليمون والأعشاب الطازجة والثوم وزيت الزيتون والخضروات على منح الأطباق اللبنانية نكهتها المنعشة. ويمكن للحموضة أن تضيف إشراقًا إلى المكونات الغنية مثل الطحينة أو الزبادي، بينما تضيف الأعشاب الطازجة تباينًا خفيفًا مع الحبوب والبقوليات. ونحب أن نتذوق أثناء الطبخ لأن كمية الليمون أو الملح أو الثوم أو الأعشاب المناسبة قد تختلف حسب المكونات نفسها.",
         },
         {
-          title: "كيف تتدرج النكهات",
+          title: "كيف نوازن النكهات اللبنانية",
           body:
-            "يعتمد الطبخ اللبناني كثيرًا على التباين بدل الاعتماد على نكهة واحدة قوية. يمكن موازنة الطحينة أو اللبن بالليمون، وإضافة الأعشاب للنضارة والسماق للحموضة والتوابل المحمصة للدفء. فهم أدوار هذه المكونات أهم من حفظ كميات ثابتة فقط.",
+            "عند تحضير تتبيلة أو غموس أو طبق مطبوخ، لا نتعامل مع المقادير المكتوبة باعتبارها النتيجة النهائية الوحيدة الممكنة. نتذوق الخليط ونعدّله حسب التوازن الذي نريده. قد تضيف كمية إضافية من الليمون إشراقًا، بينما يمكن لمزيد من الملح أن يساعد على إبراز النكهات الأخرى، كما يمكن للأعشاب أو التوابل الإضافية أن تغير شخصية الطبق. الهدف هو الوصول إلى طبق متوازن دون أن تطغى نكهة مكون واحد على باقي المكونات.",
         },
         {
-          title: "الطبخ الصحي من دون فقدان الهوية",
+          title: "الطحينة والزبادي وزيت الزيتون",
           body:
-            "يمكن لمائدة لبنانية متوازنة أن تجمع الخضروات والبقوليات والأعشاب والحبوب الكاملة ومنتجات الألبان والدهون الصحية. الهدف ليس تحويل الأطباق التقليدية إلى طعام حمية، بل الحفاظ على نكهتها ضمن وجبة متنوعة.",
+            "تُعد الطحينة والزبادي من المكونات المفيدة في العديد من التحضيرات على الطريقة اللبنانية، لأنهما يمنحان قوامًا كريميًا ويتوافقان جيدًا مع الليمون والثوم والأعشاب والتوابل. ويضيف زيت الزيتون غنىً إلى الطعام ويُستخدم أثناء التحضير أو كلمسة نهائية. وعند استخدام الطحينة، يمكن إضافة السائل تدريجيًا مع التذوق للوصول إلى القوام ودرجة الحموضة التي تفضلها.",
         },
         {
-          title: "من أين تبدأ",
+          title: "الوصفات التقليدية والتعديلات الحديثة",
           body:
-            "يمكن البدء بالحمص والتبولة والفتوش وأطباق العدس والخضروات المشوية والدجاج أو السمك وصلصات الطحينة البسيطة. وتقدم هذه المجموعة مدخلًا عمليًا إلى كثير من المكونات والتقنيات المتكررة في الطبخ اللبناني.",
+            "توارثت العائلات الوصفات اللبنانية عبر أجيال، ولذلك تختلف الوصفات طبيعيًا بين العائلات والمناطق. وقد تتغير المكونات والنسب وطرق الطهي وأساليب التقديم حسب المتوفر وطريقة الطبخ في كل منزل. في Healthy Mezze نحرص على التمييز بين التحضير التقليدي والتعديلات الصحية أو العملية، مثل استخدام الفرن بدلًا من القلي أو تعديل كمية الزيت أو زيادة الخضروات والبقوليات أو تقديم بدائل لبعض المكونات.",
+        },
+        {
+          title: "جعل الطعام اللبناني عمليًا في المنزل",
+          body:
+            "عدم توفر أحد المكونات لا يعني دائمًا ضرورة التخلي عن الوصفة. بعض البدائل تحافظ على الشخصية الأساسية للطبق، بينما قد تغير بدائل أخرى النكهة أو القوام بشكل واضح. ننصحك بمراجعة البدائل المقترحة في كل وصفة واستخدام أقسام What If وRecipe Rescue عندما تكون متاحة. وفهم الدور الذي يؤديه المكون يجعل من الأسهل تحديد ما إذا كان البديل مناسبًا لوجبتك.",
+        },
+        {
+          title: "من أين تبدأ استكشاف الطعام اللبناني؟",
+          body:
+            "ابدأ بأطباق معروفة مثل الحمص والتبولة والفتوش وبابا غنوج والمجدرة والأطباق المشوية. انتبه إلى العلاقة بين الأعشاب الطازجة والليمون والثوم وزيت الزيتون والطحينة والزبادي والحبوب والبقوليات. وعندما تفهم هذه التركيبات، يصبح من الأسهل استكشاف المزيد من الأطباق اللبنانية وتعديل الوصفات بثقة في مطبخك.",
         },
       ],
     },
   },
-
   "eastern-mediterranean-food-guide": {
     en: {
       title: "Eastern Mediterranean Food Guide",
