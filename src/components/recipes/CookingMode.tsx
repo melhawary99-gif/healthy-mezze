@@ -105,9 +105,7 @@ export default function CookingMode({
   useEffect(() => {
     if (typeof window === "undefined") return;
 
-    setVoiceSupported(
-      Boolean(window.SpeechRecognition || window.webkitSpeechRecognition)
-    );
+    setVoiceSupported(Boolean(window.SpeechRecognition || window.webkitSpeechRecognition));
 
     if (!("speechSynthesis" in window)) return;
 
@@ -140,9 +138,7 @@ export default function CookingMode({
   }, [isOpen]);
 
   const goNext = useCallback(() => {
-    setCurrentStep((step) =>
-      Math.min(step + 1, instructions.length - 1)
-    );
+    setCurrentStep((step) => Math.min(step + 1, instructions.length - 1));
   }, [instructions.length]);
 
   const goPrevious = useCallback(() => {
@@ -160,15 +156,7 @@ export default function CookingMode({
       if (!languageVoices.length) return undefined;
 
       const preferredNames = isArabic
-        ? [
-            "female",
-            "zira",
-            "sahar",
-            "laila",
-            "hoda",
-            "maged",
-            "google arabic",
-          ]
+        ? ["female", "zira", "sahar", "laila", "hoda", "maged", "google arabic"]
         : [
             "female",
             "samantha",
@@ -256,8 +244,7 @@ export default function CookingMode({
         utterance.voice = voice;
       }
 
-      const isCancelled = () =>
-        speechStoppedRef.current || speechId !== speechIdRef.current;
+      const isCancelled = () => speechStoppedRef.current || speechId !== speechIdRef.current;
 
       utterance.onstart = () => {
         if (isCancelled()) {
@@ -292,19 +279,13 @@ export default function CookingMode({
 
   const moveToStep = useCallback(
     (targetStep: number) => {
-      const target = Math.max(
-        0,
-        Math.min(targetStep, instructions.length - 1)
-      );
+      const target = Math.max(0, Math.min(targetStep, instructions.length - 1));
 
       currentStepRef.current = target;
       speechStoppedRef.current = true;
       speechIdRef.current += 1;
 
-      if (
-        typeof window !== "undefined" &&
-        "speechSynthesis" in window
-      ) {
+      if (typeof window !== "undefined" && "speechSynthesis" in window) {
         window.speechSynthesis.cancel();
       }
 
@@ -351,7 +332,10 @@ export default function CookingMode({
       }
 
       if (command === "scroll up" || command === "scroll higher" || command === "go up") {
-        mainRef.current?.scrollBy({ top: -(mainRef.current.clientHeight * 0.7), behavior: "smooth" });
+        mainRef.current?.scrollBy({
+          top: -(mainRef.current.clientHeight * 0.7),
+          behavior: "smooth",
+        });
         setVoiceMessage("Scrolling up");
         return;
       }
@@ -371,18 +355,13 @@ export default function CookingMode({
         speechStoppedRef.current = false;
         speechIdRef.current += 1;
 
-        if (
-          typeof window !== "undefined" &&
-          "speechSynthesis" in window
-        ) {
+        if (typeof window !== "undefined" && "speechSynthesis" in window) {
           window.speechSynthesis.cancel();
         }
 
         speak(instructions[step], speechRateRef.current);
 
-        setVoiceMessage(
-          arabic ? "أقرأ الخطوة الحالية" : "Reading current step"
-        );
+        setVoiceMessage(arabic ? "أقرأ الخطوة الحالية" : "Reading current step");
 
         return;
       }
@@ -402,15 +381,11 @@ export default function CookingMode({
         command === "stop talking" ||
         command === "be quiet" ||
         command === "quiet" ||
-        /^(أوقف|توقف|اسكت|كفى|توقف عن القراءة|أوقف القراءة|أوقف الصوت)$/.test(
-          command
-        )
+        /^(أوقف|توقف|اسكت|كفى|توقف عن القراءة|أوقف القراءة|أوقف الصوت)$/.test(command)
       ) {
         stopSpeaking();
 
-        setVoiceMessage(
-          arabic ? "تم إيقاف القراءة" : "Reading stopped"
-        );
+        setVoiceMessage(arabic ? "تم إيقاف القراءة" : "Reading stopped");
 
         return;
       }
@@ -454,20 +429,13 @@ export default function CookingMode({
         speechStoppedRef.current = false;
         speechIdRef.current += 1;
 
-        if (
-          typeof window !== "undefined" &&
-          "speechSynthesis" in window
-        ) {
+        if (typeof window !== "undefined" && "speechSynthesis" in window) {
           window.speechSynthesis.cancel();
         }
 
         speak(instructions[step], speechRateRef.current);
 
-        setVoiceMessage(
-          arabic
-            ? "أعيد الخطوة الحالية"
-            : "Repeating current step"
-        );
+        setVoiceMessage(arabic ? "أعيد الخطوة الحالية" : "Repeating current step");
 
         return;
       }
@@ -483,29 +451,20 @@ export default function CookingMode({
         command === "tell me what's next" ||
         command === "tell me what is next" ||
         command === "what comes next" ||
-        /^(ما الخطوة التالية|ما هي الخطوة التالية|ماذا بعد)$/.test(
-          command
-        )
+        /^(ما الخطوة التالية|ما هي الخطوة التالية|ماذا بعد)$/.test(command)
       ) {
         const next = Math.min(step + 1, instructions.length - 1);
 
         speechStoppedRef.current = false;
         speechIdRef.current += 1;
 
-        if (
-          typeof window !== "undefined" &&
-          "speechSynthesis" in window
-        ) {
+        if (typeof window !== "undefined" && "speechSynthesis" in window) {
           window.speechSynthesis.cancel();
         }
 
         speak(instructions[next], speechRateRef.current);
 
-        setVoiceMessage(
-          arabic
-            ? `الخطوة التالية هي ${next + 1}`
-            : `The next step is ${next + 1}`
-        );
+        setVoiceMessage(arabic ? `الخطوة التالية هي ${next + 1}` : `The next step is ${next + 1}`);
 
         return;
       }
@@ -523,26 +482,18 @@ export default function CookingMode({
         speechStoppedRef.current = false;
         speechIdRef.current += 1;
 
-        if (
-          typeof window !== "undefined" &&
-          "speechSynthesis" in window
-        ) {
+        if (typeof window !== "undefined" && "speechSynthesis" in window) {
           window.speechSynthesis.cancel();
         }
 
-        const newRate = Math.max(
-          0.55,
-          speechRateRef.current - 0.15
-        );
+        const newRate = Math.max(0.55, speechRateRef.current - 0.15);
 
         speechRateRef.current = newRate;
         setSpeechRate(newRate);
 
         speak(instructions[step], newRate);
 
-        setVoiceMessage(
-          arabic ? "سأقرأ ببطء أكثر" : "Reading slower"
-        );
+        setVoiceMessage(arabic ? "سأقرأ ببطء أكثر" : "Reading slower");
 
         return;
       }
@@ -560,26 +511,18 @@ export default function CookingMode({
         speechStoppedRef.current = false;
         speechIdRef.current += 1;
 
-        if (
-          typeof window !== "undefined" &&
-          "speechSynthesis" in window
-        ) {
+        if (typeof window !== "undefined" && "speechSynthesis" in window) {
           window.speechSynthesis.cancel();
         }
 
-        const newRate = Math.min(
-          1.5,
-          speechRateRef.current + 0.15
-        );
+        const newRate = Math.min(1.5, speechRateRef.current + 0.15);
 
         speechRateRef.current = newRate;
         setSpeechRate(newRate);
 
         speak(instructions[step], newRate);
 
-        setVoiceMessage(
-          arabic ? "سأقرأ بسرعة أكبر" : "Reading faster"
-        );
+        setVoiceMessage(arabic ? "سأقرأ بسرعة أكبر" : "Reading faster");
 
         return;
       }
@@ -638,15 +581,11 @@ export default function CookingMode({
           setCurrentStep(requestedNumber - 1);
 
           setVoiceMessage(
-            arabic
-              ? `الانتقال إلى الخطوة ${requestedNumber}`
-              : `Going to step ${requestedNumber}`
+            arabic ? `الانتقال إلى الخطوة ${requestedNumber}` : `Going to step ${requestedNumber}`
           );
         } else {
           setVoiceMessage(
-            arabic
-              ? `لا توجد خطوة رقم ${requestedNumber}`
-              : `There is no step ${requestedNumber}`
+            arabic ? `لا توجد خطوة رقم ${requestedNumber}` : `There is no step ${requestedNumber}`
           );
         }
 
@@ -670,22 +609,14 @@ export default function CookingMode({
         command === "go to the next step" ||
         command === "move to the next step" ||
         command === "take me to the next step" ||
-        /^(التالي|الخطوة التالية|انتقل للخطوة التالية|اذهب للخطوة التالية)$/.test(
-          command
-        )
+        /^(التالي|الخطوة التالية|انتقل للخطوة التالية|اذهب للخطوة التالية)$/.test(command)
       ) {
         if (step < instructions.length - 1) {
           moveToStep(step + 1);
 
-          setVoiceMessage(
-            arabic
-              ? `الخطوة ${step + 2}`
-              : `Step ${step + 2}`
-          );
+          setVoiceMessage(arabic ? `الخطوة ${step + 2}` : `Step ${step + 2}`);
         } else {
-          setVoiceMessage(
-            arabic ? "هذه آخر خطوة" : "This is the last step"
-          );
+          setVoiceMessage(arabic ? "هذه آخر خطوة" : "This is the last step");
         }
 
         return;
@@ -702,47 +633,28 @@ export default function CookingMode({
         command === "go back" ||
         command === "go to the previous step" ||
         command === "move to the previous step" ||
-        /^(السابق|الخطوة السابقة|ارجع|ارجع للخطوة السابقة)$/.test(
-          command
-        )
+        /^(السابق|الخطوة السابقة|ارجع|ارجع للخطوة السابقة)$/.test(command)
       ) {
         if (step > 0) {
           moveToStep(step - 1);
 
-          setVoiceMessage(
-            arabic
-              ? `الخطوة ${step}`
-              : `Step ${step}`
-          );
+          setVoiceMessage(arabic ? `الخطوة ${step}` : `Step ${step}`);
         } else {
-          setVoiceMessage(
-            arabic ? "هذه أول خطوة" : "This is the first step"
-          );
+          setVoiceMessage(arabic ? "هذه أول خطوة" : "This is the first step");
         }
 
         return;
       }
 
-      setVoiceMessage(
-        arabic
-          ? "لم أفهم الأمر"
-          : "I didn't understand that command"
-      );
+      setVoiceMessage(arabic ? "لم أفهم الأمر" : "I didn't understand that command");
     },
-    [
-      instructions,
-      isArabic,
-      moveToStep,
-      speak,
-      stopSpeaking,
-    ]
+    [instructions, isArabic, moveToStep, speak, stopSpeaking]
   );
 
   const startVoiceControl = useCallback(() => {
     if (typeof window === "undefined") return;
 
-    const Recognition =
-      window.SpeechRecognition || window.webkitSpeechRecognition;
+    const Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
     if (!Recognition) {
       setVoiceSupported(false);
@@ -782,10 +694,7 @@ export default function CookingMode({
       };
 
       recognition.onerror = (event) => {
-        if (
-          event.error === "not-allowed" ||
-          event.error === "service-not-allowed"
-        ) {
+        if (event.error === "not-allowed" || event.error === "service-not-allowed") {
           shouldListenRef.current = false;
           setIsListening(false);
 
@@ -811,13 +720,16 @@ export default function CookingMode({
           window.clearTimeout(restartTimer);
         }
 
-        restartTimer = window.setTimeout(() => {
-          restartTimer = null;
+        restartTimer = window.setTimeout(
+          () => {
+            restartTimer = null;
 
-          if (shouldListenRef.current) {
-            listen();
-          }
-        }, receivedResult ? 350 : 600);
+            if (shouldListenRef.current) {
+              listen();
+            }
+          },
+          receivedResult ? 350 : 600
+        );
       };
 
       recognitionRef.current = recognition;
@@ -960,13 +872,9 @@ export default function CookingMode({
     >
       <header className="flex items-center justify-between border-b border-gray-200 px-5 py-4">
         <div className="min-w-0">
-          <p className="text-sm font-semibold text-emerald-600">
-            {labels.open}
-          </p>
+          <p className="text-sm font-semibold text-emerald-600">{labels.open}</p>
 
-          <h2 className="truncate text-lg font-bold text-gray-900">
-            {title}
-          </h2>
+          <h2 className="truncate text-lg font-bold text-gray-900">{title}</h2>
         </div>
 
         <button
@@ -981,7 +889,6 @@ export default function CookingMode({
 
       <main ref={mainRef} className="min-h-0 flex-1 overflow-y-auto px-6 py-8 sm:px-10">
         <div className="mx-auto grid w-full max-w-[1400px] items-start gap-6 lg:grid-cols-[260px_minmax(0,1fr)_260px]">
-
           <section className="order-2 rounded-2xl border border-gray-200 bg-white p-5 shadow-sm lg:order-1 lg:col-start-1">
             <div className="mb-4 flex items-center gap-3">
               <span className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-100 text-xl">
@@ -994,9 +901,7 @@ export default function CookingMode({
                 </h3>
 
                 <p className="text-xs text-gray-500">
-                  {isArabic
-                    ? "تحدث بشكل طبيعي أثناء الطبخ"
-                    : "Speak naturally while you cook"}
+                  {isArabic ? "تحدث بشكل طبيعي أثناء الطبخ" : "Speak naturally while you cook"}
                 </p>
               </div>
             </div>
@@ -1008,15 +913,33 @@ export default function CookingMode({
                 </h4>
 
                 <ul className="space-y-2 text-sm text-gray-700">
-                  <li><strong>“Next”</strong> — next step</li>
-                  <li><strong>“Back”</strong> — previous step</li>
-                  <li><strong>“Repeat”</strong> — repeat current step</li>
-                  <li><strong>“What’s next?”</strong> — hear the next step</li>
-                  <li><strong>“Go to step 4”</strong> — jump to a step</li>
-                  <li><strong>“Read slower”</strong> — slow speech</li>
-                  <li><strong>“Read faster”</strong> — speed up speech</li>
-                  <li><strong>“Stop reading”</strong> — stop speech</li>
-                  <li><strong>“Finish”</strong> — close cooking mode</li>
+                  <li>
+                    <strong>“Next”</strong> — next step
+                  </li>
+                  <li>
+                    <strong>“Back”</strong> — previous step
+                  </li>
+                  <li>
+                    <strong>“Repeat”</strong> — repeat current step
+                  </li>
+                  <li>
+                    <strong>“What’s next?”</strong> — hear the next step
+                  </li>
+                  <li>
+                    <strong>“Go to step 4”</strong> — jump to a step
+                  </li>
+                  <li>
+                    <strong>“Read slower”</strong> — slow speech
+                  </li>
+                  <li>
+                    <strong>“Read faster”</strong> — speed up speech
+                  </li>
+                  <li>
+                    <strong>“Stop reading”</strong> — stop speech
+                  </li>
+                  <li>
+                    <strong>“Finish”</strong> — close cooking mode
+                  </li>
                 </ul>
               </div>
 
@@ -1026,15 +949,33 @@ export default function CookingMode({
                 </h4>
 
                 <ul className="space-y-2 text-sm text-gray-700">
-                  <li><strong>“التالي”</strong> — الخطوة التالية</li>
-                  <li><strong>“السابق”</strong> — الخطوة السابقة</li>
-                  <li><strong>“كرر”</strong> — إعادة الخطوة الحالية</li>
-                  <li><strong>“ما الخطوة التالية؟”</strong> — سماع الخطوة التالية</li>
-                  <li><strong>“اذهب إلى الخطوة 4”</strong> — الانتقال إلى خطوة</li>
-                  <li><strong>“اقرأ ببطء”</strong> — إبطاء الصوت</li>
-                  <li><strong>“اقرأ بسرعة”</strong> — تسريع الصوت</li>
-                  <li><strong>“أوقف القراءة”</strong> — إيقاف الصوت</li>
-                  <li><strong>“إنهاء”</strong> — إغلاق وضع الطبخ</li>
+                  <li>
+                    <strong>“التالي”</strong> — الخطوة التالية
+                  </li>
+                  <li>
+                    <strong>“السابق”</strong> — الخطوة السابقة
+                  </li>
+                  <li>
+                    <strong>“كرر”</strong> — إعادة الخطوة الحالية
+                  </li>
+                  <li>
+                    <strong>“ما الخطوة التالية؟”</strong> — سماع الخطوة التالية
+                  </li>
+                  <li>
+                    <strong>“اذهب إلى الخطوة 4”</strong> — الانتقال إلى خطوة
+                  </li>
+                  <li>
+                    <strong>“اقرأ ببطء”</strong> — إبطاء الصوت
+                  </li>
+                  <li>
+                    <strong>“اقرأ بسرعة”</strong> — تسريع الصوت
+                  </li>
+                  <li>
+                    <strong>“أوقف القراءة”</strong> — إيقاف الصوت
+                  </li>
+                  <li>
+                    <strong>“إنهاء”</strong> — إغلاق وضع الطبخ
+                  </li>
                 </ul>
               </div>
             </div>
@@ -1058,30 +999,20 @@ export default function CookingMode({
                 <>
                   <button
                     type="button"
-                    onClick={
-                      isListening ? stopVoiceControl : startVoiceControl
-                    }
+                    onClick={isListening ? stopVoiceControl : startVoiceControl}
                     className={`inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-semibold text-white shadow-sm transition ${
-                      isListening
-                        ? "bg-red-600 hover:bg-red-700"
-                        : "bg-gray-900 hover:bg-gray-800"
+                      isListening ? "bg-red-600 hover:bg-red-700" : "bg-gray-900 hover:bg-gray-800"
                     }`}
                   >
-                    {isListening ? "🎙️" : "🎤"}{" "}
-                    {isListening ? labels.stopVoice : labels.startVoice}
+                    {isListening ? "🎙️" : "🎤"} {isListening ? labels.stopVoice : labels.startVoice}
                   </button>
 
-                  <p
-                    className="mt-3 min-h-5 text-sm text-gray-600"
-                    aria-live="polite"
-                  >
+                  <p className="mt-3 min-h-5 text-sm text-gray-600" aria-live="polite">
                     {isListening ? labels.listening : voiceMessage}
                   </p>
                 </>
               ) : (
-                <p className="text-sm text-gray-500">
-                  {labels.unsupported}
-                </p>
+                <p className="text-sm text-gray-500">{labels.unsupported}</p>
               )}
             </div>
 
@@ -1099,13 +1030,16 @@ export default function CookingMode({
                     <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-100 text-xs font-bold text-emerald-700">
                       {index + 1}
                     </span>
-                    <span className="leading-relaxed">{ingredient.amount ? `${ingredient.amount} ` : ""}{ingredient.unit ? `${ingredient.unit} ` : ""}{ingredient.name}{ingredient.note ? ` — ${ingredient.note}` : ""}</span>
+                    <span className="leading-relaxed">
+                      {ingredient.amount ? `${ingredient.amount} ` : ""}
+                      {ingredient.unit ? `${ingredient.unit} ` : ""}
+                      {ingredient.name}
+                      {ingredient.note ? ` — ${ingredient.note}` : ""}
+                    </span>
                   </li>
                 ))}
               </ul>
             </section>
-
-
 
             <div className="mt-8 flex items-center justify-between gap-4">
               <button
@@ -1144,10 +1078,7 @@ export default function CookingMode({
 
             <ul className={`space-y-3 text-sm text-gray-600 ${isArabic ? "text-right" : ""}`}>
               <li>
-                🎙️{" "}
-                {isArabic
-                  ? "اضغط على الميكروفون ثم تحدث."
-                  : "Tap the microphone, then speak."}
+                🎙️ {isArabic ? "اضغط على الميكروفون ثم تحدث." : "Tap the microphone, then speak."}
               </li>
 
               <li>
@@ -1179,7 +1110,6 @@ export default function CookingMode({
               </li>
             </ul>
           </aside>
-
         </div>
       </main>
     </div>
