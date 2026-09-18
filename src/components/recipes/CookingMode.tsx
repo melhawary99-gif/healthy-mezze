@@ -285,18 +285,6 @@ export default function CookingMode({
   const speakCurrentStep = useCallback(() => {
     const step = currentStepRef.current;
 
-      if (command === "scroll down" || command === "scroll lower" || command === "go down") {
-        mainRef.current?.scrollBy({ top: mainRef.current.clientHeight * 0.7, behavior: "smooth" });
-        setVoiceMessage("Scrolling down");
-        return;
-      }
-
-      if (command === "scroll up" || command === "scroll higher" || command === "go up") {
-        mainRef.current?.scrollBy({ top: -(mainRef.current.clientHeight * 0.7), behavior: "smooth" });
-        setVoiceMessage("Scrolling up");
-        return;
-      }
-
     if (speechStoppedRef.current) return;
 
     speak(instructions[step], speechRateRef.current);
