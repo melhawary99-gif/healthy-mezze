@@ -352,6 +352,15 @@ export default async function RecipePage({ params }: RecipePageProps) {
               <VisualStepsSection visualSteps={recipe.visualSteps} />
             )}
 
+            {/* Hands-Free Cooking Mode */}
+            <div className="my-8">
+              <CookingMode
+                title={recipe.title}
+                instructions={recipe.instructions}
+                locale={locale}
+              />
+            </div>
+
             {/* Make This Recipe Work for You */}
             {recipe.adaptations && <RecipeAdaptationsSection adaptations={recipe.adaptations} />}
 
