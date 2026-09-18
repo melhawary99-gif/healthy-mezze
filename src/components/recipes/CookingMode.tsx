@@ -4,6 +4,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 interface CookingModeProps {
   title: string;
+  ingredients: { name: string; amount?: string | number; unit?: string; note?: string }[];
   instructions: string[];
   locale: "en" | "ar";
 }
@@ -38,6 +39,7 @@ declare global {
 
 export default function CookingMode({
   title,
+  ingredients,
   instructions,
   locale,
 }: CookingModeProps) {
@@ -49,6 +51,7 @@ export default function CookingMode({
   const [voiceMessage, setVoiceMessage] = useState("");
   const [speechRate, setSpeechRate] = useState(1);
   const [speechVoices, setSpeechVoices] = useState<SpeechSynthesisVoice[]>([]);
+  const mainRef = useRef<HTMLElement | null>(null);
   const recognitionRef = useRef<SpeechRecognitionLike | null>(null);
   const shouldListenRef = useRef(false);
   const currentStepRef = useRef(0);
@@ -282,6 +285,18 @@ export default function CookingMode({
   const speakCurrentStep = useCallback(() => {
     const step = currentStepRef.current;
 
+      if (command === "scroll down" || command === "scroll lower" || command === "go down") {
+        mainRef.current?.scrollBy({ top: mainRef.current.clientHeight * 0.7, behavior: "smooth" });
+        setVoiceMessage("Scrolling down");
+        return;
+      }
+
+      if (command === "scroll up" || command === "scroll higher" || command === "go up") {
+        mainRef.current?.scrollBy({ top: -(mainRef.current.clientHeight * 0.7), behavior: "smooth" });
+        setVoiceMessage("Scrolling up");
+        return;
+      }
+
     if (speechStoppedRef.current) return;
 
     speak(instructions[step], speechRateRef.current);
@@ -340,6 +355,18 @@ export default function CookingMode({
 
       const arabic = /[\u0600-\u06FF]/.test(command);
       const step = currentStepRef.current;
+
+      if (command === "scroll down" || command === "scroll lower" || command === "go down") {
+        mainRef.current?.scrollBy({ top: mainRef.current.clientHeight * 0.7, behavior: "smooth" });
+        setVoiceMessage("Scrolling down");
+        return;
+      }
+
+      if (command === "scroll up" || command === "scroll higher" || command === "go up") {
+        mainRef.current?.scrollBy({ top: -(mainRef.current.clientHeight * 0.7), behavior: "smooth" });
+        setVoiceMessage("Scrolling up");
+        return;
+      }
 
       /*
        * READ
@@ -964,7 +991,7 @@ export default function CookingMode({
         </button>
       </header>
 
-      <main className="min-h-0 flex-1 overflow-y-auto px-6 py-8 sm:px-10">
+      <main ref={mainRef} className="min-h-0 flex-1 overflow-y-auto px-6 py-8 sm:px-10">
         <div className="mx-auto grid w-full max-w-[1400px] items-start gap-6 lg:grid-cols-[260px_minmax(0,1fr)_260px]">
 
           <section className="order-2 rounded-2xl border border-gray-200 bg-white p-5 shadow-sm lg:order-1 lg:col-start-1">
@@ -1070,6 +1097,28 @@ export default function CookingMode({
               )}
             </div>
 
+            <section className="mt-6 rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">
+              <h3 className="mb-4 text-lg font-bold text-gray-900">
+                {isArabic ? "المكونات" : "Ingredients"}
+              </h3>
+
+              <ul className="space-y-3">
+                {ingredients.map((ingredient, index) => (
+                  <li
+                    key={`${ingredient}-${index}`}
+                    className="flex items-start gap-3 rounded-xl bg-gray-50 p-3 text-sm text-gray-700"
+                  >
+                    <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-100 text-xs font-bold text-emerald-700">
+                      {index + 1}
+                    </span>
+                    <span className="leading-relaxed">{ingredient.amount ? `${ingredient.amount} ` : ""}{ingredient.unit ? `${ingredient.unit} ` : ""}{ingredient.name}{ingredient.note ? ` — ${ingredient.note}` : ""}</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+
+
+
             <div className="mt-8 flex items-center justify-between gap-4">
               <button
                 type="button"
@@ -1116,8 +1165,8 @@ export default function CookingMode({
               <li>
                 🔊{" "}
                 {isArabic
-                  ? "ستتم قراءة كل خطوة تلقائياً."
-                  : "Each step is read aloud automatically."}
+                  ? "قل «اقرأ» لسماع الخطوة الحالية."
+                  : 'Say "Read" to hear the current step.'}
               </li>
 
               <li>
@@ -1132,6 +1181,13 @@ export default function CookingMode({
                 {isArabic
                   ? "يمكنك قول رقم الخطوة للانتقال إليها مباشرة."
                   : "Say a step number to jump directly to it."}
+              </li>
+
+              <li>
+                ↕️{" "}
+                {isArabic
+                  ? "قل «مرر لأسفل» أو «مرر لأعلى» للتنقل في الشاشة بدون لمسها."
+                  : 'Say "scroll down" or "scroll up" to move through the screen without touching it.'}
               </li>
             </ul>
           </aside>

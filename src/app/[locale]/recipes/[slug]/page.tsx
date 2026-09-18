@@ -336,6 +336,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
 
                 <CookingMode
                   title={recipe.title}
+                  ingredients={recipe.ingredients}
                   instructions={recipe.instructions}
                   locale={locale}
                 />
@@ -356,6 +357,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
             <div className="my-8">
               <CookingMode
                 title={recipe.title}
+                ingredients={recipe.ingredients}
                 instructions={recipe.instructions}
                 locale={locale}
               />
