@@ -45,12 +45,11 @@ export default function CookingMode({
 }: CookingModeProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [currentStep, setCurrentStep] = useState(0);
-  const [wakeLock, setWakeLock] = useState<WakeLockSentinel | null>(null);
+  const wakeLockRef = useRef<WakeLockSentinel | null>(null);
   const [isListening, setIsListening] = useState(false);
   const [voiceSupported, setVoiceSupported] = useState(false);
   const [voiceMessage, setVoiceMessage] = useState("");
   const [speechRate, setSpeechRate] = useState(1);
-  const [speechVoices, setSpeechVoices] = useState<SpeechSynthesisVoice[]>([]);
   const mainRef = useRef<HTMLElement | null>(null);
   const recognitionRef = useRef<SpeechRecognitionLike | null>(null);
   const shouldListenRef = useRef(false);
@@ -105,35 +104,23 @@ export default function CookingMode({
   useEffect(() => {
     if (typeof window === "undefined") return;
 
-    setVoiceSupported(Boolean(window.SpeechRecognition || window.webkitSpeechRecognition));
-
-    if (!("speechSynthesis" in window)) return;
-
-    const loadVoices = () => {
-      setSpeechVoices(window.speechSynthesis.getVoices());
-    };
-
-    loadVoices();
-    window.speechSynthesis.addEventListener("voiceschanged", loadVoices);
+    const timer = window.setTimeout(() => {
+      setVoiceSupported(Boolean(window.SpeechRecognition || window.webkitSpeechRecognition));
+    }, 0);
 
     return () => {
-      window.speechSynthesis.removeEventListener("voiceschanged", loadVoices);
+      window.clearTimeout(timer);
     };
   }, []);
 
   useEffect(() => {
-    if (!isOpen) {
-      shouldListenRef.current = false;
+    if (isOpen) return;
 
-      if (recognitionRef.current) {
-        recognitionRef.current.stop();
-        recognitionRef.current = null;
-      }
+    shouldListenRef.current = false;
 
-      setIsListening(false);
-      setVoiceMessage("");
-
-      return;
+    if (recognitionRef.current) {
+      recognitionRef.current.stop();
+      recognitionRef.current = null;
     }
   }, [isOpen]);
 
@@ -781,10 +768,8 @@ export default function CookingMode({
 
   useEffect(() => {
     if (!isOpen) {
-      if (wakeLock) {
-        wakeLock.release().catch(() => {});
-        setWakeLock(null);
-      }
+      wakeLockRef.current?.release().catch(() => {});
+      wakeLockRef.current = null;
       return;
     }
 
@@ -792,15 +777,16 @@ export default function CookingMode({
 
     const requestWakeLock = async () => {
       try {
-        if ("wakeLock" in navigator) {
-          const lock = await navigator.wakeLock.request("screen");
+        if (!("wakeLock" in navigator)) return;
 
-          if (!cancelled) {
-            setWakeLock(lock);
-          } else {
-            await lock.release();
-          }
+        const lock = await navigator.wakeLock.request("screen");
+
+        if (cancelled) {
+          await lock.release();
+          return;
         }
+
+        wakeLockRef.current = lock;
       } catch {
         // Wake Lock is optional.
       }
@@ -816,17 +802,18 @@ export default function CookingMode({
   useEffect(() => {
     const handleVisibilityChange = async () => {
       if (
-        document.visibilityState === "visible" &&
-        isOpen &&
-        !wakeLock &&
-        "wakeLock" in navigator
+        document.visibilityState !== "visible" ||
+        !isOpen ||
+        wakeLockRef.current ||
+        !("wakeLock" in navigator)
       ) {
-        try {
-          const lock = await navigator.wakeLock.request("screen");
-          setWakeLock(lock);
-        } catch {
-          // Wake Lock is optional.
-        }
+        return;
+      }
+
+      try {
+        wakeLockRef.current = await navigator.wakeLock.request("screen");
+      } catch {
+        // Wake Lock is optional.
       }
     };
 
@@ -835,14 +822,28 @@ export default function CookingMode({
     return () => {
       document.removeEventListener("visibilitychange", handleVisibilityChange);
     };
-  }, [isOpen, wakeLock]);
+  }, [isOpen]);
 
   const openMode = () => {
     setCurrentStep(0);
+    setVoiceMessage("");
+    setIsListening(false);
+    speechStoppedRef.current = true;
     setIsOpen(true);
   };
 
   const closeMode = () => {
+    shouldListenRef.current = false;
+
+    if (recognitionRef.current) {
+      recognitionRef.current.stop();
+      recognitionRef.current = null;
+    }
+
+    stopSpeaking();
+
+    setIsListening(false);
+    setVoiceMessage("");
     setIsOpen(false);
     setCurrentStep(0);
   };
