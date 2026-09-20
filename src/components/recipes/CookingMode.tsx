@@ -1,11 +1,14 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import type { RecipeVisualStep } from "@/types/recipeTranslation";
+import VisualStepsAssistant from "@/components/recipes/VisualStepsAssistant";
 
 interface CookingModeProps {
   title: string;
   ingredients: { name: string; amount?: string | number; unit?: string; note?: string }[];
   instructions: string[];
+  visualSteps?: RecipeVisualStep[];
   locale: "en" | "ar";
 }
 
@@ -41,6 +44,7 @@ export default function CookingMode({
   title,
   ingredients,
   instructions,
+  visualSteps = [],
   locale,
 }: CookingModeProps) {
   const [isOpen, setIsOpen] = useState(false);
@@ -1041,6 +1045,14 @@ export default function CookingMode({
                 ))}
               </ul>
             </section>
+
+            {visualSteps.length > 0 && (
+              <VisualStepsAssistant
+                visualSteps={visualSteps}
+                locale={locale}
+                mode="embedded"
+              />
+            )}
 
             <div className="mt-8 flex items-center justify-between gap-4">
               <button

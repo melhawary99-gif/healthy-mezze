@@ -22,7 +22,7 @@ import RecipeGuideLinks from "@/components/recipes/RecipeGuideLinks";
 import RecipeStorySection from "@/components/recipes/RecipeStorySection";
 import CookingGuideSection from "@/components/recipes/CookingGuideSection";
 import RecipeAdaptationsSection from "@/components/recipes/RecipeAdaptationsSection";
-import VisualStepsSection from "@/components/recipes/VisualStepsSection";
+import VisualStepsAssistant from "@/components/recipes/VisualStepsAssistant";
 import RecipeRescue from "@/components/recipes/RecipeRescue";
 import WhatIfEngine from "@/components/recipes/WhatIfEngine";
 import RecipeStorageSection from "@/components/recipes/RecipeStorageSection";
@@ -338,6 +338,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   title={recipe.title}
                   ingredients={recipe.ingredients}
                   instructions={recipe.instructions}
+                  visualSteps={recipe.visualSteps}
                   locale={locale}
                 />
               </div>
@@ -348,20 +349,14 @@ export default async function RecipePage({ params }: RecipePageProps) {
             {/* Before You Cook / Cooking Guide */}
             {recipe.cookingGuide && <CookingGuideSection cookingGuide={recipe.cookingGuide} />}
 
-            {/* Step-by-Step Visual Guide */}
+            {/* AI Visual Assistant */}
             {recipe.visualSteps && recipe.visualSteps.length > 0 && (
-              <VisualStepsSection visualSteps={recipe.visualSteps} />
-            )}
-
-            {/* Hands-Free Cooking Mode */}
-            <div className="my-8">
-              <CookingMode
-                title={recipe.title}
-                ingredients={recipe.ingredients}
-                instructions={recipe.instructions}
+              <VisualStepsAssistant
+                visualSteps={recipe.visualSteps}
                 locale={locale}
+                mode="button"
               />
-            </div>
+            )}
 
             {/* Make This Recipe Work for You */}
             {recipe.adaptations && <RecipeAdaptationsSection adaptations={recipe.adaptations} />}
