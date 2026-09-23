@@ -1,14 +1,21 @@
 "use client";
 
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { ChevronDown, Menu, X } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 
 export default function MobileMenu() {
   const [open, setOpen] = useState(false);
+  const [newsOpen, setNewsOpen] = useState(false);
+
   const t = useTranslations("Buttons");
   const nav = useTranslations("Navigation");
+
+  const closeMenu = () => {
+    setOpen(false);
+    setNewsOpen(false);
+  };
 
   return (
     <div className="relative shrink-0 md:hidden">
@@ -38,7 +45,7 @@ export default function MobileMenu() {
           >
             <Link
               href="/"
-              onClick={() => setOpen(false)}
+              onClick={closeMenu}
               className="rounded-2xl px-4 py-3 text-sm font-medium text-green-800 transition hover:bg-green-50"
             >
               {nav("home")}
@@ -46,7 +53,7 @@ export default function MobileMenu() {
 
             <Link
               href="/recipes"
-              onClick={() => setOpen(false)}
+              onClick={closeMenu}
               className="rounded-2xl px-4 py-3 text-sm font-medium text-green-800 transition hover:bg-green-50"
             >
               {nav("recipes")}
@@ -54,7 +61,7 @@ export default function MobileMenu() {
 
             <Link
               href="/categories"
-              onClick={() => setOpen(false)}
+              onClick={closeMenu}
               className="rounded-2xl px-4 py-3 text-sm font-medium text-green-800 transition hover:bg-green-50"
             >
               {nav("categories")}
@@ -62,16 +69,84 @@ export default function MobileMenu() {
 
             <Link
               href="/drink-vlog"
-              onClick={() => setOpen(false)}
+              onClick={closeMenu}
               className="rounded-2xl px-4 py-3 text-sm font-medium text-green-800 transition hover:bg-green-50"
             >
               {nav("drinkVlog")}
             </Link>
 
+            {/* News */}
+            <div className="rounded-2xl">
+              <div className="flex items-center">
+                <Link
+                  href="/news"
+                  onClick={closeMenu}
+                  className="flex-1 rounded-l-2xl px-4 py-3 text-sm font-medium text-green-800 transition hover:bg-green-50"
+                >
+                  {nav("news")}
+                </Link>
+
+                <button
+                  type="button"
+                  onClick={() => setNewsOpen((prev) => !prev)}
+                  className="rounded-r-2xl px-4 py-3 text-green-700 transition hover:bg-green-50"
+                  aria-label={nav("news")}
+                  aria-expanded={newsOpen}
+                  aria-controls="mobile-news-submenu"
+                >
+                  <ChevronDown
+                    className={`h-4 w-4 transition-transform ${
+                      newsOpen ? "rotate-180" : ""
+                    }`}
+                    aria-hidden="true"
+                  />
+                </button>
+              </div>
+
+              {newsOpen && (
+                <div
+                  id="mobile-news-submenu"
+                  className="mx-2 mb-2 rounded-2xl bg-green-50/70 p-2"
+                >
+                  <Link
+                    href="/news/ingredient-benefits"
+                    onClick={closeMenu}
+                    className="block rounded-xl px-4 py-2.5 text-sm text-green-800 transition hover:bg-white"
+                  >
+                    {nav("newsIngredientBenefits")}
+                  </Link>
+
+                  <Link
+                    href="/news/kitchen-equipment"
+                    onClick={closeMenu}
+                    className="block rounded-xl px-4 py-2.5 text-sm text-green-800 transition hover:bg-white"
+                  >
+                    {nav("newsKitchenEquipment")}
+                  </Link>
+
+                  <Link
+                    href="/news/cooking-tips"
+                    onClick={closeMenu}
+                    className="block rounded-xl px-4 py-2.5 text-sm text-green-800 transition hover:bg-white"
+                  >
+                    {nav("newsCookingTips")}
+                  </Link>
+
+                  <Link
+                    href="/news/culture-heritage"
+                    onClick={closeMenu}
+                    className="block rounded-xl px-4 py-2.5 text-sm text-green-800 transition hover:bg-white"
+                  >
+                    {nav("newsCultureHeritage")}
+                  </Link>
+                </div>
+              )}
+            </div>
+
             <Link
               href="/favorites"
               prefetch={false}
-              onClick={() => setOpen(false)}
+              onClick={closeMenu}
               className="rounded-2xl px-4 py-3 text-sm font-medium text-green-800 transition hover:bg-green-50"
             >
               {nav("favorites")}
@@ -79,7 +154,7 @@ export default function MobileMenu() {
 
             <Link
               href="/about"
-              onClick={() => setOpen(false)}
+              onClick={closeMenu}
               className="rounded-2xl px-4 py-3 text-sm font-medium text-green-800 transition hover:bg-green-50"
             >
               {nav("about")}

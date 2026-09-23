@@ -5,6 +5,8 @@ import { SITE_URL } from "@/lib/seo";
 import { recipes } from "@/data/recipes";
 import { categories } from "@/data/categories";
 import { drinkVlogs } from "@/data/drink-vlogs";
+import { newsCategories } from "@/data/news/categories";
+import { newsArticles } from "@/data/news";
 
 const locales = ["en", "ar"] as const;
 
@@ -88,6 +90,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
   );
 
 
+  const localizedNewsPages = locales.flatMap((locale) => [
+    {
+      url: `${SITE_URL}/${locale}/news`,
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    },
+    ...newsCategories.map((category) => ({
+      url: `${SITE_URL}/${locale}/news/${category.slug}`,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
+  ]);
+
+  const localizedNewsArticlePages = locales.flatMap((locale) =>
+    newsArticles.map((article) => ({
+      url: `${SITE_URL}/${locale}/news/${article.category}/${article.slug}`,
+      ...(article.updatedAt
+        ? { lastModified: new Date(article.updatedAt) }
+        : {}),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    }))
+  );
+
+
   const guideSlugs = [
     "egyptian-cuisine-guide",
     "lebanese-cuisine-guide",
@@ -135,6 +162,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...localizedHomePages,
     ...localizedStaticPages,
     ...localizedCategoryPages,
+    ...localizedNewsPages,
+    ...localizedNewsArticlePages,
     ...localizedGuidePages,
     ...localizedDrinkVlogPages,
     ...localizedRecipePages,

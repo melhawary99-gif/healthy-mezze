@@ -97,6 +97,87 @@ export default function Header() {
               </Link>
             );
           })}
+
+          {/* News dropdown */}
+          <div className="group relative">
+            <Link
+              href="/news"
+              className={`inline-flex items-center text-sm font-medium transition ${
+                pathname.startsWith("/news")
+                  ? "text-green-700"
+                  : "text-gray-700 hover:text-green-700"
+              }`}
+              aria-haspopup="true"
+            >
+              {t("news")}
+              <span
+                className="ml-1 text-[10px] transition-transform duration-200 group-hover:rotate-180"
+                aria-hidden="true"
+              >
+                ▾
+              </span>
+            </Link>
+
+            <div className="invisible absolute left-1/2 top-full z-50 w-72 -translate-x-1/2 pt-3 opacity-0 transition-all duration-200 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+              <div className="rounded-2xl border border-gray-200 bg-white p-2 shadow-xl shadow-gray-900/10">
+                <Link
+                  href="/news/ingredient-benefits"
+                  className="block rounded-xl px-4 py-3 transition hover:bg-green-50"
+                >
+                  <span className="block text-sm font-semibold text-gray-900">
+                    {t("newsIngredientBenefits")}
+                  </span>
+                  <span className="mt-1 block text-xs text-gray-500">
+                    {locale === "ar"
+                      ? "مقالات عن المكونات وفوائدها."
+                      : "Articles about ingredients and their benefits."}
+                  </span>
+                </Link>
+
+                <Link
+                  href="/news/kitchen-equipment"
+                  className="block rounded-xl px-4 py-3 transition hover:bg-green-50"
+                >
+                  <span className="block text-sm font-semibold text-gray-900">
+                    {t("newsKitchenEquipment")}
+                  </span>
+                  <span className="mt-1 block text-xs text-gray-500">
+                    {locale === "ar"
+                      ? "أدوات ومعدات تساعدك في المطبخ."
+                      : "Kitchen tools and equipment that help you cook."}
+                  </span>
+                </Link>
+
+                <Link
+                  href="/news/cooking-tips"
+                  className="block rounded-xl px-4 py-3 transition hover:bg-green-50"
+                >
+                  <span className="block text-sm font-semibold text-gray-900">
+                    {t("newsCookingTips")}
+                  </span>
+                  <span className="mt-1 block text-xs text-gray-500">
+                    {locale === "ar"
+                      ? "نصائح وحيل عملية للطبخ."
+                      : "Practical cooking tips and useful hacks."}
+                  </span>
+                </Link>
+
+                <Link
+                  href="/news/culture-heritage"
+                  className="block rounded-xl px-4 py-3 transition hover:bg-green-50"
+                >
+                  <span className="block text-sm font-semibold text-gray-900">
+                    {t("newsCultureHeritage")}
+                  </span>
+                  <span className="mt-1 block text-xs text-gray-500">
+                    {locale === "ar"
+                      ? "قصص عن الطعام والثقافة والتراث."
+                      : "Stories about food, culture, and heritage."}
+                  </span>
+                </Link>
+              </div>
+            </div>
+          </div>
         </nav>
 
         {/* Language + Favorites + Mobile Menu */}
