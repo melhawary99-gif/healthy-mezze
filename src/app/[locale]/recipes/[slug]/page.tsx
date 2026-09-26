@@ -28,6 +28,8 @@ import WhatIfEngine from "@/components/recipes/WhatIfEngine";
 import RecipeStorageSection from "@/components/recipes/RecipeStorageSection";
 import RecipeServingSection from "@/components/recipes/RecipeServingSection";
 import RecipeFAQSection from "@/components/recipes/RecipeFAQSection";
+import RelatedNewsSection from "@/components/recipes/RelatedNewsSection";
+import { newsArticles } from "@/data/news";
 
 import { SITE_URL } from "@/lib/seo";
 type RecipePageProps = {
@@ -382,6 +384,18 @@ export default async function RecipePage({ params }: RecipePageProps) {
 
             {/* Editorial Guide Links */}
             <RecipeGuideLinks category={recipe.category} locale={locale} />
+
+            {/* Related News */}
+            <RelatedNewsSection
+              articles={newsArticles
+                .filter((article) => article.relatedRecipes?.includes(recipe.slug))
+                .map((article) => ({
+                  slug: article.slug,
+                  category: article.category,
+                  title: locale === "ar" ? article.ar.title : article.en.title,
+                  excerpt: locale === "ar" ? article.ar.excerpt : article.en.excerpt,
+                }))}
+            />
 
             {/* Related Recipes */}
             <RelatedRecipesSection recipes={localizedRelatedRecipes} category={recipe.category} />
