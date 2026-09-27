@@ -431,4 +431,272 @@ export const newsArticles: NewsArticle[] = [
       },
     ],
   },
+
+  {
+    slug: "oregano-the-little-herb-that-makes-mediterranean-food-sing",
+    category: "ingredient-benefits",
+    image: "/images/news/ingredient-benefits/oregano/oregano.webp",
+    imageAlt: {
+      en: "Fresh oregano sprigs on a kitchen table",
+      ar: "أغصان الأوريجانو الطازج على طاولة المطبخ",
+    },
+    publishedAt: "2026-09-26",
+
+    en: {
+      title: "Oregano: The Little Herb That Makes Mediterranean Food Sing",
+      excerpt:
+        "A personal look at oregano in Egyptian and Lebanese kitchens, from fresh leaves and old-fashioned drying to olive oil, everyday cooking, and what the research actually tells us about this intensely aromatic herb.",
+      sections: [
+        {
+          heading: "A Little Herb With a Big Personality",
+          paragraphs: [
+            "Oregano is one of those herbs that can change the character of a dish with only a small amount. Its aroma is unmistakable, while the leaves bring a rich herbal warmth with peppery, grassy and slightly mint-like notes.",
+            "In our kitchen, oregano is not something reserved for one particular recipe. We use it with meat marinades, salads, soups and chicken, and it has a natural place beside olive oil, lemon and other Mediterranean flavors.",
+          ],
+        },
+        {
+          heading: "Oregano Belongs in the Summer",
+          paragraphs: [
+            "Oregano loves warmth, and summer is when it feels most at home. When the plant is growing strongly, the young flower buds appearing at the tips of the branches can also be eaten.",
+            "Oregano is widely available across the Middle East, and it has a familiar place in Egyptian and Lebanese kitchens. Its warm climate, strong aroma and ability to dry well make it especially practical for everyday cooking.",
+          ],
+          image: "/images/news/ingredient-benefits/oregano/oregano.webp",
+          imageAlt: "Fresh oregano sprigs ready to be prepared",
+        },
+        {
+          heading: "Fresh Oregano and Dried Oregano Are Not the Same",
+          paragraphs: [
+            "One of the most common beginner mistakes is treating fresh and dried oregano as though they have the same strength. They do not. Once the leaves are dried, water is removed and the flavor becomes much more concentrated.",
+            "As a general cooking guide, extension food-preservation guidance uses about one teaspoon of dried herbs for one tablespoon of fresh herbs. That is roughly one part dried to three parts fresh, although the exact amount should always be adjusted to the herb and the dish.",
+          ],
+        },
+        {
+          heading: "How We Used to Dry Oregano",
+          paragraphs: [
+            "Today, a food dehydrator makes drying herbs simple. But in the past, we washed the oregano, tied it into bunches and hung it upside down in a dry place away from direct sun.",
+            "Once the leaves were completely dry and crisp, we removed them from the stems and stored them in a clean, sealed container. The goal was simple: keep moisture, heat and light away from the dried herb so its aroma would last.",
+          ],
+          image: "/images/news/ingredient-benefits/oregano/benefits-of-oregano.webp",
+          imageAlt: "Oregano health and preparation infographic",
+        },
+        {
+          heading: "Oregano's Best Friend: Olive Oil",
+          paragraphs: [
+            "If there is one ingredient I naturally pair with oregano, it is olive oil. The two together create a warm, deeply aromatic flavor that works beautifully in salad dressings, marinades and simple vegetable dishes.",
+            "My mom used to make oregano-infused olive oil, and that combination became one of those simple kitchen memories that stayed with me. Today, I would keep the family tradition but prepare infused oils using a food-safe method rather than leaving fresh herbs submerged in oil at room temperature for weeks.",
+          ],
+        },
+        {
+          heading: "Where Oregano Shows Up in Our Cooking",
+          paragraphs: [
+            "Oregano is especially useful when you want an earthy, warm herbal note without making a dish complicated. We use it in meat marinades, on salads and in soups.",
+            "It works particularly well with roasted chicken, grilled or marinated meats, tomato-based soups and Mediterranean-style salads. You can add it during cooking or use it in a dressing, depending on whether you want the herb to become part of the dish or remain more noticeable.",
+          ],
+        },
+        {
+          heading: "Tomato Soup Is a Natural Match",
+          paragraphs: [
+            "Tomato and oregano are an easy combination because the herb adds warmth and depth to the bright acidity of tomatoes. A small amount can make a simple soup taste more rounded without taking over the whole bowl.",
+            "Our Tomato Basil Soup is a good place to experiment with that combination. Start modestly, taste, and add more only if the oregano still needs to come forward.",
+          ],
+        },
+        {
+          heading: "How Much Oregano Should You Use?",
+          paragraphs: [
+            "In our kitchen, one to two tablespoons of dried oregano can be enough when we are seasoning a larger dish or marinade, but the right amount depends on the recipe and how prominent we want the herb to be.",
+            "Fresh oregano is much lighter and more delicate, so you may need several times as much to get a similar herbal presence. The best rule is to start with less dried oregano, taste the dish, and build the flavor gradually.",
+          ],
+        },
+        {
+          heading: "What Gives Oregano Its Powerful Aroma?",
+          paragraphs: [
+            "Oregano contains many volatile compounds, and research has paid particular attention to compounds such as carvacrol and thymol. These compounds are important contributors to the characteristic chemistry and aroma of oregano and its essential oil.",
+            "Research on oregano essential oils and extracts has also found antioxidant and antimicrobial activity in laboratory and food-related studies. However, the concentration of these compounds varies considerably between oregano species, growing conditions, harvest time and preparation.",
+          ],
+        },
+        {
+          heading: "The Health Side of Oregano",
+          paragraphs: [
+            "Oregano does contain nutrients and plant compounds, but it is usually eaten in relatively small quantities. USDA food-composition resources show that oregano contains dietary fiber and a range of vitamins and minerals, while dried oregano is particularly concentrated because much of its water has been removed.",
+            "That makes oregano a useful flavoring herb, but it is important not to turn a small culinary serving into a medical dose. The nutritional contribution of a sprinkle of oregano is different from the concentrated amounts used in supplements or essential oils.",
+          ],
+        },
+        {
+          heading: "Antioxidant and Antimicrobial Research",
+          paragraphs: [
+            "Studies of oregano essential oil have reported antioxidant and antimicrobial activity, with carvacrol and thymol among the compounds most often discussed. Some laboratory studies have shown activity against bacteria and fungi, which helps explain why oregano has attracted so much scientific interest.",
+            "Much of the strongest evidence concerns concentrated essential oils, extracts or laboratory experiments. Those results do not mean that eating oregano as a seasoning treats an infection or replaces medical treatment.",
+          ],
+        },
+        {
+          heading: "What About Oregano Tea?",
+          paragraphs: [
+            "Oregano tea has a long history as a traditional herbal preparation, and people in different cultures have used it for its strong herbal flavor and as a traditional digestive drink.",
+            "It can certainly be enjoyed as a tea, but I would not describe it as a proven treatment for infections, coughs or other illnesses. Traditional use and laboratory research are interesting, but they are not the same thing as strong clinical evidence in humans.",
+          ],
+        },
+        {
+          heading: "Oregano in Egyptian and Lebanese Kitchens",
+          paragraphs: [
+            "For me, oregano belongs to the wider family of flavors that make Middle Eastern and Mediterranean cooking feel familiar: olive oil, lemon, garlic, herbs and warm spices working together rather than one ingredient doing all the work.",
+            "It is especially useful when marinating meat or chicken, seasoning vegetables, building a soup or finishing a salad. The herb does not need to dominate. Often, its job is simply to make everything around it taste more complete.",
+          ],
+        },
+        {
+          heading: "The Beginner Mistake: Using Too Much Dried Oregano",
+          paragraphs: [
+            "Because fresh oregano looks so abundant, it is easy to think you need a similar volume of dried leaves. That can quickly make a dish bitter, dusty or overwhelmingly herbal.",
+            "Remember the simple kitchen rule: dried oregano is much more concentrated than fresh. Start with less, let the dish cook, taste, and then decide whether it needs another pinch.",
+          ],
+        },
+        {
+          heading: "Oregano Is More Than a Health Ingredient",
+          paragraphs: [
+            "The most important reason I keep oregano in the kitchen is not a supplement label or a list of health claims. It is because it makes food taste better.",
+            "A handful of fresh leaves, a spoon of dried oregano in a marinade, or a little oregano meeting olive oil in a salad dressing can completely change a simple meal. That is the kind of ingredient I want in Healthy Mezze: useful, flavorful and connected to the way people actually cook.",
+          ],
+        },
+        {
+          heading: "Our Final Take on Oregano",
+          paragraphs: [
+            "Oregano is one of those small ingredients that earns its place by being incredibly practical. It grows well in warm weather, can be used fresh, can be dried for later, and works across meats, chicken, soups, salads and dressings.",
+            "Its plant compounds are genuinely interesting to researchers, especially carvacrol and thymol, but the strongest antimicrobial and antioxidant findings often come from concentrated oils and extracts rather than ordinary culinary servings. Enjoy oregano for what it does best: bring aroma, warmth and character to the food on your table.",
+          ],
+        },
+        {
+          heading: "What the Research Says",
+          paragraphs: [
+            "The research behind this article covers oregano's composition, drying and storage, the chemistry of oregano essential oil, and the laboratory evidence surrounding compounds such as carvacrol and thymol. The sources below are provided so you can read the evidence directly.",
+            "As with any food or herb discussed for health purposes, research on a plant compound does not automatically establish a medical treatment. Oregano is best understood here as a culinary herb with interesting nutritional and biological properties.",
+          ],
+        },
+      ],
+    },
+
+    ar: {
+      title: "الأوريجانو: العشبة الصغيرة التي تجعل أطباق البحر المتوسط تنبض بالنكهة",
+      excerpt:
+        "نظرة من مطبخنا على الأوريجانو في المطبخين المصري واللبناني، من الأوراق الطازجة وتجفيفها بالطريقة القديمة إلى زيت الزيتون والطبخ اليومي، وما تقوله الأبحاث فعلًا عن هذه العشبة العطرية القوية.",
+      sections: [
+        {
+          heading: "عشبة صغيرة بشخصية كبيرة",
+          paragraphs: [
+            "الأوريجانو من الأعشاب التي يمكنها أن تغيّر شخصية الطبق بكمية صغيرة فقط. رائحته مميزة جدًا، وأوراقه تحمل نكهة عشبية دافئة وغنية مع لمسات فلفلية وعشبية وقريبة قليلًا من النعناع.",
+            "في مطبخنا لا نستخدم الأوريجانو في وصفة واحدة فقط. ندخله في تتبيلات اللحوم، والسلطات، والشوربات والدجاج، وله مكان طبيعي بجانب زيت الزيتون والليمون وغيرها من نكهات البحر المتوسط.",
+          ],
+        },
+        {
+          heading: "الأوريجانو يحب الصيف",
+          paragraphs: [
+            "الأوريجانو يحب الدفء، ولذلك يبدو الصيف وكأنه موسمه الطبيعي. وعندما ينمو النبات بقوة، يمكن أيضًا تناول براعم الأزهار الصغيرة التي تظهر عند أطراف الفروع.",
+            "الأوريجانو متوفر على نطاق واسع في الشرق الأوسط، وله حضور معروف في المطابخ المصرية واللبنانية. الجو الدافئ ورائحته القوية وقدرته على التجفيف تجعل منه عشبة عملية جدًا للاستخدام اليومي.",
+          ],
+          image: "/images/news/ingredient-benefits/oregano/oregano.webp",
+          imageAlt: "أغصان أوريجانو طازجة جاهزة للتحضير",
+        },
+        {
+          heading: "الأوريجانو الطازج والمجفف ليسا شيئًا واحدًا",
+          paragraphs: [
+            "من أكثر الأخطاء شيوعًا عند المبتدئين التعامل مع الأوريجانو الطازج والمجفف بنفس الكمية. هذا غير صحيح. عند تجفيف الأوراق تفقد الماء وتصبح النكهة أكثر تركيزًا.",
+            "كقاعدة عامة للطبخ، تستخدم إرشادات حفظ الأعشاب نحو ملعقة صغيرة من العشب المجفف بدل ملعقة كبيرة من الطازج. أي أن المجفف يعادل تقريبًا ثلث كمية الطازج، مع ضرورة تعديل الكمية حسب العشبة والوصفة.",
+          ],
+        },
+        {
+          heading: "كيف كنا نجفف الأوريجانو في الماضي؟",
+          paragraphs: [
+            "اليوم أصبح جهاز تجفيف الطعام يجعل تجفيف الأعشاب سهلًا جدًا. لكن في الماضي كنا نغسل الأوريجانو، ونربطه في حزم، ثم نعلقه مقلوبًا في مكان جاف بعيدًا عن الشمس المباشرة.",
+            "بعد أن تصبح الأوراق جافة وهشة تمامًا، نفصلها عن السيقان ونضعها في وعاء نظيف ومحكم الإغلاق. الفكرة بسيطة: إبعاد الرطوبة والحرارة والضوء عن العشبة المجففة حتى تحتفظ برائحتها ونكهتها.",
+          ],
+          image: "/images/news/ingredient-benefits/oregano/benefits-of-oregano.webp",
+          imageAlt: "إنفوجرافيك عن فوائد الأوريجانو وطريقة تحضيره",
+        },
+        {
+          heading: "صديق الأوريجانو المفضل: زيت الزيتون",
+          paragraphs: [
+            "إذا كان هناك مكوّن واحد أضعه بجانب الأوريجانو بشكل طبيعي فهو زيت الزيتون. معًا يصنعان نكهة دافئة وعطرية جدًا تناسب تتبيلات السلطات واللحوم والخضار.",
+            "كانت أمي تحضر زيت زيتون منكهًا بالأوريجانو، وأصبحت هذه الوصفة البسيطة واحدة من ذكريات المطبخ التي بقيت معي. اليوم يمكننا الاحتفاظ بروح هذه العادة مع اتباع طريقة آمنة حديثة بدل ترك الأعشاب الطازجة مغمورة في الزيت بدرجة حرارة الغرفة لأسابيع.",
+          ],
+        },
+        {
+          heading: "الجانب الصحي للأوريجانو",
+          paragraphs: [
+            "الأوريجانو يحتوي على عناصر غذائية ومركبات نباتية، لكنه عادة ما يؤكل بكميات صغيرة نسبيًا. وتوضح قواعد بيانات تركيب الأغذية التابعة لوزارة الزراعة الأمريكية أن الأوريجانو يحتوي على الألياف ومجموعة من الفيتامينات والمعادن، بينما يصبح الأوريجانو المجفف أكثر تركيزًا بسبب إزالة جزء كبير من الماء.",
+            "وهذا يجعل الأوريجانو إضافة غذائية مفيدة كعشبة منكهة، لكن من المهم ألا نحول الكمية الصغيرة المستخدمة في الطعام إلى جرعة علاجية. القيمة الغذائية لرشة من الأوريجانو تختلف تمامًا عن التركيزات الموجودة في المكملات أو الزيوت العطرية.",
+          ],
+        },
+        {
+          heading: "ماذا تقول الأبحاث؟",
+          paragraphs: [
+            "أظهرت دراسات على زيت الأوريجانو العطري نشاطًا مضادًا للأكسدة والميكروبات، وكان الكارفاكرول والثيمول من أكثر المركبات التي تمت دراستها. لكن جزءًا كبيرًا من هذه الأدلة يأتي من الزيوت والمستخلصات المركزة والدراسات المخبرية.",
+            "لذلك لا يعني وجود هذه النتائج أن تناول الأوريجانو كتوابل يعالج العدوى أو يحل محل العلاج الطبي. ننظر إلى الأوريجانو هنا باعتباره عشبة طهي ذات خصائص غذائية وبيولوجية مثيرة للاهتمام.",
+          ],
+        },
+      ],
+    },
+    relatedRecipes: [
+      "greek-salad",
+      "olive-tapenade",
+      "cheese-fatayer",
+      "baked-herb-fish",
+      "white-bean-salad",
+      "stuffed-eggplant",
+      "roasted-chickpeas",
+      "tomato-basil-soup",
+      "chicken-orzo-soup",
+      "vegetable-moussaka",
+      "stuffed-bell-peppers",
+      "vegetable-barley-soup",
+      "spinach-chickpea-stew",
+      "spinach-feta-omelette",
+      "herb-roasted-cauliflower",
+      "baked-eggs-spinach-tomatoes",
+      "mediterranean-chickpea-salad",
+      "mediterranean-vegetable-bake",
+      "mediterranean-breakfast-wrap",
+      "roasted-vegetable-quinoa-bowl",
+      "eggplant-parmesan-mediterranean",
+      "shish-tawook",
+      "mediterranean-grilled-chicken-plate",
+      "spinach-feta-stuffed-zucchini-boats",
+      "mediterranean-stuffed-portobello-mushrooms",
+    ],
+
+    sources: [
+      {
+        title: "USDA FoodData Central",
+        url: "https://fdc.nal.usda.gov/",
+        description: "USDA food-composition database used as the nutrition reference.",
+      },
+      {
+        title: "Penn State Extension — Herb Garden Plants: Oregano",
+        url: "https://extension.psu.edu/herb-garden-plants-oregano",
+        description: "Oregano plant characteristics, flowers, growing information and culinary context.",
+      },
+      {
+        title: "Penn State Extension — Preserving Herbs by Drying",
+        url: "https://extension.psu.edu/preserving-herbs-by-drying",
+        description: "Drying methods, storage guidance and fresh-to-dried herb conversion.",
+      },
+      {
+        title: "PubMed — Oregano Essential Oil as an Antimicrobial and Antioxidant Additive in Food Products",
+        url: "https://pubmed.ncbi.nlm.nih.gov/25763467/",
+        description: "Review of oregano essential oil, including carvacrol, thymol, antioxidant and antimicrobial activity.",
+      },
+      {
+        title: "PubMed — Carvacrol and Human Health: A Comprehensive Review",
+        url: "https://pubmed.ncbi.nlm.nih.gov/29744941/",
+        description: "Review of carvacrol biology and the limitations of human clinical evidence.",
+      },
+      {
+        title: "PubMed — Chemical Composition, Biological Activity, and Potential Uses of Oregano",
+        url: "https://pubmed.ncbi.nlm.nih.gov/40006079/",
+        description: "Recent review covering oregano and oregano essential oil composition and biological activity.",
+      },
+      {
+        title: "University of Minnesota Extension — Oil-Based Products and Food Safety",
+        url: "https://extension.umn.edu/about/our-stories/news/cottage-food-connection/chili-oil-and-oil-based-products",
+        description: "Food-safety guidance on fresh herbs and other low-acid ingredients stored in oil at room temperature.",
+      },
+    ],
+  },
 ];

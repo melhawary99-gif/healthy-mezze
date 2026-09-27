@@ -105,6 +105,10 @@ export default async function NewsArticlePage({ params }: Props) {
     (recipe): recipe is NonNullable<typeof recipe> => recipe !== null
   );
 
+  // Keep the final 3 recipes completely outside the article column flow.
+  const articleRecipes = localizedRecipes.slice(0, -3);
+  const bottomRecipes = localizedRecipes.slice(-3);
+
   const pageUrl = `${SITE_URL}/${locale}/news/${category}/${slug}`;
 
   const articleSchema = {
@@ -333,11 +337,9 @@ export default async function NewsArticlePage({ params }: Props) {
           {content.sections.map((section, index) => {
             const color = sectionColors[index % sectionColors.length];
 
-            const recipeCount =
-              recipeGroups[index] ??
-              Math.max(0, localizedRecipes.length - recipeCursor);
+            const recipeCount = recipeGroups[index] ?? 0;
 
-            const sectionRecipes = localizedRecipes.slice(
+            const sectionRecipes = articleRecipes.slice(
               recipeCursor,
               recipeCursor + recipeCount
             );
@@ -379,14 +381,14 @@ export default async function NewsArticlePage({ params }: Props) {
                     ))}
 
                     {section.image && (
-                      <div className="mt-7 rounded-3xl bg-white/70 p-3 shadow-inner">
+                      <div className="mt-8 flex justify-end">
                         <Image
                           src={section.image}
                           alt={section.imageAlt ?? section.heading}
-                          width={1200}
-                          height={800}
-                          sizes="(max-width: 768px) 92vw, 700px"
-                          className="mx-auto h-auto max-h-[500px] w-auto max-w-full rounded-2xl object-contain"
+                          width={900}
+                          height={1400}
+                          sizes="(max-width: 1024px) 92vw, 440px"
+                          className="h-auto w-full max-w-[440px] rounded-2xl object-contain shadow-xl"
                         />
                       </div>
                     )}
@@ -421,13 +423,9 @@ export default async function NewsArticlePage({ params }: Props) {
                         ? locale === "ar"
                           ? "بعض الروائح لا تعني مجرد طعام... بل تعني البيت."
                           : "Some smells don't just mean food. They mean home."
-                        : index === 4
-                          ? locale === "ar"
-                            ? "الثوم يكافئك عندما تنتبه إليه."
-                            : "Garlic rewards attention."
-                          : locale === "ar"
-                            ? "أفضل الطبخ هو الذي يجعلنا نرغب في مشاركة المائدة."
-                            : "The best cooking is the kind that makes you want to share the table."}
+                        : locale === "ar"
+                          ? "الأعشاب الصغيرة قد تغيّر الطبق كله."
+                          : "A small herb can change the whole dish."}
                     </p>
                   </div>
                 )}
@@ -474,6 +472,26 @@ export default async function NewsArticlePage({ params }: Props) {
             </div>
           </section>
         )}
+
+        {bottomRecipes.length > 0 && (
+          <section className="mx-auto mt-10 max-w-5xl">
+            <div className="mb-5 flex items-center gap-3 px-2">
+              <span className="text-xl">🍴</span>
+              <h3 className="font-serif text-xl font-black text-[#31572c]">
+                {locale === "ar"
+                  ? "المزيد من وصفات الأوريجانو"
+                  : "More Oregano Recipes"}
+              </h3>
+            </div>
+
+            <div className="grid gap-5 md:grid-cols-3">
+              {bottomRecipes.map((recipe, recipeIndex) =>
+                renderRecipeCard(recipe, recipeIndex === 0)
+              )}
+            </div>
+          </section>
+        )}
+
       </article>
   </>
   );
