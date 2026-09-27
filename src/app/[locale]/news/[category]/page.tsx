@@ -156,11 +156,7 @@ export default async function NewsCategoryPage({ params }: Props) {
                 <Link
                   key={article.slug}
                   href={`/news/${article.category}/${article.slug}`}
-                  className={`group relative overflow-hidden rounded-[2rem] bg-white shadow-[0_12px_40px_rgba(49,87,44,0.10)] transition duration-500 hover:-translate-y-2 hover:shadow-[0_25px_60px_rgba(49,87,44,0.16)] ${
-                    featured
-                      ? "lg:col-span-6"
-                      : "lg:col-span-4"
-                  }`}
+                  className="group relative overflow-hidden rounded-[2rem] bg-white shadow-[0_12px_40px_rgba(49,87,44,0.10)] transition duration-500 hover:-translate-y-2 hover:shadow-[0_25px_60px_rgba(49,87,44,0.16)] lg:col-span-4"
                 >
                   {/* Decorative color shape */}
                   <div
@@ -176,11 +172,7 @@ export default async function NewsCategoryPage({ params }: Props) {
                   {/* IMAGE */}
                   {article.image && (
                     <div
-                      className={`relative overflow-hidden ${
-                        featured
-                          ? "aspect-[16/7]"
-                          : "aspect-[4/3]"
-                      }`}
+                      className="relative aspect-[4/3] overflow-hidden"
                     >
                       <Image
                         src={article.image}
@@ -213,11 +205,7 @@ export default async function NewsCategoryPage({ params }: Props) {
 
                   {/* CONTENT */}
                   <div
-                    className={`relative z-10 ${
-                      featured
-                        ? "p-4 sm:p-5"
-                        : "p-6"
-                    }`}
+                    className="relative z-10 p-6"
                   >
                     <div className="flex items-center justify-between gap-4">
                       <span className="text-xs font-bold uppercase tracking-wider text-[#ef7055]">
@@ -242,31 +230,31 @@ export default async function NewsCategoryPage({ params }: Props) {
 
                     <p
                       className={`font-serif font-black uppercase tracking-[0.18em] text-[#ef7055] ${
-                        featured
-                          ? "text-2xl sm:text-3xl lg:text-4xl"
-                          : "text-3xl"
+                        "text-3xl"
                       }`}
                     >
-                      {locale === "ar" ? "الثوم" : "GARLIC"}
+                      {locale === "ar"
+                        ? article.slug ===
+                          "garlic-the-little-clove-behind-so-many-great-meals"
+                          ? "الثوم"
+                          : content.title.split(":")[0]
+                        : article.slug ===
+                            "garlic-the-little-clove-behind-so-many-great-meals"
+                          ? "GARLIC"
+                          : content.title.split(":")[0]}
                     </p>
 
                     <h2
                       className={`mt-2 font-serif font-black leading-tight text-[#263b22] ${
-                        featured
-                          ? "text-lg sm:text-xl lg:text-2xl"
-                          : "text-xl sm:text-2xl"
+                        "text-xl sm:text-2xl"
                       }`}
                     >
-                      {locale === "ar"
-                        ? "الفص الصغير وراء الكثير من الوجبات الرائعة"
-                        : "The Little Clove Behind So Many Great Meals"}
+                      {content.title}
                     </h2>
 
                     <p
                       className={`mt-4 leading-7 text-gray-600 ${
-                        featured
-                          ? "text-sm sm:text-base"
-                          : "text-base"
+                        "text-base"
                       }`}
                     >
                       {content.excerpt}
