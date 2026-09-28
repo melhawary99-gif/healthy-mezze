@@ -699,4 +699,357 @@ export const newsArticles: NewsArticle[] = [
       },
     ],
   },
+
+  {
+    slug: "fruits-vegetables-dehydrator",
+    category: "kitchen-equipment",
+    image: "/images/news/kitchen-equipment/fruits-vegetables-dehydrator/dehydrator-fruit-trays.webp",
+    imageAlt: {
+      en: "Fresh fruit arranged on trays for dehydration",
+      ar: "فواكه طازجة مرتبة على صواني للتجفيف",
+    },
+    publishedAt: "2026-09-27",
+
+    en: {
+      title:
+        "Fruits & Vegetables Dehydrator: Turning Extra Produce Into Snacks, Ingredients & More",
+      excerpt:
+        "A practical look at why I use a food dehydrator, what I dry in it, the snacks my guests love, and the mistakes that can turn a good batch into a spoiled one.",
+      sections: [
+        {
+          heading: "Why I Love Having a Dehydrator in the Kitchen",
+          paragraphs: [
+            "A food dehydrator is one of those kitchen appliances that can look very simple until you start using it regularly. It removes moisture from food with controlled heat and airflow, allowing fruits, vegetables and herbs to become lighter, concentrated ingredients that can be stored and used later.",
+            "For me, the biggest attraction is not simply making dried fruit. It is being able to save extra produce instead of watching it go to waste, make snacks that guests actually enjoy, and keep ingredients around for cooking and drinks.",
+          ],
+        },
+        {
+          heading: "What a Food Dehydrator Actually Does",
+          paragraphs: [
+            "A dehydrator uses a controlled heat source together with air circulation to remove moisture from food. As the water leaves the food, the pieces shrink dramatically and become much lighter.",
+            "Removing water also makes the food more practical to store. Properly dried foods take up much less space, although they still need to be cooled, conditioned when appropriate, and stored correctly to protect them from moisture.",
+          ],
+        },
+        {
+          heading: "A Simple Way to Save Extra Produce",
+          paragraphs: [
+            "One reason many people like dehydrating is that it gives extra produce another life. Instead of trying to use everything immediately, you can turn suitable fruits, vegetables and herbs into ingredients and snacks that can be kept for later.",
+            "It can also help reduce grocery waste. When produce is plentiful or you have bought more than you can use fresh, dehydration gives you another option besides freezing or cooking everything immediately.",
+          ],
+        },
+        {
+          heading: "What Happens to Fruit During Dehydration?",
+          image:
+            "/images/news/kitchen-equipment/fruits-vegetables-dehydrator/dehydrated-fruits.webp",
+          imageAlt: "Assorted dehydrated fruits",
+          paragraphs: [
+            "Fruit becomes dramatically lighter because much of its water is removed. The calories, fiber and minerals do not disappear simply because the water is gone, so dried fruit becomes much more concentrated by weight than fresh fruit.",
+            "Some nutrients are more sensitive to heat than others. Vitamin C, for example, can be reduced during drying, while minerals are generally much more stable. The exact nutritional change depends on the fruit, pretreatment, temperature and drying process.",
+            "I sometimes describe the difference by looking at the weight before and after drying: a large fresh apple can become surprisingly tiny once most of its water has been removed. The exact final weight varies, so I would never treat one weight-loss example as a universal rule.",
+          ],
+        },
+        {
+          heading: "The Fruits I Like to Dehydrate",
+          paragraphs: [
+            "For the best flavor, I prefer fruit that is fresh, ripe and still in good condition. Overripe fruit is not something I recommend using simply because the dehydrator will not turn poor-quality produce into great-tasting food.",
+            "Some of the fruits that work well for home dehydration include pears, peaches, cherries, apples, apricots, prunes, nectarines, coconut, dates, berries, bananas, blueberries, limes and lemons.",
+          ],
+        },
+        {
+          heading: "Vegetables I Usually Dehydrate",
+          paragraphs: [
+            "Vegetables can also be very useful in a dehydrator. I especially like chili peppers, tomatoes, sweet potatoes, sweet corn, mushrooms and selected herbs.",
+            "Vegetables are different from fruit because they are generally dried much further. Properly dried vegetables should be brittle or crisp rather than soft and leathery.",
+          ],
+        },
+        {
+          heading: "Don't Forget the Herbs",
+          paragraphs: [
+            "A dehydrator is also extremely useful when you have fresh herbs that you do not want to lose. I use or recommend it for basil, bay leaves, chives, cilantro, dill, fennel microgreens, ginger leaves, marjoram, mint, oregano, parsley, rosemary, sage, shiso, tarragon and thyme.",
+            "Dried herbs become much more concentrated in flavor because their water is removed, so remember that fresh and dried herbs are not interchangeable in equal amounts.",
+          ],
+        },
+        {
+          heading: "The Dehydrator Snacks My Guests Love",
+          paragraphs: [
+            "This is where the dehydrator becomes especially fun. I use it to make snacks for guests, and they are often surprised by how much flavor can come from something as simple as sliced fruit or vegetables.",
+            "For fruit, my favorites include apple rings or chips with cinnamon, banana coins or chips, mango slices, pineapple chunks or rings, strawberry slices, blueberries, peach or nectarine wedges, watermelon with lime and Tajín, citrus wheels, and fruit leather made from fruits such as berries, apples or mangoes.",
+            "For savory snacks, I like kale chips, zucchini chips, sweet potato chips or fries, dried cherry or plum tomatoes, seasoned chickpeas, coconut flakes with smoky seasoning, and mushroom jerky.",
+          ],
+        },
+        {
+          heading: "How I Prepare Produce Before Drying",
+          paragraphs: [
+            "Preparation matters. I slice fruits and vegetables into pieces of similar thickness so they dry at a similar rate. Grapes and tomatoes can be cut in half so the inside is exposed and moisture can escape more easily.",
+            "For fruits that brown easily, an ascorbic-acid or suitable fruit-juice dip can help preserve color. Lemon juice is a familiar kitchen option, while measured ascorbic-acid treatments are also used in home food-preservation guidance.",
+            "Vegetables may require blanching depending on the vegetable and preservation method. Always check a reliable preservation guide and your dehydrator manual for the particular food rather than assuming every fruit or vegetable should be treated the same way.",
+          ],
+        },
+        {
+          heading: "The Beginner Mistakes I See Most Often",
+          paragraphs: [
+            "Inconsistent sizing is one of the easiest mistakes to make. Thin pieces can become too dry while thick pieces are still moist. Similar-sized pieces make it much easier to get an even batch.",
+            "Another mistake is overcrowding or overlapping the trays. Air needs to circulate around the food, so piling pieces together can slow drying and create uneven results.",
+            "Whole berries, grapes and other foods with tough skins can also be difficult to dry evenly. Piercing, cutting or following the recommended pretreatment for the particular food can help moisture escape.",
+            "Another common mistake is using the wrong temperature. Too much heat can harden the outside of high-sugar fruit while the inside remains moist. Always follow the manufacturer's instructions and a tested food-preservation guide for the food you are drying.",
+          ],
+        },
+        {
+          heading: "Tray Rotation and Sticking",
+          paragraphs: [
+            "Depending on the design of the dehydrator, trays may dry differently. I like to pay attention to the manufacturer's instructions about rotating trays so the batch dries evenly.",
+            "Fruit and thinly sliced vegetables can also stick to trays. A suitable dehydrator liner or the method recommended by the manufacturer can make removal much easier. I especially pay attention to this when working with sweet fruit.",
+          ],
+        },
+        {
+          heading: "Cooling and Conditioning Are Part of the Process",
+          paragraphs: [
+            "One mistake I do not want to make is packing food while it is still warm. Warm food can release moisture into the container and create condensation, which can contribute to spoilage.",
+            "Dried fruit also benefits from conditioning. After the fruit has cooled, home-preservation guidance recommends loosely packing it in glass or plastic containers for about seven to ten days, shaking the container daily and checking for condensation. If moisture appears, the fruit needs additional drying.",
+            "Vegetables are normally dried much further, until brittle or crisp, and do not require the same conditioning process used for dried fruit.",
+          ],
+        },
+        {
+          heading: "How I Store Dehydrated Food",
+          paragraphs: [
+            "For storage, I like sealed glass jars or other airtight containers. Suitable food-storage bags can also work when they provide an appropriate moisture barrier.",
+            "The important thing is protecting the dried food from humidity. Store it in a cool, dry, dark place and check it occasionally. If moisture gets back into the food, the shelf life and safety can change.",
+            "Drying does not mean food can be forgotten forever. Storage time depends on the food, how completely it was dried, packaging and storage conditions.",
+          ],
+        },
+        {
+          heading: "Why I Avoid Adding Oil Before Dehydrating",
+          paragraphs: [
+            "I do not recommend adding oil or fat to foods simply because you want to dehydrate them. Fat can become rancid and can complicate storage.",
+            "For the same reason, I keep the dehydrator focused on foods and preparations that are appropriate for drying rather than trying to turn every recipe into a dehydrated version.",
+          ],
+        },
+        {
+          heading: "What About Meat and Jerky?",
+          paragraphs: [
+            "This is where I draw a clear line between casual fruit and vegetable drying and meat dehydration. Meat requires specific food-safety procedures because drying at a low temperature alone is not enough to make unsafe meat safe.",
+            "If you are making jerky, follow a tested jerky method and the safety instructions from a reliable food-preservation source and your dehydrator manufacturer. Do not simply apply fruit-and-vegetable drying temperatures to meat.",
+          ],
+        },
+        {
+          heading: "What I Look for in a Dehydrator",
+          image:
+            "/images/news/kitchen-equipment/fruits-vegetables-dehydrator/food-dehydrator.webp",
+          imageAlt: "Food dehydrator with fruit trays",
+          paragraphs: [
+            "I recommend investing in a good-quality dehydrator rather than buying the cheapest machine available. Look for a unit with controlled temperature, good airflow and trays that are practical to clean.",
+            "I personally like sturdy metal trays, but tray material by itself should not be treated as a guarantee of safety. Good construction, appropriate food-contact materials, airflow and reliable temperature control matter more than simply choosing one material.",
+            "Most importantly, read the manual. Different machines have different airflow patterns, tray capacities and temperature controls, so the manufacturer's instructions should be part of your drying routine.",
+          ],
+        },
+        {
+          heading: "How a Dehydrator Fits Into Healthy Mezze",
+          paragraphs: [
+            "A dehydrator fits naturally into the way we cook at Healthy Mezze because so many recipes rely on herbs, fruits, vegetables and concentrated flavors.",
+            "Dried herbs can be ready when fresh herbs are out of season. Dried fruit can become a snack or an ingredient in drinks. Dried vegetables can be stored for later cooking. And having preserved ingredients available can make future meal preparation easier.",
+            "For me, the biggest benefit is simple: instead of thinking of extra produce as something that has to be used immediately, I can think about how to preserve it and use it another day.",
+          ],
+        },
+        {
+          heading: "My Final Take",
+          paragraphs: [
+            "A food dehydrator is not a magic machine that makes every food better. It is a practical preservation tool, and the results depend on choosing good produce, preparing it correctly, controlling the drying process and storing the finished food properly.",
+            "But once you learn those basics, it becomes one of the most useful appliances for turning fresh produce into lightweight snacks, concentrated ingredients and pantry staples.",
+            "And when guests start asking where those crispy fruit slices came from, you may find yourself using it a lot more than you expected.",
+          ],
+        },
+      ],
+    },
+
+    ar: {
+      title:
+        "مجفف الفواكه والخضروات: كيف أحوّل فائض المنتجات إلى وجبات خفيفة ومكونات مفيدة",
+      excerpt:
+        "تجربتي العملية مع مجفف الطعام، من حفظ الفواكه والخضروات والأعشاب إلى تحضير وجبات خفيفة يحبها الضيوف، مع أهم الأخطاء التي يجب تجنبها أثناء التجفيف والتخزين.",
+      sections: [
+        {
+          heading: "لماذا أحب وجود مجفف الطعام في المطبخ؟",
+          paragraphs: [
+            "مجفف الطعام من الأجهزة التي تبدو بسيطة جدًا، لكنك تكتشف فائدتها الحقيقية بعد استخدامها بشكل منتظم. فهو يزيل الرطوبة من الطعام باستخدام حرارة وتدفق هواء مضبوطين، مما يجعل الفواكه والخضروات والأعشاب أخف وزنًا وأكثر تركيزًا ويمكن تخزينها واستخدامها لاحقًا.",
+            "بالنسبة لي، أهم فائدة ليست فقط إعداد الفواكه المجففة، بل القدرة على الاستفادة من المنتجات الزائدة بدلًا من تركها تفسد، وتحضير وجبات خفيفة يحبها الضيوف، والاحتفاظ بمكونات يمكن استخدامها لاحقًا في الطبخ والمشروبات.",
+          ],
+        },
+        {
+          heading: "ماذا يفعل مجفف الطعام فعليًا؟",
+          paragraphs: [
+            "يستخدم المجفف مصدر حرارة مضبوطًا مع حركة مستمرة للهواء لإزالة الرطوبة من الطعام. ومع خروج الماء تنكمش القطع ويصبح وزنها أخف بكثير.",
+            "إزالة الماء تجعل الطعام أسهل في التخزين وأقل حجمًا، لكن يجب تبريده جيدًا وتكييف الفواكه المجففة عند الحاجة وتخزينها بطريقة تحميها من الرطوبة.",
+          ],
+        },
+        {
+          heading: "طريقة عملية للاستفادة من المنتجات الزائدة",
+          paragraphs: [
+            "من أكثر الأشياء التي أحبها في التجفيف أنه يعطي المنتجات الزائدة فرصة جديدة. بدلًا من محاولة استخدام كل شيء طازجًا في وقت قصير، يمكنك تحويل الفواكه والخضروات والأعشاب المناسبة إلى مكونات ووجبات خفيفة للاستخدام لاحقًا.",
+            "وهذا قد يساعد أيضًا على تقليل هدر الطعام ومصاريف التسوق. عندما يكون لديك فائض من المنتجات، يصبح التجفيف خيارًا آخر إلى جانب التجميد أو الطهي المباشر.",
+          ],
+        },
+        {
+          heading: "ماذا يحدث للفواكه أثناء التجفيف؟",
+          image:
+            "/images/news/kitchen-equipment/fruits-vegetables-dehydrator/dehydrated-fruits.webp",
+          imageAlt: "فواكه مجففة متنوعة",
+          paragraphs: [
+            "تصبح الفاكهة أخف بكثير لأن جزءًا كبيرًا من الماء الموجود فيها يتم التخلص منه. الألياف والمعادن والسعرات الحرارية لا تختفي لمجرد إزالة الماء، ولذلك تصبح العناصر الغذائية والسعرات أكثر تركيزًا بالنسبة إلى الوزن.",
+            "بعض العناصر الغذائية أكثر حساسية للحرارة من غيرها. فيتامين C مثلًا قد ينخفض أثناء التجفيف، بينما تكون المعادن أكثر ثباتًا عمومًا. وتختلف النتيجة حسب نوع الفاكهة ودرجة الحرارة وطريقة المعالجة ومدة التجفيف.",
+          ],
+        },
+        {
+          heading: "الفواكه التي أحب تجفيفها",
+          paragraphs: [
+            "أفضل النتائج تبدأ بفاكهة طازجة وناضجة وفي حالة جيدة. الفاكهة شديدة النضج أو التي بدأت تفسد لن تتحول إلى منتج ممتاز لمجرد وضعها في المجفف.",
+            "من الفواكه التي يمكن تجفيفها التفاح والكمثرى والخوخ والكرز والمشمش والقراصيا والنكتارين وجوز الهند والتمر والتوت والموز والتوت الأزرق والليمون واللايم.",
+          ],
+        },
+        {
+          heading: "الخضروات التي أجففها عادةً",
+          paragraphs: [
+            "يمكن أيضًا استخدام المجفف مع الكثير من الخضروات. ومن الأشياء التي أحب تجفيفها الفلفل الحار والطماطم والبطاطا الحلوة والذرة الحلوة والفطر وبعض الأعشاب.",
+            "الخضروات تختلف عن الفواكه في درجة الجفاف المطلوبة؛ وعادةً يتم تجفيفها حتى تصبح هشة أو مقرمشة.",
+          ],
+        },
+        {
+          heading: "ولا ننسى الأعشاب",
+          paragraphs: [
+            "المجفف مفيد جدًا عندما يكون لديك أعشاب طازجة لا تريد خسارتها. ويمكن استخدامه مع الريحان وورق الغار والثوم المعمر والكزبرة والشبت والبردقوش والنعناع والأوريجانو والبقدونس وإكليل الجبل والميرمية والطرخون والزعتر وغيرها.",
+            "عندما تجف الأعشاب يصبح طعمها أكثر تركيزًا، لذلك لا تستخدم نفس الكمية من العشب الطازج والمجفف وكأنهما متساويان في القوة.",
+          ],
+        },
+        {
+          heading: "وجباتي الخفيفة المفضلة من المجفف",
+          paragraphs: [
+            "هنا يصبح المجفف ممتعًا جدًا. أستخدمه لتحضير وجبات خفيفة للضيوف، وغالبًا ما يتفاجؤون بكمية النكهة التي يمكن الحصول عليها من شرائح الفاكهة والخضروات.",
+            "من المفضلات لدي حلقات أو رقائق التفاح بالقرفة، شرائح الموز، شرائح المانجو، قطع أو حلقات الأناناس، شرائح الفراولة، التوت الأزرق، شرائح الخوخ أو النكتارين، البطيخ مع الليمون وتاجين، شرائح الحمضيات، وفاكهة مجففة على شكل جلد الفاكهة.",
+            "وللوجبات المالحة أحب رقائق الكرنب والكوسا والبطاطا الحلوة والطماطم المجففة والحمص المتبل وجوز الهند المتبل والفطر المتبل.",
+          ],
+        },
+        {
+          heading: "كيف أجهز المنتجات قبل التجفيف؟",
+          paragraphs: [
+            "التحضير مهم جدًا. أقطع الفواكه والخضروات إلى قطع متقاربة في السماكة حتى تجف بمعدل متقارب. أما العنب والطماطم فيمكن تقطيعهما إلى نصفين حتى يصبح الجزء الداخلي مكشوفًا ويسهل خروج الرطوبة.",
+            "بالنسبة لبعض الفواكه التي يتغير لونها بسرعة، يمكن استخدام محلول حمض الأسكوربيك أو عصير فواكه مناسب للمساعدة في الحفاظ على اللون. وعند تجفيف بعض الخضروات قد تكون عملية السلق المسبق ضرورية حسب نوع الخضار وطريقة الحفظ.",
+            "لا تفترض أن كل الفواكه والخضروات تحتاج إلى المعالجة نفسها؛ اتبع دليل الجهاز ومصدرًا موثوقًا لحفظ الطعام لكل نوع.",
+          ],
+        },
+        {
+          heading: "أخطاء المبتدئين التي يجب تجنبها",
+          paragraphs: [
+            "تفاوت سماكة القطع من أكثر الأخطاء شيوعًا. القطع الرقيقة قد تجف أكثر من اللازم بينما تبقى القطع السميكة رطبة.",
+            "كذلك لا تكدس القطع فوق بعضها ولا تجعلها متداخلة، لأن الهواء يحتاج إلى المرور حول الطعام حتى تتبخر الرطوبة بشكل متساوٍ.",
+            "الفواكه الصغيرة ذات القشرة السميكة مثل العنب وبعض أنواع التوت قد تحتاج إلى ثقب أو تقطيع أو معالجة مناسبة حتى تصل الحرارة والرطوبة إلى الداخل.",
+            "ومن الأخطاء أيضًا استخدام حرارة أعلى من اللازم. الحرارة المرتفعة قد تجعل الفواكه الغنية بالسكر تتصلب أو تحترق من الخارج بينما يبقى الداخل رطبًا. اتبع دائمًا تعليمات الجهاز وإرشادات حفظ الطعام المختبرة.",
+          ],
+        },
+        {
+          heading: "تبريد الطعام وتكييف الفواكه المجففة",
+          paragraphs: [
+            "لا أحب وضع الطعام الدافئ مباشرة داخل وعاء التخزين، لأن الحرارة والرطوبة المحبوسة قد تؤدي إلى تكاثف الماء وتزيد خطر التلف.",
+            "بعد أن تبرد الفاكهة المجففة، توصي إرشادات حفظ الطعام المنزلية بتكييفها داخل أوعية زجاجية أو بلاستيكية لمدة سبعة إلى عشرة أيام، مع رج الوعاء يوميًا ومراقبة أي تكاثف. إذا ظهرت رطوبة، يجب إعادة الفاكهة إلى المجفف لمزيد من التجفيف.",
+            "أما الخضروات فعادةً تجف حتى تصبح هشة أو مقرمشة، ولا تحتاج إلى نفس عملية التكييف الخاصة بالفواكه.",
+          ],
+        },
+        {
+          heading: "كيف أخزن الطعام المجفف؟",
+          paragraphs: [
+            "أفضل استخدام أوعية زجاجية محكمة الإغلاق أو أوعية مناسبة لحفظ الطعام. ويمكن أيضًا استخدام أكياس تخزين مناسبة عندما تكون حاجزًا جيدًا أمام الرطوبة.",
+            "المهم هو حماية الطعام المجفف من الرطوبة. خزنه في مكان بارد وجاف ومظلم وافحصه من وقت لآخر.",
+          ],
+        },
+        {
+          heading: "لماذا لا أحب إضافة الزيت قبل التجفيف؟",
+          paragraphs: [
+            "لا أنصح بإضافة الزيت أو الدهون إلى الطعام لمجرد تجفيفه. الدهون قد تتزنخ مع الوقت وتجعل التخزين أكثر صعوبة.",
+            "لهذا أفضل أن أستخدم المجفف مع الأطعمة والتحضيرات المناسبة للتجفيف بدل محاولة تحويل كل وصفة إلى نسخة مجففة.",
+          ],
+        },
+        {
+          heading: "وماذا عن اللحوم والـ Jerky؟",
+          paragraphs: [
+            "هنا يجب أن نكون أكثر حذرًا. تجفيف اللحوم يختلف عن تجفيف الفواكه والخضروات لأن هناك اعتبارات خاصة بسلامة الغذاء.",
+            "إذا كنت ستصنع اللحم المجفف، فاتبع وصفة مختبرة وتعليمات السلامة الخاصة باللحوم وتعليمات الشركة المصنعة للجهاز. لا تستخدم درجات حرارة تجفيف الفواكه والخضروات بشكل عشوائي مع اللحوم.",
+          ],
+        },
+        {
+          heading: "ما الذي أبحث عنه عند شراء مجفف؟",
+          image:
+            "/images/news/kitchen-equipment/fruits-vegetables-dehydrator/food-dehydrator.webp",
+          imageAlt: "مجفف طعام مع صواني الفواكه",
+          paragraphs: [
+            "أنصح بشراء جهاز جيد بدل اختيار أرخص جهاز ممكن. ابحث عن جهاز يتمتع بدرجة حرارة قابلة للتحكم وتدفق هواء جيد وصوانٍ يسهل تنظيفها.",
+            "أنا شخصيًا أفضل الصواني المعدنية القوية، لكن مادة الصينية وحدها ليست ضمانًا للسلامة. جودة التصنيع والمواد المناسبة للطعام وتدفق الهواء والتحكم الجيد في الحرارة أهم من المادة وحدها.",
+            "والأهم من ذلك هو قراءة دليل الجهاز، لأن كل جهاز يختلف في طريقة توزيع الهواء وسعة الصواني ودرجات الحرارة.",
+          ],
+        },
+        {
+          heading: "كيف يناسب المجفف مطبخ Healthy Mezze؟",
+          paragraphs: [
+            "المجفف يناسب أسلوب الطبخ في Healthy Mezze بشكل طبيعي، لأن الكثير من وصفاتنا تعتمد على الأعشاب والفواكه والخضروات والنكهات المركزة.",
+            "يمكن أن تكون الأعشاب المجففة جاهزة عندما لا تتوفر الأعشاب الطازجة، ويمكن استخدام الفواكه المجففة كوجبة خفيفة أو كمكون في المشروبات، كما يمكن الاحتفاظ ببعض الخضروات المجففة لاستخدامها في الطبخ لاحقًا.",
+            "بالنسبة لي، الفائدة الأكبر بسيطة: بدل أن أفكر في المنتجات الزائدة على أنها شيء يجب استخدامه فورًا، أستطيع التفكير في طريقة لحفظها واستخدامها في يوم آخر.",
+          ],
+        },
+        {
+          heading: "الخلاصة",
+          paragraphs: [
+            "مجفف الطعام ليس جهازًا سحريًا يجعل كل شيء أفضل. إنه أداة عملية لحفظ الطعام، والنتيجة تعتمد على جودة المنتجات وطريقة تحضيرها ودرجة الحرارة والوقت وطريقة التخزين.",
+            "لكن عندما تتعلم الأساسيات، يصبح جهازًا مفيدًا جدًا لتحويل المنتجات الطازجة إلى وجبات خفيفة ومكونات مركزة وأطعمة يمكن الاحتفاظ بها في المخزن.",
+            "وعندما يبدأ الضيوف في سؤالك عن مصدر شرائح الفاكهة المقرمشة، قد تجد نفسك تستخدم المجفف أكثر بكثير مما توقعت.",
+          ],
+        },
+      ],
+    },
+
+    relatedRecipes: [
+      "tomato-basil-soup",
+      "chicken-orzo-soup",
+      "vegetable-barley-soup",
+      "greek-salad",
+      "white-bean-salad",
+      "mediterranean-chickpea-salad",
+      "baked-herb-fish",
+      "shish-tawook",
+      "mediterranean-grilled-chicken-plate",
+      "herb-roasted-cauliflower",
+      "mediterranean-vegetable-bake",
+      "spinach-feta-stuffed-zucchini-boats",
+    ],
+
+    sources: [
+      {
+        title: "National Center for Home Food Preservation — Food Dehydrators",
+        url: "https://nchfp.uga.edu/how/dry/drying-general/food-dehydrators/",
+        description:
+          "Guidance on how food dehydrators work and features to consider.",
+      },
+      {
+        title: "National Center for Home Food Preservation — Packaging and Storing Dried Foods",
+        url: "https://nchfp.uga.edu/how/dry/drying-general/packaging-and-storing-dried-foods/",
+        description:
+          "Guidance on cooling, conditioning, storage and moisture control.",
+      },
+      {
+        title: "Utah State University Extension — Home Drying Foods",
+        url: "https://extension.usu.edu/preserve-the-harvest/research/home-drying-foods",
+        description:
+          "Information on nutritional changes, drying and pretreatment.",
+      },
+      {
+        title: "Utah State University Extension — Drying Pretreatment",
+        url: "https://extension.usu.edu/preserve-the-harvest/research/drying-pretreatment",
+        description:
+          "Guidance on ascorbic-acid and fruit-juice pretreatments.",
+      },
+      {
+        title: "National Center for Home Food Preservation — Jerky",
+        url: "https://nchfp.uga.edu/how/dry/recipes/jerky/",
+        description:
+          "Tested food-safety guidance for making meat jerky.",
+      },
+    ],
+  },
+
 ];

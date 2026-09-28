@@ -145,18 +145,17 @@ export default async function NewsCategoryPage({ params }: Props) {
             </p>
           </div>
         ) : (
-          <div className="grid gap-8 lg:grid-cols-12">
+          <div className="flex flex-wrap justify-center gap-8">
             {articles.map((article, index) => {
               const content =
                 locale === "ar" ? article.ar : article.en;
 
-              const featured = index === 0;
-
+              
               return (
                 <Link
                   key={article.slug}
                   href={`/news/${article.category}/${article.slug}`}
-                  className="group relative overflow-hidden rounded-[2rem] bg-white shadow-[0_12px_40px_rgba(49,87,44,0.10)] transition duration-500 hover:-translate-y-2 hover:shadow-[0_25px_60px_rgba(49,87,44,0.16)] lg:col-span-4"
+                  className="group relative w-full max-w-[380px] overflow-hidden rounded-[2rem] bg-white shadow-[0_12px_40px_rgba(49,87,44,0.10)] transition duration-500 hover:-translate-y-2 hover:shadow-[0_25px_60px_rgba(49,87,44,0.16)]"
                 >
                   {/* Decorative color shape */}
                   <div
@@ -181,12 +180,8 @@ export default async function NewsCategoryPage({ params }: Props) {
                           content.title
                         }
                         fill
-                        sizes={
-                          featured
-                            ? "(max-width: 1024px) 94vw, 760px"
-                            : "(max-width: 1024px) 94vw, 380px"
-                        }
-                        className="object-cover transition duration-700 group-hover:scale-105"
+                        sizes="(max-width: 1024px) 94vw, 380px"
+                        className="h-auto max-h-[285px] w-auto max-w-full object-contain transition duration-700 group-hover:scale-105"
                       />
 
                       <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/5 to-transparent" />
