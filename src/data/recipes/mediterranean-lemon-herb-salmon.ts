@@ -29,9 +29,9 @@ export const mediterraneanLemonHerbSalmon: Recipe = {
 
   prepTime: "15 mins",
 
-  cookTime: "15–20 mins",
+  cookTime: "20 mins",
 
-  totalTime: "30–35 mins",
+  totalTime: "35 mins",
 
   servings: 2,
 
@@ -42,78 +42,67 @@ export const mediterraneanLemonHerbSalmon: Recipe = {
       amount: 2,
       unit: "",
       name: "Salmon fillets, about 180–200 g each",
-      note:
-        "Choose fillets of similar thickness so they finish cooking at roughly the same time. Skin-on or skinless both work.",
+      note: "Choose fillets of similar thickness so they finish cooking at roughly the same time. Skin-on or skinless both work.",
     },
     {
       amount: 2,
       unit: "tbsp",
       name: "extra virgin olive oil",
-      note:
-        "Use part for the salmon marinade and part for coating the vegetables.",
+      note: "Use part for the salmon marinade and part for coating the vegetables.",
     },
     {
       amount: 1,
       unit: "",
       name: "lemon",
-      note:
-        "Zest the lemon before juicing it. Reserve a few wedges for serving.",
+      note: "Zest the lemon before juicing it. Reserve a few wedges for serving.",
     },
     {
       amount: 2,
       unit: "cloves",
       name: "garlic, finely minced",
-      note:
-        "Mince finely so the garlic distributes evenly instead of forming concentrated pieces on the fish.",
+      note: "Mince finely so the garlic distributes evenly instead of forming concentrated pieces on the fish.",
     },
     {
       amount: 1,
       unit: "tbsp",
       name: "fresh dill, finely chopped",
-      note:
-        "Reserve a little for finishing if desired.",
+      note: "Reserve a little for finishing if desired.",
     },
     {
       amount: 2,
       unit: "tbsp",
       name: "fresh parsley, finely chopped",
-      note:
-        "Fresh parsley is best added partly before cooking and partly after cooking.",
+      note: "Fresh parsley is best added partly before cooking and partly after cooking.",
     },
     {
       amount: 1,
       unit: "tbsp",
       name: "fresh lemon juice",
-      note:
-        "Use a modest amount for the marinade; save additional lemon for serving.",
+      note: "Use a modest amount for the marinade; save additional lemon for serving.",
     },
     {
       amount: 0.5,
       unit: "tsp",
       name: "sea salt",
-      note:
-        "Season the salmon and vegetables lightly, then adjust at the table if needed.",
+      note: "Season the salmon and vegetables lightly, then adjust at the table if needed.",
     },
     {
       amount: 0.25,
       unit: "tsp",
       name: "black pepper",
-      note:
-        "Freshly ground pepper gives the best flavor.",
+      note: "Freshly ground pepper gives the best flavor.",
     },
     {
       amount: 1,
       unit: "",
       name: "medium zucchini, sliced into thick half-moons",
-      note:
-        "Keep the slices fairly thick so they become tender without turning mushy.",
+      note: "Keep the slices fairly thick so they become tender without turning mushy.",
     },
     {
       amount: 200,
       unit: "g",
       name: "cherry tomatoes",
-      note:
-        "Leave small tomatoes whole or halve larger ones.",
+      note: "Leave small tomatoes whole or halve larger ones.",
     },
   ],
 
