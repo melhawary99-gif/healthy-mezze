@@ -19,16 +19,18 @@ export default function RecipeHero({ recipe }: RecipeHeroProps) {
       {/* Main hero: image left, title and description right on desktop */}
       <div className="grid gap-8 p-5 sm:p-7 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] lg:items-center lg:gap-12 lg:p-10">
         <div className="min-w-0 flex justify-center">
-          <Image
-            src={recipe.image}
-            alt={recipe.imageAlt ?? recipe.title}
-            width={1536}
-            height={1152}
-            priority
-            className="h-auto max-h-[560px] w-full max-w-full rounded-3xl object-contain"
-            quality={75}
-            sizes="(max-width: 1024px) 100vw, 680px"
-          />
+          <div className="inline-block max-w-full overflow-hidden rounded-[1.75rem] bg-white shadow-[0_18px_45px_rgba(38,59,34,0.18)]">
+            <Image
+              src={recipe.image}
+              alt={recipe.imageAlt ?? recipe.title}
+              width={1536}
+              height={1152}
+              priority
+              className="block h-auto max-h-[560px] max-w-full w-auto rounded-[1.75rem] object-contain"
+              quality={75}
+              sizes="(max-width: 1024px) 100vw, 680px"
+            />
+          </div>
         </div>
 
         <div>

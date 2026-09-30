@@ -239,13 +239,6 @@ export default async function NewsCategoryPage({ params }: Props) {
                           : content.title.split(":")[0]}
                     </p>
 
-                    <h2
-                      className={`mt-2 font-serif font-black leading-tight text-[#263b22] ${
-                        "text-xl sm:text-2xl"
-                      }`}
-                    >
-                      {content.title}
-                    </h2>
 
                     <p
                       className={`mt-4 leading-7 text-gray-600 ${

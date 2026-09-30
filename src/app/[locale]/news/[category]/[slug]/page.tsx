@@ -182,6 +182,70 @@ export default async function NewsArticlePage({ params }: Props) {
     "bg-[#f8e7e1]",
   ];
 
+const hackStyles = [
+  {
+    card: "bg-[#fff1d6] border-[#f4b942]/30",
+    heading: "text-[#c75b12]",
+    accent: "bg-[#f4b942]",
+    text: "text-[#5b3b20]",
+  },
+  {
+    card: "bg-[#e5f5df] border-[#74c69d]/30",
+    heading: "text-[#28724f]",
+    accent: "bg-[#74c69d]",
+    text: "text-[#31533f]",
+  },
+  {
+    card: "bg-[#ffe8e2] border-[#ef7055]/30",
+    heading: "text-[#c94d36]",
+    accent: "bg-[#ef7055]",
+    text: "text-[#5c3932]",
+  },
+  {
+    card: "bg-[#e1f4f3] border-[#52aaa4]/30",
+    heading: "text-[#267d78]",
+    accent: "bg-[#52aaa4]",
+    text: "text-[#315958]",
+  },
+  {
+    card: "bg-[#f2e7fa] border-[#a56cc1]/30",
+    heading: "text-[#77449a]",
+    accent: "bg-[#a56cc1]",
+    text: "text-[#4e3b59]",
+  },
+  {
+    card: "bg-[#fff0c7] border-[#e6a817]/30",
+    heading: "text-[#a86b00]",
+    accent: "bg-[#e6a817]",
+    text: "text-[#5c481f]",
+  },
+  {
+    card: "bg-[#e4eefb] border-[#6195d4]/30",
+    heading: "text-[#386da8]",
+    accent: "bg-[#6195d4]",
+    text: "text-[#354c68]",
+  },
+  {
+    card: "bg-[#fbe4ef] border-[#d96b9b]/30",
+    heading: "text-[#ad3e70]",
+    accent: "bg-[#d96b9b]",
+    text: "text-[#5b3948]",
+  },
+  {
+    card: "bg-[#e7f2df] border-[#6b9e45]/30",
+    heading: "text-[#4b7830]",
+    accent: "bg-[#6b9e45]",
+    text: "text-[#3e5232]",
+  },
+  {
+    card: "bg-[#fff0e5] border-[#e98752]/30",
+    heading: "text-[#c45d25]",
+    accent: "bg-[#e98752]",
+    text: "text-[#5b4030]",
+  },
+];
+
+
   /*
    * Editorial two-column flow:
    * every recipe is consumed exactly once.
@@ -332,10 +396,12 @@ export default async function NewsArticlePage({ params }: Props) {
       {/*
         ARTICLE + RECIPE EDITORIAL FLOW
       */}
-      <article className="mx-auto max-w-7xl px-5 py-14 sm:px-8 lg:px-10 lg:py-20">
+      <article id="top" className="mx-auto max-w-7xl px-5 py-14 sm:px-8 lg:px-10 lg:py-20">
         <div className="columns-1 gap-6 lg:columns-2">
           {content.sections.map((section, index) => {
             const color = sectionColors[index % sectionColors.length];
+        const hackStyle =
+          index >= 1 && index <= 10 ? hackStyles[index - 1] : null;
 
             const recipeCount = recipeGroups[index] ?? 0;
 
@@ -352,17 +418,23 @@ export default async function NewsArticlePage({ params }: Props) {
                 className="mb-6 break-inside-avoid"
               >
                 <section
-                  className={`relative overflow-hidden rounded-[2rem] p-6 shadow-[0_12px_35px_rgba(40,55,35,0.08)] sm:p-8 ${color}`}
+                  className={`relative overflow-hidden rounded-[2rem] border p-6 shadow-[0_12px_35px_rgba(40,55,35,0.08)] transition-transform duration-300 hover:-translate-y-1 sm:p-8 ${
+                    hackStyle ? hackStyle.card : color
+                  }`}
                 >
-                  <div className="absolute -right-12 -top-12 h-32 w-32 rounded-full bg-white/40" />
+                  <div
+                    className={`absolute -right-12 -top-12 h-32 w-32 rounded-full ${
+                      hackStyle ? `${hackStyle.accent}/20` : "bg-white/40"
+                    }`}
+                  />
 
                   <div className="relative">
-                    <div className="mb-5 flex items-start gap-4">
-                      <span className="mt-1 flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#31572c] text-sm font-black text-white">
-                        {String(index + 1).padStart(2, "0")}
-                      </span>
-
-                      <h2 className="font-serif text-3xl font-black leading-tight text-[#263b22] sm:text-4xl">
+                    <div className="mb-6">
+                      <h2
+                        className={`font-serif text-3xl font-black italic leading-tight tracking-tight sm:text-4xl ${
+                          hackStyle ? hackStyle.heading : "text-[#263b22]"
+                        }`}
+                      >
                         {section.heading}
                       </h2>
                     </div>
@@ -370,7 +442,9 @@ export default async function NewsArticlePage({ params }: Props) {
                     {section.paragraphs.map((paragraph, paragraphIndex) => (
                       <p
                         key={paragraphIndex}
-                        className={`mt-4 text-[17px] leading-8 text-[#4d5b4b]${
+                        className={`mt-4 text-[17px] leading-8 ${
+                          hackStyle ? hackStyle.text : "text-[#4d5b4b]"
+                        }${
                           index === 0 && paragraphIndex === 0
                             ? " first-letter:float-left first-letter:mr-3 first-letter:text-7xl first-letter:font-black first-letter:leading-[0.8] first-letter:text-[#ef7055]"
                             : ""
@@ -492,7 +566,17 @@ export default async function NewsArticlePage({ params }: Props) {
           </section>
         )}
 
-      </article>
+      
+        <div className="mt-14 flex justify-center">
+          <a
+            href="#top"
+            className="inline-flex items-center gap-2 rounded-full bg-[#31572c] px-6 py-3 font-sans text-sm font-bold text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-[#264823] hover:shadow-xl"
+          >
+            <span className="text-lg">↑</span>
+            Back to Top
+          </a>
+        </div>
+</article>
   </>
   );
 }

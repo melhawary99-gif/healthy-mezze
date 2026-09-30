@@ -40,6 +40,214 @@ export type NewsArticle = {
 
 export const newsArticles: NewsArticle[] = [
   {
+    slug: "10-simple-kitchen-hacks-home-cooks-swear-by",
+    category: "cooking-tips",
+    publishedAt: "2026-09-30",
+
+    en: {
+      title: "10 Simple Kitchen Hacks Home Cooks Swear By",
+      excerpt:
+        "Ten simple cooking tips and kitchen hacks that home cooks say actually work — from making quick buttermilk to keeping herbs fresh and balancing salty food.",
+      sections: [
+        {
+          heading: "10 Simple Hacks Worth Trying",
+          paragraphs: [
+            "These are the little cooking tricks that can save time, reduce cleanup and make everyday kitchen jobs easier. Some are simple substitutions, some are storage tricks, and others are small techniques that can make a noticeable difference.",
+            "Here are ten practical kitchen hacks that home cooks swear by. Try the ones that fit the way you cook and see which ones earn a permanent place in your kitchen routine.",
+          ],
+        },
+        {
+          heading: "01 — No Buttermilk? No Problem",
+          paragraphs: [
+            "Need only a little buttermilk for a recipe? Mix 1 cup of milk with 1 tablespoon of lemon juice and let it sit for about 10 minutes.",
+            "You do not need to buy a whole bottle of buttermilk when a recipe only calls for a small amount. This simple mixture can be a convenient substitute for many recipes that call for buttermilk.",
+          ],
+        },
+        {
+          heading: "02 — Use Your Kitchen Scissors",
+          paragraphs: [
+            "Your kitchen scissors can do more than open food packages. For certain quick jobs, you can use them to cut herbs and smaller vegetables directly over the sink or a bowl.",
+            "It can save you from reaching for a knife and cutting board when the job is small, which also means less washing afterward.",
+          ],
+        },
+        {
+          heading: "03 — Give Lettuce and Mint a Paper-Towel Layer",
+          paragraphs: [
+            "Fresh lettuce and mint can become limp surprisingly quickly. Place a paper towel around or alongside them before storing them in a container.",
+            "The paper towel can help manage excess moisture and may help delicate greens stay fresh longer. It is a small storage trick that is especially useful when you have bought more herbs than you can use in one meal.",
+          ],
+        },
+        {
+          heading: "04 — Peel Garlic Faster",
+          paragraphs: [
+            "If peeling garlic feels like one of those small kitchen jobs that takes forever, there are a couple of simple tricks you can try.",
+            "One method is to microwave the garlic for about 10 seconds, which can loosen the skins. If you prefer not to use a microwave, place the flat side of a knife over the clove and gently flatten it. The skin becomes much easier to remove.",
+          ],
+        },
+        {
+          heading: "05 — Want Fluffy Eggs? Try a Little Cream",
+          paragraphs: [
+            "For softer, fluffier eggs, add a small amount of heavy cream and whisk thoroughly before cooking.",
+            "You do not need much cream. Whisk the eggs and cream together for around 25 seconds, then cook them as usual. The key is using a little rather than overwhelming the eggs with cream.",
+          ],
+        },
+        {
+          heading: "06 — Freeze It Before It Goes Bad",
+          paragraphs: [
+            "Have extra fruit, vegetables or bread that you are not going to use soon? Freezing can help extend their useful storage life and gives you another option before food goes to waste.",
+            "How long food keeps its best quality in the freezer varies by the ingredient, packaging and freezer conditions, so follow appropriate storage guidance for the specific food. The useful habit is simple: freeze food you will not use soon instead of waiting until it is no longer usable.",
+          ],
+        },
+        {
+          heading: "07 — Keep Those Peanut-Butter Jar Lids",
+          paragraphs: [
+            "Have a 16 oz peanut-butter jar? Keep the lid before throwing it away.",
+            "These lids can be useful with some similarly sized storage jars, and plastic lids do not have the same rust issue that metal lids can develop. Before discarding a container lid, check whether it has another useful job in your kitchen.",
+          ],
+        },
+        {
+          heading: "08 — Stop Your Cutting Board From Sliding",
+          paragraphs: [
+            "Place a slightly damp paper towel underneath your cutting board before you start chopping.",
+            "The extra grip can help keep the board from sliding around while you work. A stable cutting board makes chopping more comfortable and gives you a steadier surface for food preparation.",
+          ],
+        },
+        {
+          heading: "09 — A Simple Rice-Cooking Routine",
+          paragraphs: [
+            "For a simple rice routine, start by rinsing the rice until the water becomes clearer. Then use approximately a 1.5:1 water-to-rice ratio.",
+            "Add a little olive oil and salt from the beginning. Bring the rice and water to a boil, reduce to a simmer, and cook for about 15 minutes without opening the lid.",
+            "Keeping the lid closed is part of the trick. Let the rice cook without repeatedly checking it, then remove it from the heat when it is done.",
+          ],
+        },
+        {
+          heading: "10 — If More Salt Isn't Helping, Try Some Acid",
+          paragraphs: [
+            "You tasted your food, added salt and still feel that something is missing. Before adding more salt, try a little acid.",
+            "A small amount of lemon juice or vinegar can brighten flavors and make a dish taste more balanced. Sometimes the food does not need more salt — it needs contrast.",
+          ],
+        },
+        {
+          heading: "Put These Kitchen Hacks to Work",
+          paragraphs: [
+            "The best kitchen hacks are the ones you actually use. Try these simple ideas while making some of the Healthy Mezze recipes below.",
+            "You will find recipes that make use of ingredients and techniques featured throughout these tips, including fresh herbs, garlic, lemon, vegetables, rice and simple seasoning.",
+          ],
+        },
+      ],
+    },
+
+    ar: {
+      title: "10 حيل بسيطة في المطبخ يقسم بها الطهاة المنزليون",
+      excerpt:
+        "عشر نصائح وحيل بسيطة في الطبخ يقول الطهاة المنزليون إنها مفيدة فعلًا، من تحضير بديل سريع للبن الرائب إلى حفظ الأعشاب وتوازن النكهات.",
+      sections: [
+        {
+          heading: "10 حيل بسيطة تستحق التجربة",
+          paragraphs: [
+            "هذه من الحيل الصغيرة التي يمكن أن توفر الوقت وتقلل التنظيف وتجعل بعض مهام المطبخ اليومية أسهل. بعضها يعتمد على بدائل بسيطة، وبعضها يتعلق بالتخزين، وبعضها مجرد طريقة مختلفة للتعامل مع مكونات نستخدمها باستمرار.",
+            "إليك عشر حيل عملية يقسم بها الطهاة المنزليون. جرّب ما يناسب طريقة طبخك واكتشف أي منها سيصبح جزءًا دائمًا من روتين مطبخك.",
+          ],
+        },
+        {
+          heading: "01 — لا يوجد لبن رائب؟ لا مشكلة",
+          paragraphs: [
+            "إذا كنت تحتاج إلى كمية صغيرة فقط من اللبن الرائب لوصفة معينة، اخلط كوبًا واحدًا من الحليب مع ملعقة كبيرة من عصير الليمون واتركه لمدة حوالي 10 دقائق.",
+            "لا تحتاج إلى شراء عبوة كاملة من اللبن الرائب عندما تحتاج إلى كمية صغيرة فقط. يمكن أن يكون هذا الخليط بديلًا عمليًا في العديد من الوصفات التي تستخدم اللبن الرائب.",
+          ],
+        },
+        {
+          heading: "02 — استخدم مقص المطبخ",
+          paragraphs: [
+            "مقص المطبخ ليس فقط لفتح عبوات الطعام. في بعض المهام السريعة، يمكنك استخدامه لتقطيع الأعشاب والخضروات الصغيرة مباشرة فوق الحوض أو الوعاء.",
+            "بهذه الطريقة قد لا تحتاج إلى استخدام السكين ولوح التقطيع عندما تكون المهمة بسيطة، وهذا يعني أيضًا تنظيفًا أقل بعد الانتهاء.",
+          ],
+        },
+        {
+          heading: "03 — ضع منشفة ورقية مع الخس والنعناع",
+          paragraphs: [
+            "يمكن أن يذبل الخس والنعناع الطازج بسرعة. ضع منشفة ورقية حولهما أو بجانبهما قبل تخزينهما في وعاء.",
+            "يمكن أن تساعد المنشفة الورقية على التعامل مع الرطوبة الزائدة، وقد تساعد الأوراق والأعشاب الحساسة على البقاء طازجة لفترة أطول.",
+          ],
+        },
+        {
+          heading: "04 — قشّر الثوم بشكل أسرع",
+          paragraphs: [
+            "إذا كان تقشير الثوم من المهام الصغيرة التي تستغرق وقتًا أكثر مما تتوقع، فهناك طريقتان بسيطتان يمكنك تجربتهما.",
+            "يمكنك تسخين الثوم في الميكروويف لمدة حوالي 10 ثوانٍ، مما قد يساعد على إرخاء القشرة. وإذا كنت لا تفضل استخدام الميكروويف، ضع الجانب المسطح من السكين فوق فص الثوم واضغط عليه برفق. ستصبح القشرة أسهل في الإزالة.",
+          ],
+        },
+        {
+          heading: "05 — تريد بيضًا هشًا وخفيفًا؟ جرّب قليلًا من الكريمة",
+          paragraphs: [
+            "للحصول على بيض أكثر نعومة وخفة، أضف كمية صغيرة من كريمة الخفق واخفق البيض جيدًا قبل الطهي.",
+            "لا تحتاج إلى كمية كبيرة من الكريمة. اخفق البيض والكريمة معًا لمدة حوالي 25 ثانية، ثم اطههما كالمعتاد.",
+          ],
+        },
+        {
+          heading: "06 — جمّد الطعام قبل أن يفسد",
+          paragraphs: [
+            "لديك فواكه أو خضروات أو خبز إضافي ولن تستخدمه قريبًا؟ يمكن أن يساعد التجميد على إطالة مدة الاحتفاظ به ويمنحك خيارًا آخر قبل أن يصبح الطعام غير صالح للاستخدام.",
+            "تختلف مدة الحفاظ على أفضل جودة في الفريزر حسب نوع الطعام والتغليف وظروف التجميد، لذلك اتبع إرشادات التخزين المناسبة لكل نوع. الفكرة البسيطة هي تجميد ما لن تستخدمه قريبًا بدلًا من الانتظار حتى يفسد.",
+          ],
+        },
+        {
+          heading: "07 — احتفظ بأغطية عبوات زبدة الفول السوداني",
+          paragraphs: [
+            "هل لديك عبوة زبدة فول سوداني بحجم 16 أونصة؟ احتفظ بالغطاء قبل التخلص منه.",
+            "يمكن أن تكون هذه الأغطية مفيدة مع بعض أوعية التخزين ذات الأحجام المتقاربة، كما أن الأغطية البلاستيكية لا تعاني من مشكلة الصدأ نفسها التي قد تظهر في الأغطية المعدنية.",
+          ],
+        },
+        {
+          heading: "08 — امنع لوح التقطيع من الانزلاق",
+          paragraphs: [
+            "ضع منشفة ورقية مبللة قليلًا تحت لوح التقطيع قبل البدء في التقطيع.",
+            "يمكن أن تساعد هذه الطبقة على زيادة الاحتكاك ومنع اللوح من الحركة أثناء العمل. لوح التقطيع الثابت يجعل تحضير الطعام أكثر راحة.",
+          ],
+        },
+        {
+          heading: "09 — طريقة بسيطة لطهي الأرز",
+          paragraphs: [
+            "ابدأ بغسل الأرز حتى يصبح الماء أكثر صفاءً. ثم استخدم تقريبًا نسبة 1.5 إلى 1 بين الماء والأرز.",
+            "أضف قليلًا من زيت الزيتون والملح من البداية. ارفع الخليط إلى الغليان، ثم خفف الحرارة واتركه على نار هادئة لمدة حوالي 15 دقيقة دون فتح الغطاء.",
+            "إبقاء الغطاء مغلقًا جزء مهم من الطريقة. اترك الأرز يطهى دون فتحه باستمرار، ثم ارفعه عن النار عندما ينضج.",
+          ],
+        },
+        {
+          heading: "10 — إذا لم يساعد المزيد من الملح، جرّب القليل من الحموضة",
+          paragraphs: [
+            "تذوقت الطعام وأضفت الملح وما زلت تشعر أن شيئًا ناقصًا؟ قبل إضافة المزيد من الملح، جرّب القليل من الحموضة.",
+            "يمكن لكمية صغيرة من عصير الليمون أو الخل أن تجعل النكهات أكثر إشراقًا وتوازنًا. أحيانًا لا يحتاج الطعام إلى مزيد من الملح، بل يحتاج إلى تباين في النكهات.",
+          ],
+        },
+        {
+          heading: "طبّق هذه الحيل في مطبخك",
+          paragraphs: [
+            "أفضل حيل المطبخ هي التي تستخدمها فعلًا. جرّب هذه الأفكار البسيطة أثناء تحضير بعض وصفات Healthy Mezze أدناه.",
+            "ستجد وصفات تعتمد على بعض المكونات والتقنيات الموجودة في هذه النصائح، مثل الأعشاب الطازجة والثوم والليمون والخضروات والأرز والتتبيل البسيط.",
+          ],
+        },
+      ],
+    },
+
+    relatedRecipes: [
+      "tomato-basil-soup",
+      "lentil-soup",
+      "chicken-orzo-soup",
+      "greek-salad",
+      "mediterranean-chickpea-salad",
+      "white-bean-salad",
+      "chicken-shawarma",
+      "shish-tawook",
+      "baked-herb-fish",
+      "classic-hummus",
+      "baba-ganoush",
+      "herb-roasted-cauliflower",
+    ],
+  },
+
+
+  {
     slug: "garlic-the-little-clove-behind-so-many-great-meals",
     category: "ingredient-benefits",
     image: "/images/news/ingredient-benefits/garlic/garlic-in-olive-oil.webp",
