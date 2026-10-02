@@ -20,6 +20,7 @@ import RelatedRecipesSection from "@/components/recipes/RelatedRecipesSection";
 import RecipeGuideLinks from "@/components/recipes/RecipeGuideLinks";
 
 import RecipeStorySection from "@/components/recipes/RecipeStorySection";
+import AdsterraNativeBanner from "@/components/ads/AdsterraNativeBanner";
 import CookingGuideSection from "@/components/recipes/CookingGuideSection";
 import RecipeAdaptationsSection from "@/components/recipes/RecipeAdaptationsSection";
 import VisualStepsAssistant from "@/components/recipes/VisualStepsAssistant";
@@ -343,6 +344,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   visualSteps={recipe.visualSteps}
                   locale={locale}
                 />
+
+                <AdsterraNativeBanner />
               </div>
 
               <NutritionSidebar recipe={recipe} />

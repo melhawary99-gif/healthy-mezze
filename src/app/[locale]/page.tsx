@@ -5,6 +5,7 @@ import Hero from "@/components/home/Hero";
 import dynamic from "next/dynamic";
 
 import MediterraneanStory from "@/components/home/MediterraneanStory";
+import AdsterraNativeBanner from "@/components/ads/AdsterraNativeBanner";
 const Categories = dynamic(() => import("@/components/home/Categories"));
 const FeaturedRecipes = dynamic(() => import("@/components/home/FeaturedRecipes"));
 const Statistics = dynamic(() => import("@/components/home/Statistics"));
@@ -140,6 +141,10 @@ export default async function Home({ params }: HomePageProps) {
           </div>
         </div>
       </section>
+
+        <div className="mx-auto max-w-7xl px-6 lg:px-8 py-8">
+          <AdsterraNativeBanner />
+        </div>
 
         <MediterraneanStory />
 

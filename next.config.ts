@@ -21,12 +21,11 @@ script-src
   https://fundingchoicesmessages.google.com
   https://www.clarity.ms
   https://scripts.clarity.ms
+  https://bauval.org
   https://ep2.adtrafficquality.google
   https://challenges.cloudflare.com;
 
-style-src
-  'self'
-  'unsafe-inline';
+style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
 
 img-src
   'self'
@@ -39,9 +38,7 @@ img-src
   https://www.clarity.ms
   https:;
 
-font-src
-  'self'
-  data:;
+font-src 'self' https://fonts.gstatic.com data:;
 
 connect-src
   'self'
@@ -52,6 +49,9 @@ connect-src
   https://z.clarity.ms
   https://t.clarity.ms
   https://n.clarity.ms
+  https://cdn.holdbitter.com
+  https://bauval.org
+  https://cdn.show-sb.com
   https://pagead2.googlesyndication.com
   https://ep1.adtrafficquality.google
   https://challenges.cloudflare.com;

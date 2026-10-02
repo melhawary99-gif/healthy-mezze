@@ -8,6 +8,7 @@ import { getTranslations } from "next-intl/server";
 import { newsArticles } from "@/data/news";
 import { newsCategories } from "@/data/news/categories";
 import { SITE_URL } from "@/lib/seo";
+import AdsterraNativeBanner from "@/components/ads/AdsterraNativeBanner";
 
 type Props = {
   params: Promise<{
@@ -261,6 +262,8 @@ export default async function NewsCategoryPage({ params }: Props) {
           </div>
         )}
       </section>
+
+      <AdsterraNativeBanner />
     </main>
   );
 }

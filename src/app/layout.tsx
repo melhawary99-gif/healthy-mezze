@@ -6,6 +6,7 @@ import CookieConsent from "@/components/privacy/CookieConsent";
 import AnalyticsConsent from "@/components/privacy/AnalyticsConsent";
 
 import "./globals.css";
+import Script from "next/script";
 
 const cairo = Cairo({
   subsets: ["arabic"],
@@ -193,6 +194,12 @@ export default function RootLayout({
         />
 
         {children}
+
+        <Script
+          data-cfasync="false"
+          src="https://bauval.org/14/5233bd8a6c74d774e44de65e84ef2f1f"
+          strategy="afterInteractive"
+        />
 
         <CookieConsent />
         <AnalyticsConsent />

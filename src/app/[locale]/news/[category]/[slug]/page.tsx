@@ -7,6 +7,7 @@ import { newsCategories } from "@/data/news/categories";
 import { getRecipeBySlug } from "@/lib/recipes";
 import { getLocalizedRecipe } from "@/lib/localizedRecipes";
 import { SITE_URL } from "@/lib/seo";
+import AdsterraNativeBanner from "@/components/ads/AdsterraNativeBanner";
 import { Link } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
 
@@ -567,6 +568,10 @@ const hackStyles = [
         )}
 
       
+        <div className="mt-14">
+          <AdsterraNativeBanner />
+        </div>
+
         <div className="mt-14 flex justify-center">
           <a
             href="#top"

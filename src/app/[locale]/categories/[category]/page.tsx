@@ -12,6 +12,7 @@ import RecipeCard from "@/components/recipes/RecipeCard";
 import Container from "@/components/ui/Container";
 
 import { SITE_URL } from "@/lib/seo";
+import AdsterraNativeBanner from "@/components/ads/AdsterraNativeBanner";
 
 type CategoryPageProps = {
   params: Promise<{
@@ -243,6 +244,10 @@ export default async function CategoryPage({
               )}
             </div>
           </section>
+
+          <div className="mt-12">
+            <AdsterraNativeBanner />
+          </div>
 
           <section className="mt-16">
             <div className="mb-8">

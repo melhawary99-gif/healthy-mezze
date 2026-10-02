@@ -6,6 +6,7 @@ import { newsCategories } from "@/data/news/categories";
 import { newsArticles } from "@/data/news";
 
 import { SITE_URL } from "@/lib/seo";
+import AdsterraNativeBanner from "@/components/ads/AdsterraNativeBanner";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -117,6 +118,8 @@ export default async function NewsPage({ params }: Props) {
           </p>
         </section>
       )}
+
+      <AdsterraNativeBanner />
     </main>
   );
 }

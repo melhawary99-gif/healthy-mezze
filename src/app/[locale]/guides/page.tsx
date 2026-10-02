@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Container from "@/components/ui/Container";
 import { SITE_URL, getLanguageAlternates } from "@/lib/seo";
+import AdsterraNativeBanner from "@/components/ads/AdsterraNativeBanner";
 
 type Props = {
   params: Promise<{ locale: "en" | "ar" }>;
@@ -282,6 +283,8 @@ export default async function GuidesPage({ params }: Props) {
           })}
         </section>
       </Container>
+
+      <AdsterraNativeBanner />
     </main>
   );
 }

@@ -8,6 +8,7 @@ import { guideRecipeLinks } from "@/data/guideRecipeLinks";
 import { guideCategoryLinks } from "@/data/guideCategoryLinks";
 import { categories } from "@/data/categories";
 import { SITE_URL, getLanguageAlternates } from "@/lib/seo";
+import AdsterraNativeBanner from "@/components/ads/AdsterraNativeBanner";
 
 type Props = {
   params: Promise<{ locale: "en" | "ar"; slug: string }>;
@@ -1699,6 +1700,8 @@ export default async function GuidePage({ params }: Props) {
           )}
         </article>
       </Container>
+
+      <AdsterraNativeBanner />
     </main>
   );
 }
