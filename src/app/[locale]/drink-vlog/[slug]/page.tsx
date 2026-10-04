@@ -14,6 +14,7 @@ import { getDrinkVlogTranslation } from "@/lib/drinkVlogTranslationLoader";
 import { getLanguageAlternates, SITE_URL } from "@/lib/seo";
 import AdsterraNativeBanner from "@/components/ads/AdsterraNativeBanner";
 import Adsterra320Banner from "@/components/ads/Adsterra320Banner";
+import Adsterra300x250Banner from "@/components/ads/Adsterra300x250Banner";
 import Adsterra728Banner from "@/components/ads/Adsterra728Banner";
 import Adsterra160x600Banner from "@/components/ads/Adsterra160x600Banner";
 
@@ -392,6 +393,9 @@ export default async function DrinkVlogRecipePage({
                   ))}
                 </div>
               </section>
+
+              {/* 300x250 Ad — after equipment */}
+              <Adsterra300x250Banner />
 
               {/* METHOD */}
               <section>

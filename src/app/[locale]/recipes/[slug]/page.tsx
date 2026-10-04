@@ -24,6 +24,7 @@ import AdsterraNativeBanner from "@/components/ads/AdsterraNativeBanner";
 import Adsterra160x600Banner from "@/components/ads/Adsterra160x600Banner";
 import Adsterra728Banner from "@/components/ads/Adsterra728Banner";
 import Adsterra320Banner from "@/components/ads/Adsterra320Banner";
+import Adsterra300x250Banner from "@/components/ads/Adsterra300x250Banner";
 import CookingGuideSection from "@/components/recipes/CookingGuideSection";
 import RecipeAdaptationsSection from "@/components/recipes/RecipeAdaptationsSection";
 import VisualStepsAssistant from "@/components/recipes/VisualStepsAssistant";
@@ -341,7 +342,10 @@ export default async function RecipePage({ params }: RecipePageProps) {
               <div className="space-y-12">
                 <IngredientsSection recipe={recipe} />
 
-                <InstructionsSection recipe={recipe} />
+                {/* 300x250 Ad — after ingredients */}
+        <Adsterra300x250Banner />
+
+        <InstructionsSection recipe={recipe} />
 
                 <CookingMode
                   title={recipe.title}
