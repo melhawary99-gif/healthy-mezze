@@ -24,7 +24,6 @@ import AdsterraNativeBanner from "@/components/ads/AdsterraNativeBanner";
 import Adsterra160x600Banner from "@/components/ads/Adsterra160x600Banner";
 import Adsterra728Banner from "@/components/ads/Adsterra728Banner";
 import Adsterra320Banner from "@/components/ads/Adsterra320Banner";
-import Adsterra468Banner from "@/components/ads/Adsterra468Banner";
 import CookingGuideSection from "@/components/recipes/CookingGuideSection";
 import RecipeAdaptationsSection from "@/components/recipes/RecipeAdaptationsSection";
 import VisualStepsAssistant from "@/components/recipes/VisualStepsAssistant";
@@ -331,14 +330,15 @@ export default async function RecipePage({ params }: RecipePageProps) {
             {/* The Story Behind the Recipe */}
             {recipe.story && <RecipeStorySection story={recipe.story} />}
 
+            {/* Native Ad — after the recipe introduction/story */}
+            <AdsterraNativeBanner />
+
             {/* Ingredients + Instructions + Nutrition */}
             <div
               id="recipe-card"
               className="scroll-mt-24 grid gap-10 lg:grid-cols-[1.3fr_0.8fr]"
             >
               <div className="space-y-12">
-                <AdsterraNativeBanner />
-
                 <IngredientsSection recipe={recipe} />
 
                 <InstructionsSection recipe={recipe} />
@@ -354,17 +354,18 @@ export default async function RecipePage({ params }: RecipePageProps) {
                 <Adsterra320Banner />
               </div>
 
-              <aside className="space-y-10">
+              <aside className="hidden space-y-10 self-start lg:sticky lg:top-24 lg:block">
                 <NutritionSidebar recipe={recipe} />
 
                 <Adsterra160x600Banner />
               </aside>
             </div>
 
-            <Adsterra728Banner />
-
             {/* Before You Cook / Cooking Guide */}
             {recipe.cookingGuide && <CookingGuideSection cookingGuide={recipe.cookingGuide} />}
+
+            {/* 728x90 Ad — separated from the earlier ads */}
+            <Adsterra728Banner />
 
             {/* AI Visual Assistant */}
             {recipe.visualSteps && recipe.visualSteps.length > 0 && (
@@ -415,7 +416,6 @@ export default async function RecipePage({ params }: RecipePageProps) {
             {/* Related Recipes */}
             <RelatedRecipesSection recipes={localizedRelatedRecipes} category={recipe.category} />
           </article>
-          <Adsterra468Banner />
         </div>
       </Container>
     </>

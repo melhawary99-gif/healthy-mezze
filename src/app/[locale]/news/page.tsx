@@ -7,9 +7,7 @@ import { newsArticles } from "@/data/news";
 
 import { SITE_URL } from "@/lib/seo";
 import AdsterraNativeBanner from "@/components/ads/AdsterraNativeBanner";
-import Adsterra160x600Banner from "@/components/ads/Adsterra160x600Banner";
 import Adsterra728Banner from "@/components/ads/Adsterra728Banner";
-import Adsterra320Banner from "@/components/ads/Adsterra320Banner";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -124,11 +122,7 @@ export default async function NewsPage({ params }: Props) {
 
       <AdsterraNativeBanner />
 
-<Adsterra320Banner />
-
 <Adsterra728Banner />
-
-<Adsterra160x600Banner />
     </main>
   );
 }
