@@ -354,10 +354,14 @@ export default async function RecipePage({ params }: RecipePageProps) {
                 <Adsterra320Banner />
               </div>
 
-              <aside className="hidden space-y-10 self-start lg:sticky lg:top-24 lg:block">
+              <aside className="self-start">
                 <NutritionSidebar recipe={recipe} />
 
-                <Adsterra160x600Banner />
+                <div className="mt-10 hidden lg:block">
+                  <div className="sticky top-24 z-0">
+                    <Adsterra160x600Banner />
+                  </div>
+                </div>
               </aside>
             </div>
 

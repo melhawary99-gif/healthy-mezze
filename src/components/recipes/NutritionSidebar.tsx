@@ -10,7 +10,7 @@ interface NutritionSidebarProps {
 export default function NutritionSidebar({ recipe }: NutritionSidebarProps) {
   const t = useTranslations("Recipe");
   return (
-    <aside className="space-y-8 lg:sticky lg:top-24 lg:self-start">
+    <aside className="space-y-8">
       <section className="rounded-[2rem] border border-gray-200 bg-green-50 p-6">
         <div>
           <h2 className="text-3xl font-bold text-gray-900">{t("nutritionFacts")}</h2>
