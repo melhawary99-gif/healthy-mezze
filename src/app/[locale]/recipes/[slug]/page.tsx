@@ -21,6 +21,10 @@ import RecipeGuideLinks from "@/components/recipes/RecipeGuideLinks";
 
 import RecipeStorySection from "@/components/recipes/RecipeStorySection";
 import AdsterraNativeBanner from "@/components/ads/AdsterraNativeBanner";
+import Adsterra160x600Banner from "@/components/ads/Adsterra160x600Banner";
+import Adsterra728Banner from "@/components/ads/Adsterra728Banner";
+import Adsterra320Banner from "@/components/ads/Adsterra320Banner";
+import Adsterra468Banner from "@/components/ads/Adsterra468Banner";
 import CookingGuideSection from "@/components/recipes/CookingGuideSection";
 import RecipeAdaptationsSection from "@/components/recipes/RecipeAdaptationsSection";
 import VisualStepsAssistant from "@/components/recipes/VisualStepsAssistant";
@@ -333,6 +337,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
               className="scroll-mt-24 grid gap-10 lg:grid-cols-[1.3fr_0.8fr]"
             >
               <div className="space-y-12">
+                <AdsterraNativeBanner />
+
                 <IngredientsSection recipe={recipe} />
 
                 <InstructionsSection recipe={recipe} />
@@ -345,11 +351,17 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   locale={locale}
                 />
 
-                <AdsterraNativeBanner />
+                <Adsterra320Banner />
               </div>
 
-              <NutritionSidebar recipe={recipe} />
+              <aside className="space-y-10">
+                <NutritionSidebar recipe={recipe} />
+
+                <Adsterra160x600Banner />
+              </aside>
             </div>
+
+            <Adsterra728Banner />
 
             {/* Before You Cook / Cooking Guide */}
             {recipe.cookingGuide && <CookingGuideSection cookingGuide={recipe.cookingGuide} />}
@@ -403,6 +415,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
             {/* Related Recipes */}
             <RelatedRecipesSection recipes={localizedRelatedRecipes} category={recipe.category} />
           </article>
+          <Adsterra468Banner />
         </div>
       </Container>
     </>

@@ -10,6 +10,9 @@ import { getTranslations } from "next-intl/server";
 
 import { SITE_URL } from "@/lib/seo";
 import AdsterraNativeBanner from "@/components/ads/AdsterraNativeBanner";
+import Adsterra160x600Banner from "@/components/ads/Adsterra160x600Banner";
+import Adsterra728Banner from "@/components/ads/Adsterra728Banner";
+import Adsterra320Banner from "@/components/ads/Adsterra320Banner";
 type CategoriesPageProps = {
   params: Promise<{
     locale: "en" | "ar";
@@ -163,6 +166,12 @@ export default async function CategoriesPage({ params }: CategoriesPageProps) {
       </Container>
 
       <AdsterraNativeBanner />
+
+<Adsterra320Banner />
+
+<Adsterra728Banner />
+
+<Adsterra160x600Banner />
     </main>
   );
 }

@@ -13,6 +13,9 @@ import Container from "@/components/ui/Container";
 
 import { SITE_URL } from "@/lib/seo";
 import AdsterraNativeBanner from "@/components/ads/AdsterraNativeBanner";
+import Adsterra160x600Banner from "@/components/ads/Adsterra160x600Banner";
+import Adsterra728Banner from "@/components/ads/Adsterra728Banner";
+import Adsterra320Banner from "@/components/ads/Adsterra320Banner";
 
 type CategoryPageProps = {
   params: Promise<{
@@ -247,6 +250,12 @@ export default async function CategoryPage({
 
           <div className="mt-12">
             <AdsterraNativeBanner />
+
+<Adsterra320Banner />
+
+<Adsterra728Banner />
+
+<Adsterra160x600Banner />
           </div>
 
           <section className="mt-16">

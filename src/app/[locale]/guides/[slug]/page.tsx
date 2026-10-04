@@ -9,6 +9,9 @@ import { guideCategoryLinks } from "@/data/guideCategoryLinks";
 import { categories } from "@/data/categories";
 import { SITE_URL, getLanguageAlternates } from "@/lib/seo";
 import AdsterraNativeBanner from "@/components/ads/AdsterraNativeBanner";
+import Adsterra160x600Banner from "@/components/ads/Adsterra160x600Banner";
+import Adsterra728Banner from "@/components/ads/Adsterra728Banner";
+import Adsterra320Banner from "@/components/ads/Adsterra320Banner";
 
 type Props = {
   params: Promise<{ locale: "en" | "ar"; slug: string }>;
@@ -1613,7 +1616,15 @@ export default async function GuidePage({ params }: Props) {
                 </p>
               </section>
             ))}
-          </div>
+          
+          <AdsterraNativeBanner />
+
+<Adsterra320Banner />
+
+<Adsterra728Banner />
+
+<Adsterra160x600Banner />
+</div>
 
           {guideRecipes.length > 0 && (
             <section className="mt-14">
@@ -1698,10 +1709,10 @@ export default async function GuidePage({ params }: Props) {
               )}
             </section>
           )}
-        </article>
+        
+</article>
       </Container>
 
-      <AdsterraNativeBanner />
     </main>
   );
 }
