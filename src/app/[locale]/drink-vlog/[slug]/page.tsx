@@ -12,6 +12,10 @@ import { notFound } from "next/navigation";
 import { drinkVlogs, getDrinkVlogBySlug } from "@/data/drink-vlogs";
 import { getDrinkVlogTranslation } from "@/lib/drinkVlogTranslationLoader";
 import { getLanguageAlternates, SITE_URL } from "@/lib/seo";
+import AdsterraNativeBanner from "@/components/ads/AdsterraNativeBanner";
+import Adsterra320Banner from "@/components/ads/Adsterra320Banner";
+import Adsterra728Banner from "@/components/ads/Adsterra728Banner";
+import Adsterra160x600Banner from "@/components/ads/Adsterra160x600Banner";
 
 interface DrinkVlogRecipePageProps {
   params: Promise<{
@@ -272,7 +276,7 @@ export default async function DrinkVlogRecipePage({
         <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
           <div className="grid gap-12 lg:grid-cols-[0.72fr_1.28fr] lg:gap-20">
             {/* SIDEBAR */}
-            <aside className="lg:sticky lg:top-28 lg:self-start">
+            <aside className="self-start">
               <p className="text-xs font-black uppercase tracking-[0.28em] text-[#2d9caf]">
                 {translation.title}
               </p>
@@ -296,6 +300,13 @@ export default async function DrinkVlogRecipePage({
           }
                 title={translation.title}
               />
+
+            {/* 160x600 Ad — left side under video */}
+            <div className="mt-10 hidden lg:block">
+              <div className="sticky top-24 flex justify-center">
+                <Adsterra160x600Banner />
+              </div>
+            </div>
 
 
             </aside>
@@ -332,6 +343,9 @@ export default async function DrinkVlogRecipePage({
                   </p>
                 </section>
               )}
+
+              {/* Native Ad — after the drink introduction */}
+              <AdsterraNativeBanner />
 
               {/* INGREDIENTS */}
               <section>
@@ -406,6 +420,9 @@ export default async function DrinkVlogRecipePage({
                   ))}
                 </div>
               </section>
+
+              {/* 320x50 Ad — after the preparation method */}
+              <Adsterra320Banner />
 
               {/* SERVING */}
               <section className="rounded-[2rem] bg-[#183b3f] p-7 text-white sm:p-10">
@@ -492,6 +509,9 @@ export default async function DrinkVlogRecipePage({
                   ))}
                 </div>
               </section>
+
+              {/* 728x90 Ad — after FAQ */}
+              <Adsterra728Banner />
 
               {/* BOTTOM NAVIGATION */}
               <div className="flex flex-wrap gap-4 border-t border-[#183b3f]/10 pt-8">
