@@ -442,5 +442,350 @@ export const newsArticles: NewsArticle[] = [
         "description": "UNESCO country information and cultural heritage resources for Lebanon."
       }
     ]
-  }
+  },
+  {
+  "slug": "palestine-culture-heritage",
+  "category": "culture-heritage",
+  "image": "/images/news/palestine-heritage/jerusalem-old-city.webp",
+  "imageAlt": {
+    "en": "A panoramic view of Jerusalem's Old City from the Mount of Olives",
+    "ar": "إطلالة بانورامية على البلدة القديمة في القدس من جبل الزيتون"
+  },
+  "publishedAt": "2026-10-10",
+  "en": {
+    "title": "Palestine: A Heritage of Food, Family, Olive Trees and Resilience",
+    "excerpt": "From olive harvests and freshly baked bread to embroidered dresses and meals shared around the family table, Palestinian heritage lives in everyday traditions passed from one generation to the next.",
+    "sections": [
+      {
+        "heading": "A Table Filled with Memories",
+        "image": "/images/news/palestine-heritage/palestinian-food-culture.webp",
+        "imageAlt": "Traditional Palestinian food served for a shared family meal",
+        "paragraphs": [
+          "To understand Palestinian food, start with an ordinary family table. There might be warm bread in the middle, small bowls of olive oil and za'atar, fresh vegetables, olives and a dish everyone keeps reaching for. The meal does not need to be elaborate to feel generous.",
+          "Food carries memories of people and places. A recipe may come from a grandparent, a village, a particular season or a family habit that nobody thinks to write down. That is part of what makes traditional cooking worth preserving: the recipe is only one part of the story."
+        ]
+      },
+      {
+        "heading": "Palestine: A Land of Deep Roots",
+        "paragraphs": [
+          "Palestinian culture has grown across towns, villages, hills, valleys and coastal areas, each with its own landscape and daily rhythms. Agriculture, local markets, family life, crafts and food have all helped shape the traditions people carry with them.",
+          "There is no single experience that represents every Palestinian family. Customs vary by region, religion, generation and personal history. That variety is not a weakness in the story; it is an important part of it."
+        ]
+      },
+      {
+        "heading": "Jerusalem, Nablus, Hebron and the Old Cities",
+        "image": "/images/news/palestine-heritage/bethlehem-old-city.webp",
+        "imageAlt": "Historic streets and traditional stone architecture in Bethlehem, Palestine",
+        "paragraphs": [
+          "Palestinian cities and historic towns have distinctive identities. Jerusalem is known for its layered religious and cultural history, while Nablus, Hebron, Bethlehem, Gaza and other places have their own stories, markets, crafts and food traditions.",
+          "Old streets, stone buildings, workshops and market stalls are more than attractive scenery. They are places where people have worked, traded, cooked and met one another. Heritage is not only something preserved behind glass; it is also part of how communities live."
+        ]
+      },
+      {
+        "heading": "The Olive Tree: A Symbol of Connection",
+        "image": "/images/news/palestine-heritage/palestinian-olive-harvest-new.webp",
+        "imageAlt": "Palestinian farmers harvesting olives from an olive tree",
+"paragraphs": [
+          "Olive trees are deeply connected with Palestinian land and family life. For many families, the harvest is a seasonal event that brings relatives and neighbours together to gather olives, sort them and take them for pressing.",
+          "Olive oil appears throughout the kitchen: poured over hummus, used in cooking, mixed with za'atar or served with bread. The trees also carry meaning beyond the kitchen, connecting families to land, memory and the work of earlier generations."
+        ]
+      },
+      {
+        "heading": "Family, Neighbours and Community",
+        "paragraphs": [
+          "In many Palestinian households, preparing a meal is shared work. Someone washes the vegetables, someone kneads the dough, another person sets the table, and a relative arrives with something they have made. Not every household follows the same routine, of course, but food often creates opportunities to spend time together.",
+          "Neighbours and extended family can be an important part of celebrations and everyday life. A dish sent next door or an extra place made at the table may seem like a small gesture, but these are the kinds of details through which traditions continue."
+        ]
+      },
+      {
+        "heading": "Palestinian Hospitality",
+        "image": "/images/news/palestine-heritage/palestinian-market.webp",
+        "imageAlt": "A traditional Palestinian market reflecting local food and community life",
+        "paragraphs": [
+          "Hospitality can begin with something simple: coffee, tea, dates, fruit or a plate of food offered to a visitor. The point is not always to prepare a grand feast. It is to make a guest feel welcome and give them time to settle in.",
+          "Arabic coffee and tea are familiar parts of hospitality in many Palestinian homes, although the details differ between families and regions. What matters is the care behind the gesture, whether a visit lasts ten minutes or turns into a long conversation around the table."
+        ]
+      },
+      {
+        "heading": "The Tradition of Sharing Food",
+        "paragraphs": [
+          "Many Palestinian meals are designed to be shared. Bread is used to scoop up dips and sauces, salads sit alongside the main dish, and several people may eat from a large serving platter. The arrangement encourages conversation and makes the meal feel communal.",
+          "Sharing does not mean every family eats in exactly the same way. Modern schedules, different households and life abroad all influence how people cook and gather. Still, the idea of making enough to share remains a familiar thread in Palestinian food culture."
+        ]
+      },
+      {
+        "heading": "Musakhan: Olive Oil, Sumac and Warm Bread",
+        "image": "/images/news/palestine-heritage/musakhan.webp",
+        "imageAlt": "Traditional Palestinian musakhan with bread, chicken and onions",
+        "paragraphs": [
+          "Musakhan is one of the best-known dishes associated with Palestinian cooking. It is commonly made with chicken, onions, sumac and generous olive oil, served over taboon-style bread that absorbs the flavourful juices.",
+          "The ingredients are straightforward, but the result is memorable: sweet, softened onions, the tang of sumac and the richness of olive oil against warm bread. Musakhan is often served for family gatherings, and its ingredients reflect the close relationship between Palestinian cooking and local produce."
+        ]
+      },
+      {
+        "heading": "Maqluba: The Dish Turned Upside Down",
+        "paragraphs": [
+          "Maqluba means 'upside down', and the name describes the moment the pot is turned over onto a serving platter. Rice, vegetables and meat are layered and cooked together, then revealed as a single dish when the pot is lifted.",
+          "That final turn can be a little dramatic, especially when everyone is waiting to see whether the layers hold. Recipes vary from household to household, with different vegetables, spices and proportions. Like many home-cooked dishes, maqluba is as much about a family's way of making it as it is about a fixed recipe."
+        ]
+      },
+      {
+        "heading": "Maftoul, Lentils and Everyday Grains",
+        "paragraphs": [
+          "Not every important dish is prepared for a celebration. Grains, lentils and pulses have long been useful ingredients for filling, practical meals. Maftoul, often described as Palestinian couscous, is made from rolled grains and appears in dishes with chickpeas, onions, broth or seasonal ingredients.",
+          "Lentils and rice also make satisfying everyday food. These ingredients are affordable, adaptable and easy to combine with herbs, vegetables and olive oil. They show another side of culinary heritage: the everyday cooking that feeds a household week after week."
+        ]
+      },
+      {
+        "heading": "Za'atar, Thyme and the Palestinian Pantry",
+        "paragraphs": [
+          "Za'atar is a familiar presence in Palestinian kitchens. The word can refer to a local herb or to a seasoning blend, often combining thyme or related herbs with sesame seeds, sumac and salt. Recipes and proportions differ, so there is no single mixture used by everyone.",
+          "Sprinkled over bread with olive oil, added to a simple breakfast or served alongside other small dishes, za'atar brings an earthy, aromatic flavour. Olive oil, legumes, grains, seasonal vegetables and preserved foods also help form the practical foundation of many home kitchens."
+        ]
+      },
+      {
+        "heading": "Taboon Bread and Traditional Baking",
+        "paragraphs": [
+          "Bread is central to many Palestinian meals, and taboon bread is especially associated with traditional baking. Historically, taboon ovens have been used to bake flatbreads with a distinctive texture, although the equipment and methods found today vary.",
+          "Bread can accompany dips, wrap fillings, collect the juices from a main dish or become part of the dish itself. Freshly baked bread has a way of drawing people into the kitchen before the meal is even ready."
+        ]
+      },
+      {
+        "heading": "Seasonal Produce and the Agricultural Calendar",
+        "image": "/images/news/palestine-heritage/palestinian-seasonal-produce.webp",
+        "imageAlt": "Fresh seasonal produce displayed at a Palestinian vegetable market",
+"paragraphs": [
+          "Seasonality shapes Palestinian cooking. Olives, citrus, grapes, figs, almonds and other fruits and vegetables appear at different times of year, depending on the region and growing conditions. Markets and home kitchens reflect what is available locally.",
+          "Preserving food is another way to make the most of a harvest. Families may pickle vegetables, cure olives, dry herbs or prepare ingredients for later use. These practices are practical, but they also keep familiar flavours available beyond their natural season."
+        ]
+      },
+      {
+        "heading": "Embroidery, Tatreez and Cultural Identity",
+        "image": "/images/news/palestine-heritage/palestinian-tatreez.webp",
+        "imageAlt": "Traditional Palestinian tatreez embroidery and colorful stitching",
+        "paragraphs": [
+          "Palestinian tatreez, or traditional embroidery, is a skilled craft with deep cultural significance. Patterns, colours and stitching styles can be associated with particular regions and communities, though designs also change over time and through individual creativity.",
+          "Embroidered dresses and other textiles can carry family knowledge as well as artistic expression. The craft has been passed between generations, and it continues today through makers who preserve traditional techniques while creating new work."
+        ]
+      },
+      {
+        "heading": "Weddings, Music and Dabke",
+        "image": "/images/news/palestine-heritage/palestinian-thobe.webp",
+        "imageAlt": "Traditional Palestinian thobe with embroidered details",
+        "paragraphs": [
+          "Celebrations in Palestinian communities can bring together food, music, dancing and relatives from near and far. Dabke, a group line dance found in several parts of the Levant, is a familiar feature at many Palestinian weddings and gatherings.",
+          "The steps and music can vary, and celebrations are not identical across every community. Still, the shared rhythm of a dance, the sound of people singing and the preparation of a large meal can turn an occasion into a memory people talk about for years."
+        ]
+      },
+      {
+        "heading": "Ramadan, Eid and Shared Meals",
+        "paragraphs": [
+          "For Muslim Palestinian families, Ramadan changes the rhythm of the day and brings particular importance to iftar, the meal that breaks the fast, and suhoor before dawn. Dishes differ between households, but soups, breads, rice dishes, dates and sweets may all find a place on the table.",
+          "Eid brings its own visits, hospitality and celebratory foods. Palestinian Christians and other communities have different religious calendars and customs, and family traditions vary widely. The important point is to recognise this diversity rather than assume that one set of practices represents everyone."
+        ]
+      },
+      {
+        "heading": "Regional Food Traditions Across Palestine",
+        "paragraphs": [
+          "Palestinian food is not one unchanging menu. Local ingredients, access to the sea, farming conditions, town and village life, and family histories all influence what people cook. Dishes and techniques can differ between the north and south, the coast and inland areas, and individual households.",
+          "Migration has added more layers. Families who move to another country may adapt a recipe to the ingredients they can find, while keeping the flavours and habits that make it recognisable. A living cuisine changes without losing every connection to its roots."
+        ]
+      },
+      {
+        "heading": "Preserving Heritage Across Generations",
+        "image": "/images/news/palestine-heritage/palestinian-embroidery-detail.webp",
+        "imageAlt": "Detailed traditional Palestinian embroidery representing inherited craftsmanship",
+        "paragraphs": [
+          "A tradition survives when someone keeps practising it. It may be a parent showing a child how to season a dish, a relative teaching embroidery, or an older family member explaining when to add an ingredient without measuring it.",
+          "Writing recipes down, recording family stories and teaching traditional crafts can help preserve knowledge that might otherwise remain unspoken. These efforts matter because cultural heritage is not only a record of the past; it is something people continue to make and share."
+        ]
+      },
+      {
+        "heading": "Palestinian Cuisine Around the World",
+        "paragraphs": [
+          "Palestinian communities around the world have carried their food traditions with them. Family kitchens and restaurants keep dishes familiar to one generation alive for the next, while new ingredients and circumstances sometimes lead to different versions.",
+          "Eating Palestinian food abroad can be a way to reconnect with family and place, or a chance for someone new to learn about a cuisine through its ingredients and stories. It is worth naming dishes accurately and recognising the communities whose knowledge has kept them alive."
+        ]
+      },
+      {
+        "heading": "A Taste of Palestine at Healthy Mezze",
+        "paragraphs": [
+          "At Healthy Mezze, we want to explore the food of the Eastern Mediterranean with care for the people and places behind it. Palestinian cooking deserves to be understood on its own terms, not folded into a generic description of regional food.",
+          "Start with the ingredients: olive oil, herbs, legumes, grains, fresh vegetables and warm bread. Then look beyond the plate to the seasonal work, family knowledge and local traditions that give these foods meaning. A recipe can be a good starting point, but the story around it makes the experience richer."
+        ]
+      }
+    ]
+  },
+  "ar": {
+    "title": "فلسطين: تراث من الطعام والعائلة والزيتون والصمود",
+    "excerpt": "من موسم قطف الزيتون والخبز الطازج إلى التطريز والوجبات العائلية، يعيش التراث الفلسطيني في تفاصيل يومية تنتقل من جيل إلى آخر.",
+    "sections": [
+      {
+        "heading": "مائدة مليئة بالذكريات",
+        "paragraphs": [
+          "لفهم الطعام الفلسطيني، يمكن أن نبدأ بمائدة عائلية عادية. قد نجد في وسطها خبزاً دافئاً، وأطباقاً صغيرة من زيت الزيتون والزعتر، وخضروات طازجة وزيتوناً وطبقاً يعود إليه الجميع مرة بعد أخرى. لا تحتاج الوجبة إلى تكلف حتى تعبّر عن الكرم.",
+          "يحمل الطعام ذكريات الأشخاص والأماكن. قد تأتي الوصفة من أحد الأجداد، أو من قرية، أو من موسم معين، أو من عادة عائلية لم يفكر أحد في تدوينها. ولهذا يستحق الطبخ التقليدي أن نحافظ عليه؛ فالوصفة ليست سوى جزء من الحكاية."
+        ]
+      },
+      {
+        "heading": "فلسطين: أرض ذات جذور عميقة",
+        "paragraphs": [
+          "تشكّلت الثقافة الفلسطينية عبر المدن والقرى والتلال والوديان والمناطق الساحلية، ولكل مكان طبيعته وإيقاع حياته. وأسهمت الزراعة والأسواق والحياة العائلية والحرف والطعام في تكوين التقاليد التي يحملها الناس معهم.",
+          "لا توجد تجربة واحدة تمثل كل العائلات الفلسطينية. فالعادات تختلف باختلاف المنطقة والدين والجيل والتجربة الشخصية. وهذا التنوع ليس نقصاً في الحكاية، بل جزء مهم منها."
+        ]
+      },
+      {
+        "heading": "القدس ونابلس والخليل والمدن القديمة",
+        "paragraphs": [
+          "للمدن والبلدات التاريخية الفلسطينية هويات مميزة. فالقدس معروفة بتاريخها الديني والثقافي المتعدد الطبقات، بينما تحمل نابلس والخليل وبيت لحم وغزة وغيرها حكاياتها الخاصة وأسواقها وحرفها وتقاليدها الغذائية.",
+          "الأزقة القديمة والمباني الحجرية والورش وأكشاك الأسواق ليست مجرد مناظر جميلة؛ إنها أماكن عمل الناس وتبادلهم التجاري وطبخهم ولقائهم. فالتراث ليس شيئاً محفوظاً خلف الزجاج فحسب، بل جزء من حياة المجتمعات."
+        ]
+      },
+      {
+        "heading": "شجرة الزيتون: صلة بالأرض والذاكرة",
+        "image": "/images/news/palestine-heritage/palestinian-olive-harvest-new.webp",
+        "imageAlt": "مزارعون فلسطينيون يقطفون الزيتون من الأشجار",
+"paragraphs": [
+          "ترتبط أشجار الزيتون ارتباطاً عميقاً بالأرض والحياة العائلية في فلسطين. وبالنسبة إلى كثير من العائلات، يشكّل موسم القطاف مناسبة يجتمع فيها الأقارب والجيران لجمع الزيتون وفرزه ونقله إلى المعصرة.",
+          "يحضر زيت الزيتون في أطباق كثيرة؛ يُسكب فوق الحمص، ويُستخدم في الطهي، ويُمزج بالزعتر أو يُقدّم مع الخبز. وتحمل الأشجار أيضاً معنى يتجاوز المطبخ، إذ تربط العائلات بالأرض والذاكرة وعمل الأجيال السابقة."
+        ]
+      },
+      {
+        "heading": "العائلة والجيران والمجتمع",
+        "paragraphs": [
+          "في بيوت فلسطينية كثيرة، يتوزع تحضير الطعام بين أفراد العائلة. شخص يغسل الخضروات، وآخر يعجن، وثالث يرتب المائدة، ثم يصل قريب ومعه طبق أعدّه. لا تسير كل البيوت بالطريقة نفسها، لكن الطعام كثيراً ما يفتح المجال لقضاء الوقت معاً.",
+          "وقد يكون للأقارب والجيران دور مهم في المناسبات والحياة اليومية. إرسال طبق إلى الجيران أو إعداد مكان إضافي على المائدة تصرفان بسيطان، لكن مثل هذه التفاصيل تساعد التقاليد على الاستمرار."
+        ]
+      },
+      {
+        "heading": "الضيافة الفلسطينية",
+        "paragraphs": [
+          "قد تبدأ الضيافة بشيء بسيط: قهوة أو شاي أو تمر أو فاكهة أو طبق يُقدّم للضيف. ليس المطلوب دائماً إعداد وليمة كبيرة، بل أن يشعر الزائر بالترحيب وأن يجد وقتاً للراحة والحديث.",
+          "تُعد القهوة العربية والشاي من مظاهر الضيافة المعروفة في بيوت فلسطينية كثيرة، مع اختلاف التفاصيل بين العائلات والمناطق. والأهم هو الاهتمام الذي تحمله هذه اللفتة، سواء كانت الزيارة قصيرة أم تحولت إلى جلسة طويلة حول المائدة."
+        ]
+      },
+      {
+        "heading": "تقليد مشاركة الطعام",
+        "paragraphs": [
+          "تُحضّر أطباق فلسطينية كثيرة لتُشارك بين أفراد العائلة والضيوف. يوضع الخبز إلى جانب المقبلات والصلصات، وتُقدّم السلطات مع الطبق الرئيسي، وقد يتناول عدة أشخاص الطعام من طبق تقديم كبير. وتمنح هذه الطريقة الوجبة مساحة للحوار والمشاركة.",
+          "ولا يعني ذلك أن كل العائلات تأكل بالطريقة نفسها. فمواعيد العمل والحياة الحديثة والعيش في بلدان أخرى كلها تؤثر في أساليب الطبخ والاجتماع. ومع ذلك، تبقى فكرة إعداد ما يكفي للمشاركة حاضرة في ثقافة الطعام الفلسطينية."
+        ]
+      },
+      {
+        "heading": "المسخّن: زيت الزيتون والسماق والخبز الدافئ",
+        "image": "/images/news/palestine-heritage/musakhan.webp",
+        "imageAlt": "طبق المسخن الفلسطيني التقليدي مع الخبز والدجاج والبصل",
+        "paragraphs": [
+          "المسخّن من أشهر الأطباق المرتبطة بالمطبخ الفلسطيني. ويُحضّر عادة بالدجاج والبصل والسماق وكمية سخية من زيت الزيتون، ثم يُقدّم فوق خبز الطابون الذي يتشرّب نكهة المكونات.",
+          "مكوناته بسيطة، لكن مذاقه مميز: بصل طري يميل إلى الحلاوة، وحموضة السماق، وغنى زيت الزيتون مع الخبز الدافئ. ويُقدّم المسخّن كثيراً في التجمعات العائلية، كما تعكس مكوناته الصلة الوثيقة بين المطبخ الفلسطيني والمنتجات المحلية."
+        ]
+      },
+      {
+        "heading": "المقلوبة: الطبق الذي يُقلب رأساً على عقب",
+        "paragraphs": [
+          "يعني اسم المقلوبة أنها تُقلب عند التقديم. تُرتّب طبقات من الأرز والخضروات واللحم في القدر وتُطهى معاً، ثم يُقلب القدر فوق طبق التقديم وتُرفع عنه لتظهر الطبقات.",
+          "قد تكون لحظة قلب القدر مثيرة بعض الشيء، خصوصاً عندما ينتظر الجميع رؤية النتيجة. وتختلف الوصفات من بيت إلى آخر بحسب الخضروات والتوابل والنسب المستخدمة. وكثيراً ما ترتبط هوية الطبق بالطريقة التي تعدّه بها العائلة، لا بوصفة واحدة ثابتة."
+        ]
+      },
+      {
+        "heading": "المفتول والعدس والحبوب اليومية",
+        "paragraphs": [
+          "ليست كل الأطباق المهمة مخصصة للمناسبات. فالحبوب والعدس والبقول مكونات عملية تُستخدم في إعداد وجبات مشبعة. والمفتول، الذي يُوصف أحياناً بأنه كسكس فلسطيني، يُحضّر من حبيبات ملفوفة ويُقدّم مع الحمص والبصل والمرق أو مكونات موسمية.",
+          "كما يشكل العدس والأرز وجبة يومية مناسبة. فهذه المكونات عملية ويمكن جمعها مع الأعشاب والخضروات وزيت الزيتون. وهي تذكّرنا بجانب آخر من التراث الغذائي: الطعام البسيط الذي يطعم العائلة أسبوعاً بعد آخر."
+        ]
+      },
+      {
+        "heading": "الزعتر والأعشاب ومكونات المطبخ الفلسطيني",
+        "paragraphs": [
+          "للزعتر مكان مألوف في المطابخ الفلسطينية. وقد تشير الكلمة إلى عشبة محلية أو إلى خليط من التوابل، غالباً ما يجمع الزعتر أو أعشاباً قريبة منه مع السمسم والسماق والملح. وتختلف الخلطات ونسب مكوناتها من بيت إلى آخر.",
+          "يُرش الزعتر على الخبز مع زيت الزيتون، ويُقدّم في وجبات الفطور أو إلى جانب أطباق أخرى، فيمنحها نكهة عشبية غنية. كما يشكل زيت الزيتون والبقول والحبوب والخضروات الموسمية والأطعمة المحفوظة جزءاً عملياً من كثير من المطابخ المنزلية."
+        ]
+      },
+      {
+        "heading": "خبز الطابون والخبز التقليدي",
+        "paragraphs": [
+          "يشكل الخبز جزءاً أساسياً من موائد كثيرة في فلسطين، ويرتبط خبز الطابون خصوصاً بأساليب الخَبز التقليدية. وقد استُخدمت أفران الطابون تاريخياً لإعداد الخبز المسطح ذي القوام المميز، مع اختلاف المعدات والطرق المستخدمة اليوم.",
+          "يمكن تناول الخبز مع المقبلات، أو لف الحشوات به، أو استخدامه لالتقاط الصلصات ومرق الطعام، بل قد يصبح جزءاً من الطبق نفسه. وللخبز الطازج قدرة خاصة على جذب الناس إلى المطبخ قبل أن تجهز الوجبة."
+        ]
+      },
+      {
+        "heading": "المواسم والمنتجات الزراعية",
+        "image": "/images/news/palestine-heritage/palestinian-seasonal-produce.webp",
+        "imageAlt": "منتجات موسمية طازجة معروضة في سوق خضار فلسطيني",
+        "paragraphs": [
+          "تؤثر المواسم في المطبخ الفلسطيني. فالزيتون والحمضيات والعنب والتين واللوز وغيرها من الفواكه والخضروات تظهر في أوقات مختلفة من السنة بحسب المنطقة وظروف الزراعة. وتعكس الأسواق والمطابخ المنزلية ما يتوفر محلياً.",
+          "ويُعد حفظ الطعام طريقة أخرى للاستفادة من المحصول. فقد تُخلّل الخضروات، أو يُحفظ الزيتون، أو تُجفف الأعشاب، أو تُجهز بعض المكونات لاستخدامها لاحقاً. لهذه الممارسات فائدة عملية، كما أنها تساعد على بقاء النكهات المألوفة متاحة بعد انتهاء الموسم."
+        ]
+      },
+      {
+        "heading": "التطريز والثوب الفلسطيني والهوية الثقافية",
+        "paragraphs": [
+          "يُعد التطريز الفلسطيني، أو التطريز التقليدي المعروف باسم «تطريز»، حرفة ماهرة ذات أهمية ثقافية عميقة. وقد ترتبط النقوش والألوان وأساليب الغرز بمناطق ومجتمعات معينة، مع استمرار التصاميم في التطور بفعل الإبداع الفردي والتغيرات عبر الزمن.",
+          "تحمل الأثواب المطرزة والمنسوجات الأخرى معرفة عائلية إلى جانب قيمتها الفنية. وقد انتقلت هذه الحرفة بين الأجيال، وما زالت مستمرة على أيدي حرفيين وحرفيات يحافظون على التقنيات التقليدية ويبتكرون أعمالاً جديدة."
+        ]
+      },
+      {
+        "heading": "الأعراس والموسيقى والدبكة",
+        "image": "/images/news/palestine-heritage/palestinian-thobe.webp",
+        "imageAlt": "ثوب فلسطيني تقليدي بتطريز تراثي",
+        "paragraphs": [
+          "تجمع المناسبات في المجتمعات الفلسطينية الطعام والموسيقى والرقص والأقارب القادمين من أماكن مختلفة. وتُعد الدبكة، وهي رقصة جماعية معروفة في مناطق من بلاد الشام، جزءاً مألوفاً من كثير من الأعراس والتجمعات الفلسطينية.",
+          "تختلف الخطوات والموسيقى من مكان إلى آخر، كما تختلف الاحتفالات بين المجتمعات. لكن إيقاع الرقصة وأصوات الغناء وإعداد وجبة كبيرة قد تتحول إلى ذكرى يتحدث عنها الناس لسنوات."
+        ]
+      },
+      {
+        "heading": "رمضان والعيد والوجبات المشتركة",
+        "paragraphs": [
+          "بالنسبة إلى العائلات الفلسطينية المسلمة، يغيّر رمضان إيقاع اليوم ويمنح وجبة الإفطار، التي تنهي الصيام، والسحور قبل الفجر أهمية خاصة. وتختلف الأطباق من بيت إلى آخر، وقد تشمل الشوربات والخبز وأطباق الأرز والتمر والحلويات.",
+          "وللعيد زياراته وضيافته وأطعمتُه الاحتفالية. أما العائلات الفلسطينية المسيحية وغيرها من المجتمعات فلها تقاويم دينية وعادات مختلفة، كما تتنوع التقاليد العائلية على نطاق واسع. ومن المهم الاعتراف بهذا التنوع بدلاً من افتراض أن ممارسة واحدة تمثل الجميع."
+        ]
+      },
+      {
+        "heading": "تنوع تقاليد الطعام بين المناطق الفلسطينية",
+        "paragraphs": [
+          "لا يتكون المطبخ الفلسطيني من قائمة واحدة ثابتة. فالمكونات المحلية والقرب من البحر والظروف الزراعية والحياة في المدن والقرى وتاريخ العائلة كلها تؤثر في ما يُطهى. وقد تختلف الأطباق وأساليب إعدادها بين الشمال والجنوب والساحل والمناطق الداخلية، وحتى بين بيت وآخر.",
+          "وأضافت الهجرة طبقات جديدة إلى هذه التقاليد. فقد تعدّل العائلات التي تنتقل إلى بلد آخر الوصفة بحسب المكونات المتاحة، مع الاحتفاظ بالنكهات والعادات التي تجعلها مألوفة. يتغير المطبخ الحي من دون أن يفقد بالضرورة صلته بجذوره."
+        ]
+      },
+      {
+        "heading": "حفظ التراث ونقله بين الأجيال",
+        "paragraphs": [
+          "تستمر التقاليد عندما يواصل الناس ممارستها. فقد يكون ذلك أباً أو أماً يعلّمان طفلاً طريقة تتبيل طبق، أو قريباً يشرح أسلوب التطريز، أو فرداً أكبر سناً يوضح متى تُضاف إحدى المكونات من دون الحاجة إلى قياسها.",
+          "يمكن أن يساعد تدوين الوصفات وتسجيل الحكايات العائلية وتعليم الحرف التقليدية في حفظ معرفة قد تبقى شفوية لولا ذلك. فهذه الجهود مهمة لأن التراث ليس سجلاً للماضي فقط، بل شيء يواصل الناس صنعه ومشاركته."
+        ]
+      },
+      {
+        "heading": "المطبخ الفلسطيني حول العالم",
+        "paragraphs": [
+          "حملت المجتمعات الفلسطينية حول العالم تقاليدها الغذائية معها. وتحافظ المطابخ العائلية والمطاعم على أطباق مألوفة للأجيال الجديدة، بينما تؤدي المكونات والظروف المختلفة أحياناً إلى ظهور نسخ جديدة من الوصفات.",
+          "قد يكون تناول الطعام الفلسطيني خارج الوطن وسيلة للاتصال بالعائلة والمكان، وقد يكون فرصة لشخص آخر للتعرف إلى هذا المطبخ من خلال مكوناته وحكاياته. ومن المهم تسمية الأطباق بدقة والاعتراف بالمجتمعات التي حافظت على هذه المعارف."
+        ]
+      },
+      {
+        "heading": "طعم فلسطين في Healthy Mezze",
+        "paragraphs": [
+          "في Healthy Mezze، نريد استكشاف مطابخ شرق المتوسط مع الاهتمام بالأشخاص والأماكن التي تقف وراءها. ويستحق المطبخ الفلسطيني أن يُفهم من خلال خصوصيته، لا أن يُختزل في وصف عام للطعام الإقليمي.",
+          "ابدأ بالمكونات: زيت الزيتون والأعشاب والبقول والحبوب والخضروات الطازجة والخبز الدافئ. ثم انظر إلى ما وراء الطبق، إلى العمل الموسمي والمعرفة العائلية والتقاليد المحلية التي تمنح الطعام معناه. قد تكون الوصفة بداية جيدة، لكن الحكاية المحيطة بها تجعل التجربة أعمق."
+        ]
+      }
+    ]
+  },
+  "relatedRecipes": [
+    "classic-hummus",
+    "chicken-shawarma",
+    "chicken-pita-wrap"
+  ],
+  "sources": [
+    {
+      "title": "UNESCO — Arts of embroidery in Palestine, practices, skills and knowledge",
+      "url": "https://ich.unesco.org/en/RL/arts-of-embroidery-in-palestine-practices-skills-and-knowledge-01722",
+      "description": "UNESCO documentation on Palestinian embroidery traditions."
+    },
+    {
+      "title": "Wikimedia Commons — Jerusalem panorama from Mount of Olives",
+      "url": "https://commons.wikimedia.org/wiki/File:Jerusalem_panorama_from_Mount_of_Olives.jpg",
+      "description": "Hero photograph by Daniel Case, licensed under CC BY-SA 3.0."
+    }
+  ]
+}
 ];

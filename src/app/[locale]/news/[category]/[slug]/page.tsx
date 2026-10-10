@@ -256,10 +256,13 @@ const hackStyles = [
    * Recipes are distributed between article sections so the
    * visual column continues naturally instead of leaving large gaps.
    */
-  const recipeGroups = [
-      0, 0, 0, 0, 0, 1, 2, 2, 1, 1,
-      1, 2, 0, 1, 0, 1, 0, 0, 0,
-    ];
+  const recipeGroups =
+    article.slug === "palestine-culture-heritage"
+      ? [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      : [
+          0, 0, 0, 0, 0, 1, 2, 2, 1, 1,
+          1, 2, 0, 1, 0, 1, 0, 0, 0,
+        ];
 
   let recipeCursor = 0;
 
@@ -563,9 +566,11 @@ const hackStyles = [
             <div className="mb-5 flex items-center gap-3 px-2">
               <span className="text-xl">🍴</span>
               <h3 className="font-serif text-xl font-black text-[#31572c]">
-                {article.category === "culture-heritage"
-                  ? (locale === "ar" ? "اكتشف وصفات لبنانية" : "Explore Lebanese Recipes")
-                  : (locale === "ar" ? "اكتشف المزيد من الوصفات" : "Explore More Recipes")}
+                {article.slug === "palestine-culture-heritage"
+                  ? (locale === "ar" ? "جرّب وصفات من المطبخ الفلسطيني" : "Explore Palestinian Recipes")
+                  : article.category === "culture-heritage"
+                    ? (locale === "ar" ? "اكتشف وصفات لبنانية" : "Explore Lebanese Recipes")
+                    : (locale === "ar" ? "اكتشف المزيد من الوصفات" : "Explore More Recipes")}
               </h3>
             </div>
 
