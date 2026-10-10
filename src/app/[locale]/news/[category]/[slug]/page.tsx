@@ -108,7 +108,9 @@ export default async function NewsArticlePage({ params }: Props) {
   );
 
   // Keep the final 3 recipes completely outside the article column flow.
-  const articleRecipes = localizedRecipes.slice(0, -3);
+  const articleRecipes = (article.relatedRecipes ?? [])
+      .map((slug) => localizedRecipes.find((recipe) => recipe.slug === slug))
+      .filter((recipe): recipe is (typeof localizedRecipes)[number] => Boolean(recipe));
   const bottomRecipes = localizedRecipes.slice(-3);
 
   const pageUrl = `${SITE_URL}/${locale}/news/${category}/${slug}`;
@@ -255,16 +257,9 @@ const hackStyles = [
    * visual column continues naturally instead of leaving large gaps.
    */
   const recipeGroups = [
-    2,
-    2,
-    3,
-    2,
-    3,
-    2,
-    3,
-    2,
-    3,
-  ];
+      0, 0, 0, 0, 0, 1, 2, 2, 1, 1,
+      1, 2, 0, 1, 0, 1, 0, 0, 0,
+    ];
 
   let recipeCursor = 0;
 
@@ -353,12 +348,18 @@ const hackStyles = [
                     height={800}
                     priority
                     sizes="(max-width: 1024px) 94vw, 700px"
-                    className="h-auto max-h-[620px] w-full object-contain"
+                    className={
+                      article.category === "culture-heritage"
+                        ? "h-[300px] w-full object-cover sm:h-[420px] lg:h-[520px]"
+                        : "h-auto max-h-[620px] w-full object-contain"
+                    }
                   />
                 </div>
 
                 <div className="absolute -bottom-5 -right-3 rounded-2xl bg-[#ef7055] px-5 py-3 font-black shadow-xl">
-                  🧄 {locale === "ar" ? "من مطبخنا" : "FROM OUR KITCHEN"}
+                  {article.category === "culture-heritage"
+                    ? (locale === "ar" ? "🌿 الثقافة والتراث" : "🌿 CULTURE & HERITAGE")
+                    : (locale === "ar" ? "🧄 من مطبخنا" : "🧄 FROM OUR KITCHEN")}
                 </div>
               </div>
             )}
@@ -457,14 +458,14 @@ const hackStyles = [
                     ))}
 
                     {section.image && (
-                      <div className="mt-8 flex justify-end">
+                      <div className="mt-8">
                         <Image
                           src={section.image}
                           alt={section.imageAlt ?? section.heading}
                           width={900}
                           height={1400}
                           sizes="(max-width: 1024px) 92vw, 440px"
-                          className="h-auto w-full max-w-[440px] rounded-2xl object-contain shadow-xl"
+                          className="aspect-[16/9] h-auto w-full rounded-2xl object-cover shadow-xl"
                         />
                       </div>
                     )}
@@ -495,13 +496,21 @@ const hackStyles = [
                     <span className="text-4xl text-[#f7c948]">“</span>
 
                     <p className="font-serif text-xl font-black leading-relaxed sm:text-2xl">
-                      {index === 0
-                        ? locale === "ar"
-                          ? "بعض الروائح لا تعني مجرد طعام... بل تعني البيت."
-                          : "Some smells don't just mean food. They mean home."
-                        : locale === "ar"
-                          ? "الأعشاب الصغيرة قد تغيّر الطبق كله."
-                          : "A small herb can change the whole dish."}
+                      {article.category === "culture-heritage"
+                        ? (locale === "ar"
+                            ? (index === 0
+                                ? "التراث لا يعيش في الكتب وحدها؛ بل يستمر حول المائدة."
+                                : "كل طبق يحمل أثراً من المكان والناس والذاكرة.")
+                            : (index === 0
+                                ? "Heritage lives in more than books. It carries on around the table."
+                                : "Every dish holds traces of place, people and memory."))
+                        : (index === 0
+                            ? (locale === "ar"
+                                ? "بعض الروائح لا تعني مجرد طعام... بل تعني البيت."
+                                : "Some smells don't just mean food. They mean home.")
+                            : (locale === "ar"
+                                ? "الأعشاب الصغيرة قد تغيّر الطبق كله."
+                                : "A small herb can change the whole dish."))}
                     </p>
                   </div>
                 )}
@@ -554,9 +563,9 @@ const hackStyles = [
             <div className="mb-5 flex items-center gap-3 px-2">
               <span className="text-xl">🍴</span>
               <h3 className="font-serif text-xl font-black text-[#31572c]">
-                {locale === "ar"
-                  ? "المزيد من وصفات الأوريجانو"
-                  : "More Oregano Recipes"}
+                {article.category === "culture-heritage"
+                  ? (locale === "ar" ? "اكتشف وصفات لبنانية" : "Explore Lebanese Recipes")
+                  : (locale === "ar" ? "اكتشف المزيد من الوصفات" : "Explore More Recipes")}
               </h3>
             </div>
 
@@ -581,7 +590,7 @@ const hackStyles = [
             className="inline-flex items-center gap-2 rounded-full bg-[#31572c] px-6 py-3 font-sans text-sm font-bold text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-[#264823] hover:shadow-xl"
           >
             <span className="text-lg">↑</span>
-            Back to Top
+            {locale === "ar" ? "العودة إلى الأعلى" : "Back to Top"}
           </a>
         </div>
 </article>
