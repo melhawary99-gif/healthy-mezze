@@ -257,14 +257,15 @@ export default async function DrinkVlogRecipePage({
                 aria-hidden="true"
               />
 
-              <div className="relative aspect-[2/3] overflow-hidden rounded-[1.5rem] bg-[#f3e9dc]">
+              <div className="relative overflow-hidden rounded-[1.5rem]">
                 <Image
                   src={drink.image}
                   alt={translation.title}
-                  fill
+                  width={612}
+                  height={605}
                   priority
                   sizes="(max-width: 1024px) 90vw, 50vw"
-                  className="object-contain"
+                  className="block h-auto w-full"
                 />
               </div>
             </div>

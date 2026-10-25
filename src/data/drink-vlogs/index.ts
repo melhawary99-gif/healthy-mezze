@@ -4,6 +4,7 @@ import { oreoIcedLatte } from "./oreo-iced-latte";
 import { blueCuracaoLemonIcedTea } from "./blue-curacao-lemon-iced-tea";
 import { caramelIceLatte } from "./caramel-ice-latte";
 import { passionFruitChocoSmoothie } from "./passion-fruit-choco-smoothie";
+import { blueMatchaLatteButterflyPeaFlower } from "./blue-matcha-latte-butterfly-pea-flower";
 
 export const drinkVlogs: DrinkVlog[] = [
   strawberryIceMatchaLatte,
@@ -11,6 +12,7 @@ export const drinkVlogs: DrinkVlog[] = [
   blueCuracaoLemonIcedTea,
   caramelIceLatte,
   passionFruitChocoSmoothie,
+  blueMatchaLatteButterflyPeaFlower,
 ];
 
 export function getDrinkVlogBySlug(slug: string) {

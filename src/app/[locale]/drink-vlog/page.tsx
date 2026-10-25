@@ -205,17 +205,18 @@ export default async function DrinkVlogPage({
                   aria-hidden="true"
                 />
 
-                <div className="relative z-10 aspect-[2/3] overflow-hidden bg-[#f3e9dc]">
+                <div className="relative z-10 overflow-hidden rounded-[1.5rem]">
                   <Image
                     src={latestDrink.image}
-                    alt={isArabic ? "لاتيه الماتشا بالفراولة والثلج" : latestDrinkTranslation.title}
-                    fill
+                    alt={latestDrinkTranslation.title}
+                    width={612}
+                    height={605}
                     priority
                     sizes="(max-width: 1024px) 90vw, 52vw"
-                    className="object-contain transition duration-700 hover:scale-[1.02]"
+                    className="block h-auto w-full transition duration-700 hover:scale-[1.02]"
                   />
 
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#183b3f]/45 via-transparent to-transparent" />
+                  <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#183b3f]/75 via-transparent to-transparent" />
 
                   {/* Episode badge */}
                   <div className="absolute left-5 top-5 rounded-full bg-[#fff8ef] px-4 py-2 text-[10px] font-black uppercase tracking-[0.22em] text-[#183b3f] shadow-md sm:left-7 sm:top-7">

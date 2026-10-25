@@ -10,6 +10,8 @@ import { caramelIceLatteEn } from "./en/caramel-ice-latte";
 import { caramelIceLatteAr } from "./ar/caramel-ice-latte";
 import { passionFruitChocoSmoothieEn } from "./en/passion-fruit-choco-smoothie";
 import { passionFruitChocoSmoothieAr } from "./ar/passion-fruit-choco-smoothie";
+import { blueMatchaLatteButterflyPeaFlowerEn } from "./en/blue-matcha-latte-butterfly-pea-flower";
+import { blueMatchaLatteButterflyPeaFlowerAr } from "./ar/blue-matcha-latte-butterfly-pea-flower";
 
 const englishTranslations: Record<string, DrinkVlogTranslation> = {
   "strawberry-ice-matcha-latte": strawberryIceMatchaLatteEn,
@@ -17,6 +19,7 @@ const englishTranslations: Record<string, DrinkVlogTranslation> = {
   "blue-curacao-lemon-iced-tea": blueCuracaoLemonIcedTeaEn,
   "caramel-ice-latte": caramelIceLatteEn,
   "passion-fruit-choco-smoothie": passionFruitChocoSmoothieEn,
+  "blue-matcha-latte-butterfly-pea-flower": blueMatchaLatteButterflyPeaFlowerEn,
 };
 
 const arabicTranslations: Record<string, DrinkVlogTranslation> = {
@@ -25,6 +28,7 @@ const arabicTranslations: Record<string, DrinkVlogTranslation> = {
   "blue-curacao-lemon-iced-tea": blueCuracaoLemonIcedTeaAr,
   "caramel-ice-latte": caramelIceLatteAr,
   "passion-fruit-choco-smoothie": passionFruitChocoSmoothieAr,
+  "blue-matcha-latte-butterfly-pea-flower": blueMatchaLatteButterflyPeaFlowerAr,
 };
 
 export function getDrinkVlogTranslation(
