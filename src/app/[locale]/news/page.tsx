@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 
@@ -103,6 +104,73 @@ export default async function NewsPage({ params }: Props) {
           <h2 className="text-2xl font-bold text-gray-900">
             {locale === "ar" ? "أحدث المقالات" : "Latest Articles"}
           </h2>
+
+          <div className="mt-7 grid gap-7 sm:grid-cols-2 lg:grid-cols-3">
+            {articles.map((article) => {
+              const content = locale === "ar" ? article.ar : article.en;
+              const categoryInfo = newsCategories.find(
+                (category) => category.slug === article.category
+              );
+              const categoryName = categoryInfo
+                ? t(categoryInfo.nameKey)
+                : article.category;
+
+              return (
+                <Link
+                  key={article.slug}
+                  href={`/news/${article.category}/${article.slug}`}
+                  className="group overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl"
+                >
+                  {article.image && (
+                    <div className="relative aspect-[16/10] overflow-hidden bg-[#f3e9dc]">
+                      <Image
+                        src={article.image}
+                        alt={
+                          article.imageAlt?.[locale === "ar" ? "ar" : "en"] ??
+                          content.title
+                        }
+                        fill
+                        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                        className="object-cover transition duration-500 group-hover:scale-105"
+                      />
+                    </div>
+                  )}
+
+                  <div className="p-6">
+                    <span className="inline-flex rounded-full bg-green-50 px-3 py-1 text-xs font-bold text-green-800">
+                      {categoryName}
+                    </span>
+
+                    {article.publishedAt && (
+                      <p className="mt-4 text-xs font-medium text-gray-500">
+                        {new Date(article.publishedAt).toLocaleDateString(
+                          locale === "ar" ? "ar" : "en",
+                          {
+                            year: "numeric",
+                            month: "short",
+                            day: "numeric",
+                          }
+                        )}
+                      </p>
+                    )}
+
+                    <h3 className="mt-3 text-xl font-bold leading-snug text-gray-900 transition group-hover:text-green-800">
+                      {content.title}
+                    </h3>
+
+                    <p className="mt-3 line-clamp-3 text-sm leading-7 text-gray-600">
+                      {content.excerpt}
+                    </p>
+
+                    <span className="mt-5 inline-flex items-center gap-2 font-bold text-green-800">
+                      {locale === "ar" ? "اقرأ المقال" : "Read article"}
+                      <span>→</span>
+                    </span>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
         </section>
       ) : (
         <section className="mt-14 rounded-3xl border border-dashed border-gray-300 bg-gray-50 px-6 py-12 text-center">
